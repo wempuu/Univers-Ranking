@@ -32,8 +32,9 @@ header.site {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
-  padding: 20px 0;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  padding: 20px 16px;
 }
 
 .logo { font-weight: 800; font-size: 1.3rem; letter-spacing: .5px; }
@@ -99,5 +100,23 @@ nav a.active { color: var(--text); background: var(--card); }
   transition: transform .15s, border-color .15s;
 }
 a.card:hover { transform: translateY(-4px); border-color: var(--accent); }
+
+/* ---------- Catalogue ---------- */
+.section-title { font-size: 1.4rem; margin: 16px 0 4px; }
+
+.manga { display: flex; flex-direction: column; gap: 4px; padding: 0 0 20px; overflow: hidden; }
+.manga .cover {
+  height: 140px;
+  display: grid;
+  place-items: center;
+  font-size: 3.4rem;
+  background: linear-gradient(135deg, var(--c1), var(--c2));
+  margin-bottom: 12px;
+}
+.manga h3, .manga .author, .manga .facts { margin: 0; padding: 0 20px; }
+.manga h3 { font-size: 1.25rem; }
+.manga .author { color: var(--muted); }
+.manga .facts { list-style: none; margin-top: 10px; display: grid; gap: 4px; font-weight: 600; }
+.manga .facts span { color: var(--muted); font-weight: 400; margin-right: 8px; }
 
 footer { text-align: center; color: var(--muted); padding: 24px 0 40px; font-size: .9rem; }
