@@ -106,10 +106,10 @@ a.card:hover { transform: translateY(-4px); border-color: var(--accent); }
 
 .manga { display: flex; flex-direction: column; gap: 4px; padding: 0 0 20px; overflow: hidden; }
 .manga .cover {
-  height: 140px;
-  display: grid;
-  place-items: center;
-  font-size: 3.4rem;
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
   background: linear-gradient(135deg, var(--c1), var(--c2));
   margin-bottom: 12px;
 }

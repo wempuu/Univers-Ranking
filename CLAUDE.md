@@ -13,7 +13,7 @@ Plain static HTML/CSS/JS — no build step, no dependencies, no tests yet. Any s
 ## Architecture
 
 - `index.html` — home page (Accueil).
-- `catalogue.html` — catalogue of universes; "Mangas" section with one `.card.manga` per series (cover gradient set via `--c1`/`--c2` inline vars, emoji instead of official artwork).
+- `catalogue.html` — catalogue of universes; "Mangas" section with one `.card.manga` per series (cover image from `images/catalogue/<slug>`, shown at 2:3; the `--c1`/`--c2` gradient is the fallback behind it).
 - `jeux.html` — games menu; currently shows an empty state, no games exist yet.
 - `style.css` — shared styles (color tokens on `:root`) for every page; includes `.grid` / `.card` for game listings.
 - All pages share the same header/nav (Accueil, Catalogue, Jeux); keep them in sync when editing.
