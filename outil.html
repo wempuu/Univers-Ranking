@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Outil d'édition · Univers Ranking</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="wrap site">
+    <a class="logo" href="./">Univers <span class="grad">Ranking</span></a>
+    <nav>
+      <a href="./">Accueil</a>
+      <a href="catalogue.html">Catalogue</a>
+      <a href="jeux.html">Jeux</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" style="padding:32px 0 16px">
+      <h1>Outil d'édition</h1>
+      <p>Modifie les listes de personnages, puis enregistre le fichier <code>data/mangas.json</code>.</p>
+    </section>
+
+    <div class="tool-bar">
+      <button class="btn ghost" id="btn-open" type="button">📂 Ouvrir data/mangas.json</button>
+      <button class="btn" id="btn-save" type="button">💾 Enregistrer</button>
+      <button class="btn ghost" id="btn-download" type="button">⬇️ Télécharger</button>
+    </div>
+    <p class="tool-status" id="status">Chargement…</p>
+
+    <div class="tool-bar">
+      <label for="manga" class="muted-small">Manga</label>
+      <select id="manga"></select>
+      <span class="muted-small" id="count"></span>
+    </div>
+
+    <form class="tool-bar" id="add-form">
+      <input class="tool-input" id="add-name" placeholder="Nom du personnage à ajouter" autocomplete="off">
+      <select id="add-where" aria-label="Où ajouter">
+        <option value="end">à la fin</option>
+        <option value="start">au début</option>
+      </select>
+      <button class="btn" type="submit">➕ Ajouter</button>
+    </form>
+
+    <ul class="edit-list" id="list"></ul>
+  </main>
+
+  <script src="common.js"></script>
+  <script src="outil.js"></script>
+</body>
+</html>
