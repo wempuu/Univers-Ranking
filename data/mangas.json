@@ -94,11 +94,26 @@
           "image": "images/personnages/one-piece/roronoa-zoro.jpg",
           "tags": {
             "role": [
-              "Deutéragoniste"
+              "Deutéragoniste",
+              "Second"
             ],
             "style-de-combat": [
               "Épéiste",
-              "Corps élastique"
+              "Démon"
+            ],
+            "caractere": [
+              "Loyal",
+              "Serieux",
+              "Mauvais sens de l'orientation"
+            ],
+            "univers": [
+              "Haki des rois"
+            ],
+            "physique": [
+              "Humain",
+              "Jeune",
+              "Masculin",
+              "Taille moyenne"
             ]
           }
         },
