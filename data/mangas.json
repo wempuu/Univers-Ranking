@@ -153,10 +153,24 @@
           "image": "images/personnages/one-piece/usopp.jpg",
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Criminel"
             ],
             "style-de-combat": [
               "Tireur"
+            ],
+            "caractere": [
+              "Drole"
+            ],
+            "univers": [
+              "Pirate",
+              "Haki"
+            ],
+            "physique": [
+              "Humain",
+              "Jeune",
+              "Masculin",
+              "Taille moyenne"
             ]
           }
         },
