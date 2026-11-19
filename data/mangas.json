@@ -303,11 +303,25 @@
           "image": "images/personnages/one-piece/brook.jpg",
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Musicien"
             ],
             "style-de-combat": [
               "Épéiste",
-              "Musique"
+              "Manipulation des âmes"
+            ],
+            "caractere": [
+              "Drole",
+              "Perver"
+            ],
+            "univers": [
+              "Pirate"
+            ],
+            "physique": [
+              "Vieux",
+              "Mort vivant",
+              "Masculin",
+              "Grande taille"
             ]
           }
         },
