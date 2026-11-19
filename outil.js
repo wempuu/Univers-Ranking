@@ -1,14 +1,15 @@
 // Outil d'édition des personnages et de leurs tags (data/mangas.json).
-// "Publier sur GitHub" fait un commit de data/mangas.json sur main via l'API GitHub,
+// "Publier sur GitHub" fait un commit de data/mangas.json sur la branche choisie via l'API GitHub,
 // avec le jeton d'accès de la personne connectée (gardé dans ce navigateur uniquement).
-// GitHub Pages redéploie ensuite le site.
+// GitHub Pages redéploie le site quand la branche est main (la seule visible sur le site).
 
 const $ = (id) => document.getElementById(id);
 
 const GH_REPO = "wempuu/Univers-Ranking";
-const GH_BRANCH = "main";
+const SITE_BRANCH = "main";
 const GH_PATH = "data/mangas.json";
-const GH_API = `https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}`;
+const GH_REPO_API = `https://api.github.com/repos/${GH_REPO}`;
+const GH_API = `${GH_REPO_API}/contents/${GH_PATH}`;
 const TOKEN_KEY = "ur-github-token";
 
 let data = null;        // contenu complet : { tags, mangas }
@@ -16,7 +17,9 @@ let current = null;     // slug du manga affiché
 let dirty = false;
 let token = null;       // jeton GitHub (null = pas connecté)
 let login = null;       // pseudo GitHub de la personne connectée
-let remoteSha = null;   // version du fichier sur GitHub sur laquelle on travaille
+let branch = SITE_BRANCH; // branche sur laquelle on lit et publie
+let remoteLoaded = false; // la branche a été lue sur GitHub (publication possible)
+let remoteSha = null;   // version du fichier sur la branche (null = fichier absent, il sera créé)
 let publishing = false;
 
 function setStatus(text, kind = "") {
@@ -26,14 +29,17 @@ function setStatus(text, kind = "") {
 
 function markDirty() {
   dirty = true;
-  setStatus(token
-    ? "Modifications non publiées. Clique sur « Publier sur GitHub » pour les mettre en ligne."
-    : "Modifications non publiées. Connecte-toi à GitHub ci-dessus pour pouvoir publier.", "dirty");
+  setStatus(!token
+    ? "Modifications non publiées. Connecte-toi à GitHub ci-dessus pour pouvoir publier."
+    : branch === SITE_BRANCH
+      ? "Modifications non publiées. Clique sur « Publier sur GitHub » pour les mettre en ligne."
+      : `Modifications non publiées. « Publier sur GitHub » les enverra sur la branche ${branch} (pas sur le site).`, "dirty");
   updatePublishButton();
 }
 
 function updatePublishButton() {
-  $("btn-publish").disabled = !token || !remoteSha || !dirty || publishing;
+  $("btn-publish").disabled = !token || !remoteLoaded || !dirty || publishing;
+  $("btn-publish").textContent = branch === SITE_BRANCH ? "🚀 Publier sur GitHub" : `🚀 Publier sur ${branch}`;
 }
 
 function toJSON() {
@@ -403,8 +409,85 @@ function showConnection() {
   $("gh-connected").hidden = !token;
   $("gh-form").hidden = !!token;
   $("gh-login").textContent = login || "";
+  $("branch-bar").hidden = !token;
+  $("branch-warn").hidden = branch === SITE_BRANCH;
   updatePublishButton();
 }
+
+// ---------- Branches ----------
+
+// `ensure` : branche à garder dans la liste même si GitHub ne la renvoie pas encore (juste créée)
+async function loadBranches(ensure = null) {
+  const { res, body } = await gh(`${GH_REPO_API}/branches?per_page=100`);
+  if (!res.ok) throw new Error(`Impossible de lister les branches (${res.status}).`);
+  const found = body.map((b) => b.name);
+  if (ensure && !found.includes(ensure)) found.push(ensure);
+  const names = found
+    .sort((a, b) => (a === SITE_BRANCH ? -1 : b === SITE_BRANCH ? 1 : a.localeCompare(b, "fr")));
+  const sel = $("branch");
+  sel.innerHTML = "";
+  names.forEach((name) => {
+    const opt = document.createElement("option");
+    opt.value = name;
+    opt.textContent = name === SITE_BRANCH ? `${name} (site en ligne)` : name;
+    sel.appendChild(opt);
+  });
+  if (!names.includes(branch)) branch = SITE_BRANCH;
+  sel.value = branch;
+}
+
+async function switchBranch(name) {
+  if (dirty && !confirm(`Changer de branche effacera tes modifications non publiées. Continuer ?`)) {
+    $("branch").value = branch;
+    return;
+  }
+  branch = name;
+  dirty = false;
+  showConnection();
+  setStatus(`Chargement de la branche ${branch}…`);
+  try {
+    const msg = await loadFromGitHub();
+    renderSelect();
+    render();
+    setStatus(msg || `Branche ${branch} chargée.`, msg ? "dirty" : "ok");
+  } catch (err) {
+    setStatus(`Erreur : ${err.message}`, "err");
+  }
+  updatePublishButton();
+}
+
+// Crée une branche à partir de la branche actuelle et bascule dessus en gardant les modifications en cours
+async function createBranch() {
+  const raw = prompt(`Nom de la nouvelle branche (créée à partir de « ${branch} ») :`);
+  if (raw === null) return;
+  const name = raw.trim().replace(/\s+/g, "-");
+  if (!/^[A-Za-z0-9._\/-]+$/.test(name) || name.startsWith("/") || name.endsWith("/") || name.includes("..")) {
+    setStatus("Nom de branche invalide : utilise des lettres, chiffres, tirets, points ou /.", "err");
+    return;
+  }
+  setStatus(`Création de la branche ${name}…`);
+  const head = await gh(`${GH_REPO_API}/git/ref/heads/${encodeURIComponent(branch)}`);
+  if (!head.res.ok) { setStatus(`Erreur : branche ${branch} introuvable (${head.res.status}).`, "err"); return; }
+  const created = await gh(`${GH_REPO_API}/git/refs`, {
+    method: "POST",
+    body: JSON.stringify({ ref: `refs/heads/${name}`, sha: head.body.object.sha }),
+  });
+  if (!created.res.ok) {
+    setStatus(created.res.status === 422
+      ? `La branche « ${name} » existe déjà.`
+      : `Erreur de création (${created.res.status}) : ${(created.body && created.body.message) || "inconnue"}.`, "err");
+    return;
+  }
+  // La nouvelle branche part du même commit : le fichier y est identique, on garde les modifications en cours
+  branch = name;
+  await loadBranches(name);
+  showConnection();
+  if (dirty) markDirty();
+  else setStatus(`Branche ${name} créée. Tes prochaines publications iront sur cette branche.`, "ok");
+}
+
+$("branch").addEventListener("change", (e) => switchBranch(e.target.value));
+$("btn-new-branch").addEventListener("click", createBranch);
 
 // Vérifie le jeton : qui est connecté, et a-t-il le droit d'écrire dans le dépôt ?
 async function connect(value) {
@@ -426,20 +509,33 @@ async function connect(value) {
 function disconnect() {
   token = null;
   login = null;
+  remoteLoaded = false;
+  branch = SITE_BRANCH;
   storeToken(null);
   showConnection();
   setStatus("Déconnecté. Le jeton a été effacé de ce navigateur.");
 }
 
-// Charge la dernière version publiée sur GitHub (plus fraîche que le site, qui peut avoir quelques minutes de retard)
+// Charge la dernière version publiée sur la branche (plus fraîche que le site, qui peut avoir quelques minutes de retard).
+// Si le fichier n'existe pas sur la branche, on garde la liste affichée : la publication le créera.
+// Renvoie un message à afficher dans ce cas.
 async function loadFromGitHub() {
-  const { res, body } = await gh(`${GH_API}?ref=${GH_BRANCH}`);
-  if (!res.ok) throw new Error(`Impossible de lire ${GH_PATH} sur GitHub (${res.status}).`);
+  remoteLoaded = false;
+  const { res, body } = await gh(`${GH_API}?ref=${encodeURIComponent(branch)}`);
+  if (res.status === 404) {
+    remoteSha = null;
+    remoteLoaded = true;
+    dirty = true;
+    return `La branche ${branch} n'a pas encore de fichier ${GH_PATH} : la liste affichée y sera créée à la publication.`;
+  }
+  if (!res.ok) throw new Error(`Impossible de lire ${GH_PATH} sur la branche ${branch} (${res.status}).`);
   const parsed = JSON.parse(fromBase64(body.content));
-  if (!isValid(parsed)) throw new Error(`${GH_PATH} sur GitHub n'a pas le format attendu.`);
+  if (!isValid(parsed)) throw new Error(`${GH_PATH} sur la branche ${branch} n'a pas le format attendu (ancienne version ?).`);
   data = parsed;
   remoteSha = body.sha;
+  remoteLoaded = true;
   dirty = false;
+  return null;
 }
 
 async function publish() {
@@ -448,15 +544,17 @@ async function publish() {
   updatePublishButton();
   setStatus("Publication en cours…");
   const message = `Mise à jour des personnages depuis l'outil (${login})`;
-  const { res, body } = await gh(GH_API, {
-    method: "PUT",
-    body: JSON.stringify({ message, content: toBase64(toJSON()), sha: remoteSha, branch: GH_BRANCH }),
-  });
+  const payload = { message, content: toBase64(toJSON()), branch };
+  if (remoteSha) payload.sha = remoteSha;
+  const { res, body } = await gh(GH_API, { method: "PUT", body: JSON.stringify(payload) });
   publishing = false;
   if (res.ok) {
     remoteSha = body.content.sha;
     dirty = false;
-    setStatus(`Publié à ${new Date().toLocaleTimeString("fr-FR")} ! Le site sera à jour pour tout le monde dans 1 à 2 minutes.`, "ok");
+    const time = new Date().toLocaleTimeString("fr-FR");
+    setStatus(branch === SITE_BRANCH
+      ? `Publié à ${time} ! Le site sera à jour pour tout le monde dans 1 à 2 minutes.`
+      : `Publié sur la branche ${branch} à ${time}. Le site en ligne (main) n'est pas modifié.`, "ok");
   } else if (res.status === 409 || res.status === 422) {
     setStatus("Quelqu'un a publié une autre modification entre-temps. Note tes changements, clique sur « Recharger », puis refais-les.", "err");
   } else if (res.status === 401 || res.status === 403 || res.status === 404) {
@@ -470,11 +568,13 @@ async function publish() {
 async function reload() {
   if (dirty && !confirm("Recharger effacera tes modifications non publiées. Continuer ?")) return;
   try {
-    if (token) await loadFromGitHub();
+    let msg = null;
+    if (token) msg = await loadFromGitHub();
     else { data = await loadData(); dirty = false; }
     renderSelect();
     render();
-    setStatus(token ? "Dernière version publiée chargée depuis GitHub." : "Liste du site rechargée.", "ok");
+    if (msg) setStatus(msg, "dirty");
+    else setStatus(token ? `Dernière version de la branche ${branch} chargée depuis GitHub.` : "Liste du site rechargée.", "ok");
   } catch (err) {
     setStatus(`Erreur : ${err.message}`, "err");
   }
@@ -490,6 +590,8 @@ $("gh-form").addEventListener("submit", async (e) => {
   try {
     await connect(value);
     $("gh-token").value = "";
+    branch = SITE_BRANCH;
+    await loadBranches();
     await loadFromGitHub();
     renderSelect();
     render();
@@ -518,6 +620,7 @@ window.addEventListener("beforeunload", (e) => {
     if (saved) {
       try {
         await connect(saved);
+        await loadBranches();
         await loadFromGitHub();
       } catch (err) {
         storeToken(null);

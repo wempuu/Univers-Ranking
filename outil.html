@@ -7,7 +7,7 @@
   <meta name="robots" content="noindex">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=5">
+  <link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
   <header class="wrap site">
@@ -49,6 +49,13 @@
       </form>
     </section>
 
+    <div class="tool-bar" id="branch-bar" hidden>
+      <label for="branch" class="muted-small">Branche</label>
+      <select id="branch"></select>
+      <button class="btn ghost small" id="btn-new-branch" type="button">＋ Nouvelle branche</button>
+      <span class="branch-warn" id="branch-warn" hidden>⚠️ Seule la branche <b>main</b> est visible sur le site.</span>
+    </div>
+
     <div class="tool-bar">
       <button class="btn" id="btn-publish" type="button" disabled>🚀 Publier sur GitHub</button>
       <button class="btn ghost" id="btn-reload" type="button">↻ Recharger</button>
@@ -75,7 +82,7 @@
     <div id="datalists"></div>
   </main>
 
-  <script src="common.js?v=5"></script>
-  <script src="outil.js?v=5"></script>
+  <script src="common.js?v=6"></script>
+  <script src="outil.js?v=6"></script>
 </body>
 </html>
