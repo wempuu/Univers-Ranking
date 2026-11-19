@@ -292,6 +292,19 @@ function createGitHubPanel({ mount, getData, onData }) {
     else setStatus(`Branche ${name} créée. Tes prochaines publications iront sur cette branche.`, "ok");
   }
 
+  // Envoie (ou remplace) un fichier du dépôt sur la branche choisie, ex. une image de personnage.
+  // `base64` : contenu déjà encodé. Fait un commit à part, indépendant de la publication des données.
+  async function putFile(path, base64, message) {
+    if (!s.token) throw new Error("Connecte-toi à GitHub d'abord.");
+    const url = `${GH_REPO_API}/contents/${path.split("/").map(encodeURIComponent).join("/")}`;
+    const current = await gh(`${url}?ref=${encodeURIComponent(s.branch)}`);
+    const payload = { message: `${message} (${s.login})`, content: base64, branch: s.branch };
+    if (current.res.ok && current.body && current.body.sha) payload.sha = current.body.sha;
+    const r = await gh(url, { method: "PUT", body: JSON.stringify(payload) });
+    if (!r.res.ok) throw new Error(`GitHub a refusé l'envoi (${r.res.status}) : ${(r.body && r.body.message) || "erreur inconnue"}.`);
+    return r.body;
+  }
+
   function disconnect() {
     s.token = null;
     s.login = null;
@@ -363,6 +376,9 @@ function createGitHubPanel({ mount, getData, onData }) {
     markDirty,
     setStatus,
     isDirty: () => s.dirty,
+    isConnected: () => !!s.token,
+    branch: () => s.branch,
+    putFile,
     state: s, // exposé pour les tests
   };
 }

@@ -113,6 +113,7 @@ function render() {
         <button type="button" class="icon-btn" data-act="down" title="Descendre">↓</button>
         <button type="button" class="icon-btn danger" data-act="del" title="Supprimer">✕</button>
       </div>`;
+    li.querySelector(".pos").after(persoAvatar(c, "avatar avatar-small"));
     li.querySelector(".name-input").value = c.name;
     li.querySelector('[data-act="up"]').disabled = !prevSame;
     li.querySelector('[data-act="down"]').disabled = !nextSame;

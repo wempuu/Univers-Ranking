@@ -54,7 +54,17 @@ function render() {
       <h1></h1>
       <button type="button" class="edit-link link-btn" data-act="toggle-edit"></button>
     </div>`;
-  section.prepend(persoAvatar(perso, "avatar avatar-big"));
+  const avatarBtn = document.createElement("button");
+  avatarBtn.type = "button";
+  avatarBtn.className = "avatar-edit";
+  avatarBtn.dataset.act = "edit-image";
+  avatarBtn.title = "Changer l'image";
+  avatarBtn.appendChild(persoAvatar(perso, "avatar avatar-big"));
+  const hint = document.createElement("span");
+  hint.className = "avatar-edit-hint";
+  hint.textContent = "🖼️ Changer";
+  avatarBtn.appendChild(hint);
+  section.prepend(avatarBtn);
   section.querySelector(".eyebrow").textContent = manga.title;
   section.querySelector("h1").textContent = perso.name;
   section.querySelector("[data-act]").textContent = editing ? "✕ Fermer l'édition" : "✏️ Modifier les tags";
@@ -268,6 +278,40 @@ function deleteCategory(slug) {
   render();
 }
 
+// ---------- Image du personnage ----------
+
+let panelReady = null; // promesse : le panneau GitHub a fini de charger les données
+
+async function editImage() {
+  if (!editing) toggleEdit();
+  await panelReady;
+  const perso = currentPerso();
+  if (!perso) return;
+  if (!panel.isConnected()) {
+    panel.setStatus("Connecte-toi à GitHub ci-dessus pour pouvoir changer l'image.", "err");
+    $("editor").scrollIntoView({ behavior: "smooth", block: "start" });
+    return;
+  }
+  openImageEditor({
+    title: `Image de ${perso.name}`,
+    current: perso.image || null,
+    onSave: async (base64) => {
+      const path = `images/personnages/${mangaSlug}/${slugify(perso.name)}.jpg`;
+      await panel.putFile(path, base64, `Image de ${perso.name} depuis l'outil`);
+      // ?v= force les navigateurs à recharger l'image même si le nom de fichier ne change pas
+      perso.image = `${path}?v=${Date.now()}`;
+      panel.markDirty();
+      render();
+      panel.setStatus("Image envoyée sur GitHub. Clique sur « Publier » pour enregistrer le changement sur la fiche.", "dirty");
+    },
+    onRemove: () => {
+      delete perso.image;
+      panel.markDirty();
+      render();
+    },
+  });
+}
+
 function toggleEdit() {
   if (editing && panel && panel.isDirty() &&
       !confirm("Fermer l'édition sans publier ? Tes modifications seront perdues.")) return;
@@ -279,7 +323,7 @@ function toggleEdit() {
       getData: () => data,
       onData: (d) => { data = d; render(); },
     });
-    panel.start(); // recharge la dernière version (GitHub si connecté)
+    panelReady = panel.start(); // recharge la dernière version (GitHub si connecté)
   } else if (!editing && panel && panel.isDirty()) {
     location.reload(); // abandonne les modifications non publiées
     return;
@@ -291,6 +335,7 @@ document.addEventListener("click", (e) => {
   const btn = e.target.closest("[data-act]");
   if (!btn) return;
   if (btn.dataset.act === "toggle-edit") toggleEdit();
+  if (btn.dataset.act === "edit-image") { editImage(); return; }
   const row = btn.closest(".tag-row");
   const act = btn.dataset.act;
   if (act === "untag") removeTag(row.dataset.tag, Number(btn.dataset.vi));
