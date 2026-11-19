@@ -36,6 +36,9 @@
           "name": "Monkey D. Luffy",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Protagoniste"
+            ],
             "style-de-combat": [
               "Combat à mains nues",
               "Corps élastique",
@@ -47,6 +50,9 @@
           "name": "Roronoa Zoro",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Deutéragoniste"
+            ],
             "style-de-combat": [
               "Épéiste",
               "Corps élastique"
@@ -57,6 +63,9 @@
           "name": "Nami",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Météo"
             ]
@@ -66,6 +75,9 @@
           "name": "Usopp",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Tireur"
             ]
@@ -75,6 +87,9 @@
           "name": "Sanji",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Combat aux jambes",
               "Feu"
@@ -85,6 +100,9 @@
           "name": "Tony Tony Chopper",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Transformation",
               "Médecine"
@@ -95,6 +113,9 @@
           "name": "Nico Robin",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Membres multiples"
             ]
@@ -104,6 +125,9 @@
           "name": "Franky",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Cyborg"
             ]
@@ -113,6 +137,9 @@
           "name": "Brook",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Épéiste",
               "Musique"
@@ -123,6 +150,9 @@
           "name": "Jinbe",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Combat à mains nues",
               "Eau"
@@ -133,6 +163,9 @@
           "name": "Shanks",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Mentor"
+            ],
             "style-de-combat": [
               "Épéiste"
             ]
@@ -142,6 +175,9 @@
           "name": "Gol D. Roger",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Personnage secondaire"
+            ],
             "style-de-combat": [
               "Épéiste"
             ]
@@ -151,6 +187,9 @@
           "name": "Edward Newgate (Barbe Blanche)",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Personnage secondaire"
+            ],
             "style-de-combat": [
               "Arme d'hast",
               "Séismes"
@@ -161,6 +200,9 @@
           "name": "Marshall D. Teach (Barbe Noire)",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Ténèbres",
               "Séismes"
@@ -171,6 +213,9 @@
           "name": "Portgas D. Ace",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Feu"
             ]
@@ -180,6 +225,10 @@
           "name": "Trafalgar Law",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Allié",
+              "Antihéros"
+            ],
             "style-de-combat": [
               "Épéiste",
               "Manipulation de l'espace"
@@ -190,6 +239,9 @@
           "name": "Kaido",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Arme contondante",
               "Transformation",
@@ -201,6 +253,9 @@
           "name": "Charlotte Linlin (Big Mom)",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Manipulation des âmes"
             ]
@@ -210,6 +265,9 @@
           "name": "Donquixote Doflamingo",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Manipulation de fils"
             ]
@@ -219,6 +277,9 @@
           "name": "Boa Hancock",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Combat aux jambes",
               "Pétrification"
@@ -229,6 +290,10 @@
           "name": "Dracule Mihawk",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Rival",
+              "Mentor"
+            ],
             "style-de-combat": [
               "Épéiste"
             ]
@@ -238,6 +303,9 @@
           "name": "Crocodile",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Sable"
             ]
@@ -247,6 +315,9 @@
           "name": "Baggy",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Corps fragmentable"
             ]
@@ -256,6 +327,9 @@
           "name": "Eustass Kid",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Rival"
+            ],
             "style-de-combat": [
               "Magnétisme"
             ]
@@ -265,6 +339,9 @@
           "name": "Rocks D. Xebec",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Combat à mains nues"
             ]
@@ -274,6 +351,9 @@
           "name": "Silvers Rayleigh",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Mentor"
+            ],
             "style-de-combat": [
               "Épéiste"
             ]
@@ -283,6 +363,9 @@
           "name": "Marco",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Transformation",
               "Régénération"
@@ -293,6 +376,9 @@
           "name": "Yamato",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Arme contondante",
               "Glace",
@@ -304,6 +390,9 @@
           "name": "Charlotte Katakuri",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Arme d'hast",
               "Corps malléable"
@@ -314,6 +403,9 @@
           "name": "Jewelry Bonney",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Manipulation de l'âge"
             ]
@@ -323,6 +415,9 @@
           "name": "King",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Épéiste",
               "Feu",
@@ -334,6 +429,9 @@
           "name": "Queen",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Cyborg",
               "Transformation"
@@ -344,6 +442,9 @@
           "name": "Gecko Moria",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Ombres"
             ]
@@ -353,6 +454,9 @@
           "name": "Arlong",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Combat à mains nues"
             ]
@@ -362,6 +466,9 @@
           "name": "Shiki",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Épéiste",
               "Lévitation"
@@ -372,6 +479,9 @@
           "name": "Bartolomeo",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Barrières"
             ]
@@ -381,6 +491,9 @@
           "name": "Perona",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Esprits"
             ]
@@ -390,6 +503,9 @@
           "name": "Jack",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Transformation"
             ]
@@ -399,6 +515,10 @@
           "name": "Charlotte Pudding",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste",
+              "Allié"
+            ],
             "style-de-combat": [
               "Manipulation de la mémoire"
             ]
@@ -408,6 +528,9 @@
           "name": "Zeff",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Mentor"
+            ],
             "style-de-combat": [
               "Combat aux jambes"
             ]
@@ -417,6 +540,9 @@
           "name": "Hody Jones",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Combat à mains nues",
               "Arme d'hast"
@@ -427,6 +553,9 @@
           "name": "Charlotte Cracker",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Épéiste",
               "Invocation"
@@ -437,6 +566,9 @@
           "name": "Charlotte Smoothie",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Épéiste",
               "Absorption"
@@ -447,6 +579,9 @@
           "name": "Charlotte Perospero",
           "group": "pirates",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Création d'objets"
             ]
@@ -456,6 +591,9 @@
           "name": "Imu",
           "group": "marine",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Possession"
             ]
@@ -465,6 +603,9 @@
           "name": "Monkey D. Garp",
           "group": "marine",
           "tags": {
+            "role": [
+              "Mentor"
+            ],
             "style-de-combat": [
               "Combat à mains nues"
             ]
@@ -474,6 +615,9 @@
           "name": "Sakazuki (Akainu)",
           "group": "marine",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Magma"
             ]
@@ -483,6 +627,9 @@
           "name": "Kuzan (Aokiji)",
           "group": "marine",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Glace"
             ]
@@ -492,6 +639,9 @@
           "name": "Borsalino (Kizaru)",
           "group": "marine",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Lumière"
             ]
@@ -501,6 +651,9 @@
           "name": "Koby",
           "group": "marine",
           "tags": {
+            "role": [
+              "Rival"
+            ],
             "style-de-combat": [
               "Combat à mains nues"
             ]
@@ -510,6 +663,9 @@
           "name": "Sengoku",
           "group": "marine",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Transformation",
               "Ondes de choc"
@@ -520,6 +676,9 @@
           "name": "Smoker",
           "group": "marine",
           "tags": {
+            "role": [
+              "Rival"
+            ],
             "style-de-combat": [
               "Fumée",
               "Arme contondante"
@@ -530,6 +689,9 @@
           "name": "Saint Jaygarcia Saturn",
           "group": "marine",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Transformation",
               "Régénération"
@@ -540,6 +702,9 @@
           "name": "Dr. Vegapunk",
           "group": "marine",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Technologie"
             ]
@@ -549,6 +714,9 @@
           "name": "Issho (Fujitora)",
           "group": "marine",
           "tags": {
+            "role": [
+              "Personnage secondaire"
+            ],
             "style-de-combat": [
               "Épéiste",
               "Gravité"
@@ -559,6 +727,9 @@
           "name": "Aramaki (Ryokugyu)",
           "group": "marine",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Plantes"
             ]
@@ -568,6 +739,9 @@
           "name": "Rob Lucci",
           "group": "marine",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Combat à mains nues",
               "Transformation"
@@ -578,6 +752,9 @@
           "name": "Donquixote Rosinante (Corazón)",
           "group": "marine",
           "tags": {
+            "role": [
+              "Mentor"
+            ],
             "style-de-combat": [
               "Manipulation du son"
             ]
@@ -587,6 +764,9 @@
           "name": "Magellan",
           "group": "marine",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Poison"
             ]
@@ -596,6 +776,9 @@
           "name": "Monkey D. Dragon",
           "group": "revolutionnaires",
           "tags": {
+            "role": [
+              "Personnage secondaire"
+            ],
             "style-de-combat": [
               "Vent"
             ]
@@ -605,6 +788,9 @@
           "name": "Sabo",
           "group": "revolutionnaires",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Combat à mains nues",
               "Feu"
@@ -615,6 +801,9 @@
           "name": "Emporio Ivankov",
           "group": "revolutionnaires",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Altération du corps"
             ]
@@ -624,6 +813,9 @@
           "name": "Karasu",
           "group": "revolutionnaires",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Transformation"
             ]
@@ -633,6 +825,9 @@
           "name": "Nefertari Vivi",
           "group": "autres",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Armes de jet"
             ]
@@ -642,6 +837,9 @@
           "name": "Kozuki Oden",
           "group": "autres",
           "tags": {
+            "role": [
+              "Personnage secondaire"
+            ],
             "style-de-combat": [
               "Épéiste"
             ]
@@ -651,6 +849,9 @@
           "name": "Kozuki Momonosuke",
           "group": "autres",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Transformation"
             ]
@@ -660,6 +861,9 @@
           "name": "Enel",
           "group": "autres",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Foudre"
             ]
@@ -669,6 +873,9 @@
           "name": "Uta",
           "group": "autres",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Musique"
             ]
@@ -678,6 +885,9 @@
           "name": "Carrot",
           "group": "autres",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Combat à mains nues",
               "Foudre",
@@ -689,6 +899,9 @@
           "name": "Kin'emon",
           "group": "autres",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Épéiste",
               "Feu"
@@ -699,6 +912,9 @@
           "name": "Shirahoshi",
           "group": "autres",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Contrôle des animaux"
             ]
@@ -708,6 +924,9 @@
           "name": "Loki",
           "group": "autres",
           "tags": {
+            "role": [
+              "Personnage secondaire"
+            ],
             "style-de-combat": [
               "Arme contondante",
               "Transformation"
@@ -718,6 +937,9 @@
           "name": "Rebecca",
           "group": "autres",
           "tags": {
+            "role": [
+              "Allié"
+            ],
             "style-de-combat": [
               "Épéiste"
             ]
@@ -727,6 +949,9 @@
           "name": "Dr. Hiriluk",
           "group": "autres",
           "tags": {
+            "role": [
+              "Mentor"
+            ],
             "style-de-combat": [
               "Médecine"
             ]
@@ -736,6 +961,9 @@
           "name": "Caesar Clown",
           "group": "autres",
           "tags": {
+            "role": [
+              "Antagoniste"
+            ],
             "style-de-combat": [
               "Gaz",
               "Poison"
