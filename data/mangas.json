@@ -1,7 +1,12 @@
 {
   "tags": {
     "style-de-combat": {
-      "label": "Style de combat"
+      "label": "Style de combat",
+      "values": []
+    },
+    "role": {
+      "label": "Rôle",
+      "values": ["Protagoniste", "Deutéragoniste", "Antagoniste", "Antihéros", "Allié", "Rival", "Mentor", "Personnage secondaire"]
     }
   },
   "mangas": {

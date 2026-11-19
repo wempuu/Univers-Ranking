@@ -70,8 +70,17 @@ function render() {
     const row = document.createElement("div");
     row.className = "tag-row";
     row.dataset.tag = tagSlug;
-    row.innerHTML = `<h2 class="tag-label"></h2><div class="chips"></div>`;
+    row.innerHTML = `<div class="tag-head"><h2 class="tag-label"></h2></div><div class="chips"></div>`;
     row.querySelector(".tag-label").textContent = tag.label;
+    if (editing) {
+      const actions = document.createElement("div");
+      actions.className = "tag-actions";
+      actions.innerHTML = `
+        <button type="button" class="link-btn" data-act="cat-rename">✎ Renommer</button>
+        <button type="button" class="link-btn" data-act="cat-values">☰ Valeurs proposées</button>
+        <button type="button" class="link-btn danger-link" data-act="cat-delete">🗑 Supprimer</button>`;
+      row.querySelector(".tag-head").appendChild(actions);
+    }
     const chipsEl = row.querySelector(".chips");
     if (values.length === 0 && !editing) {
       chipsEl.innerHTML = `<span class="muted-small">Non renseigné</span>`;
@@ -101,14 +110,38 @@ function render() {
       input.setAttribute("aria-label", `Ajouter : ${tag.label}`);
       input.addEventListener("focus", () => fillDatalist(tagSlug));
       chipsEl.appendChild(input);
+
+      // Valeurs proposées de la catégorie pas encore mises : un clic pour les ajouter
+      const planned = (tag.values || []).filter((v) => !values.some((x) => slugify(x) === slugify(v)));
+      if (planned.length) {
+        const sugg = document.createElement("div");
+        sugg.className = "chips suggestions";
+        planned.forEach((v) => {
+          const b = document.createElement("button");
+          b.type = "button";
+          b.className = "chip ghost";
+          b.dataset.act = "quick-tag";
+          b.dataset.value = v;
+          b.textContent = `+ ${v}`;
+          sugg.appendChild(b);
+        });
+        row.appendChild(sugg);
+      }
     }
     box.appendChild(row);
   });
   if (editing) {
+    const add = document.createElement("button");
+    add.type = "button";
+    add.className = "btn ghost small";
+    add.dataset.act = "cat-new";
+    add.textContent = "＋ Nouvelle catégorie de tags";
+    add.style.justifySelf = "start";
+    box.appendChild(add);
     const hint = document.createElement("p");
     hint.className = "muted-small";
     hint.style.margin = "0";
-    hint.textContent = "Entrée pour ajouter. Les valeurs déjà utilisées sont proposées : réutilise-les pour que les mini-jeux puissent regrouper les personnages.";
+    hint.textContent = "Entrée pour ajouter. Les valeurs déjà utilisées sont proposées : réutilise-les pour que les mini-jeux puissent regrouper les personnages. Les catégories sont communes à tous les personnages et tous les mangas.";
     box.appendChild(hint);
   }
   tags.appendChild(box);
@@ -179,6 +212,64 @@ function removeTag(tagSlug, vi) {
   render();
 }
 
+// ---------- Catégories de tags (communes à tout le site) ----------
+
+function parseValues(text) {
+  const out = [];
+  text.split(",").map((v) => v.trim()).filter(Boolean).forEach((v) => {
+    if (!out.some((x) => slugify(x) === slugify(v))) out.push(v);
+  });
+  return out;
+}
+
+function newCategory() {
+  const label = (prompt("Nom de la nouvelle catégorie de tags (ex. « Rôle », « Espèce ») :") || "").trim();
+  if (!label) return;
+  const slug = slugify(label);
+  if (!slug) return;
+  if (data.tags[slug]) {
+    panel.setStatus(`La catégorie « ${data.tags[slug].label} » existe déjà.`, "err");
+    return;
+  }
+  const values = parseValues(prompt(`Valeurs proposées pour « ${label} », séparées par des virgules (tu pourras en ajouter d'autres plus tard) :`) || "");
+  data.tags[slug] = { label, values };
+  panel.markDirty();
+  render();
+}
+
+function renameCategory(slug) {
+  const tag = data.tags[slug];
+  const label = (prompt("Nouveau nom de la catégorie :", tag.label) || "").trim();
+  if (!label || label === tag.label) return;
+  tag.label = label; // l'identifiant (slug) ne change pas, les tags des personnages restent liés
+  panel.markDirty();
+  render();
+}
+
+function editCategoryValues(slug) {
+  const tag = data.tags[slug];
+  const text = prompt(
+    `Valeurs proposées pour « ${tag.label} », séparées par des virgules.\n` +
+    "(Retirer une valeur ici ne l'enlève pas des personnages qui l'ont déjà.)",
+    (tag.values || []).join(", "));
+  if (text === null) return;
+  tag.values = parseValues(text);
+  panel.markDirty();
+  render();
+}
+
+function deleteCategory(slug) {
+  const tag = data.tags[slug];
+  let count = 0;
+  Object.values(data.mangas).forEach((m) => m.characters.forEach((c) => { if (c.tags && c.tags[slug]) count++; }));
+  if (!confirm(`Supprimer la catégorie « ${tag.label} » ?` +
+      (count ? `\nElle sera retirée des ${count} personnage(s) qui l'utilisent, dans tous les mangas.` : ""))) return;
+  delete data.tags[slug];
+  Object.values(data.mangas).forEach((m) => m.characters.forEach((c) => { if (c.tags) delete c.tags[slug]; }));
+  panel.markDirty();
+  render();
+}
+
 function toggleEdit() {
   if (editing && panel && panel.isDirty() &&
       !confirm("Fermer l'édition sans publier ? Tes modifications seront perdues.")) return;
@@ -202,7 +293,14 @@ document.addEventListener("click", (e) => {
   const btn = e.target.closest("[data-act]");
   if (!btn) return;
   if (btn.dataset.act === "toggle-edit") toggleEdit();
-  if (btn.dataset.act === "untag") removeTag(btn.closest(".tag-row").dataset.tag, Number(btn.dataset.vi));
+  const row = btn.closest(".tag-row");
+  const act = btn.dataset.act;
+  if (act === "untag") removeTag(row.dataset.tag, Number(btn.dataset.vi));
+  if (act === "quick-tag") addTag(row.dataset.tag, btn.dataset.value);
+  if (act === "cat-new") newCategory();
+  if (act === "cat-rename") renameCategory(row.dataset.tag);
+  if (act === "cat-values") editCategoryValues(row.dataset.tag);
+  if (act === "cat-delete") deleteCategory(row.dataset.tag);
 });
 $("tags").addEventListener("keydown", (e) => {
   if (!e.target.classList.contains("tag-add") || e.key !== "Enter") return;

@@ -302,3 +302,16 @@ footer { text-align: center; color: var(--muted); padding: 24px 0 40px; font-siz
 .chip-x:hover { color: #fff; background: #ff5c5c; }
 .chips .tag-add { flex: 0 1 220px; min-width: 160px; padding: 6px 12px; font-size: .95rem; }
 #editor { margin-bottom: 8px; }
+
+/* Catégories de tags (mode édition) */
+.tag-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; }
+.tag-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 8px; }
+.tag-actions .link-btn { color: var(--muted); font-size: .85rem; }
+.tag-actions .link-btn:hover { color: var(--text); }
+.tag-actions .danger-link:hover { color: #ff5c5c; }
+.chips.suggestions { margin-top: 8px; }
+.chip.ghost {
+  font: inherit; font-size: .85rem; cursor: pointer; color: var(--muted);
+  background: transparent; border: 1px dashed rgba(255,255,255,.25); padding: 4px 12px;
+}
+.chip.ghost:hover { color: var(--text); border-color: var(--accent-2); }

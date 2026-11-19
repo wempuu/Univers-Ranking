@@ -28,12 +28,15 @@ function isValidData(d) {
     Object.values(d.mangas).every((m) => Array.isArray(m.characters) && m.characters.every((c) => typeof c.name === "string"));
 }
 
-// Toutes les valeurs déjà utilisées pour un tag (tous mangas confondus), pour les suggestions
+// Valeurs possibles d'une catégorie de tags, pour les suggestions :
+// d'abord celles prévues dans data.tags[slug].values (dans leur ordre), puis celles déjà utilisées (tous mangas confondus)
 function knownTagValues(data, tagSlug) {
-  const set = new Set();
+  const planned = (data.tags[tagSlug] && data.tags[tagSlug].values) || [];
+  const used = new Set();
   Object.values(data.mangas).forEach((m) =>
-    m.characters.forEach((c) => ((c.tags && c.tags[tagSlug]) || []).forEach((v) => set.add(v))));
-  return [...set].sort((a, b) => a.localeCompare(b, "fr"));
+    m.characters.forEach((c) => ((c.tags && c.tags[tagSlug]) || []).forEach((v) => used.add(v))));
+  planned.forEach((v) => used.delete(v));
+  return [...planned, ...[...used].sort((a, b) => a.localeCompare(b, "fr"))];
 }
 
 // Découpe les personnages par catégorie, dans l'ordre de manga.groups.
