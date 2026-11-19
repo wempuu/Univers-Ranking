@@ -94,8 +94,9 @@
           "image": "images/personnages/one-piece/roronoa-zoro.jpg",
           "tags": {
             "role": [
-              "Deutéragoniste",
-              "Criminel"
+              "Criminel",
+              "Second",
+              "Allié"
             ],
             "style-de-combat": [
               "Épéiste",
@@ -108,8 +109,7 @@
             ],
             "univers": [
               "Haki des rois",
-              "Pirate",
-              "Second"
+              "Pirate"
             ],
             "physique": [
               "Humain",
