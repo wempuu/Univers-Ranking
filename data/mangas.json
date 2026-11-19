@@ -265,10 +265,18 @@
           "image": "images/personnages/one-piece/franky.jpg",
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Criminel",
+              "Mécanicien"
             ],
             "style-de-combat": [
-              "Cyborg"
+              "Combat à mains nues",
+              "Laser",
+              "Transformation"
+            ],
+            "caractere": [
+              "Intelligent",
+              "Drole"
             ]
           }
         },
