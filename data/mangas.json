@@ -216,11 +216,12 @@
           "image": "images/personnages/one-piece/tony-tony-chopper.jpg",
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Medecin"
             ],
             "style-de-combat": [
               "Transformation",
-              "Médecine"
+              "Combat à mains nues"
             ],
             "physique": [
               "Animaux",
@@ -229,7 +230,6 @@
               "Petite taille"
             ],
             "univers": [
-              "Medecin",
               "Pirate",
               "Zoan"
             ],
