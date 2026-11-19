@@ -16,6 +16,18 @@
         "Mentor",
         "Personnage secondaire"
       ]
+    },
+    "caractere": {
+      "label": "Caractère",
+      "values": []
+    },
+    "univers": {
+      "label": "Univers",
+      "values": []
+    },
+    "physique": {
+      "label": "Physique",
+      "values": []
     }
   },
   "mangas": {
@@ -48,13 +60,31 @@
           "tags": {
             "role": [
               "Protagoniste",
-              "Capitaine",
-              "empereur"
+              "Criminel",
+              "Hero",
+              "Leader"
             ],
             "style-de-combat": [
               "Combat à mains nues",
-              "Corps élastique",
-              "Transformation"
+              "Transformation",
+              "élastique"
+            ],
+            "caractere": [
+              "Drole",
+              "Libre",
+              "Gourmand",
+              "Impulsif"
+            ],
+            "univers": [
+              "Haki des rois",
+              "Zoan mythique",
+              "Pirate"
+            ],
+            "physique": [
+              "Jeune",
+              "Humain",
+              "Masculin",
+              "Taille moyenne"
             ]
           }
         },
