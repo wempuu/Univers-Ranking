@@ -9,7 +9,7 @@
       "title": "One Piece",
       "cover": "images/catalogue/one-piece.webp",
       "characters": [
-        { "name": "Monkey D. Luffy", "tags": { "style-de-combat": ["Combat à mains nues", "Corps élastique"] } },
+        { "name": "Monkey D. Luffy", "tags": { "style-de-combat": ["Combat à mains nues", "Corps élastique", "Transformation"] } },
         { "name": "Roronoa Zoro", "tags": { "style-de-combat": ["Épéiste"] } },
         { "name": "Sanji", "tags": { "style-de-combat": ["Combat aux jambes", "Feu"] } },
         { "name": "Nami", "tags": { "style-de-combat": ["Météo"] } },
@@ -28,7 +28,7 @@
         { "name": "Rocks D. Xebec", "tags": { "style-de-combat": ["Combat à mains nues"] } },
         { "name": "Yamato", "tags": { "style-de-combat": ["Arme contondante", "Glace", "Transformation"] } },
         { "name": "Usopp", "tags": { "style-de-combat": ["Tireur"] } },
-        { "name": "Loki", "tags": { "style-de-combat": ["Arme contondante"] } },
+        { "name": "Loki", "tags": { "style-de-combat": ["Arme contondante", "Transformation"] } },
         { "name": "Franky", "tags": { "style-de-combat": ["Cyborg"] } },
         { "name": "Brook", "tags": { "style-de-combat": ["Épéiste", "Musique"] } },
         { "name": "Jinbe", "tags": { "style-de-combat": ["Combat à mains nues", "Eau"] } },
