@@ -238,10 +238,24 @@
           "image": "images/personnages/one-piece/nico-robin.jpg",
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Criminel"
             ],
             "style-de-combat": [
-              "Membres multiples"
+              "Clonage"
+            ],
+            "caractere": [
+              "Humeur noir",
+              "Intelligente"
+            ],
+            "univers": [
+              "Archéologue",
+              "Paramécia"
+            ],
+            "physique": [
+              "Femme",
+              "Mature",
+              "Taille moyenne"
             ]
           }
         },
