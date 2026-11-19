@@ -11,10 +11,16 @@ function slugify(text) {
     .replace(/^-+|-+$/g, "");
 }
 
-async function loadMangas() {
+// Fichier complet : { tags: { <tag-slug>: { label } }, mangas: { <manga-slug>: { title, cover, characters } } }
+// Un personnage : { name, tags: { <tag-slug>: [valeurs] } }
+async function loadData() {
   const res = await fetch(DATA_URL, { cache: "no-store" });
   if (!res.ok) throw new Error(`Impossible de charger ${DATA_URL} (${res.status})`);
   return res.json();
+}
+
+async function loadMangas() {
+  return (await loadData()).mangas;
 }
 
 function emptyBlock(emoji, title, text) {

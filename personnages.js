@@ -38,7 +38,7 @@
 
   const list = document.createElement("ul");
   list.className = "char-list";
-  manga.characters.forEach((name) => {
+  manga.characters.forEach(({ name }) => {
     const li = document.createElement("li");
     const a = document.createElement("a");
     a.href = `personnage.html?manga=${encodeURIComponent(slug)}&perso=${encodeURIComponent(slugify(name))}`;

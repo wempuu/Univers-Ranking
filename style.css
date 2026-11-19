@@ -140,7 +140,27 @@ a.card:hover { transform: translateY(-4px); border-color: var(--accent); }
 }
 .char-list a:hover { border-color: var(--accent); transform: translateY(-2px); }
 
-.perso-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: -40px 0 64px; }
+.perso-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 0 0 64px; }
+
+.tags-box {
+  background: var(--card);
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin: 0 0 24px;
+  display: grid;
+  gap: 16px;
+}
+.tag-label { margin: 0 0 8px; font-size: .85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: .95rem;
+  background: linear-gradient(90deg, rgba(255,79,139,.25), rgba(124,92,255,.25));
+  border: 1px solid rgba(255,255,255,.12);
+}
 .perso-nav .card { display: flex; flex-direction: column; padding: 16px 20px; }
 .perso-nav .next { text-align: right; }
 .muted-small { color: var(--muted); font-size: .85rem; }
@@ -168,14 +188,21 @@ button.btn:disabled { opacity: .5; cursor: default; transform: none; }
 
 .edit-list { list-style: none; padding: 0; margin: 0 0 64px; display: grid; gap: 6px; }
 .edit-list li {
-  display: flex;
-  align-items: center;
-  gap: 8px;
   background: var(--card);
   border: 1px solid rgba(255,255,255,.06);
   border-radius: 10px;
   padding: 6px 8px;
 }
+.edit-list .row-main { display: flex; align-items: center; gap: 8px; }
+.edit-list .row-tags { padding: 2px 0 4px calc(2.2em + 34px); display: grid; gap: 4px; }
+.tag-edit { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.chip.small { padding: 2px 4px 2px 10px; font-size: .85rem; display: inline-flex; align-items: center; gap: 2px; }
+.chip.small button {
+  font: inherit; border: 0; background: transparent; color: var(--muted);
+  cursor: pointer; padding: 0 6px; border-radius: 999px;
+}
+.chip.small button:hover { color: #fff; background: #ff5c5c; }
+.edit-list input.tag-input { flex: 0 1 160px; font-weight: 400; font-size: .85rem; padding: 3px 8px; }
 .edit-list li.dragging { opacity: .4; }
 .edit-list li.drop-target { border-color: var(--accent-2); }
 .edit-list li.dup { border-color: #ff5c5c; }
