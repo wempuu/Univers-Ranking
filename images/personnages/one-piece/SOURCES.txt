@@ -11,7 +11,7 @@ tony-tony-chopper.jpg <- File:Tony_Tony_Chopper_Manga_Post_Timeskip_Infobox.png
 nico-robin.jpg <- File:Nico_Robin_Manga_Post_Timeskip_Infobox.png
 franky.jpg <- File:Franky_Manga_Post_Timeskip_Infobox.png
 brook.jpg <- File:Brook_Manga_Post_Timeskip_Infobox.png
-jinbe.jpg <- File:Jinbe_Digitally_Colored_Manga.png
+jinbe.jpg <- File:Jinbe_Digitally_Colored_in_Caribou's_Cover_Story.png
 shanks.jpg <- File:Shanks_in_the_Digitally_Colored_Manga.png
 gol-d-roger.jpg <- File:Gol_D._Roger_Digitally_Colored_Manga_Color_Scheme.png
 edward-newgate-barbe-blanche.jpg <- File:Edward_Newgate_Manga_Color_Scheme.png
@@ -74,4 +74,7 @@ charlotte-cracker.jpg <- File:Cracker_Digitally_Colored_Manga.png
 saint-jaygarcia-saturn.jpg <- File:Saturn_Digitally_Colored_Manga.png
 kozuki-momonosuke.jpg <- File:Momonosuke_Age_28_Digitally_Colored_Manga.png
 
-Sans image (pas d'image couleur tirée du manga trouvée) : rocks-d-xebec, shiki, imu, uta (personnage du film Red, exclu).
+rocks-d-xebec.jpg <- File:Volume_114.png (couverture du tome 114, Rocks Pirates)
+shiki.jpg <- File:Volume_114.png (couverture du tome 114, Rocks Pirates)
+uta.jpg <- File:Uta_Manga_Infobox.png (illustration promotionnelle du film One Piece Film: Red, dessinée par Oda — exception demandée)
+imu.jpg <- File:Nerona_Imu_Manga_Infobox.png (case du manga en noir et blanc — exception demandée)

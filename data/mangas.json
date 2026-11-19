@@ -362,6 +362,7 @@
         {
           "name": "Rocks D. Xebec",
           "group": "pirates",
+          "image": "images/personnages/one-piece/rocks-d-xebec.jpg",
           "tags": {
             "role": [
               "Antagoniste"
@@ -498,6 +499,7 @@
         {
           "name": "Shiki",
           "group": "pirates",
+          "image": "images/personnages/one-piece/shiki.jpg",
           "tags": {
             "role": [
               "Antagoniste"
@@ -632,6 +634,7 @@
         {
           "name": "Imu",
           "group": "marine",
+          "image": "images/personnages/one-piece/imu.jpg",
           "tags": {
             "role": [
               "Antagoniste"
@@ -936,6 +939,7 @@
         {
           "name": "Uta",
           "group": "autres",
+          "image": "images/personnages/one-piece/uta.jpg",
           "tags": {
             "role": [
               "Antagoniste"
