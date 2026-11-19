@@ -287,6 +287,13 @@
             "caractere": [
               "Intelligent",
               "Drole"
+            ],
+            "physique": [
+              "Cyborg",
+              "Grande taille"
+            ],
+            "univers": [
+              "Pirate"
             ]
           }
         },
