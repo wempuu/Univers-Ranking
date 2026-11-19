@@ -47,7 +47,9 @@
           "image": "images/personnages/one-piece/monkey-d-luffy.jpg",
           "tags": {
             "role": [
-              "Protagoniste"
+              "Protagoniste",
+              "Capitaine",
+              "empereur"
             ],
             "style-de-combat": [
               "Combat à mains nues",
