@@ -1,0 +1,77 @@
+Portraits One Piece : recadrés sur la tête (320x320) à partir d'images couleur du manga d'Eiichirō Oda
+(manga colorisé numériquement, palettes de couleurs, couvertures). Aucune image de l'anime ni de promotion de l'anime.
+Source : One Piece Wiki (onepiece.fandom.com). Format : fichier-local <- fichier du wiki.
+
+monkey-d-luffy.jpg <- File:Monkey_D._Luffy_Manga_Post_Timeskip_Infobox.png
+roronoa-zoro.jpg <- File:Roronoa_Zoro_Manga_Post_Timeskip_Infobox.png
+nami.jpg <- File:Nami_Manga_Post_Timeskip_Infobox.png
+usopp.jpg <- File:Usopp_Digitally_Colored_Manga.png
+sanji.jpg <- File:Sanji_Digitally_Colored_Manga.png
+tony-tony-chopper.jpg <- File:Tony_Tony_Chopper_Manga_Post_Timeskip_Infobox.png
+nico-robin.jpg <- File:Nico_Robin_Manga_Post_Timeskip_Infobox.png
+franky.jpg <- File:Franky_Manga_Post_Timeskip_Infobox.png
+brook.jpg <- File:Brook_Manga_Post_Timeskip_Infobox.png
+jinbe.jpg <- File:Jinbe_Digitally_Colored_Manga.png
+shanks.jpg <- File:Shanks_in_the_Digitally_Colored_Manga.png
+gol-d-roger.jpg <- File:Gol_D._Roger_Digitally_Colored_Manga_Color_Scheme.png
+edward-newgate-barbe-blanche.jpg <- File:Edward_Newgate_Manga_Color_Scheme.png
+portgas-d-ace.jpg <- File:Portgas_D._Ace_Manga_Infobox.png
+trafalgar-law.jpg <- File:Trafalgar_D._Water_Law_Manga_Post_Timeskip_Infobox.png
+kaido.jpg <- File:Kaidou_Human-Beast_Form_Manga_Color_Scheme.png
+donquixote-doflamingo.jpg <- File:Donquixote_Doflamingo_Manga_Infobox.png
+boa-hancock.jpg <- File:Boa_Hancock_Manga_Color_Scheme.png
+dracule-mihawk.jpg <- File:Dracule_Mihawk_Manga_Infobox.png
+crocodile.jpg <- File:Crocodile_Digitally_Colored_Manga.png
+baggy.jpg <- File:Buggy_Digitally_Colored_Manga.png
+eustass-kid.jpg <- File:Eustass_Kid_Post_Timeskip_Color_Scheme.png
+silvers-rayleigh.jpg <- File:Silvers_Rayleigh_Manga_Color_Scheme.png
+yamato.jpg <- File:Yamato_Manga_Infobox.png
+jewelry-bonney.jpg <- File:Jewelry_Bonney's_Manga_Color_Scheme_Post_Timeskip.png
+king.jpg <- File:King_Manga_Infobox.png
+queen.jpg <- File:Queen_Color_Scheme.png
+gecko-moria.jpg <- File:Gecko_Moria's_Summit_War_Manga_Color_Scheme.png
+arlong.jpg <- File:Arlong_Manga_Color_Scheme.png
+bartolomeo.jpg <- File:Bartolomeo_in_the_Digitally_Colored_Manga.png
+perona.jpg <- File:Perona_Digitally_Colored_Manga_After_Timeskip.png
+jack.jpg <- File:Jack_Digitally_Colored_Manga.png
+zeff.jpg <- File:Zeff_Digitally_Colored_Manga.png
+monkey-d-garp.jpg <- File:Monkey_D._Garp_Manga_Color_Scheme.png
+sakazuki-akainu.jpg <- File:Sakazuki_Digitally_Colored_Manga.png
+kuzan-aokiji.jpg <- File:Kuzan_Digitally_Colored_Manga.png
+borsalino-kizaru.jpg <- File:Borsalino_in_the_Digitally_Colored_Manga.png
+koby.jpg <- File:Koby_Digitally_Colored_Manga.png
+sengoku.jpg <- File:Sengoku_Digitally_Colored_Manga.png
+smoker.jpg <- File:Smoker_Post_Timeskip_in_Digitally_Colored_Manga.png
+dr-vegapunk.jpg <- File:Vegapunk_Color_Scheme.png
+issho-fujitora.jpg <- File:Issho_Manga_Color_Scheme.png
+aramaki-ryokugyu.jpg <- File:Aramaki's_Digitally_Colored_Manga_Scheme.png
+donquixote-rosinante-corazon.jpg <- File:Donquixote_Rosinante_Digital_Colored_Manga.png
+magellan.jpg <- File:Magellan_Digitally_Colored_Manga.png
+monkey-d-dragon.jpg <- File:Monkey_D._Dragon_Manga_Color_Scheme.png
+sabo.jpg <- File:Sabo_Digitally_Colored_Manga.png
+karasu.jpg <- File:Karasu_Digitally_Colored_Manga.png
+enel.jpg <- File:Enel_Digitally_Colored_Manga.png
+carrot.jpg <- File:Carrot_in_Digitally_Colored_Manga.png
+kin-emon.jpg <- File:Kin'emon_in_the_Digitally_Colored_Manga.png
+shirahoshi.jpg <- File:Shirahoshi_Digitally_Colored_Manga.png
+loki.jpg <- File:Loki_Manga_Color_Scheme.png
+rebecca.jpg <- File:Rebecca_Digital_Colored_Manga.png
+dr-hiriluk.jpg <- File:Hiriluk's_Manga_Color_Scheme.png
+caesar-clown.jpg <- File:Caesar_Clown's_Manga_Color_Scheme.png
+marco.jpg <- File:Marco_Manga_Color_Scheme.png
+charlotte-pudding.jpg <- File:Pudding_Regular_Manga_Color_Scheme.png
+charlotte-smoothie.jpg <- File:Smoothie_Manga_Color_Scheme.png
+charlotte-perospero.jpg <- File:Perospero_Manga_Color_Scheme.png
+rob-lucci.jpg <- File:Lucci_Post_Timeskip_Manga_Color_Scheme.png
+emporio-ivankov.jpg <- File:Ivankov_Color_Scheme.png
+nefertari-vivi.jpg <- File:Vivi_Post_Timeskip_Manga_Color_Scheme.png
+kozuki-oden.jpg <- File:Oden_Manga_Color_Scheme.png
+marshall-d-teach-barbe-noire.jpg <- File:Teach_Post-Timeskip_Digitally_Colored_Manga.png
+charlotte-linlin-big-mom.jpg <- File:Big_Mom_Manga_Color_Scheme.png
+charlotte-katakuri.jpg <- File:Katakuri_Digitally_Colored_Manga.png
+hody-jones.jpg <- File:Hody_Digitally_Colored_Manga.png
+charlotte-cracker.jpg <- File:Cracker_Digitally_Colored_Manga.png
+saint-jaygarcia-saturn.jpg <- File:Saturn_Digitally_Colored_Manga.png
+kozuki-momonosuke.jpg <- File:Momonosuke_Age_28_Digitally_Colored_Manga.png
+
+Sans image (pas d'image couleur tirée du manga trouvée) : rocks-d-xebec, shiki, imu, uta (personnage du film Red, exclu).

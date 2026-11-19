@@ -52,6 +52,27 @@ function groupCharacters(manga) {
   }));
 }
 
+// Portrait d'un personnage : son image (champ `image`) ou, à défaut, ses initiales sur un dégradé
+function persoAvatar(perso, className = "avatar") {
+  if (perso.image) {
+    const img = document.createElement("img");
+    img.className = className;
+    img.src = perso.image;
+    img.alt = perso.name;
+    img.loading = "lazy";
+    return img;
+  }
+  const div = document.createElement("div");
+  div.className = `${className} avatar-initials`;
+  const words = perso.name.replace(/\(.*?\)/g, "").split(/\s+/).filter((w) => w && !/^[A-Z]\.$/.test(w));
+  div.textContent = ((words[0] || "?")[0] + (words.length > 1 ? words[words.length - 1][0] : "")).toUpperCase();
+  let h = 0;
+  for (const ch of perso.name) h = (h * 31 + ch.charCodeAt(0)) % 360;
+  div.style.background = `linear-gradient(135deg, hsl(${h} 70% 45%), hsl(${(h + 60) % 360} 70% 35%))`;
+  div.setAttribute("aria-label", perso.name);
+  return div;
+}
+
 function emptyBlock(emoji, title, text) {
   const div = document.createElement("div");
   div.className = "empty";

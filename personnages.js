@@ -46,11 +46,14 @@
     }
     const list = document.createElement("ul");
     list.className = "char-list";
-    group.characters.forEach(({ name }) => {
+    group.characters.forEach((perso) => {
       const li = document.createElement("li");
       const a = document.createElement("a");
-      a.href = `personnage.html?manga=${encodeURIComponent(slug)}&perso=${encodeURIComponent(slugify(name))}`;
-      a.textContent = name;
+      a.href = `personnage.html?manga=${encodeURIComponent(slug)}&perso=${encodeURIComponent(slugify(perso.name))}`;
+      a.appendChild(persoAvatar(perso));
+      const span = document.createElement("span");
+      span.textContent = perso.name;
+      a.appendChild(span);
       li.appendChild(a);
       list.appendChild(li);
     });

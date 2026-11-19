@@ -49,14 +49,12 @@ function render() {
   const section = document.createElement("section");
   section.className = "manga-head";
   section.innerHTML = `
-    <img class="manga-head-cover" alt="">
     <div>
       <p class="eyebrow"></p>
       <h1></h1>
       <button type="button" class="edit-link link-btn" data-act="toggle-edit"></button>
     </div>`;
-  section.querySelector("img").src = manga.cover;
-  section.querySelector("img").alt = `Couverture de ${manga.title}`;
+  section.prepend(persoAvatar(perso, "avatar avatar-big"));
   section.querySelector(".eyebrow").textContent = manga.title;
   section.querySelector("h1").textContent = perso.name;
   section.querySelector("[data-act]").textContent = editing ? "✕ Fermer l'édition" : "✏️ Modifier les tags";
