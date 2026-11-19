@@ -181,11 +181,26 @@
           "image": "images/personnages/one-piece/sanji.jpg",
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Criminel"
             ],
             "style-de-combat": [
               "Combat aux jambes",
               "Feu"
+            ],
+            "caractere": [
+              "Triste"
+            ],
+            "univers": [
+              "Cuisinier",
+              "Haki des rois",
+              "Pirate"
+            ],
+            "physique": [
+              "Humain",
+              "Jeune",
+              "Taille moyenne",
+              "Masculin"
             ]
           }
         },
