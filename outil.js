@@ -253,4 +253,13 @@ $("manga").addEventListener("change", (e) => {
   render();
 });
 
+// Fermer l'édition : retour à la liste des personnages du manga affiché
+$("btn-close").addEventListener("click", () => {
+  if (panel.isDirty()) {
+    if (!confirm("Fermer l'édition sans publier ? Tes modifications seront perdues.")) return;
+    panel.state.dirty = false; // évite une 2e alerte du navigateur en quittant la page
+  }
+  location.href = `personnages.html?manga=${encodeURIComponent(current)}`;
+});
+
 panel.start();
