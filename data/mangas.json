@@ -222,8 +222,8 @@
             "physique": [
               "Animaux",
               "Masculin",
-              "Jeune",
-              "Petite taille"
+              "Petite taille",
+              "enfant"
             ],
             "univers": [
               "Pirate",
