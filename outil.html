@@ -7,7 +7,7 @@
   <meta name="robots" content="noindex">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=4">
+  <link rel="stylesheet" href="style.css?v=5">
 </head>
 <body>
   <header class="wrap site">
@@ -22,13 +22,36 @@
   <main class="wrap">
     <section class="hero" style="padding:32px 0 16px">
       <h1>Outil d'édition</h1>
-      <p>Modifie les personnages et leurs tags, puis enregistre le fichier <code>data/mangas.json</code>.</p>
+      <p>Modifie les personnages et leurs tags, puis publie : le site est mis à jour pour tout le monde.</p>
+    </section>
+
+    <section class="gh-box" id="gh-box">
+      <div class="gh-connected" id="gh-connected" hidden>
+        <span>✅ Connecté à GitHub en tant que <strong id="gh-login"></strong></span>
+        <button class="btn ghost small" id="btn-logout" type="button">Se déconnecter</button>
+      </div>
+      <form class="gh-login-form" id="gh-form">
+        <label for="gh-token"><strong>Connexion GitHub</strong> — colle ton jeton d'accès pour pouvoir publier</label>
+        <div class="tool-bar" style="margin:8px 0 0">
+          <input class="tool-input" id="gh-token" type="password" placeholder="github_pat_… ou ghp_…" autocomplete="off" spellcheck="false">
+          <button class="btn" type="submit">Se connecter</button>
+        </div>
+        <details class="gh-help">
+          <summary>Comment obtenir un jeton ?</summary>
+          <ol>
+            <li>Le propriétaire du dépôt doit t'avoir ajouté comme collaborateur (Settings → Collaborators), sauf si c'est ton dépôt.</li>
+            <li>Sur GitHub : photo de profil → <b>Settings</b> → <b>Developer settings</b> → <b>Personal access tokens</b>.</li>
+            <li><b>Propriétaire du dépôt :</b> « Fine-grained tokens » → Generate new token → Repository access : <i>Only select repositories</i> → <b>Univers-Ranking</b> → Permissions : <b>Contents : Read and write</b>.</li>
+            <li><b>Collaborateur :</b> « Tokens (classic) » → Generate new token → coche uniquement <b>public_repo</b>.</li>
+            <li>Copie le jeton et colle-le ici. Il reste uniquement dans ce navigateur.</li>
+          </ol>
+        </details>
+      </form>
     </section>
 
     <div class="tool-bar">
-      <button class="btn ghost" id="btn-open" type="button">📂 Ouvrir data/mangas.json</button>
-      <button class="btn" id="btn-save" type="button">💾 Enregistrer</button>
-      <button class="btn ghost" id="btn-download" type="button">⬇️ Télécharger</button>
+      <button class="btn" id="btn-publish" type="button" disabled>🚀 Publier sur GitHub</button>
+      <button class="btn ghost" id="btn-reload" type="button">↻ Recharger</button>
     </div>
     <p class="tool-status" id="status">Chargement…</p>
 
@@ -52,7 +75,7 @@
     <div id="datalists"></div>
   </main>
 
-  <script src="common.js?v=4"></script>
-  <script src="outil.js?v=4"></script>
+  <script src="common.js?v=5"></script>
+  <script src="outil.js?v=5"></script>
 </body>
 </html>

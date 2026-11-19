@@ -1,14 +1,23 @@
 // Outil d'édition des personnages et de leurs tags (data/mangas.json).
-// - "Ouvrir" choisit le vrai fichier du projet (Chrome/Edge) : "Enregistrer" l'écrase directement.
-// - Sinon "Enregistrer" / "Télécharger" donne un mangas.json à remettre dans le dossier data/.
+// "Publier sur GitHub" fait un commit de data/mangas.json sur main via l'API GitHub,
+// avec le jeton d'accès de la personne connectée (gardé dans ce navigateur uniquement).
+// GitHub Pages redéploie ensuite le site.
 
 const $ = (id) => document.getElementById(id);
-const canPickFile = "showOpenFilePicker" in window;
+
+const GH_REPO = "wempuu/Univers-Ranking";
+const GH_BRANCH = "main";
+const GH_PATH = "data/mangas.json";
+const GH_API = `https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}`;
+const TOKEN_KEY = "ur-github-token";
 
 let data = null;        // contenu complet : { tags, mangas }
 let current = null;     // slug du manga affiché
-let fileHandle = null;  // fichier ouvert sur le disque (si supporté)
 let dirty = false;
+let token = null;       // jeton GitHub (null = pas connecté)
+let login = null;       // pseudo GitHub de la personne connectée
+let remoteSha = null;   // version du fichier sur GitHub sur laquelle on travaille
+let publishing = false;
 
 function setStatus(text, kind = "") {
   $("status").textContent = text;
@@ -17,9 +26,14 @@ function setStatus(text, kind = "") {
 
 function markDirty() {
   dirty = true;
-  setStatus(fileHandle
-    ? "Modifications non enregistrées."
-    : "Modifications non enregistrées. Clique sur « Enregistrer » pour récupérer le fichier.", "dirty");
+  setStatus(token
+    ? "Modifications non publiées. Clique sur « Publier sur GitHub » pour les mettre en ligne."
+    : "Modifications non publiées. Connecte-toi à GitHub ci-dessus pour pouvoir publier.", "dirty");
+  updatePublishButton();
+}
+
+function updatePublishButton() {
+  $("btn-publish").disabled = !token || !remoteSha || !dirty || publishing;
 }
 
 function toJSON() {
@@ -345,57 +359,151 @@ $("manga").addEventListener("change", (e) => {
   render();
 });
 
-// ---------- Fichier ----------
+// ---------- GitHub ----------
 
-async function openFile() {
+// UTF-8 <-> base64 (l'API GitHub transporte le fichier en base64)
+function toBase64(text) {
+  const bytes = new TextEncoder().encode(text);
+  let bin = "";
+  for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+  return btoa(bin);
+}
+function fromBase64(b64) {
+  const bin = atob(b64.replace(/\s/g, ""));
+  return new TextDecoder().decode(Uint8Array.from(bin, (ch) => ch.charCodeAt(0)));
+}
+
+async function gh(url, options = {}) {
+  const res = await fetch(url, {
+    ...options,
+    cache: "no-store",
+    headers: {
+      Accept: "application/vnd.github+json",
+      Authorization: `Bearer ${token}`,
+      "X-GitHub-Api-Version": "2022-11-28",
+      ...(options.body ? { "Content-Type": "application/json" } : {}),
+    },
+  });
+  let body = null;
+  try { body = await res.json(); } catch (e) {}
+  return { res, body };
+}
+
+function readToken() {
+  try { return localStorage.getItem(TOKEN_KEY); } catch (e) { return null; }
+}
+function storeToken(value) {
   try {
-    const [handle] = await window.showOpenFilePicker({
-      types: [{ description: "Fichier JSON", accept: { "application/json": [".json"] } }],
-    });
-    const parsed = JSON.parse(await (await handle.getFile()).text());
-    if (!isValid(parsed)) throw new Error("Ce fichier n'a pas le format de mangas.json.");
-    data = parsed;
-    fileHandle = handle;
+    if (value) localStorage.setItem(TOKEN_KEY, value);
+    else localStorage.removeItem(TOKEN_KEY);
+  } catch (e) {}
+}
+
+function showConnection() {
+  $("gh-connected").hidden = !token;
+  $("gh-form").hidden = !!token;
+  $("gh-login").textContent = login || "";
+  updatePublishButton();
+}
+
+// Vérifie le jeton : qui est connecté, et a-t-il le droit d'écrire dans le dépôt ?
+async function connect(value) {
+  token = value;
+  const me = await gh("https://api.github.com/user");
+  if (!me.res.ok) {
+    token = null;
+    throw new Error(me.res.status === 401 ? "Jeton invalide ou expiré." : `GitHub a répondu ${me.res.status}.`);
+  }
+  const repo = await gh(`https://api.github.com/repos/${GH_REPO}`);
+  if (!repo.res.ok || !(repo.body.permissions && repo.body.permissions.push)) {
+    token = null;
+    throw new Error("Ce jeton ne permet pas de modifier le dépôt Univers-Ranking (droit d'écriture manquant).");
+  }
+  login = me.body.login;
+  storeToken(value);
+}
+
+function disconnect() {
+  token = null;
+  login = null;
+  storeToken(null);
+  showConnection();
+  setStatus("Déconnecté. Le jeton a été effacé de ce navigateur.");
+}
+
+// Charge la dernière version publiée sur GitHub (plus fraîche que le site, qui peut avoir quelques minutes de retard)
+async function loadFromGitHub() {
+  const { res, body } = await gh(`${GH_API}?ref=${GH_BRANCH}`);
+  if (!res.ok) throw new Error(`Impossible de lire ${GH_PATH} sur GitHub (${res.status}).`);
+  const parsed = JSON.parse(fromBase64(body.content));
+  if (!isValid(parsed)) throw new Error(`${GH_PATH} sur GitHub n'a pas le format attendu.`);
+  data = parsed;
+  remoteSha = body.sha;
+  dirty = false;
+}
+
+async function publish() {
+  if (!token || !dirty || publishing) return;
+  publishing = true;
+  updatePublishButton();
+  setStatus("Publication en cours…");
+  const message = `Mise à jour des personnages depuis l'outil (${login})`;
+  const { res, body } = await gh(GH_API, {
+    method: "PUT",
+    body: JSON.stringify({ message, content: toBase64(toJSON()), sha: remoteSha, branch: GH_BRANCH }),
+  });
+  publishing = false;
+  if (res.ok) {
+    remoteSha = body.content.sha;
     dirty = false;
+    setStatus(`Publié à ${new Date().toLocaleTimeString("fr-FR")} ! Le site sera à jour pour tout le monde dans 1 à 2 minutes.`, "ok");
+  } else if (res.status === 409 || res.status === 422) {
+    setStatus("Quelqu'un a publié une autre modification entre-temps. Note tes changements, clique sur « Recharger », puis refais-les.", "err");
+  } else if (res.status === 401 || res.status === 403 || res.status === 404) {
+    setStatus("GitHub a refusé la publication : le jeton n'a pas (ou plus) le droit d'écrire dans le dépôt.", "err");
+  } else {
+    setStatus(`Erreur de publication (${res.status}) : ${(body && body.message) || "inconnue"}.`, "err");
+  }
+  updatePublishButton();
+}
+
+async function reload() {
+  if (dirty && !confirm("Recharger effacera tes modifications non publiées. Continuer ?")) return;
+  try {
+    if (token) await loadFromGitHub();
+    else { data = await loadData(); dirty = false; }
     renderSelect();
     render();
-    setStatus(`Fichier « ${handle.name} » ouvert. « Enregistrer » l'écrasera directement.`, "ok");
+    setStatus(token ? "Dernière version publiée chargée depuis GitHub." : "Liste du site rechargée.", "ok");
   } catch (err) {
-    if (err.name !== "AbortError") setStatus(`Erreur : ${err.message}`, "err");
+    setStatus(`Erreur : ${err.message}`, "err");
   }
+  updatePublishButton();
 }
 
-function download() {
-  const blob = new Blob([toJSON()], { type: "application/json" });
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(blob);
-  a.download = "mangas.json";
-  a.click();
-  URL.revokeObjectURL(a.href);
-}
-
-async function save() {
-  if (fileHandle) {
-    try {
-      const w = await fileHandle.createWritable();
-      await w.write(toJSON());
-      await w.close();
-      dirty = false;
-      setStatus(`Enregistré dans « ${fileHandle.name} » à ${new Date().toLocaleTimeString("fr-FR")}.`, "ok");
-    } catch (err) {
-      setStatus(`Erreur d'enregistrement : ${err.message}`, "err");
-    }
-    return;
+$("gh-form").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const value = $("gh-token").value.trim();
+  if (!value) return;
+  if (dirty && !confirm("Se connecter recharge la dernière version publiée et efface tes modifications non publiées. Continuer ?")) return;
+  setStatus("Vérification du jeton…");
+  try {
+    await connect(value);
+    $("gh-token").value = "";
+    await loadFromGitHub();
+    renderSelect();
+    render();
+    showConnection();
+    setStatus(`Connecté. Tu peux modifier la liste puis cliquer sur « Publier sur GitHub ».`, "ok");
+  } catch (err) {
+    showConnection();
+    setStatus(`Connexion impossible : ${err.message}`, "err");
   }
-  download();
-  dirty = false;
-  setStatus("Fichier mangas.json téléchargé : remplace data/mangas.json du projet par celui-ci.", "ok");
-}
+});
 
-$("btn-open").addEventListener("click", openFile);
-$("btn-save").addEventListener("click", save);
-$("btn-download").addEventListener("click", download);
-if (!canPickFile) $("btn-open").hidden = true;
+$("btn-logout").addEventListener("click", disconnect);
+$("btn-publish").addEventListener("click", publish);
+$("btn-reload").addEventListener("click", reload);
 
 window.addEventListener("beforeunload", (e) => {
   if (dirty) { e.preventDefault(); e.returnValue = ""; }
@@ -404,15 +512,27 @@ window.addEventListener("beforeunload", (e) => {
 // ---------- Démarrage ----------
 
 (async () => {
+  current = new URLSearchParams(location.search).get("manga") || "one-piece";
+  const saved = readToken();
   try {
-    data = await loadData();
-    if (!isValid(data)) throw new Error("data/mangas.json n'a pas le format attendu.");
-    current = new URLSearchParams(location.search).get("manga") || "one-piece";
+    if (saved) {
+      try {
+        await connect(saved);
+        await loadFromGitHub();
+      } catch (err) {
+        storeToken(null);
+        setStatus(`Reconnexion impossible : ${err.message} Colle un nouveau jeton.`, "err");
+      }
+    }
+    if (!data) {
+      data = await loadData();
+      if (!isValid(data)) throw new Error("data/mangas.json n'a pas le format attendu.");
+    }
     renderSelect();
     render();
-    setStatus(canPickFile
-      ? "Liste du site chargée. Pour enregistrer directement dans le projet, clique d'abord sur « Ouvrir data/mangas.json »."
-      : "Liste du site chargée. « Enregistrer » téléchargera le nouveau fichier mangas.json.");
+    showConnection();
+    if (token) setStatus(`Connecté. Dernière version publiée chargée depuis GitHub.`, "ok");
+    else if (!saved) setStatus("Liste du site chargée. Connecte-toi à GitHub pour pouvoir publier tes modifications.");
   } catch (err) {
     setStatus(`Erreur : ${err.message}`, "err");
   }
