@@ -94,8 +94,7 @@
           "image": "images/personnages/one-piece/roronoa-zoro.jpg",
           "tags": {
             "role": [
-              "Deutéragoniste",
-              "Second"
+              "Deutéragoniste"
             ],
             "style-de-combat": [
               "Épéiste",
@@ -107,7 +106,9 @@
               "Mauvais sens de l'orientation"
             ],
             "univers": [
-              "Haki des rois"
+              "Haki des rois",
+              "Pirate",
+              "Second"
             ],
             "physique": [
               "Humain",
