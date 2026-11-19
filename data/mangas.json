@@ -128,7 +128,22 @@
               "Allié"
             ],
             "style-de-combat": [
-              "Météo"
+              "Météo",
+              "Arme contondante"
+            ],
+            "caractere": [
+              "Serieux",
+              "Avare"
+            ],
+            "physique": [
+              "Jeune",
+              "Humain",
+              "Taille moyenne",
+              "Femme"
+            ],
+            "univers": [
+              "Pirate",
+              "Navigatrice"
             ]
           }
         },
