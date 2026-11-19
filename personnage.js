@@ -62,12 +62,13 @@ function render() {
   avatarBtn.appendChild(persoAvatar(perso, "avatar avatar-big"));
   const hint = document.createElement("span");
   hint.className = "avatar-edit-hint";
-  hint.textContent = "🖼️ Changer";
+  hint.textContent = "✏️";
+  hint.setAttribute("aria-hidden", "true");
   avatarBtn.appendChild(hint);
   section.prepend(avatarBtn);
   section.querySelector(".eyebrow").textContent = manga.title;
   section.querySelector("h1").textContent = perso.name;
-  section.querySelector("[data-act]").textContent = editing ? "✕ Fermer l'édition" : "✏️ Modifier les tags";
+  section.querySelector("[data-act=\"toggle-edit\"]").textContent = editing ? "✕ Fermer l'édition" : "✏️ Modifier les tags";
   head.appendChild(section);
 
   // Tags : un bloc par type de tag défini dans data.tags

@@ -338,12 +338,13 @@ footer { text-align: center; color: var(--muted); padding: 24px 0 40px; font-siz
 /* Portrait cliquable dans la fiche */
 .avatar-edit { position: relative; padding: 0; border: 0; background: none; cursor: pointer; border-radius: 20px; flex-shrink: 0; }
 .avatar-edit-hint {
-  position: absolute; left: 0; right: 0; bottom: 0;
-  padding: 6px 0; border-radius: 0 0 20px 20px;
-  background: rgba(15,16,32,.75); color: #fff; font: inherit; font-size: .8rem; font-weight: 700;
-  opacity: 0; transition: opacity .15s;
+  position: absolute; right: -6px; bottom: -6px;
+  width: 34px; height: 34px; display: grid; place-items: center;
+  border-radius: 50%; background: var(--accent); color: #fff; font-size: .95rem;
+  border: 3px solid var(--bg); box-shadow: 0 2px 6px rgba(0,0,0,.4);
+  transition: transform .15s;
 }
-.avatar-edit:hover .avatar-edit-hint, .avatar-edit:focus-visible .avatar-edit-hint { opacity: 1; }
+.avatar-edit:hover .avatar-edit-hint, .avatar-edit:focus-visible .avatar-edit-hint { transform: scale(1.12); }
 .avatar-edit:hover .avatar { border-color: var(--accent); }
 
 /* Fenêtre de recadrage */
