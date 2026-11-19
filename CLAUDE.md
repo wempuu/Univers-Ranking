@@ -28,6 +28,6 @@ Plain static HTML/CSS/JS — no build step, no dependencies, no tests yet. Pages
 - `style.css` — shared styles (color tokens on `:root`) for every page; includes `.grid` / `.card` for game listings.
 - All pages share the same header/nav (Accueil, Catalogue, Jeux); keep them in sync when editing.
 - `.nojekyll` — tells GitHub Pages to serve files as-is.
-- Cache busting: every page loads `style.css?v=N` and `*.js?v=N`. GitHub Pages caches files for 10 minutes, so a browser can mix new HTML with old JS after a deploy. When changing any CSS/JS, bump `N` in all `*.html` files (currently `v=8`; e.g. `sed -i "s/?v=8\"/?v=9\"/g" *.html`).
+- Cache busting: every page loads `style.css?v=N` and `*.js?v=N`. GitHub Pages caches files for 10 minutes, so a browser can mix new HTML with old JS after a deploy. When changing any CSS/JS, bump `N` in all `*.html` files (currently `v=9`; e.g. `sed -i "s/?v=9\"/?v=10\"/g" *.html`).
 
 To add a game: create `jeux/<game>.html` (+ `.js`), link `../style.css`, and in `jeux.html` replace the `.empty` block with a `.grid` of `<a class="card">` entries.

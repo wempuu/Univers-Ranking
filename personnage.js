@@ -105,7 +105,7 @@ function render() {
     if (editing) {
       const input = document.createElement("input");
       input.className = "tool-input tag-add";
-      input.placeholder = "+ ajouter une valeur";
+      input.placeholder = "+ ajouter un tag";
       input.setAttribute("list", "dl-tags");
       input.setAttribute("aria-label", `Ajouter : ${tag.label}`);
       input.addEventListener("focus", () => fillDatalist(tagSlug));
