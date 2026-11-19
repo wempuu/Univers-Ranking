@@ -31,3 +31,7 @@ Plain static HTML/CSS/JS — no build step, no dependencies, no tests yet. Pages
 - Cache busting: every page loads `style.css?v=N` and `*.js?v=N`. GitHub Pages caches files for 10 minutes, so a browser can mix new HTML with old JS after a deploy. When changing any CSS/JS, bump `N` in all `*.html` files (currently `v=10`; e.g. `sed -i "s/?v=10\"/?v=11\"/g" *.html`).
 
 To add a game: create `jeux/<game>.html` (+ `.js`), link `../style.css`, and in `jeux.html` replace the `.empty` block with a `.grid` of `<a class="card">` entries.
+
+## Workflow
+
+- Always ask the user before every `git push`, for each change, even small ones and even if earlier pushes were approved. Commit locally, then ask; push only after a fresh yes.
