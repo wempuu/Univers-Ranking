@@ -215,6 +215,20 @@
             "style-de-combat": [
               "Transformation",
               "Médecine"
+            ],
+            "physique": [
+              "Animaux",
+              "Masculin",
+              "Jeune",
+              "Petite taille"
+            ],
+            "univers": [
+              "Medecin",
+              "Pirate",
+              "Zoan"
+            ],
+            "caractere": [
+              "Peureux"
             ]
           }
         },
