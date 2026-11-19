@@ -6,7 +6,16 @@
     },
     "role": {
       "label": "Rôle",
-      "values": ["Protagoniste", "Deutéragoniste", "Antagoniste", "Antihéros", "Allié", "Rival", "Mentor", "Personnage secondaire"]
+      "values": [
+        "Protagoniste",
+        "Deutéragoniste",
+        "Antagoniste",
+        "Antihéros",
+        "Allié",
+        "Rival",
+        "Mentor",
+        "Personnage secondaire"
+      ]
     }
   },
   "mangas": {
@@ -170,9 +179,22 @@
           }
         },
         {
-          "name": "Shanks",
+          "name": "Gol D. Roger",
           "group": "pirates",
-          "image": "images/personnages/one-piece/shanks.jpg",
+          "image": "images/personnages/one-piece/gol-d-roger.jpg",
+          "tags": {
+            "role": [
+              "Personnage secondaire"
+            ],
+            "style-de-combat": [
+              "Épéiste"
+            ]
+          }
+        },
+        {
+          "name": "Silvers Rayleigh",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/silvers-rayleigh.jpg",
           "tags": {
             "role": [
               "Mentor"
@@ -183,12 +205,12 @@
           }
         },
         {
-          "name": "Gol D. Roger",
+          "name": "Shanks",
           "group": "pirates",
-          "image": "images/personnages/one-piece/gol-d-roger.jpg",
+          "image": "images/personnages/one-piece/shanks.jpg",
           "tags": {
             "role": [
-              "Personnage secondaire"
+              "Mentor"
             ],
             "style-de-combat": [
               "Épéiste"
@@ -210,16 +232,16 @@
           }
         },
         {
-          "name": "Marshall D. Teach (Barbe Noire)",
+          "name": "Marco",
           "group": "pirates",
-          "image": "images/personnages/one-piece/marshall-d-teach-barbe-noire.jpg",
+          "image": "images/personnages/one-piece/marco.jpg",
           "tags": {
             "role": [
-              "Antagoniste"
+              "Allié"
             ],
             "style-de-combat": [
-              "Ténèbres",
-              "Séismes"
+              "Transformation",
+              "Régénération"
             ]
           }
         },
@@ -233,6 +255,20 @@
             ],
             "style-de-combat": [
               "Feu"
+            ]
+          }
+        },
+        {
+          "name": "Marshall D. Teach (Barbe Noire)",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/marshall-d-teach-barbe-noire.jpg",
+          "tags": {
+            "role": [
+              "Antagoniste"
+            ],
+            "style-de-combat": [
+              "Ténèbres",
+              "Séismes"
             ]
           }
         },
@@ -267,15 +303,59 @@
           }
         },
         {
-          "name": "Charlotte Linlin (Big Mom)",
+          "name": "Yamato",
           "group": "pirates",
-          "image": "images/personnages/one-piece/charlotte-linlin-big-mom.jpg",
+          "image": "images/personnages/one-piece/yamato.jpg",
+          "tags": {
+            "role": [
+              "Allié"
+            ],
+            "style-de-combat": [
+              "Arme contondante",
+              "Glace",
+              "Transformation"
+            ]
+          }
+        },
+        {
+          "name": "King",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/king.jpg",
           "tags": {
             "role": [
               "Antagoniste"
             ],
             "style-de-combat": [
-              "Manipulation des âmes"
+              "Épéiste",
+              "Feu",
+              "Transformation"
+            ]
+          }
+        },
+        {
+          "name": "Queen",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/queen.jpg",
+          "tags": {
+            "role": [
+              "Antagoniste"
+            ],
+            "style-de-combat": [
+              "Cyborg",
+              "Transformation"
+            ]
+          }
+        },
+        {
+          "name": "Jack",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/jack.jpg",
+          "tags": {
+            "role": [
+              "Antagoniste"
+            ],
+            "style-de-combat": [
+              "Transformation"
             ]
           }
         },
@@ -373,62 +453,6 @@
           }
         },
         {
-          "name": "Silvers Rayleigh",
-          "group": "pirates",
-          "image": "images/personnages/one-piece/silvers-rayleigh.jpg",
-          "tags": {
-            "role": [
-              "Mentor"
-            ],
-            "style-de-combat": [
-              "Épéiste"
-            ]
-          }
-        },
-        {
-          "name": "Marco",
-          "group": "pirates",
-          "image": "images/personnages/one-piece/marco.jpg",
-          "tags": {
-            "role": [
-              "Allié"
-            ],
-            "style-de-combat": [
-              "Transformation",
-              "Régénération"
-            ]
-          }
-        },
-        {
-          "name": "Yamato",
-          "group": "pirates",
-          "image": "images/personnages/one-piece/yamato.jpg",
-          "tags": {
-            "role": [
-              "Allié"
-            ],
-            "style-de-combat": [
-              "Arme contondante",
-              "Glace",
-              "Transformation"
-            ]
-          }
-        },
-        {
-          "name": "Charlotte Katakuri",
-          "group": "pirates",
-          "image": "images/personnages/one-piece/charlotte-katakuri.jpg",
-          "tags": {
-            "role": [
-              "Antagoniste"
-            ],
-            "style-de-combat": [
-              "Arme d'hast",
-              "Corps malléable"
-            ]
-          }
-        },
-        {
           "name": "Jewelry Bonney",
           "group": "pirates",
           "image": "images/personnages/one-piece/jewelry-bonney.jpg",
@@ -442,35 +466,6 @@
           }
         },
         {
-          "name": "King",
-          "group": "pirates",
-          "image": "images/personnages/one-piece/king.jpg",
-          "tags": {
-            "role": [
-              "Antagoniste"
-            ],
-            "style-de-combat": [
-              "Épéiste",
-              "Feu",
-              "Transformation"
-            ]
-          }
-        },
-        {
-          "name": "Queen",
-          "group": "pirates",
-          "image": "images/personnages/one-piece/queen.jpg",
-          "tags": {
-            "role": [
-              "Antagoniste"
-            ],
-            "style-de-combat": [
-              "Cyborg",
-              "Transformation"
-            ]
-          }
-        },
-        {
           "name": "Gecko Moria",
           "group": "pirates",
           "image": "images/personnages/one-piece/gecko-moria.jpg",
@@ -480,6 +475,19 @@
             ],
             "style-de-combat": [
               "Ombres"
+            ]
+          }
+        },
+        {
+          "name": "Perona",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/perona.jpg",
+          "tags": {
+            "role": [
+              "Antagoniste"
+            ],
+            "style-de-combat": [
+              "Esprits"
             ]
           }
         },
@@ -524,46 +532,6 @@
           }
         },
         {
-          "name": "Perona",
-          "group": "pirates",
-          "image": "images/personnages/one-piece/perona.jpg",
-          "tags": {
-            "role": [
-              "Antagoniste"
-            ],
-            "style-de-combat": [
-              "Esprits"
-            ]
-          }
-        },
-        {
-          "name": "Jack",
-          "group": "pirates",
-          "image": "images/personnages/one-piece/jack.jpg",
-          "tags": {
-            "role": [
-              "Antagoniste"
-            ],
-            "style-de-combat": [
-              "Transformation"
-            ]
-          }
-        },
-        {
-          "name": "Charlotte Pudding",
-          "group": "pirates",
-          "image": "images/personnages/one-piece/charlotte-pudding.jpg",
-          "tags": {
-            "role": [
-              "Antagoniste",
-              "Allié"
-            ],
-            "style-de-combat": [
-              "Manipulation de la mémoire"
-            ]
-          }
-        },
-        {
           "name": "Zeff",
           "group": "pirates",
           "image": "images/personnages/one-piece/zeff.jpg",
@@ -591,16 +559,56 @@
           }
         },
         {
-          "name": "Charlotte Cracker",
+          "name": "Charlotte Linlin (Big Mom)",
           "group": "pirates",
-          "image": "images/personnages/one-piece/charlotte-cracker.jpg",
+          "image": "images/personnages/one-piece/charlotte-linlin-big-mom.jpg",
           "tags": {
             "role": [
               "Antagoniste"
             ],
             "style-de-combat": [
-              "Épéiste",
-              "Invocation"
+              "Manipulation des âmes"
+            ]
+          }
+        },
+        {
+          "name": "Charlotte Katakuri",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/charlotte-katakuri.jpg",
+          "tags": {
+            "role": [
+              "Antagoniste"
+            ],
+            "style-de-combat": [
+              "Arme d'hast",
+              "Corps malléable"
+            ]
+          }
+        },
+        {
+          "name": "Charlotte Pudding",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/charlotte-pudding.jpg",
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Allié"
+            ],
+            "style-de-combat": [
+              "Manipulation de la mémoire"
+            ]
+          }
+        },
+        {
+          "name": "Charlotte Perospero",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/charlotte-perospero.jpg",
+          "tags": {
+            "role": [
+              "Antagoniste"
+            ],
+            "style-de-combat": [
+              "Création d'objets"
             ]
           }
         },
@@ -619,15 +627,16 @@
           }
         },
         {
-          "name": "Charlotte Perospero",
+          "name": "Charlotte Cracker",
           "group": "pirates",
-          "image": "images/personnages/one-piece/charlotte-perospero.jpg",
+          "image": "images/personnages/one-piece/charlotte-cracker.jpg",
           "tags": {
             "role": [
               "Antagoniste"
             ],
             "style-de-combat": [
-              "Création d'objets"
+              "Épéiste",
+              "Invocation"
             ]
           }
         },
@@ -645,15 +654,16 @@
           }
         },
         {
-          "name": "Monkey D. Garp",
+          "name": "Saint Jaygarcia Saturn",
           "group": "marine",
-          "image": "images/personnages/one-piece/monkey-d-garp.jpg",
+          "image": "images/personnages/one-piece/saint-jaygarcia-saturn.jpg",
           "tags": {
             "role": [
-              "Mentor"
+              "Antagoniste"
             ],
             "style-de-combat": [
-              "Combat à mains nues"
+              "Transformation",
+              "Régénération"
             ]
           }
         },
@@ -697,70 +707,15 @@
           }
         },
         {
-          "name": "Koby",
+          "name": "Aramaki (Ryokugyu)",
           "group": "marine",
-          "image": "images/personnages/one-piece/koby.jpg",
-          "tags": {
-            "role": [
-              "Rival"
-            ],
-            "style-de-combat": [
-              "Combat à mains nues"
-            ]
-          }
-        },
-        {
-          "name": "Sengoku",
-          "group": "marine",
-          "image": "images/personnages/one-piece/sengoku.jpg",
+          "image": "images/personnages/one-piece/aramaki-ryokugyu.jpg",
           "tags": {
             "role": [
               "Antagoniste"
             ],
             "style-de-combat": [
-              "Transformation",
-              "Ondes de choc"
-            ]
-          }
-        },
-        {
-          "name": "Smoker",
-          "group": "marine",
-          "image": "images/personnages/one-piece/smoker.jpg",
-          "tags": {
-            "role": [
-              "Rival"
-            ],
-            "style-de-combat": [
-              "Fumée",
-              "Arme contondante"
-            ]
-          }
-        },
-        {
-          "name": "Saint Jaygarcia Saturn",
-          "group": "marine",
-          "image": "images/personnages/one-piece/saint-jaygarcia-saturn.jpg",
-          "tags": {
-            "role": [
-              "Antagoniste"
-            ],
-            "style-de-combat": [
-              "Transformation",
-              "Régénération"
-            ]
-          }
-        },
-        {
-          "name": "Dr. Vegapunk",
-          "group": "marine",
-          "image": "images/personnages/one-piece/dr-vegapunk.jpg",
-          "tags": {
-            "role": [
-              "Allié"
-            ],
-            "style-de-combat": [
-              "Technologie"
+              "Plantes"
             ]
           }
         },
@@ -779,15 +734,69 @@
           }
         },
         {
-          "name": "Aramaki (Ryokugyu)",
+          "name": "Sengoku",
           "group": "marine",
-          "image": "images/personnages/one-piece/aramaki-ryokugyu.jpg",
+          "image": "images/personnages/one-piece/sengoku.jpg",
           "tags": {
             "role": [
               "Antagoniste"
             ],
             "style-de-combat": [
-              "Plantes"
+              "Transformation",
+              "Ondes de choc"
+            ]
+          }
+        },
+        {
+          "name": "Monkey D. Garp",
+          "group": "marine",
+          "image": "images/personnages/one-piece/monkey-d-garp.jpg",
+          "tags": {
+            "role": [
+              "Mentor"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues"
+            ]
+          }
+        },
+        {
+          "name": "Koby",
+          "group": "marine",
+          "image": "images/personnages/one-piece/koby.jpg",
+          "tags": {
+            "role": [
+              "Rival"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues"
+            ]
+          }
+        },
+        {
+          "name": "Smoker",
+          "group": "marine",
+          "image": "images/personnages/one-piece/smoker.jpg",
+          "tags": {
+            "role": [
+              "Rival"
+            ],
+            "style-de-combat": [
+              "Fumée",
+              "Arme contondante"
+            ]
+          }
+        },
+        {
+          "name": "Dr. Vegapunk",
+          "group": "marine",
+          "image": "images/personnages/one-piece/dr-vegapunk.jpg",
+          "tags": {
+            "role": [
+              "Allié"
+            ],
+            "style-de-combat": [
+              "Technologie"
             ]
           }
         },
