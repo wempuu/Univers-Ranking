@@ -246,23 +246,26 @@
           "tags": {
             "role": [
               "Allié",
-              "Criminel"
+              "Criminel",
+              "Archéologue"
             ],
             "style-de-combat": [
-              "Clonage"
+              "Clonage",
+              "Combat à mains nues"
             ],
             "caractere": [
               "Humeur noir",
-              "Intelligente"
+              "Intelligent"
             ],
             "univers": [
-              "Archéologue",
-              "Paramécia"
+              "Paramécia",
+              "Pirate"
             ],
             "physique": [
-              "Femme",
               "Mature",
-              "Taille moyenne"
+              "Taille moyenne",
+              "Feminin",
+              "Humain"
             ]
           }
         },
