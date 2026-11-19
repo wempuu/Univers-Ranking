@@ -23,6 +23,19 @@ async function loadMangas() {
   return (await loadData()).mangas;
 }
 
+function isValidData(d) {
+  return !!d && typeof d === "object" && !!d.tags && !!d.mangas &&
+    Object.values(d.mangas).every((m) => Array.isArray(m.characters) && m.characters.every((c) => typeof c.name === "string"));
+}
+
+// Toutes les valeurs déjà utilisées pour un tag (tous mangas confondus), pour les suggestions
+function knownTagValues(data, tagSlug) {
+  const set = new Set();
+  Object.values(data.mangas).forEach((m) =>
+    m.characters.forEach((c) => ((c.tags && c.tags[tagSlug]) || []).forEach((v) => set.add(v))));
+  return [...set].sort((a, b) => a.localeCompare(b, "fr"));
+}
+
 // Découpe les personnages par catégorie, dans l'ordre de manga.groups.
 // Un perso sans catégorie connue va dans la dernière. Sans catégories : un seul bloc sans titre.
 function groupCharacters(manga) {

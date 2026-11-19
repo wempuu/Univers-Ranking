@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Outil d'édition · Univers Ranking</title>
+  <title>Modifier la liste · Univers Ranking</title>
   <meta name="robots" content="noindex">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=6">
+  <link rel="stylesheet" href="style.css?v=7">
 </head>
 <body>
   <header class="wrap site">
@@ -21,46 +21,11 @@
 
   <main class="wrap">
     <section class="hero" style="padding:32px 0 16px">
-      <h1>Outil d'édition</h1>
-      <p>Modifie les personnages et leurs tags, puis publie : le site est mis à jour pour tout le monde.</p>
+      <h1>Modifier la liste</h1>
+      <p>Noms des personnages, catégories et ordre. Les tags se modifient dans la fiche de chaque personnage.</p>
     </section>
 
-    <section class="gh-box" id="gh-box">
-      <div class="gh-connected" id="gh-connected" hidden>
-        <span>✅ Connecté à GitHub en tant que <strong id="gh-login"></strong></span>
-        <button class="btn ghost small" id="btn-logout" type="button">Se déconnecter</button>
-      </div>
-      <form class="gh-login-form" id="gh-form">
-        <label for="gh-token"><strong>Connexion GitHub</strong> — colle ton jeton d'accès pour pouvoir publier</label>
-        <div class="tool-bar" style="margin:8px 0 0">
-          <input class="tool-input" id="gh-token" type="password" placeholder="github_pat_… ou ghp_…" autocomplete="off" spellcheck="false">
-          <button class="btn" type="submit">Se connecter</button>
-        </div>
-        <details class="gh-help">
-          <summary>Comment obtenir un jeton ?</summary>
-          <ol>
-            <li>Le propriétaire du dépôt doit t'avoir ajouté comme collaborateur (Settings → Collaborators), sauf si c'est ton dépôt.</li>
-            <li>Sur GitHub : photo de profil → <b>Settings</b> → <b>Developer settings</b> → <b>Personal access tokens</b>.</li>
-            <li><b>Propriétaire du dépôt :</b> « Fine-grained tokens » → Generate new token → Repository access : <i>Only select repositories</i> → <b>Univers-Ranking</b> → Permissions : <b>Contents : Read and write</b>.</li>
-            <li><b>Collaborateur :</b> « Tokens (classic) » → Generate new token → coche uniquement <b>public_repo</b>.</li>
-            <li>Copie le jeton et colle-le ici. Il reste uniquement dans ce navigateur.</li>
-          </ol>
-        </details>
-      </form>
-    </section>
-
-    <div class="tool-bar" id="branch-bar" hidden>
-      <label for="branch" class="muted-small">Branche</label>
-      <select id="branch"></select>
-      <button class="btn ghost small" id="btn-new-branch" type="button">＋ Nouvelle branche</button>
-      <span class="branch-warn" id="branch-warn" hidden>⚠️ Seule la branche <b>main</b> est visible sur le site.</span>
-    </div>
-
-    <div class="tool-bar">
-      <button class="btn" id="btn-publish" type="button" disabled>🚀 Publier sur GitHub</button>
-      <button class="btn ghost" id="btn-reload" type="button">↻ Recharger</button>
-    </div>
-    <p class="tool-status" id="status">Chargement…</p>
+    <div id="gh-panel"></div>
 
     <div class="tool-bar">
       <label for="manga" class="muted-small">Manga</label>
@@ -79,10 +44,10 @@
     </form>
 
     <ul class="edit-list" id="list"></ul>
-    <div id="datalists"></div>
   </main>
 
-  <script src="common.js?v=6"></script>
-  <script src="outil.js?v=6"></script>
+  <script src="common.js?v=7"></script>
+  <script src="github-panel.js?v=7"></script>
+  <script src="outil.js?v=7"></script>
 </body>
 </html>
