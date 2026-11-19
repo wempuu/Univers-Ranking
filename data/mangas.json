@@ -187,17 +187,18 @@
           "tags": {
             "role": [
               "Allié",
-              "Criminel"
+              "Criminel",
+              "Cuisinier"
             ],
             "style-de-combat": [
               "Combat aux jambes",
               "Feu"
             ],
             "caractere": [
-              "Triste"
+              "Triste",
+              "Serieux"
             ],
             "univers": [
-              "Cuisinier",
               "Haki des rois",
               "Pirate"
             ],
