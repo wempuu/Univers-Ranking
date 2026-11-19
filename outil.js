@@ -30,6 +30,28 @@ function list() {
   return data.mangas[current].characters;
 }
 
+function groups() {
+  return data.mangas[current].groups || [];
+}
+
+// Catégorie effective d'un perso (catégorie inconnue => la dernière)
+function groupOf(c) {
+  const ids = groups().map((g) => g.id);
+  return ids.includes(c.group) ? c.group : ids[ids.length - 1];
+}
+
+// Garde la liste rangée par catégorie (tri stable : l'ordre dans chaque catégorie est conservé)
+function normalize() {
+  const ids = groups().map((g) => g.id);
+  if (ids.length === 0) return;
+  const chars = list();
+  const sorted = chars
+    .map((c, i) => ({ c, i, g: ids.indexOf(groupOf(c)) }))
+    .sort((a, b) => a.g - b.g || a.i - b.i)
+    .map((x) => x.c);
+  chars.splice(0, chars.length, ...sorted);
+}
+
 function isValid(d) {
   return d && typeof d === "object" && d.tags && d.mangas &&
     Object.values(d.mangas).every((m) => Array.isArray(m.characters) && m.characters.every((c) => typeof c.name === "string"));
@@ -73,14 +95,42 @@ function renderDatalists() {
   });
 }
 
+function renderAddGroup() {
+  const sel = $("add-group");
+  const previous = sel.value;
+  sel.innerHTML = "";
+  groups().forEach((g) => {
+    const opt = document.createElement("option");
+    opt.value = g.id;
+    opt.textContent = g.label;
+    sel.appendChild(opt);
+  });
+  if (groups().some((g) => g.id === previous)) sel.value = previous;
+  sel.hidden = groups().length === 0;
+}
+
 function render() {
+  normalize();
   const chars = list();
   const slugs = chars.map((c) => slugify(c.name));
   const ul = $("list");
   ul.innerHTML = "";
   renderDatalists();
+  renderAddGroup();
+  const hasGroups = groups().length > 0;
 
   chars.forEach((c, i) => {
+    const g = hasGroups ? groupOf(c) : null;
+    const prevSame = i > 0 && (!hasGroups || groupOf(chars[i - 1]) === g);
+    const nextSame = i < chars.length - 1 && (!hasGroups || groupOf(chars[i + 1]) === g);
+
+    if (hasGroups && (i === 0 || groupOf(chars[i - 1]) !== g)) {
+      const head = document.createElement("li");
+      head.className = "group-head";
+      head.textContent = groups().find((x) => x.id === g).label;
+      ul.appendChild(head);
+    }
+
     const li = document.createElement("li");
     li.draggable = true;
     li.dataset.index = i;
@@ -99,8 +149,22 @@ function render() {
       </div>
       <div class="row-tags"></div>`;
     li.querySelector(".name-input").value = c.name;
-    li.querySelector('[data-act="up"]').disabled = i === 0;
-    li.querySelector('[data-act="down"]').disabled = i === chars.length - 1;
+    li.querySelector('[data-act="up"]').disabled = !prevSame;
+    li.querySelector('[data-act="down"]').disabled = !nextSame;
+
+    if (hasGroups) {
+      const sel = document.createElement("select");
+      sel.className = "group-select";
+      sel.setAttribute("aria-label", "Catégorie");
+      groups().forEach((grp) => {
+        const opt = document.createElement("option");
+        opt.value = grp.id;
+        opt.textContent = grp.label;
+        sel.appendChild(opt);
+      });
+      sel.value = g;
+      li.querySelector(".name-input").after(sel);
+    }
 
     const tagsBox = li.querySelector(".row-tags");
     Object.entries(data.tags).forEach(([tagSlug, tag]) => {
@@ -140,11 +204,24 @@ function render() {
 
 // ---------- Actions sur la liste ----------
 
+// Déplace un perso à la place d'un autre ; il prend la catégorie de la cible
 function move(from, to) {
   const chars = list();
   if (to < 0 || to >= chars.length || from === to) return;
+  const target = chars[to];
   const [item] = chars.splice(from, 1);
+  if (groups().length) item.group = groupOf(target);
   chars.splice(to, 0, item);
+  markDirty();
+  render();
+}
+
+// Change de catégorie : le perso passe à la fin de sa nouvelle catégorie
+function setGroup(i, groupId) {
+  const chars = list();
+  const [item] = chars.splice(i, 1);
+  item.group = groupId;
+  chars.push(item);
   markDirty();
   render();
 }
@@ -202,6 +279,10 @@ $("list").addEventListener("input", (e) => {
 });
 $("list").addEventListener("change", (e) => {
   const i = Number(e.target.closest("li")?.dataset.index);
+  if (e.target.classList.contains("group-select")) {
+    setGroup(i, e.target.value);
+    return;
+  }
   if (e.target.classList.contains("name-input")) {
     const value = e.target.value.trim();
     if (value) list()[i].name = value;
@@ -217,21 +298,21 @@ $("list").addEventListener("change", (e) => {
 let dragFrom = null;
 $("list").addEventListener("dragstart", (e) => {
   const li = e.target.closest("li");
-  if (!li || e.target.tagName === "INPUT") return;
+  if (!li || !li.dataset.index || e.target.tagName === "INPUT") return;
   dragFrom = Number(li.dataset.index);
   li.classList.add("dragging");
   e.dataTransfer.effectAllowed = "move";
 });
 $("list").addEventListener("dragover", (e) => {
   const li = e.target.closest("li");
-  if (dragFrom === null || !li) return;
+  if (dragFrom === null || !li || !li.dataset.index) return;
   e.preventDefault();
   document.querySelectorAll(".drop-target").forEach((el) => el.classList.remove("drop-target"));
   li.classList.add("drop-target");
 });
 $("list").addEventListener("drop", (e) => {
   const li = e.target.closest("li");
-  if (dragFrom === null || !li) return;
+  if (dragFrom === null || !li || !li.dataset.index) return;
   e.preventDefault();
   move(dragFrom, Number(li.dataset.index));
 });
@@ -249,13 +330,14 @@ $("add-form").addEventListener("submit", (e) => {
     setStatus(`« ${name} » est déjà dans la liste.`, "err");
     return;
   }
-  const perso = { name, tags: {} };
+  const perso = groups().length ? { name, group: $("add-group").value, tags: {} } : { name, tags: {} };
   if ($("add-where").value === "start") list().unshift(perso);
   else list().push(perso);
   $("add-name").value = "";
   markDirty();
   render();
-  if ($("add-where").value === "end") window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+  const row = $("list").querySelector(`li[data-index="${list().indexOf(perso)}"]`);
+  if (row) row.scrollIntoView({ behavior: "smooth", block: "center" });
 });
 
 $("manga").addEventListener("change", (e) => {

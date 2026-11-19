@@ -36,15 +36,24 @@
     return;
   }
 
-  const list = document.createElement("ul");
-  list.className = "char-list";
-  manga.characters.forEach(({ name }) => {
-    const li = document.createElement("li");
-    const a = document.createElement("a");
-    a.href = `personnage.html?manga=${encodeURIComponent(slug)}&perso=${encodeURIComponent(slugify(name))}`;
-    a.textContent = name;
-    li.appendChild(a);
-    list.appendChild(li);
+  groupCharacters(manga).forEach((group) => {
+    if (group.characters.length === 0) return;
+    if (group.label) {
+      const h2 = document.createElement("h2");
+      h2.className = "section-title";
+      h2.textContent = group.label;
+      content.appendChild(h2);
+    }
+    const list = document.createElement("ul");
+    list.className = "char-list";
+    group.characters.forEach(({ name }) => {
+      const li = document.createElement("li");
+      const a = document.createElement("a");
+      a.href = `personnage.html?manga=${encodeURIComponent(slug)}&perso=${encodeURIComponent(slugify(name))}`;
+      a.textContent = name;
+      li.appendChild(a);
+      list.appendChild(li);
+    });
+    content.appendChild(list);
   });
-  content.appendChild(list);
 })();

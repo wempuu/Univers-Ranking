@@ -127,7 +127,9 @@ a.card:hover { transform: translateY(-4px); border-color: var(--accent); }
 .manga-head-cover { width: 110px; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 12px; flex-shrink: 0; }
 .manga-head h1 { font-size: clamp(1.8rem, 5vw, 2.8rem); margin: 0; line-height: 1.1; }
 
-.char-list { list-style: none; padding: 0; margin: 0 0 64px; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 8px; }
+.char-list { list-style: none; padding: 0; margin: 0 0 36px; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 8px; }
+#content > .section-title { margin: 0 0 12px; }
+#content > .char-list:last-child { margin-bottom: 64px; }
 .char-list a {
   display: block;
   height: 100%;
@@ -247,3 +249,27 @@ footer { text-align: center; color: var(--muted); padding: 24px 0 40px; font-siz
 .edit-link { display: inline-block; margin-top: 10px; font-size: .9rem; color: var(--muted); }
 .edit-link:hover { color: var(--text); }
 [hidden] { display: none !important; }
+
+/* Catégories dans l'outil */
+.edit-list li.group-head {
+  background: transparent;
+  border: 0;
+  padding: 18px 4px 4px;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+.edit-list li.group-head:first-child { padding-top: 0; }
+.edit-list .group-select {
+  font: inherit;
+  font-size: .8rem;
+  color: var(--muted);
+  background: #2c2f5c;
+  border: 0;
+  border-radius: 8px;
+  padding: 6px 4px;
+  max-width: 130px;
+}
+@media (max-width: 560px) {
+  .edit-list .group-select { max-width: 90px; }
+  .edit-list .row-tags { padding-left: 4px; }
+}

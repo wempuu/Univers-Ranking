@@ -23,6 +23,19 @@ async function loadMangas() {
   return (await loadData()).mangas;
 }
 
+// Découpe les personnages par catégorie, dans l'ordre de manga.groups.
+// Un perso sans catégorie connue va dans la dernière. Sans catégories : un seul bloc sans titre.
+function groupCharacters(manga) {
+  const groups = manga.groups || [];
+  if (groups.length === 0) return [{ id: null, label: null, characters: manga.characters }];
+  const ids = groups.map((g) => g.id);
+  const fallback = ids[ids.length - 1];
+  return groups.map((g) => ({
+    ...g,
+    characters: manga.characters.filter((c) => (ids.includes(c.group) ? c.group : fallback) === g.id),
+  }));
+}
+
 function emptyBlock(emoji, title, text) {
   const div = document.createElement("div");
   div.className = "empty";

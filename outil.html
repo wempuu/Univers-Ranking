@@ -7,7 +7,7 @@
   <meta name="robots" content="noindex">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=3">
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
   <header class="wrap site">
@@ -40,9 +40,10 @@
 
     <form class="tool-bar" id="add-form">
       <input class="tool-input" id="add-name" placeholder="Nom du personnage à ajouter" autocomplete="off">
+      <select id="add-group" aria-label="Catégorie"></select>
       <select id="add-where" aria-label="Où ajouter">
-        <option value="end">à la fin</option>
-        <option value="start">au début</option>
+        <option value="end">en dernier</option>
+        <option value="start">en premier</option>
       </select>
       <button class="btn" type="submit">➕ Ajouter</button>
     </form>
@@ -51,7 +52,7 @@
     <div id="datalists"></div>
   </main>
 
-  <script src="common.js?v=3"></script>
-  <script src="outil.js?v=3"></script>
+  <script src="common.js?v=4"></script>
+  <script src="outil.js?v=4"></script>
 </body>
 </html>
