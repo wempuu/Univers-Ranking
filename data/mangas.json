@@ -173,7 +173,8 @@
           "tags": {
             "role": [
               "Allié",
-              "Criminel"
+              "Criminel",
+              "Inventeur"
             ],
             "style-de-combat": [
               "Tireur",
@@ -182,7 +183,6 @@
             "caractere": [
               "Drole",
               "Peureux",
-              "Intelligent",
               "Menteur"
             ],
             "physique": [
