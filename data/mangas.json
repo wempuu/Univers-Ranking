@@ -1147,12 +1147,12 @@
         {
           "name": "Jesus Burgess",
           "group": "pirates",
-          "image": "images/personnages/one-piece/jesus-burgess.jpg",
+          "image": "images/personnages/one-piece/jesus-burgess.jpg?v=1795248347202",
           "imageSource": "images/personnages/one-piece/originaux/jesus-burgess.jpg",
           "imageCrop": {
             "x": 0.36044,
             "y": 0.12719,
-            "w": 0.28
+            "w": 0.28011
           },
           "tags": {}
         },
