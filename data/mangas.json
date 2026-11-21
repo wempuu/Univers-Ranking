@@ -1171,12 +1171,12 @@
         {
           "name": "Bepo",
           "group": "pirates",
-          "image": "images/personnages/one-piece/bepo.jpg",
+          "image": "images/personnages/one-piece/bepo.jpg?v=1795248183952",
           "imageSource": "images/personnages/one-piece/originaux/bepo.jpg",
           "imageCrop": {
-            "x": 0.43991,
-            "y": 0.08251,
-            "w": 0.28
+            "x": 0.36895,
+            "y": 0.0739,
+            "w": 0.35842
           },
           "tags": {}
         },
