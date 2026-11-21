@@ -656,12 +656,12 @@
         {
           "name": "Donquixote Doflamingo",
           "group": "pirates",
-          "image": "images/personnages/one-piece/donquixote-doflamingo.jpg",
+          "image": "images/personnages/one-piece/donquixote-doflamingo.jpg?v=1795248994758",
           "imageSource": "images/personnages/one-piece/originaux/donquixote-doflamingo.jpg",
           "imageCrop": {
-            "x": 0.435,
-            "y": 0.13611,
-            "w": 0.11
+            "x": 0.40453,
+            "y": 0.14622,
+            "w": 0.14654
           },
           "tags": {
             "role": [
