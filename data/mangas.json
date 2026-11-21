@@ -57,6 +57,12 @@
           "name": "Monkey D. Luffy",
           "group": "pirates",
           "image": "images/personnages/one-piece/monkey-d-luffy.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/monkey-d-luffy.jpg",
+          "imageCrop": {
+            "x": 0.24457,
+            "y": 0,
+            "w": 0.45
+          },
           "tags": {
             "role": [
               "Protagoniste",
@@ -91,6 +97,12 @@
           "name": "Roronoa Zoro",
           "group": "pirates",
           "image": "images/personnages/one-piece/roronoa-zoro.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/roronoa-zoro.jpg",
+          "imageCrop": {
+            "x": 0.37569,
+            "y": 0.01267,
+            "w": 0.32
+          },
           "tags": {
             "role": [
               "Criminel",
@@ -121,6 +133,12 @@
           "name": "Nami",
           "group": "pirates",
           "image": "images/personnages/one-piece/nami.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/nami.jpg",
+          "imageCrop": {
+            "x": 0.25728,
+            "y": 0.00832,
+            "w": 0.5
+          },
           "tags": {
             "role": [
               "Allié",
@@ -151,6 +169,12 @@
           "name": "Usopp",
           "group": "pirates",
           "image": "images/personnages/one-piece/usopp.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/usopp.jpg",
+          "imageCrop": {
+            "x": 0.429,
+            "y": 0.018,
+            "w": 0.22
+          },
           "tags": {
             "role": [
               "Allié",
@@ -180,6 +204,12 @@
           "name": "Sanji",
           "group": "pirates",
           "image": "images/personnages/one-piece/sanji.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/sanji.jpg",
+          "imageCrop": {
+            "x": 0.25079,
+            "y": 0.01089,
+            "w": 0.3
+          },
           "tags": {
             "role": [
               "Allié",
@@ -209,6 +239,12 @@
           "name": "Tony Tony Chopper",
           "group": "pirates",
           "image": "images/personnages/one-piece/tony-tony-chopper.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/tony-tony-chopper.jpg",
+          "imageCrop": {
+            "x": 0.01042,
+            "y": 0.13556,
+            "w": 0.6325
+          },
           "tags": {
             "role": [
               "Allié",
@@ -238,6 +274,12 @@
           "name": "Nico Robin",
           "group": "pirates",
           "image": "images/personnages/one-piece/nico-robin.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/nico-robin.jpg",
+          "imageCrop": {
+            "x": 0.02083,
+            "y": 0.05253,
+            "w": 0.495
+          },
           "tags": {
             "role": [
               "Allié",
@@ -267,6 +309,12 @@
           "name": "Franky",
           "group": "pirates",
           "image": "images/personnages/one-piece/franky.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/franky.jpg",
+          "imageCrop": {
+            "x": 0.47012,
+            "y": 0.10989,
+            "w": 0.16
+          },
           "tags": {
             "role": [
               "Allié",
@@ -296,6 +344,12 @@
           "name": "Brook",
           "group": "pirates",
           "image": "images/personnages/one-piece/brook.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/brook.jpg",
+          "imageCrop": {
+            "x": 0.23563,
+            "y": 0.14068,
+            "w": 0.3
+          },
           "tags": {
             "role": [
               "Allié",
@@ -324,6 +378,12 @@
           "name": "Jinbe",
           "group": "pirates",
           "image": "images/personnages/one-piece/jinbe.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/jinbe.jpg",
+          "imageCrop": {
+            "x": 0.47397,
+            "y": 0.07042,
+            "w": 0.272
+          },
           "tags": {
             "role": [
               "Allié"
@@ -338,6 +398,12 @@
           "name": "Gol D. Roger",
           "group": "pirates",
           "image": "images/personnages/one-piece/gol-d-roger.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/gol-d-roger.jpg",
+          "imageCrop": {
+            "x": 0.24823,
+            "y": 0,
+            "w": 0.28
+          },
           "tags": {
             "role": [
               "Personnage secondaire"
@@ -351,6 +417,12 @@
           "name": "Silvers Rayleigh",
           "group": "pirates",
           "image": "images/personnages/one-piece/silvers-rayleigh.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/silvers-rayleigh.jpg",
+          "imageCrop": {
+            "x": 0.35,
+            "y": 0.19113,
+            "w": 0.3
+          },
           "tags": {
             "role": [
               "Mentor"
@@ -364,6 +436,12 @@
           "name": "Shanks",
           "group": "pirates",
           "image": "images/personnages/one-piece/shanks.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/shanks.jpg",
+          "imageCrop": {
+            "x": 0.518,
+            "y": 0.0128,
+            "w": 0.126
+          },
           "tags": {
             "role": [
               "Mentor"
@@ -377,6 +455,12 @@
           "name": "Edward Newgate (Barbe Blanche)",
           "group": "pirates",
           "image": "images/personnages/one-piece/edward-newgate-barbe-blanche.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/edward-newgate-barbe-blanche.jpg",
+          "imageCrop": {
+            "x": 0.22,
+            "y": 0,
+            "w": 0.6
+          },
           "tags": {
             "role": [
               "Personnage secondaire"
@@ -391,6 +475,12 @@
           "name": "Marco",
           "group": "pirates",
           "image": "images/personnages/one-piece/marco.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/marco.jpg",
+          "imageCrop": {
+            "x": 0.0995,
+            "y": 0.07636,
+            "w": 0.9
+          },
           "tags": {
             "role": [
               "Allié"
@@ -405,6 +495,12 @@
           "name": "Portgas D. Ace",
           "group": "pirates",
           "image": "images/personnages/one-piece/portgas-d-ace.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/portgas-d-ace.jpg",
+          "imageCrop": {
+            "x": 0.27516,
+            "y": 0.01421,
+            "w": 0.45
+          },
           "tags": {
             "role": [
               "Allié"
@@ -418,6 +514,12 @@
           "name": "Marshall D. Teach (Barbe Noire)",
           "group": "pirates",
           "image": "images/personnages/one-piece/marshall-d-teach-barbe-noire.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/marshall-d-teach-barbe-noire.jpg",
+          "imageCrop": {
+            "x": 0.21,
+            "y": 0.04376,
+            "w": 0.28
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -432,6 +534,12 @@
           "name": "Trafalgar Law",
           "group": "pirates",
           "image": "images/personnages/one-piece/trafalgar-law.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/trafalgar-law.jpg",
+          "imageCrop": {
+            "x": 0.24971,
+            "y": 0.02971,
+            "w": 0.4
+          },
           "tags": {
             "role": [
               "Allié",
@@ -447,6 +555,12 @@
           "name": "Kaido",
           "group": "pirates",
           "image": "images/personnages/one-piece/kaido.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/kaido.jpg",
+          "imageCrop": {
+            "x": 0.35,
+            "y": 0.08969,
+            "w": 0.3
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -462,6 +576,12 @@
           "name": "Yamato",
           "group": "pirates",
           "image": "images/personnages/one-piece/yamato.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/yamato.jpg",
+          "imageCrop": {
+            "x": 0.2027,
+            "y": 0.05935,
+            "w": 0.45
+          },
           "tags": {
             "role": [
               "Allié"
@@ -477,6 +597,12 @@
           "name": "King",
           "group": "pirates",
           "image": "images/personnages/one-piece/king.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/king.jpg",
+          "imageCrop": {
+            "x": 0.34982,
+            "y": 0.0023,
+            "w": 0.3
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -492,6 +618,12 @@
           "name": "Queen",
           "group": "pirates",
           "image": "images/personnages/one-piece/queen.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/queen.jpg",
+          "imageCrop": {
+            "x": 0.2005,
+            "y": 0,
+            "w": 0.5
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -506,6 +638,12 @@
           "name": "Jack",
           "group": "pirates",
           "image": "images/personnages/one-piece/jack.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/jack.jpg",
+          "imageCrop": {
+            "x": 0.40029,
+            "y": 0.04846,
+            "w": 0.3
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -519,6 +657,12 @@
           "name": "Donquixote Doflamingo",
           "group": "pirates",
           "image": "images/personnages/one-piece/donquixote-doflamingo.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/donquixote-doflamingo.jpg",
+          "imageCrop": {
+            "x": 0.435,
+            "y": 0.13611,
+            "w": 0.11
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -532,6 +676,12 @@
           "name": "Boa Hancock",
           "group": "pirates",
           "image": "images/personnages/one-piece/boa-hancock.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/boa-hancock.jpg",
+          "imageCrop": {
+            "x": 0.19936,
+            "y": 0,
+            "w": 0.25
+          },
           "tags": {
             "role": [
               "Allié"
@@ -546,6 +696,12 @@
           "name": "Dracule Mihawk",
           "group": "pirates",
           "image": "images/personnages/one-piece/dracule-mihawk.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/dracule-mihawk.jpg",
+          "imageCrop": {
+            "x": 0.09834,
+            "y": 0.02412,
+            "w": 0.3
+          },
           "tags": {
             "role": [
               "Rival",
@@ -560,6 +716,12 @@
           "name": "Crocodile",
           "group": "pirates",
           "image": "images/personnages/one-piece/crocodile.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/crocodile.jpg",
+          "imageCrop": {
+            "x": 0.535,
+            "y": 0,
+            "w": 0.13
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -573,6 +735,12 @@
           "name": "Baggy",
           "group": "pirates",
           "image": "images/personnages/one-piece/baggy.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/baggy.jpg",
+          "imageCrop": {
+            "x": 0.24367,
+            "y": 0.0745,
+            "w": 0.3
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -586,6 +754,12 @@
           "name": "Eustass Kid",
           "group": "pirates",
           "image": "images/personnages/one-piece/eustass-kid.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/eustass-kid.jpg",
+          "imageCrop": {
+            "x": 0.24521,
+            "y": 0.01431,
+            "w": 0.35
+          },
           "tags": {
             "role": [
               "Rival"
@@ -599,6 +773,12 @@
           "name": "Rocks D. Xebec",
           "group": "pirates",
           "image": "images/personnages/one-piece/rocks-d-xebec.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/rocks-d-xebec.jpg",
+          "imageCrop": {
+            "x": 0.41989,
+            "y": 0.614,
+            "w": 0.14
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -612,6 +792,12 @@
           "name": "Jewelry Bonney",
           "group": "pirates",
           "image": "images/personnages/one-piece/jewelry-bonney.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/jewelry-bonney.jpg",
+          "imageCrop": {
+            "x": 0.003,
+            "y": 0.21491,
+            "w": 0.65
+          },
           "tags": {
             "role": [
               "Allié"
@@ -625,12 +811,24 @@
           "name": "Bartholomew Kuma",
           "group": "pirates",
           "image": "images/personnages/one-piece/bartholomew-kuma.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/bartholomew-kuma.jpg",
+          "imageCrop": {
+            "x": 0.22173,
+            "y": 0.06984,
+            "w": 0.32
+          },
           "tags": {}
         },
         {
           "name": "Gecko Moria",
           "group": "pirates",
           "image": "images/personnages/one-piece/gecko-moria.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/gecko-moria.jpg",
+          "imageCrop": {
+            "x": 0.515,
+            "y": 0.02801,
+            "w": 0.25
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -644,6 +842,12 @@
           "name": "Perona",
           "group": "pirates",
           "image": "images/personnages/one-piece/perona.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/perona.jpg",
+          "imageCrop": {
+            "x": 0.34026,
+            "y": 0.113,
+            "w": 0.36
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -657,6 +861,12 @@
           "name": "Arlong",
           "group": "pirates",
           "image": "images/personnages/one-piece/arlong.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/arlong.jpg",
+          "imageCrop": {
+            "x": 0.285,
+            "y": 0.02403,
+            "w": 0.35
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -670,6 +880,12 @@
           "name": "Shiki",
           "group": "pirates",
           "image": "images/personnages/one-piece/shiki.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/shiki.jpg",
+          "imageCrop": {
+            "x": 0.13516,
+            "y": 0.592,
+            "w": 0.13
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -684,6 +900,12 @@
           "name": "Bartolomeo",
           "group": "pirates",
           "image": "images/personnages/one-piece/bartolomeo.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/bartolomeo.jpg",
+          "imageCrop": {
+            "x": 0.14977,
+            "y": 0.01606,
+            "w": 0.6
+          },
           "tags": {
             "role": [
               "Allié"
@@ -697,6 +919,12 @@
           "name": "Zeff",
           "group": "pirates",
           "image": "images/personnages/one-piece/zeff.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/zeff.jpg",
+          "imageCrop": {
+            "x": 0.61188,
+            "y": 0.14877,
+            "w": 0.22
+          },
           "tags": {
             "role": [
               "Mentor"
@@ -710,6 +938,12 @@
           "name": "Hody Jones",
           "group": "pirates",
           "image": "images/personnages/one-piece/hody-jones.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/hody-jones.jpg",
+          "imageCrop": {
+            "x": 0.38004,
+            "y": 0,
+            "w": 0.25
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -724,12 +958,24 @@
           "name": "Edward Weevil",
           "group": "pirates",
           "image": "images/personnages/one-piece/edward-weevil.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/edward-weevil.jpg",
+          "imageCrop": {
+            "x": 0.365,
+            "y": 0.15291,
+            "w": 0.25
+          },
           "tags": {}
         },
         {
           "name": "Charlotte Linlin (Big Mom)",
           "group": "pirates",
           "image": "images/personnages/one-piece/charlotte-linlin-big-mom.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/charlotte-linlin-big-mom.jpg",
+          "imageCrop": {
+            "x": 0.325,
+            "y": 0.13058,
+            "w": 0.35
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -743,6 +989,12 @@
           "name": "Charlotte Katakuri",
           "group": "pirates",
           "image": "images/personnages/one-piece/charlotte-katakuri.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/charlotte-katakuri.jpg",
+          "imageCrop": {
+            "x": 0.67,
+            "y": 0.02246,
+            "w": 0.15
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -757,6 +1009,12 @@
           "name": "Charlotte Pudding",
           "group": "pirates",
           "image": "images/personnages/one-piece/charlotte-pudding.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/charlotte-pudding.jpg",
+          "imageCrop": {
+            "x": 0.05102,
+            "y": 0.04735,
+            "w": 0.45
+          },
           "tags": {
             "role": [
               "Antagoniste",
@@ -771,6 +1029,12 @@
           "name": "Charlotte Perospero",
           "group": "pirates",
           "image": "images/personnages/one-piece/charlotte-perospero.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/charlotte-perospero.jpg",
+          "imageCrop": {
+            "x": 0.32519,
+            "y": 0.46424,
+            "w": 0.55
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -784,6 +1048,12 @@
           "name": "Charlotte Smoothie",
           "group": "pirates",
           "image": "images/personnages/one-piece/charlotte-smoothie.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/charlotte-smoothie.jpg",
+          "imageCrop": {
+            "x": 0.49,
+            "y": 0.08648,
+            "w": 0.35
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -798,6 +1068,12 @@
           "name": "Charlotte Cracker",
           "group": "pirates",
           "image": "images/personnages/one-piece/charlotte-cracker.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/charlotte-cracker.jpg",
+          "imageCrop": {
+            "x": 0.63,
+            "y": 0.25124,
+            "w": 0.2
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -812,60 +1088,120 @@
           "name": "Bellamy",
           "group": "pirates",
           "image": "images/personnages/one-piece/bellamy.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/bellamy.jpg",
+          "imageCrop": {
+            "x": 0.16055,
+            "y": 0,
+            "w": 0.5
+          },
           "tags": {}
         },
         {
           "name": "Benn Beckman",
           "group": "pirates",
           "image": "images/personnages/one-piece/benn-beckman.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/benn-beckman.jpg",
+          "imageCrop": {
+            "x": 0.41003,
+            "y": 0.00697,
+            "w": 0.35
+          },
           "tags": {}
         },
         {
           "name": "Lucky Roux",
           "group": "pirates",
           "image": "images/personnages/one-piece/lucky-roux.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/lucky-roux.jpg",
+          "imageCrop": {
+            "x": 0.22458,
+            "y": 0.00304,
+            "w": 0.65
+          },
           "tags": {}
         },
         {
           "name": "Yasopp",
           "group": "pirates",
           "image": "images/personnages/one-piece/yasopp.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/yasopp.jpg",
+          "imageCrop": {
+            "x": 0.28979,
+            "y": 0,
+            "w": 0.3
+          },
           "tags": {}
         },
         {
           "name": "Shiryu",
           "group": "pirates",
           "image": "images/personnages/one-piece/shiryu.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/shiryu.jpg",
+          "imageCrop": {
+            "x": 0.26243,
+            "y": 0,
+            "w": 0.35
+          },
           "tags": {}
         },
         {
           "name": "Jesus Burgess",
           "group": "pirates",
           "image": "images/personnages/one-piece/jesus-burgess.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/jesus-burgess.jpg",
+          "imageCrop": {
+            "x": 0.36044,
+            "y": 0.12719,
+            "w": 0.28
+          },
           "tags": {}
         },
         {
           "name": "Jozu",
           "group": "pirates",
           "image": "images/personnages/one-piece/jozu.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/jozu.jpg",
+          "imageCrop": {
+            "x": 0.365,
+            "y": 0.04766,
+            "w": 0.25
+          },
           "tags": {}
         },
         {
           "name": "Bepo",
           "group": "pirates",
           "image": "images/personnages/one-piece/bepo.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/bepo.jpg",
+          "imageCrop": {
+            "x": 0.43991,
+            "y": 0.08251,
+            "w": 0.28
+          },
           "tags": {}
         },
         {
           "name": "Killer",
           "group": "pirates",
           "image": "images/personnages/one-piece/killer.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/killer.jpg",
+          "imageCrop": {
+            "x": 0.22031,
+            "y": 0,
+            "w": 0.4
+          },
           "tags": {}
         },
         {
           "name": "Imu",
           "group": "marine",
           "image": "images/personnages/one-piece/imu.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/imu.jpg",
+          "imageCrop": {
+            "x": 0.356,
+            "y": 0.05541,
+            "w": 0.2
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -879,6 +1215,12 @@
           "name": "Saint Jaygarcia Saturn",
           "group": "marine",
           "image": "images/personnages/one-piece/saint-jaygarcia-saturn.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/saint-jaygarcia-saturn.jpg",
+          "imageCrop": {
+            "x": 0.44534,
+            "y": 0,
+            "w": 0.35
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -893,60 +1235,120 @@
           "name": "Saint Marcus Mars",
           "group": "marine",
           "image": "images/personnages/one-piece/saint-marcus-mars.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/saint-marcus-mars.jpg",
+          "imageCrop": {
+            "x": 0.32131,
+            "y": 0,
+            "w": 0.4
+          },
           "tags": {}
         },
         {
           "name": "Saint Topman Warcury",
           "group": "marine",
           "image": "images/personnages/one-piece/saint-topman-warcury.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/saint-topman-warcury.jpg",
+          "imageCrop": {
+            "x": 0.26963,
+            "y": 0,
+            "w": 0.3
+          },
           "tags": {}
         },
         {
           "name": "Saint Ethanbaron V. Nusjuro",
           "group": "marine",
           "image": "images/personnages/one-piece/saint-ethanbaron-v-nusjuro.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/saint-ethanbaron-v-nusjuro.jpg",
+          "imageCrop": {
+            "x": 0.27103,
+            "y": 0.00399,
+            "w": 0.3
+          },
           "tags": {}
         },
         {
           "name": "Saint Shepherd Ju Peter",
           "group": "marine",
           "image": "images/personnages/one-piece/saint-shepherd-ju-peter.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/saint-shepherd-ju-peter.jpg",
+          "imageCrop": {
+            "x": 0.19963,
+            "y": 0.00258,
+            "w": 0.22
+          },
           "tags": {}
         },
         {
           "name": "Saint Figarland Garling",
           "group": "marine",
           "image": "images/personnages/one-piece/saint-figarland-garling.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/saint-figarland-garling.jpg",
+          "imageCrop": {
+            "x": 0.27989,
+            "y": 0.06293,
+            "w": 0.38
+          },
           "tags": {}
         },
         {
           "name": "Saint Figarland Shamrock",
           "group": "marine",
           "image": "images/personnages/one-piece/saint-figarland-shamrock.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/saint-figarland-shamrock.jpg",
+          "imageCrop": {
+            "x": 0.49,
+            "y": 0.0486,
+            "w": 0.25
+          },
           "tags": {}
         },
         {
           "name": "Saint Shepherd Sommers",
           "group": "marine",
           "image": "images/personnages/one-piece/saint-shepherd-sommers.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/saint-shepherd-sommers.jpg",
+          "imageCrop": {
+            "x": 0.37081,
+            "y": 0.1028,
+            "w": 0.3
+          },
           "tags": {}
         },
         {
           "name": "Saint Rimoshifu Killingham",
           "group": "marine",
           "image": "images/personnages/one-piece/saint-rimoshifu-killingham.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/saint-rimoshifu-killingham.jpg",
+          "imageCrop": {
+            "x": 0.41906,
+            "y": 0.29894,
+            "w": 0.324
+          },
           "tags": {}
         },
         {
           "name": "Saint Manmayer Gunko",
           "group": "marine",
           "image": "images/personnages/one-piece/saint-manmayer-gunko.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/saint-manmayer-gunko.jpg",
+          "imageCrop": {
+            "x": 0.375,
+            "y": 0.26879,
+            "w": 0.35
+          },
           "tags": {}
         },
         {
           "name": "Sakazuki (Akainu)",
           "group": "marine",
           "image": "images/personnages/one-piece/sakazuki-akainu.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/sakazuki-akainu.jpg",
+          "imageCrop": {
+            "x": 0.45,
+            "y": 0.24284,
+            "w": 0.22
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -960,6 +1362,12 @@
           "name": "Kuzan (Aokiji)",
           "group": "marine",
           "image": "images/personnages/one-piece/kuzan-aokiji.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/kuzan-aokiji.jpg",
+          "imageCrop": {
+            "x": 0.36506,
+            "y": 0,
+            "w": 0.25
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -973,6 +1381,12 @@
           "name": "Borsalino (Kizaru)",
           "group": "marine",
           "image": "images/personnages/one-piece/borsalino-kizaru.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/borsalino-kizaru.jpg",
+          "imageCrop": {
+            "x": 0.14015,
+            "y": 0,
+            "w": 0.35
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -986,6 +1400,12 @@
           "name": "Aramaki (Ryokugyu)",
           "group": "marine",
           "image": "images/personnages/one-piece/aramaki-ryokugyu.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/aramaki-ryokugyu.jpg",
+          "imageCrop": {
+            "x": 0.26826,
+            "y": 0,
+            "w": 0.4
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -999,6 +1419,12 @@
           "name": "Issho (Fujitora)",
           "group": "marine",
           "image": "images/personnages/one-piece/issho-fujitora.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/issho-fujitora.jpg",
+          "imageCrop": {
+            "x": 0.10071,
+            "y": 0,
+            "w": 0.7
+          },
           "tags": {
             "role": [
               "Personnage secondaire"
@@ -1013,6 +1439,12 @@
           "name": "Sengoku",
           "group": "marine",
           "image": "images/personnages/one-piece/sengoku.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/sengoku.jpg",
+          "imageCrop": {
+            "x": 0.31051,
+            "y": 0,
+            "w": 0.4
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -1027,6 +1459,12 @@
           "name": "Monkey D. Garp",
           "group": "marine",
           "image": "images/personnages/one-piece/monkey-d-garp.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/monkey-d-garp.jpg",
+          "imageCrop": {
+            "x": 0.24526,
+            "y": 0.19153,
+            "w": 0.25
+          },
           "tags": {
             "role": [
               "Mentor"
@@ -1040,6 +1478,12 @@
           "name": "Koby",
           "group": "marine",
           "image": "images/personnages/one-piece/koby.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/koby.jpg",
+          "imageCrop": {
+            "x": 0.2732,
+            "y": 0,
+            "w": 0.27
+          },
           "tags": {
             "role": [
               "Rival"
@@ -1053,6 +1497,12 @@
           "name": "Smoker",
           "group": "marine",
           "image": "images/personnages/one-piece/smoker.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/smoker.jpg",
+          "imageCrop": {
+            "x": 0.30442,
+            "y": 0.07773,
+            "w": 0.3
+          },
           "tags": {
             "role": [
               "Rival"
@@ -1067,12 +1517,24 @@
           "name": "Tashigi",
           "group": "marine",
           "image": "images/personnages/one-piece/tashigi.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/tashigi.jpg",
+          "imageCrop": {
+            "x": 0.17936,
+            "y": 0,
+            "w": 0.4
+          },
           "tags": {}
         },
         {
           "name": "Dr. Vegapunk",
           "group": "marine",
           "image": "images/personnages/one-piece/dr-vegapunk.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/dr-vegapunk.jpg",
+          "imageCrop": {
+            "x": 0.19965,
+            "y": 0.32856,
+            "w": 0.6
+          },
           "tags": {
             "role": [
               "Allié"
@@ -1086,6 +1548,12 @@
           "name": "Rob Lucci",
           "group": "marine",
           "image": "images/personnages/one-piece/rob-lucci.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/rob-lucci.jpg",
+          "imageCrop": {
+            "x": 0.055,
+            "y": 0.12855,
+            "w": 0.65
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -1100,6 +1568,12 @@
           "name": "Donquixote Rosinante (Corazón)",
           "group": "marine",
           "image": "images/personnages/one-piece/donquixote-rosinante-corazon.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/donquixote-rosinante-corazon.jpg",
+          "imageCrop": {
+            "x": 0.41,
+            "y": 0.08176,
+            "w": 0.3
+          },
           "tags": {
             "role": [
               "Mentor"
@@ -1113,6 +1587,12 @@
           "name": "Magellan",
           "group": "marine",
           "image": "images/personnages/one-piece/magellan.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/magellan.jpg",
+          "imageCrop": {
+            "x": 0.32547,
+            "y": 0,
+            "w": 0.35
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -1126,12 +1606,24 @@
           "name": "Morgan",
           "group": "marine",
           "image": "images/personnages/one-piece/morgan.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/morgan.jpg",
+          "imageCrop": {
+            "x": 0.29483,
+            "y": 0.00155,
+            "w": 0.35
+          },
           "tags": {}
         },
         {
           "name": "Monkey D. Dragon",
           "group": "revolutionnaires",
           "image": "images/personnages/one-piece/monkey-d-dragon.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/monkey-d-dragon.jpg",
+          "imageCrop": {
+            "x": 0.05011,
+            "y": 0.16867,
+            "w": 0.9
+          },
           "tags": {
             "role": [
               "Personnage secondaire"
@@ -1145,6 +1637,12 @@
           "name": "Sabo",
           "group": "revolutionnaires",
           "image": "images/personnages/one-piece/sabo.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/sabo.jpg",
+          "imageCrop": {
+            "x": 0.27539,
+            "y": 0,
+            "w": 0.45
+          },
           "tags": {
             "role": [
               "Allié"
@@ -1159,6 +1657,12 @@
           "name": "Emporio Ivankov",
           "group": "revolutionnaires",
           "image": "images/personnages/one-piece/emporio-ivankov.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/emporio-ivankov.jpg",
+          "imageCrop": {
+            "x": 0.25,
+            "y": 0.17902,
+            "w": 0.6
+          },
           "tags": {
             "role": [
               "Allié"
@@ -1172,6 +1676,12 @@
           "name": "Karasu",
           "group": "revolutionnaires",
           "image": "images/personnages/one-piece/karasu.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/karasu.jpg",
+          "imageCrop": {
+            "x": 0.25,
+            "y": 0.1,
+            "w": 0.6
+          },
           "tags": {
             "role": [
               "Allié"
@@ -1185,6 +1695,12 @@
           "name": "Nefertari Vivi",
           "group": "autres",
           "image": "images/personnages/one-piece/nefertari-vivi.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/nefertari-vivi.jpg",
+          "imageCrop": {
+            "x": 0.14286,
+            "y": 0.0167,
+            "w": 0.6
+          },
           "tags": {
             "role": [
               "Allié"
@@ -1198,6 +1714,12 @@
           "name": "Kozuki Oden",
           "group": "autres",
           "image": "images/personnages/one-piece/kozuki-oden.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/kozuki-oden.jpg",
+          "imageCrop": {
+            "x": 0.425,
+            "y": 0.18008,
+            "w": 0.25
+          },
           "tags": {
             "role": [
               "Personnage secondaire"
@@ -1211,6 +1733,12 @@
           "name": "Kozuki Momonosuke",
           "group": "autres",
           "image": "images/personnages/one-piece/kozuki-momonosuke.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/kozuki-momonosuke.jpg",
+          "imageCrop": {
+            "x": 0.375,
+            "y": 0,
+            "w": 0.25
+          },
           "tags": {
             "role": [
               "Allié"
@@ -1224,6 +1752,12 @@
           "name": "Enel",
           "group": "autres",
           "image": "images/personnages/one-piece/enel.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/enel.jpg",
+          "imageCrop": {
+            "x": 0.682,
+            "y": 0.22997,
+            "w": 0.15
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -1237,6 +1771,12 @@
           "name": "Uta",
           "group": "autres",
           "image": "images/personnages/one-piece/uta.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/uta.jpg",
+          "imageCrop": {
+            "x": 0.56501,
+            "y": 0.08056,
+            "w": 0.22
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -1250,6 +1790,12 @@
           "name": "Carrot",
           "group": "autres",
           "image": "images/personnages/one-piece/carrot.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/carrot.jpg",
+          "imageCrop": {
+            "x": 0.14798,
+            "y": 0,
+            "w": 0.7
+          },
           "tags": {
             "role": [
               "Allié"
@@ -1265,6 +1811,12 @@
           "name": "Kin'emon",
           "group": "autres",
           "image": "images/personnages/one-piece/kin-emon.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/kin-emon.jpg",
+          "imageCrop": {
+            "x": 0.24903,
+            "y": 0,
+            "w": 0.4
+          },
           "tags": {
             "role": [
               "Allié"
@@ -1279,6 +1831,12 @@
           "name": "Shirahoshi",
           "group": "autres",
           "image": "images/personnages/one-piece/shirahoshi.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/shirahoshi.jpg",
+          "imageCrop": {
+            "x": 0.29,
+            "y": 0.06339,
+            "w": 0.25
+          },
           "tags": {
             "role": [
               "Allié"
@@ -1292,6 +1850,12 @@
           "name": "Loki",
           "group": "autres",
           "image": "images/personnages/one-piece/loki.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/loki.jpg",
+          "imageCrop": {
+            "x": 0.455,
+            "y": 0.62558,
+            "w": 0.15
+          },
           "tags": {
             "role": [
               "Personnage secondaire"
@@ -1306,6 +1870,12 @@
           "name": "Rebecca",
           "group": "autres",
           "image": "images/personnages/one-piece/rebecca.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/rebecca.jpg",
+          "imageCrop": {
+            "x": 0.30026,
+            "y": 0,
+            "w": 0.3
+          },
           "tags": {
             "role": [
               "Allié"
@@ -1319,6 +1889,12 @@
           "name": "Dr. Hiriluk",
           "group": "autres",
           "image": "images/personnages/one-piece/dr-hiriluk.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/dr-hiriluk.jpg",
+          "imageCrop": {
+            "x": 0.255,
+            "y": 0.10351,
+            "w": 0.35
+          },
           "tags": {
             "role": [
               "Mentor"
@@ -1332,6 +1908,12 @@
           "name": "Caesar Clown",
           "group": "autres",
           "image": "images/personnages/one-piece/caesar-clown.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/caesar-clown.jpg",
+          "imageCrop": {
+            "x": 0.32,
+            "y": 0.33748,
+            "w": 0.28
+          },
           "tags": {
             "role": [
               "Antagoniste"
@@ -1346,6 +1928,12 @@
           "name": "Wapol",
           "group": "autres",
           "image": "images/personnages/one-piece/wapol.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/wapol.jpg",
+          "imageCrop": {
+            "x": 0.3,
+            "y": 0.10677,
+            "w": 0.4
+          },
           "tags": {}
         }
       ]

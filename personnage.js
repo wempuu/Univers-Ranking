@@ -294,20 +294,32 @@ async function editImage() {
     $("editor").scrollIntoView({ behavior: "smooth", block: "start" });
     return;
   }
+  const slug = slugify(perso.name);
+  // on réutilise les chemins existants (le nom a pu changer depuis), sinon on en crée
+  const portraitPath = perso.image ? perso.image.split("?")[0] : `images/personnages/${mangaSlug}/${slug}.jpg`;
+  const sourcePath = perso.imageSource ? perso.imageSource.split("?")[0] : `images/personnages/${mangaSlug}/originaux/${slug}.jpg`;
   openImageEditor({
     title: `Image de ${perso.name}`,
     current: perso.image || null,
-    onSave: async (base64) => {
-      const path = `images/personnages/${mangaSlug}/${slugify(perso.name)}.jpg`;
-      await panel.putFile(path, base64, `Image de ${perso.name} depuis l'outil`);
-      // ?v= force les navigateurs à recharger l'image même si le nom de fichier ne change pas
-      perso.image = `${path}?v=${Date.now()}`;
+    source: perso.imageSource || null,
+    crop: perso.imageCrop || null,
+    onSave: async ({ cropped, crop, newSource }) => {
+      const v = Date.now(); // ?v= force les navigateurs à recharger les images même si le nom de fichier ne change pas
+      if (newSource) {
+        await panel.putFile(sourcePath, newSource, `Image complète de ${perso.name} depuis l'outil`);
+        perso.imageSource = `${sourcePath}?v=${v}`;
+      }
+      await panel.putFile(portraitPath, cropped, `Portrait de ${perso.name} depuis l'outil`);
+      perso.image = `${portraitPath}?v=${v}`;
+      perso.imageCrop = crop;
       panel.markDirty();
       render();
       panel.setStatus("Image envoyée sur GitHub. Clique sur « Publier » pour enregistrer le changement sur la fiche.", "dirty");
     },
     onRemove: () => {
       delete perso.image;
+      delete perso.imageSource;
+      delete perso.imageCrop;
       panel.markDirty();
       render();
     },

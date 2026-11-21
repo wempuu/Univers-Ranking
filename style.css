@@ -402,3 +402,5 @@ footer { text-align: center; color: var(--muted); padding: 24px 0 40px; font-siz
 .dialog-message { margin: 0; white-space: pre-line; line-height: 1.5; }
 .dialog-input { width: 100%; }
 .btn.danger { background: #ff5c5c; }
+.cropper canvas.dragging { cursor: grabbing; }
+.cropper-zoom .icon-btn { font-size: 1.1rem; font-weight: 700; }
