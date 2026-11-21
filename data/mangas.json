@@ -1656,12 +1656,12 @@
         {
           "name": "Emporio Ivankov",
           "group": "revolutionnaires",
-          "image": "images/personnages/one-piece/emporio-ivankov.jpg",
+          "image": "images/personnages/one-piece/emporio-ivankov.jpg?v=1795248619251",
           "imageSource": "images/personnages/one-piece/originaux/emporio-ivankov.jpg",
           "imageCrop": {
-            "x": 0.25,
-            "y": 0.17902,
-            "w": 0.6
+            "x": 0,
+            "y": 0.00825,
+            "w": 1
           },
           "tags": {
             "role": [
