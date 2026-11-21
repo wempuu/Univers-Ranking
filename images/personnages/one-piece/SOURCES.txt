@@ -101,4 +101,4 @@ saint-manmayer-gunko.jpg <- File:Gunko_Manga_Color_Scheme.png
 tashigi.jpg <- File:Tashigi_Digitally_Colored_Manga.png
 morgan.jpg <- File:Morgan_Digitally_Colored_Manga.png
 wapol.jpg <- File:Wapol_Digitally_Colored_Manga_Post_Timeskip.png
-saint-figarland-garling : pas d'image (aucune image couleur tirée du manga trouvée)
+saint-figarland-garling.jpg <- File:Figarland_Garling_Manga_Infobox.png (case du manga en noir et blanc — exception demandée, aucune image couleur tirée du manga)
