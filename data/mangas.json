@@ -494,12 +494,12 @@
         {
           "name": "Portgas D. Ace",
           "group": "pirates",
-          "image": "images/personnages/one-piece/portgas-d-ace.jpg",
+          "image": "images/personnages/one-piece/portgas-d-ace.jpg?v=1795248952256",
           "imageSource": "images/personnages/one-piece/originaux/portgas-d-ace.jpg",
           "imageCrop": {
-            "x": 0.27516,
-            "y": 0.01421,
-            "w": 0.45
+            "x": 0.38565,
+            "y": 0.00308,
+            "w": 0.3861
           },
           "tags": {
             "role": [
