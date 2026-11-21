@@ -1008,12 +1008,12 @@
         {
           "name": "Charlotte Pudding",
           "group": "pirates",
-          "image": "images/personnages/one-piece/charlotte-pudding.jpg",
+          "image": "images/personnages/one-piece/charlotte-pudding.jpg?v=1795248422210",
           "imageSource": "images/personnages/one-piece/originaux/charlotte-pudding.jpg",
           "imageCrop": {
-            "x": 0.05102,
-            "y": 0.04735,
-            "w": 0.45
+            "x": 0.13689,
+            "y": 0.07579,
+            "w": 0.45045
           },
           "tags": {
             "role": [
