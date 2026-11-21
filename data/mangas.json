@@ -240,7 +240,7 @@
               "Combat à mains nues"
             ],
             "physique": [
-              "Animaux",
+              "Animal",
               "Masculin",
               "Petite taille",
               "enfant"
@@ -775,7 +775,7 @@
               "Naif"
             ],
             "physique": [
-              "Animaux",
+              "Animal",
               "Masculin",
               "Grande taille"
             ]
@@ -2936,7 +2936,7 @@
               "Gourmand"
             ],
             "physique": [
-              "Animaux",
+              "Animal",
               "Feminin",
               "Jeune",
               "Petite taille"
