@@ -84,7 +84,6 @@
             ],
             "physique": [
               "Jeune",
-              "Humain",
               "Masculin",
               "Couvre-chef",
               "Cicatrice"
@@ -118,7 +117,6 @@
               "Alcoolique"
             ],
             "physique": [
-              "Humain",
               "Jeune",
               "Masculin",
               "Musclé",
@@ -154,7 +152,6 @@
             ],
             "physique": [
               "Jeune",
-              "Humain",
               "Feminin",
               "Tatouage"
             ]
@@ -186,7 +183,6 @@
               "Menteur"
             ],
             "physique": [
-              "Humain",
               "Jeune",
               "Masculin"
             ]
@@ -280,8 +276,7 @@
             ],
             "physique": [
               "Mature",
-              "Feminin",
-              "Humain"
+              "Feminin"
             ]
           }
         },
@@ -414,7 +409,6 @@
               "Alcoolique"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Moustache",
@@ -449,7 +443,6 @@
               "Alcoolique"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Vieux",
               "Barbe",
@@ -485,7 +478,6 @@
               "Alcoolique"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Cicatrice",
@@ -519,7 +511,6 @@
               "Alcoolique"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Cheveux longs"
@@ -550,7 +541,6 @@
               "Alcoolique"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Corpulent"
@@ -581,7 +571,6 @@
               "Alcoolique"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Cheveux longs"
@@ -617,7 +606,6 @@
               "Alcoolique"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Vieux",
               "Moustache",
@@ -653,7 +641,6 @@
               "Loyal"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Barbe",
@@ -685,7 +672,6 @@
               "Fier"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Jeune",
               "Couvre-chef",
@@ -718,7 +704,6 @@
               "Loyal"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Musclé",
@@ -755,7 +740,6 @@
               "Rusé"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Jeune",
               "Couvre-chef",
@@ -821,7 +805,6 @@
               "Ambitieux"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Jeune",
               "Amputé",
@@ -854,7 +837,6 @@
               "Mystérieux"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Jeune",
               "Masque",
@@ -890,7 +872,6 @@
               "Alcoolique"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Corpulent",
@@ -964,7 +945,6 @@
               "Joyeux"
             ],
             "physique": [
-              "Humain",
               "Jeune",
               "Grande taille",
               "Cornes",
@@ -1036,7 +1016,6 @@
               "Cruel"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Corpulent",
@@ -1068,7 +1047,6 @@
               "Cruel"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Grande taille",
@@ -1104,7 +1082,6 @@
               "Charismatique"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Lunettes",
@@ -1140,7 +1117,6 @@
               "Romantique"
             ],
             "physique": [
-              "Humain",
               "Feminin",
               "Jeune",
               "Cheveux longs",
@@ -1174,7 +1150,6 @@
               "Alcoolique"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Couvre-chef",
@@ -1208,7 +1183,6 @@
               "Alcoolique"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Cicatrice",
@@ -1242,7 +1216,6 @@
               "Chanceux"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Couvre-chef",
@@ -1275,7 +1248,6 @@
               "Cruel"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Musclé",
@@ -1308,7 +1280,6 @@
               "Colérique"
             ],
             "physique": [
-              "Humain",
               "Feminin",
               "Jeune",
               "Couvre-chef",
@@ -1343,7 +1314,6 @@
               "Mystérieux"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Grande taille",
@@ -1408,7 +1378,6 @@
               "Peureux"
             ],
             "physique": [
-              "Humain",
               "Feminin",
               "Jeune",
               "Couvre-chef",
@@ -1477,7 +1446,6 @@
               "Arrogant"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Vieux",
               "Cheveux longs",
@@ -1510,7 +1478,6 @@
               "Drole"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Jeune",
               "Piercing"
@@ -1540,7 +1507,6 @@
               "Protecteur"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Vieux",
               "Moustache",
@@ -1607,7 +1573,6 @@
               "Colérique"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Jeune",
               "Corpulent",
@@ -1676,7 +1641,6 @@
               "Honorable"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Grande taille",
@@ -1713,7 +1677,8 @@
             "physique": [
               "Feminin",
               "Jeune",
-              "Cheveux longs"
+              "Cheveux longs",
+              "Trois yeux"
             ]
           }
         },
@@ -1739,7 +1704,6 @@
               "Rusé"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Couvre-chef",
@@ -1771,7 +1735,6 @@
               "Calme"
             ],
             "physique": [
-              "Humain",
               "Feminin",
               "Mature",
               "Grande taille",
@@ -1803,7 +1766,6 @@
               "Arrogant"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Musclé"
@@ -1834,7 +1796,6 @@
               "Loyal"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Jeune",
               "Tatouage",
@@ -1866,7 +1827,6 @@
               "Froid"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Couvre-chef"
@@ -1896,7 +1856,6 @@
               "Arrogant"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Musclé",
@@ -1957,7 +1916,6 @@
               "Arrogant"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Vieux",
               "Barbe"
@@ -1987,7 +1945,6 @@
               "Arrogant"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Vieux",
               "Barbe",
@@ -2018,7 +1975,6 @@
               "Arrogant"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Vieux",
               "Moustache",
@@ -2050,7 +2006,6 @@
               "Froid"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Vieux",
               "Cicatrice",
@@ -2081,7 +2036,6 @@
               "Arrogant"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Barbe"
@@ -2113,7 +2067,6 @@
               "Fier"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Vieux",
               "Barbe",
@@ -2145,7 +2098,6 @@
               "Arrogant"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Cheveux longs"
@@ -2174,7 +2126,6 @@
               "Cruel"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Barbe",
@@ -2232,7 +2183,6 @@
               "Loyal"
             ],
             "physique": [
-              "Humain",
               "Feminin",
               "Jeune",
               "Masque",
@@ -2264,7 +2214,6 @@
               "Serieux"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Couvre-chef",
@@ -2298,7 +2247,6 @@
               "Libre"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Grande taille"
@@ -2328,7 +2276,6 @@
               "Mystérieux"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Vieux",
               "Lunettes"
@@ -2358,7 +2305,6 @@
               "Cruel"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Lunettes",
@@ -2391,7 +2337,6 @@
               "Sage"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Aveugle",
@@ -2426,7 +2371,6 @@
               "Serieux"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Vieux",
               "Barbe",
@@ -2459,7 +2403,6 @@
               "Libre"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Vieux",
               "Cicatrice",
@@ -2491,7 +2434,6 @@
               "Gentil"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Jeune",
               "Musclé"
@@ -2523,7 +2465,6 @@
               "Froid"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Cicatrice",
@@ -2556,7 +2497,6 @@
               "Maladroit"
             ],
             "physique": [
-              "Humain",
               "Feminin",
               "Jeune",
               "Lunettes"
@@ -2587,7 +2527,6 @@
               "Excentrique"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Vieux",
               "Barbe"
@@ -2620,7 +2559,6 @@
               "Fier"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Couvre-chef",
@@ -2654,7 +2592,6 @@
               "Protecteur"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Grande taille",
@@ -2686,7 +2623,6 @@
               "Impitoyable"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Grande taille",
@@ -2719,7 +2655,6 @@
               "Charismatique"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Tatouage"
@@ -2752,7 +2687,6 @@
               "Calme"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Jeune",
               "Couvre-chef",
@@ -2785,7 +2719,6 @@
               "Drole"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Maquillage",
@@ -2816,7 +2749,6 @@
               "Calme"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Masque"
@@ -2847,7 +2779,6 @@
               "Protecteur"
             ],
             "physique": [
-              "Humain",
               "Feminin",
               "Jeune",
               "Cheveux longs"
@@ -2881,7 +2812,6 @@
               "Charismatique"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Barbe",
@@ -2913,7 +2843,6 @@
               "Naif"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Jeune",
               "Cheveux longs"
@@ -2944,7 +2873,6 @@
               "Cruel"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Jeune",
               "Couvre-chef"
@@ -2974,7 +2902,6 @@
               "Ambitieux"
             ],
             "physique": [
-              "Humain",
               "Feminin",
               "Jeune",
               "Cheveux longs"
@@ -3039,7 +2966,6 @@
               "Honorable"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature"
             ]
@@ -3133,7 +3059,6 @@
               "Courageux"
             ],
             "physique": [
-              "Humain",
               "Feminin",
               "Jeune",
               "Cheveux longs"
@@ -3164,7 +3089,6 @@
               "Courageux"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Vieux",
               "Couvre-chef",
@@ -3197,7 +3121,6 @@
               "Arrogant"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Cheveux longs"
@@ -3230,7 +3153,6 @@
               "Alcoolique"
             ],
             "physique": [
-              "Humain",
               "Masculin",
               "Mature",
               "Corpulent",
