@@ -68,7 +68,8 @@
               "Protagoniste",
               "Criminel",
               "Hero",
-              "Leader"
+              "Leader",
+              "Pirate"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -80,11 +81,6 @@
               "Libre",
               "Gourmand",
               "Impulsif"
-            ],
-            "univers": [
-              "Haki des rois",
-              "Zoan mythique",
-              "Pirate"
             ],
             "physique": [
               "Jeune",
