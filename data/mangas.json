@@ -308,12 +308,12 @@
         {
           "name": "Franky",
           "group": "pirates",
-          "image": "images/personnages/one-piece/franky.jpg",
+          "image": "images/personnages/one-piece/franky.jpg?v=1795248837224",
           "imageSource": "images/personnages/one-piece/originaux/franky.jpg",
           "imageCrop": {
-            "x": 0.47012,
-            "y": 0.10989,
-            "w": 0.16
+            "x": 0.50033,
+            "y": 0.10626,
+            "w": 0.1419
           },
           "tags": {
             "role": [
