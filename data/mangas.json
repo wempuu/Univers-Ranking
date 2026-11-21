@@ -1306,12 +1306,12 @@
         {
           "name": "Saint Shepherd Sommers",
           "group": "marine",
-          "image": "images/personnages/one-piece/saint-shepherd-sommers.jpg",
+          "image": "images/personnages/one-piece/saint-shepherd-sommers.jpg?v=1795248408866",
           "imageSource": "images/personnages/one-piece/originaux/saint-shepherd-sommers.jpg",
           "imageCrop": {
-            "x": 0.37081,
-            "y": 0.1028,
-            "w": 0.3
+            "x": 0.3519,
+            "y": 0.0188,
+            "w": 0.52434
           },
           "tags": {}
         },
