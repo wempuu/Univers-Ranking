@@ -3,7 +3,8 @@
 // (curseur, boutons − / +, molette) et déplacer le cadre en cliquant-glissant, ou choisir une autre image.
 // Résultat : un portrait JPEG 320×320 + le cadrage { x, y, w } en fractions de l'image complète.
 //
-//   openImageEditor({ title, current, source, crop, onSave: async ({ cropped, crop, newSource }) => {}, onRemove })
+//   openImageEditor({ title, current, source, crop, onSave: async ({ cropped, crop, newSource }) => {}, onError: (err) => {}, onRemove })
+//   La fenêtre se ferme dès « Valider » ; onSave fait l'envoi ensuite, onError reçoit son éventuelle erreur.
 //   - cropped   : portrait en base64
 //   - crop      : { x, y, w } (x, y = coin haut-gauche en fractions de la largeur / hauteur ; w = côté en fraction de la largeur)
 //   - newSource : image complète en base64 si elle a changé (nouveau fichier), sinon null
@@ -12,7 +13,7 @@ const IMG_OUT = 320;     // taille du portrait exporté
 const SRC_MAX = 1400;    // taille max de l'image complète enregistrée
 const ZOOM_MAX = 12;
 
-function openImageEditor({ title, current, source, crop, onSave, onRemove }) {
+function openImageEditor({ title, current, source, crop, onSave, onError, onRemove }) {
   const overlay = document.createElement("div");
   overlay.className = "modal-overlay";
   overlay.innerHTML = `
@@ -218,28 +219,26 @@ function openImageEditor({ title, current, source, crop, onSave, onRemove }) {
     return c.toDataURL("image/jpeg", 0.85).split(",")[1];
   }
 
+  // Valider : on prépare les images, on ferme tout de suite la fenêtre, et l'envoi continue en arrière-plan
+  // (sa progression et ses erreurs s'affichent dans la page via onSave / onError).
   $m('[data-r="save"]').addEventListener("click", async () => {
     if (!img || busy) return;
     busy = true;
-    overlay.querySelectorAll("button").forEach((b) => (b.disabled = true));
-    setMsg("Envoi sur GitHub…");
+    const s = scale();
+    const result = {
+      cropped: canvas.toDataURL("image/jpeg", 0.88).split(",")[1],
+      crop: {
+        x: +(-ox / (img.width * s)).toFixed(5),
+        y: +(-oy / (img.height * s)).toFixed(5),
+        w: +(IMG_OUT / (img.width * s)).toFixed(5),
+      },
+      newSource: isNewSource ? sourceToBase64() : null,
+    };
+    close();
     try {
-      const s = scale();
-      const result = {
-        cropped: canvas.toDataURL("image/jpeg", 0.88).split(",")[1],
-        crop: {
-          x: +(-ox / (img.width * s)).toFixed(5),
-          y: +(-oy / (img.height * s)).toFixed(5),
-          w: +(IMG_OUT / (img.width * s)).toFixed(5),
-        },
-        newSource: isNewSource ? sourceToBase64() : null,
-      };
       await onSave(result);
-      close();
     } catch (err) {
-      busy = false;
-      overlay.querySelectorAll("button").forEach((b) => (b.disabled = false));
-      setMsg(err.message, "err");
+      if (onError) onError(err);
     }
   });
 

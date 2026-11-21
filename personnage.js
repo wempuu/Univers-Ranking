@@ -303,7 +303,9 @@ async function editImage() {
     current: perso.image || null,
     source: perso.imageSource || null,
     crop: perso.imageCrop || null,
+    onError: (err) => panel.setStatus(`L'image n'a pas pu être envoyée : ${err.message}`, "err"),
     onSave: async ({ cropped, crop, newSource }) => {
+      panel.setStatus("Envoi de l'image sur GitHub…");
       const v = Date.now(); // ?v= force les navigateurs à recharger les images même si le nom de fichier ne change pas
       if (newSource) {
         await panel.putFile(sourcePath, newSource, `Image complète de ${perso.name} depuis l'outil`);
