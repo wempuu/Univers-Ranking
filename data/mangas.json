@@ -1713,11 +1713,11 @@
         {
           "name": "Kozuki Oden",
           "group": "autres",
-          "image": "images/personnages/one-piece/kozuki-oden.jpg",
+          "image": "images/personnages/one-piece/kozuki-oden.jpg?v=1795248723411",
           "imageSource": "images/personnages/one-piece/originaux/kozuki-oden.jpg",
           "imageCrop": {
-            "x": 0.425,
-            "y": 0.18008,
+            "x": 0.40078,
+            "y": 0.19954,
             "w": 0.25
           },
           "tags": {
