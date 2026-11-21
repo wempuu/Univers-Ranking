@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gérer les tags · Univers Ranking</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=23">
+</head>
+<body>
+  <header class="wrap site">
+    <a class="logo" href="./">Univers <span class="grad">Ranking</span></a>
+    <nav>
+      <a href="./">Accueil</a>
+      <a href="catalogue.html" class="active">Catalogue</a>
+      <a href="jeux.html">Jeux</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" style="padding:32px 0 16px">
+      <h1>Gérer les tags</h1>
+      <p>Catégories de tags, tags, et personnages qui les portent — pour tous les univers.</p>
+      <a class="edit-link" href="catalogue.html" id="btn-close">✕ Fermer l'outil</a>
+    </section>
+
+    <div id="gh-panel"></div>
+
+    <div class="tagman">
+      <section class="lobby-card">
+        <div class="tm-head">
+          <h2 class="lobby-title">Catégories</h2>
+          <button class="btn ghost small" id="btn-new-cat" type="button">＋ Catégorie</button>
+        </div>
+        <ul class="tm-list" id="cats"></ul>
+      </section>
+
+      <section class="lobby-card" id="cat-card">
+        <div class="tm-head">
+          <h2 class="lobby-title" id="cat-title"></h2>
+          <div class="tag-actions">
+            <button class="link-btn" id="btn-rename-cat" type="button">✎ Renommer</button>
+            <button class="link-btn danger-link" id="btn-delete-cat" type="button">🗑 Supprimer</button>
+          </div>
+        </div>
+        <div class="tool-bar" style="margin:0">
+          <input class="tool-input" id="tag-filter" placeholder="Filtrer les tags…" autocomplete="off">
+          <button class="btn small" id="btn-new-tag" type="button">＋ Tag</button>
+        </div>
+        <ul class="tm-list tm-tags" id="tags-list"></ul>
+      </section>
+
+      <section class="lobby-card" id="tag-card" hidden>
+        <div class="tm-head">
+          <h2 class="lobby-title" id="tag-title"></h2>
+          <div class="tag-actions">
+            <button class="link-btn" id="btn-rename-tag" type="button">✎ Renommer / fusionner</button>
+            <button class="link-btn danger-link" id="btn-delete-tag" type="button">🗑 Supprimer</button>
+          </div>
+        </div>
+        <p class="muted-small" id="tag-count"></p>
+        <ul class="tm-persos" id="tag-persos"></ul>
+        <h3 class="tm-sub">Ajouter des personnages</h3>
+        <input class="tool-input" id="add-filter" placeholder="Rechercher un personnage…" autocomplete="off">
+        <ul class="tm-persos tm-add" id="add-list"></ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="wrap">Univers Ranking</footer>
+
+  <script src="common.js?v=23"></script>
+  <script src="github-panel.js?v=23"></script>
+  <script src="tags.js?v=23"></script>
+</body>
+</html>
