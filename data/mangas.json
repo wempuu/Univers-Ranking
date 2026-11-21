@@ -899,12 +899,12 @@
         {
           "name": "Bartolomeo",
           "group": "pirates",
-          "image": "images/personnages/one-piece/bartolomeo.jpg",
+          "image": "images/personnages/one-piece/bartolomeo.jpg?v=1795249089064",
           "imageSource": "images/personnages/one-piece/originaux/bartolomeo.jpg",
           "imageCrop": {
-            "x": 0.14977,
-            "y": 0.01606,
-            "w": 0.6
+            "x": 0.32388,
+            "y": 0.01211,
+            "w": 0.43478
           },
           "tags": {
             "role": [
