@@ -397,12 +397,12 @@
         {
           "name": "Gol D. Roger",
           "group": "pirates",
-          "image": "images/personnages/one-piece/gol-d-roger.jpg",
+          "image": "images/personnages/one-piece/gol-d-roger.jpg?v=1795247485238",
           "imageSource": "images/personnages/one-piece/originaux/gol-d-roger.jpg",
           "imageCrop": {
-            "x": 0.24823,
+            "x": 0.1969,
             "y": 0,
-            "w": 0.28
+            "w": 0.22831
           },
           "tags": {
             "role": [
