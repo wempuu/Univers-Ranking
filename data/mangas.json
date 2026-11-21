@@ -1567,12 +1567,12 @@
         {
           "name": "Donquixote Rosinante (Corazón)",
           "group": "marine",
-          "image": "images/personnages/one-piece/donquixote-rosinante-corazon.jpg",
+          "image": "images/personnages/one-piece/donquixote-rosinante-corazon.jpg?v=1795249294996",
           "imageSource": "images/personnages/one-piece/originaux/donquixote-rosinante-corazon.jpg",
           "imageCrop": {
-            "x": 0.41,
-            "y": 0.08176,
-            "w": 0.3
+            "x": 0.3947,
+            "y": 0.08542,
+            "w": 0.36364
           },
           "tags": {
             "role": [
