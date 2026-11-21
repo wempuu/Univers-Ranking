@@ -1907,12 +1907,12 @@
         {
           "name": "Caesar Clown",
           "group": "autres",
-          "image": "images/personnages/one-piece/caesar-clown.jpg",
+          "image": "images/personnages/one-piece/caesar-clown.jpg?v=1795249355070",
           "imageSource": "images/personnages/one-piece/originaux/caesar-clown.jpg",
           "imageCrop": {
-            "x": 0.32,
-            "y": 0.33748,
-            "w": 0.28
+            "x": 0.25668,
+            "y": 0.24926,
+            "w": 0.42781
           },
           "tags": {
             "role": [
