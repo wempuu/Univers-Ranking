@@ -13,7 +13,22 @@
 //   }
 // Le groupe (groupe.js) affiche automatiquement le jeu et ses règles.
 
-const GAMES = [];
+const GAMES = [
+  {
+    id: "undercover",
+    title: "Undercover",
+    minPlayers: 3,
+    description: "Chacun reçoit un personnage secret. Les innocents ont tous le même ; les imposteurs en ont un autre, " +
+      "qui lui ressemble (au moins 3 tags en commun). Chacun à son tour donne un mot pour décrire son perso, " +
+      "puis tout le monde vote pour démasquer l'imposteur. 3 joueurs minimum.",
+    rules: [
+      { id: "univers", label: "Personnages", type: "select", options: [["tous", "Tous les univers"], ["one-piece", "One Piece"]], default: "tous" },
+      { id: "imposteurs", label: "Imposteurs", type: "select", options: [["auto", "Automatique"], ["1", "1"], ["2", "2"], ["3", "3"], ["4", "4"]], default: "auto" },
+      { id: "temps", label: "Temps pour donner un mot (s)", type: "number", min: 15, max: 180, step: 5, default: 60 },
+      { id: "vote", label: "Temps pour voter (s)", type: "number", min: 15, max: 180, step: 5, default: 60 },
+    ],
+  },
+];
 
 // Valeurs par défaut des règles d'un jeu
 function defaultRules(game) {

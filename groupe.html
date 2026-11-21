@@ -7,7 +7,7 @@
   <meta name="robots" content="noindex">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=21">
+  <link rel="stylesheet" href="style.css?v=22">
 </head>
 <body>
   <header class="wrap site">
@@ -40,7 +40,27 @@
         <ul class="players" id="players"></ul>
       </section>
 
-      <section class="lobby-card">
+      <section class="lobby-card play-card" id="play-card" hidden>
+        <div class="secret" id="secret"></div>
+        <div class="play-head">
+          <h2 class="lobby-title" id="play-title"></h2>
+          <span class="timer" id="timer"></span>
+        </div>
+        <p class="muted-small" id="play-info"></p>
+        <ol class="chat" id="chat"></ol>
+        <form class="tool-bar word-form" id="word-form" hidden>
+          <input class="tool-input" id="word" maxlength="30" placeholder="Un seul mot pour décrire ton perso…" autocomplete="off" spellcheck="false">
+          <button class="btn" type="submit">Envoyer</button>
+        </form>
+        <div class="vote" id="vote" hidden></div>
+        <div class="result" id="result" hidden></div>
+        <div class="tool-bar" id="host-actions" hidden>
+          <button class="btn" id="btn-replay" type="button">🔁 Rejouer</button>
+          <button class="btn ghost" id="btn-lobby" type="button">Retour au groupe</button>
+        </div>
+      </section>
+
+      <section class="lobby-card" id="setup-card">
         <h2 class="lobby-title">Jeu</h2>
         <select class="tool-input" id="game"></select>
         <p class="muted-small" id="game-desc"></p>
@@ -57,8 +77,9 @@
   <footer class="wrap">Univers Ranking</footer>
 
   <script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
-  <script src="common.js?v=21"></script>
-  <script src="jeux-liste.js?v=21"></script>
-  <script src="groupe.js?v=21"></script>
+  <script src="common.js?v=22"></script>
+  <script src="jeux-liste.js?v=22"></script>
+  <script src="undercover.js?v=22"></script>
+  <script src="groupe.js?v=22"></script>
 </body>
 </html>

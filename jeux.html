@@ -6,7 +6,7 @@
   <title>Jeux · Univers Ranking</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=21">
+  <link rel="stylesheet" href="style.css?v=22">
 </head>
 <body>
   <header class="wrap site">
@@ -21,14 +21,17 @@
   <main class="wrap">
     <section class="hero" style="padding-bottom:16px">
       <h1>Les jeux</h1>
-      <p>Choisis un mini-jeu.</p>
+      <p>Les jeux se jouent en groupe : crée un groupe depuis l'accueil, envoie le code à tes amis, puis choisis le jeu.</p>
     </section>
 
-    <!-- Ajouter les futurs jeux ici, dans une <div class="grid"> avec des <a class="card" href="jeux/mon-jeu.html"> -->
-    <div class="empty">
-      <div class="emoji">🎮</div>
-      <h2>Aucun jeu pour l'instant</h2>
-      <p>Les premiers mini-jeux arrivent bientôt.</p>
+    <!-- Une carte par jeu ; les jeux eux-mêmes sont décrits dans jeux-liste.js -->
+    <div class="grid">
+      <a class="card game-card" href="./#party-title">
+        <div class="emoji">🕵️</div>
+        <h2>Undercover</h2>
+        <p>Chacun reçoit un personnage secret. Les innocents ont tous le même, les imposteurs un perso qui lui ressemble. Donnez un mot chacun votre tour, puis votez pour démasquer l'imposteur.</p>
+        <span class="tag">3 joueurs minimum</span>
+      </a>
     </div>
   </main>
 
