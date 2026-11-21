@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Groupe · Univers Ranking</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=21">
+</head>
+<body>
+  <header class="wrap site">
+    <a class="logo" href="./">Univers <span class="grad">Ranking</span></a>
+    <nav>
+      <a href="./">Accueil</a>
+      <a href="catalogue.html">Catalogue</a>
+      <a href="jeux.html">Jeux</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" style="padding:32px 0 8px">
+      <h1>Groupe</h1>
+      <p class="tool-status" id="status">Connexion…</p>
+    </section>
+
+    <div class="lobby" id="lobby" hidden>
+      <section class="lobby-card">
+        <p class="eyebrow">Code du groupe</p>
+        <div class="group-code" id="code"></div>
+        <div class="tool-bar" style="justify-content:center;margin:12px 0 0">
+          <button class="btn" id="btn-copy" type="button">📋 Copier l'invitation</button>
+        </div>
+        <p class="muted-small" style="text-align:center;margin:8px 0 0">Envoie ce code à tes amis : ils le saisissent sur l'accueil, ou ouvrent le lien copié.</p>
+      </section>
+
+      <section class="lobby-card">
+        <h2 class="lobby-title">Joueurs <span class="muted-small" id="count"></span></h2>
+        <ul class="players" id="players"></ul>
+      </section>
+
+      <section class="lobby-card">
+        <h2 class="lobby-title">Jeu</h2>
+        <select class="tool-input" id="game"></select>
+        <p class="muted-small" id="game-desc"></p>
+        <div class="rules" id="rules"></div>
+        <p class="muted-small" id="host-only"></p>
+        <div class="tool-bar" style="margin:16px 0 0">
+          <button class="btn" id="btn-start" type="button" disabled>▶ Lancer la partie</button>
+          <button class="btn ghost" id="btn-leave" type="button">Quitter le groupe</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="wrap">Univers Ranking</footer>
+
+  <script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
+  <script src="common.js?v=21"></script>
+  <script src="jeux-liste.js?v=21"></script>
+  <script src="groupe.js?v=21"></script>
+</body>
+</html>

@@ -7,7 +7,7 @@
   <meta name="description" content="Mini-jeux pop culture : films, séries, jeux vidéo, mangas.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20">
+  <link rel="stylesheet" href="style.css?v=21">
 </head>
 <body>
   <header class="wrap site">
@@ -25,7 +25,28 @@
       <p>Des mini-jeux autour de la pop culture : films, séries, jeux vidéo, mangas…</p>
       <a class="btn" href="jeux.html">Voir les jeux</a>
     </section>
+
+    <section class="party" aria-labelledby="party-title">
+      <h2 class="section-title" id="party-title">Jouer entre amis</h2>
+      <div class="party-grid">
+        <form class="lobby-card" id="form-create">
+          <h3>Créer un groupe</h3>
+          <p class="muted-small">Un code est généré : envoie-le à tes amis. Tu choisiras ensuite le jeu et les règles.</p>
+          <input class="tool-input" id="pseudo-create" placeholder="Ton pseudo" maxlength="24" autocomplete="nickname" required>
+          <button class="btn" type="submit">✨ Créer le groupe</button>
+        </form>
+        <form class="lobby-card" id="form-join">
+          <h3>Rejoindre un groupe</h3>
+          <p class="muted-small">Saisis le code reçu d'un ami.</p>
+          <input class="tool-input" id="pseudo-join" placeholder="Ton pseudo" maxlength="24" autocomplete="nickname" required>
+          <input class="tool-input code-input" id="join-code" placeholder="CODE" maxlength="6" autocomplete="off" spellcheck="false" required>
+          <button class="btn" type="submit">➜ Rejoindre</button>
+        </form>
+      </div>
+    </section>
   </main>
+
+  <script src="accueil.js?v=21"></script>
 
   <footer class="wrap">Univers Ranking</footer>
 </body>
