@@ -637,12 +637,12 @@
         {
           "name": "Jack",
           "group": "pirates",
-          "image": "images/personnages/one-piece/jack.jpg",
+          "image": "images/personnages/one-piece/jack.jpg?v=1795247612851",
           "imageSource": "images/personnages/one-piece/originaux/jack.jpg",
           "imageCrop": {
-            "x": 0.40029,
-            "y": 0.04846,
-            "w": 0.3
+            "x": 0.46494,
+            "y": 0.12419,
+            "w": 0.20172
           },
           "tags": {
             "role": [
