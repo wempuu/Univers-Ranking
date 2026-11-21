@@ -355,11 +355,25 @@
           },
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Criminel",
+              "Timonier"
             ],
             "style-de-combat": [
               "Combat à mains nues",
               "Eau"
+            ],
+            "caractere": [
+              "Calme",
+              "Loyal",
+              "Sage",
+              "Honorable"
+            ],
+            "physique": [
+              "Créature marine",
+              "Masculin",
+              "Mature",
+              "Grande taille"
             ]
           }
         },
@@ -375,10 +389,26 @@
           },
           "tags": {
             "role": [
-              "Personnage secondaire"
+              "Personnage secondaire",
+              "Leader",
+              "Criminel",
+              "Légende"
             ],
             "style-de-combat": [
               "Épéiste"
+            ],
+            "caractere": [
+              "Libre",
+              "Joyeux",
+              "Charismatique",
+              "Courageux"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Moustache",
+              "Couvre-chef"
             ]
           }
         },
@@ -394,10 +424,25 @@
           },
           "tags": {
             "role": [
-              "Mentor"
+              "Mentor",
+              "Second",
+              "Criminel"
             ],
             "style-de-combat": [
               "Épéiste"
+            ],
+            "caractere": [
+              "Calme",
+              "Sage",
+              "Libre"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Vieux",
+              "Barbe",
+              "Lunettes",
+              "Cicatrice"
             ]
           }
         },
@@ -413,10 +458,25 @@
           },
           "tags": {
             "role": [
-              "Mentor"
+              "Mentor",
+              "Leader",
+              "Criminel"
             ],
             "style-de-combat": [
               "Épéiste"
+            ],
+            "caractere": [
+              "Calme",
+              "Libre",
+              "Charismatique",
+              "Protecteur"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Cicatrice",
+              "Amputé"
             ]
           }
         },
@@ -430,7 +490,27 @@
             "y": 0.02991,
             "w": 0.23923
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Second",
+              "Criminel",
+              "Personnage secondaire"
+            ],
+            "style-de-combat": [
+              "Tireur"
+            ],
+            "caractere": [
+              "Calme",
+              "Intelligent",
+              "Loyal"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Cheveux longs"
+            ]
+          }
         },
         {
           "name": "Lucky Roux",
@@ -442,7 +522,25 @@
             "y": 0.00304,
             "w": 0.65
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Criminel",
+              "Personnage secondaire"
+            ],
+            "style-de-combat": [
+              "Tireur"
+            ],
+            "caractere": [
+              "Gourmand",
+              "Joyeux"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Corpulent"
+            ]
+          }
         },
         {
           "name": "Yasopp",
@@ -454,7 +552,25 @@
             "y": 0,
             "w": 0.3
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Criminel",
+              "Personnage secondaire"
+            ],
+            "style-de-combat": [
+              "Tireur"
+            ],
+            "caractere": [
+              "Joyeux",
+              "Fier"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Cheveux longs"
+            ]
+          }
         },
         {
           "name": "Edward Newgate (Barbe Blanche)",
@@ -468,11 +584,28 @@
           },
           "tags": {
             "role": [
-              "Personnage secondaire"
+              "Personnage secondaire",
+              "Leader",
+              "Criminel",
+              "Légende"
             ],
             "style-de-combat": [
               "Arme d'hast",
               "Séismes"
+            ],
+            "caractere": [
+              "Protecteur",
+              "Fier",
+              "Courageux",
+              "Charismatique"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Vieux",
+              "Moustache",
+              "Grande taille",
+              "Cicatrice"
             ]
           }
         },
@@ -488,11 +621,24 @@
           },
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Second",
+              "Criminel",
+              "Medecin"
             ],
             "style-de-combat": [
               "Transformation",
               "Régénération"
+            ],
+            "caractere": [
+              "Calme",
+              "Loyal"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Barbe"
             ]
           }
         },
@@ -508,10 +654,23 @@
           },
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Criminel"
             ],
             "style-de-combat": [
               "Feu"
+            ],
+            "caractere": [
+              "Impulsif",
+              "Loyal",
+              "Fier"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Jeune",
+              "Couvre-chef",
+              "Tatouage"
             ]
           }
         },
@@ -525,7 +684,27 @@
             "y": 0.04766,
             "w": 0.25
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Criminel",
+              "Personnage secondaire"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues",
+              "Durcissement"
+            ],
+            "caractere": [
+              "Calme",
+              "Loyal"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Musclé",
+              "Grande taille"
+            ]
+          }
         },
         {
           "name": "Trafalgar Law",
@@ -540,11 +719,27 @@
           "tags": {
             "role": [
               "Allié",
-              "Antihéros"
+              "Antihéros",
+              "Leader",
+              "Criminel",
+              "Medecin"
             ],
             "style-de-combat": [
               "Épéiste",
               "Manipulation de l'espace"
+            ],
+            "caractere": [
+              "Calme",
+              "Froid",
+              "Intelligent",
+              "Rusé"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Jeune",
+              "Couvre-chef",
+              "Tatouage"
             ]
           }
         },
@@ -558,7 +753,27 @@
             "y": 0.0739,
             "w": 0.35842
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Allié",
+              "Criminel",
+              "Navigateur"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues",
+              "Combat aux jambes"
+            ],
+            "caractere": [
+              "Peureux",
+              "Gentil",
+              "Naif"
+            ],
+            "physique": [
+              "Animaux",
+              "Masculin",
+              "Grande taille"
+            ]
+          }
         },
         {
           "name": "Eustass Kid",
@@ -572,10 +787,25 @@
           },
           "tags": {
             "role": [
-              "Rival"
+              "Rival",
+              "Leader",
+              "Criminel"
             ],
             "style-de-combat": [
               "Magnétisme"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Colérique",
+              "Impulsif",
+              "Ambitieux"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Jeune",
+              "Amputé",
+              "Cicatrice"
             ]
           }
         },
@@ -589,7 +819,27 @@
             "y": 0,
             "w": 0.4
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Second",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Épéiste"
+            ],
+            "caractere": [
+              "Calme",
+              "Loyal",
+              "Mystérieux"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Jeune",
+              "Masque",
+              "Cheveux longs"
+            ]
+          }
         },
         {
           "name": "Marshall D. Teach (Barbe Noire)",
@@ -603,11 +853,27 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Leader",
+              "Criminel"
             ],
             "style-de-combat": [
               "Ténèbres",
               "Séismes"
+            ],
+            "caractere": [
+              "Ambitieux",
+              "Rusé",
+              "Cruel",
+              "Gourmand"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Corpulent",
+              "Barbe",
+              "Couvre-chef"
             ]
           }
         },
@@ -623,12 +889,27 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Leader",
+              "Criminel"
             ],
             "style-de-combat": [
               "Arme contondante",
               "Transformation",
               "Feu"
+            ],
+            "caractere": [
+              "Cruel",
+              "Colérique",
+              "Ambitieux",
+              "Impulsif"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Cornes",
+              "Musclé"
             ]
           }
         },
@@ -650,6 +931,19 @@
               "Arme contondante",
               "Glace",
               "Transformation"
+            ],
+            "caractere": [
+              "Libre",
+              "Courageux",
+              "Loyal",
+              "Joyeux"
+            ],
+            "physique": [
+              "Humain",
+              "Jeune",
+              "Grande taille",
+              "Cornes",
+              "Cheveux longs"
             ]
           }
         },
@@ -665,12 +959,27 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Second",
+              "Criminel"
             ],
             "style-de-combat": [
               "Épéiste",
               "Feu",
               "Transformation"
+            ],
+            "caractere": [
+              "Froid",
+              "Loyal",
+              "Fier",
+              "Cruel"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Masque",
+              "Ailes"
             ]
           }
         },
@@ -686,11 +995,26 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Criminel",
+              "Scientifique"
             ],
             "style-de-combat": [
               "Cyborg",
               "Transformation"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Drole",
+              "Cruel"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Corpulent",
+              "Cyborg",
+              "Lunettes"
             ]
           }
         },
@@ -706,10 +1030,23 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Criminel"
             ],
             "style-de-combat": [
               "Transformation"
+            ],
+            "caractere": [
+              "Loyal",
+              "Cruel"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Musclé",
+              "Masque"
             ]
           }
         },
@@ -725,10 +1062,26 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Leader",
+              "Criminel",
+              "Noble"
             ],
             "style-de-combat": [
               "Manipulation de fils"
+            ],
+            "caractere": [
+              "Cruel",
+              "Arrogant",
+              "Rusé",
+              "Charismatique"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Lunettes",
+              "Grande taille"
             ]
           }
         },
@@ -744,11 +1097,25 @@
           },
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Leader",
+              "Criminel",
+              "Royauté"
             ],
             "style-de-combat": [
               "Combat aux jambes",
               "Pétrification"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Fier",
+              "Romantique"
+            ],
+            "physique": [
+              "Humain",
+              "Feminin",
+              "Jeune",
+              "Cheveux longs"
             ]
           }
         },
@@ -765,10 +1132,23 @@
           "tags": {
             "role": [
               "Rival",
-              "Mentor"
+              "Mentor",
+              "Criminel"
             ],
             "style-de-combat": [
               "Épéiste"
+            ],
+            "caractere": [
+              "Calme",
+              "Fier",
+              "Solitaire"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Couvre-chef",
+              "Moustache"
             ]
           }
         },
@@ -784,10 +1164,24 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Leader",
+              "Criminel"
             ],
             "style-de-combat": [
               "Sable"
+            ],
+            "caractere": [
+              "Rusé",
+              "Froid",
+              "Ambitieux"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Cicatrice",
+              "Amputé"
             ]
           }
         },
@@ -803,10 +1197,25 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Leader",
+              "Criminel"
             ],
             "style-de-combat": [
               "Corps fragmentable"
+            ],
+            "caractere": [
+              "Peureux",
+              "Drole",
+              "Arrogant",
+              "Chanceux"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Couvre-chef",
+              "Maquillage"
             ]
           }
         },
@@ -822,10 +1231,24 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Leader",
+              "Criminel",
+              "Légende"
             ],
             "style-de-combat": [
               "Combat à mains nues"
+            ],
+            "caractere": [
+              "Ambitieux",
+              "Cruel"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Musclé",
+              "Cicatrice"
             ]
           }
         },
@@ -841,10 +1264,24 @@
           },
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Leader",
+              "Criminel"
             ],
             "style-de-combat": [
               "Manipulation de l'âge"
+            ],
+            "caractere": [
+              "Gourmand",
+              "Impulsif",
+              "Colérique"
+            ],
+            "physique": [
+              "Humain",
+              "Feminin",
+              "Jeune",
+              "Couvre-chef",
+              "Cheveux longs"
             ]
           }
         },
@@ -858,7 +1295,31 @@
             "y": 0.12579,
             "w": 0.24631
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Allié",
+              "Criminel",
+              "Révolutionnaire"
+            ],
+            "style-de-combat": [
+              "Répulsion",
+              "Cyborg"
+            ],
+            "caractere": [
+              "Calme",
+              "Gentil",
+              "Protecteur",
+              "Mystérieux"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Cyborg",
+              "Couvre-chef"
+            ]
+          }
         },
         {
           "name": "Gecko Moria",
@@ -872,10 +1333,23 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Leader",
+              "Criminel"
             ],
             "style-de-combat": [
               "Ombres"
+            ],
+            "caractere": [
+              "Paresseux",
+              "Arrogant",
+              "Rusé"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Corpulent"
             ]
           }
         },
@@ -891,10 +1365,22 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Criminel"
             ],
             "style-de-combat": [
               "Esprits"
+            ],
+            "caractere": [
+              "Capricieux",
+              "Peureux"
+            ],
+            "physique": [
+              "Humain",
+              "Feminin",
+              "Jeune",
+              "Couvre-chef",
+              "Cheveux longs"
             ]
           }
         },
@@ -910,10 +1396,23 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Leader",
+              "Criminel"
             ],
             "style-de-combat": [
               "Combat à mains nues"
+            ],
+            "caractere": [
+              "Cruel",
+              "Arrogant",
+              "Haineux"
+            ],
+            "physique": [
+              "Créature marine",
+              "Masculin",
+              "Mature",
+              "Grande taille"
             ]
           }
         },
@@ -929,11 +1428,26 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Leader",
+              "Criminel",
+              "Légende"
             ],
             "style-de-combat": [
               "Épéiste",
               "Lévitation"
+            ],
+            "caractere": [
+              "Ambitieux",
+              "Rusé",
+              "Arrogant"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Vieux",
+              "Cheveux longs",
+              "Amputé"
             ]
           }
         },
@@ -949,10 +1463,23 @@
           },
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Leader",
+              "Criminel"
             ],
             "style-de-combat": [
               "Barrières"
+            ],
+            "caractere": [
+              "Impulsif",
+              "Loyal",
+              "Drole"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Jeune",
+              "Piercing"
             ]
           }
         },
@@ -968,10 +1495,23 @@
           },
           "tags": {
             "role": [
-              "Mentor"
+              "Mentor",
+              "Cuisinier"
             ],
             "style-de-combat": [
               "Combat aux jambes"
+            ],
+            "caractere": [
+              "Sage",
+              "Protecteur"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Vieux",
+              "Moustache",
+              "Couvre-chef",
+              "Amputé"
             ]
           }
         },
@@ -987,11 +1527,24 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Leader",
+              "Criminel"
             ],
             "style-de-combat": [
               "Combat à mains nues",
               "Arme d'hast"
+            ],
+            "caractere": [
+              "Cruel",
+              "Haineux",
+              "Arrogant"
+            ],
+            "physique": [
+              "Créature marine",
+              "Masculin",
+              "Jeune",
+              "Musclé"
             ]
           }
         },
@@ -1005,7 +1558,28 @@
             "y": 0.16806,
             "w": 0.23697
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Arme d'hast"
+            ],
+            "caractere": [
+              "Naif",
+              "Colérique"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Jeune",
+              "Corpulent",
+              "Moustache",
+              "Grande taille"
+            ]
+          }
         },
         {
           "name": "Charlotte Linlin (Big Mom)",
@@ -1019,10 +1593,24 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Leader",
+              "Criminel"
             ],
             "style-de-combat": [
               "Manipulation des âmes"
+            ],
+            "caractere": [
+              "Gourmand",
+              "Cruel",
+              "Colérique",
+              "Capricieux"
+            ],
+            "physique": [
+              "Feminin",
+              "Vieux",
+              "Grande taille",
+              "Couvre-chef"
             ]
           }
         },
@@ -1038,11 +1626,27 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Second",
+              "Criminel"
             ],
             "style-de-combat": [
               "Arme d'hast",
               "Corps malléable"
+            ],
+            "caractere": [
+              "Fier",
+              "Loyal",
+              "Calme",
+              "Honorable"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Cicatrice",
+              "Musclé"
             ]
           }
         },
@@ -1059,10 +1663,21 @@
           "tags": {
             "role": [
               "Antagoniste",
-              "Allié"
+              "Allié",
+              "Criminel",
+              "Noble"
             ],
             "style-de-combat": [
               "Manipulation de la mémoire"
+            ],
+            "caractere": [
+              "Manipulateur",
+              "Romantique"
+            ],
+            "physique": [
+              "Feminin",
+              "Jeune",
+              "Cheveux longs"
             ]
           }
         },
@@ -1078,10 +1693,21 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Criminel"
             ],
             "style-de-combat": [
               "Création d'objets"
+            ],
+            "caractere": [
+              "Rusé"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Couvre-chef",
+              "Grande taille"
             ]
           }
         },
@@ -1097,11 +1723,23 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Criminel"
             ],
             "style-de-combat": [
               "Épéiste",
               "Absorption"
+            ],
+            "caractere": [
+              "Froid",
+              "Calme"
+            ],
+            "physique": [
+              "Humain",
+              "Feminin",
+              "Mature",
+              "Grande taille",
+              "Cheveux longs"
             ]
           }
         },
@@ -1117,11 +1755,22 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Criminel"
             ],
             "style-de-combat": [
               "Épéiste",
               "Invocation"
+            ],
+            "caractere": [
+              "Fier",
+              "Arrogant"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Musclé"
             ]
           }
         },
@@ -1135,7 +1784,26 @@
             "y": 0,
             "w": 0.5
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Fier",
+              "Loyal"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Jeune",
+              "Tatouage"
+            ]
+          }
         },
         {
           "name": "Shiryu",
@@ -1147,7 +1815,26 @@
             "y": 0,
             "w": 0.35
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Épéiste",
+              "Invisibilité"
+            ],
+            "caractere": [
+              "Cruel",
+              "Froid"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Couvre-chef"
+            ]
+          }
         },
         {
           "name": "Jesus Burgess",
@@ -1159,7 +1846,26 @@
             "y": 0.12719,
             "w": 0.28011
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues"
+            ],
+            "caractere": [
+              "Bagarreur",
+              "Arrogant"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Musclé",
+              "Couvre-chef"
+            ]
+          }
         },
         {
           "name": "Imu",
@@ -1173,10 +1879,20 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Leader",
+              "Noble"
             ],
             "style-de-combat": [
               "Possession"
+            ],
+            "caractere": [
+              "Mystérieux",
+              "Cruel"
+            ],
+            "physique": [
+              "Cornes",
+              "Cheveux longs"
             ]
           }
         },
@@ -1192,11 +1908,22 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Noble"
             ],
             "style-de-combat": [
               "Transformation",
               "Régénération"
+            ],
+            "caractere": [
+              "Cruel",
+              "Arrogant"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Vieux",
+              "Barbe"
             ]
           }
         },
@@ -1210,7 +1937,26 @@
             "y": 0,
             "w": 0.4
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Transformation"
+            ],
+            "caractere": [
+              "Froid",
+              "Arrogant"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Vieux",
+              "Barbe",
+              "Cheveux longs"
+            ]
+          }
         },
         {
           "name": "Saint Topman Warcury",
@@ -1222,7 +1968,26 @@
             "y": 0,
             "w": 0.29997
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Transformation"
+            ],
+            "caractere": [
+              "Colérique",
+              "Arrogant"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Vieux",
+              "Moustache",
+              "Chauve"
+            ]
+          }
         },
         {
           "name": "Saint Ethanbaron V. Nusjuro",
@@ -1234,7 +1999,27 @@
             "y": 0.00399,
             "w": 0.3
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Épéiste",
+              "Transformation"
+            ],
+            "caractere": [
+              "Calme",
+              "Froid"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Vieux",
+              "Cicatrice",
+              "Chauve"
+            ]
+          }
         },
         {
           "name": "Saint Shepherd Ju Peter",
@@ -1246,7 +2031,25 @@
             "y": 0.00258,
             "w": 0.22
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Transformation"
+            ],
+            "caractere": [
+              "Froid",
+              "Arrogant"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Barbe"
+            ]
+          }
         },
         {
           "name": "Saint Figarland Garling",
@@ -1258,7 +2061,29 @@
             "y": 0.06293,
             "w": 0.38
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble",
+              "Leader"
+            ],
+            "style-de-combat": [
+              "Épéiste"
+            ],
+            "caractere": [
+              "Cruel",
+              "Arrogant",
+              "Fier"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Vieux",
+              "Barbe",
+              "Lunettes",
+              "Cheveux longs"
+            ]
+          }
         },
         {
           "name": "Saint Figarland Shamrock",
@@ -1270,7 +2095,25 @@
             "y": 0,
             "w": 0.36416
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Épéiste"
+            ],
+            "caractere": [
+              "Froid",
+              "Arrogant"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Cheveux longs"
+            ]
+          }
         },
         {
           "name": "Saint Shepherd Sommers",
@@ -1282,7 +2125,25 @@
             "y": 0.0188,
             "w": 0.52434
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Plantes"
+            ],
+            "caractere": [
+              "Cruel"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Barbe",
+              "Cheveux longs"
+            ]
+          }
         },
         {
           "name": "Saint Rimoshifu Killingham",
@@ -1294,7 +2155,22 @@
             "y": 0.24085,
             "w": 0.41742
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Invocation"
+            ],
+            "caractere": [
+              "Arrogant"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature"
+            ]
+          }
         },
         {
           "name": "Saint Manmayer Gunko",
@@ -1306,7 +2182,26 @@
             "y": 0.26879,
             "w": 0.35
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Tireur"
+            ],
+            "caractere": [
+              "Froid",
+              "Loyal"
+            ],
+            "physique": [
+              "Humain",
+              "Feminin",
+              "Jeune",
+              "Masque",
+              "Couvre-chef"
+            ]
+          }
         },
         {
           "name": "Sakazuki (Akainu)",
@@ -1320,10 +2215,23 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Leader",
+              "Forces de l'ordre"
             ],
             "style-de-combat": [
               "Magma"
+            ],
+            "caractere": [
+              "Impitoyable",
+              "Serieux"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Couvre-chef",
+              "Cicatrice"
             ]
           }
         },
@@ -1339,10 +2247,23 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Forces de l'ordre",
+              "Criminel"
             ],
             "style-de-combat": [
               "Glace"
+            ],
+            "caractere": [
+              "Calme",
+              "Paresseux",
+              "Libre"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Grande taille"
             ]
           }
         },
@@ -1358,10 +2279,21 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Forces de l'ordre"
             ],
             "style-de-combat": [
               "Lumière"
+            ],
+            "caractere": [
+              "Calme",
+              "Mystérieux"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Vieux",
+              "Lunettes"
             ]
           }
         },
@@ -1377,10 +2309,22 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Forces de l'ordre"
             ],
             "style-de-combat": [
               "Plantes"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Cruel"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Lunettes",
+              "Cheveux longs"
             ]
           }
         },
@@ -1396,11 +2340,24 @@
           },
           "tags": {
             "role": [
-              "Personnage secondaire"
+              "Personnage secondaire",
+              "Forces de l'ordre"
             ],
             "style-de-combat": [
               "Épéiste",
               "Gravité"
+            ],
+            "caractere": [
+              "Calme",
+              "Honorable",
+              "Sage"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Aveugle",
+              "Cicatrice"
             ]
           }
         },
@@ -1416,11 +2373,25 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Leader",
+              "Forces de l'ordre"
             ],
             "style-de-combat": [
               "Transformation",
               "Ondes de choc"
+            ],
+            "caractere": [
+              "Sage",
+              "Calme",
+              "Serieux"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Vieux",
+              "Barbe",
+              "Lunettes"
             ]
           }
         },
@@ -1436,10 +2407,24 @@
           },
           "tags": {
             "role": [
-              "Mentor"
+              "Mentor",
+              "Forces de l'ordre",
+              "Légende"
             ],
             "style-de-combat": [
               "Combat à mains nues"
+            ],
+            "caractere": [
+              "Drole",
+              "Courageux",
+              "Libre"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Vieux",
+              "Cicatrice",
+              "Musclé"
             ]
           }
         },
@@ -1455,10 +2440,21 @@
           },
           "tags": {
             "role": [
-              "Rival"
+              "Rival",
+              "Forces de l'ordre",
+              "Allié"
             ],
             "style-de-combat": [
               "Combat à mains nues"
+            ],
+            "caractere": [
+              "Courageux",
+              "Gentil"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Jeune"
             ]
           }
         },
@@ -1474,11 +2470,23 @@
           },
           "tags": {
             "role": [
-              "Rival"
+              "Rival",
+              "Forces de l'ordre"
             ],
             "style-de-combat": [
               "Fumée",
               "Arme contondante"
+            ],
+            "caractere": [
+              "Serieux",
+              "Honorable",
+              "Froid"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Cicatrice"
             ]
           }
         },
@@ -1492,7 +2500,27 @@
             "y": 0,
             "w": 0.34364
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Allié",
+              "Rival",
+              "Forces de l'ordre"
+            ],
+            "style-de-combat": [
+              "Épéiste"
+            ],
+            "caractere": [
+              "Serieux",
+              "Courageux",
+              "Maladroit"
+            ],
+            "physique": [
+              "Humain",
+              "Feminin",
+              "Jeune",
+              "Lunettes"
+            ]
+          }
         },
         {
           "name": "Dr. Vegapunk",
@@ -1506,10 +2534,22 @@
           },
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Scientifique"
             ],
             "style-de-combat": [
               "Technologie"
+            ],
+            "caractere": [
+              "Intelligent",
+              "Gentil",
+              "Excentrique"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Vieux",
+              "Barbe"
             ]
           }
         },
@@ -1525,11 +2565,25 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Assassin",
+              "Espion"
             ],
             "style-de-combat": [
               "Combat à mains nues",
               "Transformation"
+            ],
+            "caractere": [
+              "Froid",
+              "Cruel",
+              "Fier"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Couvre-chef",
+              "Barbe"
             ]
           }
         },
@@ -1545,10 +2599,25 @@
           },
           "tags": {
             "role": [
-              "Mentor"
+              "Mentor",
+              "Espion",
+              "Forces de l'ordre"
             ],
             "style-de-combat": [
               "Manipulation du son"
+            ],
+            "caractere": [
+              "Maladroit",
+              "Gentil",
+              "Protecteur"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Couvre-chef",
+              "Maquillage"
             ]
           }
         },
@@ -1564,10 +2633,22 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Gardien"
             ],
             "style-de-combat": [
               "Poison"
+            ],
+            "caractere": [
+              "Serieux",
+              "Impitoyable"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Couvre-chef"
             ]
           }
         },
@@ -1583,10 +2664,23 @@
           },
           "tags": {
             "role": [
-              "Personnage secondaire"
+              "Personnage secondaire",
+              "Leader",
+              "Révolutionnaire"
             ],
             "style-de-combat": [
               "Vent"
+            ],
+            "caractere": [
+              "Mystérieux",
+              "Calme",
+              "Charismatique"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Tatouage"
             ]
           }
         },
@@ -1602,11 +2696,25 @@
           },
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Second",
+              "Révolutionnaire"
             ],
             "style-de-combat": [
               "Combat à mains nues",
               "Feu"
+            ],
+            "caractere": [
+              "Loyal",
+              "Courageux",
+              "Calme"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Jeune",
+              "Couvre-chef",
+              "Cicatrice"
             ]
           }
         },
@@ -1622,10 +2730,24 @@
           },
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Leader",
+              "Révolutionnaire"
             ],
             "style-de-combat": [
               "Altération du corps"
+            ],
+            "caractere": [
+              "Excentrique",
+              "Loyal",
+              "Drole"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Maquillage",
+              "Grande taille"
             ]
           }
         },
@@ -1641,10 +2763,21 @@
           },
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Révolutionnaire"
             ],
             "style-de-combat": [
               "Transformation"
+            ],
+            "caractere": [
+              "Mystérieux",
+              "Calme"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Masque"
             ]
           }
         },
@@ -1660,10 +2793,22 @@
           },
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Royauté"
             ],
             "style-de-combat": [
               "Armes de jet"
+            ],
+            "caractere": [
+              "Courageux",
+              "Gentil",
+              "Protecteur"
+            ],
+            "physique": [
+              "Humain",
+              "Feminin",
+              "Jeune",
+              "Cheveux longs"
             ]
           }
         },
@@ -1679,10 +2824,25 @@
           },
           "tags": {
             "role": [
-              "Personnage secondaire"
+              "Personnage secondaire",
+              "Leader",
+              "Royauté",
+              "Légende"
             ],
             "style-de-combat": [
               "Épéiste"
+            ],
+            "caractere": [
+              "Libre",
+              "Courageux",
+              "Impulsif",
+              "Charismatique"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Barbe"
             ]
           }
         },
@@ -1698,10 +2858,22 @@
           },
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Royauté",
+              "Leader"
             ],
             "style-de-combat": [
               "Transformation"
+            ],
+            "caractere": [
+              "Courageux",
+              "Naif"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Jeune",
+              "Cheveux longs"
             ]
           }
         },
@@ -1717,10 +2889,22 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Leader",
+              "Dieu"
             ],
             "style-de-combat": [
               "Foudre"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Cruel"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Jeune",
+              "Couvre-chef"
             ]
           }
         },
@@ -1736,10 +2920,21 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Musicien"
             ],
             "style-de-combat": [
               "Musique"
+            ],
+            "caractere": [
+              "Naif",
+              "Ambitieux"
+            ],
+            "physique": [
+              "Humain",
+              "Feminin",
+              "Jeune",
+              "Cheveux longs"
             ]
           }
         },
@@ -1755,12 +2950,24 @@
           },
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Guerrier"
             ],
             "style-de-combat": [
               "Combat à mains nues",
               "Foudre",
               "Transformation"
+            ],
+            "caractere": [
+              "Joyeux",
+              "Courageux",
+              "Gourmand"
+            ],
+            "physique": [
+              "Animaux",
+              "Feminin",
+              "Jeune",
+              "Petite taille"
             ]
           }
         },
@@ -1776,11 +2983,22 @@
           },
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Samouraï"
             ],
             "style-de-combat": [
               "Épéiste",
               "Feu"
+            ],
+            "caractere": [
+              "Loyal",
+              "Courageux",
+              "Honorable"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature"
             ]
           }
         },
@@ -1796,10 +3014,23 @@
           },
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Royauté"
             ],
             "style-de-combat": [
               "Contrôle des animaux"
+            ],
+            "caractere": [
+              "Peureux",
+              "Gentil",
+              "Naif"
+            ],
+            "physique": [
+              "Créature marine",
+              "Feminin",
+              "Jeune",
+              "Grande taille",
+              "Cheveux longs"
             ]
           }
         },
@@ -1815,11 +3046,23 @@
           },
           "tags": {
             "role": [
-              "Personnage secondaire"
+              "Personnage secondaire",
+              "Royauté"
             ],
             "style-de-combat": [
               "Arme contondante",
               "Transformation"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Libre"
+            ],
+            "physique": [
+              "Géant",
+              "Masculin",
+              "Jeune",
+              "Grande taille",
+              "Cheveux longs"
             ]
           }
         },
@@ -1835,10 +3078,21 @@
           },
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Royauté"
             ],
             "style-de-combat": [
               "Épéiste"
+            ],
+            "caractere": [
+              "Gentil",
+              "Courageux"
+            ],
+            "physique": [
+              "Humain",
+              "Feminin",
+              "Jeune",
+              "Cheveux longs"
             ]
           }
         },
@@ -1854,10 +3108,23 @@
           },
           "tags": {
             "role": [
-              "Mentor"
+              "Mentor",
+              "Medecin"
             ],
             "style-de-combat": [
               "Médecine"
+            ],
+            "caractere": [
+              "Gentil",
+              "Excentrique",
+              "Courageux"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Vieux",
+              "Couvre-chef",
+              "Moustache"
             ]
           }
         },
@@ -1873,11 +3140,23 @@
           },
           "tags": {
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Scientifique"
             ],
             "style-de-combat": [
               "Gaz",
               "Poison"
+            ],
+            "caractere": [
+              "Cruel",
+              "Excentrique",
+              "Arrogant"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Cheveux longs"
             ]
           }
         },
@@ -1891,7 +3170,28 @@
             "y": 0.13988,
             "w": 0.50505
           },
-          "tags": {}
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Royauté"
+            ],
+            "style-de-combat": [
+              "Absorption"
+            ],
+            "caractere": [
+              "Peureux",
+              "Gourmand",
+              "Arrogant",
+              "Cruel"
+            ],
+            "physique": [
+              "Humain",
+              "Masculin",
+              "Mature",
+              "Corpulent",
+              "Couvre-chef"
+            ]
+          }
         }
       ]
     },
