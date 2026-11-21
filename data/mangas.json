@@ -1246,12 +1246,12 @@
         {
           "name": "Saint Topman Warcury",
           "group": "marine",
-          "image": "images/personnages/one-piece/saint-topman-warcury.jpg",
+          "image": "images/personnages/one-piece/saint-topman-warcury.jpg?v=1795248761051",
           "imageSource": "images/personnages/one-piece/originaux/saint-topman-warcury.jpg",
           "imageCrop": {
-            "x": 0.26963,
+            "x": 0.29963,
             "y": 0,
-            "w": 0.3
+            "w": 0.29997
           },
           "tags": {}
         },
