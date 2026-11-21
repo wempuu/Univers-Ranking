@@ -807,6 +807,76 @@
           }
         },
         {
+          "name": "Kuro",
+          "group": "pirates",
+          "tags": {}
+        },
+        {
+          "name": "Don Krieg",
+          "group": "pirates",
+          "tags": {}
+        },
+        {
+          "name": "Gem (Mr. 5)",
+          "group": "pirates",
+          "tags": {}
+        },
+        {
+          "name": "Galdino (Mr. 3)",
+          "group": "pirates",
+          "tags": {}
+        },
+        {
+          "name": "Bellamy",
+          "group": "pirates",
+          "tags": {}
+        },
+        {
+          "name": "Foxy",
+          "group": "pirates",
+          "tags": {}
+        },
+        {
+          "name": "Benn Beckman",
+          "group": "pirates",
+          "tags": {}
+        },
+        {
+          "name": "Lucky Roux",
+          "group": "pirates",
+          "tags": {}
+        },
+        {
+          "name": "Yasopp",
+          "group": "pirates",
+          "tags": {}
+        },
+        {
+          "name": "Shiryu",
+          "group": "pirates",
+          "tags": {}
+        },
+        {
+          "name": "Jesus Burgess",
+          "group": "pirates",
+          "tags": {}
+        },
+        {
+          "name": "Jozu",
+          "group": "pirates",
+          "tags": {}
+        },
+        {
+          "name": "Bepo",
+          "group": "pirates",
+          "tags": {}
+        },
+        {
+          "name": "Killer",
+          "group": "pirates",
+          "tags": {}
+        },
+        {
           "name": "Imu",
           "group": "marine",
           "image": "images/personnages/one-piece/imu.jpg",
@@ -1057,6 +1127,11 @@
           }
         },
         {
+          "name": "Morgan",
+          "group": "marine",
+          "tags": {}
+        },
+        {
           "name": "Monkey D. Dragon",
           "group": "revolutionnaires",
           "image": "images/personnages/one-piece/monkey-d-dragon.jpg",
@@ -1269,6 +1344,11 @@
               "Poison"
             ]
           }
+        },
+        {
+          "name": "Wapol",
+          "group": "autres",
+          "tags": {}
         }
       ]
     },
