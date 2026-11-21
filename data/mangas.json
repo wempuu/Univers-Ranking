@@ -435,12 +435,12 @@
         {
           "name": "Shanks",
           "group": "pirates",
-          "image": "images/personnages/one-piece/shanks.jpg",
+          "image": "images/personnages/one-piece/shanks.jpg?v=1795247418554",
           "imageSource": "images/personnages/one-piece/originaux/shanks.jpg",
           "imageCrop": {
-            "x": 0.518,
-            "y": 0.0128,
-            "w": 0.126
+            "x": 0.53967,
+            "y": 0.00348,
+            "w": 0.11086
           },
           "tags": {
             "role": [
