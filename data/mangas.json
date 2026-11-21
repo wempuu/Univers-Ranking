@@ -398,7 +398,6 @@
           },
           "tags": {
             "role": [
-              "Personnage secondaire",
               "Leader",
               "Criminel",
               "Légende"
@@ -410,15 +409,13 @@
               "Libre",
               "Joyeux",
               "Charismatique",
-              "Courageux",
               "Alcoolique"
             ],
             "physique": [
               "Masculin",
               "Mature",
               "Moustache",
-              "Couvre-chef",
-              "Musclé"
+              "Couvre-chef"
             ]
           }
         },
