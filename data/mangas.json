@@ -772,12 +772,12 @@
         {
           "name": "Rocks D. Xebec",
           "group": "pirates",
-          "image": "images/personnages/one-piece/rocks-d-xebec.jpg",
+          "image": "images/personnages/one-piece/rocks-d-xebec.jpg?v=1795248293093",
           "imageSource": "images/personnages/one-piece/originaux/rocks-d-xebec.jpg",
           "imageCrop": {
-            "x": 0.41989,
-            "y": 0.614,
-            "w": 0.14
+            "x": 0.39183,
+            "y": 0.59229,
+            "w": 0.21598
           },
           "tags": {
             "role": [
