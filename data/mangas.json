@@ -474,12 +474,12 @@
         {
           "name": "Marco",
           "group": "pirates",
-          "image": "images/personnages/one-piece/marco.jpg?v=1795247590037",
-          "imageSource": "images/personnages/one-piece/originaux/marco.jpg",
+          "image": "images/personnages/one-piece/marco.jpg?v=1795247911000",
+          "imageSource": "images/personnages/one-piece/originaux/marco.jpg?v=1795247911000",
           "imageCrop": {
-            "x": 0,
-            "y": 0.11095,
-            "w": 1
+            "x": 0.2395,
+            "y": 0,
+            "w": 0.42
           },
           "tags": {
             "role": [

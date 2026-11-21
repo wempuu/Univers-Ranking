@@ -58,7 +58,7 @@ loki.jpg <- File:Loki_Manga_Color_Scheme.png
 rebecca.jpg <- File:Rebecca_Digital_Colored_Manga.png
 dr-hiriluk.jpg <- File:Hiriluk's_Manga_Color_Scheme.png
 caesar-clown.jpg <- File:Caesar_Clown's_Manga_Color_Scheme.png
-marco.jpg <- File:Marco_Manga_Color_Scheme.png
+marco.jpg <- File:Marco_Post-Timeskip_Digitally_Colored_Manga.png
 charlotte-pudding.jpg <- File:Pudding_Regular_Manga_Color_Scheme.png
 charlotte-smoothie.jpg <- File:Smoothie_Manga_Color_Scheme.png
 charlotte-perospero.jpg <- File:Perospero_Manga_Color_Scheme.png

@@ -327,7 +327,7 @@ footer { text-align: center; color: var(--muted); padding: 24px 0 40px; font-siz
   display: grid; place-items: center;
   color: #fff; font-weight: 800; font-size: .85rem; letter-spacing: .5px;
 }
-.avatar-big { width: 130px; height: 130px; border-radius: 20px; font-size: 2.4rem; border-width: 3px; }
+.avatar-big { width: 130px; height: 130px; border-radius: 50%; font-size: 2.4rem; border-width: 3px; }
 .char-list a { display: flex; align-items: center; gap: 12px; padding: 8px 12px; }
 .char-list a:hover .avatar { border-color: var(--accent); }
 @media (max-width: 480px) {
@@ -336,9 +336,9 @@ footer { text-align: center; color: var(--muted); padding: 24px 0 40px; font-siz
 .avatar-small { width: 36px; height: 36px; font-size: .75rem; border-width: 1px; }
 
 /* Portrait cliquable dans la fiche */
-.avatar-edit { position: relative; padding: 0; border: 0; background: none; cursor: pointer; border-radius: 20px; flex-shrink: 0; }
+.avatar-edit { position: relative; padding: 0; border: 0; background: none; cursor: pointer; border-radius: 50%; flex-shrink: 0; }
 .avatar-edit-hint {
-  position: absolute; right: -6px; bottom: -6px;
+  position: absolute; right: 2px; bottom: 2px;
   width: 34px; height: 34px; display: grid; place-items: center;
   border-radius: 50%; background: var(--accent); color: #fff; font-size: .95rem;
   border: 3px solid var(--bg); box-shadow: 0 2px 6px rgba(0,0,0,.4);
@@ -404,3 +404,10 @@ footer { text-align: center; color: var(--muted); padding: 24px 0 40px; font-siz
 .btn.danger { background: #ff5c5c; }
 .cropper canvas.dragging { cursor: grabbing; }
 .cropper-zoom .icon-btn { font-size: 1.1rem; font-weight: 700; }
+
+/* Repère rond dans l'éditeur : ce qui est hors du cercle n'apparaît pas sur le site */
+.cropper-guides::after {
+  content: ""; position: absolute; inset: 0; border-radius: 50%;
+  box-shadow: 0 0 0 999px rgba(15,16,32,.55);
+  outline: 2px solid rgba(255,255,255,.7); outline-offset: -2px;
+}
