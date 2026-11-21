@@ -1789,12 +1789,12 @@
         {
           "name": "Carrot",
           "group": "autres",
-          "image": "images/personnages/one-piece/carrot.jpg",
+          "image": "images/personnages/one-piece/carrot.jpg?v=1795248470412",
           "imageSource": "images/personnages/one-piece/originaux/carrot.jpg",
           "imageCrop": {
-            "x": 0.14798,
-            "y": 0,
-            "w": 0.7
+            "x": 0.16987,
+            "y": 0.05743,
+            "w": 0.53763
           },
           "tags": {
             "role": [
