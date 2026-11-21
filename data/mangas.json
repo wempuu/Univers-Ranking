@@ -1,0 +1,3163 @@
+{
+  "tags": {
+    "style-de-combat": {
+      "label": "Style de combat",
+      "values": []
+    },
+    "role": {
+      "label": "Rôle",
+      "values": [
+        "Protagoniste",
+        "Deutéragoniste",
+        "Antagoniste",
+        "Antihéros",
+        "Allié",
+        "Rival",
+        "Mentor"
+      ]
+    },
+    "caractere": {
+      "label": "Caractère",
+      "values": []
+    },
+    "physique": {
+      "label": "Physique",
+      "values": []
+    }
+  },
+  "mangas": {
+    "one-piece": {
+      "title": "One Piece",
+      "cover": "images/catalogue/one-piece.webp",
+      "groups": [
+        {
+          "id": "pirates",
+          "label": "Pirates"
+        },
+        {
+          "id": "marine",
+          "label": "Marine & Gouvernement"
+        },
+        {
+          "id": "revolutionnaires",
+          "label": "Révolutionnaires"
+        },
+        {
+          "id": "autres",
+          "label": "Autres"
+        }
+      ],
+      "characters": [
+        {
+          "name": "Monkey D. Luffy",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/monkey-d-luffy.jpg?v=1795248207968",
+          "imageSource": "images/personnages/one-piece/originaux/monkey-d-luffy.jpg",
+          "imageCrop": {
+            "x": 0.27015,
+            "y": 0,
+            "w": 0.43478
+          },
+          "tags": {
+            "role": [
+              "Protagoniste",
+              "Criminel",
+              "Leader",
+              "Dieu",
+              "Sauveur"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues",
+              "Transformation",
+              "Pouvoir élastique",
+              "Pouvoir divin",
+              "Manipulation de la réalité"
+            ],
+            "caractere": [
+              "Drole",
+              "Libre",
+              "Gourmand",
+              "Impulsif",
+              "Joyeux",
+              "Naif"
+            ],
+            "physique": [
+              "Jeune",
+              "Masculin",
+              "Couvre-chef",
+              "Cicatrice"
+            ]
+          }
+        },
+        {
+          "name": "Roronoa Zoro",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/roronoa-zoro.jpg?v=1795248238567",
+          "imageSource": "images/personnages/one-piece/originaux/roronoa-zoro.jpg",
+          "imageCrop": {
+            "x": 0.37854,
+            "y": 0,
+            "w": 0.38023
+          },
+          "tags": {
+            "role": [
+              "Criminel",
+              "Second",
+              "Allié"
+            ],
+            "style-de-combat": [
+              "Épéiste",
+              "Pouvoir démoniaque"
+            ],
+            "caractere": [
+              "Loyal",
+              "Serieux",
+              "Mauvais sens de l'orientation",
+              "Alcoolique"
+            ],
+            "physique": [
+              "Jeune",
+              "Masculin",
+              "Musclé",
+              "Cicatrice"
+            ]
+          }
+        },
+        {
+          "name": "Nami",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/nami.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/nami.jpg",
+          "imageCrop": {
+            "x": 0.25728,
+            "y": 0.00832,
+            "w": 0.5
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Criminel",
+              "Navigatrice"
+            ],
+            "style-de-combat": [
+              "Météo",
+              "Arme contondante"
+            ],
+            "caractere": [
+              "Serieux",
+              "Avare",
+              "Peureux",
+              "Intelligent"
+            ],
+            "physique": [
+              "Jeune",
+              "Feminin",
+              "Tatouage"
+            ]
+          }
+        },
+        {
+          "name": "Usopp",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/usopp.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/usopp.jpg",
+          "imageCrop": {
+            "x": 0.429,
+            "y": 0.018,
+            "w": 0.22
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Criminel",
+              "Inventeur"
+            ],
+            "style-de-combat": [
+              "Tireur",
+              "Manipulation des plantes"
+            ],
+            "caractere": [
+              "Drole",
+              "Peureux",
+              "Menteur"
+            ],
+            "physique": [
+              "Jeune",
+              "Masculin"
+            ]
+          }
+        },
+        {
+          "name": "Sanji",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/sanji.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/sanji.jpg",
+          "imageCrop": {
+            "x": 0.25079,
+            "y": 0.01089,
+            "w": 0.3
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Criminel",
+              "Cuisinier"
+            ],
+            "style-de-combat": [
+              "Combat aux jambes",
+              "Feu"
+            ],
+            "caractere": [
+              "Serieux",
+              "Emotif",
+              "Pervers",
+              "Fumeur"
+            ],
+            "physique": [
+              "Jeune",
+              "Masculin",
+              "Génétiquement modifié"
+            ]
+          }
+        },
+        {
+          "name": "Tony Tony Chopper",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/tony-tony-chopper.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/tony-tony-chopper.jpg",
+          "imageCrop": {
+            "x": 0.01042,
+            "y": 0.13556,
+            "w": 0.6325
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Medecin",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Transformation",
+              "Combat à mains nues"
+            ],
+            "physique": [
+              "Animal",
+              "Masculin",
+              "Petite taille",
+              "enfant"
+            ],
+            "caractere": [
+              "Peureux",
+              "Naif",
+              "Intelligent"
+            ]
+          }
+        },
+        {
+          "name": "Nico Robin",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/nico-robin.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/nico-robin.jpg",
+          "imageCrop": {
+            "x": 0.02083,
+            "y": 0.05253,
+            "w": 0.495
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Criminel",
+              "Archéologue"
+            ],
+            "style-de-combat": [
+              "Clonage",
+              "Combat à mains nues",
+              "Pouvoir démoniaque"
+            ],
+            "caractere": [
+              "Intelligent",
+              "Pessimiste"
+            ],
+            "physique": [
+              "Mature",
+              "Feminin"
+            ]
+          }
+        },
+        {
+          "name": "Franky",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/franky.jpg?v=1795248837224",
+          "imageSource": "images/personnages/one-piece/originaux/franky.jpg",
+          "imageCrop": {
+            "x": 0.50033,
+            "y": 0.10626,
+            "w": 0.1419
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Criminel",
+              "Mécanicien"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues",
+              "Laser",
+              "Transformation"
+            ],
+            "caractere": [
+              "Intelligent",
+              "Drole",
+              "Emotif"
+            ],
+            "physique": [
+              "Cyborg",
+              "Grande taille",
+              "Mature",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "Brook",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/brook.jpg?v=1795251639558",
+          "imageSource": "images/personnages/one-piece/originaux/brook.jpg",
+          "imageCrop": {
+            "x": 0.14563,
+            "y": 0.11973,
+            "w": 0.51546
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Musicien",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Épéiste",
+              "Manipulation des âmes",
+              "Glace"
+            ],
+            "caractere": [
+              "Drole",
+              "Joyeux",
+              "Pervers"
+            ],
+            "physique": [
+              "Vieux",
+              "Mort vivant",
+              "Masculin",
+              "Grande taille"
+            ]
+          }
+        },
+        {
+          "name": "Jinbe",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/jinbe.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/jinbe.jpg",
+          "imageCrop": {
+            "x": 0.47397,
+            "y": 0.07042,
+            "w": 0.272
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues",
+              "Eau",
+              "Art martial"
+            ],
+            "caractere": [
+              "Calme",
+              "Loyal",
+              "Sage"
+            ],
+            "physique": [
+              "Créature marine",
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Tatouage"
+            ]
+          }
+        },
+        {
+          "name": "Gol D. Roger",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/gol-d-roger.jpg?v=1795248518276",
+          "imageSource": "images/personnages/one-piece/originaux/gol-d-roger.jpg",
+          "imageCrop": {
+            "x": 0.17407,
+            "y": 0,
+            "w": 0.22831
+          },
+          "tags": {
+            "role": [
+              "Leader",
+              "Criminel",
+              "Légende"
+            ],
+            "style-de-combat": [
+              "Épéiste"
+            ],
+            "caractere": [
+              "Libre",
+              "Joyeux",
+              "Charismatique",
+              "Alcoolique"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Moustache",
+              "Couvre-chef"
+            ]
+          }
+        },
+        {
+          "name": "Silvers Rayleigh",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/silvers-rayleigh.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/silvers-rayleigh.jpg",
+          "imageCrop": {
+            "x": 0.35,
+            "y": 0.19113,
+            "w": 0.3
+          },
+          "tags": {
+            "role": [
+              "Mentor",
+              "Second",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Épéiste"
+            ],
+            "caractere": [
+              "Calme",
+              "Sage",
+              "Libre",
+              "Alcoolique"
+            ],
+            "physique": [
+              "Masculin",
+              "Vieux",
+              "Barbe",
+              "Lunettes",
+              "Cicatrice"
+            ]
+          }
+        },
+        {
+          "name": "Shanks",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/shanks.jpg?v=1795247435413",
+          "imageSource": "images/personnages/one-piece/originaux/shanks.jpg",
+          "imageCrop": {
+            "x": 0.53967,
+            "y": 0.00348,
+            "w": 0.11086
+          },
+          "tags": {
+            "role": [
+              "Mentor",
+              "Leader",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Épéiste"
+            ],
+            "caractere": [
+              "Calme",
+              "Libre",
+              "Charismatique",
+              "Alcoolique"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Cicatrice",
+              "Amputé"
+            ]
+          }
+        },
+        {
+          "name": "Benn Beckman",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/benn-beckman.jpg?v=1795247571771",
+          "imageSource": "images/personnages/one-piece/originaux/benn-beckman.jpg",
+          "imageCrop": {
+            "x": 0.4965,
+            "y": 0.02991,
+            "w": 0.23923
+          },
+          "tags": {
+            "role": [
+              "Second",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Tireur"
+            ],
+            "caractere": [
+              "Calme",
+              "Intelligent",
+              "Loyal",
+              "Alcoolique",
+              "Fumeur"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Cheveux longs",
+              "Cicatrice"
+            ]
+          }
+        },
+        {
+          "name": "Lucky Roux",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/lucky-roux.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/lucky-roux.jpg",
+          "imageCrop": {
+            "x": 0.22458,
+            "y": 0.00304,
+            "w": 0.65
+          },
+          "tags": {
+            "role": [
+              "Criminel"
+            ],
+            "caractere": [
+              "Gourmand",
+              "Joyeux",
+              "Alcoolique"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Corpulent"
+            ]
+          }
+        },
+        {
+          "name": "Yasopp",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/yasopp.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/yasopp.jpg",
+          "imageCrop": {
+            "x": 0.28979,
+            "y": 0,
+            "w": 0.3
+          },
+          "tags": {
+            "role": [
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Tireur"
+            ],
+            "caractere": [
+              "Joyeux",
+              "Alcoolique"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Cheveux longs"
+            ]
+          }
+        },
+        {
+          "name": "Edward Newgate (Barbe Blanche)",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/edward-newgate-barbe-blanche.jpg?v=1795248909854",
+          "imageSource": "images/personnages/one-piece/originaux/edward-newgate-barbe-blanche.jpg",
+          "imageCrop": {
+            "x": 0.19173,
+            "y": 0.03125,
+            "w": 0.62258
+          },
+          "tags": {
+            "role": [
+              "Leader",
+              "Criminel",
+              "Légende"
+            ],
+            "style-de-combat": [
+              "Arme tranchante",
+              "Séismes"
+            ],
+            "caractere": [
+              "Protecteur",
+              "Charismatique",
+              "Alcoolique"
+            ],
+            "physique": [
+              "Masculin",
+              "Vieux",
+              "Moustache",
+              "Grande taille",
+              "Cicatrice",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "Marco",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/marco.jpg?v=1795248935308",
+          "imageSource": "images/personnages/one-piece/originaux/marco.jpg?v=1795247911000",
+          "imageCrop": {
+            "x": 0.25745,
+            "y": 0.00097,
+            "w": 0.41152
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Second",
+              "Criminel",
+              "Medecin"
+            ],
+            "style-de-combat": [
+              "Transformation",
+              "Régénération",
+              "Ailé"
+            ],
+            "caractere": [
+              "Calme",
+              "Loyal"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Tatouage"
+            ]
+          }
+        },
+        {
+          "name": "Portgas D. Ace",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/portgas-d-ace.jpg?v=1795248952256",
+          "imageSource": "images/personnages/one-piece/originaux/portgas-d-ace.jpg",
+          "imageCrop": {
+            "x": 0.38565,
+            "y": 0.00308,
+            "w": 0.3861
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Feu"
+            ],
+            "caractere": [
+              "Impulsif",
+              "Loyal"
+            ],
+            "physique": [
+              "Masculin",
+              "Jeune",
+              "Couvre-chef",
+              "Tatouage"
+            ]
+          }
+        },
+        {
+          "name": "Jozu",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/jozu.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/jozu.jpg",
+          "imageCrop": {
+            "x": 0.365,
+            "y": 0.04766,
+            "w": 0.25
+          },
+          "tags": {
+            "role": [
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues",
+              "Durcissement"
+            ],
+            "caractere": [
+              "Calme",
+              "Loyal"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Musclé",
+              "Grande taille"
+            ]
+          }
+        },
+        {
+          "name": "Trafalgar Law",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/trafalgar-law.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/trafalgar-law.jpg",
+          "imageCrop": {
+            "x": 0.24971,
+            "y": 0.02971,
+            "w": 0.4
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Antihéros",
+              "Leader",
+              "Criminel",
+              "Medecin"
+            ],
+            "style-de-combat": [
+              "Épéiste",
+              "Manipulation de l'espace"
+            ],
+            "caractere": [
+              "Calme",
+              "Intelligent",
+              "Stratège"
+            ],
+            "physique": [
+              "Masculin",
+              "Jeune",
+              "Couvre-chef",
+              "Tatouage"
+            ]
+          }
+        },
+        {
+          "name": "Bepo",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/bepo.jpg?v=1795248183952",
+          "imageSource": "images/personnages/one-piece/originaux/bepo.jpg",
+          "imageCrop": {
+            "x": 0.36895,
+            "y": 0.0739,
+            "w": 0.35842
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Criminel",
+              "Navigateur"
+            ],
+            "caractere": [
+              "Peureux",
+              "Gentil",
+              "Naif"
+            ],
+            "physique": [
+              "Animal",
+              "Masculin",
+              "Grande taille"
+            ],
+            "style-de-combat": [
+              "Art martial"
+            ]
+          }
+        },
+        {
+          "name": "Eustass Kid",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/eustass-kid.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/eustass-kid.jpg",
+          "imageCrop": {
+            "x": 0.24521,
+            "y": 0.01431,
+            "w": 0.35
+          },
+          "tags": {
+            "role": [
+              "Rival",
+              "Leader",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Magnétisme"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Colérique",
+              "Impulsif",
+              "Ambitieux"
+            ],
+            "physique": [
+              "Masculin",
+              "Jeune",
+              "Amputé",
+              "Cicatrice",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "Killer",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/killer.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/killer.jpg",
+          "imageCrop": {
+            "x": 0.22031,
+            "y": 0,
+            "w": 0.4
+          },
+          "tags": {
+            "role": [
+              "Second",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Épéiste"
+            ],
+            "caractere": [
+              "Calme",
+              "Loyal",
+              "Mystérieux"
+            ],
+            "physique": [
+              "Masculin",
+              "Jeune",
+              "Masque",
+              "Cheveux longs"
+            ]
+          }
+        },
+        {
+          "name": "Marshall D. Teach (Barbe Noire)",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/marshall-d-teach-barbe-noire.jpg?v=1795248267753",
+          "imageSource": "images/personnages/one-piece/originaux/marshall-d-teach-barbe-noire.jpg",
+          "imageCrop": {
+            "x": 0.28595,
+            "y": 0.05534,
+            "w": 0.22011
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Ténèbres",
+              "Séismes"
+            ],
+            "caractere": [
+              "Ambitieux",
+              "Rusé",
+              "Cruel",
+              "Gourmand",
+              "Alcoolique"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Corpulent",
+              "Barbe",
+              "Couvre-chef"
+            ]
+          }
+        },
+        {
+          "name": "Kaido",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/kaido.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/kaido.jpg",
+          "imageCrop": {
+            "x": 0.35,
+            "y": 0.08969,
+            "w": 0.3
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Arme contondante",
+              "Transformation",
+              "Feu"
+            ],
+            "caractere": [
+              "Cruel",
+              "Colérique",
+              "Ambitieux",
+              "Impulsif",
+              "Alcoolique"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Cornes",
+              "Musclé",
+              "Cicatrice",
+              "Tatouage"
+            ]
+          }
+        },
+        {
+          "name": "Yamato",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/yamato.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/yamato.jpg",
+          "imageCrop": {
+            "x": 0.2027,
+            "y": 0.05935,
+            "w": 0.45
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Arme contondante",
+              "Glace",
+              "Transformation"
+            ],
+            "caractere": [
+              "Libre",
+              "Loyal",
+              "Joyeux"
+            ],
+            "physique": [
+              "Jeune",
+              "Grande taille",
+              "Cornes",
+              "Cheveux longs",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "King",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/king.jpg?v=1795248014207",
+          "imageSource": "images/personnages/one-piece/originaux/king.jpg",
+          "imageCrop": {
+            "x": 0.35045,
+            "y": 0.04827,
+            "w": 0.3012
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Second",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Épéiste",
+              "Feu",
+              "Transformation"
+            ],
+            "caractere": [
+              "Froid",
+              "Loyal",
+              "Cruel"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Masque",
+              "Ailes",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "Queen",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/queen.jpg?v=1795248974111",
+          "imageSource": "images/personnages/one-piece/originaux/queen.jpg",
+          "imageCrop": {
+            "x": 0.27998,
+            "y": 0,
+            "w": 0.33333
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Criminel",
+              "Scientifique"
+            ],
+            "style-de-combat": [
+              "Cyborg",
+              "Transformation"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Drole",
+              "Cruel"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Corpulent",
+              "Cyborg",
+              "Lunettes"
+            ]
+          }
+        },
+        {
+          "name": "Jack",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/jack.jpg?v=1795247612851",
+          "imageSource": "images/personnages/one-piece/originaux/jack.jpg",
+          "imageCrop": {
+            "x": 0.46494,
+            "y": 0.12419,
+            "w": 0.20172
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Transformation"
+            ],
+            "caractere": [
+              "Loyal",
+              "Cruel"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Musclé",
+              "Masque"
+            ]
+          }
+        },
+        {
+          "name": "Donquixote Doflamingo",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/donquixote-doflamingo.jpg?v=1795248994758",
+          "imageSource": "images/personnages/one-piece/originaux/donquixote-doflamingo.jpg",
+          "imageCrop": {
+            "x": 0.40453,
+            "y": 0.14622,
+            "w": 0.14654
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Criminel",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Manipulation de fils"
+            ],
+            "caractere": [
+              "Cruel",
+              "Arrogant",
+              "Rusé",
+              "Charismatique"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Lunettes",
+              "Grande taille",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "Boa Hancock",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/boa-hancock.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/boa-hancock.jpg",
+          "imageCrop": {
+            "x": 0.19936,
+            "y": 0,
+            "w": 0.25
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Leader",
+              "Criminel",
+              "Royauté"
+            ],
+            "style-de-combat": [
+              "Combat aux jambes",
+              "Pétrification"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Romantique"
+            ],
+            "physique": [
+              "Feminin",
+              "Jeune",
+              "Cheveux longs",
+              "Cicatrice"
+            ]
+          }
+        },
+        {
+          "name": "Dracule Mihawk",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/dracule-mihawk.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/dracule-mihawk.jpg",
+          "imageCrop": {
+            "x": 0.09834,
+            "y": 0.02412,
+            "w": 0.3
+          },
+          "tags": {
+            "role": [
+              "Rival",
+              "Mentor",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Épéiste"
+            ],
+            "caractere": [
+              "Calme",
+              "Solitaire",
+              "Alcoolique"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Couvre-chef",
+              "Moustache"
+            ]
+          }
+        },
+        {
+          "name": "Crocodile",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/crocodile.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/crocodile.jpg",
+          "imageCrop": {
+            "x": 0.535,
+            "y": 0,
+            "w": 0.13
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Sable"
+            ],
+            "caractere": [
+              "Rusé",
+              "Froid",
+              "Ambitieux",
+              "Alcoolique",
+              "Fumeur"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Cicatrice",
+              "Amputé"
+            ]
+          }
+        },
+        {
+          "name": "Baggy",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/baggy.jpg?v=1795249029811",
+          "imageSource": "images/personnages/one-piece/originaux/baggy.jpg",
+          "imageCrop": {
+            "x": 0.26564,
+            "y": 0.03923,
+            "w": 0.27397
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Corps fragmentable"
+            ],
+            "caractere": [
+              "Peureux",
+              "Drole",
+              "Arrogant",
+              "Chanceux"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Couvre-chef",
+              "Maquillage"
+            ]
+          }
+        },
+        {
+          "name": "Rocks D. Xebec",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/rocks-d-xebec.jpg?v=1795248293093",
+          "imageSource": "images/personnages/one-piece/originaux/rocks-d-xebec.jpg",
+          "imageCrop": {
+            "x": 0.39183,
+            "y": 0.59229,
+            "w": 0.21598
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Criminel",
+              "Légende"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues"
+            ],
+            "caractere": [
+              "Ambitieux",
+              "Cruel"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Musclé",
+              "Cicatrice"
+            ]
+          }
+        },
+        {
+          "name": "Jewelry Bonney",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/jewelry-bonney.jpg?v=1795249050803",
+          "imageSource": "images/personnages/one-piece/originaux/jewelry-bonney.jpg",
+          "imageCrop": {
+            "x": 0.00805,
+            "y": 0.18327,
+            "w": 0.80645
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Leader",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Manipulation de l'âge"
+            ],
+            "caractere": [
+              "Gourmand",
+              "Impulsif",
+              "Colérique"
+            ],
+            "physique": [
+              "Feminin",
+              "Jeune",
+              "Couvre-chef",
+              "Cheveux longs"
+            ]
+          }
+        },
+        {
+          "name": "Bartholomew Kuma",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/bartholomew-kuma.jpg?v=1795248367771",
+          "imageSource": "images/personnages/one-piece/originaux/bartholomew-kuma.jpg",
+          "imageCrop": {
+            "x": 0.3105,
+            "y": 0.12579,
+            "w": 0.24631
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Criminel",
+              "Révolutionnaire"
+            ],
+            "style-de-combat": [
+              "Répulsion",
+              "Cyborg"
+            ],
+            "caractere": [
+              "Calme",
+              "Gentil",
+              "Protecteur",
+              "Mystérieux"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Cyborg",
+              "Couvre-chef",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "Gecko Moria",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/gecko-moria.jpg?v=1795248581896",
+          "imageSource": "images/personnages/one-piece/originaux/gecko-moria.jpg",
+          "imageCrop": {
+            "x": 0.52926,
+            "y": 0,
+            "w": 0.31699
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Ombres"
+            ],
+            "caractere": [
+              "Paresseux",
+              "Arrogant",
+              "Rusé"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Corpulent"
+            ]
+          }
+        },
+        {
+          "name": "Perona",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/perona.jpg?v=1795249071157",
+          "imageSource": "images/personnages/one-piece/originaux/perona.jpg",
+          "imageCrop": {
+            "x": 0.47687,
+            "y": 0.14554,
+            "w": 0.21786
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Esprits"
+            ],
+            "caractere": [
+              "Capricieux",
+              "Peureux"
+            ],
+            "physique": [
+              "Feminin",
+              "Jeune",
+              "Couvre-chef",
+              "Cheveux longs"
+            ]
+          }
+        },
+        {
+          "name": "Arlong",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/arlong.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/arlong.jpg",
+          "imageCrop": {
+            "x": 0.285,
+            "y": 0.02403,
+            "w": 0.35
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues"
+            ],
+            "caractere": [
+              "Cruel",
+              "Arrogant",
+              "Haineux"
+            ],
+            "physique": [
+              "Créature marine",
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Musclé",
+              "Tatouage"
+            ]
+          }
+        },
+        {
+          "name": "Shiki",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/shiki.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/shiki.jpg",
+          "imageCrop": {
+            "x": 0.13516,
+            "y": 0.592,
+            "w": 0.13
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Criminel",
+              "Légende"
+            ],
+            "style-de-combat": [
+              "Épéiste",
+              "Lévitation"
+            ],
+            "caractere": [
+              "Ambitieux",
+              "Rusé",
+              "Arrogant"
+            ],
+            "physique": [
+              "Masculin",
+              "Vieux",
+              "Cheveux longs",
+              "Amputé"
+            ]
+          }
+        },
+        {
+          "name": "Bartolomeo",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/bartolomeo.jpg?v=1795249089064",
+          "imageSource": "images/personnages/one-piece/originaux/bartolomeo.jpg",
+          "imageCrop": {
+            "x": 0.32388,
+            "y": 0.01211,
+            "w": 0.43478
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Leader",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Barrières"
+            ],
+            "caractere": [
+              "Impulsif",
+              "Loyal",
+              "Drole"
+            ],
+            "physique": [
+              "Masculin",
+              "Jeune",
+              "Piercing"
+            ]
+          }
+        },
+        {
+          "name": "Zeff",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/zeff.jpg?v=1795249104899",
+          "imageSource": "images/personnages/one-piece/originaux/zeff.jpg",
+          "imageCrop": {
+            "x": 0.64691,
+            "y": 0.14556,
+            "w": 0.21978
+          },
+          "tags": {
+            "role": [
+              "Mentor",
+              "Cuisinier",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Combat aux jambes"
+            ],
+            "caractere": [
+              "Sage",
+              "Protecteur"
+            ],
+            "physique": [
+              "Masculin",
+              "Vieux",
+              "Moustache",
+              "Couvre-chef",
+              "Amputé",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "Hody Jones",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/hody-jones.jpg?v=1795247537992",
+          "imageSource": "images/personnages/one-piece/originaux/hody-jones.jpg",
+          "imageCrop": {
+            "x": 0.47582,
+            "y": 0.03881,
+            "w": 0.19084
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues",
+              "Arme perçante"
+            ],
+            "caractere": [
+              "Cruel",
+              "Haineux",
+              "Arrogant"
+            ],
+            "physique": [
+              "Créature marine",
+              "Masculin",
+              "Jeune",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "Edward Weevil",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/edward-weevil.jpg?v=1795249135677",
+          "imageSource": "images/personnages/one-piece/originaux/edward-weevil.jpg",
+          "imageCrop": {
+            "x": 0.34453,
+            "y": 0.16806,
+            "w": 0.23697
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Arme tranchante"
+            ],
+            "caractere": [
+              "Naif",
+              "Colérique"
+            ],
+            "physique": [
+              "Masculin",
+              "Jeune",
+              "Corpulent",
+              "Moustache",
+              "Grande taille"
+            ]
+          }
+        },
+        {
+          "name": "Charlotte Linlin (Big Mom)",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/charlotte-linlin-big-mom.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/charlotte-linlin-big-mom.jpg",
+          "imageCrop": {
+            "x": 0.325,
+            "y": 0.13058,
+            "w": 0.35
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Manipulation des âmes"
+            ],
+            "caractere": [
+              "Gourmand",
+              "Cruel",
+              "Colérique",
+              "Capricieux"
+            ],
+            "physique": [
+              "Feminin",
+              "Vieux",
+              "Grande taille",
+              "Couvre-chef"
+            ]
+          }
+        },
+        {
+          "name": "Charlotte Katakuri",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/charlotte-katakuri.jpg?v=1795248384358",
+          "imageSource": "images/personnages/one-piece/originaux/charlotte-katakuri.jpg",
+          "imageCrop": {
+            "x": 0.71217,
+            "y": 0,
+            "w": 0.14993
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Second",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Arme perçante",
+              "Corps malléable"
+            ],
+            "caractere": [
+              "Loyal",
+              "Calme",
+              "Honorable"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Cicatrice",
+              "Musclé",
+              "Tatouage"
+            ]
+          }
+        },
+        {
+          "name": "Charlotte Pudding",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/charlotte-pudding.jpg?v=1795248422210",
+          "imageSource": "images/personnages/one-piece/originaux/charlotte-pudding.jpg",
+          "imageCrop": {
+            "x": 0.13689,
+            "y": 0.07579,
+            "w": 0.45045
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Allié",
+              "Criminel",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Manipulation de la mémoire"
+            ],
+            "caractere": [
+              "Manipulateur",
+              "Romantique"
+            ],
+            "physique": [
+              "Feminin",
+              "Jeune",
+              "Cheveux longs",
+              "Trois yeux"
+            ]
+          }
+        },
+        {
+          "name": "Charlotte Perospero",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/charlotte-perospero.jpg?v=1795248604946",
+          "imageSource": "images/personnages/one-piece/originaux/charlotte-perospero.jpg",
+          "imageCrop": {
+            "x": 0.11946,
+            "y": 0.40501,
+            "w": 0.80645
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Création d'objets"
+            ],
+            "caractere": [
+              "Rusé"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Couvre-chef",
+              "Grande taille"
+            ]
+          }
+        },
+        {
+          "name": "Charlotte Smoothie",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/charlotte-smoothie.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/charlotte-smoothie.jpg",
+          "imageCrop": {
+            "x": 0.49,
+            "y": 0.08648,
+            "w": 0.35
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Épéiste",
+              "Absorption"
+            ],
+            "caractere": [
+              "Froid",
+              "Calme"
+            ],
+            "physique": [
+              "Feminin",
+              "Mature",
+              "Grande taille",
+              "Cheveux longs"
+            ]
+          }
+        },
+        {
+          "name": "Charlotte Cracker",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/charlotte-cracker.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/charlotte-cracker.jpg",
+          "imageCrop": {
+            "x": 0.63,
+            "y": 0.25124,
+            "w": 0.2
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Épéiste",
+              "Invocation"
+            ],
+            "caractere": [
+              "Arrogant"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "Bellamy",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/bellamy.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/bellamy.jpg",
+          "imageCrop": {
+            "x": 0.16055,
+            "y": 0,
+            "w": 0.5
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Loyal"
+            ],
+            "physique": [
+              "Masculin",
+              "Jeune",
+              "Tatouage",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "Shiryu",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/shiryu.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/shiryu.jpg",
+          "imageCrop": {
+            "x": 0.26243,
+            "y": 0,
+            "w": 0.35
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Épéiste",
+              "Invisibilité"
+            ],
+            "caractere": [
+              "Cruel",
+              "Froid",
+              "Fumeur"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Couvre-chef"
+            ]
+          }
+        },
+        {
+          "name": "Jesus Burgess",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/jesus-burgess.jpg?v=1795248347202",
+          "imageSource": "images/personnages/one-piece/originaux/jesus-burgess.jpg",
+          "imageCrop": {
+            "x": 0.36044,
+            "y": 0.12719,
+            "w": 0.28011
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues"
+            ],
+            "caractere": [
+              "Bagarreur",
+              "Arrogant"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Musclé",
+              "Couvre-chef"
+            ]
+          }
+        },
+        {
+          "name": "Imu",
+          "group": "marine",
+          "image": "images/personnages/one-piece/imu.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/imu.jpg",
+          "imageCrop": {
+            "x": 0.356,
+            "y": 0.05541,
+            "w": 0.2
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Possession"
+            ],
+            "caractere": [
+              "Mystérieux",
+              "Cruel"
+            ],
+            "physique": [
+              "Cornes",
+              "Cheveux longs"
+            ]
+          }
+        },
+        {
+          "name": "Saint Jaygarcia Saturn",
+          "group": "marine",
+          "image": "images/personnages/one-piece/saint-jaygarcia-saturn.jpg?v=1795248453151",
+          "imageSource": "images/personnages/one-piece/originaux/saint-jaygarcia-saturn.jpg",
+          "imageCrop": {
+            "x": 0.35685,
+            "y": 0,
+            "w": 0.40486
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Transformation",
+              "Régénération"
+            ],
+            "caractere": [
+              "Cruel",
+              "Arrogant"
+            ],
+            "physique": [
+              "Masculin",
+              "Vieux",
+              "Barbe"
+            ]
+          }
+        },
+        {
+          "name": "Saint Marcus Mars",
+          "group": "marine",
+          "image": "images/personnages/one-piece/saint-marcus-mars.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/saint-marcus-mars.jpg",
+          "imageCrop": {
+            "x": 0.32131,
+            "y": 0,
+            "w": 0.4
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Transformation"
+            ],
+            "caractere": [
+              "Froid",
+              "Arrogant"
+            ],
+            "physique": [
+              "Masculin",
+              "Vieux",
+              "Barbe",
+              "Cheveux longs"
+            ]
+          }
+        },
+        {
+          "name": "Saint Topman Warcury",
+          "group": "marine",
+          "image": "images/personnages/one-piece/saint-topman-warcury.jpg?v=1795248761051",
+          "imageSource": "images/personnages/one-piece/originaux/saint-topman-warcury.jpg",
+          "imageCrop": {
+            "x": 0.29963,
+            "y": 0,
+            "w": 0.29997
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Transformation"
+            ],
+            "caractere": [
+              "Colérique",
+              "Arrogant"
+            ],
+            "physique": [
+              "Masculin",
+              "Vieux",
+              "Moustache",
+              "Chauve"
+            ]
+          }
+        },
+        {
+          "name": "Saint Ethanbaron V. Nusjuro",
+          "group": "marine",
+          "image": "images/personnages/one-piece/saint-ethanbaron-v-nusjuro.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/saint-ethanbaron-v-nusjuro.jpg",
+          "imageCrop": {
+            "x": 0.27103,
+            "y": 0.00399,
+            "w": 0.3
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Épéiste",
+              "Transformation"
+            ],
+            "caractere": [
+              "Calme",
+              "Froid"
+            ],
+            "physique": [
+              "Masculin",
+              "Vieux",
+              "Cicatrice",
+              "Chauve"
+            ]
+          }
+        },
+        {
+          "name": "Saint Shepherd Ju Peter",
+          "group": "marine",
+          "image": "images/personnages/one-piece/saint-shepherd-ju-peter.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/saint-shepherd-ju-peter.jpg",
+          "imageCrop": {
+            "x": 0.19963,
+            "y": 0.00258,
+            "w": 0.22
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Transformation"
+            ],
+            "caractere": [
+              "Froid",
+              "Arrogant"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Barbe"
+            ]
+          }
+        },
+        {
+          "name": "Saint Figarland Garling",
+          "group": "marine",
+          "image": "images/personnages/one-piece/saint-figarland-garling.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/saint-figarland-garling.jpg",
+          "imageCrop": {
+            "x": 0.27989,
+            "y": 0.06293,
+            "w": 0.38
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble",
+              "Leader"
+            ],
+            "style-de-combat": [
+              "Épéiste"
+            ],
+            "caractere": [
+              "Cruel",
+              "Arrogant"
+            ],
+            "physique": [
+              "Masculin",
+              "Vieux",
+              "Barbe",
+              "Lunettes",
+              "Cheveux longs"
+            ]
+          }
+        },
+        {
+          "name": "Saint Figarland Shamrock",
+          "group": "marine",
+          "image": "images/personnages/one-piece/saint-figarland-shamrock.jpg?v=1795249182795",
+          "imageSource": "images/personnages/one-piece/originaux/saint-figarland-shamrock.jpg",
+          "imageCrop": {
+            "x": 0.52204,
+            "y": 0,
+            "w": 0.36416
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Épéiste"
+            ],
+            "caractere": [
+              "Froid",
+              "Arrogant"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Cheveux longs"
+            ]
+          }
+        },
+        {
+          "name": "Saint Shepherd Sommers",
+          "group": "marine",
+          "image": "images/personnages/one-piece/saint-shepherd-sommers.jpg?v=1795248408866",
+          "imageSource": "images/personnages/one-piece/originaux/saint-shepherd-sommers.jpg",
+          "imageCrop": {
+            "x": 0.3519,
+            "y": 0.0188,
+            "w": 0.52434
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Plantes"
+            ],
+            "caractere": [
+              "Cruel"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Barbe",
+              "Cheveux longs"
+            ]
+          }
+        },
+        {
+          "name": "Saint Rimoshifu Killingham",
+          "group": "marine",
+          "image": "images/personnages/one-piece/saint-rimoshifu-killingham.jpg?v=1795249200371",
+          "imageSource": "images/personnages/one-piece/originaux/saint-rimoshifu-killingham.jpg",
+          "imageCrop": {
+            "x": 0.38456,
+            "y": 0.24085,
+            "w": 0.41742
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Invocation"
+            ],
+            "caractere": [
+              "Arrogant"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature"
+            ]
+          }
+        },
+        {
+          "name": "Saint Manmayer Gunko",
+          "group": "marine",
+          "image": "images/personnages/one-piece/saint-manmayer-gunko.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/saint-manmayer-gunko.jpg",
+          "imageCrop": {
+            "x": 0.375,
+            "y": 0.26879,
+            "w": 0.35
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Noble"
+            ],
+            "style-de-combat": [
+              "Tireur"
+            ],
+            "caractere": [
+              "Froid",
+              "Loyal"
+            ],
+            "physique": [
+              "Feminin",
+              "Jeune",
+              "Masque",
+              "Couvre-chef"
+            ]
+          }
+        },
+        {
+          "name": "Sakazuki (Akainu)",
+          "group": "marine",
+          "image": "images/personnages/one-piece/sakazuki-akainu.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/sakazuki-akainu.jpg",
+          "imageCrop": {
+            "x": 0.45,
+            "y": 0.24284,
+            "w": 0.22
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Forces de l'ordre"
+            ],
+            "style-de-combat": [
+              "Magma"
+            ],
+            "caractere": [
+              "Impitoyable",
+              "Serieux"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Couvre-chef",
+              "Cicatrice",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "Kuzan (Aokiji)",
+          "group": "marine",
+          "image": "images/personnages/one-piece/kuzan-aokiji.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/kuzan-aokiji.jpg",
+          "imageCrop": {
+            "x": 0.36506,
+            "y": 0,
+            "w": 0.25
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Forces de l'ordre",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Glace"
+            ],
+            "caractere": [
+              "Calme",
+              "Paresseux",
+              "Libre"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Grande taille"
+            ]
+          }
+        },
+        {
+          "name": "Borsalino (Kizaru)",
+          "group": "marine",
+          "image": "images/personnages/one-piece/borsalino-kizaru.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/borsalino-kizaru.jpg",
+          "imageCrop": {
+            "x": 0.14015,
+            "y": 0,
+            "w": 0.35
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Forces de l'ordre"
+            ],
+            "style-de-combat": [
+              "Lumière"
+            ],
+            "caractere": [
+              "Calme",
+              "Mystérieux"
+            ],
+            "physique": [
+              "Masculin",
+              "Vieux",
+              "Lunettes"
+            ]
+          }
+        },
+        {
+          "name": "Aramaki (Ryokugyu)",
+          "group": "marine",
+          "image": "images/personnages/one-piece/aramaki-ryokugyu.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/aramaki-ryokugyu.jpg",
+          "imageCrop": {
+            "x": 0.26826,
+            "y": 0,
+            "w": 0.4
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Forces de l'ordre"
+            ],
+            "style-de-combat": [
+              "Plantes"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Cruel"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Lunettes",
+              "Cheveux longs"
+            ]
+          }
+        },
+        {
+          "name": "Issho (Fujitora)",
+          "group": "marine",
+          "image": "images/personnages/one-piece/issho-fujitora.jpg?v=1795248706794",
+          "imageSource": "images/personnages/one-piece/originaux/issho-fujitora.jpg",
+          "imageCrop": {
+            "x": 0.04427,
+            "y": 0.01591,
+            "w": 0.83333
+          },
+          "tags": {
+            "role": [
+              "Forces de l'ordre"
+            ],
+            "style-de-combat": [
+              "Épéiste",
+              "Gravité"
+            ],
+            "caractere": [
+              "Calme",
+              "Honorable",
+              "Sage"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Aveugle",
+              "Cicatrice"
+            ]
+          }
+        },
+        {
+          "name": "Sengoku",
+          "group": "marine",
+          "image": "images/personnages/one-piece/sengoku.jpg?v=1795249222128",
+          "imageSource": "images/personnages/one-piece/originaux/sengoku.jpg",
+          "imageCrop": {
+            "x": 0.41931,
+            "y": 0,
+            "w": 0.30864
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Forces de l'ordre"
+            ],
+            "style-de-combat": [
+              "Transformation",
+              "Ondes de choc",
+              "Pouvoir divin"
+            ],
+            "caractere": [
+              "Sage",
+              "Calme",
+              "Serieux"
+            ],
+            "physique": [
+              "Masculin",
+              "Vieux",
+              "Barbe",
+              "Lunettes"
+            ]
+          }
+        },
+        {
+          "name": "Monkey D. Garp",
+          "group": "marine",
+          "image": "images/personnages/one-piece/monkey-d-garp.jpg?v=1795248665396",
+          "imageSource": "images/personnages/one-piece/originaux/monkey-d-garp.jpg",
+          "imageCrop": {
+            "x": 0.24322,
+            "y": 0.17935,
+            "w": 0.19768
+          },
+          "tags": {
+            "role": [
+              "Mentor",
+              "Forces de l'ordre",
+              "Légende"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues"
+            ],
+            "caractere": [
+              "Drole",
+              "Libre"
+            ],
+            "physique": [
+              "Masculin",
+              "Vieux",
+              "Cicatrice",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "Koby",
+          "group": "marine",
+          "image": "images/personnages/one-piece/koby.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/koby.jpg",
+          "imageCrop": {
+            "x": 0.2732,
+            "y": 0,
+            "w": 0.27
+          },
+          "tags": {
+            "role": [
+              "Rival",
+              "Forces de l'ordre",
+              "Allié"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues"
+            ],
+            "caractere": [
+              "Gentil"
+            ],
+            "physique": [
+              "Masculin",
+              "Jeune",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "Smoker",
+          "group": "marine",
+          "image": "images/personnages/one-piece/smoker.jpg?v=1795248881491",
+          "imageSource": "images/personnages/one-piece/originaux/smoker.jpg",
+          "imageCrop": {
+            "x": 0.25562,
+            "y": 0.09835,
+            "w": 0.3003
+          },
+          "tags": {
+            "role": [
+              "Rival",
+              "Forces de l'ordre"
+            ],
+            "style-de-combat": [
+              "Fumée",
+              "Arme contondante"
+            ],
+            "caractere": [
+              "Serieux",
+              "Honorable",
+              "Froid",
+              "Fumeur"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Cicatrice",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "Tashigi",
+          "group": "marine",
+          "image": "images/personnages/one-piece/tashigi.jpg?v=1795248639740",
+          "imageSource": "images/personnages/one-piece/originaux/tashigi.jpg",
+          "imageCrop": {
+            "x": 0.27106,
+            "y": 0,
+            "w": 0.34364
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Rival",
+              "Forces de l'ordre"
+            ],
+            "style-de-combat": [
+              "Épéiste"
+            ],
+            "caractere": [
+              "Serieux",
+              "Maladroit"
+            ],
+            "physique": [
+              "Feminin",
+              "Jeune",
+              "Lunettes"
+            ]
+          }
+        },
+        {
+          "name": "Dr. Vegapunk",
+          "group": "marine",
+          "image": "images/personnages/one-piece/dr-vegapunk.jpg?v=1795249252528",
+          "imageSource": "images/personnages/one-piece/originaux/dr-vegapunk.jpg",
+          "imageCrop": {
+            "x": 0,
+            "y": 0.22884,
+            "w": 1
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Scientifique"
+            ],
+            "style-de-combat": [
+              "Technologie"
+            ],
+            "caractere": [
+              "Intelligent",
+              "Gentil",
+              "Excentrique"
+            ],
+            "physique": [
+              "Masculin",
+              "Vieux",
+              "Barbe"
+            ]
+          }
+        },
+        {
+          "name": "Rob Lucci",
+          "group": "marine",
+          "image": "images/personnages/one-piece/rob-lucci.jpg?v=1795249273130",
+          "imageSource": "images/personnages/one-piece/originaux/rob-lucci.jpg",
+          "imageCrop": {
+            "x": 0,
+            "y": 0.074,
+            "w": 0.89286
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Assassin",
+              "Espion"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues",
+              "Transformation"
+            ],
+            "caractere": [
+              "Froid",
+              "Cruel"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Couvre-chef",
+              "Barbe",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "Donquixote Rosinante (Corazón)",
+          "group": "marine",
+          "image": "images/personnages/one-piece/donquixote-rosinante-corazon.jpg?v=1795249294996",
+          "imageSource": "images/personnages/one-piece/originaux/donquixote-rosinante-corazon.jpg",
+          "imageCrop": {
+            "x": 0.3947,
+            "y": 0.08542,
+            "w": 0.36364
+          },
+          "tags": {
+            "role": [
+              "Mentor",
+              "Espion",
+              "Forces de l'ordre"
+            ],
+            "style-de-combat": [
+              "Manipulation du son"
+            ],
+            "caractere": [
+              "Maladroit",
+              "Gentil",
+              "Protecteur"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Couvre-chef",
+              "Maquillage"
+            ]
+          }
+        },
+        {
+          "name": "Magellan",
+          "group": "marine",
+          "image": "images/personnages/one-piece/magellan.jpg?v=1795249314152",
+          "imageSource": "images/personnages/one-piece/originaux/magellan.jpg",
+          "imageCrop": {
+            "x": 0.36585,
+            "y": 0.03002,
+            "w": 0.27701
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Gardien"
+            ],
+            "style-de-combat": [
+              "Poison"
+            ],
+            "caractere": [
+              "Serieux",
+              "Impitoyable"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Grande taille",
+              "Couvre-chef"
+            ]
+          }
+        },
+        {
+          "name": "Monkey D. Dragon",
+          "group": "revolutionnaires",
+          "image": "images/personnages/one-piece/monkey-d-dragon.jpg?v=1795249331950",
+          "imageSource": "images/personnages/one-piece/originaux/monkey-d-dragon.jpg",
+          "imageCrop": {
+            "x": 0,
+            "y": 0.1384,
+            "w": 1
+          },
+          "tags": {
+            "role": [
+              "Leader",
+              "Révolutionnaire",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Vent"
+            ],
+            "caractere": [
+              "Mystérieux",
+              "Calme",
+              "Charismatique"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Tatouage"
+            ]
+          }
+        },
+        {
+          "name": "Sabo",
+          "group": "revolutionnaires",
+          "image": "images/personnages/one-piece/sabo.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/sabo.jpg",
+          "imageCrop": {
+            "x": 0.27539,
+            "y": 0,
+            "w": 0.45
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Second",
+              "Révolutionnaire",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues",
+              "Feu"
+            ],
+            "caractere": [
+              "Loyal",
+              "Calme"
+            ],
+            "physique": [
+              "Masculin",
+              "Jeune",
+              "Couvre-chef",
+              "Cicatrice"
+            ]
+          }
+        },
+        {
+          "name": "Emporio Ivankov",
+          "group": "revolutionnaires",
+          "image": "images/personnages/one-piece/emporio-ivankov.jpg?v=1795248619251",
+          "imageSource": "images/personnages/one-piece/originaux/emporio-ivankov.jpg",
+          "imageCrop": {
+            "x": 0,
+            "y": 0.00825,
+            "w": 1
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Leader",
+              "Révolutionnaire",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Altération du corps"
+            ],
+            "caractere": [
+              "Excentrique",
+              "Loyal",
+              "Drole"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Maquillage",
+              "Grande taille"
+            ]
+          }
+        },
+        {
+          "name": "Karasu",
+          "group": "revolutionnaires",
+          "image": "images/personnages/one-piece/karasu.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/karasu.jpg",
+          "imageCrop": {
+            "x": 0.25,
+            "y": 0.1,
+            "w": 0.6
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Révolutionnaire",
+              "Criminel"
+            ],
+            "style-de-combat": [
+              "Transformation"
+            ],
+            "caractere": [
+              "Mystérieux",
+              "Calme"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Masque"
+            ]
+          }
+        },
+        {
+          "name": "Nefertari Vivi",
+          "group": "autres",
+          "image": "images/personnages/one-piece/nefertari-vivi.jpg?v=1795248488421",
+          "imageSource": "images/personnages/one-piece/originaux/nefertari-vivi.jpg",
+          "imageCrop": {
+            "x": 0.09598,
+            "y": 0,
+            "w": 0.89286
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Royauté"
+            ],
+            "style-de-combat": [
+              "Arme tranchante"
+            ],
+            "caractere": [
+              "Gentil",
+              "Protecteur"
+            ],
+            "physique": [
+              "Feminin",
+              "Jeune",
+              "Cheveux longs"
+            ]
+          }
+        },
+        {
+          "name": "Kozuki Oden",
+          "group": "autres",
+          "image": "images/personnages/one-piece/kozuki-oden.jpg?v=1795248723411",
+          "imageSource": "images/personnages/one-piece/originaux/kozuki-oden.jpg",
+          "imageCrop": {
+            "x": 0.40078,
+            "y": 0.19954,
+            "w": 0.25
+          },
+          "tags": {
+            "role": [
+              "Leader",
+              "Royauté",
+              "Légende"
+            ],
+            "style-de-combat": [
+              "Épéiste"
+            ],
+            "caractere": [
+              "Libre",
+              "Impulsif",
+              "Charismatique"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Barbe",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "Kozuki Momonosuke",
+          "group": "autres",
+          "image": "images/personnages/one-piece/kozuki-momonosuke.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/kozuki-momonosuke.jpg",
+          "imageCrop": {
+            "x": 0.375,
+            "y": 0,
+            "w": 0.25
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Royauté",
+              "Leader"
+            ],
+            "style-de-combat": [
+              "Transformation"
+            ],
+            "caractere": [
+              "Naif"
+            ],
+            "physique": [
+              "Masculin",
+              "Jeune",
+              "Cheveux longs"
+            ]
+          }
+        },
+        {
+          "name": "Enel",
+          "group": "autres",
+          "image": "images/personnages/one-piece/enel.jpg?v=1795248503742",
+          "imageSource": "images/personnages/one-piece/originaux/enel.jpg",
+          "imageCrop": {
+            "x": 0.69324,
+            "y": 0.26505,
+            "w": 0.14987
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Dieu"
+            ],
+            "style-de-combat": [
+              "Foudre"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Cruel"
+            ],
+            "physique": [
+              "Masculin",
+              "Jeune",
+              "Couvre-chef"
+            ]
+          }
+        },
+        {
+          "name": "Uta",
+          "group": "autres",
+          "image": "images/personnages/one-piece/uta.jpg?v=1795248801609",
+          "imageSource": "images/personnages/one-piece/originaux/uta.jpg",
+          "imageCrop": {
+            "x": 0.58307,
+            "y": 0.04106,
+            "w": 0.25707
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Musicien"
+            ],
+            "style-de-combat": [
+              "Musique"
+            ],
+            "caractere": [
+              "Naif",
+              "Ambitieux"
+            ],
+            "physique": [
+              "Feminin",
+              "Jeune",
+              "Cheveux longs"
+            ]
+          }
+        },
+        {
+          "name": "Carrot",
+          "group": "autres",
+          "image": "images/personnages/one-piece/carrot.jpg?v=1795248470412",
+          "imageSource": "images/personnages/one-piece/originaux/carrot.jpg",
+          "imageCrop": {
+            "x": 0.16987,
+            "y": 0.05743,
+            "w": 0.53763
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Guerrier"
+            ],
+            "style-de-combat": [
+              "Combat à mains nues",
+              "Foudre",
+              "Transformation"
+            ],
+            "caractere": [
+              "Joyeux",
+              "Gourmand"
+            ],
+            "physique": [
+              "Animal",
+              "Feminin",
+              "Jeune",
+              "Petite taille"
+            ]
+          }
+        },
+        {
+          "name": "Kin'emon",
+          "group": "autres",
+          "image": "images/personnages/one-piece/kin-emon.jpg?v=1795248779085",
+          "imageSource": "images/personnages/one-piece/originaux/kin-emon.jpg",
+          "imageCrop": {
+            "x": 0.26505,
+            "y": 0,
+            "w": 0.32895
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Samouraï"
+            ],
+            "style-de-combat": [
+              "Épéiste",
+              "Feu"
+            ],
+            "caractere": [
+              "Loyal",
+              "Honorable"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature"
+            ]
+          }
+        },
+        {
+          "name": "Shirahoshi",
+          "group": "autres",
+          "image": "images/personnages/one-piece/shirahoshi.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/shirahoshi.jpg",
+          "imageCrop": {
+            "x": 0.29,
+            "y": 0.06339,
+            "w": 0.25
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Royauté"
+            ],
+            "style-de-combat": [
+              "Contrôle des animaux"
+            ],
+            "caractere": [
+              "Peureux",
+              "Gentil",
+              "Naif"
+            ],
+            "physique": [
+              "Créature marine",
+              "Feminin",
+              "Jeune",
+              "Grande taille",
+              "Cheveux longs"
+            ]
+          }
+        },
+        {
+          "name": "Loki",
+          "group": "autres",
+          "image": "images/personnages/one-piece/loki.jpg?v=1795248689102",
+          "imageSource": "images/personnages/one-piece/originaux/loki.jpg",
+          "imageCrop": {
+            "x": 0.40468,
+            "y": 0.49416,
+            "w": 0.20093
+          },
+          "tags": {
+            "role": [
+              "Royauté"
+            ],
+            "style-de-combat": [
+              "Arme contondante",
+              "Transformation"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Libre"
+            ],
+            "physique": [
+              "Géant",
+              "Masculin",
+              "Jeune",
+              "Grande taille",
+              "Cheveux longs",
+              "Musclé"
+            ]
+          }
+        },
+        {
+          "name": "Rebecca",
+          "group": "autres",
+          "image": "images/personnages/one-piece/rebecca.jpg?v=1795248742007",
+          "imageSource": "images/personnages/one-piece/originaux/rebecca.jpg",
+          "imageCrop": {
+            "x": 0.35187,
+            "y": 0.00335,
+            "w": 0.3003
+          },
+          "tags": {
+            "role": [
+              "Allié",
+              "Royauté"
+            ],
+            "style-de-combat": [
+              "Épéiste"
+            ],
+            "caractere": [
+              "Gentil"
+            ],
+            "physique": [
+              "Feminin",
+              "Jeune",
+              "Cheveux longs"
+            ]
+          }
+        },
+        {
+          "name": "Dr. Hiriluk",
+          "group": "autres",
+          "image": "images/personnages/one-piece/dr-hiriluk.jpg?v=1795248817851",
+          "imageSource": "images/personnages/one-piece/originaux/dr-hiriluk.jpg",
+          "imageCrop": {
+            "x": 0.30198,
+            "y": 0.12426,
+            "w": 0.34965
+          },
+          "tags": {
+            "role": [
+              "Mentor",
+              "Medecin"
+            ],
+            "style-de-combat": [
+              "Médecine"
+            ],
+            "caractere": [
+              "Gentil",
+              "Excentrique"
+            ],
+            "physique": [
+              "Masculin",
+              "Vieux",
+              "Couvre-chef",
+              "Moustache"
+            ]
+          }
+        },
+        {
+          "name": "Caesar Clown",
+          "group": "autres",
+          "image": "images/personnages/one-piece/caesar-clown.jpg?v=1795249355070",
+          "imageSource": "images/personnages/one-piece/originaux/caesar-clown.jpg",
+          "imageCrop": {
+            "x": 0.25668,
+            "y": 0.24926,
+            "w": 0.42781
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Scientifique"
+            ],
+            "style-de-combat": [
+              "Gaz",
+              "Poison"
+            ],
+            "caractere": [
+              "Cruel",
+              "Excentrique",
+              "Arrogant"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Cheveux longs"
+            ]
+          }
+        },
+        {
+          "name": "Wapol",
+          "group": "autres",
+          "image": "images/personnages/one-piece/wapol.jpg?v=1795247662250",
+          "imageSource": "images/personnages/one-piece/originaux/wapol.jpg",
+          "imageCrop": {
+            "x": 0.24751,
+            "y": 0.13988,
+            "w": 0.50505
+          },
+          "tags": {
+            "role": [
+              "Antagoniste",
+              "Royauté"
+            ],
+            "style-de-combat": [
+              "Absorption"
+            ],
+            "caractere": [
+              "Peureux",
+              "Gourmand",
+              "Arrogant",
+              "Cruel",
+              "Alcoolique"
+            ],
+            "physique": [
+              "Masculin",
+              "Mature",
+              "Corpulent",
+              "Couvre-chef"
+            ]
+          }
+        }
+      ]
+    },
+    "dragon-ball": {
+      "title": "Dragon Ball",
+      "cover": "images/catalogue/dragon-ball.webp",
+      "groups": [],
+      "characters": []
+    },
+    "naruto": {
+      "title": "Naruto",
+      "cover": "images/catalogue/naruto.jpg",
+      "groups": [],
+      "characters": []
+    },
+    "bleach": {
+      "title": "Bleach",
+      "cover": "images/catalogue/bleach.webp",
+      "groups": [],
+      "characters": []
+    },
+    "hunter-x-hunter": {
+      "title": "Hunter x Hunter",
+      "cover": "images/catalogue/hunter-x-hunter.webp",
+      "groups": [],
+      "characters": []
+    }
+  }
+}
