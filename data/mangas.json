@@ -454,12 +454,12 @@
         {
           "name": "Edward Newgate (Barbe Blanche)",
           "group": "pirates",
-          "image": "images/personnages/one-piece/edward-newgate-barbe-blanche.jpg",
+          "image": "images/personnages/one-piece/edward-newgate-barbe-blanche.jpg?v=1795248909854",
           "imageSource": "images/personnages/one-piece/originaux/edward-newgate-barbe-blanche.jpg",
           "imageCrop": {
-            "x": 0.22,
-            "y": 0,
-            "w": 0.6
+            "x": 0.19173,
+            "y": 0.03125,
+            "w": 0.62258
           },
           "tags": {
             "role": [
