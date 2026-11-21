@@ -1099,12 +1099,12 @@
         {
           "name": "Benn Beckman",
           "group": "pirates",
-          "image": "images/personnages/one-piece/benn-beckman.jpg",
+          "image": "images/personnages/one-piece/benn-beckman.jpg?v=1795247571771",
           "imageSource": "images/personnages/one-piece/originaux/benn-beckman.jpg",
           "imageCrop": {
-            "x": 0.41003,
-            "y": 0.00697,
-            "w": 0.35
+            "x": 0.4965,
+            "y": 0.02991,
+            "w": 0.23923
           },
           "tags": {}
         },
