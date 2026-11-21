@@ -1751,12 +1751,12 @@
         {
           "name": "Enel",
           "group": "autres",
-          "image": "images/personnages/one-piece/enel.jpg",
+          "image": "images/personnages/one-piece/enel.jpg?v=1795248503742",
           "imageSource": "images/personnages/one-piece/originaux/enel.jpg",
           "imageCrop": {
-            "x": 0.682,
-            "y": 0.22997,
-            "w": 0.15
+            "x": 0.69324,
+            "y": 0.26505,
+            "w": 0.14987
           },
           "tags": {
             "role": [
