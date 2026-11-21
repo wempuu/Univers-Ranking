@@ -210,7 +210,8 @@
             "caractere": [
               "Serieux",
               "Emotif",
-              "Pervers"
+              "Pervers",
+              "Fumeur"
             ],
             "physique": [
               "Jeune",
@@ -507,7 +508,8 @@
               "Calme",
               "Intelligent",
               "Loyal",
-              "Alcoolique"
+              "Alcoolique",
+              "Fumeur"
             ],
             "physique": [
               "Masculin",
@@ -1177,7 +1179,8 @@
               "Rusé",
               "Froid",
               "Ambitieux",
-              "Alcoolique"
+              "Alcoolique",
+              "Fumeur"
             ],
             "physique": [
               "Masculin",
@@ -1822,7 +1825,8 @@
             ],
             "caractere": [
               "Cruel",
-              "Froid"
+              "Froid",
+              "Fumeur"
             ],
             "physique": [
               "Masculin",
@@ -2459,7 +2463,8 @@
             "caractere": [
               "Serieux",
               "Honorable",
-              "Froid"
+              "Froid",
+              "Fumeur"
             ],
             "physique": [
               "Masculin",
