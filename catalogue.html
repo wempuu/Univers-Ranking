@@ -6,7 +6,7 @@
   <title>Catalogue · Univers Ranking</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=13">
+  <link rel="stylesheet" href="style.css?v=14">
 </head>
 <body>
   <header class="wrap site">
@@ -24,7 +24,10 @@
       <p>Les univers présents sur le site.</p>
     </section>
 
-    <h2 class="section-title">Mangas</h2>
+    <div id="search"></div>
+    <p class="search-empty muted-small" id="no-result" hidden>Aucun manga ne correspond à ta recherche.</p>
+
+    <h2 class="section-title" data-section>Mangas</h2>
     <div class="grid">
       <a class="card manga" href="personnages.html?manga=one-piece" style="--c1:#ff7a18;--c2:#e5293b">
         <img class="cover" src="images/catalogue/one-piece.webp" alt="Couverture de One Piece" loading="lazy">
@@ -79,5 +82,7 @@
   </main>
 
   <footer class="wrap">Univers Ranking</footer>
+  <script src="common.js?v=14"></script>
+  <script src="catalogue.js?v=14"></script>
 </body>
 </html>

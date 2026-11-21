@@ -73,6 +73,46 @@ function persoAvatar(perso, className = "avatar") {
   return div;
 }
 
+// ---------- Recherche ----------
+
+// Texte comparable : minuscules, sans accents ni ponctuation ("Corazón" -> "corazon")
+function normalizeSearch(text) {
+  return String(text).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+// Barre de recherche réutilisable. `onSearch(query normalisée)` est appelé à chaque frappe.
+// Raccourcis : « / » met le curseur dans la barre, Échap la vide.
+function createSearchBar({ placeholder, onSearch }) {
+  const wrap = document.createElement("div");
+  wrap.className = "search-bar";
+  wrap.innerHTML = `
+    <span class="search-icon" aria-hidden="true">🔍</span>
+    <input type="search" autocomplete="off" spellcheck="false">
+    <span class="search-count muted-small" aria-live="polite"></span>`;
+  const input = wrap.querySelector("input");
+  input.placeholder = placeholder;
+  input.setAttribute("aria-label", placeholder);
+  input.addEventListener("input", () => onSearch(normalizeSearch(input.value)));
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") { input.value = ""; onSearch(""); }
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "/" && !/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName)) {
+      e.preventDefault();
+      input.focus();
+    }
+  });
+  return {
+    el: wrap,
+    setCount: (text) => { wrap.querySelector(".search-count").textContent = text; },
+  };
+}
+
+// Vrai si tous les mots de la recherche se trouvent dans le texte (déjà normalisé)
+function matchesSearch(haystack, query) {
+  return !query || query.split(" ").every((word) => haystack.includes(word));
+}
+
 function emptyBlock(emoji, title, text) {
   const div = document.createElement("div");
   div.className = "empty";

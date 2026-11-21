@@ -374,3 +374,19 @@ footer { text-align: center; color: var(--muted); padding: 24px 0 40px; font-siz
 .cropper-zoom input { flex: 1; accent-color: var(--accent); }
 .modal-actions { margin: 0; }
 .modal .tool-status { margin: 0; }
+
+/* Barre de recherche */
+.search-bar {
+  display: flex; align-items: center; gap: 10px;
+  background: var(--card); border: 1px solid rgba(255,255,255,.12); border-radius: 999px;
+  padding: 6px 18px; margin: 0 0 20px;
+  transition: border-color .15s;
+}
+.search-bar:focus-within { border-color: var(--accent-2); }
+.search-bar input {
+  flex: 1; min-width: 0; font: inherit; font-size: 1rem; color: var(--text);
+  background: transparent; border: 0; padding: 8px 0; outline: none;
+}
+.search-bar input::placeholder { color: var(--muted); }
+.search-count { white-space: nowrap; }
+.search-empty { margin: -8px 0 24px; }
