@@ -596,12 +596,12 @@
         {
           "name": "King",
           "group": "pirates",
-          "image": "images/personnages/one-piece/king.jpg",
+          "image": "images/personnages/one-piece/king.jpg?v=1795248014207",
           "imageSource": "images/personnages/one-piece/originaux/king.jpg",
           "imageCrop": {
-            "x": 0.34982,
-            "y": 0.0023,
-            "w": 0.3
+            "x": 0.35045,
+            "y": 0.04827,
+            "w": 0.3012
           },
           "tags": {
             "role": [
