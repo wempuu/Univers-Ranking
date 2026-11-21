@@ -64,12 +64,15 @@
               "Protagoniste",
               "Criminel",
               "Hero",
-              "Leader"
+              "Leader",
+              "Dieu"
             ],
             "style-de-combat": [
               "Combat à mains nues",
               "Transformation",
-              "Pouvoir élastique"
+              "Pouvoir élastique",
+              "Pouvoir divin",
+              "Manipulation de la réalité"
             ],
             "caractere": [
               "Drole",
