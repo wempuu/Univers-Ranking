@@ -75,13 +75,16 @@
               "Drole",
               "Libre",
               "Gourmand",
-              "Impulsif"
+              "Impulsif",
+              "Joyeux",
+              "Naif"
             ],
             "physique": [
               "Jeune",
               "Humain",
               "Masculin",
-              "Couvre-chef"
+              "Couvre-chef",
+              "Cicatrice"
             ]
           }
         },
