@@ -1888,12 +1888,12 @@
         {
           "name": "Dr. Hiriluk",
           "group": "autres",
-          "image": "images/personnages/one-piece/dr-hiriluk.jpg",
+          "image": "images/personnages/one-piece/dr-hiriluk.jpg?v=1795248817851",
           "imageSource": "images/personnages/one-piece/originaux/dr-hiriluk.jpg",
           "imageCrop": {
-            "x": 0.255,
-            "y": 0.10351,
-            "w": 0.35
+            "x": 0.30198,
+            "y": 0.12426,
+            "w": 0.34965
           },
           "tags": {
             "role": [
