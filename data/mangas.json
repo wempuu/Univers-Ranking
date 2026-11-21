@@ -452,6 +452,42 @@
           }
         },
         {
+          "name": "Benn Beckman",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/benn-beckman.jpg?v=1795247571771",
+          "imageSource": "images/personnages/one-piece/originaux/benn-beckman.jpg",
+          "imageCrop": {
+            "x": 0.4965,
+            "y": 0.02991,
+            "w": 0.23923
+          },
+          "tags": {}
+        },
+        {
+          "name": "Lucky Roux",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/lucky-roux.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/lucky-roux.jpg",
+          "imageCrop": {
+            "x": 0.22458,
+            "y": 0.00304,
+            "w": 0.65
+          },
+          "tags": {}
+        },
+        {
+          "name": "Yasopp",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/yasopp.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/yasopp.jpg",
+          "imageCrop": {
+            "x": 0.28979,
+            "y": 0,
+            "w": 0.3
+          },
+          "tags": {}
+        },
+        {
           "name": "Edward Newgate (Barbe Blanche)",
           "group": "pirates",
           "image": "images/personnages/one-piece/edward-newgate-barbe-blanche.jpg?v=1795248909854",
@@ -511,24 +547,16 @@
           }
         },
         {
-          "name": "Marshall D. Teach (Barbe Noire)",
+          "name": "Jozu",
           "group": "pirates",
-          "image": "images/personnages/one-piece/marshall-d-teach-barbe-noire.jpg?v=1795248267753",
-          "imageSource": "images/personnages/one-piece/originaux/marshall-d-teach-barbe-noire.jpg",
+          "image": "images/personnages/one-piece/jozu.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/jozu.jpg",
           "imageCrop": {
-            "x": 0.28595,
-            "y": 0.05534,
-            "w": 0.22011
+            "x": 0.365,
+            "y": 0.04766,
+            "w": 0.25
           },
-          "tags": {
-            "role": [
-              "Antagoniste"
-            ],
-            "style-de-combat": [
-              "Ténèbres",
-              "Séismes"
-            ]
-          }
+          "tags": {}
         },
         {
           "name": "Trafalgar Law",
@@ -548,6 +576,69 @@
             "style-de-combat": [
               "Épéiste",
               "Manipulation de l'espace"
+            ]
+          }
+        },
+        {
+          "name": "Bepo",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/bepo.jpg?v=1795248183952",
+          "imageSource": "images/personnages/one-piece/originaux/bepo.jpg",
+          "imageCrop": {
+            "x": 0.36895,
+            "y": 0.0739,
+            "w": 0.35842
+          },
+          "tags": {}
+        },
+        {
+          "name": "Eustass Kid",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/eustass-kid.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/eustass-kid.jpg",
+          "imageCrop": {
+            "x": 0.24521,
+            "y": 0.01431,
+            "w": 0.35
+          },
+          "tags": {
+            "role": [
+              "Rival"
+            ],
+            "style-de-combat": [
+              "Magnétisme"
+            ]
+          }
+        },
+        {
+          "name": "Killer",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/killer.jpg",
+          "imageSource": "images/personnages/one-piece/originaux/killer.jpg",
+          "imageCrop": {
+            "x": 0.22031,
+            "y": 0,
+            "w": 0.4
+          },
+          "tags": {}
+        },
+        {
+          "name": "Marshall D. Teach (Barbe Noire)",
+          "group": "pirates",
+          "image": "images/personnages/one-piece/marshall-d-teach-barbe-noire.jpg?v=1795248267753",
+          "imageSource": "images/personnages/one-piece/originaux/marshall-d-teach-barbe-noire.jpg",
+          "imageCrop": {
+            "x": 0.28595,
+            "y": 0.05534,
+            "w": 0.22011
+          },
+          "tags": {
+            "role": [
+              "Antagoniste"
+            ],
+            "style-de-combat": [
+              "Ténèbres",
+              "Séismes"
             ]
           }
         },
@@ -747,25 +838,6 @@
             ],
             "style-de-combat": [
               "Corps fragmentable"
-            ]
-          }
-        },
-        {
-          "name": "Eustass Kid",
-          "group": "pirates",
-          "image": "images/personnages/one-piece/eustass-kid.jpg",
-          "imageSource": "images/personnages/one-piece/originaux/eustass-kid.jpg",
-          "imageCrop": {
-            "x": 0.24521,
-            "y": 0.01431,
-            "w": 0.35
-          },
-          "tags": {
-            "role": [
-              "Rival"
-            ],
-            "style-de-combat": [
-              "Magnétisme"
             ]
           }
         },
@@ -1097,42 +1169,6 @@
           "tags": {}
         },
         {
-          "name": "Benn Beckman",
-          "group": "pirates",
-          "image": "images/personnages/one-piece/benn-beckman.jpg?v=1795247571771",
-          "imageSource": "images/personnages/one-piece/originaux/benn-beckman.jpg",
-          "imageCrop": {
-            "x": 0.4965,
-            "y": 0.02991,
-            "w": 0.23923
-          },
-          "tags": {}
-        },
-        {
-          "name": "Lucky Roux",
-          "group": "pirates",
-          "image": "images/personnages/one-piece/lucky-roux.jpg",
-          "imageSource": "images/personnages/one-piece/originaux/lucky-roux.jpg",
-          "imageCrop": {
-            "x": 0.22458,
-            "y": 0.00304,
-            "w": 0.65
-          },
-          "tags": {}
-        },
-        {
-          "name": "Yasopp",
-          "group": "pirates",
-          "image": "images/personnages/one-piece/yasopp.jpg",
-          "imageSource": "images/personnages/one-piece/originaux/yasopp.jpg",
-          "imageCrop": {
-            "x": 0.28979,
-            "y": 0,
-            "w": 0.3
-          },
-          "tags": {}
-        },
-        {
           "name": "Shiryu",
           "group": "pirates",
           "image": "images/personnages/one-piece/shiryu.jpg",
@@ -1153,42 +1189,6 @@
             "x": 0.36044,
             "y": 0.12719,
             "w": 0.28011
-          },
-          "tags": {}
-        },
-        {
-          "name": "Jozu",
-          "group": "pirates",
-          "image": "images/personnages/one-piece/jozu.jpg",
-          "imageSource": "images/personnages/one-piece/originaux/jozu.jpg",
-          "imageCrop": {
-            "x": 0.365,
-            "y": 0.04766,
-            "w": 0.25
-          },
-          "tags": {}
-        },
-        {
-          "name": "Bepo",
-          "group": "pirates",
-          "image": "images/personnages/one-piece/bepo.jpg?v=1795248183952",
-          "imageSource": "images/personnages/one-piece/originaux/bepo.jpg",
-          "imageCrop": {
-            "x": 0.36895,
-            "y": 0.0739,
-            "w": 0.35842
-          },
-          "tags": {}
-        },
-        {
-          "name": "Killer",
-          "group": "pirates",
-          "image": "images/personnages/one-piece/killer.jpg",
-          "imageSource": "images/personnages/one-piece/originaux/killer.jpg",
-          "imageCrop": {
-            "x": 0.22031,
-            "y": 0,
-            "w": 0.4
           },
           "tags": {}
         },
