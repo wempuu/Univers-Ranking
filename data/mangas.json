@@ -330,7 +330,8 @@
           "tags": {
             "role": [
               "Allié",
-              "Musicien"
+              "Musicien",
+              "Criminel"
             ],
             "style-de-combat": [
               "Épéiste",
@@ -935,7 +936,8 @@
           },
           "tags": {
             "role": [
-              "Allié"
+              "Allié",
+              "Criminel"
             ],
             "style-de-combat": [
               "Arme contondante",
@@ -1501,7 +1503,8 @@
           "tags": {
             "role": [
               "Mentor",
-              "Cuisinier"
+              "Cuisinier",
+              "Criminel"
             ],
             "style-de-combat": [
               "Combat aux jambes"
@@ -2648,7 +2651,8 @@
             "role": [
               "Personnage secondaire",
               "Leader",
-              "Révolutionnaire"
+              "Révolutionnaire",
+              "Criminel"
             ],
             "style-de-combat": [
               "Vent"
@@ -2679,7 +2683,8 @@
             "role": [
               "Allié",
               "Second",
-              "Révolutionnaire"
+              "Révolutionnaire",
+              "Criminel"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -2712,7 +2717,8 @@
             "role": [
               "Allié",
               "Leader",
-              "Révolutionnaire"
+              "Révolutionnaire",
+              "Criminel"
             ],
             "style-de-combat": [
               "Altération du corps"
@@ -2743,7 +2749,8 @@
           "tags": {
             "role": [
               "Allié",
-              "Révolutionnaire"
+              "Révolutionnaire",
+              "Criminel"
             ],
             "style-de-combat": [
               "Transformation"
