@@ -810,12 +810,12 @@
         {
           "name": "Bartholomew Kuma",
           "group": "pirates",
-          "image": "images/personnages/one-piece/bartholomew-kuma.jpg",
+          "image": "images/personnages/one-piece/bartholomew-kuma.jpg?v=1795248367771",
           "imageSource": "images/personnages/one-piece/originaux/bartholomew-kuma.jpg",
           "imageCrop": {
-            "x": 0.22173,
-            "y": 0.06984,
-            "w": 0.32
+            "x": 0.3105,
+            "y": 0.12579,
+            "w": 0.24631
           },
           "tags": {}
         },
