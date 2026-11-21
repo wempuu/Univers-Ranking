@@ -343,12 +343,12 @@
         {
           "name": "Brook",
           "group": "pirates",
-          "image": "images/personnages/one-piece/brook.jpg",
+          "image": "images/personnages/one-piece/brook.jpg?v=1795251639558",
           "imageSource": "images/personnages/one-piece/originaux/brook.jpg",
           "imageCrop": {
-            "x": 0.23563,
-            "y": 0.14068,
-            "w": 0.3
+            "x": 0.14563,
+            "y": 0.11973,
+            "w": 0.51546
           },
           "tags": {
             "role": [
