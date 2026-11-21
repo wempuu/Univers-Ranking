@@ -1810,12 +1810,12 @@
         {
           "name": "Kin'emon",
           "group": "autres",
-          "image": "images/personnages/one-piece/kin-emon.jpg",
+          "image": "images/personnages/one-piece/kin-emon.jpg?v=1795248779085",
           "imageSource": "images/personnages/one-piece/originaux/kin-emon.jpg",
           "imageCrop": {
-            "x": 0.24903,
+            "x": 0.26505,
             "y": 0,
-            "w": 0.4
+            "w": 0.32895
           },
           "tags": {
             "role": [
