@@ -622,6 +622,11 @@
           }
         },
         {
+          "name": "Bartholomew Kuma",
+          "group": "pirates",
+          "tags": {}
+        },
+        {
           "name": "Gecko Moria",
           "group": "pirates",
           "image": "images/personnages/one-piece/gecko-moria.jpg",
@@ -713,6 +718,11 @@
               "Arme d'hast"
             ]
           }
+        },
+        {
+          "name": "Edward Weevil",
+          "group": "pirates",
+          "tags": {}
         },
         {
           "name": "Charlotte Linlin (Big Mom)",
@@ -822,6 +832,51 @@
               "Régénération"
             ]
           }
+        },
+        {
+          "name": "Saint Marcus Mars",
+          "group": "marine",
+          "tags": {}
+        },
+        {
+          "name": "Saint Topman Warcury",
+          "group": "marine",
+          "tags": {}
+        },
+        {
+          "name": "Saint Ethanbaron V. Nusjuro",
+          "group": "marine",
+          "tags": {}
+        },
+        {
+          "name": "Saint Shepherd Ju Peter",
+          "group": "marine",
+          "tags": {}
+        },
+        {
+          "name": "Saint Figarland Garling",
+          "group": "marine",
+          "tags": {}
+        },
+        {
+          "name": "Saint Figarland Shamrock",
+          "group": "marine",
+          "tags": {}
+        },
+        {
+          "name": "Saint Shepherd Sommers",
+          "group": "marine",
+          "tags": {}
+        },
+        {
+          "name": "Saint Rimoshifu Killingham",
+          "group": "marine",
+          "tags": {}
+        },
+        {
+          "name": "Saint Manmayer Gunko",
+          "group": "marine",
+          "tags": {}
         },
         {
           "name": "Sakazuki (Akainu)",
@@ -942,6 +997,11 @@
               "Arme contondante"
             ]
           }
+        },
+        {
+          "name": "Tashigi",
+          "group": "marine",
+          "tags": {}
         },
         {
           "name": "Dr. Vegapunk",
