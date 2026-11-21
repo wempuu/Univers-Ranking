@@ -96,12 +96,12 @@
         {
           "name": "Roronoa Zoro",
           "group": "pirates",
-          "image": "images/personnages/one-piece/roronoa-zoro.jpg",
+          "image": "images/personnages/one-piece/roronoa-zoro.jpg?v=1795248238567",
           "imageSource": "images/personnages/one-piece/originaux/roronoa-zoro.jpg",
           "imageCrop": {
-            "x": 0.37569,
-            "y": 0.01267,
-            "w": 0.32
+            "x": 0.37854,
+            "y": 0,
+            "w": 0.38023
           },
           "tags": {
             "role": [
