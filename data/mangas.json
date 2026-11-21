@@ -734,12 +734,12 @@
         {
           "name": "Baggy",
           "group": "pirates",
-          "image": "images/personnages/one-piece/baggy.jpg",
+          "image": "images/personnages/one-piece/baggy.jpg?v=1795249029811",
           "imageSource": "images/personnages/one-piece/originaux/baggy.jpg",
           "imageCrop": {
-            "x": 0.24367,
-            "y": 0.0745,
-            "w": 0.3
+            "x": 0.26564,
+            "y": 0.03923,
+            "w": 0.27397
           },
           "tags": {
             "role": [
