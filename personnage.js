@@ -91,7 +91,13 @@ function render() {
     values.forEach((v) => {
       const chip = document.createElement("span");
       chip.className = "chip";
-      chip.textContent = v;
+      const r = tagRarity(data, tagSlug, v);
+      chip.textContent = v + " ";
+      const stars = document.createElement("span");
+      stars.className = "chip-stars";
+      stars.textContent = rarityStars(r);
+      chip.appendChild(stars);
+      chip.title = `${RARITY_LABELS[r]} ${rarityStars(r)}`;
       chipsEl.appendChild(chip);
     });
     box.appendChild(row);

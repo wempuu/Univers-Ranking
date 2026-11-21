@@ -7,7 +7,7 @@
   <meta name="robots" content="noindex">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=23">
+  <link rel="stylesheet" href="style.css?v=24">
 </head>
 <body>
   <header class="wrap site">
@@ -61,18 +61,39 @@
           </div>
         </div>
         <p class="muted-small" id="tag-count"></p>
+        <div class="tm-rarity">
+          <label class="muted-small" for="tag-rarity">Rareté</label>
+          <select id="tag-rarity">
+            <option value="1">⭐ Commun</option>
+            <option value="2">⭐⭐ Rare</option>
+            <option value="3">⭐⭐⭐ Très rare</option>
+          </select>
+        </div>
         <ul class="tm-persos" id="tag-persos"></ul>
         <h3 class="tm-sub">Ajouter des personnages</h3>
         <input class="tool-input" id="add-filter" placeholder="Rechercher un personnage…" autocomplete="off">
         <ul class="tm-persos tm-add" id="add-list"></ul>
       </section>
     </div>
+
+    <section class="lobby-card tm-search">
+      <h2 class="lobby-title">Recherche multi-critères</h2>
+      <p class="muted-small">Combine des tags de catégories différentes : seuls les personnages qui ont tous les tags choisis s'affichent.</p>
+      <form class="tool-bar" id="crit-form">
+        <select id="crit-cat" aria-label="Catégorie"></select>
+        <select id="crit-tag" aria-label="Tag"></select>
+        <button class="btn small" type="submit">＋ Critère</button>
+      </form>
+      <div class="chips tm-criteria" id="criteria"></div>
+      <p class="muted-small" id="crit-count"></p>
+      <ul class="tm-persos" id="crit-results"></ul>
+    </section>
   </main>
 
   <footer class="wrap">Univers Ranking</footer>
 
-  <script src="common.js?v=23"></script>
-  <script src="github-panel.js?v=23"></script>
-  <script src="tags.js?v=23"></script>
+  <script src="common.js?v=24"></script>
+  <script src="github-panel.js?v=24"></script>
+  <script src="tags.js?v=24"></script>
 </body>
 </html>

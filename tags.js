@@ -52,6 +52,14 @@ function render() {
   renderCats();
   renderTags();
   renderTag();
+  renderSearch();
+}
+
+// Rareté stockée dans data.tags[cat].rarity (1 Commun, 2 Rare, 3 Très rare)
+function rarityMap(slug) {
+  const t = data.tags[slug];
+  if (!t.rarity) t.rarity = {};
+  return t.rarity;
 }
 
 function renderCats() {
@@ -86,8 +94,9 @@ function renderTags() {
     const b = document.createElement("button");
     b.type = "button";
     b.className = "tm-item" + (tag && same(tag, v) ? " active" : "");
-    b.innerHTML = `<span></span><span class="muted-small"></span>`;
-    b.firstChild.textContent = v;
+    b.innerHTML = `<span><span></span><span class="tm-stars"></span></span><span class="muted-small"></span>`;
+    b.firstChild.firstChild.textContent = v;
+    b.firstChild.lastChild.textContent = rarityStars(tagRarity(data, cat, v));
     b.lastChild.textContent = `${n} perso${n > 1 ? "s" : ""}`;
     b.addEventListener("click", () => { tag = v; $("add-filter").value = ""; render(); });
     li.appendChild(b);
@@ -121,6 +130,7 @@ function renderTag() {
   $("tag-title").textContent = `${tag}`;
   const holders = allChars().filter(({ c }) => hasTag(c, cat, tag));
   $("tag-count").textContent = `${data.tags[cat].label} · ${holders.length} personnage${holders.length > 1 ? "s" : ""}`;
+  $("tag-rarity").value = String(tagRarity(data, cat, tag));
   const ul = $("tag-persos");
   ul.innerHTML = "";
   holders.forEach((x) => ul.appendChild(persoRow(x, () => removeFrom(x.c), "✕", `Retirer « ${tag} » de ${x.c.name}`)));
@@ -161,6 +171,7 @@ $("btn-new-tag").addEventListener("click", async () => {
   if (existing) { tag = existing; render(); panel.setStatus(`Le tag « ${existing} » existe déjà.`, "err"); return; }
   const t = data.tags[cat];
   t.values = (t.values || []).concat(v); // gardé dans les valeurs proposées, même sans perso pour l'instant
+  rarityMap(cat)[v] = 1; // Commun par défaut, modifiable ensuite
   tag = v;
   changed();
 });
@@ -169,7 +180,9 @@ $("btn-rename-tag").addEventListener("click", async () => {
   if (!tag) return;
   const v = ((await askText(`Nouveau nom pour « ${tag} » (un nom déjà existant fusionne les deux tags) :`, tag, "Renommer")) || "").trim();
   if (!v || v === tag) return;
-  const target = tagValues(cat).find((x) => same(x, v) && !same(x, tag)) || v;
+  const existingTarget = tagValues(cat).find((x) => same(x, v) && !same(x, tag));
+  const target = existingTarget || v;
+  const merged = !!existingTarget;
   allChars().forEach(({ c }) => {
     const vals = (c.tags || {})[cat];
     if (!vals || !vals.some((x) => same(x, tag))) return;
@@ -183,6 +196,14 @@ $("btn-rename-tag").addEventListener("click", async () => {
     t.values.forEach((x) => { const y = same(x, tag) ? target : x; if (!out.some((z) => same(z, y))) out.push(y); });
     t.values = out;
   }
+  // rareté : un renommage la garde, une fusion garde celle du tag existant
+  const rar = rarityMap(cat);
+  const oldRarity = tagRarity(data, cat, tag);
+  Object.keys(rar).forEach((k) => { if (same(k, tag)) delete rar[k]; });
+  if (!merged) rar[target] = oldRarity;
+  criteria = criteria
+    .map((x) => (x.cat === cat && same(x.value, tag) ? { cat, value: target } : x))
+    .filter((x, i, all) => all.findIndex((y) => y.cat === x.cat && same(y.value, x.value)) === i);
   tag = target;
   changed();
 });
@@ -199,6 +220,9 @@ $("btn-delete-tag").addEventListener("click", async () => {
   });
   const t = data.tags[cat];
   if (t.values) t.values = t.values.filter((x) => !same(x, tag));
+  const rar = rarityMap(cat);
+  Object.keys(rar).forEach((k) => { if (same(k, tag)) delete rar[k]; });
+  criteria = criteria.filter((x) => !(x.cat === cat && same(x.value, tag)));
   tag = null;
   changed();
 });
@@ -211,7 +235,7 @@ $("btn-new-cat").addEventListener("click", async () => {
   const slug = slugify(label);
   if (!slug) return;
   if (data.tags[slug]) { panel.setStatus(`La catégorie « ${data.tags[slug].label} » existe déjà.`, "err"); return; }
-  data.tags[slug] = { label, values: [] };
+  data.tags[slug] = { label, values: [], rarity: {} };
   cat = slug;
   tag = null;
   changed();
@@ -230,10 +254,81 @@ $("btn-delete-cat").addEventListener("click", async () => {
   const n = allChars().filter(({ c }) => (c.tags || {})[cat]).length;
   if (!(await askConfirm(`Supprimer la catégorie « ${data.tags[cat].label} » et tous ses tags ?${n ? ` Elle sera retirée des ${n} personnage(s) qui l'utilisent.` : ""}`, { okLabel: "Supprimer", danger: true }))) return;
   allChars().forEach(({ c }) => { if (c.tags) delete c.tags[cat]; });
+  criteria = criteria.filter((x) => x.cat !== cat);
   delete data.tags[cat];
   cat = Object.keys(data.tags)[0] || null;
   tag = null;
   changed();
+});
+
+$("tag-rarity").addEventListener("change", (e) => {
+  if (!tag) return;
+  const rar = rarityMap(cat);
+  Object.keys(rar).forEach((k) => { if (same(k, tag)) delete rar[k]; });
+  rar[tag] = Number(e.target.value);
+  changed();
+});
+
+// ---------- Recherche multi-critères (tags de catégories différentes, tous requis) ----------
+
+let criteria = []; // [{ cat, value }]
+
+function renderSearch() {
+  const catSel = $("crit-cat"), tagSel = $("crit-tag");
+  const keepCat = data.tags[catSel.value] ? catSel.value : Object.keys(data.tags)[0];
+  catSel.innerHTML = "";
+  Object.entries(data.tags).forEach(([slug, t]) => catSel.add(new Option(t.label, slug)));
+  if (keepCat) catSel.value = keepCat;
+  fillCritTags();
+
+  const box = $("criteria");
+  box.innerHTML = "";
+  criteria.forEach((cr, i) => {
+    const chip = document.createElement("span");
+    chip.className = "chip small";
+    chip.textContent = `${data.tags[cr.cat].label} : ${cr.value} `;
+    const x = document.createElement("button");
+    x.type = "button";
+    x.textContent = "✕";
+    x.title = "Retirer ce critère";
+    x.addEventListener("click", () => { criteria.splice(i, 1); renderSearch(); });
+    chip.appendChild(x);
+    box.appendChild(chip);
+  });
+
+  const ul = $("crit-results");
+  ul.innerHTML = "";
+  if (!criteria.length) { $("crit-count").textContent = "Ajoute un ou plusieurs critères."; return; }
+  const found = charactersWithTags(data, criteria);
+  $("crit-count").textContent = `${found.length} personnage${found.length > 1 ? "s" : ""}`;
+  found.forEach(({ c, manga, mangaTitle }) => {
+    const li = document.createElement("li");
+    li.appendChild(persoAvatar(c, "avatar avatar-small"));
+    const a = document.createElement("a");
+    a.className = "tm-name";
+    a.href = `personnage.html?manga=${encodeURIComponent(manga)}&perso=${encodeURIComponent(slugify(c.name))}`;
+    a.innerHTML = `<strong></strong> <span class="muted-small"></span>`;
+    a.querySelector("strong").textContent = c.name;
+    a.querySelector(".muted-small").textContent = mangaTitle;
+    li.appendChild(a);
+    ul.appendChild(li);
+  });
+}
+
+function fillCritTags() {
+  const slug = $("crit-cat").value, tagSel = $("crit-tag");
+  tagSel.innerHTML = "";
+  if (!slug) return;
+  tagValues(slug).forEach((v) => tagSel.add(new Option(`${v} ${rarityStars(tagRarity(data, slug, v))}`, v)));
+}
+
+$("crit-cat").addEventListener("change", fillCritTags);
+$("crit-form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  const slug = $("crit-cat").value, value = $("crit-tag").value;
+  if (!slug || !value || criteria.some((x) => x.cat === slug && same(x.value, value))) return;
+  criteria.push({ cat: slug, value });
+  renderSearch();
 });
 
 $("tag-filter").addEventListener("input", renderTags);

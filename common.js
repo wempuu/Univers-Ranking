@@ -39,6 +39,28 @@ function knownTagValues(data, tagSlug) {
   return [...planned, ...[...used].sort((a, b) => a.localeCompare(b, "fr"))];
 }
 
+// Rareté d'un tag : data.tags[cat].rarity = { <tag>: 1 | 2 | 3 } (1 = Commun par défaut)
+const RARITY_LABELS = { 1: "Commun", 2: "Rare", 3: "Très rare" };
+function tagRarity(data, tagSlug, value) {
+  const r = data.tags[tagSlug] && data.tags[tagSlug].rarity;
+  const n = r && r[value];
+  return n === 2 || n === 3 ? n : 1;
+}
+function rarityStars(n) {
+  return "⭐".repeat(n);
+}
+
+// Persos qui ont TOUS les critères [{ cat, value }] (catégories mélangées possibles)
+function charactersWithTags(data, criteria) {
+  const norm = (s) => normalizeSearch(s);
+  const out = [];
+  Object.entries(data.mangas).forEach(([slug, m]) => m.characters.forEach((c) => {
+    const ok = criteria.every(({ cat, value }) => ((c.tags || {})[cat] || []).some((v) => norm(v) === norm(value)));
+    if (ok) out.push({ c, manga: slug, mangaTitle: m.title });
+  }));
+  return out;
+}
+
 // Découpe les personnages par catégorie, dans l'ordre de manga.groups.
 // Un perso sans catégorie connue va dans la dernière. Sans catégories : un seul bloc sans titre.
 function groupCharacters(manga) {

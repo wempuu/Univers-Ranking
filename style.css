@@ -486,4 +486,10 @@ footer { text-align: center; color: var(--muted); padding: 24px 0 40px; font-siz
 .tm-persos li.muted-small { background: none; padding: 0; }
 .tm-name { flex: 1; min-width: 0; }
 .tm-sub { margin: 8px 0 0; font-size: 1rem; }
+.chip-stars, .tm-stars { font-size: .7em; letter-spacing: -1px; opacity: .9; }
+.tm-item .tm-stars { margin-left: 6px; }
+.tm-rarity { display: flex; align-items: center; gap: 8px; margin: 4px 0 8px; }
+.tm-search { margin-top: 16px; }
+.tm-search .tool-bar { margin: 0 0 8px; }
+.tm-criteria { margin-bottom: 8px; }
 .catalogue-tools { display: flex; justify-content: center; gap: 16px; margin-top: 8px; }
