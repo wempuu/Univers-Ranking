@@ -114,12 +114,15 @@
             "caractere": [
               "Loyal",
               "Serieux",
-              "Mauvais sens de l'orientation"
+              "Mauvais sens de l'orientation",
+              "Alcoolique"
             ],
             "physique": [
               "Humain",
               "Jeune",
-              "Masculin"
+              "Masculin",
+              "Musclé",
+              "Cicatrice"
             ]
           }
         },
@@ -147,12 +150,14 @@
               "Serieux",
               "Avare",
               "Peureux",
-              "Intelligent"
+              "Intelligent",
+              "Alcoolique"
             ],
             "physique": [
               "Jeune",
               "Humain",
-              "Feminin"
+              "Feminin",
+              "Tatouage"
             ]
           }
         },
@@ -308,7 +313,9 @@
             "physique": [
               "Cyborg",
               "Grande taille",
-              "Mature"
+              "Mature",
+              "Musclé",
+              "Tatouage"
             ]
           }
         },
@@ -373,7 +380,9 @@
               "Créature marine",
               "Masculin",
               "Mature",
-              "Grande taille"
+              "Grande taille",
+              "Musclé",
+              "Tatouage"
             ]
           }
         },
@@ -401,14 +410,16 @@
               "Libre",
               "Joyeux",
               "Charismatique",
-              "Courageux"
+              "Courageux",
+              "Alcoolique"
             ],
             "physique": [
               "Humain",
               "Masculin",
               "Mature",
               "Moustache",
-              "Couvre-chef"
+              "Couvre-chef",
+              "Musclé"
             ]
           }
         },
@@ -434,7 +445,8 @@
             "caractere": [
               "Calme",
               "Sage",
-              "Libre"
+              "Libre",
+              "Alcoolique"
             ],
             "physique": [
               "Humain",
@@ -469,7 +481,8 @@
               "Calme",
               "Libre",
               "Charismatique",
-              "Protecteur"
+              "Protecteur",
+              "Alcoolique"
             ],
             "physique": [
               "Humain",
@@ -502,7 +515,8 @@
             "caractere": [
               "Calme",
               "Intelligent",
-              "Loyal"
+              "Loyal",
+              "Alcoolique"
             ],
             "physique": [
               "Humain",
@@ -532,7 +546,8 @@
             ],
             "caractere": [
               "Gourmand",
-              "Joyeux"
+              "Joyeux",
+              "Alcoolique"
             ],
             "physique": [
               "Humain",
@@ -562,7 +577,8 @@
             ],
             "caractere": [
               "Joyeux",
-              "Fier"
+              "Fier",
+              "Alcoolique"
             ],
             "physique": [
               "Humain",
@@ -597,7 +613,8 @@
               "Protecteur",
               "Fier",
               "Courageux",
-              "Charismatique"
+              "Charismatique",
+              "Alcoolique"
             ],
             "physique": [
               "Humain",
@@ -605,7 +622,8 @@
               "Vieux",
               "Moustache",
               "Grande taille",
-              "Cicatrice"
+              "Cicatrice",
+              "Musclé"
             ]
           }
         },
@@ -638,7 +656,8 @@
               "Humain",
               "Masculin",
               "Mature",
-              "Barbe"
+              "Barbe",
+              "Tatouage"
             ]
           }
         },
@@ -670,7 +689,8 @@
               "Masculin",
               "Jeune",
               "Couvre-chef",
-              "Tatouage"
+              "Tatouage",
+              "Musclé"
             ]
           }
         },
@@ -805,7 +825,8 @@
               "Masculin",
               "Jeune",
               "Amputé",
-              "Cicatrice"
+              "Cicatrice",
+              "Musclé"
             ]
           }
         },
@@ -865,7 +886,8 @@
               "Ambitieux",
               "Rusé",
               "Cruel",
-              "Gourmand"
+              "Gourmand",
+              "Alcoolique"
             ],
             "physique": [
               "Humain",
@@ -902,14 +924,17 @@
               "Cruel",
               "Colérique",
               "Ambitieux",
-              "Impulsif"
+              "Impulsif",
+              "Alcoolique"
             ],
             "physique": [
               "Masculin",
               "Mature",
               "Grande taille",
               "Cornes",
-              "Musclé"
+              "Musclé",
+              "Cicatrice",
+              "Tatouage"
             ]
           }
         },
@@ -943,7 +968,8 @@
               "Jeune",
               "Grande taille",
               "Cornes",
-              "Cheveux longs"
+              "Cheveux longs",
+              "Musclé"
             ]
           }
         },
@@ -979,7 +1005,8 @@
               "Mature",
               "Grande taille",
               "Masque",
-              "Ailes"
+              "Ailes",
+              "Musclé"
             ]
           }
         },
@@ -1081,7 +1108,8 @@
               "Masculin",
               "Mature",
               "Lunettes",
-              "Grande taille"
+              "Grande taille",
+              "Musclé"
             ]
           }
         },
@@ -1115,7 +1143,8 @@
               "Humain",
               "Feminin",
               "Jeune",
-              "Cheveux longs"
+              "Cheveux longs",
+              "Cicatrice"
             ]
           }
         },
@@ -1141,7 +1170,8 @@
             "caractere": [
               "Calme",
               "Fier",
-              "Solitaire"
+              "Solitaire",
+              "Alcoolique"
             ],
             "physique": [
               "Humain",
@@ -1174,7 +1204,8 @@
             "caractere": [
               "Rusé",
               "Froid",
-              "Ambitieux"
+              "Ambitieux",
+              "Alcoolique"
             ],
             "physique": [
               "Humain",
@@ -1317,7 +1348,8 @@
               "Mature",
               "Grande taille",
               "Cyborg",
-              "Couvre-chef"
+              "Couvre-chef",
+              "Musclé"
             ]
           }
         },
@@ -1412,7 +1444,9 @@
               "Créature marine",
               "Masculin",
               "Mature",
-              "Grande taille"
+              "Grande taille",
+              "Musclé",
+              "Tatouage"
             ]
           }
         },
@@ -1511,7 +1545,8 @@
               "Vieux",
               "Moustache",
               "Couvre-chef",
-              "Amputé"
+              "Amputé",
+              "Musclé"
             ]
           }
         },
@@ -1646,7 +1681,8 @@
               "Mature",
               "Grande taille",
               "Cicatrice",
-              "Musclé"
+              "Musclé",
+              "Tatouage"
             ]
           }
         },
@@ -1801,7 +1837,8 @@
               "Humain",
               "Masculin",
               "Jeune",
-              "Tatouage"
+              "Tatouage",
+              "Musclé"
             ]
           }
         },
@@ -2231,7 +2268,8 @@
               "Masculin",
               "Mature",
               "Couvre-chef",
-              "Cicatrice"
+              "Cicatrice",
+              "Musclé"
             ]
           }
         },
@@ -2455,7 +2493,8 @@
             "physique": [
               "Humain",
               "Masculin",
-              "Jeune"
+              "Jeune",
+              "Musclé"
             ]
           }
         },
@@ -2487,7 +2526,8 @@
               "Humain",
               "Masculin",
               "Mature",
-              "Cicatrice"
+              "Cicatrice",
+              "Musclé"
             ]
           }
         },
@@ -2584,7 +2624,8 @@
               "Masculin",
               "Mature",
               "Couvre-chef",
-              "Barbe"
+              "Barbe",
+              "Musclé"
             ]
           }
         },
@@ -2843,7 +2884,8 @@
               "Humain",
               "Masculin",
               "Mature",
-              "Barbe"
+              "Barbe",
+              "Musclé"
             ]
           }
         },
@@ -3063,7 +3105,8 @@
               "Masculin",
               "Jeune",
               "Grande taille",
-              "Cheveux longs"
+              "Cheveux longs",
+              "Musclé"
             ]
           }
         },
@@ -3183,7 +3226,8 @@
               "Peureux",
               "Gourmand",
               "Arrogant",
-              "Cruel"
+              "Cruel",
+              "Alcoolique"
             ],
             "physique": [
               "Humain",
