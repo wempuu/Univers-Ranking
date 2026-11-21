@@ -1516,12 +1516,12 @@
         {
           "name": "Tashigi",
           "group": "marine",
-          "image": "images/personnages/one-piece/tashigi.jpg",
+          "image": "images/personnages/one-piece/tashigi.jpg?v=1795248639740",
           "imageSource": "images/personnages/one-piece/originaux/tashigi.jpg",
           "imageCrop": {
-            "x": 0.17936,
+            "x": 0.27106,
             "y": 0,
-            "w": 0.4
+            "w": 0.34364
           },
           "tags": {}
         },
