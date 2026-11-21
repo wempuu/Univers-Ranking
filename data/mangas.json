@@ -21,10 +21,6 @@
       "label": "Caractère",
       "values": []
     },
-    "univers": {
-      "label": "Univers",
-      "values": []
-    },
     "physique": {
       "label": "Physique",
       "values": []
@@ -68,8 +64,7 @@
               "Protagoniste",
               "Criminel",
               "Hero",
-              "Leader",
-              "Pirate"
+              "Leader"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -114,10 +109,6 @@
               "Serieux",
               "Mauvais sens de l'orientation"
             ],
-            "univers": [
-              "Haki des rois",
-              "Pirate"
-            ],
             "physique": [
               "Humain",
               "Jeune",
@@ -155,9 +146,6 @@
               "Jeune",
               "Humain",
               "Feminin"
-            ],
-            "univers": [
-              "Pirate"
             ]
           }
         },
@@ -184,10 +172,6 @@
               "Drole",
               "Peureux",
               "Intelligent"
-            ],
-            "univers": [
-              "Pirate",
-              "Haki"
             ],
             "physique": [
               "Humain",
@@ -219,10 +203,6 @@
             "caractere": [
               "Triste",
               "Serieux"
-            ],
-            "univers": [
-              "Haki des rois",
-              "Pirate"
             ],
             "physique": [
               "Humain",
@@ -257,10 +237,6 @@
               "Petite taille",
               "enfant"
             ],
-            "univers": [
-              "Pirate",
-              "Zoan"
-            ],
             "caractere": [
               "Peureux"
             ]
@@ -289,10 +265,6 @@
             "caractere": [
               "Humeur noir",
               "Intelligent"
-            ],
-            "univers": [
-              "Paramécia",
-              "Pirate"
             ],
             "physique": [
               "Mature",
@@ -330,9 +302,6 @@
               "Cyborg",
               "Grande taille",
               "Mature"
-            ],
-            "univers": [
-              "Pirate"
             ]
           }
         },
@@ -358,9 +327,6 @@
             "caractere": [
               "Drole",
               "Perver"
-            ],
-            "univers": [
-              "Pirate"
             ],
             "physique": [
               "Vieux",
