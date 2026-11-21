@@ -1586,12 +1586,12 @@
         {
           "name": "Magellan",
           "group": "marine",
-          "image": "images/personnages/one-piece/magellan.jpg",
+          "image": "images/personnages/one-piece/magellan.jpg?v=1795249314152",
           "imageSource": "images/personnages/one-piece/originaux/magellan.jpg",
           "imageCrop": {
-            "x": 0.32547,
-            "y": 0,
-            "w": 0.35
+            "x": 0.36585,
+            "y": 0.03002,
+            "w": 0.27701
           },
           "tags": {
             "role": [
