@@ -752,10 +752,6 @@
               "Criminel",
               "Navigateur"
             ],
-            "style-de-combat": [
-              "Combat à mains nues",
-              "Combat aux jambes"
-            ],
             "caractere": [
               "Peureux",
               "Gentil",
@@ -765,6 +761,9 @@
               "Animal",
               "Masculin",
               "Grande taille"
+            ],
+            "style-de-combat": [
+              "Art martial"
             ]
           }
         },
