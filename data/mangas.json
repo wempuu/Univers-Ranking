@@ -988,12 +988,12 @@
         {
           "name": "Charlotte Katakuri",
           "group": "pirates",
-          "image": "images/personnages/one-piece/charlotte-katakuri.jpg",
+          "image": "images/personnages/one-piece/charlotte-katakuri.jpg?v=1795248384358",
           "imageSource": "images/personnages/one-piece/originaux/charlotte-katakuri.jpg",
           "imageCrop": {
-            "x": 0.67,
-            "y": 0.02246,
-            "w": 0.15
+            "x": 0.71217,
+            "y": 0,
+            "w": 0.14993
           },
           "tags": {
             "role": [
