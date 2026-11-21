@@ -1617,12 +1617,12 @@
         {
           "name": "Monkey D. Dragon",
           "group": "revolutionnaires",
-          "image": "images/personnages/one-piece/monkey-d-dragon.jpg",
+          "image": "images/personnages/one-piece/monkey-d-dragon.jpg?v=1795249331950",
           "imageSource": "images/personnages/one-piece/originaux/monkey-d-dragon.jpg",
           "imageCrop": {
-            "x": 0.05011,
-            "y": 0.16867,
-            "w": 0.9
+            "x": 0,
+            "y": 0.1384,
+            "w": 1
           },
           "tags": {
             "role": [
