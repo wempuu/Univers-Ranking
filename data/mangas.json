@@ -937,12 +937,12 @@
         {
           "name": "Hody Jones",
           "group": "pirates",
-          "image": "images/personnages/one-piece/hody-jones.jpg",
+          "image": "images/personnages/one-piece/hody-jones.jpg?v=1795247537992",
           "imageSource": "images/personnages/one-piece/originaux/hody-jones.jpg",
           "imageCrop": {
-            "x": 0.38004,
-            "y": 0,
-            "w": 0.25
+            "x": 0.47582,
+            "y": 0.03881,
+            "w": 0.19084
           },
           "tags": {
             "role": [
