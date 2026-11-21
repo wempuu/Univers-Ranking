@@ -918,12 +918,12 @@
         {
           "name": "Zeff",
           "group": "pirates",
-          "image": "images/personnages/one-piece/zeff.jpg",
+          "image": "images/personnages/one-piece/zeff.jpg?v=1795249104899",
           "imageSource": "images/personnages/one-piece/originaux/zeff.jpg",
           "imageCrop": {
-            "x": 0.61188,
-            "y": 0.14877,
-            "w": 0.22
+            "x": 0.64691,
+            "y": 0.14556,
+            "w": 0.21978
           },
           "tags": {
             "role": [
