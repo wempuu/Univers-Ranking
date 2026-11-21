@@ -791,12 +791,12 @@
         {
           "name": "Jewelry Bonney",
           "group": "pirates",
-          "image": "images/personnages/one-piece/jewelry-bonney.jpg",
+          "image": "images/personnages/one-piece/jewelry-bonney.jpg?v=1795249050803",
           "imageSource": "images/personnages/one-piece/originaux/jewelry-bonney.jpg",
           "imageCrop": {
-            "x": 0.003,
-            "y": 0.21491,
-            "w": 0.65
+            "x": 0.00805,
+            "y": 0.18327,
+            "w": 0.80645
           },
           "tags": {
             "role": [
