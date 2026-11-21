@@ -617,12 +617,12 @@
         {
           "name": "Queen",
           "group": "pirates",
-          "image": "images/personnages/one-piece/queen.jpg",
+          "image": "images/personnages/one-piece/queen.jpg?v=1795248974111",
           "imageSource": "images/personnages/one-piece/originaux/queen.jpg",
           "imageCrop": {
-            "x": 0.2005,
+            "x": 0.27998,
             "y": 0,
-            "w": 0.5
+            "w": 0.33333
           },
           "tags": {
             "role": [
