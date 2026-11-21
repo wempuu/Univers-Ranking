@@ -246,7 +246,9 @@
               "enfant"
             ],
             "caractere": [
-              "Peureux"
+              "Peureux",
+              "Naif",
+              "Intelligent"
             ]
           }
         },
