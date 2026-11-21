@@ -513,12 +513,12 @@
         {
           "name": "Marshall D. Teach (Barbe Noire)",
           "group": "pirates",
-          "image": "images/personnages/one-piece/marshall-d-teach-barbe-noire.jpg",
+          "image": "images/personnages/one-piece/marshall-d-teach-barbe-noire.jpg?v=1795248267753",
           "imageSource": "images/personnages/one-piece/originaux/marshall-d-teach-barbe-noire.jpg",
           "imageCrop": {
-            "x": 0.21,
-            "y": 0.04376,
-            "w": 0.28
+            "x": 0.28595,
+            "y": 0.05534,
+            "w": 0.22011
           },
           "tags": {
             "role": [
