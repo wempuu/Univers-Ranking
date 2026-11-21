@@ -1028,12 +1028,12 @@
         {
           "name": "Charlotte Perospero",
           "group": "pirates",
-          "image": "images/personnages/one-piece/charlotte-perospero.jpg",
+          "image": "images/personnages/one-piece/charlotte-perospero.jpg?v=1795248604946",
           "imageSource": "images/personnages/one-piece/originaux/charlotte-perospero.jpg",
           "imageCrop": {
-            "x": 0.32519,
-            "y": 0.46424,
-            "w": 0.55
+            "x": 0.11946,
+            "y": 0.40501,
+            "w": 0.80645
           },
           "tags": {
             "role": [
