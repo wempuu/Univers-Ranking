@@ -932,7 +932,6 @@
             ],
             "caractere": [
               "Libre",
-              "Courageux",
               "Loyal",
               "Joyeux"
             ],
@@ -969,7 +968,6 @@
             "caractere": [
               "Froid",
               "Loyal",
-              "Fier",
               "Cruel"
             ],
             "physique": [
@@ -1105,7 +1103,6 @@
             ],
             "caractere": [
               "Arrogant",
-              "Fier",
               "Romantique"
             ],
             "physique": [
@@ -1137,7 +1134,6 @@
             ],
             "caractere": [
               "Calme",
-              "Fier",
               "Solitaire",
               "Alcoolique"
             ],
@@ -1629,7 +1625,6 @@
               "Corps malléable"
             ],
             "caractere": [
-              "Fier",
               "Loyal",
               "Calme",
               "Honorable"
@@ -1756,7 +1751,6 @@
               "Invocation"
             ],
             "caractere": [
-              "Fier",
               "Arrogant"
             ],
             "physique": [
@@ -1786,7 +1780,6 @@
             ],
             "caractere": [
               "Arrogant",
-              "Fier",
               "Loyal"
             ],
             "physique": [
@@ -2058,8 +2051,7 @@
             ],
             "caractere": [
               "Cruel",
-              "Arrogant",
-              "Fier"
+              "Arrogant"
             ],
             "physique": [
               "Masculin",
@@ -2393,7 +2385,6 @@
             ],
             "caractere": [
               "Drole",
-              "Courageux",
               "Libre"
             ],
             "physique": [
@@ -2424,7 +2415,6 @@
               "Combat à mains nues"
             ],
             "caractere": [
-              "Courageux",
               "Gentil"
             ],
             "physique": [
@@ -2488,7 +2478,6 @@
             ],
             "caractere": [
               "Serieux",
-              "Courageux",
               "Maladroit"
             ],
             "physique": [
@@ -2550,8 +2539,7 @@
             ],
             "caractere": [
               "Froid",
-              "Cruel",
-              "Fier"
+              "Cruel"
             ],
             "physique": [
               "Masculin",
@@ -2679,7 +2667,6 @@
             ],
             "caractere": [
               "Loyal",
-              "Courageux",
               "Calme"
             ],
             "physique": [
@@ -2772,7 +2759,6 @@
               "Arme tranchante"
             ],
             "caractere": [
-              "Courageux",
               "Gentil",
               "Protecteur"
             ],
@@ -2804,7 +2790,6 @@
             ],
             "caractere": [
               "Libre",
-              "Courageux",
               "Impulsif",
               "Charismatique"
             ],
@@ -2836,7 +2821,6 @@
               "Transformation"
             ],
             "caractere": [
-              "Courageux",
               "Naif"
             ],
             "physique": [
@@ -2927,7 +2911,6 @@
             ],
             "caractere": [
               "Joyeux",
-              "Courageux",
               "Gourmand"
             ],
             "physique": [
@@ -2959,7 +2942,6 @@
             ],
             "caractere": [
               "Loyal",
-              "Courageux",
               "Honorable"
             ],
             "physique": [
@@ -3051,8 +3033,7 @@
               "Épéiste"
             ],
             "caractere": [
-              "Gentil",
-              "Courageux"
+              "Gentil"
             ],
             "physique": [
               "Feminin",
@@ -3081,8 +3062,7 @@
             ],
             "caractere": [
               "Gentil",
-              "Excentrique",
-              "Courageux"
+              "Excentrique"
             ],
             "physique": [
               "Masculin",
