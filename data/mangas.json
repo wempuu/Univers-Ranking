@@ -590,7 +590,7 @@
               "Légende"
             ],
             "style-de-combat": [
-              "Arme d'hast",
+              "Arme tranchante",
               "Séismes"
             ],
             "caractere": [
@@ -1533,7 +1533,7 @@
             ],
             "style-de-combat": [
               "Combat à mains nues",
-              "Arme d'hast"
+              "Arme perçante"
             ],
             "caractere": [
               "Cruel",
@@ -1565,7 +1565,7 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Arme d'hast"
+              "Arme tranchante"
             ],
             "caractere": [
               "Naif",
@@ -1631,7 +1631,7 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Arme d'hast",
+              "Arme perçante",
               "Corps malléable"
             ],
             "caractere": [
@@ -2798,7 +2798,7 @@
               "Royauté"
             ],
             "style-de-combat": [
-              "Armes de jet"
+              "Arme tranchante"
             ],
             "caractere": [
               "Courageux",
