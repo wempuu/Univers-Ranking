@@ -1318,12 +1318,12 @@
         {
           "name": "Saint Rimoshifu Killingham",
           "group": "marine",
-          "image": "images/personnages/one-piece/saint-rimoshifu-killingham.jpg",
+          "image": "images/personnages/one-piece/saint-rimoshifu-killingham.jpg?v=1795249200371",
           "imageSource": "images/personnages/one-piece/originaux/saint-rimoshifu-killingham.jpg",
           "imageCrop": {
-            "x": 0.41906,
-            "y": 0.29894,
-            "w": 0.324
+            "x": 0.38456,
+            "y": 0.24085,
+            "w": 0.41742
           },
           "tags": {}
         },
