@@ -1458,12 +1458,12 @@
         {
           "name": "Monkey D. Garp",
           "group": "marine",
-          "image": "images/personnages/one-piece/monkey-d-garp.jpg",
+          "image": "images/personnages/one-piece/monkey-d-garp.jpg?v=1795248665396",
           "imageSource": "images/personnages/one-piece/originaux/monkey-d-garp.jpg",
           "imageCrop": {
-            "x": 0.24526,
-            "y": 0.19153,
-            "w": 0.25
+            "x": 0.24322,
+            "y": 0.17935,
+            "w": 0.19768
           },
           "tags": {
             "role": [
