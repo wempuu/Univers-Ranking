@@ -1603,18 +1603,6 @@
           }
         },
         {
-          "name": "Morgan",
-          "group": "marine",
-          "image": "images/personnages/one-piece/morgan.jpg",
-          "imageSource": "images/personnages/one-piece/originaux/morgan.jpg",
-          "imageCrop": {
-            "x": 0.29483,
-            "y": 0.00155,
-            "w": 0.35
-          },
-          "tags": {}
-        },
-        {
           "name": "Monkey D. Dragon",
           "group": "revolutionnaires",
           "image": "images/personnages/one-piece/monkey-d-dragon.jpg?v=1795249331950",
