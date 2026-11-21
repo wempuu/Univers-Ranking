@@ -390,3 +390,10 @@ footer { text-align: center; color: var(--muted); padding: 24px 0 40px; font-siz
 .search-bar input::placeholder { color: var(--muted); }
 .search-count { white-space: nowrap; }
 .search-empty { margin: -8px 0 24px; }
+.search-bar input::-webkit-search-cancel-button { display: none; }
+.search-clear {
+  flex-shrink: 0; width: 30px; height: 30px; border-radius: 50%;
+  border: 0; background: #2c2f5c; color: var(--text); font: inherit; font-size: .85rem;
+  cursor: pointer; display: grid; place-items: center;
+}
+.search-clear:hover { background: var(--accent); }

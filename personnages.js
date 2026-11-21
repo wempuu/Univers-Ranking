@@ -36,10 +36,10 @@
     return;
   }
 
-  // Barre de recherche : nom du personnage ou un de ses tags (ex. « épéiste », « antagoniste »)
+  // Barre de recherche : nom du personnage
   const sections = []; // { title, list }
   const search = createSearchBar({
-    placeholder: "Rechercher un personnage ou un tag (ex. épéiste)…",
+    placeholder: "Rechercher un personnage…",
     onSearch: (query) => {
       let shown = 0;
       sections.forEach(({ title, list }) => {
@@ -78,8 +78,7 @@
     sections.push({ title: h2, list });
     group.characters.forEach((perso) => {
       const li = document.createElement("li");
-      const tagValues = Object.values(perso.tags || {}).flat();
-      li.dataset.search = searchText([perso.name, ...tagValues]);
+      li.dataset.search = searchText([perso.name]);
       const a = document.createElement("a");
       a.href = `personnage.html?manga=${encodeURIComponent(slug)}&perso=${encodeURIComponent(slugify(perso.name))}`;
       a.appendChild(persoAvatar(perso));

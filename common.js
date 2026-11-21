@@ -88,14 +88,20 @@ function createSearchBar({ placeholder, onSearch }) {
   wrap.innerHTML = `
     <span class="search-icon" aria-hidden="true">🔍</span>
     <input type="search" autocomplete="off" spellcheck="false">
-    <span class="search-count muted-small" aria-live="polite"></span>`;
+    <span class="search-count muted-small" aria-live="polite"></span>
+    <button type="button" class="search-clear" title="Effacer la recherche" aria-label="Effacer la recherche" hidden>✕</button>`;
   const input = wrap.querySelector("input");
+  const clearBtn = wrap.querySelector(".search-clear");
   input.placeholder = placeholder;
   input.setAttribute("aria-label", placeholder);
-  input.addEventListener("input", () => onSearch(normalizeSearch(input.value)));
-  input.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") { input.value = ""; onSearch(""); }
-  });
+  const run = () => {
+    clearBtn.hidden = input.value === "";
+    onSearch(normalizeSearch(input.value));
+  };
+  const clear = () => { input.value = ""; run(); input.focus(); };
+  input.addEventListener("input", run);
+  input.addEventListener("keydown", (e) => { if (e.key === "Escape") clear(); });
+  clearBtn.addEventListener("click", clear);
   document.addEventListener("keydown", (e) => {
     if (e.key === "/" && !/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName)) {
       e.preventDefault();
