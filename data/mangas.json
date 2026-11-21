@@ -1438,12 +1438,12 @@
         {
           "name": "Sengoku",
           "group": "marine",
-          "image": "images/personnages/one-piece/sengoku.jpg",
+          "image": "images/personnages/one-piece/sengoku.jpg?v=1795249222128",
           "imageSource": "images/personnages/one-piece/originaux/sengoku.jpg",
           "imageCrop": {
-            "x": 0.31051,
+            "x": 0.41931,
             "y": 0,
-            "w": 0.4
+            "w": 0.30864
           },
           "tags": {
             "role": [
