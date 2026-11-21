@@ -1418,12 +1418,12 @@
         {
           "name": "Issho (Fujitora)",
           "group": "marine",
-          "image": "images/personnages/one-piece/issho-fujitora.jpg",
+          "image": "images/personnages/one-piece/issho-fujitora.jpg?v=1795248706794",
           "imageSource": "images/personnages/one-piece/originaux/issho-fujitora.jpg",
           "imageCrop": {
-            "x": 0.10071,
-            "y": 0,
-            "w": 0.7
+            "x": 0.04427,
+            "y": 0.01591,
+            "w": 0.83333
           },
           "tags": {
             "role": [
