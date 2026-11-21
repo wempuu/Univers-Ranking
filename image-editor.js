@@ -135,8 +135,12 @@ function openImageEditor({ title, current, onSave, onRemove }) {
   fileInput.addEventListener("change", () => loadFile(fileInput.files[0]));
   $m('[data-r="cancel"]').addEventListener("click", () => { if (!busy) close(); });
   overlay.addEventListener("click", (e) => { if (e.target === overlay && !busy) close(); });
-  $m('[data-r="remove"]').addEventListener("click", () => {
-    if (!confirm("Retirer l'image de ce personnage ? (ses initiales s'afficheront à la place)")) return;
+  $m('[data-r="remove"]').addEventListener("click", async () => {
+    // la fenêtre de confirmation s'ouvre par-dessus ; on masque le recadrage le temps de répondre
+    overlay.hidden = true;
+    const ok = await askConfirm("Retirer l'image de ce personnage ? (ses initiales s'afficheront à la place)", { okLabel: "Retirer", danger: true });
+    overlay.hidden = false;
+    if (!ok) return;
     onRemove();
     close();
   });

@@ -228,7 +228,7 @@ function createGitHubPanel({ mount, getData, onData }) {
   }
 
   async function reload() {
-    if (s.dirty && !confirm("Recharger effacera tes modifications non publiées. Continuer ?")) return;
+    if (s.dirty && !(await askConfirm("Recharger effacera tes modifications non publiées. Continuer ?", { okLabel: "Recharger", danger: true }))) return;
     try {
       if (s.token) {
         const msg = await loadRemote();
@@ -245,7 +245,7 @@ function createGitHubPanel({ mount, getData, onData }) {
   }
 
   async function switchBranch(name) {
-    if (s.dirty && !confirm("Changer de branche effacera tes modifications non publiées. Continuer ?")) {
+    if (s.dirty && !(await askConfirm("Changer de branche effacera tes modifications non publiées. Continuer ?", { okLabel: "Changer de branche", danger: true }))) {
       el("branch").value = s.branch;
       return;
     }
@@ -264,7 +264,7 @@ function createGitHubPanel({ mount, getData, onData }) {
 
   // Crée une branche à partir de la branche actuelle et bascule dessus en gardant les modifications en cours
   async function createBranch() {
-    const raw = prompt(`Nom de la nouvelle branche (créée à partir de « ${s.branch} ») :`);
+    const raw = await askText(`Nom de la nouvelle branche (créée à partir de « ${s.branch} ») :`, "", "Créer la branche");
     if (raw === null) return;
     const name = raw.trim().replace(/\s+/g, "-");
     if (!/^[A-Za-z0-9._\/-]+$/.test(name) || name.startsWith("/") || name.endsWith("/") || name.includes("..")) {
@@ -319,7 +319,7 @@ function createGitHubPanel({ mount, getData, onData }) {
     e.preventDefault();
     const value = el("token").value.trim();
     if (!value) return;
-    if (s.dirty && !confirm("Se connecter recharge la dernière version publiée et efface tes modifications non publiées. Continuer ?")) return;
+    if (s.dirty && !(await askConfirm("Se connecter recharge la dernière version publiée et efface tes modifications non publiées. Continuer ?", { okLabel: "Se connecter", danger: true }))) return;
     setStatus("Vérification du jeton…");
     try {
       await connect(value);

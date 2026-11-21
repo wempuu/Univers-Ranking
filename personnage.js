@@ -231,8 +231,8 @@ function parseValues(text) {
   return out;
 }
 
-function newCategory() {
-  const label = (prompt("Nom de la nouvelle catégorie de tags (ex. « Rôle », « Espèce ») :") || "").trim();
+async function newCategory() {
+  const label = ((await askText("Nom de la nouvelle catégorie de tags (ex. « Rôle », « Espèce ») :", "", "Suivant")) || "").trim();
   if (!label) return;
   const slug = slugify(label);
   if (!slug) return;
@@ -240,39 +240,40 @@ function newCategory() {
     panel.setStatus(`La catégorie « ${data.tags[slug].label} » existe déjà.`, "err");
     return;
   }
-  const values = parseValues(prompt(`Valeurs proposées pour « ${label} », séparées par des virgules (tu pourras en ajouter d'autres plus tard) :`) || "");
+  const values = parseValues((await askText(`Valeurs proposées pour « ${label} », séparées par des virgules (tu pourras en ajouter d'autres plus tard) :`, "", "Créer la catégorie")) || "");
   data.tags[slug] = { label, values };
   panel.markDirty();
   render();
 }
 
-function renameCategory(slug) {
+async function renameCategory(slug) {
   const tag = data.tags[slug];
-  const label = (prompt("Nouveau nom de la catégorie :", tag.label) || "").trim();
+  const label = ((await askText("Nouveau nom de la catégorie :", tag.label, "Renommer")) || "").trim();
   if (!label || label === tag.label) return;
   tag.label = label; // l'identifiant (slug) ne change pas, les tags des personnages restent liés
   panel.markDirty();
   render();
 }
 
-function editCategoryValues(slug) {
+async function editCategoryValues(slug) {
   const tag = data.tags[slug];
-  const text = prompt(
+  const text = await askText(
     `Valeurs proposées pour « ${tag.label} », séparées par des virgules.\n` +
     "(Retirer une valeur ici ne l'enlève pas des personnages qui l'ont déjà.)",
-    (tag.values || []).join(", "));
+    (tag.values || []).join(", "), "Enregistrer");
   if (text === null) return;
   tag.values = parseValues(text);
   panel.markDirty();
   render();
 }
 
-function deleteCategory(slug) {
+async function deleteCategory(slug) {
   const tag = data.tags[slug];
   let count = 0;
   Object.values(data.mangas).forEach((m) => m.characters.forEach((c) => { if (c.tags && c.tags[slug]) count++; }));
-  if (!confirm(`Supprimer la catégorie « ${tag.label} » ?` +
-      (count ? `\nElle sera retirée des ${count} personnage(s) qui l'utilisent, dans tous les mangas.` : ""))) return;
+  if (!(await askConfirm(`Supprimer la catégorie « ${tag.label} » ?` +
+      (count ? `\nElle sera retirée des ${count} personnage(s) qui l'utilisent, dans tous les mangas.` : ""),
+      { okLabel: "Supprimer", danger: true }))) return;
   delete data.tags[slug];
   Object.values(data.mangas).forEach((m) => m.characters.forEach((c) => { if (c.tags) delete c.tags[slug]; }));
   panel.markDirty();
@@ -313,9 +314,9 @@ async function editImage() {
   });
 }
 
-function toggleEdit() {
+async function toggleEdit() {
   if (editing && panel && panel.isDirty() &&
-      !confirm("Fermer l'édition sans publier ? Tes modifications seront perdues.")) return;
+      !(await askConfirm("Fermer l'édition sans publier ? Tes modifications seront perdues.", { okLabel: "Fermer sans publier", danger: true }))) return;
   editing = !editing;
   $("editor").hidden = !editing;
   if (editing && !panel) {
@@ -326,6 +327,7 @@ function toggleEdit() {
     });
     panelReady = panel.start(); // recharge la dernière version (GitHub si connecté)
   } else if (!editing && panel && panel.isDirty()) {
+    panel.state.dirty = false; // évite une 2e alerte du navigateur
     location.reload(); // abandonne les modifications non publiées
     return;
   }

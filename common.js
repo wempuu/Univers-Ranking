@@ -73,6 +73,59 @@ function persoAvatar(perso, className = "avatar") {
   return div;
 }
 
+// ---------- Fenêtres de dialogue ----------
+// Remplacent confirm() et prompt() du navigateur, que certains navigateurs (ex. le navigateur
+// intégré de l'app Claude) bloquent en répondant « non » sans rien afficher.
+
+function openDialog({ message, input, defaultValue = "", okLabel = "OK", danger = false }) {
+  return new Promise((resolve) => {
+    const overlay = document.createElement("div");
+    overlay.className = "modal-overlay";
+    overlay.innerHTML = `
+      <form class="modal" role="dialog" aria-modal="true">
+        <p class="dialog-message"></p>
+        ${input ? '<input class="tool-input dialog-input" autocomplete="off">' : ""}
+        <div class="tool-bar modal-actions">
+          <button type="submit" class="btn"></button>
+          <button type="button" class="btn ghost" data-r="cancel">Annuler</button>
+        </div>
+      </form>`;
+    const form = overlay.querySelector("form");
+    overlay.querySelector(".dialog-message").textContent = message;
+    const ok = overlay.querySelector('button[type="submit"]');
+    ok.textContent = okLabel;
+    if (danger) ok.classList.add("danger");
+    const field = overlay.querySelector(".dialog-input");
+    if (field) field.value = defaultValue;
+
+    const done = (value) => {
+      overlay.remove();
+      document.removeEventListener("keydown", onKey, true);
+      resolve(value);
+    };
+    const cancel = () => done(input ? null : false);
+    const onKey = (e) => { if (e.key === "Escape") { e.preventDefault(); e.stopPropagation(); cancel(); } };
+    document.addEventListener("keydown", onKey, true);
+    form.addEventListener("submit", (e) => { e.preventDefault(); done(input ? field.value : true); });
+    overlay.querySelector('[data-r="cancel"]').addEventListener("click", cancel);
+    overlay.addEventListener("click", (e) => { if (e.target === overlay) cancel(); });
+
+    document.body.appendChild(overlay);
+    (field || ok).focus();
+    if (field) field.select();
+  });
+}
+
+// Oui / non : résout true ou false
+function askConfirm(message, { okLabel = "Confirmer", danger = false } = {}) {
+  return openDialog({ message, okLabel, danger });
+}
+
+// Texte : résout la saisie, ou null si annulé
+function askText(message, defaultValue = "", okLabel = "Valider") {
+  return openDialog({ message, input: true, defaultValue, okLabel });
+}
+
 // ---------- Recherche ----------
 
 // Texte comparable : minuscules, sans accents ni ponctuation ("Corazón" -> "corazon")

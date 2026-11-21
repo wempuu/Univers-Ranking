@@ -168,7 +168,7 @@ function setGroup(i, groupId) {
   render();
 }
 
-$("list").addEventListener("click", (e) => {
+$("list").addEventListener("click", async (e) => {
   const btn = e.target.closest("button[data-act]");
   if (!btn) return;
   const i = Number(btn.closest("li").dataset.index);
@@ -176,8 +176,10 @@ $("list").addEventListener("click", (e) => {
   if (act === "up") move(i, i - 1);
   if (act === "down") move(i, i + 1);
   if (act === "del") {
-    if (!confirm(`Supprimer « ${list()[i].name} » de la liste (avec ses tags) ?`)) return;
-    list().splice(i, 1);
+    const perso = list()[i];
+    if (!(await askConfirm(`Supprimer « ${perso.name} » de la liste (avec ses tags) ?`, { okLabel: "Supprimer", danger: true }))) return;
+    const at = list().indexOf(perso);
+    if (at !== -1) list().splice(at, 1);
     markDirty();
     render();
   }
@@ -255,9 +257,9 @@ $("manga").addEventListener("change", (e) => {
 });
 
 // Fermer l'édition : retour à la liste des personnages du manga affiché
-$("btn-close").addEventListener("click", () => {
+$("btn-close").addEventListener("click", async () => {
   if (panel.isDirty()) {
-    if (!confirm("Fermer l'édition sans publier ? Tes modifications seront perdues.")) return;
+    if (!(await askConfirm("Fermer l'édition sans publier ? Tes modifications seront perdues.", { okLabel: "Fermer sans publier", danger: true }))) return;
     panel.state.dirty = false; // évite une 2e alerte du navigateur en quittant la page
   }
   location.href = `personnages.html?manga=${encodeURIComponent(current)}`;
