@@ -1849,12 +1849,12 @@
         {
           "name": "Loki",
           "group": "autres",
-          "image": "images/personnages/one-piece/loki.jpg",
+          "image": "images/personnages/one-piece/loki.jpg?v=1795248689102",
           "imageSource": "images/personnages/one-piece/originaux/loki.jpg",
           "imageCrop": {
-            "x": 0.455,
-            "y": 0.62558,
-            "w": 0.15
+            "x": 0.40468,
+            "y": 0.49416,
+            "w": 0.20093
           },
           "tags": {
             "role": [
