@@ -1927,12 +1927,12 @@
         {
           "name": "Wapol",
           "group": "autres",
-          "image": "images/personnages/one-piece/wapol.jpg",
+          "image": "images/personnages/one-piece/wapol.jpg?v=1795247662250",
           "imageSource": "images/personnages/one-piece/originaux/wapol.jpg",
           "imageCrop": {
-            "x": 0.3,
-            "y": 0.10677,
-            "w": 0.4
+            "x": 0.24751,
+            "y": 0.13988,
+            "w": 0.50505
           },
           "tags": {}
         }
