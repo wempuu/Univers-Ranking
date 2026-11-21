@@ -108,9 +108,16 @@ function createSearchBar({ placeholder, onSearch }) {
   };
 }
 
-// Vrai si tous les mots de la recherche se trouvent dans le texte (déjà normalisé)
+// Texte de recherche d'un élément : plusieurs libellés (nom, tags…) normalisés et séparés,
+// pour qu'une recherche ne puisse pas déborder d'un libellé sur le suivant
+function searchText(labels) {
+  return labels.map(normalizeSearch).filter(Boolean).join(" | ");
+}
+
+// La recherche doit correspondre au DÉBUT d'un mot, et ses lettres et mots doivent se suivre dans l'ordre :
+// « on » trouve « One Piece » mais pas « Dragon Ball » ; « monkey d » trouve « Monkey D. Luffy ».
 function matchesSearch(haystack, query) {
-  return !query || query.split(" ").every((word) => haystack.includes(word));
+  return !query || (" " + haystack).includes(" " + query);
 }
 
 function emptyBlock(emoji, title, text) {

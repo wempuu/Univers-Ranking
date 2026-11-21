@@ -88,7 +88,7 @@ nav a.active { color: var(--text); background: var(--card); }
 /* Grille prête pour les futurs jeux : <div class="grid"><a class="card">…</a></div> */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 20px;
   padding: 8px 0 64px;
 }

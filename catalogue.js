@@ -1,11 +1,12 @@
-// Recherche dans le catalogue : filtre les cartes de manga (titre, auteur, infos affichées).
+// Recherche dans le catalogue : filtre les cartes de manga par leur titre.
 
 (() => {
   const cards = [...document.querySelectorAll(".card.manga")];
-  cards.forEach((card) => { card.dataset.search = normalizeSearch(card.textContent); });
+  // on ne cherche que dans le titre du manga
+  cards.forEach((card) => { card.dataset.search = searchText([card.querySelector("h3").textContent]); });
 
   const search = createSearchBar({
-    placeholder: "Rechercher un manga, un auteur…",
+    placeholder: "Rechercher un manga…",
     onSearch: (query) => {
       let shown = 0;
       cards.forEach((card) => {

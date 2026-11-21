@@ -79,7 +79,7 @@
     group.characters.forEach((perso) => {
       const li = document.createElement("li");
       const tagValues = Object.values(perso.tags || {}).flat();
-      li.dataset.search = normalizeSearch([perso.name, ...tagValues].join(" "));
+      li.dataset.search = searchText([perso.name, ...tagValues]);
       const a = document.createElement("a");
       a.href = `personnage.html?manga=${encodeURIComponent(slug)}&perso=${encodeURIComponent(slugify(perso.name))}`;
       a.appendChild(persoAvatar(perso));
