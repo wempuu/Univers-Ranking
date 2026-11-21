@@ -841,12 +841,12 @@
         {
           "name": "Perona",
           "group": "pirates",
-          "image": "images/personnages/one-piece/perona.jpg",
+          "image": "images/personnages/one-piece/perona.jpg?v=1795249071157",
           "imageSource": "images/personnages/one-piece/originaux/perona.jpg",
           "imageCrop": {
-            "x": 0.34026,
-            "y": 0.113,
-            "w": 0.36
+            "x": 0.47687,
+            "y": 0.14554,
+            "w": 0.21786
           },
           "tags": {
             "role": [
