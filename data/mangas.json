@@ -1528,12 +1528,12 @@
         {
           "name": "Dr. Vegapunk",
           "group": "marine",
-          "image": "images/personnages/one-piece/dr-vegapunk.jpg",
+          "image": "images/personnages/one-piece/dr-vegapunk.jpg?v=1795249252528",
           "imageSource": "images/personnages/one-piece/originaux/dr-vegapunk.jpg",
           "imageCrop": {
-            "x": 0.19965,
-            "y": 0.32856,
-            "w": 0.6
+            "x": 0,
+            "y": 0.22884,
+            "w": 1
           },
           "tags": {
             "role": [
