@@ -1770,12 +1770,12 @@
         {
           "name": "Uta",
           "group": "autres",
-          "image": "images/personnages/one-piece/uta.jpg",
+          "image": "images/personnages/one-piece/uta.jpg?v=1795248801609",
           "imageSource": "images/personnages/one-piece/originaux/uta.jpg",
           "imageCrop": {
-            "x": 0.56501,
-            "y": 0.08056,
-            "w": 0.22
+            "x": 0.58307,
+            "y": 0.04106,
+            "w": 0.25707
           },
           "tags": {
             "role": [
