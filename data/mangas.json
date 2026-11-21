@@ -822,12 +822,12 @@
         {
           "name": "Gecko Moria",
           "group": "pirates",
-          "image": "images/personnages/one-piece/gecko-moria.jpg",
+          "image": "images/personnages/one-piece/gecko-moria.jpg?v=1795248581896",
           "imageSource": "images/personnages/one-piece/originaux/gecko-moria.jpg",
           "imageCrop": {
-            "x": 0.515,
-            "y": 0.02801,
-            "w": 0.25
+            "x": 0.52926,
+            "y": 0,
+            "w": 0.31699
           },
           "tags": {
             "role": [
