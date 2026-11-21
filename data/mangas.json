@@ -56,12 +56,12 @@
         {
           "name": "Monkey D. Luffy",
           "group": "pirates",
-          "image": "images/personnages/one-piece/monkey-d-luffy.jpg",
+          "image": "images/personnages/one-piece/monkey-d-luffy.jpg?v=1795248207968",
           "imageSource": "images/personnages/one-piece/originaux/monkey-d-luffy.jpg",
           "imageCrop": {
-            "x": 0.24457,
+            "x": 0.27015,
             "y": 0,
-            "w": 0.45
+            "w": 0.43478
           },
           "tags": {
             "role": [
