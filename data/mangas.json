@@ -624,6 +624,7 @@
         {
           "name": "Bartholomew Kuma",
           "group": "pirates",
+          "image": "images/personnages/one-piece/bartholomew-kuma.jpg",
           "tags": {}
         },
         {
@@ -722,6 +723,7 @@
         {
           "name": "Edward Weevil",
           "group": "pirates",
+          "image": "images/personnages/one-piece/edward-weevil.jpg",
           "tags": {}
         },
         {
@@ -809,46 +811,55 @@
         {
           "name": "Bellamy",
           "group": "pirates",
+          "image": "images/personnages/one-piece/bellamy.jpg",
           "tags": {}
         },
         {
           "name": "Benn Beckman",
           "group": "pirates",
+          "image": "images/personnages/one-piece/benn-beckman.jpg",
           "tags": {}
         },
         {
           "name": "Lucky Roux",
           "group": "pirates",
+          "image": "images/personnages/one-piece/lucky-roux.jpg",
           "tags": {}
         },
         {
           "name": "Yasopp",
           "group": "pirates",
+          "image": "images/personnages/one-piece/yasopp.jpg",
           "tags": {}
         },
         {
           "name": "Shiryu",
           "group": "pirates",
+          "image": "images/personnages/one-piece/shiryu.jpg",
           "tags": {}
         },
         {
           "name": "Jesus Burgess",
           "group": "pirates",
+          "image": "images/personnages/one-piece/jesus-burgess.jpg",
           "tags": {}
         },
         {
           "name": "Jozu",
           "group": "pirates",
+          "image": "images/personnages/one-piece/jozu.jpg",
           "tags": {}
         },
         {
           "name": "Bepo",
           "group": "pirates",
+          "image": "images/personnages/one-piece/bepo.jpg",
           "tags": {}
         },
         {
           "name": "Killer",
           "group": "pirates",
+          "image": "images/personnages/one-piece/killer.jpg",
           "tags": {}
         },
         {
@@ -881,21 +892,25 @@
         {
           "name": "Saint Marcus Mars",
           "group": "marine",
+          "image": "images/personnages/one-piece/saint-marcus-mars.jpg",
           "tags": {}
         },
         {
           "name": "Saint Topman Warcury",
           "group": "marine",
+          "image": "images/personnages/one-piece/saint-topman-warcury.jpg",
           "tags": {}
         },
         {
           "name": "Saint Ethanbaron V. Nusjuro",
           "group": "marine",
+          "image": "images/personnages/one-piece/saint-ethanbaron-v-nusjuro.jpg",
           "tags": {}
         },
         {
           "name": "Saint Shepherd Ju Peter",
           "group": "marine",
+          "image": "images/personnages/one-piece/saint-shepherd-ju-peter.jpg",
           "tags": {}
         },
         {
@@ -906,21 +921,25 @@
         {
           "name": "Saint Figarland Shamrock",
           "group": "marine",
+          "image": "images/personnages/one-piece/saint-figarland-shamrock.jpg",
           "tags": {}
         },
         {
           "name": "Saint Shepherd Sommers",
           "group": "marine",
+          "image": "images/personnages/one-piece/saint-shepherd-sommers.jpg",
           "tags": {}
         },
         {
           "name": "Saint Rimoshifu Killingham",
           "group": "marine",
+          "image": "images/personnages/one-piece/saint-rimoshifu-killingham.jpg",
           "tags": {}
         },
         {
           "name": "Saint Manmayer Gunko",
           "group": "marine",
+          "image": "images/personnages/one-piece/saint-manmayer-gunko.jpg",
           "tags": {}
         },
         {
@@ -1046,6 +1065,7 @@
         {
           "name": "Tashigi",
           "group": "marine",
+          "image": "images/personnages/one-piece/tashigi.jpg",
           "tags": {}
         },
         {
@@ -1104,6 +1124,7 @@
         {
           "name": "Morgan",
           "group": "marine",
+          "image": "images/personnages/one-piece/morgan.jpg",
           "tags": {}
         },
         {
@@ -1323,6 +1344,7 @@
         {
           "name": "Wapol",
           "group": "autres",
+          "image": "images/personnages/one-piece/wapol.jpg",
           "tags": {}
         }
       ]

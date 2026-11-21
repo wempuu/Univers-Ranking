@@ -78,3 +78,27 @@ rocks-d-xebec.jpg <- File:Volume_114.png (couverture du tome 114, Rocks Pirates)
 shiki.jpg <- File:Volume_114.png (couverture du tome 114, Rocks Pirates)
 uta.jpg <- File:Uta_Manga_Infobox.png (illustration promotionnelle du film One Piece Film: Red, dessinée par Oda — exception demandée)
 imu.jpg <- File:Nerona_Imu_Manga_Infobox.png (case du manga en noir et blanc — exception demandée)
+
+bartholomew-kuma.jpg <- File:Kuma_Digitally_Colored_Manga.png
+edward-weevil.jpg <- File:Weevil_Digitally_Colored_Manga.png
+bellamy.jpg <- File:Bellamy_Digitally_Colored_Manga.png
+benn-beckman.jpg <- File:Beckman_Digitally_Colored_Manga.png
+lucky-roux.jpg <- File:Lucky_Roux's_Manga_Color_Scheme.png
+yasopp.jpg <- File:Yasopp_Digitally_Colored_Manga.png
+shiryu.jpg <- File:Shiryu_Digitally_Colored_Manga.png
+jesus-burgess.jpg <- File:Burgess_Digitally_Colored_Manga.png
+jozu.jpg <- File:Jozu_Digitally_Colored_Manga.png
+bepo.jpg <- File:Bepo_Digitally_Colored_Manga.png
+killer.jpg <- File:Killer_Digitally_Colored_Manga.png
+saint-marcus-mars.jpg <- File:Mars_Digitally_Colored_Manga.png
+saint-topman-warcury.jpg <- File:Warcury_Digitally_Colored_Manga.png
+saint-ethanbaron-v-nusjuro.jpg <- File:Nusjuro_Digitally_Colored_Manga.png
+saint-shepherd-ju-peter.jpg <- File:Peter_Digitally_Colored_Manga.png
+saint-figarland-shamrock.jpg <- File:Shamrock_Manga_Color_Scheme.png
+saint-shepherd-sommers.jpg <- File:Sommers_Manga_Color_Scheme.png
+saint-rimoshifu-killingham.jpg <- File:Killingham_Manga_Color_Scheme.png
+saint-manmayer-gunko.jpg <- File:Gunko_Manga_Color_Scheme.png
+tashigi.jpg <- File:Tashigi_Digitally_Colored_Manga.png
+morgan.jpg <- File:Morgan_Digitally_Colored_Manga.png
+wapol.jpg <- File:Wapol_Digitally_Colored_Manga_Post_Timeskip.png
+saint-figarland-garling : pas d'image (aucune image couleur tirée du manga trouvée)
