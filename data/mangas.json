@@ -1214,12 +1214,12 @@
         {
           "name": "Saint Jaygarcia Saturn",
           "group": "marine",
-          "image": "images/personnages/one-piece/saint-jaygarcia-saturn.jpg",
+          "image": "images/personnages/one-piece/saint-jaygarcia-saturn.jpg?v=1795247636088",
           "imageSource": "images/personnages/one-piece/originaux/saint-jaygarcia-saturn.jpg",
           "imageCrop": {
-            "x": 0.44534,
+            "x": 0.40365,
             "y": 0,
-            "w": 0.35
+            "w": 0.39216
           },
           "tags": {
             "role": [
