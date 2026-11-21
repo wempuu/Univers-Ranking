@@ -1547,12 +1547,12 @@
         {
           "name": "Rob Lucci",
           "group": "marine",
-          "image": "images/personnages/one-piece/rob-lucci.jpg",
+          "image": "images/personnages/one-piece/rob-lucci.jpg?v=1795249273130",
           "imageSource": "images/personnages/one-piece/originaux/rob-lucci.jpg",
           "imageCrop": {
-            "x": 0.055,
-            "y": 0.12855,
-            "w": 0.65
+            "x": 0,
+            "y": 0.074,
+            "w": 0.89286
           },
           "tags": {
             "role": [
