@@ -1694,12 +1694,12 @@
         {
           "name": "Nefertari Vivi",
           "group": "autres",
-          "image": "images/personnages/one-piece/nefertari-vivi.jpg",
+          "image": "images/personnages/one-piece/nefertari-vivi.jpg?v=1795248488421",
           "imageSource": "images/personnages/one-piece/originaux/nefertari-vivi.jpg",
           "imageCrop": {
-            "x": 0.14286,
-            "y": 0.0167,
-            "w": 0.6
+            "x": 0.09598,
+            "y": 0,
+            "w": 0.89286
           },
           "tags": {
             "role": [
