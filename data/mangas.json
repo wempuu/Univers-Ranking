@@ -1869,12 +1869,12 @@
         {
           "name": "Rebecca",
           "group": "autres",
-          "image": "images/personnages/one-piece/rebecca.jpg",
+          "image": "images/personnages/one-piece/rebecca.jpg?v=1795248742007",
           "imageSource": "images/personnages/one-piece/originaux/rebecca.jpg",
           "imageCrop": {
-            "x": 0.30026,
-            "y": 0,
-            "w": 0.3
+            "x": 0.35187,
+            "y": 0.00335,
+            "w": 0.3003
           },
           "tags": {
             "role": [
