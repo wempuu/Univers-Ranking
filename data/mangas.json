@@ -957,12 +957,12 @@
         {
           "name": "Edward Weevil",
           "group": "pirates",
-          "image": "images/personnages/one-piece/edward-weevil.jpg",
+          "image": "images/personnages/one-piece/edward-weevil.jpg?v=1795249135677",
           "imageSource": "images/personnages/one-piece/originaux/edward-weevil.jpg",
           "imageCrop": {
-            "x": 0.365,
-            "y": 0.15291,
-            "w": 0.25
+            "x": 0.34453,
+            "y": 0.16806,
+            "w": 0.23697
           },
           "tags": {}
         },
