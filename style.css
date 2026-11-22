@@ -583,7 +583,7 @@ body.fp-instant .fp-panel, body.fp-instant .reveal { transition: none !important
 .poster-label {
   position: absolute; left: 10px; top: 10px; z-index: 1; margin: 0;
   font-family: var(--display); font-weight: 700; text-transform: uppercase; font-size: .78rem; line-height: 1.05;
-  color: var(--on-accent); background: #e3f2ee; padding: 6px 8px;
+  color: var(--bg); background: var(--accent); padding: 6px 8px; /* étiquettes : fond couleur du site, texte gris du fond */
 }
 .poster-label b { display: block; font-size: 1.05rem; }
 .poster-vertical {
