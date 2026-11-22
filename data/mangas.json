@@ -1352,10 +1352,10 @@
               "Couvre-chef": 3
             },
             "role": {
-              "Leader": 3,
               "Médecin": 3,
               "Pirate": 2,
-              "Orphelin": 2
+              "Orphelin": 2,
+              "Leader": 2
             },
             "style-de-combat": {
               "Intelligence tactique": 2,
@@ -1651,9 +1651,9 @@
               "Démon": 3
             },
             "role": {
-              "Antagoniste": 3,
               "Empereur": 3,
-              "Pirate": 2
+              "Pirate": 2,
+              "Antagoniste": 2
             },
             "style-de-combat": {
               "Force brute": 2,
@@ -1931,10 +1931,10 @@
               "Cape": 3
             },
             "role": {
-              "Antagoniste": 3,
               "Roi / Reine": 3,
               "Pirate": 2,
-              "Marchand": 2
+              "Marchand": 2,
+              "Antagoniste": 2
             },
             "style-de-combat": {
               "Intelligence tactique": 2,
@@ -2104,13 +2104,13 @@
             "physique": {
               "Cicatrice": 3,
               "Cape": 2,
-              "Prothèse / Membre manquant": 3
+              "Prothèse / Membre manquant": 2
             },
             "role": {
-              "Antagoniste": 3,
               "Leader": 2,
               "Pirate": 2,
-              "Ennemi devenu allié": 2
+              "Ennemi devenu allié": 2,
+              "Antagoniste": 2
             },
             "style-de-combat": {
               "Intelligence tactique": 2,
@@ -2144,7 +2144,6 @@
               "Ennemi devenu allié"
             ],
             "style-de-combat": [
-              "Transformation",
               "Explosions"
             ],
             "caractere": [
@@ -2168,7 +2167,6 @@
               "Ennemi devenu allié": 2
             },
             "style-de-combat": {
-              "Transformation": 3,
               "Explosions": 3
             },
             "caractere": {
@@ -2494,10 +2492,10 @@
               "Peau colorée": 3
             },
             "role": {
-              "Antagoniste": 3,
               "Leader": 2,
               "Pirate": 2,
-              "Esclave / Opprimé": 2
+              "Esclave / Opprimé": 2,
+              "Antagoniste": 2
             },
             "style-de-combat": {
               "Combat à mains nues": 2
@@ -2547,7 +2545,7 @@
           "tagRarity": {
             "physique": {
               "Âgé": 2,
-              "Prothèse / Membre manquant": 3
+              "Prothèse / Membre manquant": 2
             },
             "role": {
               "Leader": 2,
@@ -2706,8 +2704,8 @@
               "Peau colorée": 3
             },
             "role": {
-              "Antagoniste": 3,
-              "Pirate": 2
+              "Pirate": 2,
+              "Antagoniste": 2
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
@@ -2816,10 +2814,10 @@
               "Cape": 2
             },
             "role": {
-              "Antagoniste": 3,
               "Roi / Reine": 3,
               "Empereur": 3,
-              "Pirate": 2
+              "Pirate": 2,
+              "Antagoniste": 2
             },
             "style-de-combat": {
               "Force brute": 3,
@@ -3246,9 +3244,9 @@
               "Yeux spéciaux": 3
             },
             "role": {
-              "Antagoniste": 3,
               "Leader": 2,
-              "Roi / Reine": 3
+              "Roi / Reine": 3,
+              "Antagoniste": 2
             },
             "style-de-combat": {
               "Pouvoir psychique": 3

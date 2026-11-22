@@ -10,8 +10,11 @@ const SIMILARITY = {
   // Points de correspondance : chaque tag commun aux deux persos rapporte ces points, selon sa catégorie
   matchPoints: { physique: 20, role: 20, "style-de-combat": 20, caractere: 20 },
   defaultMatchPoints: 20, // catégorie ajoutée plus tard sans barème
-  // Bonus de rareté d'un tag commun. La rareté retenue est la plus basse des deux persos
-  // (Feu ⭐⭐⭐ chez A et ⭐⭐⭐ chez B = +25 ; Feu ⭐⭐⭐ chez A et ⭐⭐ chez B = +10).
+  // Un tag commun ne compte que s'il a LA MÊME rareté chez les deux persos
+  // (Feu ⭐⭐⭐ chez A et ⭐⭐⭐ chez B : compté ; Feu ⭐⭐⭐ chez A et ⭐⭐ chez B : ignoré).
+  // Mettre false pour compter aussi les raretés différentes (la plus basse des deux est alors retenue).
+  requireSameRarity: true,
+  // Bonus de rareté d'un tag commun compté (Feu ⭐⭐⭐ chez les deux = +25)
   rarityBonus: { 1: 0, 2: 10, 3: 25 },
   // Condition obligatoire (toutes difficultés) : nombre minimum de tags communs ⭐⭐⭐ chez LES DEUX persos
   minSharedVeryRare: 1,
@@ -65,6 +68,7 @@ const Undercover = {
         if (bv === undefined) return;
         seen.add(n);
         const ra = tagRarity(a, cat, v), rb = tagRarity(b, cat, bv);
+        if (S.requireSameRarity && ra !== rb) return; // même tag mais rareté différente : pas compté
         const r = Math.min(ra, rb);
         match += S.matchPoints[cat] != null ? S.matchPoints[cat] : S.defaultMatchPoints;
         rarity += S.rarityBonus[r] || 0;
