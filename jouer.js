@@ -24,7 +24,7 @@ document.getElementById("form-create").addEventListener("submit", (e) => {
   const name = document.getElementById("pseudo-create").value.trim();
   if (!name) return;
   savePseudo(name);
-  location.href = `groupe.html?code=${newCode()}&hote=1`;
+  leavePage(`groupe.html?code=${newCode()}&hote=1`);
 });
 
 const codeInput = document.getElementById("join-code");
@@ -40,5 +40,5 @@ document.getElementById("form-join").addEventListener("submit", (e) => {
   if (code.length !== 6) { codeInput.setCustomValidity("Le code fait 6 caractères."); codeInput.reportValidity(); return; }
   codeInput.setCustomValidity("");
   savePseudo(name);
-  location.href = `groupe.html?code=${code}`;
+  leavePage(`groupe.html?code=${code}`);
 });

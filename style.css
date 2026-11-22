@@ -673,3 +673,30 @@ body.fp-instant .fp-panel, body.fp-instant .reveal { transition: none !important
 .play-page .lobby-card .btn { justify-self: start; }
 .play-page .tool-input { width: 100%; }
 .play-num { margin: 0; font-family: var(--display); font-weight: 700; font-size: 1.1rem; color: var(--accent); }
+
+/* ---------- Animations des boutons (anim.js) ---------- */
+.press-host { overflow: hidden; }
+.press-rel { position: relative; }
+.press-wave { position: absolute; inset: 0; background: currentColor; pointer-events: none; border-radius: inherit; }
+
+/* Volet de changement de page : orange puis noir, avec le logo */
+html::before, html::after {
+  content: ""; position: fixed; inset: 0; z-index: 1000; pointer-events: none;
+  clip-path: inset(100% 0 0 0);
+}
+html::before { background: var(--accent); }
+html::after {
+  content: "Univers Ranking"; background: var(--bg); color: var(--text);
+  display: grid; place-items: center;
+  font-family: var(--display); font-weight: 800; font-size: clamp(2rem, 7vw, 4rem); text-transform: uppercase; letter-spacing: .02em;
+}
+html.wipe-out::before { animation: wipe-cover .55s cubic-bezier(.77,0,.18,1) forwards; }
+html.wipe-out::after { animation: wipe-cover .55s .1s cubic-bezier(.77,0,.18,1) forwards; }
+html.wipe-in::before, html.wipe-in::after { clip-path: inset(0 0 0 0); }
+html.wipe-in.wipe-go::after { animation: wipe-uncover .7s cubic-bezier(.77,0,.18,1) forwards; }
+html.wipe-in.wipe-go::before { animation: wipe-uncover .7s .12s cubic-bezier(.77,0,.18,1) forwards; }
+@keyframes wipe-cover { from { clip-path: inset(100% 0 0 0); } to { clip-path: inset(0 0 0 0); } }
+@keyframes wipe-uncover { from { clip-path: inset(0 0 0 0); } to { clip-path: inset(0 0 100% 0); } }
+@media (prefers-reduced-motion: reduce) {
+  html::before, html::after { display: none; }
+}

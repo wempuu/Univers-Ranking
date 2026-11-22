@@ -339,7 +339,7 @@ $("btn-close").addEventListener("click", async (e) => {
   e.preventDefault();
   if (!(await askConfirm("Fermer l'outil sans publier ? Tes modifications seront perdues.", { okLabel: "Fermer sans publier", danger: true }))) return;
   panel.state.dirty = false;
-  location.href = "catalogue.html";
+  leavePage("catalogue.html");
 });
 
 cat = new URLSearchParams(location.search).get("categorie");

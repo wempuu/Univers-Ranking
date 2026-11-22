@@ -262,7 +262,7 @@ $("btn-close").addEventListener("click", async () => {
     if (!(await askConfirm("Fermer l'édition sans publier ? Tes modifications seront perdues.", { okLabel: "Fermer sans publier", danger: true }))) return;
     panel.state.dirty = false; // évite une 2e alerte du navigateur en quittant la page
   }
-  location.href = `personnages.html?manga=${encodeURIComponent(current)}`;
+  leavePage(`personnages.html?manga=${encodeURIComponent(current)}`);
 });
 
 panel.start();

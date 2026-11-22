@@ -585,7 +585,7 @@ $("btn-leave").addEventListener("click", async () => {
   const msg = isHost ? "Quitter va fermer le groupe pour tout le monde. Continuer ?" : "Quitter le groupe ?";
   if (!(await askConfirm(msg, { okLabel: "Quitter", danger: true }))) return;
   if (peer) peer.destroy();
-  location.href = "./";
+  leavePage("./");
 });
 
 $("btn-start").addEventListener("click", () => { if (isHost) startGame(); });
