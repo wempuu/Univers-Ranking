@@ -721,12 +721,7 @@ html.wipe-in.wipe-go::before { animation: wipe-uncover .7s .12s cubic-bezier(.77
 .c-small .poster-label { top: auto; bottom: 10px; }
 .c-side .poster-label { left: auto; right: 10px; }
 
-/* Collage Undercover : le dessin est montré en entier, avec une bande pour l'étiquette
-   (en haut pour Innocent / Imposteur, en bas pour Mr. White) : le texte ne cache jamais le perso.
-   Le fond de chaque cadre reprend celui du dessin. */
-.collage-game figure img { object-fit: contain; }
-.collage-game .c-main img, .collage-game .c-side img { padding-top: 46px; object-position: center bottom; }
-.collage-game .c-small img { padding-bottom: 46px; object-position: center top; }
-.collage-game .c-main { background: #fff; }
+/* Collage Undercover, image Imposteur : le dessin est montré en entier, collé sous une bande
+   de 30px ; l'étiquette (en haut à droite) tombe sur une zone vide du dessin et ne touche pas Luffy. */
 .collage-game .c-side { background: #f2f2f2; }
-.collage-game .c-small { background: #fbfbfb; }
+.collage-game .c-side img { object-fit: contain; padding-top: 30px; object-position: center top; }
