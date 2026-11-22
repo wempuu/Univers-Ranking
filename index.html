@@ -7,7 +7,7 @@
   <meta name="description" content="Mini-jeux pop culture : films, séries, jeux vidéo, mangas.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=25">
+  <link rel="stylesheet" href="style.css?v=26">
 </head>
 <body class="fp">
   <header class="wrap site">
@@ -41,10 +41,20 @@
           <h1 class="reveal" style="--d:2">Univers<br>Ranking</h1>
           <span class="rule reveal" style="--d:3"></span>
           <p class="reveal" style="--d:4">Des mini-jeux entre amis autour de la pop culture : mangas, films, séries, jeux vidéo… Choisis ton univers et affronte ta bande.</p>
-          <div class="fp-actions reveal" style="--d:5">
-            <button class="btn solid" type="button" data-go="1">Découvrir les jeux</button>
-            <a class="btn" href="catalogue.html">Le catalogue</a>
+          <div class="party-grid reveal" style="--d:5" id="party">
+            <form class="lobby-card" id="form-create">
+              <h3>Créer un groupe</h3>
+              <input class="tool-input" id="pseudo-create" placeholder="Ton pseudo" maxlength="24" autocomplete="nickname" required>
+              <button class="btn solid" type="submit">Créer</button>
+            </form>
+            <form class="lobby-card" id="form-join">
+              <h3>Rejoindre</h3>
+              <input class="tool-input" id="pseudo-join" placeholder="Ton pseudo" maxlength="24" autocomplete="nickname" required>
+              <input class="tool-input code-input" id="join-code" placeholder="CODE" maxlength="6" autocomplete="off" spellcheck="false" required>
+              <button class="btn" type="submit">Rejoindre</button>
+            </form>
           </div>
+          <a class="text-link reveal" style="--d:6" href="catalogue.html">Voir le catalogue →</a>
         </div>
       </div>
       <button class="scroll-hint" type="button" data-go="1">
@@ -69,18 +79,8 @@
             <li><span><b>Tout le monde vote</b> pour éliminer le joueur le plus suspect.</span></li>
             <li><span><b>Démasquez l'imposteur</b> : les innocents gagnent seulement s'il est éliminé.</span></li>
           </ol>
-          <div class="party-grid reveal" style="--d:5" id="party">
-            <form class="lobby-card" id="form-create">
-              <h3>Créer un groupe</h3>
-              <input class="tool-input" id="pseudo-create" placeholder="Ton pseudo" maxlength="24" autocomplete="nickname" required>
-              <button class="btn solid" type="submit">Créer</button>
-            </form>
-            <form class="lobby-card" id="form-join">
-              <h3>Rejoindre</h3>
-              <input class="tool-input" id="pseudo-join" placeholder="Ton pseudo" maxlength="24" autocomplete="nickname" required>
-              <input class="tool-input code-input" id="join-code" placeholder="CODE" maxlength="6" autocomplete="off" spellcheck="false" required>
-              <button class="btn" type="submit">Rejoindre</button>
-            </form>
+          <div class="fp-actions reveal" style="--d:5">
+            <button class="btn solid" type="button" data-go="0">Créer un groupe pour jouer</button>
           </div>
         </div>
         <div class="collage collage-game reveal" style="--d:2" aria-hidden="true">
@@ -103,6 +103,6 @@
     </div>
   </section>
 
-  <script src="accueil.js?v=25"></script>
+  <script src="accueil.js?v=26"></script>
 </body>
 </html>
