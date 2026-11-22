@@ -5311,7 +5311,265 @@
       "title": "Naruto",
       "cover": "images/catalogue/naruto.jpg",
       "groups": [],
-      "characters": []
+      "characters": [
+        {
+          "name": "Naruto Uzumaki",
+          "tags": {
+            "physique": [
+              "Couvre-chef",
+              "Cape",
+              "Yeux spéciaux"
+            ],
+            "role": [
+              "Protagoniste",
+              "Rival",
+              "Leader",
+              "Élève",
+              "Combattant",
+              "Gardien / Protecteur",
+              "Orphelin"
+            ],
+            "style-de-combat": [
+              "Force brute",
+              "Combat à mains nues",
+              "Invocation",
+              "Transformation",
+              "Contrôle du vent",
+              "Clones",
+              "Scellement"
+            ],
+            "caractere": [
+              "Joyeux",
+              "Courageux",
+              "Naïf",
+              "Loyal",
+              "Déterminé",
+              "Gourmand",
+              "Impulsif"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Couvre-chef": 2
+            },
+            "role": {
+              "Protagoniste": 3,
+              "Orphelin": 3,
+              "Rival": 2,
+              "Élève": 2,
+              "Combattant": 2
+            },
+            "style-de-combat": {
+              "Clones": 3,
+              "Transformation": 2,
+              "Contrôle du vent": 2,
+              "Invocation": 2
+            },
+            "caractere": {
+              "Déterminé": 3,
+              "Joyeux": 3,
+              "Impulsif": 2,
+              "Courageux": 2,
+              "Naïf": 2,
+              "Gourmand": 2,
+              "Loyal": 2
+            }
+          }
+        },
+        {
+          "name": "Sasuke Uchiha",
+          "tags": {
+            "physique": [
+              "Mince",
+              "Couvre-chef",
+              "Cape",
+              "Yeux spéciaux",
+              "Prothèse / Membre manquant"
+            ],
+            "role": [
+              "Antagoniste",
+              "Allié",
+              "Rival",
+              "Élève",
+              "Traître",
+              "Orphelin",
+              "Fugitif"
+            ],
+            "style-de-combat": [
+              "Épée",
+              "Téléportation",
+              "Illusion",
+              "Invocation",
+              "Contrôle du feu",
+              "Contrôle de la foudre",
+              "Prémonition"
+            ],
+            "caractere": [
+              "Sérieux",
+              "Arrogant",
+              "Intelligent",
+              "Déterminé",
+              "Solitaire",
+              "Vengeur",
+              "Froid"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Yeux spéciaux": 3,
+              "Prothèse / Membre manquant": 3,
+              "Cape": 2
+            },
+            "role": {
+              "Rival": 3,
+              "Fugitif": 3,
+              "Traître": 2,
+              "Orphelin": 2,
+              "Élève": 2,
+              "Antagoniste": 2
+            },
+            "style-de-combat": {
+              "Contrôle de la foudre": 3,
+              "Illusion": 3,
+              "Épée": 2,
+              "Contrôle du feu": 2,
+              "Prémonition": 2
+            },
+            "caractere": {
+              "Vengeur": 3,
+              "Froid": 3,
+              "Solitaire": 3,
+              "Arrogant": 2,
+              "Déterminé": 2,
+              "Sérieux": 2
+            }
+          }
+        },
+        {
+          "name": "Sakura Haruno",
+          "tags": {
+            "physique": [
+              "Femme",
+              "Mince",
+              "Cheveux colorés",
+              "Couvre-chef"
+            ],
+            "role": [
+              "Allié",
+              "Élève",
+              "Médecin",
+              "Combattant"
+            ],
+            "style-de-combat": [
+              "Force brute",
+              "Combat à mains nues",
+              "Invocation",
+              "Régénération"
+            ],
+            "caractere": [
+              "Colérique",
+              "Courageux",
+              "Intelligent",
+              "Loyal",
+              "Déterminé",
+              "Romantique"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Cheveux colorés": 3,
+              "Couvre-chef": 2
+            },
+            "role": {
+              "Médecin": 3,
+              "Allié": 2,
+              "Élève": 2
+            },
+            "style-de-combat": {
+              "Force brute": 3,
+              "Combat à mains nues": 3,
+              "Régénération": 2
+            },
+            "caractere": {
+              "Colérique": 3,
+              "Intelligent": 3,
+              "Romantique": 2,
+              "Déterminé": 2,
+              "Loyal": 2
+            }
+          }
+        },
+        {
+          "name": "Kakashi Hatake",
+          "tags": {
+            "physique": [
+              "Cheveux blancs",
+              "Cicatrice",
+              "Couvre-chef",
+              "Masque",
+              "Uniforme militaire",
+              "Yeux spéciaux"
+            ],
+            "role": [
+              "Allié",
+              "Leader",
+              "Mentor",
+              "Maître",
+              "Combattant",
+              "Soldat"
+            ],
+            "style-de-combat": [
+              "Intelligence tactique",
+              "Téléportation",
+              "Invocation",
+              "Contrôle de la foudre",
+              "Contrôle de l'espace",
+              "Prémonition"
+            ],
+            "caractere": [
+              "Calme",
+              "Intelligent",
+              "Loyal",
+              "Paresseux",
+              "Stratège",
+              "Mystérieux",
+              "Pervers"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Masque": 3,
+              "Cheveux blancs": 3,
+              "Yeux spéciaux": 2,
+              "Cicatrice": 2,
+              "Couvre-chef": 2,
+              "Uniforme militaire": 2
+            },
+            "role": {
+              "Mentor": 3,
+              "Maître": 2,
+              "Leader": 2,
+              "Soldat": 2
+            },
+            "style-de-combat": {
+              "Contrôle de la foudre": 3,
+              "Prémonition": 2,
+              "Invocation": 2,
+              "Téléportation": 2,
+              "Contrôle de l'espace": 2,
+              "Intelligence tactique": 2
+            },
+            "caractere": {
+              "Calme": 3,
+              "Pervers": 3,
+              "Paresseux": 2,
+              "Intelligent": 2,
+              "Mystérieux": 2,
+              "Stratège": 2
+            }
+          }
+        }
+      ]
     },
     "bleach": {
       "title": "Bleach",
