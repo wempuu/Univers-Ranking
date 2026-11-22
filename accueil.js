@@ -35,8 +35,8 @@
     });
     const shown = onFooter ? current - 1 : current;
     dots.forEach((d) => d.classList.toggle("on", Number(d.dataset.go) === shown));
-    // Le bouton « revenir en haut » n'apparaît que sur la page Undercover.
-    document.body.classList.toggle("fp-on-undercover", panels[current].id === "undercover");
+    // Le bouton « revenir en haut » n'apparaît que sur la page Undercover et au niveau du pied de page.
+    document.body.classList.toggle("fp-on-undercover", panels[current].id === "undercover" || onFooter);
     if (instant) requestAnimationFrame(() => requestAnimationFrame(() => document.body.classList.remove("fp-instant")));
   }
 

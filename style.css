@@ -764,4 +764,4 @@ html.wipe-in.wipe-go::before { animation: wipe-uncover .7s .12s cubic-bezier(.77
 .to-top span { width: 10px; height: 10px; border-left: 2px solid currentColor; border-top: 2px solid currentColor; transform: translateY(2px) rotate(45deg); }
 .to-top:hover { background: var(--accent); color: var(--on-accent); }
 .to-top { cursor: pointer; padding: 0; opacity: 0; transform: translateY(12px); pointer-events: none; }
-body.fp-on-undercover .to-top { opacity: 1; transform: none; pointer-events: auto; } /* seulement sur la page Undercover */
+body.fp-on-undercover .to-top { opacity: 1; transform: none; pointer-events: auto; } /* page Undercover et pied de page */
