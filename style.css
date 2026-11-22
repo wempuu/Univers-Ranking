@@ -752,3 +752,15 @@ html.wipe-in.wipe-go::before { animation: wipe-uncover .7s .12s cubic-bezier(.77
 @media (prefers-reduced-motion: reduce) {
   .fp-panel .collage figure { transform: none; transition: opacity .4s ease; }
 }
+
+/* Bouton en bas à droite, sur chaque page : revient tout en haut de l'accueil (ajouté par anim.js) */
+.to-top {
+  position: fixed; right: 20px; bottom: 20px; z-index: 30;
+  width: 42px; height: 42px; display: grid; place-items: center;
+  background: var(--card); border: 1px solid var(--accent); border-radius: var(--radius);
+  color: var(--accent); box-shadow: 0 6px 18px rgba(0,0,0,.45);
+  transition: background .2s, color .2s, opacity .4s, transform .4s;
+}
+.to-top span { width: 10px; height: 10px; border-left: 2px solid currentColor; border-top: 2px solid currentColor; transform: translateY(2px) rotate(45deg); }
+.to-top:hover { background: var(--accent); color: var(--on-accent); }
+body.fp-at-top .to-top { opacity: 0; transform: translateY(12px); pointer-events: none; }

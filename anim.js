@@ -92,4 +92,19 @@
     e.preventDefault();
     window.leavePage(url.href);
   });
+
+  // Bouton en bas à droite sur chaque page : revient tout en haut de l'accueil.
+  // (Sur l'accueil, accueil.js l'intercepte pour revenir à la première page plein écran.)
+  function addHomeButton() {
+    if (document.querySelector(".to-top")) return;
+    const a = document.createElement("a");
+    a.className = "to-top";
+    a.href = "./";
+    a.setAttribute("aria-label", "Revenir en haut de l'accueil");
+    a.title = "Revenir en haut de l'accueil";
+    a.innerHTML = '<span aria-hidden="true"></span>';
+    document.body.appendChild(a);
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", addHomeButton);
+  else addHomeButton();
 })();

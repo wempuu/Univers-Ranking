@@ -35,6 +35,8 @@
     });
     const shown = onFooter ? current - 1 : current;
     dots.forEach((d) => d.classList.toggle("on", Number(d.dataset.go) === shown));
+    // Le bouton « revenir en haut » (anim.js) est caché quand on est déjà sur la première page.
+    document.body.classList.toggle("fp-at-top", current === 0);
     if (instant) requestAnimationFrame(() => requestAnimationFrame(() => document.body.classList.remove("fp-instant")));
   }
 
@@ -102,6 +104,14 @@
   document.querySelectorAll("[data-go]").forEach((b) => {
     b.addEventListener("click", () => goTo(Number(b.dataset.go)));
   });
+
+  // Bouton « revenir en haut » (ajouté par anim.js) : ici on reste sur la page et on revient à
+  // la première page plein écran. En capture, pour passer avant le volet de changement de page.
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".to-top")) return;
+    e.preventDefault();
+    goTo(0);
+  }, true);
 
   function fromHash(instant) {
     const i = panels.findIndex((p) => "#" + p.id === location.hash);
