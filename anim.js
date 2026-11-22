@@ -1,6 +1,6 @@
 // Animations communes à toutes les pages (chargé dans <head>, après style.css) :
-// - clic sur n'importe quel bouton : petit enfoncement + balayage de couleur ;
-// - bouton qui mène à une autre page : volet orange puis noir qui recouvre l'écran,
+// - clic sur n'importe quel bouton ou lien : petit enfoncement + balayage de couleur ;
+// - bouton ou lien qui mène à une autre page du site : volet orange puis noir qui recouvre l'écran,
 //   et la page suivante se dévoile en le faisant remonter (comme le passage accueil → Undercover).
 (function () {
   const root = document.documentElement;
@@ -22,25 +22,40 @@
 
   // Départ vers une autre page avec le volet. Utilisable aussi depuis le code des pages.
   let leaving = false;
+  let gone = false;
+  window.addEventListener("pagehide", () => { gone = true; });
   window.leavePage = function (url) {
     if (reduced()) { location.href = url; return; }
     if (leaving) return;
     leaving = true;
     try { sessionStorage.setItem(KEY, "1"); } catch (e) {}
     root.classList.add("wipe-out");
-    setTimeout(() => { location.href = url; }, 650);
+    setTimeout(() => {
+      location.href = url;
+      // Départ annulé (ex. « Quitter la page ? » refusé) : on enlève le volet.
+      setTimeout(() => {
+        if (gone) return;
+        leaving = false;
+        root.classList.remove("wipe-out");
+        try { sessionStorage.removeItem(KEY); } catch (e) {}
+      }, 4000);
+    }, 650);
   };
   // Retour arrière (page restaurée depuis le cache) : on enlève le volet.
   window.addEventListener("pageshow", (e) => {
-    if (e.persisted) { leaving = false; root.classList.remove("wipe-out", "wipe-in", "wipe-go"); }
+    if (e.persisted) { leaving = false; gone = false; root.classList.remove("wipe-out", "wipe-in", "wipe-go"); }
   });
 
-  const BUTTONS = "button, .btn, [role='button'], input[type='submit'], input[type='button']";
+  // Tout ce qui se clique : boutons et liens (menu, logo, cartes des mangas, persos…),
+  // y compris ceux ajoutés plus tard ou créés par le JavaScript des pages (délégation sur document).
+  const BUTTONS = "a[href], button, .btn, [role='button'], input[type='submit'], input[type='button']";
 
   function press(el, e) {
     if (reduced() || el.disabled) return;
     if (el.animate) {
-      el.animate([{ scale: "1" }, { scale: "0.94" }, { scale: "1" }], { duration: 320, easing: "cubic-bezier(.2,.7,.2,1)" });
+      // Les grandes cartes s'enfoncent moins que les petits boutons
+      const s = el.offsetWidth > 260 ? "0.975" : "0.94";
+      el.animate([{ scale: "1" }, { scale: s }, { scale: "1" }], { duration: 320, easing: "cubic-bezier(.2,.7,.2,1)" });
     }
     if (el.tagName === "INPUT") return; // pas d'enfant possible
     const cs = getComputedStyle(el);
@@ -68,8 +83,8 @@
     if (!el) return;
     press(el, e);
 
-    // Bouton-lien vers une autre page du site : on joue le volet avant de partir.
-    if (el.tagName !== "A" || e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    // Lien vers une autre page du site : on joue le volet avant de partir.
+    if (el.tagName !== "A" || el.hasAttribute("download") || el.hasAttribute("data-no-wipe") || e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
     if (el.target && el.target !== "_self") return;
     const url = new URL(el.href, location.href);
     if (url.origin !== location.origin) return;
