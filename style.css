@@ -517,8 +517,8 @@ button.btn:disabled { opacity: .5; cursor: default; transform: none; }
 .tm-name { flex: 1; min-width: 0; }
 .tm-sub { margin: 8px 0 0; font-size: 1rem; }
 .chip-stars, .tm-stars { font-size: .7em; letter-spacing: -1px; opacity: .9; }
-.tm-item .tm-stars { margin-left: 6px; }
-.tm-rarity { display: flex; align-items: center; gap: 8px; margin: 4px 0 8px; }
+.tm-rarity-select { flex: 0 0 auto; font-size: .8rem; padding: 4px 6px; }
+.tm-rarity { margin: 4px 0 8px; }
 .tm-search { margin-top: 16px; }
 .tm-search .tool-bar { margin: 0 0 8px; }
 .tm-criteria { margin-bottom: 8px; }

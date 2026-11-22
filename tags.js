@@ -55,11 +55,15 @@ function render() {
   renderSearch();
 }
 
-// Rareté stockée dans data.tags[cat].rarity (1 Commun, 2 Rare, 3 Très rare)
-function rarityMap(slug) {
-  const t = data.tags[slug];
-  if (!t.rarity) t.rarity = {};
-  return t.rarity;
+// La rareté est propre à chaque personnage : c.tagRarity[cat][tag] (voir tagRarity / setTagRarity dans common.js)
+function rarityPicker(c) {
+  const sel = document.createElement("select");
+  sel.className = "tm-rarity-select";
+  sel.title = `Rareté de « ${tag} » chez ${c.name}`;
+  [[1, "⭐"], [2, "⭐⭐"], [3, "⭐⭐⭐"]].forEach(([n, l]) => sel.add(new Option(`${l} ${RARITY_LABELS[n]}`, n)));
+  sel.value = String(tagRarity(c, cat, tag));
+  sel.addEventListener("change", () => { setTagRarity(c, cat, tag, Number(sel.value)); changed(); });
+  return sel;
 }
 
 function renderCats() {
@@ -94,9 +98,8 @@ function renderTags() {
     const b = document.createElement("button");
     b.type = "button";
     b.className = "tm-item" + (tag && same(tag, v) ? " active" : "");
-    b.innerHTML = `<span><span></span><span class="tm-stars"></span></span><span class="muted-small"></span>`;
-    b.firstChild.firstChild.textContent = v;
-    b.firstChild.lastChild.textContent = rarityStars(tagRarity(data, cat, v));
+    b.innerHTML = `<span></span><span class="muted-small"></span>`;
+    b.firstChild.textContent = v;
     b.lastChild.textContent = `${n} perso${n > 1 ? "s" : ""}`;
     b.addEventListener("click", () => { tag = v; $("add-filter").value = ""; render(); });
     li.appendChild(b);
@@ -105,7 +108,7 @@ function renderTags() {
   if (!values.length) ul.innerHTML = `<li class="muted-small">Aucun tag.</li>`;
 }
 
-function persoRow({ c, mangaTitle }, action, label, title) {
+function persoRow({ c, mangaTitle }, action, label, title, extra) {
   const li = document.createElement("li");
   li.appendChild(persoAvatar(c, "avatar avatar-small"));
   const span = document.createElement("span");
@@ -114,6 +117,7 @@ function persoRow({ c, mangaTitle }, action, label, title) {
   span.querySelector("strong").textContent = c.name;
   span.querySelector(".muted-small").textContent = mangaTitle;
   li.appendChild(span);
+  if (extra) li.appendChild(extra);
   const b = document.createElement("button");
   b.type = "button";
   b.className = "icon-btn" + (label === "✕" ? " danger" : "");
@@ -130,10 +134,11 @@ function renderTag() {
   $("tag-title").textContent = `${tag}`;
   const holders = allChars().filter(({ c }) => hasTag(c, cat, tag));
   $("tag-count").textContent = `${data.tags[cat].label} · ${holders.length} personnage${holders.length > 1 ? "s" : ""}`;
-  $("tag-rarity").value = String(tagRarity(data, cat, tag));
   const ul = $("tag-persos");
   ul.innerHTML = "";
-  holders.forEach((x) => ul.appendChild(persoRow(x, () => removeFrom(x.c), "✕", `Retirer « ${tag} » de ${x.c.name}`)));
+  holders
+    .sort((x, y) => tagRarity(y.c, cat, tag) - tagRarity(x.c, cat, tag))
+    .forEach((x) => ul.appendChild(persoRow(x, () => removeFrom(x.c), "✕", `Retirer « ${tag} » de ${x.c.name}`, rarityPicker(x.c))));
   if (!holders.length) ul.innerHTML = `<li class="muted-small">Aucun personnage n'a ce tag.</li>`;
 
   const q = normalizeSearch($("add-filter").value);
@@ -149,8 +154,13 @@ function renderTag() {
 
 function addTo(c) {
   c.tags = c.tags || {};
-  const vals = (c.tags[cat] = c.tags[cat] || []);
-  if (!vals.some((v) => same(v, tag))) vals.push(tag);
+  const vals = c.tags[cat] || [];
+  if (vals.some((v) => same(v, tag))) return;
+  if (vals.length >= MAX_TAGS_PER_CATEGORY) {
+    panel.setStatus(`${c.name} a déjà ${MAX_TAGS_PER_CATEGORY} tags en « ${data.tags[cat].label} » (maximum). Retire-lui d'abord un tag de cette catégorie.`, "err");
+    return;
+  }
+  c.tags[cat] = vals.concat(tag); // ⭐ Commun par défaut, à régler ensuite dans la liste
   changed();
 }
 
@@ -158,6 +168,7 @@ function removeFrom(c) {
   const vals = (c.tags || {})[cat] || [];
   c.tags[cat] = vals.filter((v) => !same(v, tag));
   if (!c.tags[cat].length) delete c.tags[cat];
+  setTagRarity(c, cat, tag, 1);
   changed();
 }
 
@@ -171,7 +182,6 @@ $("btn-new-tag").addEventListener("click", async () => {
   if (existing) { tag = existing; render(); panel.setStatus(`Le tag « ${existing} » existe déjà.`, "err"); return; }
   const t = data.tags[cat];
   t.values = (t.values || []).concat(v); // gardé dans les valeurs proposées, même sans perso pour l'instant
-  rarityMap(cat)[v] = 1; // Commun par défaut, modifiable ensuite
   tag = v;
   changed();
 });
@@ -182,13 +192,17 @@ $("btn-rename-tag").addEventListener("click", async () => {
   if (!v || v === tag) return;
   const existingTarget = tagValues(cat).find((x) => same(x, v) && !same(x, tag));
   const target = existingTarget || v;
-  const merged = !!existingTarget;
   allChars().forEach(({ c }) => {
     const vals = (c.tags || {})[cat];
     if (!vals || !vals.some((x) => same(x, tag))) return;
+    // rareté du perso : un renommage la garde ; une fusion garde la plus haute des deux
+    const had = vals.some((x) => same(x, target));
+    const r = had ? Math.max(tagRarity(c, cat, tag), tagRarity(c, cat, target)) : tagRarity(c, cat, tag);
     const out = [];
     vals.forEach((x) => { const y = same(x, tag) ? target : x; if (!out.some((z) => same(z, y))) out.push(y); });
     c.tags[cat] = out;
+    setTagRarity(c, cat, tag, 1);
+    setTagRarity(c, cat, target, r);
   });
   const t = data.tags[cat];
   if (t.values) {
@@ -196,11 +210,6 @@ $("btn-rename-tag").addEventListener("click", async () => {
     t.values.forEach((x) => { const y = same(x, tag) ? target : x; if (!out.some((z) => same(z, y))) out.push(y); });
     t.values = out;
   }
-  // rareté : un renommage la garde, une fusion garde celle du tag existant
-  const rar = rarityMap(cat);
-  const oldRarity = tagRarity(data, cat, tag);
-  Object.keys(rar).forEach((k) => { if (same(k, tag)) delete rar[k]; });
-  if (!merged) rar[target] = oldRarity;
   criteria = criteria
     .map((x) => (x.cat === cat && same(x.value, tag) ? { cat, value: target } : x))
     .filter((x, i, all) => all.findIndex((y) => y.cat === x.cat && same(y.value, x.value)) === i);
@@ -217,11 +226,10 @@ $("btn-delete-tag").addEventListener("click", async () => {
     if (!vals) return;
     c.tags[cat] = vals.filter((x) => !same(x, tag));
     if (!c.tags[cat].length) delete c.tags[cat];
+    setTagRarity(c, cat, tag, 1);
   });
   const t = data.tags[cat];
   if (t.values) t.values = t.values.filter((x) => !same(x, tag));
-  const rar = rarityMap(cat);
-  Object.keys(rar).forEach((k) => { if (same(k, tag)) delete rar[k]; });
   criteria = criteria.filter((x) => !(x.cat === cat && same(x.value, tag)));
   tag = null;
   changed();
@@ -235,7 +243,7 @@ $("btn-new-cat").addEventListener("click", async () => {
   const slug = slugify(label);
   if (!slug) return;
   if (data.tags[slug]) { panel.setStatus(`La catégorie « ${data.tags[slug].label} » existe déjà.`, "err"); return; }
-  data.tags[slug] = { label, values: [], rarity: {} };
+  data.tags[slug] = { label, values: [] };
   cat = slug;
   tag = null;
   changed();
@@ -253,19 +261,14 @@ $("btn-delete-cat").addEventListener("click", async () => {
   if (!cat) return;
   const n = allChars().filter(({ c }) => (c.tags || {})[cat]).length;
   if (!(await askConfirm(`Supprimer la catégorie « ${data.tags[cat].label} » et tous ses tags ?${n ? ` Elle sera retirée des ${n} personnage(s) qui l'utilisent.` : ""}`, { okLabel: "Supprimer", danger: true }))) return;
-  allChars().forEach(({ c }) => { if (c.tags) delete c.tags[cat]; });
+  allChars().forEach(({ c }) => {
+    if (c.tags) delete c.tags[cat];
+    if (c.tagRarity) { delete c.tagRarity[cat]; if (!Object.keys(c.tagRarity).length) delete c.tagRarity; }
+  });
   criteria = criteria.filter((x) => x.cat !== cat);
   delete data.tags[cat];
   cat = Object.keys(data.tags)[0] || null;
   tag = null;
-  changed();
-});
-
-$("tag-rarity").addEventListener("change", (e) => {
-  if (!tag) return;
-  const rar = rarityMap(cat);
-  Object.keys(rar).forEach((k) => { if (same(k, tag)) delete rar[k]; });
-  rar[tag] = Number(e.target.value);
   changed();
 });
 
@@ -319,7 +322,7 @@ function fillCritTags() {
   const slug = $("crit-cat").value, tagSel = $("crit-tag");
   tagSel.innerHTML = "";
   if (!slug) return;
-  tagValues(slug).forEach((v) => tagSel.add(new Option(`${v} ${rarityStars(tagRarity(data, slug, v))}`, v)));
+  tagValues(slug).forEach((v) => tagSel.add(new Option(v, v)));
 }
 
 $("crit-cat").addEventListener("change", fillCritTags);

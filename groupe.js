@@ -241,7 +241,8 @@ function renderResult(r) {
   if (r.shared && r.shared.length) {
     const p = document.createElement("p");
     p.className = "muted-small";
-    p.textContent = "Points communs : " + r.shared.map((s) => `${s.value} (${s.category})`).join(", ");
+    p.textContent = (r.score != null ? `Similitude : ${r.score} points (${r.difficulty}). ` : "") +
+      "Points communs : " + r.shared.map((s) => `${s.value}${s.stars ? " " + rarityStars(s.stars) : ""} (${s.category})`).join(", ");
     box.appendChild(p);
   }
   const ul = document.createElement("ul");
@@ -353,8 +354,8 @@ async function startGame() {
     return;
   }
   const rules = { ...defaultRules(game), ...state.rules };
-  const pick = Undercover.pickCharacters(dataCache, rules.univers);
-  if (!pick) { setStatus("Pas assez de personnages avec des tags en commun pour cet univers.", "err"); return; }
+  const pick = Undercover.pickCharacters(dataCache, rules.univers, rules.difficulte);
+  if (!pick) { setStatus("Aucune paire de personnages compatible avec cette difficulté pour cet univers.", "err"); return; }
 
   const ids = shuffle(state.players.map((p) => p.id));
   const nImp = Undercover.impostorCount(ids.length, rules.imposteurs);
@@ -455,6 +456,8 @@ function endGame(extra) {
     innocent: secret.pick.innocent,
     impostor: secret.pick.impostor,
     shared: secret.pick.shared,
+    score: secret.pick.score,
+    difficulty: secret.pick.difficulty,
     players: play.order.map((id) => ({
       id,
       name: secret.names[id],

@@ -91,7 +91,7 @@ function render() {
     values.forEach((v) => {
       const chip = document.createElement("span");
       chip.className = "chip";
-      const r = tagRarity(data, tagSlug, v);
+      const r = tagRarity(perso, tagSlug, v);
       chip.textContent = v + " ";
       const stars = document.createElement("span");
       stars.className = "chip-stars";

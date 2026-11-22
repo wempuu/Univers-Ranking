@@ -39,12 +39,25 @@ function knownTagValues(data, tagSlug) {
   return [...planned, ...[...used].sort((a, b) => a.localeCompare(b, "fr"))];
 }
 
-// Rareté d'un tag : data.tags[cat].rarity = { <tag>: 1 | 2 | 3 } (1 = Commun par défaut)
+// Rareté d'un tag CHEZ UN PERSONNAGE (pas globale) : perso.tagRarity = { <cat>: { <tag>: 2 | 3 } }.
+// Un tag absent de tagRarity vaut 1 (⭐ Commun). Le même tag peut avoir une rareté différente selon le perso.
 const RARITY_LABELS = { 1: "Commun", 2: "Rare", 3: "Très rare" };
-function tagRarity(data, tagSlug, value) {
-  const r = data.tags[tagSlug] && data.tags[tagSlug].rarity;
-  const n = r && r[value];
+const MAX_TAGS_PER_CATEGORY = 7;
+function tagRarity(perso, tagSlug, value) {
+  const r = perso && perso.tagRarity && perso.tagRarity[tagSlug];
+  if (!r) return 1;
+  const key = Object.keys(r).find((k) => normalizeSearch(k) === normalizeSearch(value));
+  const n = key ? r[key] : 1;
   return n === 2 || n === 3 ? n : 1;
+}
+// Change la rareté d'un tag chez un perso (1 = on retire l'entrée, c'est la valeur par défaut)
+function setTagRarity(perso, tagSlug, value, n) {
+  const all = (perso.tagRarity = perso.tagRarity || {});
+  const r = (all[tagSlug] = all[tagSlug] || {});
+  Object.keys(r).forEach((k) => { if (normalizeSearch(k) === normalizeSearch(value)) delete r[k]; });
+  if (n === 2 || n === 3) r[value] = n;
+  if (!Object.keys(r).length) delete all[tagSlug];
+  if (!Object.keys(all).length) delete perso.tagRarity;
 }
 function rarityStars(n) {
   return "⭐".repeat(n);
