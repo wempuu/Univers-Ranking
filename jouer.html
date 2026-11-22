@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jouer · Univers Ranking</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=27">
+</head>
+<body>
+  <header class="wrap site">
+    <a class="logo" href="./">Univers <span class="grad">Ranking</span></a>
+    <nav>
+      <a href="./">Accueil</a>
+      <a href="catalogue.html">Catalogue</a>
+      <a href="jeux.html">Jeux</a>
+    </nav>
+  </header>
+
+  <main class="wrap play-page">
+    <section class="play-intro">
+      <p class="eyebrow-line">Jouer entre amis</p>
+      <h1>Jouer</h1>
+      <span class="rule"></span>
+      <p>Crée un groupe et envoie le code à tes amis, ou rejoins le groupe d'un ami avec son code. Le créateur choisit ensuite le jeu et les règles.</p>
+    </section>
+
+    <div class="party-grid" id="party">
+      <form class="lobby-card" id="form-create">
+        <p class="play-num">01</p>
+        <h2>Créer un groupe</h2>
+        <p class="muted-small">Un code est généré : envoie-le à tes amis. Tu choisiras ensuite le jeu et les règles.</p>
+        <input class="tool-input" id="pseudo-create" placeholder="Ton pseudo" maxlength="24" autocomplete="nickname" required>
+        <button class="btn solid" type="submit">Créer le groupe</button>
+      </form>
+      <form class="lobby-card" id="form-join">
+        <p class="play-num">02</p>
+        <h2>Rejoindre un groupe</h2>
+        <p class="muted-small">Saisis le code reçu d'un ami.</p>
+        <input class="tool-input" id="pseudo-join" placeholder="Ton pseudo" maxlength="24" autocomplete="nickname" required>
+        <input class="tool-input code-input" id="join-code" placeholder="CODE" maxlength="6" autocomplete="off" spellcheck="false" required>
+        <button class="btn" type="submit">Rejoindre</button>
+      </form>
+    </div>
+  </main>
+
+  <script src="jouer.js?v=27"></script>
+
+  <footer class="site-footer">
+    <a class="footer-logo" href="./">Univers <span class="grad">Ranking</span></a>
+    <p class="footer-tag">Des mini-jeux pour les fans de pop culture</p>
+    <nav class="footer-nav">
+      <a href="./">Accueil</a>
+      <a href="catalogue.html">Catalogue</a>
+      <a href="jeux.html">Jeux</a>
+    </nav>
+  </footer>
+</body>
+</html>

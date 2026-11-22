@@ -660,3 +660,16 @@ body.fp-instant .fp-panel, body.fp-instant .reveal { transition: none !important
 }
 .text-link { display: inline-block; margin-top: 16px; font-size: .72rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); transition: color .2s; }
 .text-link:hover { color: var(--accent); }
+.btn-play { font-size: .95rem; letter-spacing: .35em; padding: 18px 64px 18px calc(64px + .35em); }
+
+/* Page Jouer : créer ou rejoindre un groupe */
+.play-page { padding-top: 48px; padding-bottom: 80px; }
+.play-intro { max-width: 560px; margin: 0 0 40px; }
+.play-intro h1 { font-size: clamp(3rem, 9vw, 5.5rem); margin: 0; }
+.play-intro p:last-child { color: #c9c9c9; margin: 0; }
+.play-page .party-grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.play-page .lobby-card { padding: 28px; gap: 14px; border-top: 3px solid var(--accent); }
+.play-page .lobby-card h2 { margin: 0; font-size: 2rem; }
+.play-page .lobby-card .btn { justify-self: start; }
+.play-page .tool-input { width: 100%; }
+.play-num { margin: 0; font-family: var(--display); font-weight: 700; font-size: 1.1rem; color: var(--accent); }

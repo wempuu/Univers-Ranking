@@ -311,7 +311,7 @@ function startHost(attempt = 0) {
     if (err.type === "unavailable-id") {
       // code déjà pris (ou ancienne session pas encore libérée après un rechargement) : on réessaie un peu
       if (attempt < 4) { peer.destroy(); setStatus("Code occupé, nouvelle tentative…"); setTimeout(() => startHost(attempt + 1), 2500); return; }
-      setStatus("Ce code est déjà utilisé par un autre groupe. Reviens à l'accueil pour en créer un nouveau.", "err");
+      setStatus("Ce code est déjà utilisé par un autre groupe. Reviens à la page Jouer pour en créer un nouveau.", "err");
       return;
     }
     setStatus(`Erreur de connexion : ${err.type || err.message}`, "err");
@@ -599,7 +599,7 @@ window.addEventListener("beforeunload", (e) => {
 // ---------- Démarrage ----------
 
 if (!/^[A-Z0-9]{6}$/.test(code)) {
-  setStatus("Code de groupe invalide. Reviens à l'accueil pour créer ou rejoindre un groupe.", "err");
+  setStatus("Code de groupe invalide. Reviens à la page Jouer pour créer ou rejoindre un groupe.", "err");
 } else if (typeof Peer === "undefined") {
   setStatus("Impossible de charger le module de connexion. Vérifie ta connexion internet.", "err");
 } else if (isHost) {
