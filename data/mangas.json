@@ -9,7 +9,6 @@
         "Grand",
         "Petit",
         "Musclé",
-        "Mince",
         "Corpulent",
         "Cheveux longs",
         "Chauve",
@@ -354,7 +353,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Mince",
               "Cheveux longs",
               "Cheveux colorés",
               "Tatoué"
@@ -412,7 +410,6 @@
           },
           "tags": {
             "physique": [
-              "Mince",
               "Couvre-chef"
             ],
             "role": [
@@ -461,9 +458,6 @@
             "w": 0.3
           },
           "tags": {
-            "physique": [
-              "Mince"
-            ],
             "role": [
               "Allié",
               "Pirate",
@@ -575,7 +569,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Mince",
               "Cheveux longs"
             ],
             "role": [
@@ -691,7 +684,6 @@
             "physique": [
               "Âgé",
               "Grand",
-              "Mince",
               "Non-humain",
               "Squelette",
               "Couvre-chef"
@@ -1318,7 +1310,6 @@
           },
           "tags": {
             "physique": [
-              "Mince",
               "Tatoué",
               "Couvre-chef"
             ],
@@ -1963,7 +1954,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Mince",
               "Cheveux longs",
               "Cicatrice",
               "Bijoux / Piercings"
@@ -2412,7 +2402,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Mince",
               "Cheveux longs",
               "Cheveux colorés",
               "Couvre-chef"
@@ -4191,7 +4180,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Mince",
               "Lunettes",
               "Uniforme militaire"
             ],
@@ -4638,7 +4626,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Mince",
               "Cheveux longs"
             ],
             "role": [
@@ -4836,7 +4823,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Mince",
               "Cheveux longs",
               "Cheveux colorés"
             ],
@@ -5082,7 +5068,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Mince",
               "Cheveux longs",
               "Cheveux colorés"
             ],
@@ -5252,7 +5237,6 @@
           "tags": {
             "physique": [
               "Grand",
-              "Mince",
               "Cape"
             ],
             "role": [
@@ -5380,7 +5364,6 @@
           "name": "Sasuke Uchiha",
           "tags": {
             "physique": [
-              "Mince",
               "Couvre-chef",
               "Cape",
               "Yeux spéciaux",
@@ -5450,7 +5433,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Mince",
               "Cheveux colorés",
               "Couvre-chef"
             ],
