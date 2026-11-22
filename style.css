@@ -729,8 +729,10 @@ html.wipe-in.wipe-go::before { animation: wipe-uncover .7s .12s cubic-bezier(.77
 .collage-game .c-side { height: auto; aspect-ratio: 1 / 1.12; } /* Luffy presque carré, un peu allongé, finit plus haut qu'Ichigo */
 .collage-game .c-side img { position: absolute; width: 98%; height: auto; aspect-ratio: 1; left: -9%; top: 12%; padding: 0; object-fit: contain; } /* Luffy le plus grand possible sans toucher l'étiquette ni être coupé */
 
-/* Collage de l'accueil : dessins noir et blanc de l'utilisateur */
-.fp-home .c-main img { object-position: center 100%; }  /* One Piece : la case avec l'équipage, pas le ciel vide */
-.fp-home .c-small img { object-position: center 60%; }   /* Détective Conan */
-.fp-home .c-mini { width: 36%; height: 30%; right: 0; top: 4%; } /* L'Attaque des Titans, en paysage */
-.fp-home .c-mini img { object-position: 60% center; }
+/* Collage de l'accueil : dessins noir et blanc de l'utilisateur, deux en paysage */
+.fp-home .c-main  { left: 14%; top: 0;   width: 86%; height: 46%; }  /* One Piece, l'équipage de dos */
+.fp-home .c-main img { object-position: center 100%; }
+.fp-home .c-side  { left: 7%;  top: 40%; width: 58%; height: 33%; }  /* Jujutsu Kaisen (laisse la bande de gauche au texte vertical) */
+.fp-home .c-side img { object-position: center 20%; }
+.fp-home .c-small { left: auto; right: 0; top: 54%; width: 40%; height: 39%; } /* Dragon Ball */
+.fp-home .c-mini  { left: 12%; right: auto; top: 70%; width: 30%; height: 29%; } /* Hunter × Hunter */
