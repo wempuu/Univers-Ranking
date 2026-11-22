@@ -293,7 +293,7 @@
               "Chasseur": 2
             },
             "style-de-combat": {
-              "Épée": 3,
+              "Épée": 2,
               "Katana": 3
             },
             "caractere": {
@@ -866,7 +866,7 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Épée": 3
+              "Épée": 2
             },
             "caractere": {
               "Calme": 2,
@@ -1252,7 +1252,7 @@
             },
             "style-de-combat": {
               "Intelligence tactique": 2,
-              "Épée": 3,
+              "Épée": 2,
               "Katana": 3,
               "Téléportation": 2,
               "Contrôle de l'espace": 3
@@ -1411,7 +1411,7 @@
             },
             "style-de-combat": {
               "Agilité": 2,
-              "Épée": 3
+              "Épée": 2
             },
             "caractere": {
               "Loyal": 3,
@@ -1908,7 +1908,7 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Épée": 3
+              "Épée": 2
             },
             "caractere": {
               "Calme": 3,
@@ -2924,7 +2924,7 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Épée": 3,
+              "Épée": 2,
               "Invisibilité": 3
             },
             "caractere": {
@@ -3202,7 +3202,7 @@
               "Conseiller": 3
             },
             "style-de-combat": {
-              "Épée": 3,
+              "Épée": 2,
               "Katana": 2,
               "Transformation": 3
             },
@@ -3296,7 +3296,7 @@
               "Conseiller": 3
             },
             "style-de-combat": {
-              "Épée": 3
+              "Épée": 2
             },
             "caractere": {
               "Arrogant": 2,
@@ -3336,7 +3336,7 @@
               "Chef militaire": 3
             },
             "style-de-combat": {
-              "Épée": 3
+              "Épée": 2
             },
             "caractere": {
               "Arrogant": 2
@@ -3679,7 +3679,7 @@
               "Chef militaire": 3
             },
             "style-de-combat": {
-              "Épée": 3,
+              "Épée": 2,
               "Katana": 2,
               "Télékinésie": 3
             },
@@ -3929,7 +3929,7 @@
               "Soldat": 3
             },
             "style-de-combat": {
-              "Épée": 3,
+              "Épée": 2,
               "Katana": 3
             },
             "caractere": {
@@ -4386,7 +4386,7 @@
             },
             "style-de-combat": {
               "Force brute": 2,
-              "Épée": 3,
+              "Épée": 2,
               "Katana": 3
             },
             "caractere": {
@@ -4618,7 +4618,7 @@
               "Combattant": 3
             },
             "style-de-combat": {
-              "Épée": 3,
+              "Épée": 2,
               "Katana": 3,
               "Contrôle du feu": 2
             },
@@ -4764,7 +4764,7 @@
             },
             "style-de-combat": {
               "Agilité": 2,
-              "Épée": 3
+              "Épée": 2
             },
             "caractere": {
               "Généreux": 2
