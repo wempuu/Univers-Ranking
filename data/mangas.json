@@ -12,7 +12,6 @@
         "Mince",
         "Corpulent",
         "Cheveux longs",
-        "Cheveux courts",
         "Chauve",
         "Cheveux blancs",
         "Cheveux colorés",
@@ -187,7 +186,6 @@
           },
           "tags": {
             "physique": [
-              "Cheveux courts",
               "Cicatrice",
               "Dieu / Divinité"
             ],
@@ -254,7 +252,6 @@
           "tags": {
             "physique": [
               "Musclé",
-              "Cheveux courts",
               "Cheveux colorés",
               "Cicatrice",
               "Borgne"
@@ -417,8 +414,7 @@
           },
           "tags": {
             "physique": [
-              "Mince",
-              "Cheveux courts"
+              "Mince"
             ],
             "role": [
               "Allié",
@@ -573,7 +569,6 @@
             "physique": [
               "Grand",
               "Musclé",
-              "Cheveux courts",
               "Cheveux colorés",
               "Cyborg"
             ],
@@ -1117,7 +1112,6 @@
           },
           "tags": {
             "physique": [
-              "Cheveux courts",
               "Tatoué",
               "Bijoux / Piercings"
             ],
@@ -1215,7 +1209,6 @@
           "tags": {
             "physique": [
               "Mince",
-              "Cheveux courts",
               "Tatoué"
             ],
             "role": [
@@ -1327,7 +1320,6 @@
           "tags": {
             "physique": [
               "Musclé",
-              "Cheveux courts",
               "Cheveux colorés",
               "Cicatrice"
             ],
@@ -1766,7 +1758,6 @@
             "physique": [
               "Grand",
               "Musclé",
-              "Cheveux courts",
               "Lunettes"
             ],
             "role": [
@@ -1879,7 +1870,6 @@
           },
           "tags": {
             "physique": [
-              "Cheveux courts",
               "Moustachu"
             ],
             "role": [
@@ -3653,7 +3643,6 @@
           },
           "tags": {
             "physique": [
-              "Cheveux courts",
               "Cicatrice"
             ],
             "role": [
@@ -3757,7 +3746,6 @@
             "physique": [
               "Âgé",
               "Musclé",
-              "Cheveux courts",
               "Cheveux blancs",
               "Cicatrice"
             ],
@@ -3807,8 +3795,7 @@
           },
           "tags": {
             "physique": [
-              "Musclé",
-              "Cheveux courts"
+              "Musclé"
             ],
             "role": [
               "Allié",
@@ -3853,7 +3840,6 @@
           "tags": {
             "physique": [
               "Musclé",
-              "Cheveux courts",
               "Cheveux blancs",
               "Cicatrice"
             ],
@@ -3902,7 +3888,6 @@
             "physique": [
               "Femme",
               "Mince",
-              "Cheveux courts",
               "Lunettes"
             ],
             "role": [
@@ -4181,7 +4166,6 @@
           },
           "tags": {
             "physique": [
-              "Cheveux courts",
               "Cicatrice"
             ],
             "role": [
