@@ -737,3 +737,18 @@ html.wipe-in.wipe-go::before { animation: wipe-uncover .7s .12s cubic-bezier(.77
 .fp-home .c-main  { left: 14%; top: 0;   width: 62%; aspect-ratio: 1; }          /* One Piece, 1200×1200 */
 .fp-home .c-side  { left: 7%;  top: 55%; width: 40%; aspect-ratio: 660 / 720; }  /* Hunter × Hunter */
 .fp-home .c-small { right: 0;  top: 50%; width: 40%; aspect-ratio: 1; }          /* Dragon Ball */
+
+/* Pages plein écran : à chaque changement de page (scroll vers le haut ou le bas), les images
+   du collage apparaissent une par une ; elles disparaissent quand on quitte la page. */
+.fp-panel .collage figure {
+  opacity: 0; transform: translateY(34px) scale(.94);
+  transition: opacity .7s ease, transform .9s cubic-bezier(.2,.7,.2,1);
+}
+.fp-panel .collage figure:nth-of-type(2) { --i: 1; }
+.fp-panel .collage figure:nth-of-type(3) { --i: 2; }
+.fp-panel .collage figure:nth-of-type(4) { --i: 3; }
+.fp-panel.is-active .collage figure { opacity: 1; transform: none; transition-delay: calc(.45s + var(--i, 0) * .22s); }
+.fp-panel.is-pushed .collage figure { opacity: 1; transform: none; transition-delay: 0s; }
+@media (prefers-reduced-motion: reduce) {
+  .fp-panel .collage figure { transform: none; transition: opacity .4s ease; }
+}
