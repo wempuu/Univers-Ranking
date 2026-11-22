@@ -35,8 +35,8 @@
     });
     const shown = onFooter ? current - 1 : current;
     dots.forEach((d) => d.classList.toggle("on", Number(d.dataset.go) === shown));
-    // Le bouton « revenir en haut » (anim.js) est caché quand on est déjà sur la première page.
-    document.body.classList.toggle("fp-at-top", current === 0);
+    // Le bouton « revenir en haut » n'apparaît que sur la page Undercover.
+    document.body.classList.toggle("fp-on-undercover", panels[current].id === "undercover");
     if (instant) requestAnimationFrame(() => requestAnimationFrame(() => document.body.classList.remove("fp-instant")));
   }
 
@@ -105,13 +105,15 @@
     b.addEventListener("click", () => goTo(Number(b.dataset.go)));
   });
 
-  // Bouton « revenir en haut » (ajouté par anim.js) : ici on reste sur la page et on revient à
-  // la première page plein écran. En capture, pour passer avant le volet de changement de page.
-  document.addEventListener("click", (e) => {
-    if (!e.target.closest(".to-top")) return;
-    e.preventDefault();
-    goTo(0);
-  }, true);
+  // Bouton en bas à droite, visible seulement sur la page Undercover : revient à la première page.
+  const toTop = document.createElement("button");
+  toTop.type = "button";
+  toTop.className = "to-top";
+  toTop.setAttribute("aria-label", "Revenir en haut de l'accueil");
+  toTop.title = "Revenir en haut de l'accueil";
+  toTop.innerHTML = '<span aria-hidden="true"></span>';
+  toTop.addEventListener("click", () => goTo(0));
+  document.body.appendChild(toTop);
 
   function fromHash(instant) {
     const i = panels.findIndex((p) => "#" + p.id === location.hash);
