@@ -706,3 +706,14 @@ html.wipe-in.wipe-go::before { animation: wipe-uncover .7s .12s cubic-bezier(.77
 .fp-scroll { scrollbar-width: none; }
 .fp-scroll::-webkit-scrollbar { display: none; }
 .fp-game .fp-inner { padding-bottom: 72px; }
+
+/* Pied de page de l'accueil : dernier « scroll », il monte du bas et pousse la page d'avant */
+.fp-panel.fp-footer { top: auto; height: auto; z-index: 3; }
+.fp-panel.fp-footer.is-below { clip-path: none; transform: translateY(100%); }
+.fp-panel.fp-footer .site-footer { margin: 0; }
+.fp-panel.is-pushed { transform: translateY(calc(-1 * var(--fp-footer-h, 300px))); clip-path: inset(0 0 0 0); opacity: 1; filter: none; z-index: 2; }
+@media (prefers-reduced-motion: reduce) {
+  .fp-panel.fp-footer.is-below { opacity: 0; }
+  .fp-panel.is-pushed { opacity: 1; }
+}
+.is-pushed .reveal { opacity: 1; transform: none; transition-delay: 0s; }

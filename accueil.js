@@ -13,15 +13,28 @@
   const atTop = (el) => el.scrollTop <= 1;
   const atBottom = (el) => el.scrollTop + el.clientHeight >= el.scrollHeight - 2;
 
+  const footer = document.querySelector(".fp-panel.fp-footer");
+  function measureFooter() {
+    if (footer) document.documentElement.style.setProperty("--fp-footer-h", footer.offsetHeight + "px");
+  }
+  window.addEventListener("resize", measureFooter);
+
   function render(instant) {
     if (instant) document.body.classList.add("fp-instant");
+    // Le pied de page (.fp-footer) n'occupe que le bas de l'écran : la page d'avant
+    // reste visible et remonte juste de sa hauteur (is-pushed).
+    const onFooter = panels[current].classList.contains("fp-footer");
+    measureFooter();
     panels.forEach((p, k) => {
+      const pushed = onFooter && k === current - 1;
       p.classList.toggle("is-active", k === current);
-      p.classList.toggle("is-above", k < current);
+      p.classList.toggle("is-pushed", pushed);
+      p.classList.toggle("is-above", k < current && !pushed);
       p.classList.toggle("is-below", k > current);
       p.inert = k !== current;
     });
-    dots.forEach((d) => d.classList.toggle("on", Number(d.dataset.go) === current));
+    const shown = onFooter ? current - 1 : current;
+    dots.forEach((d) => d.classList.toggle("on", Number(d.dataset.go) === shown));
     if (instant) requestAnimationFrame(() => requestAnimationFrame(() => document.body.classList.remove("fp-instant")));
   }
 
