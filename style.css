@@ -718,7 +718,7 @@ html.wipe-in.wipe-go::before { animation: wipe-uncover .7s .12s cubic-bezier(.77
   .fp-panel.is-pushed { opacity: 1; }
 }
 .is-pushed .reveal { opacity: 1; transform: none; transition-delay: 0s; }
-.c-small .poster-label { top: auto; bottom: 10px; }
+.c-small .poster-label { top: auto; bottom: 10px; left: 50%; transform: translateX(-50%); white-space: nowrap; } /* Mr. White centré en bas */
 .c-side .poster-label { left: auto; right: 10px; }
 
 /* Collage Undercover, image Imposteur : le dessin est montré en entier, collé sous une bande
