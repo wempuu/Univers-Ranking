@@ -6,10 +6,10 @@
   <title>Univers Ranking</title>
   <meta name="description" content="Mini-jeux pop culture : films, séries, jeux vidéo, mangas.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=24">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=25">
 </head>
-<body>
+<body class="fp">
   <header class="wrap site">
     <a class="logo" href="./">Univers <span class="grad">Ranking</span></a>
     <nav>
@@ -19,35 +19,90 @@
     </nav>
   </header>
 
-  <main class="wrap">
-    <section class="hero">
-      <h1>Bienvenue sur <span class="grad">Univers Ranking</span></h1>
-      <p>Des mini-jeux autour de la pop culture : films, séries, jeux vidéo, mangas…</p>
-      <a class="btn" href="jeux.html">Voir les jeux</a>
-    </section>
+  <!-- Pagination : une entrée par page plein écran -->
+  <div class="fp-dots" id="fp-dots" aria-label="Pages">
+    <button type="button" data-go="0" class="on">01</button>
+    <button type="button" data-go="1">02</button>
+  </div>
 
-    <section class="party" aria-labelledby="party-title">
-      <h2 class="section-title" id="party-title">Jouer entre amis</h2>
-      <div class="party-grid">
-        <form class="lobby-card" id="form-create">
-          <h3>Créer un groupe</h3>
-          <p class="muted-small">Un code est généré : envoie-le à tes amis. Tu choisiras ensuite le jeu et les règles.</p>
-          <input class="tool-input" id="pseudo-create" placeholder="Ton pseudo" maxlength="24" autocomplete="nickname" required>
-          <button class="btn" type="submit">✨ Créer le groupe</button>
-        </form>
-        <form class="lobby-card" id="form-join">
-          <h3>Rejoindre un groupe</h3>
-          <p class="muted-small">Saisis le code reçu d'un ami.</p>
-          <input class="tool-input" id="pseudo-join" placeholder="Ton pseudo" maxlength="24" autocomplete="nickname" required>
-          <input class="tool-input code-input" id="join-code" placeholder="CODE" maxlength="6" autocomplete="off" spellcheck="false" required>
-          <button class="btn" type="submit">➜ Rejoindre</button>
-        </form>
+  <!-- Page 1 : accueil -->
+  <section class="fp-panel fp-home is-active" id="accueil" aria-label="Accueil">
+    <div class="fp-scroll">
+      <div class="wrap fp-inner">
+        <div class="collage reveal" style="--d:0" aria-hidden="true">
+          <span class="poster-vertical">Pop culture · Mangas · Séries · Jeux</span>
+          <figure class="c-main duo"><img src="images/catalogue/one-piece.webp" alt=""></figure>
+          <figure class="c-side bw"><img src="images/catalogue/naruto.jpg" alt=""></figure>
+          <figure class="c-small framed"><img src="images/catalogue/dragon-ball.webp" alt=""></figure>
+          <figure class="c-mini bw"><img src="images/catalogue/hunter-x-hunter.webp" alt=""></figure>
+        </div>
+        <div class="fp-text">
+          <p class="eyebrow-line reveal" style="--d:1">Mini-jeux pop culture</p>
+          <h1 class="reveal" style="--d:2">Univers<br>Ranking</h1>
+          <span class="rule reveal" style="--d:3"></span>
+          <p class="reveal" style="--d:4">Des mini-jeux entre amis autour de la pop culture : mangas, films, séries, jeux vidéo… Choisis ton univers et affronte ta bande.</p>
+          <div class="fp-actions reveal" style="--d:5">
+            <button class="btn solid" type="button" data-go="1">Découvrir les jeux</button>
+            <a class="btn" href="catalogue.html">Le catalogue</a>
+          </div>
+        </div>
       </div>
-    </section>
-  </main>
+      <button class="scroll-hint" type="button" data-go="1">
+        <span>Scrolle vers le bas pour découvrir les jeux</span>
+        <span class="scroll-mouse"></span>
+        <span class="scroll-arrow"></span>
+      </button>
+    </div>
+  </section>
 
-  <script src="accueil.js?v=24"></script>
+  <!-- Page 2 : premier jeu, Undercover -->
+  <section class="fp-panel fp-game is-below" id="undercover" aria-label="Undercover">
+    <div class="fp-scroll">
+      <div class="wrap fp-inner">
+        <div class="fp-text">
+          <p class="eyebrow-line reveal" style="--d:0">Jeu 01 · 3 à 12 joueurs</p>
+          <h2 class="reveal" style="--d:1">Undercover</h2>
+          <span class="rule reveal" style="--d:2"></span>
+          <p class="reveal" style="--d:3">Chacun reçoit un personnage secret. Les innocents ont tous le même, les imposteurs un personnage qui lui ressemble. Personne ne connaît son rôle.</p>
+          <ol class="how reveal" style="--d:4">
+            <li><span><b>Un mot chacun son tour</b> pour décrire ton personnage, sans te trahir.</span></li>
+            <li><span><b>Tout le monde vote</b> pour éliminer le joueur le plus suspect.</span></li>
+            <li><span><b>Démasquez l'imposteur</b> : les innocents gagnent seulement s'il est éliminé.</span></li>
+          </ol>
+          <div class="party-grid reveal" style="--d:5" id="party">
+            <form class="lobby-card" id="form-create">
+              <h3>Créer un groupe</h3>
+              <input class="tool-input" id="pseudo-create" placeholder="Ton pseudo" maxlength="24" autocomplete="nickname" required>
+              <button class="btn solid" type="submit">Créer</button>
+            </form>
+            <form class="lobby-card" id="form-join">
+              <h3>Rejoindre</h3>
+              <input class="tool-input" id="pseudo-join" placeholder="Ton pseudo" maxlength="24" autocomplete="nickname" required>
+              <input class="tool-input code-input" id="join-code" placeholder="CODE" maxlength="6" autocomplete="off" spellcheck="false" required>
+              <button class="btn" type="submit">Rejoindre</button>
+            </form>
+          </div>
+        </div>
+        <div class="collage collage-game reveal" style="--d:2" aria-hidden="true">
+          <span class="poster-vertical">Qui est l'imposteur ?</span>
+          <figure class="c-main bw"><img src="images/personnages/one-piece/originaux/monkey-d-luffy.jpg" alt=""><p class="poster-label">Perso 01<b>Innocent</b></p></figure>
+          <figure class="c-side duo"><img src="images/personnages/one-piece/originaux/portgas-d-ace.jpg" alt=""><p class="poster-label">Perso 02<b>Imposteur ?</b></p></figure>
+          <figure class="c-small framed"><img src="images/personnages/one-piece/originaux/sabo.jpg" alt=""></figure>
+        </div>
+      </div>
 
-  <footer class="wrap">Univers Ranking</footer>
+      <footer class="site-footer">
+        <a class="footer-logo" href="./">Univers <span class="grad">Ranking</span></a>
+        <p class="footer-tag">Des mini-jeux pour les fans de pop culture</p>
+        <nav class="footer-nav">
+          <a href="./">Accueil</a>
+          <a href="catalogue.html">Catalogue</a>
+          <a href="jeux.html">Jeux</a>
+        </nav>
+      </footer>
+    </div>
+  </section>
+
+  <script src="accueil.js?v=25"></script>
 </body>
 </html>
