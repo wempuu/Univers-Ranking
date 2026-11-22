@@ -60,7 +60,11 @@ function rarityPicker(c) {
   const sel = document.createElement("select");
   sel.className = "tm-rarity-select";
   sel.title = `Rareté de « ${tag} » chez ${c.name}`;
-  [[1, "⭐"], [2, "⭐⭐"], [3, "⭐⭐⭐"]].forEach(([n, l]) => sel.add(new Option(`${l} ${RARITY_LABELS[n]}`, n)));
+  [[1, "⭐"], [2, "⭐⭐"], [3, "⭐⭐⭐"]].forEach(([n, l]) => {
+    const o = new Option(`${l} ${RARITY_LABELS[n]}`, n);
+    if (n > maxRarity(cat, tag)) { o.disabled = true; o.text += " (max ⭐⭐ pour ce tag)"; }
+    sel.add(o);
+  });
   sel.value = String(tagRarity(c, cat, tag));
   sel.addEventListener("change", () => { setTagRarity(c, cat, tag, Number(sel.value)); changed(); });
   return sel;

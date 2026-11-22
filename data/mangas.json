@@ -33,7 +33,15 @@
         "Cyborg",
         "Robot",
         "Monstre",
-        "Squelette"
+        "Squelette",
+        "Couvre-chef",
+        "Masque",
+        "Cape",
+        "Uniforme militaire",
+        "Yeux spéciaux",
+        "Prothèse / Membre manquant",
+        "Tenue traditionnelle",
+        "Peau colorée"
       ]
     },
     "role": {
@@ -70,7 +78,15 @@
         "Religieux",
         "Traître",
         "Conseiller",
-        "Survivant"
+        "Survivant",
+        "Cuisinier",
+        "Musicien / Artiste",
+        "Navigateur",
+        "Orphelin",
+        "Esclave / Opprimé",
+        "Révolutionnaire",
+        "Fugitif",
+        "Ennemi devenu allié"
       ]
     },
     "style-de-combat": {
@@ -86,7 +102,7 @@
         "Katana",
         "Arme blanche",
         "Armes à feu",
-        "Arc",
+        "Armes à distance",
         "Arme lourde",
         "Magie",
         "Pouvoir psychique",
@@ -111,7 +127,15 @@
         "Contrôle de l'espace",
         "Barrière / Bouclier",
         "Absorption d'énergie",
-        "Contrôle des animaux"
+        "Contrôle des animaux",
+        "Prémonition",
+        "Clones",
+        "Explosions",
+        "Contrôle de la gravité",
+        "Contrôle du son",
+        "Fils / Chaînes",
+        "Pouvoir élastique",
+        "Scellement"
       ]
     },
     "caractere": {
@@ -147,7 +171,13 @@
         "Optimiste",
         "Provocateur",
         "Perfectionniste",
-        "Vaniteux"
+        "Vaniteux",
+        "Vengeur",
+        "Excentrique",
+        "Froid",
+        "Romantique",
+        "Pervers",
+        "Fêtard"
       ]
     }
   },
@@ -187,7 +217,8 @@
           "tags": {
             "physique": [
               "Cicatrice",
-              "Dieu / Divinité"
+              "Dieu / Divinité",
+              "Couvre-chef"
             ],
             "role": [
               "Protagoniste",
@@ -196,12 +227,14 @@
               "Empereur",
               "Pirate",
               "Criminel",
-              "Gardien / Protecteur"
+              "Orphelin"
             ],
             "style-de-combat": [
               "Force brute",
               "Combat à mains nues",
-              "Transformation"
+              "Transformation",
+              "Prémonition",
+              "Pouvoir élastique"
             ],
             "caractere": [
               "Joyeux",
@@ -216,7 +249,8 @@
           "tagRarity": {
             "physique": {
               "Cicatrice": 2,
-              "Dieu / Divinité": 3
+              "Dieu / Divinité": 3,
+              "Couvre-chef": 3
             },
             "role": {
               "Protagoniste": 3,
@@ -227,7 +261,9 @@
             "style-de-combat": {
               "Force brute": 2,
               "Combat à mains nues": 2,
-              "Transformation": 3
+              "Transformation": 3,
+              "Prémonition": 2,
+              "Pouvoir élastique": 3
             },
             "caractere": {
               "Joyeux": 3,
@@ -254,7 +290,8 @@
               "Musclé",
               "Cheveux colorés",
               "Cicatrice",
-              "Borgne"
+              "Borgne",
+              "Tenue traditionnelle"
             ],
             "role": [
               "Allié",
@@ -273,7 +310,8 @@
               "Sérieux",
               "Courageux",
               "Loyal",
-              "Déterminé"
+              "Déterminé",
+              "Fêtard"
             ]
           },
           "tagRarity": {
@@ -281,7 +319,8 @@
               "Musclé": 2,
               "Cheveux colorés": 3,
               "Cicatrice": 2,
-              "Borgne": 2
+              "Borgne": 2,
+              "Tenue traditionnelle": 2
             },
             "role": {
               "Bras droit": 3,
@@ -297,7 +336,8 @@
               "Sérieux": 2,
               "Courageux": 2,
               "Loyal": 3,
-              "Déterminé": 2
+              "Déterminé": 2,
+              "Fêtard": 2
             }
           }
         },
@@ -322,7 +362,9 @@
             "role": [
               "Allié",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Navigateur",
+              "Orphelin"
             ],
             "style-de-combat": [
               "Intelligence tactique",
@@ -342,7 +384,9 @@
               "Tatoué": 2
             },
             "role": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Navigateur": 3,
+              "Orphelin": 2
             },
             "style-de-combat": {
               "Intelligence tactique": 2,
@@ -368,7 +412,8 @@
           },
           "tags": {
             "physique": [
-              "Mince"
+              "Mince",
+              "Couvre-chef"
             ],
             "role": [
               "Allié",
@@ -377,7 +422,7 @@
               "Scientifique"
             ],
             "style-de-combat": [
-              "Arc"
+              "Armes à distance"
             ],
             "caractere": [
               "Joyeux",
@@ -392,13 +437,16 @@
               "Scientifique": 2
             },
             "style-de-combat": {
-              "Arc": 3
+              "Armes à distance": 3
             },
             "caractere": {
               "Joyeux": 2,
               "Courageux": 3,
               "Peureux": 3,
               "Menteur": 3
+            },
+            "physique": {
+              "Couvre-chef": 2
             }
           }
         },
@@ -419,7 +467,8 @@
             "role": [
               "Allié",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Cuisinier"
             ],
             "style-de-combat": [
               "Vitesse",
@@ -428,12 +477,16 @@
             ],
             "caractere": [
               "Sérieux",
-              "Courageux"
+              "Courageux",
+              "Vengeur",
+              "Romantique",
+              "Pervers"
             ]
           },
           "tagRarity": {
             "role": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Cuisinier": 3
             },
             "style-de-combat": {
               "Vitesse": 2,
@@ -442,7 +495,10 @@
             },
             "caractere": {
               "Sérieux": 2,
-              "Courageux": 2
+              "Courageux": 2,
+              "Vengeur": 2,
+              "Romantique": 3,
+              "Pervers": 3
             }
           }
         },
@@ -462,13 +518,15 @@
               "Petit",
               "Queue",
               "Non-humain",
-              "Animal anthropomorphe"
+              "Animal anthropomorphe",
+              "Couvre-chef"
             ],
             "role": [
               "Allié",
               "Médecin",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Orphelin"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -486,7 +544,8 @@
               "Enfant": 2,
               "Petit": 3,
               "Non-humain": 2,
-              "Animal anthropomorphe": 3
+              "Animal anthropomorphe": 3,
+              "Couvre-chef": 3
             },
             "role": {
               "Médecin": 3,
@@ -524,11 +583,13 @@
               "Pirate",
               "Criminel",
               "Scientifique",
-              "Survivant"
+              "Survivant",
+              "Fugitif",
+              "Ennemi devenu allié"
             ],
             "style-de-combat": [
               "Combat à mains nues",
-              "Invocation"
+              "Clones"
             ],
             "caractere": [
               "Intelligent",
@@ -543,15 +604,17 @@
             "role": {
               "Pirate": 2,
               "Scientifique": 2,
-              "Survivant": 3
-            },
-            "style-de-combat": {
-              "Invocation": 3
+              "Survivant": 3,
+              "Fugitif": 3,
+              "Ennemi devenu allié": 3
             },
             "caractere": {
               "Intelligent": 3,
               "Curieux": 2,
               "Pessimiste": 2
+            },
+            "style-de-combat": {
+              "Clones": 3
             }
           }
         },
@@ -576,17 +639,21 @@
               "Allié",
               "Pirate",
               "Criminel",
-              "Scientifique"
+              "Scientifique",
+              "Orphelin",
+              "Ennemi devenu allié"
             ],
             "style-de-combat": [
               "Force brute",
               "Combat à mains nues",
               "Armes à feu",
+              "Armes à distance",
               "Transformation"
             ],
             "caractere": [
               "Joyeux",
-              "Intelligent"
+              "Intelligent",
+              "Excentrique"
             ]
           },
           "tagRarity": {
@@ -598,15 +665,19 @@
             },
             "role": {
               "Pirate": 2,
-              "Scientifique": 2
+              "Scientifique": 2,
+              "Orphelin": 2,
+              "Ennemi devenu allié": 2
             },
             "style-de-combat": {
               "Force brute": 2,
-              "Armes à feu": 2
+              "Armes à feu": 2,
+              "Armes à distance": 2
             },
             "caractere": {
               "Joyeux": 2,
-              "Intelligent": 2
+              "Intelligent": 2,
+              "Excentrique": 3
             }
           }
         },
@@ -626,13 +697,15 @@
               "Grand",
               "Mince",
               "Non-humain",
-              "Squelette"
+              "Squelette",
+              "Couvre-chef"
             ],
             "role": [
               "Allié",
               "Pirate",
               "Criminel",
-              "Survivant"
+              "Survivant",
+              "Musicien / Artiste"
             ],
             "style-de-combat": [
               "Épée",
@@ -640,7 +713,10 @@
               "Contrôle de la glace"
             ],
             "caractere": [
-              "Joyeux"
+              "Joyeux",
+              "Excentrique",
+              "Pervers",
+              "Fêtard"
             ]
           },
           "tagRarity": {
@@ -648,11 +724,13 @@
               "Âgé": 2,
               "Grand": 2,
               "Non-humain": 2,
-              "Squelette": 3
+              "Squelette": 3,
+              "Couvre-chef": 2
             },
             "role": {
               "Pirate": 2,
-              "Survivant": 2
+              "Survivant": 2,
+              "Musicien / Artiste": 3
             },
             "style-de-combat": {
               "Épée": 2,
@@ -660,7 +738,10 @@
               "Contrôle de la glace": 2
             },
             "caractere": {
-              "Joyeux": 3
+              "Joyeux": 3,
+              "Excentrique": 2,
+              "Pervers": 3,
+              "Fêtard": 2
             }
           }
         },
@@ -678,13 +759,15 @@
             "physique": [
               "Grand",
               "Tatoué",
-              "Non-humain"
+              "Non-humain",
+              "Peau colorée"
             ],
             "role": [
               "Allié",
               "Pirate",
               "Criminel",
-              "Prisonnier"
+              "Prisonnier",
+              "Esclave / Opprimé"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -701,10 +784,12 @@
             "physique": {
               "Grand": 2,
               "Tatoué": 2,
-              "Non-humain": 3
+              "Non-humain": 3,
+              "Peau colorée": 3
             },
             "role": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Esclave / Opprimé": 2
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
@@ -730,7 +815,9 @@
           },
           "tags": {
             "physique": [
-              "Moustachu"
+              "Moustachu",
+              "Couvre-chef",
+              "Cape"
             ],
             "role": [
               "Leader",
@@ -743,12 +830,15 @@
             "caractere": [
               "Joyeux",
               "Charismatique",
-              "Optimiste"
+              "Optimiste",
+              "Fêtard"
             ]
           },
           "tagRarity": {
             "physique": {
-              "Moustachu": 3
+              "Moustachu": 3,
+              "Couvre-chef": 2,
+              "Cape": 3
             },
             "role": {
               "Leader": 3,
@@ -760,7 +850,8 @@
             "caractere": {
               "Joyeux": 3,
               "Charismatique": 3,
-              "Optimiste": 2
+              "Optimiste": 2,
+              "Fêtard": 2
             }
           }
         },
@@ -780,7 +871,8 @@
               "Cheveux blancs",
               "Barbu",
               "Lunettes",
-              "Cicatrice"
+              "Cicatrice",
+              "Cape"
             ],
             "role": [
               "Bras droit",
@@ -790,11 +882,13 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Épée"
+              "Épée",
+              "Prémonition"
             ],
             "caractere": [
               "Calme",
-              "Optimiste"
+              "Optimiste",
+              "Fêtard"
             ]
           },
           "tagRarity": {
@@ -814,7 +908,8 @@
               "Épée": 2
             },
             "caractere": {
-              "Calme": 2
+              "Calme": 2,
+              "Fêtard": 2
             }
           }
         },
@@ -831,7 +926,9 @@
           "tags": {
             "physique": [
               "Cheveux colorés",
-              "Cicatrice"
+              "Cicatrice",
+              "Cape",
+              "Prothèse / Membre manquant"
             ],
             "role": [
               "Leader",
@@ -846,13 +943,16 @@
             "caractere": [
               "Calme",
               "Charismatique",
-              "Optimiste"
+              "Optimiste",
+              "Fêtard"
             ]
           },
           "tagRarity": {
             "physique": {
               "Cheveux colorés": 3,
-              "Cicatrice": 3
+              "Cicatrice": 3,
+              "Cape": 3,
+              "Prothèse / Membre manquant": 3
             },
             "role": {
               "Leader": 2,
@@ -865,7 +965,8 @@
             },
             "caractere": {
               "Calme": 2,
-              "Charismatique": 3
+              "Charismatique": 3,
+              "Fêtard": 3
             }
           }
         },
@@ -890,12 +991,14 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Armes à feu"
+              "Armes à feu",
+              "Armes à distance"
             ],
             "caractere": [
               "Calme",
               "Intelligent",
-              "Loyal"
+              "Loyal",
+              "Fêtard"
             ]
           },
           "tagRarity": {
@@ -904,7 +1007,8 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Armes à feu": 3
+              "Armes à feu": 3,
+              "Armes à distance": 3
             },
             "caractere": {
               "Calme": 3,
@@ -933,11 +1037,13 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Armes à feu"
+              "Armes à feu",
+              "Armes à distance"
             ],
             "caractere": [
               "Joyeux",
-              "Gourmand"
+              "Gourmand",
+              "Fêtard"
             ]
           },
           "tagRarity": {
@@ -948,11 +1054,13 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Armes à feu": 2
+              "Armes à feu": 2,
+              "Armes à distance": 2
             },
             "caractere": {
               "Joyeux": 2,
-              "Gourmand": 3
+              "Gourmand": 3,
+              "Fêtard": 3
             }
           }
         },
@@ -976,10 +1084,12 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Armes à feu"
+              "Armes à feu",
+              "Armes à distance"
             ],
             "caractere": [
-              "Joyeux"
+              "Joyeux",
+              "Fêtard"
             ]
           },
           "tagRarity": {
@@ -987,10 +1097,12 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Armes à feu": 3
+              "Armes à feu": 3,
+              "Armes à distance": 3
             },
             "caractere": {
-              "Joyeux": 2
+              "Joyeux": 2,
+              "Fêtard": 2
             }
           }
         },
@@ -1010,7 +1122,8 @@
               "Grand",
               "Musclé",
               "Moustachu",
-              "Cicatrice"
+              "Cicatrice",
+              "Cape"
             ],
             "role": [
               "Leader",
@@ -1024,7 +1137,8 @@
             ],
             "caractere": [
               "Charismatique",
-              "Protecteur"
+              "Protecteur",
+              "Fêtard"
             ]
           },
           "tagRarity": {
@@ -1032,7 +1146,8 @@
               "Âgé": 2,
               "Grand": 3,
               "Musclé": 2,
-              "Moustachu": 3
+              "Moustachu": 3,
+              "Cape": 3
             },
             "role": {
               "Leader": 2,
@@ -1045,7 +1160,8 @@
             },
             "caractere": {
               "Charismatique": 2,
-              "Protecteur": 3
+              "Protecteur": 3,
+              "Fêtard": 2
             }
           }
         },
@@ -1113,13 +1229,15 @@
           "tags": {
             "physique": [
               "Tatoué",
-              "Bijoux / Piercings"
+              "Bijoux / Piercings",
+              "Couvre-chef"
             ],
             "role": [
               "Allié",
               "Pirate",
               "Criminel",
-              "Prisonnier"
+              "Prisonnier",
+              "Orphelin"
             ],
             "style-de-combat": [
               "Contrôle du feu"
@@ -1127,16 +1245,19 @@
             "caractere": [
               "Courageux",
               "Loyal",
-              "Impulsif"
+              "Impulsif",
+              "Vengeur"
             ]
           },
           "tagRarity": {
             "physique": {
-              "Tatoué": 2
+              "Tatoué": 2,
+              "Couvre-chef": 2
             },
             "role": {
               "Pirate": 2,
-              "Prisonnier": 2
+              "Prisonnier": 2,
+              "Orphelin": 2
             },
             "style-de-combat": {
               "Contrôle du feu": 3
@@ -1144,7 +1265,8 @@
             "caractere": {
               "Courageux": 2,
               "Loyal": 2,
-              "Impulsif": 2
+              "Impulsif": 2,
+              "Vengeur": 2
             }
           }
         },
@@ -1209,7 +1331,8 @@
           "tags": {
             "physique": [
               "Mince",
-              "Tatoué"
+              "Tatoué",
+              "Couvre-chef"
             ],
             "role": [
               "Allié",
@@ -1217,7 +1340,8 @@
               "Médecin",
               "Pirate",
               "Criminel",
-              "Survivant"
+              "Survivant",
+              "Orphelin"
             ],
             "style-de-combat": [
               "Intelligence tactique",
@@ -1230,18 +1354,22 @@
               "Calme",
               "Intelligent",
               "Déterminé",
-              "Stratège"
+              "Stratège",
+              "Vengeur",
+              "Froid"
             ]
           },
           "tagRarity": {
             "physique": {
-              "Tatoué": 3
+              "Tatoué": 3,
+              "Couvre-chef": 3
             },
             "role": {
               "Leader": 3,
               "Médecin": 3,
               "Pirate": 2,
-              "Survivant": 2
+              "Survivant": 2,
+              "Orphelin": 2
             },
             "style-de-combat": {
               "Intelligence tactique": 2,
@@ -1254,7 +1382,9 @@
               "Calme": 2,
               "Intelligent": 2,
               "Déterminé": 2,
-              "Stratège": 3
+              "Stratège": 3,
+              "Vengeur": 3,
+              "Froid": 2
             }
           }
         },
@@ -1278,7 +1408,8 @@
               "Personnage secondaire",
               "Allié",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Navigateur"
             ],
             "style-de-combat": [
               "Arts martiaux"
@@ -1295,7 +1426,8 @@
               "Animal anthropomorphe": 3
             },
             "role": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Navigateur": 2
             },
             "style-de-combat": {
               "Arts martiaux": 3
@@ -1321,7 +1453,9 @@
             "physique": [
               "Musclé",
               "Cheveux colorés",
-              "Cicatrice"
+              "Cicatrice",
+              "Cape",
+              "Prothèse / Membre manquant"
             ],
             "role": [
               "Rival",
@@ -1337,14 +1471,17 @@
               "Arrogant",
               "Déterminé",
               "Impulsif",
-              "Provocateur"
+              "Provocateur",
+              "Vengeur"
             ]
           },
           "tagRarity": {
             "physique": {
               "Musclé": 2,
               "Cheveux colorés": 3,
-              "Cicatrice": 2
+              "Cicatrice": 2,
+              "Cape": 3,
+              "Prothèse / Membre manquant": 3
             },
             "role": {
               "Rival": 3,
@@ -1359,7 +1496,8 @@
               "Arrogant": 2,
               "Déterminé": 2,
               "Impulsif": 2,
-              "Provocateur": 2
+              "Provocateur": 2,
+              "Vengeur": 2
             }
           }
         },
@@ -1375,7 +1513,8 @@
           },
           "tags": {
             "physique": [
-              "Cheveux longs"
+              "Cheveux longs",
+              "Masque"
             ],
             "role": [
               "Personnage secondaire",
@@ -1395,7 +1534,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Cheveux longs": 2
+              "Cheveux longs": 2,
+              "Masque": 3
             },
             "role": {
               "Bras droit": 3,
@@ -1424,7 +1564,9 @@
           "tags": {
             "physique": [
               "Corpulent",
-              "Barbu"
+              "Barbu",
+              "Couvre-chef",
+              "Cape"
             ],
             "role": [
               "Antagoniste",
@@ -1442,13 +1584,15 @@
               "Manipulateur",
               "Sadique",
               "Déterminé",
-              "Gourmand"
+              "Gourmand",
+              "Fêtard"
             ]
           },
           "tagRarity": {
             "physique": {
               "Corpulent": 3,
-              "Barbu": 3
+              "Barbu": 3,
+              "Cape": 2
             },
             "role": {
               "Antagoniste": 2,
@@ -1465,7 +1609,8 @@
               "Manipulateur": 2,
               "Sadique": 2,
               "Déterminé": 3,
-              "Gourmand": 2
+              "Gourmand": 2,
+              "Fêtard": 2
             }
           }
         },
@@ -1486,7 +1631,8 @@
               "Cicatrice",
               "Cornes",
               "Non-humain",
-              "Démon"
+              "Démon",
+              "Cape"
             ],
             "role": [
               "Antagoniste",
@@ -1506,7 +1652,8 @@
               "Colérique",
               "Sadique",
               "Déterminé",
-              "Impulsif"
+              "Impulsif",
+              "Fêtard"
             ]
           },
           "tagRarity": {
@@ -1530,7 +1677,8 @@
             },
             "caractere": {
               "Colérique": 2,
-              "Sadique": 2
+              "Sadique": 2,
+              "Fêtard": 3
             }
           }
         },
@@ -1605,7 +1753,8 @@
               "Grand",
               "Musclé",
               "Ailes",
-              "Non-humain"
+              "Non-humain",
+              "Masque"
             ],
             "role": [
               "Antagoniste",
@@ -1622,14 +1771,16 @@
             "caractere": [
               "Sérieux",
               "Sadique",
-              "Loyal"
+              "Loyal",
+              "Froid"
             ]
           },
           "tagRarity": {
             "physique": {
               "Grand": 2,
               "Ailes": 3,
-              "Non-humain": 2
+              "Non-humain": 2,
+              "Masque": 3
             },
             "role": {
               "Bras droit": 3,
@@ -1643,7 +1794,8 @@
             },
             "caractere": {
               "Sérieux": 2,
-              "Loyal": 2
+              "Loyal": 2,
+              "Froid": 2
             }
           }
         },
@@ -1675,7 +1827,8 @@
             "caractere": [
               "Joyeux",
               "Arrogant",
-              "Sadique"
+              "Sadique",
+              "Excentrique"
             ]
           },
           "tagRarity": {
@@ -1693,7 +1846,8 @@
             },
             "caractere": {
               "Joyeux": 2,
-              "Sadique": 2
+              "Sadique": 2,
+              "Excentrique": 3
             }
           }
         },
@@ -1710,7 +1864,8 @@
           "tags": {
             "physique": [
               "Grand",
-              "Musclé"
+              "Musclé",
+              "Masque"
             ],
             "role": [
               "Antagoniste",
@@ -1729,7 +1884,8 @@
           "tagRarity": {
             "physique": {
               "Grand": 2,
-              "Musclé": 2
+              "Musclé": 2,
+              "Masque": 2
             },
             "role": {
               "Pirate": 2
@@ -1758,7 +1914,8 @@
             "physique": [
               "Grand",
               "Musclé",
-              "Lunettes"
+              "Lunettes",
+              "Cape"
             ],
             "role": [
               "Antagoniste",
@@ -1770,7 +1927,8 @@
             ],
             "style-de-combat": [
               "Intelligence tactique",
-              "Pouvoir psychique"
+              "Pouvoir psychique",
+              "Fils / Chaînes"
             ],
             "caractere": [
               "Arrogant",
@@ -1783,7 +1941,8 @@
           "tagRarity": {
             "physique": {
               "Grand": 2,
-              "Lunettes": 3
+              "Lunettes": 3,
+              "Cape": 3
             },
             "role": {
               "Antagoniste": 3,
@@ -1793,7 +1952,8 @@
             },
             "style-de-combat": {
               "Intelligence tactique": 2,
-              "Pouvoir psychique": 3
+              "Pouvoir psychique": 2,
+              "Fils / Chaînes": 3
             },
             "caractere": {
               "Arrogant": 3,
@@ -1827,7 +1987,8 @@
               "Leader",
               "Roi / Reine",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Esclave / Opprimé"
             ],
             "style-de-combat": [
               "Arts martiaux",
@@ -1835,7 +1996,8 @@
             ],
             "caractere": [
               "Arrogant",
-              "Vaniteux"
+              "Vaniteux",
+              "Romantique"
             ]
           },
           "tagRarity": {
@@ -1846,7 +2008,8 @@
             "role": {
               "Leader": 2,
               "Roi / Reine": 3,
-              "Pirate": 2
+              "Pirate": 2,
+              "Esclave / Opprimé": 3
             },
             "style-de-combat": {
               "Arts martiaux": 2,
@@ -1854,7 +2017,8 @@
             },
             "caractere": {
               "Arrogant": 3,
-              "Vaniteux": 3
+              "Vaniteux": 3,
+              "Romantique": 3
             }
           }
         },
@@ -1870,7 +2034,10 @@
           },
           "tags": {
             "physique": [
-              "Moustachu"
+              "Moustachu",
+              "Couvre-chef",
+              "Cape",
+              "Yeux spéciaux"
             ],
             "role": [
               "Rival",
@@ -1884,12 +2051,16 @@
             ],
             "caractere": [
               "Calme",
-              "Solitaire"
+              "Solitaire",
+              "Froid"
             ]
           },
           "tagRarity": {
             "physique": {
-              "Moustachu": 2
+              "Moustachu": 2,
+              "Couvre-chef": 2,
+              "Cape": 2,
+              "Yeux spéciaux": 3
             },
             "role": {
               "Rival": 2,
@@ -1902,7 +2073,8 @@
             },
             "caractere": {
               "Calme": 3,
-              "Solitaire": 3
+              "Solitaire": 3,
+              "Froid": 2
             }
           }
         },
@@ -1918,14 +2090,17 @@
           },
           "tags": {
             "physique": [
-              "Cicatrice"
+              "Cicatrice",
+              "Cape",
+              "Prothèse / Membre manquant"
             ],
             "role": [
               "Antagoniste",
               "Leader",
               "Pirate",
               "Criminel",
-              "Prisonnier"
+              "Prisonnier",
+              "Ennemi devenu allié"
             ],
             "style-de-combat": [
               "Intelligence tactique",
@@ -1935,17 +2110,21 @@
               "Sérieux",
               "Manipulateur",
               "Déterminé",
-              "Stratège"
+              "Stratège",
+              "Froid"
             ]
           },
           "tagRarity": {
             "physique": {
-              "Cicatrice": 3
+              "Cicatrice": 3,
+              "Cape": 2,
+              "Prothèse / Membre manquant": 3
             },
             "role": {
               "Antagoniste": 3,
               "Leader": 2,
-              "Pirate": 2
+              "Pirate": 2,
+              "Ennemi devenu allié": 2
             },
             "style-de-combat": {
               "Intelligence tactique": 2,
@@ -1954,7 +2133,8 @@
             "caractere": {
               "Sérieux": 2,
               "Manipulateur": 2,
-              "Stratège": 3
+              "Stratège": 3,
+              "Froid": 2
             }
           }
         },
@@ -1974,16 +2154,23 @@
               "Leader",
               "Empereur",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Ennemi devenu allié"
             ],
             "style-de-combat": [
-              "Transformation"
+              "Transformation",
+              "Explosions"
             ],
             "caractere": [
               "Joyeux",
               "Arrogant",
               "Peureux",
-              "Vaniteux"
+              "Vaniteux",
+              "Excentrique"
+            ],
+            "physique": [
+              "Couvre-chef",
+              "Cape"
             ]
           },
           "tagRarity": {
@@ -1991,16 +2178,23 @@
               "Antagoniste": 2,
               "Leader": 2,
               "Empereur": 2,
-              "Pirate": 2
+              "Pirate": 2,
+              "Ennemi devenu allié": 2
             },
             "style-de-combat": {
-              "Transformation": 3
+              "Transformation": 3,
+              "Explosions": 3
             },
             "caractere": {
               "Joyeux": 2,
               "Arrogant": 2,
               "Peureux": 3,
-              "Vaniteux": 2
+              "Vaniteux": 2,
+              "Excentrique": 2
+            },
+            "physique": {
+              "Couvre-chef": 2,
+              "Cape": 2
             }
           }
         },
@@ -2068,14 +2262,16 @@
             "physique": [
               "Femme",
               "Cheveux longs",
-              "Cheveux colorés"
+              "Cheveux colorés",
+              "Couvre-chef"
             ],
             "role": [
               "Allié",
               "Leader",
               "Pirate",
               "Criminel",
-              "Prisonnier"
+              "Prisonnier",
+              "Fugitif"
             ],
             "style-de-combat": [
               "Magie"
@@ -2088,11 +2284,13 @@
           },
           "tagRarity": {
             "physique": {
-              "Cheveux colorés": 2
+              "Cheveux colorés": 2,
+              "Couvre-chef": 2
             },
             "role": {
               "Pirate": 2,
-              "Prisonnier": 2
+              "Prisonnier": 2,
+              "Fugitif": 2
             },
             "style-de-combat": {
               "Magie": 3
@@ -2119,14 +2317,17 @@
               "Grand",
               "Musclé",
               "Non-humain",
-              "Cyborg"
+              "Cyborg",
+              "Couvre-chef"
             ],
             "role": [
               "Allié",
               "Combattant",
               "Pirate",
               "Criminel",
-              "Prisonnier"
+              "Prisonnier",
+              "Esclave / Opprimé",
+              "Révolutionnaire"
             ],
             "style-de-combat": [
               "Télékinésie",
@@ -2143,11 +2344,14 @@
             "physique": {
               "Grand": 2,
               "Non-humain": 2,
-              "Cyborg": 3
+              "Cyborg": 3,
+              "Couvre-chef": 2
             },
             "role": {
               "Combattant": 2,
-              "Prisonnier": 2
+              "Prisonnier": 2,
+              "Esclave / Opprimé": 3,
+              "Révolutionnaire": 2
             },
             "style-de-combat": {
               "Télékinésie": 2,
@@ -2174,7 +2378,8 @@
           "tags": {
             "physique": [
               "Grand",
-              "Corpulent"
+              "Corpulent",
+              "Cape"
             ],
             "role": [
               "Antagoniste",
@@ -2194,7 +2399,8 @@
           "tagRarity": {
             "physique": {
               "Grand": 3,
-              "Corpulent": 2
+              "Corpulent": 2,
+              "Cape": 2
             },
             "role": {
               "Antagoniste": 2,
@@ -2224,19 +2430,22 @@
               "Femme",
               "Mince",
               "Cheveux longs",
-              "Cheveux colorés"
+              "Cheveux colorés",
+              "Couvre-chef"
             ],
             "role": [
               "Antagoniste",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Ennemi devenu allié"
             ],
             "style-de-combat": [
               "Invocation"
             ],
             "caractere": [
               "Peureux",
-              "Égoïste"
+              "Égoïste",
+              "Excentrique"
             ]
           },
           "tagRarity": {
@@ -2244,14 +2453,16 @@
               "Cheveux colorés": 3
             },
             "role": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Ennemi devenu allié": 2
             },
             "style-de-combat": {
               "Invocation": 3
             },
             "caractere": {
               "Peureux": 2,
-              "Égoïste": 2
+              "Égoïste": 2,
+              "Excentrique": 2
             }
           }
         },
@@ -2270,13 +2481,15 @@
               "Grand",
               "Musclé",
               "Tatoué",
-              "Non-humain"
+              "Non-humain",
+              "Peau colorée"
             ],
             "role": [
               "Antagoniste",
               "Leader",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Esclave / Opprimé"
             ],
             "style-de-combat": [
               "Combat à mains nues"
@@ -2284,18 +2497,21 @@
             "caractere": [
               "Colérique",
               "Arrogant",
-              "Sadique"
+              "Sadique",
+              "Vengeur"
             ]
           },
           "tagRarity": {
             "physique": {
               "Tatoué": 2,
-              "Non-humain": 3
+              "Non-humain": 3,
+              "Peau colorée": 3
             },
             "role": {
               "Antagoniste": 3,
               "Leader": 2,
-              "Pirate": 2
+              "Pirate": 2,
+              "Esclave / Opprimé": 2
             },
             "style-de-combat": {
               "Combat à mains nues": 2
@@ -2303,7 +2519,8 @@
             "caractere": {
               "Colérique": 2,
               "Arrogant": 3,
-              "Sadique": 2
+              "Sadique": 2,
+              "Vengeur": 2
             }
           }
         },
@@ -2320,14 +2537,16 @@
           "tags": {
             "physique": [
               "Âgé",
-              "Cheveux longs"
+              "Cheveux longs",
+              "Prothèse / Membre manquant"
             ],
             "role": [
               "Antagoniste",
               "Leader",
               "Pirate",
               "Criminel",
-              "Prisonnier"
+              "Prisonnier",
+              "Fugitif"
             ],
             "style-de-combat": [
               "Épée",
@@ -2341,12 +2560,14 @@
           },
           "tagRarity": {
             "physique": {
-              "Âgé": 2
+              "Âgé": 2,
+              "Prothèse / Membre manquant": 3
             },
             "role": {
               "Leader": 2,
               "Pirate": 2,
-              "Prisonnier": 2
+              "Prisonnier": 2,
+              "Fugitif": 2
             },
             "style-de-combat": {
               "Épée": 2,
@@ -2385,7 +2606,8 @@
             "caractere": [
               "Joyeux",
               "Loyal",
-              "Impulsif"
+              "Impulsif",
+              "Excentrique"
             ]
           },
           "tagRarity": {
@@ -2401,7 +2623,8 @@
             },
             "caractere": {
               "Loyal": 3,
-              "Impulsif": 2
+              "Impulsif": 2,
+              "Excentrique": 2
             }
           }
         },
@@ -2419,13 +2642,16 @@
             "physique": [
               "Âgé",
               "Musclé",
-              "Moustachu"
+              "Moustachu",
+              "Couvre-chef",
+              "Prothèse / Membre manquant"
             ],
             "role": [
               "Mentor",
               "Maître",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Cuisinier"
             ],
             "style-de-combat": [
               "Arts martiaux"
@@ -2438,11 +2664,14 @@
           "tagRarity": {
             "physique": {
               "Âgé": 2,
-              "Moustachu": 3
+              "Moustachu": 3,
+              "Couvre-chef": 3,
+              "Prothèse / Membre manquant": 3
             },
             "role": {
               "Mentor": 3,
-              "Maître": 2
+              "Maître": 2,
+              "Cuisinier": 3
             },
             "style-de-combat": {
               "Arts martiaux": 3
@@ -2465,7 +2694,8 @@
           "tags": {
             "physique": [
               "Musclé",
-              "Non-humain"
+              "Non-humain",
+              "Peau colorée"
             ],
             "role": [
               "Antagoniste",
@@ -2480,12 +2710,14 @@
             "caractere": [
               "Colérique",
               "Arrogant",
-              "Sadique"
+              "Sadique",
+              "Vengeur"
             ]
           },
           "tagRarity": {
             "physique": {
-              "Non-humain": 3
+              "Non-humain": 3,
+              "Peau colorée": 3
             },
             "role": {
               "Antagoniste": 3,
@@ -2498,7 +2730,8 @@
             "caractere": {
               "Colérique": 2,
               "Arrogant": 2,
-              "Sadique": 3
+              "Sadique": 3,
+              "Vengeur": 3
             }
           }
         },
@@ -2565,7 +2798,9 @@
               "Femme",
               "Âgé",
               "Grand",
-              "Cheveux colorés"
+              "Cheveux colorés",
+              "Couvre-chef",
+              "Cape"
             ],
             "role": [
               "Antagoniste",
@@ -2590,7 +2825,9 @@
             "physique": {
               "Âgé": 2,
               "Grand": 3,
-              "Cheveux colorés": 2
+              "Cheveux colorés": 2,
+              "Couvre-chef": 2,
+              "Cape": 2
             },
             "role": {
               "Antagoniste": 3,
@@ -2625,7 +2862,8 @@
               "Grand",
               "Musclé",
               "Cicatrice",
-              "Tatoué"
+              "Tatoué",
+              "Cape"
             ],
             "role": [
               "Antagoniste",
@@ -2635,7 +2873,8 @@
             ],
             "style-de-combat": [
               "Arme blanche",
-              "Transformation"
+              "Transformation",
+              "Prémonition"
             ],
             "caractere": [
               "Calme",
@@ -2654,7 +2893,8 @@
             },
             "style-de-combat": {
               "Arme blanche": 3,
-              "Transformation": 2
+              "Transformation": 2,
+              "Prémonition": 3
             },
             "caractere": {
               "Calme": 2,
@@ -2677,7 +2917,8 @@
             "physique": [
               "Femme",
               "Cheveux longs",
-              "Non-humain"
+              "Non-humain",
+              "Yeux spéciaux"
             ],
             "role": [
               "Antagoniste",
@@ -2685,29 +2926,34 @@
               "Prince / Princesse",
               "Pirate",
               "Criminel",
-              "Traître"
+              "Traître",
+              "Ennemi devenu allié"
             ],
             "style-de-combat": [
               "Pouvoir psychique"
             ],
             "caractere": [
-              "Manipulateur"
+              "Manipulateur",
+              "Romantique"
             ]
           },
           "tagRarity": {
             "physique": {
-              "Non-humain": 2
+              "Non-humain": 2,
+              "Yeux spéciaux": 3
             },
             "role": {
               "Prince / Princesse": 2,
               "Pirate": 2,
-              "Traître": 2
+              "Traître": 2,
+              "Ennemi devenu allié": 2
             },
             "style-de-combat": {
               "Pouvoir psychique": 3
             },
             "caractere": {
-              "Manipulateur": 3
+              "Manipulateur": 3,
+              "Romantique": 2
             }
           }
         },
@@ -2723,7 +2969,8 @@
           },
           "tags": {
             "physique": [
-              "Grand"
+              "Grand",
+              "Couvre-chef"
             ],
             "role": [
               "Antagoniste",
@@ -2747,6 +2994,9 @@
             },
             "caractere": {
               "Manipulateur": 2
+            },
+            "physique": {
+              "Couvre-chef": 2
             }
           }
         },
@@ -2778,7 +3028,8 @@
             ],
             "caractere": [
               "Sérieux",
-              "Calme"
+              "Calme",
+              "Froid"
             ]
           },
           "tagRarity": {
@@ -2793,7 +3044,8 @@
               "Absorption d'énergie": 3
             },
             "caractere": {
-              "Calme": 2
+              "Calme": 2,
+              "Froid": 2
             }
           }
         },
@@ -2906,7 +3158,8 @@
             ],
             "caractere": [
               "Sérieux",
-              "Sadique"
+              "Sadique",
+              "Froid"
             ]
           },
           "tagRarity": {
@@ -2919,7 +3172,8 @@
             },
             "caractere": {
               "Sérieux": 2,
-              "Sadique": 2
+              "Sadique": 2,
+              "Froid": 2
             }
           }
         },
@@ -2982,7 +3236,8 @@
             "physique": [
               "Cheveux longs",
               "Cornes",
-              "Non-humain"
+              "Non-humain",
+              "Yeux spéciaux"
             ],
             "role": [
               "Antagoniste",
@@ -2994,13 +3249,15 @@
             ],
             "caractere": [
               "Sadique",
-              "Mystérieux"
+              "Mystérieux",
+              "Froid"
             ]
           },
           "tagRarity": {
             "physique": {
               "Cornes": 3,
-              "Non-humain": 2
+              "Non-humain": 2,
+              "Yeux spéciaux": 3
             },
             "role": {
               "Antagoniste": 3,
@@ -3012,7 +3269,8 @@
             },
             "caractere": {
               "Sadique": 3,
-              "Mystérieux": 3
+              "Mystérieux": 3,
+              "Froid": 2
             }
           }
         },
@@ -3167,7 +3425,8 @@
             "physique": [
               "Âgé",
               "Chauve",
-              "Cicatrice"
+              "Cicatrice",
+              "Tenue traditionnelle"
             ],
             "role": [
               "Antagoniste",
@@ -3180,13 +3439,15 @@
             ],
             "caractere": [
               "Sérieux",
-              "Calme"
+              "Calme",
+              "Froid"
             ]
           },
           "tagRarity": {
             "physique": {
               "Âgé": 2,
-              "Chauve": 2
+              "Chauve": 2,
+              "Tenue traditionnelle": 2
             },
             "role": {
               "Conseiller": 3
@@ -3258,7 +3519,8 @@
               "Cheveux longs",
               "Cheveux blancs",
               "Barbu",
-              "Lunettes"
+              "Lunettes",
+              "Cape"
             ],
             "role": [
               "Antagoniste",
@@ -3271,13 +3533,15 @@
             ],
             "caractere": [
               "Arrogant",
-              "Sadique"
+              "Sadique",
+              "Froid"
             ]
           },
           "tagRarity": {
             "physique": {
               "Âgé": 2,
-              "Cheveux blancs": 2
+              "Cheveux blancs": 2,
+              "Cape": 2
             },
             "role": {
               "Antagoniste": 2,
@@ -3290,7 +3554,8 @@
             },
             "caractere": {
               "Arrogant": 2,
-              "Sadique": 2
+              "Sadique": 2,
+              "Froid": 2
             }
           }
         },
@@ -3317,7 +3582,8 @@
             ],
             "caractere": [
               "Sérieux",
-              "Arrogant"
+              "Arrogant",
+              "Froid"
             ]
           },
           "tagRarity": {
@@ -3329,7 +3595,8 @@
               "Épée": 2
             },
             "caractere": {
-              "Arrogant": 2
+              "Arrogant": 2,
+              "Froid": 2
             }
           }
         },
@@ -3417,14 +3684,17 @@
           },
           "tags": {
             "physique": [
-              "Femme"
+              "Femme",
+              "Couvre-chef",
+              "Masque"
             ],
             "role": [
               "Antagoniste",
               "Soldat"
             ],
             "style-de-combat": [
-              "Armes à feu"
+              "Armes à feu",
+              "Armes à distance"
             ],
             "caractere": [
               "Sérieux",
@@ -3436,10 +3706,14 @@
               "Soldat": 2
             },
             "style-de-combat": {
-              "Armes à feu": 3
+              "Armes à feu": 3,
+              "Armes à distance": 3
             },
             "caractere": {
               "Loyal": 2
+            },
+            "physique": {
+              "Masque": 2
             }
           }
         },
@@ -3456,7 +3730,10 @@
           "tags": {
             "physique": [
               "Musclé",
-              "Cicatrice"
+              "Cicatrice",
+              "Couvre-chef",
+              "Cape",
+              "Uniforme militaire"
             ],
             "role": [
               "Antagoniste",
@@ -3469,12 +3746,16 @@
             ],
             "caractere": [
               "Sérieux",
-              "Sadique"
+              "Sadique",
+              "Froid"
             ]
           },
           "tagRarity": {
             "physique": {
-              "Cicatrice": 2
+              "Cicatrice": 2,
+              "Couvre-chef": 2,
+              "Cape": 2,
+              "Uniforme militaire": 2
             },
             "role": {
               "Antagoniste": 2,
@@ -3487,7 +3768,8 @@
             },
             "caractere": {
               "Sérieux": 3,
-              "Sadique": 3
+              "Sadique": 3,
+              "Froid": 2
             }
           }
         },
@@ -3503,7 +3785,9 @@
           },
           "tags": {
             "physique": [
-              "Grand"
+              "Grand",
+              "Cape",
+              "Uniforme militaire"
             ],
             "role": [
               "Antagoniste",
@@ -3522,7 +3806,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Grand": 2
+              "Grand": 2,
+              "Cape": 2
             },
             "role": {
               "Soldat": 2,
@@ -3550,7 +3835,9 @@
           "tags": {
             "physique": [
               "Âgé",
-              "Lunettes"
+              "Lunettes",
+              "Cape",
+              "Uniforme militaire"
             ],
             "role": [
               "Antagoniste",
@@ -3568,7 +3855,9 @@
           },
           "tagRarity": {
             "physique": {
-              "Lunettes": 3
+              "Lunettes": 3,
+              "Cape": 2,
+              "Uniforme militaire": 2
             },
             "role": {
               "Soldat": 2,
@@ -3598,7 +3887,9 @@
             "physique": [
               "Cheveux longs",
               "Cheveux colorés",
-              "Lunettes"
+              "Lunettes",
+              "Cape",
+              "Uniforme militaire"
             ],
             "role": [
               "Antagoniste",
@@ -3616,7 +3907,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Lunettes": 2
+              "Lunettes": 2,
+              "Cape": 2
             },
             "role": {
               "Soldat": 2,
@@ -3643,7 +3935,10 @@
           },
           "tags": {
             "physique": [
-              "Cicatrice"
+              "Cicatrice",
+              "Cape",
+              "Uniforme militaire",
+              "Tenue traditionnelle"
             ],
             "role": [
               "Soldat",
@@ -3652,7 +3947,8 @@
             "style-de-combat": [
               "Épée",
               "Katana",
-              "Télékinésie"
+              "Prémonition",
+              "Contrôle de la gravité"
             ],
             "caractere": [
               "Calme",
@@ -3661,7 +3957,9 @@
           },
           "tagRarity": {
             "physique": {
-              "Cicatrice": 3
+              "Cicatrice": 3,
+              "Cape": 2,
+              "Tenue traditionnelle": 2
             },
             "role": {
               "Soldat": 2,
@@ -3670,7 +3968,8 @@
             "style-de-combat": {
               "Épée": 2,
               "Katana": 2,
-              "Télékinésie": 3
+              "Contrôle de la gravité": 3,
+              "Prémonition": 2
             },
             "caractere": {
               "Calme": 3
@@ -3691,7 +3990,9 @@
             "physique": [
               "Âgé",
               "Barbu",
-              "Lunettes"
+              "Lunettes",
+              "Cape",
+              "Uniforme militaire"
             ],
             "role": [
               "Antagoniste",
@@ -3714,7 +4015,9 @@
             "physique": {
               "Âgé": 2,
               "Barbu": 3,
-              "Lunettes": 2
+              "Lunettes": 2,
+              "Cape": 2,
+              "Uniforme militaire": 2
             },
             "role": {
               "Leader": 2,
@@ -3747,7 +4050,9 @@
               "Âgé",
               "Musclé",
               "Cheveux blancs",
-              "Cicatrice"
+              "Cicatrice",
+              "Cape",
+              "Uniforme militaire"
             ],
             "role": [
               "Mentor",
@@ -3760,14 +4065,17 @@
             ],
             "caractere": [
               "Joyeux",
-              "Optimiste"
+              "Optimiste",
+              "Fêtard"
             ]
           },
           "tagRarity": {
             "physique": {
               "Âgé": 2,
               "Musclé": 2,
-              "Cheveux blancs": 2
+              "Cheveux blancs": 2,
+              "Cape": 2,
+              "Uniforme militaire": 2
             },
             "role": {
               "Mentor": 3,
@@ -3779,7 +4087,8 @@
               "Combat à mains nues": 2
             },
             "caractere": {
-              "Joyeux": 3
+              "Joyeux": 3,
+              "Fêtard": 2
             }
           }
         },
@@ -3795,7 +4104,9 @@
           },
           "tags": {
             "physique": [
-              "Musclé"
+              "Musclé",
+              "Cape",
+              "Uniforme militaire"
             ],
             "role": [
               "Allié",
@@ -3804,7 +4115,8 @@
               "Soldat"
             ],
             "style-de-combat": [
-              "Combat à mains nues"
+              "Combat à mains nues",
+              "Prémonition"
             ],
             "caractere": [
               "Courageux",
@@ -3819,11 +4131,15 @@
               "Soldat": 3
             },
             "style-de-combat": {
-              "Combat à mains nues": 2
+              "Combat à mains nues": 2,
+              "Prémonition": 2
             },
             "caractere": {
               "Courageux": 3,
               "Déterminé": 2
+            },
+            "physique": {
+              "Uniforme militaire": 3
             }
           }
         },
@@ -3841,7 +4157,9 @@
             "physique": [
               "Musclé",
               "Cheveux blancs",
-              "Cicatrice"
+              "Cicatrice",
+              "Cape",
+              "Uniforme militaire"
             ],
             "role": [
               "Rival",
@@ -3849,7 +4167,8 @@
             ],
             "style-de-combat": [
               "Arme lourde",
-              "Contrôle du vent"
+              "Contrôle du vent",
+              "Scellement"
             ],
             "caractere": [
               "Sérieux",
@@ -3859,7 +4178,9 @@
           "tagRarity": {
             "physique": {
               "Cheveux blancs": 3,
-              "Cicatrice": 2
+              "Cicatrice": 2,
+              "Cape": 2,
+              "Uniforme militaire": 2
             },
             "role": {
               "Rival": 3,
@@ -3867,7 +4188,8 @@
             },
             "style-de-combat": {
               "Arme lourde": 2,
-              "Contrôle du vent": 2
+              "Contrôle du vent": 2,
+              "Scellement": 2
             },
             "caractere": {
               "Sérieux": 3
@@ -3888,7 +4210,8 @@
             "physique": [
               "Femme",
               "Mince",
-              "Lunettes"
+              "Lunettes",
+              "Uniforme militaire"
             ],
             "role": [
               "Personnage secondaire",
@@ -3907,7 +4230,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Lunettes": 3
+              "Lunettes": 3,
+              "Uniforme militaire": 2
             },
             "role": {
               "Rival": 2,
@@ -3939,7 +4263,8 @@
             ],
             "role": [
               "Allié",
-              "Scientifique"
+              "Scientifique",
+              "Fugitif"
             ],
             "style-de-combat": [
               "Intelligence tactique"
@@ -3947,7 +4272,8 @@
             "caractere": [
               "Intelligent",
               "Généreux",
-              "Curieux"
+              "Curieux",
+              "Excentrique"
             ]
           },
           "tagRarity": {
@@ -3964,7 +4290,8 @@
             "caractere": {
               "Intelligent": 3,
               "Généreux": 2,
-              "Curieux": 3
+              "Curieux": 3,
+              "Excentrique": 3
             }
           }
         },
@@ -3981,7 +4308,8 @@
           "tags": {
             "physique": [
               "Musclé",
-              "Barbu"
+              "Barbu",
+              "Couvre-chef"
             ],
             "role": [
               "Antagoniste",
@@ -3995,12 +4323,14 @@
             ],
             "caractere": [
               "Sérieux",
-              "Sadique"
+              "Sadique",
+              "Froid"
             ]
           },
           "tagRarity": {
             "physique": {
-              "Barbu": 2
+              "Barbu": 2,
+              "Couvre-chef": 2
             },
             "role": {
               "Antagoniste": 2,
@@ -4014,7 +4344,8 @@
             },
             "caractere": {
               "Sérieux": 3,
-              "Sadique": 3
+              "Sadique": 3,
+              "Froid": 3
             }
           }
         },
@@ -4030,7 +4361,8 @@
           },
           "tags": {
             "physique": [
-              "Grand"
+              "Grand",
+              "Couvre-chef"
             ],
             "role": [
               "Mentor",
@@ -4039,7 +4371,7 @@
               "Traître"
             ],
             "style-de-combat": [
-              "Barrière / Bouclier"
+              "Contrôle du son"
             ],
             "caractere": [
               "Naïf",
@@ -4054,13 +4386,16 @@
               "Espion": 3,
               "Traître": 2
             },
-            "style-de-combat": {
-              "Barrière / Bouclier": 3
-            },
             "caractere": {
               "Naïf": 2,
               "Généreux": 2,
               "Protecteur": 2
+            },
+            "physique": {
+              "Couvre-chef": 2
+            },
+            "style-de-combat": {
+              "Contrôle du son": 3
             }
           }
         },
@@ -4120,12 +4455,14 @@
           },
           "tags": {
             "physique": [
-              "Tatoué"
+              "Tatoué",
+              "Cape"
             ],
             "role": [
               "Leader",
               "Combattant",
-              "Criminel"
+              "Criminel",
+              "Révolutionnaire"
             ],
             "style-de-combat": [
               "Contrôle du vent"
@@ -4138,11 +4475,13 @@
           },
           "tagRarity": {
             "physique": {
-              "Tatoué": 3
+              "Tatoué": 3,
+              "Cape": 3
             },
             "role": {
               "Leader": 3,
-              "Combattant": 3
+              "Combattant": 3,
+              "Révolutionnaire": 3
             },
             "style-de-combat": {
               "Contrôle du vent": 3
@@ -4166,14 +4505,18 @@
           },
           "tags": {
             "physique": [
-              "Cicatrice"
+              "Cicatrice",
+              "Couvre-chef",
+              "Cape"
             ],
             "role": [
               "Allié",
               "Bras droit",
               "Combattant",
               "Criminel",
-              "Survivant"
+              "Survivant",
+              "Orphelin",
+              "Révolutionnaire"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -4186,12 +4529,16 @@
           },
           "tagRarity": {
             "physique": {
-              "Cicatrice": 2
+              "Cicatrice": 2,
+              "Couvre-chef": 3,
+              "Cape": 2
             },
             "role": {
               "Bras droit": 2,
               "Combattant": 3,
-              "Survivant": 2
+              "Survivant": 2,
+              "Orphelin": 2,
+              "Révolutionnaire": 3
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
@@ -4221,7 +4568,8 @@
               "Allié",
               "Leader",
               "Combattant",
-              "Criminel"
+              "Criminel",
+              "Révolutionnaire"
             ],
             "style-de-combat": [
               "Transformation"
@@ -4229,7 +4577,8 @@
             "caractere": [
               "Joyeux",
               "Loyal",
-              "Curieux"
+              "Curieux",
+              "Excentrique"
             ]
           },
           "tagRarity": {
@@ -4238,14 +4587,16 @@
             },
             "role": {
               "Leader": 2,
-              "Combattant": 2
+              "Combattant": 2,
+              "Révolutionnaire": 3
             },
             "style-de-combat": {
               "Transformation": 3
             },
             "caractere": {
               "Joyeux": 2,
-              "Loyal": 2
+              "Loyal": 2,
+              "Excentrique": 3
             }
           }
         },
@@ -4264,7 +4615,8 @@
               "Personnage secondaire",
               "Allié",
               "Combattant",
-              "Criminel"
+              "Criminel",
+              "Révolutionnaire"
             ],
             "style-de-combat": [
               "Transformation"
@@ -4272,17 +4624,24 @@
             "caractere": [
               "Calme",
               "Mystérieux"
+            ],
+            "physique": [
+              "Masque"
             ]
           },
           "tagRarity": {
             "role": {
-              "Combattant": 2
+              "Combattant": 2,
+              "Révolutionnaire": 3
             },
             "style-de-combat": {
               "Transformation": 3
             },
             "caractere": {
               "Mystérieux": 2
+            },
+            "physique": {
+              "Masque": 2
             }
           }
         },
@@ -4304,7 +4663,8 @@
             ],
             "role": [
               "Allié",
-              "Prince / Princesse"
+              "Prince / Princesse",
+              "Ennemi devenu allié"
             ],
             "style-de-combat": [
               "Arme blanche"
@@ -4317,7 +4677,8 @@
           },
           "tagRarity": {
             "role": {
-              "Prince / Princesse": 3
+              "Prince / Princesse": 3,
+              "Ennemi devenu allié": 2
             },
             "style-de-combat": {
               "Arme blanche": 2
@@ -4342,7 +4703,8 @@
           "tags": {
             "physique": [
               "Musclé",
-              "Barbu"
+              "Barbu",
+              "Tenue traditionnelle"
             ],
             "role": [
               "Leader",
@@ -4362,7 +4724,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Barbu": 2
+              "Barbu": 2,
+              "Tenue traditionnelle": 3
             },
             "role": {
               "Leader": 2,
@@ -4394,7 +4757,8 @@
             "physique": [
               "Enfant",
               "Cheveux longs",
-              "Cheveux colorés"
+              "Cheveux colorés",
+              "Tenue traditionnelle"
             ],
             "role": [
               "Allié",
@@ -4403,7 +4767,8 @@
             ],
             "style-de-combat": [
               "Transformation",
-              "Vol"
+              "Vol",
+              "Scellement"
             ],
             "caractere": [
               "Naïf"
@@ -4411,7 +4776,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Enfant": 3
+              "Enfant": 3,
+              "Tenue traditionnelle": 2
             },
             "role": {
               "Leader": 2,
@@ -4419,7 +4785,8 @@
             },
             "style-de-combat": {
               "Transformation": 3,
-              "Vol": 2
+              "Vol": 2,
+              "Scellement": 2
             },
             "caractere": {
               "Naïf": 3
@@ -4446,12 +4813,14 @@
               "Roi / Reine"
             ],
             "style-de-combat": [
-              "Contrôle de la foudre"
+              "Contrôle de la foudre",
+              "Prémonition"
             ],
             "caractere": [
               "Arrogant",
               "Sadique",
-              "Égoïste"
+              "Égoïste",
+              "Excentrique"
             ]
           },
           "tagRarity": {
@@ -4463,12 +4832,14 @@
               "Roi / Reine": 2
             },
             "style-de-combat": {
-              "Contrôle de la foudre": 3
+              "Contrôle de la foudre": 3,
+              "Prémonition": 3
             },
             "caractere": {
               "Arrogant": 3,
               "Sadique": 2,
-              "Égoïste": 2
+              "Égoïste": 2,
+              "Excentrique": 2
             }
           }
         },
@@ -4490,7 +4861,8 @@
               "Cheveux colorés"
             ],
             "role": [
-              "Antagoniste"
+              "Antagoniste",
+              "Musicien / Artiste"
             ],
             "style-de-combat": [
               "Illusion"
@@ -4505,7 +4877,8 @@
               "Cheveux colorés": 3
             },
             "role": {
-              "Antagoniste": 2
+              "Antagoniste": 2,
+              "Musicien / Artiste": 3
             },
             "style-de-combat": {
               "Illusion": 3
@@ -4581,7 +4954,8 @@
           },
           "tags": {
             "physique": [
-              "Cheveux colorés"
+              "Cheveux colorés",
+              "Tenue traditionnelle"
             ],
             "role": [
               "Personnage secondaire",
@@ -4608,6 +4982,9 @@
             },
             "caractere": {
               "Loyal": 3
+            },
+            "physique": {
+              "Tenue traditionnelle": 2
             }
           }
         },
@@ -4768,7 +5145,8 @@
           "tags": {
             "physique": [
               "Âgé",
-              "Moustachu"
+              "Moustachu",
+              "Couvre-chef"
             ],
             "role": [
               "Personnage secondaire",
@@ -4819,7 +5197,8 @@
             "caractere": [
               "Arrogant",
               "Sadique",
-              "Curieux"
+              "Curieux",
+              "Excentrique"
             ]
           },
           "tagRarity": {
@@ -4832,7 +5211,8 @@
             },
             "caractere": {
               "Arrogant": 2,
-              "Sadique": 3
+              "Sadique": 3,
+              "Excentrique": 3
             }
           }
         },
@@ -4848,7 +5228,8 @@
           },
           "tags": {
             "physique": [
-              "Corpulent"
+              "Corpulent",
+              "Couvre-chef"
             ],
             "role": [
               "Antagoniste",
