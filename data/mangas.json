@@ -224,11 +224,11 @@
               "Protagoniste": 3,
               "Leader": 2,
               "Empereur": 2,
-              "Pirate": 3
+              "Pirate": 2
             },
             "style-de-combat": {
               "Force brute": 2,
-              "Combat à mains nues": 3,
+              "Combat à mains nues": 2,
               "Transformation": 3
             },
             "caractere": {
@@ -712,7 +712,7 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Combat à mains nues": 3,
+              "Combat à mains nues": 2,
               "Arts martiaux": 2,
               "Contrôle de l'eau": 3
             },
@@ -757,7 +757,7 @@
             },
             "role": {
               "Leader": 3,
-              "Pirate": 3
+              "Pirate": 2
             },
             "style-de-combat": {
               "Épée": 2
@@ -863,7 +863,7 @@
               "Leader": 2,
               "Mentor": 2,
               "Empereur": 3,
-              "Pirate": 3
+              "Pirate": 2
             },
             "style-de-combat": {
               "Épée": 3
@@ -1042,7 +1042,7 @@
             "role": {
               "Leader": 2,
               "Empereur": 3,
-              "Pirate": 3
+              "Pirate": 2
             },
             "style-de-combat": {
               "Force brute": 3,
@@ -1141,7 +1141,7 @@
               "Tatoué": 2
             },
             "role": {
-              "Pirate": 3,
+              "Pirate": 2,
               "Prisonnier": 2
             },
             "style-de-combat": {
@@ -1247,7 +1247,7 @@
             "role": {
               "Leader": 3,
               "Médecin": 3,
-              "Pirate": 3,
+              "Pirate": 2,
               "Survivant": 2
             },
             "style-de-combat": {
@@ -1357,7 +1357,7 @@
             "role": {
               "Rival": 3,
               "Leader": 2,
-              "Pirate": 3
+              "Pirate": 2
             },
             "style-de-combat": {
               "Télékinésie": 3
@@ -1462,7 +1462,7 @@
               "Antagoniste": 2,
               "Leader": 2,
               "Empereur": 3,
-              "Pirate": 3,
+              "Pirate": 2,
               "Traître": 3
             },
             "style-de-combat": {
@@ -1528,7 +1528,7 @@
             "role": {
               "Antagoniste": 3,
               "Empereur": 3,
-              "Pirate": 3
+              "Pirate": 2
             },
             "style-de-combat": {
               "Force brute": 2,
@@ -2052,7 +2052,7 @@
             "role": {
               "Antagoniste": 2,
               "Leader": 2,
-              "Pirate": 3
+              "Pirate": 2
             },
             "style-de-combat": {
               "Force brute": 3,
@@ -2885,7 +2885,7 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Combat à mains nues": 3
+              "Combat à mains nues": 2
             },
             "caractere": {
               "Arrogant": 2,
@@ -3788,7 +3788,7 @@
             },
             "style-de-combat": {
               "Force brute": 3,
-              "Combat à mains nues": 3
+              "Combat à mains nues": 2
             },
             "caractere": {
               "Joyeux": 3
@@ -3832,7 +3832,7 @@
               "Soldat": 3
             },
             "style-de-combat": {
-              "Combat à mains nues": 3
+              "Combat à mains nues": 2
             },
             "caractere": {
               "Courageux": 3,
