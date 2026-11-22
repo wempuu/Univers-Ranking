@@ -719,3 +719,4 @@ html.wipe-in.wipe-go::before { animation: wipe-uncover .7s .12s cubic-bezier(.77
 }
 .is-pushed .reveal { opacity: 1; transform: none; transition-delay: 0s; }
 .c-small .poster-label { top: auto; bottom: 10px; }
+.c-side .poster-label { left: auto; right: 10px; }
