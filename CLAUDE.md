@@ -34,7 +34,7 @@ Plain static HTML/CSS/JS — no build step, no dependencies, no tests yet. Pages
 - `style.css` — shared styles (color tokens on `:root`) for every page, editorial dark look inspired by the "Tetsuo" theme: dark teal-tinted greys (`--bg #0b1214`, `--card #121c1f`), aqua-green `--accent #00e2b1` (user's choice, replaced the original orange; `--on-accent` for text on it), Barlow Condensed uppercase headings + Barlow body (Google Fonts), sharp 2px corners, outlined uppercase `.btn` (`.btn.solid` = accent color), faint vertical grid lines, image collages (`.collage` with `.duo` accent-colored duotone / `.bw` / `.framed`), shared `.site-footer` on every page; includes `.grid` / `.card` for game listings.
 - All pages share the same header/nav (logo = link to home, then Catalogue, Jeux; the user removed the "Accueil" link from the header, the footer still has it); keep them in sync when editing.
 - `.nojekyll` — tells GitHub Pages to serve files as-is.
-- Cache busting: every page loads `style.css?v=N` and `*.js?v=N`. GitHub Pages caches files for 10 minutes, so a browser can mix new HTML with old JS after a deploy. When changing any CSS/JS, bump `N` in all `*.html` files (currently `v=41`; e.g. `sed -i "s/?v=41\"/?v=42\"/g" *.html`).
+- Cache busting: every page loads `style.css?v=N` and `*.js?v=N`. GitHub Pages caches files for 10 minutes, so a browser can mix new HTML with old JS after a deploy. When changing any CSS/JS, bump `N` in all `*.html` files (currently `v=42`; e.g. `sed -i "s/?v=42\"/?v=43\"/g" *.html`).
 
 To add a game: create `jeux/<game>.html` (+ `.js`), link `../style.css`, and in `jeux.html` replace the `.empty` block with a `.grid` of `<a class="card">` entries.
 
