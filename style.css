@@ -728,7 +728,8 @@ html.wipe-in.wipe-go::before { animation: wipe-uncover .7s .12s cubic-bezier(.77
 .collage-game .c-main img { object-position: 10% 18%; } /* Naruto un peu plus à droite */
 /* « Qui est l'imposteur ? » en japonais, à droite de Naruto, lu de haut en bas */
 .collage-game .poster-jp {
-  left: calc(76% + 12px); top: 2%; transform: none;
-  font-family: "Yu Gothic", "Hiragino Sans", "Noto Sans JP", sans-serif; font-weight: 700;
-  font-size: 1rem; letter-spacing: .4em; color: var(--text);
+  left: auto; right: 6%; top: 2%; height: calc(58% - 10px); transform: none;
+  font-family: "Yu Gothic", "Hiragino Sans", "Noto Sans JP", sans-serif; font-weight: 400;
+  font-size: .78rem; letter-spacing: 0; color: var(--muted);
+  text-align: justify; text-align-last: justify; /* étalé du haut jusqu'au cadre d'Ichigo */
 }
