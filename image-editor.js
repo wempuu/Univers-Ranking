@@ -68,7 +68,7 @@ function openImageEditor({ title, current, source, crop, onSave, onError, onRemo
   }
 
   function draw() {
-    ctx.fillStyle = "#1f2142";
+    ctx.fillStyle = "#121c1f";
     ctx.fillRect(0, 0, IMG_OUT, IMG_OUT);
     if (!img) return;
     ctx.imageSmoothingQuality = "high";

@@ -1,6 +1,6 @@
 // Animations communes à toutes les pages (chargé dans <head>, après style.css) :
 // - clic sur n'importe quel bouton ou lien : petit enfoncement + balayage de couleur ;
-// - bouton ou lien qui mène à une autre page du site : volet orange puis noir qui recouvre l'écran,
+// - bouton ou lien qui mène à une autre page du site : volet vert puis sombre qui recouvre l'écran,
 //   et la page suivante se dévoile en le faisant remonter (comme le passage accueil → Undercover).
 (function () {
   const root = document.documentElement;
