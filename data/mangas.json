@@ -5245,6 +5245,59 @@
               "Gourmand": 2
             }
           }
+        },
+        {
+          "name": "Bon Clay",
+          "group": "autres",
+          "tags": {
+            "physique": [
+              "Grand",
+              "Mince",
+              "Cape"
+            ],
+            "role": [
+              "Antagoniste",
+              "Allié",
+              "Leader",
+              "Criminel",
+              "Prisonnier",
+              "Ennemi devenu allié"
+            ],
+            "style-de-combat": [
+              "Arts martiaux",
+              "Transformation"
+            ],
+            "caractere": [
+              "Joyeux",
+              "Courageux",
+              "Généreux",
+              "Loyal",
+              "Impulsif",
+              "Excentrique"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Grand": 2,
+              "Cape": 2
+            },
+            "role": {
+              "Allié": 2,
+              "Prisonnier": 2,
+              "Ennemi devenu allié": 3
+            },
+            "style-de-combat": {
+              "Arts martiaux": 3,
+              "Transformation": 3
+            },
+            "caractere": {
+              "Joyeux": 2,
+              "Courageux": 2,
+              "Généreux": 2,
+              "Loyal": 3,
+              "Excentrique": 3
+            }
+          }
         }
       ]
     },
