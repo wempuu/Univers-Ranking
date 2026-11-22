@@ -726,3 +726,5 @@ html.wipe-in.wipe-go::before { animation: wipe-uncover .7s .12s cubic-bezier(.77
 .collage-game .c-side { background: #f2f2f2; }
 .collage-game .c-side img { object-fit: contain; padding-top: 30px; object-position: center top; }
 .collage-game .c-main img { object-position: 10% 18%; } /* Naruto un peu plus à droite */
+.collage-game .c-side { height: auto; aspect-ratio: 1; } /* Luffy en carré, finit plus haut qu'Ichigo */
+.collage-game .c-side img { position: absolute; width: 98%; height: 98%; left: -11.5%; top: 5%; padding: 0; object-fit: contain; } /* Luffy le plus grand possible sans toucher l'étiquette ni être coupé */
