@@ -736,4 +736,4 @@ html.wipe-in.wipe-go::before { animation: wipe-uncover .7s .12s cubic-bezier(.77
 .fp-home .collage figure { height: auto; }
 .fp-home .c-main  { left: 14%; top: 0;   width: 62%; aspect-ratio: 1; }          /* One Piece, 1200×1200 */
 .fp-home .c-side  { left: 7%;  top: 55%; width: 40%; aspect-ratio: 660 / 720; }  /* Hunter × Hunter */
-.fp-home .c-small { right: 0;  top: 50%; width: 34%; aspect-ratio: 1; }          /* Dragon Ball, cadre blanc */
+.fp-home .c-small { right: 0;  top: 50%; width: 34%; aspect-ratio: 1; }          /* Dragon Ball */
