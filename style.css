@@ -729,5 +729,11 @@ html.wipe-in.wipe-go::before { animation: wipe-uncover .7s .12s cubic-bezier(.77
 .collage-game .c-side { height: auto; aspect-ratio: 1 / 1.12; } /* Luffy presque carré, un peu allongé, finit plus haut qu'Ichigo */
 .collage-game .c-side img { position: absolute; width: 98%; height: auto; aspect-ratio: 1; left: -9%; top: 12%; padding: 0; object-fit: contain; } /* Luffy le plus grand possible sans toucher l'étiquette ni être coupé */
 
-/* Accueil : One Piece zoomé sur l'équipage (le haut du dessin est du ciel vide) */
-.fp-home .c-main img { scale: 1.35; transform-origin: 50% 95%; }
+/* Collage de l'accueil (disposition du début) : chaque cadre a les proportions exactes de son image,
+   donc rien n'est rogné ; les chevauchements ne passent pas sur les visages. Si une image change,
+   mettre à jour son aspect-ratio ici. */
+.fp-home .collage { aspect-ratio: 1; }
+.fp-home .collage figure { height: auto; }
+.fp-home .c-main  { left: 14%; top: 0;   width: 62%; aspect-ratio: 1; }          /* One Piece, 1200×1200 */
+.fp-home .c-side  { left: 7%;  top: 55%; width: 40%; aspect-ratio: 660 / 720; }  /* Hunter × Hunter */
+.fp-home .c-small { right: 0;  top: 50%; width: 34%; aspect-ratio: 1; }          /* Dragon Ball, cadre blanc */
