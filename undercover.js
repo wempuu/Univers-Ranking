@@ -13,8 +13,6 @@ const SIMILARITY = {
   // Bonus de rareté d'un tag commun. La rareté retenue est la plus basse des deux persos
   // (Feu ⭐⭐⭐ chez A et ⭐⭐⭐ chez B = +25 ; Feu ⭐⭐⭐ chez A et ⭐⭐ chez B = +10).
   rarityBonus: { 1: 0, 2: 10, 3: 25 },
-  // Bonus de diversité : par catégorie où les deux persos ont au moins un tag commun
-  diversityBonus: 15,
   // Condition obligatoire (toutes difficultés) : nombre minimum de tags communs ⭐⭐⭐ chez LES DEUX persos
   minSharedVeryRare: 1,
   // Fourchettes de score par difficulté : min inclus, max exclu (null = pas de maximum)
@@ -52,22 +50,20 @@ const Undercover = {
   },
 
   // Score de similitude entre deux persos, recalculé à chaque fois à partir des tags et raretés actuels.
-  // Renvoie { score, match, rarity, diversity, veryRare, common: [{ cat, value, rarity, a, b }] }
+  // Renvoie { score, match, rarity, veryRare, common: [{ cat, value, rarity, a, b }] }
   similarity(a, b) {
     const S = SIMILARITY;
-    let match = 0, rarity = 0, cats = 0, veryRare = 0;
+    let match = 0, rarity = 0, veryRare = 0;
     const common = [];
     Object.keys(a.tags || {}).forEach((cat) => {
       const bVals = (b.tags || {})[cat] || [];
       const seen = new Set(); // un tag n'est jamais compté deux fois
-      let catHit = false;
       (a.tags[cat] || []).forEach((v) => {
         const n = normalizeSearch(v);
         if (seen.has(n)) return;
         const bv = bVals.find((x) => normalizeSearch(x) === n);
         if (bv === undefined) return;
         seen.add(n);
-        catHit = true;
         const ra = tagRarity(a, cat, v), rb = tagRarity(b, cat, bv);
         const r = Math.min(ra, rb);
         match += S.matchPoints[cat] != null ? S.matchPoints[cat] : S.defaultMatchPoints;
@@ -75,10 +71,8 @@ const Undercover = {
         if (ra === 3 && rb === 3) veryRare++;
         common.push({ cat, value: v, rarity: r, a: ra, b: rb });
       });
-      if (catHit) cats++;
     });
-    const diversity = cats * S.diversityBonus;
-    return { score: match + rarity + diversity, match, rarity, diversity, veryRare, common };
+    return { score: match + rarity, match, rarity, veryRare, common };
   },
 
   difficulty(id) {

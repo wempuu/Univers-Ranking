@@ -3,7 +3,6 @@
     "physique": {
       "label": "Physique",
       "values": [
-        "Homme",
         "Femme",
         "Enfant",
         "Âgé",
@@ -29,7 +28,6 @@
         "Queue",
         "Non-humain",
         "Animal anthropomorphe",
-        "Humain",
         "Démon",
         "Dieu / Divinité",
         "Vampire",
@@ -189,10 +187,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Cheveux courts",
               "Cicatrice",
-              "Humain",
               "Dieu / Divinité"
             ],
             "role": [
@@ -257,13 +253,11 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Musclé",
               "Cheveux courts",
               "Cheveux colorés",
               "Cicatrice",
-              "Borgne",
-              "Humain"
+              "Borgne"
             ],
             "role": [
               "Allié",
@@ -326,8 +320,7 @@
               "Mince",
               "Cheveux longs",
               "Cheveux colorés",
-              "Tatoué",
-              "Humain"
+              "Tatoué"
             ],
             "role": [
               "Allié",
@@ -378,9 +371,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Mince",
-              "Humain"
+              "Mince"
             ],
             "role": [
               "Allié",
@@ -426,10 +417,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Mince",
-              "Cheveux courts",
-              "Humain"
+              "Cheveux courts"
             ],
             "role": [
               "Allié",
@@ -473,7 +462,6 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Enfant",
               "Petit",
               "Queue",
@@ -533,8 +521,7 @@
             "physique": [
               "Femme",
               "Mince",
-              "Cheveux longs",
-              "Humain"
+              "Cheveux longs"
             ],
             "role": [
               "Allié",
@@ -588,7 +575,6 @@
               "Musclé",
               "Cheveux courts",
               "Cheveux colorés",
-              "Humain",
               "Cyborg"
             ],
             "role": [
@@ -641,7 +627,6 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Âgé",
               "Grand",
               "Mince",
@@ -696,7 +681,6 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Grand",
               "Tatoué",
               "Non-humain"
@@ -751,9 +735,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Moustachu",
-              "Humain"
+              "Moustachu"
             ],
             "role": [
               "Leader",
@@ -799,13 +781,11 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Âgé",
               "Cheveux blancs",
               "Barbu",
               "Lunettes",
-              "Cicatrice",
-              "Humain"
+              "Cicatrice"
             ],
             "role": [
               "Bras droit",
@@ -855,10 +835,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Cheveux colorés",
-              "Cicatrice",
-              "Humain"
+              "Cicatrice"
             ],
             "role": [
               "Leader",
@@ -908,10 +886,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Cheveux longs",
-              "Cicatrice",
-              "Humain"
+              "Cicatrice"
             ],
             "role": [
               "Bras droit",
@@ -954,9 +930,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Corpulent",
-              "Humain"
+              "Corpulent"
             ],
             "role": [
               "Personnage secondaire",
@@ -999,9 +973,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Cheveux longs",
-              "Humain"
+              "Cheveux longs"
             ],
             "role": [
               "Personnage secondaire",
@@ -1039,13 +1011,11 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Âgé",
               "Grand",
               "Musclé",
               "Moustachu",
-              "Cicatrice",
-              "Humain"
+              "Cicatrice"
             ],
             "role": [
               "Leader",
@@ -1096,9 +1066,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Tatoué",
-              "Humain"
+              "Tatoué"
             ],
             "role": [
               "Allié",
@@ -1149,11 +1117,9 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Cheveux courts",
               "Tatoué",
-              "Bijoux / Piercings",
-              "Humain"
+              "Bijoux / Piercings"
             ],
             "role": [
               "Allié",
@@ -1200,11 +1166,9 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Grand",
               "Musclé",
-              "Chauve",
-              "Humain"
+              "Chauve"
             ],
             "role": [
               "Personnage secondaire",
@@ -1250,11 +1214,9 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Mince",
               "Cheveux courts",
-              "Tatoué",
-              "Humain"
+              "Tatoué"
             ],
             "role": [
               "Allié",
@@ -1315,7 +1277,6 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Grand",
               "Non-humain",
               "Animal anthropomorphe"
@@ -1365,12 +1326,10 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Musclé",
               "Cheveux courts",
               "Cheveux colorés",
-              "Cicatrice",
-              "Humain"
+              "Cicatrice"
             ],
             "role": [
               "Rival",
@@ -1424,9 +1383,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Cheveux longs",
-              "Humain"
+              "Cheveux longs"
             ],
             "role": [
               "Personnage secondaire",
@@ -1474,10 +1431,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Corpulent",
-              "Barbu",
-              "Humain"
+              "Barbu"
             ],
             "role": [
               "Antagoniste",
@@ -1534,7 +1489,6 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Grand",
               "Musclé",
               "Cicatrice",
@@ -1656,7 +1610,6 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Grand",
               "Musclé",
               "Ailes",
@@ -1714,10 +1667,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Corpulent",
               "Lunettes",
-              "Humain",
               "Cyborg"
             ],
             "role": [
@@ -1766,10 +1717,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Grand",
-              "Musclé",
-              "Humain"
+              "Musclé"
             ],
             "role": [
               "Antagoniste",
@@ -1815,12 +1764,10 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Grand",
               "Musclé",
               "Cheveux courts",
-              "Lunettes",
-              "Humain"
+              "Lunettes"
             ],
             "role": [
               "Antagoniste",
@@ -1882,8 +1829,7 @@
               "Mince",
               "Cheveux longs",
               "Cicatrice",
-              "Bijoux / Piercings",
-              "Humain"
+              "Bijoux / Piercings"
             ],
             "role": [
               "Allié",
@@ -1933,10 +1879,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Cheveux courts",
-              "Moustachu",
-              "Humain"
+              "Moustachu"
             ],
             "role": [
               "Rival",
@@ -1984,9 +1928,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Cicatrice",
-              "Humain"
+              "Cicatrice"
             ],
             "role": [
               "Antagoniste",
@@ -2037,10 +1979,6 @@
             "w": 0.27397
           },
           "tags": {
-            "physique": [
-              "Homme",
-              "Humain"
-            ],
             "role": [
               "Antagoniste",
               "Leader",
@@ -2088,10 +2026,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Musclé",
-              "Cicatrice",
-              "Humain"
+              "Cicatrice"
             ],
             "role": [
               "Antagoniste",
@@ -2142,8 +2078,7 @@
             "physique": [
               "Femme",
               "Cheveux longs",
-              "Cheveux colorés",
-              "Humain"
+              "Cheveux colorés"
             ],
             "role": [
               "Allié",
@@ -2191,7 +2126,6 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Grand",
               "Musclé",
               "Non-humain",
@@ -2249,10 +2183,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Grand",
-              "Corpulent",
-              "Humain"
+              "Corpulent"
             ],
             "role": [
               "Antagoniste",
@@ -2302,8 +2234,7 @@
               "Femme",
               "Mince",
               "Cheveux longs",
-              "Cheveux colorés",
-              "Humain"
+              "Cheveux colorés"
             ],
             "role": [
               "Antagoniste",
@@ -2346,7 +2277,6 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Grand",
               "Musclé",
               "Tatoué",
@@ -2399,10 +2329,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Âgé",
-              "Cheveux longs",
-              "Humain"
+              "Cheveux longs"
             ],
             "role": [
               "Antagoniste",
@@ -2452,10 +2380,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Cheveux colorés",
-              "Bijoux / Piercings",
-              "Humain"
+              "Bijoux / Piercings"
             ],
             "role": [
               "Allié",
@@ -2501,11 +2427,9 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Âgé",
               "Musclé",
-              "Moustachu",
-              "Humain"
+              "Moustachu"
             ],
             "role": [
               "Mentor",
@@ -2550,7 +2474,6 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Musclé",
               "Non-humain"
             ],
@@ -2601,11 +2524,9 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Grand",
               "Corpulent",
-              "Moustachu",
-              "Humain"
+              "Moustachu"
             ],
             "role": [
               "Antagoniste",
@@ -2654,8 +2575,7 @@
               "Femme",
               "Âgé",
               "Grand",
-              "Cheveux colorés",
-              "Humain"
+              "Cheveux colorés"
             ],
             "role": [
               "Antagoniste",
@@ -2712,12 +2632,10 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Grand",
               "Musclé",
               "Cicatrice",
-              "Tatoué",
-              "Humain"
+              "Tatoué"
             ],
             "role": [
               "Antagoniste",
@@ -2815,9 +2733,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Grand",
-              "Humain"
+              "Grand"
             ],
             "role": [
               "Antagoniste",
@@ -2858,8 +2774,7 @@
             "physique": [
               "Femme",
               "Grand",
-              "Cheveux longs",
-              "Humain"
+              "Cheveux longs"
             ],
             "role": [
               "Antagoniste",
@@ -2904,9 +2819,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Musclé",
-              "Humain"
+              "Musclé"
             ],
             "role": [
               "Antagoniste",
@@ -2947,10 +2860,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Musclé",
-              "Tatoué",
-              "Humain"
+              "Tatoué"
             ],
             "role": [
               "Antagoniste",
@@ -2993,10 +2904,6 @@
             "w": 0.35
           },
           "tags": {
-            "physique": [
-              "Homme",
-              "Humain"
-            ],
             "role": [
               "Antagoniste",
               "Personnage secondaire",
@@ -3038,9 +2945,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Musclé",
-              "Humain"
+              "Musclé"
             ],
             "role": [
               "Antagoniste",
@@ -3133,10 +3038,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Âgé",
-              "Barbu",
-              "Humain"
+              "Barbu"
             ],
             "role": [
               "Antagoniste",
@@ -3182,12 +3085,10 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Âgé",
               "Cheveux longs",
               "Cheveux blancs",
-              "Barbu",
-              "Humain"
+              "Barbu"
             ],
             "role": [
               "Antagoniste",
@@ -3229,11 +3130,9 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Âgé",
               "Chauve",
-              "Moustachu",
-              "Humain"
+              "Moustachu"
             ],
             "role": [
               "Antagoniste",
@@ -3276,11 +3175,9 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Âgé",
               "Chauve",
-              "Cicatrice",
-              "Humain"
+              "Cicatrice"
             ],
             "role": [
               "Antagoniste",
@@ -3326,9 +3223,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Barbu",
-              "Humain"
+              "Barbu"
             ],
             "role": [
               "Antagoniste",
@@ -3369,13 +3264,11 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Âgé",
               "Cheveux longs",
               "Cheveux blancs",
               "Barbu",
-              "Lunettes",
-              "Humain"
+              "Lunettes"
             ],
             "role": [
               "Antagoniste",
@@ -3423,9 +3316,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Cheveux longs",
-              "Humain"
+              "Cheveux longs"
             ],
             "role": [
               "Antagoniste",
@@ -3464,10 +3355,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Cheveux longs",
-              "Barbu",
-              "Humain"
+              "Barbu"
             ],
             "role": [
               "Antagoniste",
@@ -3503,10 +3392,6 @@
             "w": 0.41742
           },
           "tags": {
-            "physique": [
-              "Homme",
-              "Humain"
-            ],
             "role": [
               "Antagoniste",
               "Soldat"
@@ -3542,8 +3427,7 @@
           },
           "tags": {
             "physique": [
-              "Femme",
-              "Humain"
+              "Femme"
             ],
             "role": [
               "Antagoniste",
@@ -3581,10 +3465,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Musclé",
-              "Cicatrice",
-              "Humain"
+              "Cicatrice"
             ],
             "role": [
               "Antagoniste",
@@ -3631,9 +3513,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Grand",
-              "Humain"
+              "Grand"
             ],
             "role": [
               "Antagoniste",
@@ -3679,10 +3559,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Âgé",
-              "Lunettes",
-              "Humain"
+              "Lunettes"
             ],
             "role": [
               "Antagoniste",
@@ -3728,11 +3606,9 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Cheveux longs",
               "Cheveux colorés",
-              "Lunettes",
-              "Humain"
+              "Lunettes"
             ],
             "role": [
               "Antagoniste",
@@ -3777,10 +3653,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Cheveux courts",
-              "Cicatrice",
-              "Humain"
+              "Cicatrice"
             ],
             "role": [
               "Soldat",
@@ -3826,11 +3700,9 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Âgé",
               "Barbu",
-              "Lunettes",
-              "Humain"
+              "Lunettes"
             ],
             "role": [
               "Antagoniste",
@@ -3883,13 +3755,11 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Âgé",
               "Musclé",
               "Cheveux courts",
               "Cheveux blancs",
-              "Cicatrice",
-              "Humain"
+              "Cicatrice"
             ],
             "role": [
               "Mentor",
@@ -3937,10 +3807,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Musclé",
-              "Cheveux courts",
-              "Humain"
+              "Cheveux courts"
             ],
             "role": [
               "Allié",
@@ -3984,12 +3852,10 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Musclé",
               "Cheveux courts",
               "Cheveux blancs",
-              "Cicatrice",
-              "Humain"
+              "Cicatrice"
             ],
             "role": [
               "Rival",
@@ -4037,8 +3903,7 @@
               "Femme",
               "Mince",
               "Cheveux courts",
-              "Lunettes",
-              "Humain"
+              "Lunettes"
             ],
             "role": [
               "Personnage secondaire",
@@ -4084,10 +3949,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Âgé",
-              "Barbu",
-              "Humain"
+              "Barbu"
             ],
             "role": [
               "Allié",
@@ -4132,10 +3995,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Musclé",
-              "Barbu",
-              "Humain"
+              "Barbu"
             ],
             "role": [
               "Antagoniste",
@@ -4184,9 +4045,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Grand",
-              "Humain"
+              "Grand"
             ],
             "role": [
               "Mentor",
@@ -4232,9 +4091,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Grand",
-              "Humain"
+              "Grand"
             ],
             "role": [
               "Antagoniste",
@@ -4278,9 +4135,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Tatoué",
-              "Humain"
+              "Tatoué"
             ],
             "role": [
               "Leader",
@@ -4326,10 +4181,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Cheveux courts",
-              "Cicatrice",
-              "Humain"
+              "Cicatrice"
             ],
             "role": [
               "Allié",
@@ -4377,10 +4230,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Grand",
-              "Cheveux colorés",
-              "Humain"
+              "Cheveux colorés"
             ],
             "role": [
               "Allié",
@@ -4425,10 +4276,6 @@
             "w": 0.6
           },
           "tags": {
-            "physique": [
-              "Homme",
-              "Humain"
-            ],
             "role": [
               "Personnage secondaire",
               "Allié",
@@ -4469,8 +4316,7 @@
             "physique": [
               "Femme",
               "Mince",
-              "Cheveux longs",
-              "Humain"
+              "Cheveux longs"
             ],
             "role": [
               "Allié",
@@ -4511,10 +4357,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Musclé",
-              "Barbu",
-              "Humain"
+              "Barbu"
             ],
             "role": [
               "Leader",
@@ -4564,11 +4408,9 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Enfant",
               "Cheveux longs",
-              "Cheveux colorés",
-              "Humain"
+              "Cheveux colorés"
             ],
             "role": [
               "Allié",
@@ -4612,8 +4454,6 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Humain",
               "Dieu / Divinité"
             ],
             "role": [
@@ -4663,8 +4503,7 @@
               "Femme",
               "Mince",
               "Cheveux longs",
-              "Cheveux colorés",
-              "Humain"
+              "Cheveux colorés"
             ],
             "role": [
               "Antagoniste"
@@ -4758,9 +4597,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Cheveux colorés",
-              "Humain"
+              "Cheveux colorés"
             ],
             "role": [
               "Personnage secondaire",
@@ -4855,7 +4692,6 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Grand",
               "Musclé",
               "Cheveux longs",
@@ -4907,8 +4743,7 @@
               "Femme",
               "Mince",
               "Cheveux longs",
-              "Cheveux colorés",
-              "Humain"
+              "Cheveux colorés"
             ],
             "role": [
               "Personnage secondaire",
@@ -4948,10 +4783,8 @@
           },
           "tags": {
             "physique": [
-              "Homme",
               "Âgé",
-              "Moustachu",
-              "Humain"
+              "Moustachu"
             ],
             "role": [
               "Personnage secondaire",
@@ -4990,9 +4823,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Cheveux longs",
-              "Humain"
+              "Cheveux longs"
             ],
             "role": [
               "Antagoniste",
@@ -5033,9 +4864,7 @@
           },
           "tags": {
             "physique": [
-              "Homme",
-              "Corpulent",
-              "Humain"
+              "Corpulent"
             ],
             "role": [
               "Antagoniste",
