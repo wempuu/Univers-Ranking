@@ -732,12 +732,13 @@ html.wipe-in.wipe-go::before { animation: wipe-uncover .7s .12s cubic-bezier(.77
 /* Collage de l'accueil : dessins noir et blanc de l'utilisateur, montrés EN ENTIER.
    Chaque cadre a exactement les proportions de son image (aspect-ratio = largeur / hauteur),
    donc rien n'est rogné. Si une image change, mettre à jour son aspect-ratio ici. */
-.fp-home .collage { aspect-ratio: 1 / 1.245; }
+.fp-home .collage { aspect-ratio: 1 / 1.09; }
 .fp-home .collage figure { height: auto; }
-/* Même disposition qu'avant (One Piece en haut, Jujutsu Kaisen en dessous à gauche, Dragon Ball à droite,
-   Hunter × Hunter en bas à gauche), mais images entières et sans cacher de personnage. */
-.fp-home .c-main  { left: 14%; top: 0;     width: 80%; aspect-ratio: 1200 / 900; }   /* One Piece */
-.fp-home .c-side  { left: 7%;  top: 48.2%; width: 54%; aspect-ratio: 1200 / 732; }   /* Jujutsu Kaisen */
-.fp-home .c-small { left: auto; right: 0; top: 48.2%; width: 38%; aspect-ratio: 1; }  /* Dragon Ball */
-.fp-home .c-mini  { left: 12%; right: auto; top: 75.1%; width: 28%; aspect-ratio: 660 / 720; } /* Hunter × Hunter */
+/* Collage qui se superpose comme avant, images entières. Les chevauchements évitent les visages :
+   Jujutsu Kaisen couvre le bas des corps de l'équipage de One Piece, Dragon Ball s'arrête au ras de
+   Megumi, Hunter × Hunter couvre le bas des vêtements de Jujutsu Kaisen. */
+.fp-home .c-main  { left: 14%; top: 0;     width: 86%; aspect-ratio: 1200 / 900; }   /* One Piece */
+.fp-home .c-side  { left: 7%;  top: 49.5%; width: 56%; aspect-ratio: 1200 / 732; }   /* Jujutsu Kaisen */
+.fp-home .c-small { left: auto; right: 0; top: 55%; width: 38%; aspect-ratio: 1; }  /* Dragon Ball */
+.fp-home .c-mini  { left: 12%; right: auto; top: 73.4%; width: 26%; aspect-ratio: 660 / 720; } /* Hunter × Hunter */
 .fp-home .poster-vertical { white-space: nowrap; letter-spacing: .22em; top: 0; } /* tient sur une seule colonne dans le collage moins haut */
