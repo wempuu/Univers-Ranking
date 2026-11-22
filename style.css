@@ -723,6 +723,7 @@ html.wipe-in.wipe-go::before { animation: wipe-uncover .7s .12s cubic-bezier(.77
 
 /* Collage Undercover, image Imposteur : le dessin est montré en entier, collé sous une bande
    de 30px ; l'étiquette (en haut à droite) tombe sur une zone vide du dessin et ne touche pas Luffy. */
-.collage-game .c-side { background: #f2f2f2; }
+.collage-game .c-side { background: var(--accent); } /* Luffy détouré (PNG transparent) sur la couleur du site */
 .collage-game .c-side img { object-fit: contain; padding-top: 30px; object-position: center top; }
 .collage-game .c-main img { object-position: 10% 18%; } /* Naruto un peu plus à droite */
+.framed-accent { border: 6px solid var(--accent); }
