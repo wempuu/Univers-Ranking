@@ -78,7 +78,6 @@
         "Religieux",
         "Traître",
         "Conseiller",
-        "Survivant",
         "Cuisinier",
         "Musicien / Artiste",
         "Navigateur",
@@ -106,6 +105,7 @@
         "Arme lourde",
         "Magie",
         "Pouvoir psychique",
+        "Manipulation",
         "Télékinésie",
         "Téléportation",
         "Illusion",
@@ -583,7 +583,6 @@
               "Pirate",
               "Criminel",
               "Scientifique",
-              "Survivant",
               "Fugitif",
               "Ennemi devenu allié"
             ],
@@ -604,7 +603,6 @@
             "role": {
               "Pirate": 2,
               "Scientifique": 2,
-              "Survivant": 3,
               "Fugitif": 3,
               "Ennemi devenu allié": 3
             },
@@ -647,7 +645,6 @@
               "Force brute",
               "Combat à mains nues",
               "Armes à feu",
-              "Armes à distance",
               "Transformation"
             ],
             "caractere": [
@@ -671,8 +668,7 @@
             },
             "style-de-combat": {
               "Force brute": 2,
-              "Armes à feu": 2,
-              "Armes à distance": 2
+              "Armes à feu": 2
             },
             "caractere": {
               "Joyeux": 2,
@@ -704,7 +700,6 @@
               "Allié",
               "Pirate",
               "Criminel",
-              "Survivant",
               "Musicien / Artiste"
             ],
             "style-de-combat": [
@@ -729,7 +724,6 @@
             },
             "role": {
               "Pirate": 2,
-              "Survivant": 2,
               "Musicien / Artiste": 3
             },
             "style-de-combat": {
@@ -991,8 +985,7 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Armes à feu",
-              "Armes à distance"
+              "Armes à feu"
             ],
             "caractere": [
               "Calme",
@@ -1007,8 +1000,7 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Armes à feu": 3,
-              "Armes à distance": 3
+              "Armes à feu": 3
             },
             "caractere": {
               "Calme": 3,
@@ -1037,8 +1029,7 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Armes à feu",
-              "Armes à distance"
+              "Armes à feu"
             ],
             "caractere": [
               "Joyeux",
@@ -1054,8 +1045,7 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Armes à feu": 2,
-              "Armes à distance": 2
+              "Armes à feu": 2
             },
             "caractere": {
               "Joyeux": 2,
@@ -1084,8 +1074,7 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Armes à feu",
-              "Armes à distance"
+              "Armes à feu"
             ],
             "caractere": [
               "Joyeux",
@@ -1097,8 +1086,7 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Armes à feu": 3,
-              "Armes à distance": 3
+              "Armes à feu": 3
             },
             "caractere": {
               "Joyeux": 2,
@@ -1340,7 +1328,6 @@
               "Médecin",
               "Pirate",
               "Criminel",
-              "Survivant",
               "Orphelin"
             ],
             "style-de-combat": [
@@ -1368,7 +1355,6 @@
               "Leader": 3,
               "Médecin": 3,
               "Pirate": 2,
-              "Survivant": 2,
               "Orphelin": 2
             },
             "style-de-combat": {
@@ -1927,7 +1913,7 @@
             ],
             "style-de-combat": [
               "Intelligence tactique",
-              "Pouvoir psychique",
+              "Manipulation",
               "Fils / Chaînes"
             ],
             "caractere": [
@@ -1952,8 +1938,8 @@
             },
             "style-de-combat": {
               "Intelligence tactique": 2,
-              "Pouvoir psychique": 2,
-              "Fils / Chaînes": 3
+              "Fils / Chaînes": 3,
+              "Manipulation": 3
             },
             "caractere": {
               "Arrogant": 3,
@@ -3693,8 +3679,7 @@
               "Soldat"
             ],
             "style-de-combat": [
-              "Armes à feu",
-              "Armes à distance"
+              "Armes à feu"
             ],
             "caractere": [
               "Sérieux",
@@ -3706,8 +3691,7 @@
               "Soldat": 2
             },
             "style-de-combat": {
-              "Armes à feu": 3,
-              "Armes à distance": 3
+              "Armes à feu": 3
             },
             "caractere": {
               "Loyal": 2
@@ -4514,7 +4498,6 @@
               "Bras droit",
               "Combattant",
               "Criminel",
-              "Survivant",
               "Orphelin",
               "Révolutionnaire"
             ],
@@ -4536,7 +4519,6 @@
             "role": {
               "Bras droit": 2,
               "Combattant": 3,
-              "Survivant": 2,
               "Orphelin": 2,
               "Révolutionnaire": 3
             },

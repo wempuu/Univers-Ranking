@@ -43,15 +43,19 @@ function knownTagValues(data, tagSlug) {
 // Un tag absent de tagRarity vaut 1 (⭐ Commun). Le même tag peut avoir une rareté différente selon le perso.
 const RARITY_LABELS = { 1: "Commun", 2: "Rare", 3: "Très rare" };
 const MAX_TAGS_PER_CATEGORY = 7;
-// Tags plafonnés à ⭐⭐ chez tout le monde (trop de persos les partagent pour faire un lien fort)
-const MAX_RARITY = {
-  role: { Pirate: 2, Orphelin: 2 },
-  "style-de-combat": { "Combat à mains nues": 2, "Épée": 2 },
-};
-function maxRarity(tagSlug, value) {
-  const caps = MAX_RARITY[tagSlug] || {};
-  const key = Object.keys(caps).find((k) => normalizeSearch(k) === normalizeSearch(value));
-  return key ? caps[key] : 3;
+// Tags qui s'excluent : un perso ne peut pas avoir les deux (même catégorie)
+const EXCLUSIVE_TAGS = [
+  ["style-de-combat", "Armes à distance", "Armes à feu"],
+];
+// Renvoie le tag déjà porté par le perso qui empêche d'ajouter `value`, ou null
+function conflictingTag(perso, tagSlug, value) {
+  const has = (v) => ((perso.tags || {})[tagSlug] || []).find((x) => normalizeSearch(x) === normalizeSearch(v));
+  for (const [cat, a, b] of EXCLUSIVE_TAGS) {
+    if (cat !== tagSlug) continue;
+    if (normalizeSearch(value) === normalizeSearch(a) && has(b)) return has(b);
+    if (normalizeSearch(value) === normalizeSearch(b) && has(a)) return has(a);
+  }
+  return null;
 }
 function tagRarity(perso, tagSlug, value) {
   const r = perso && perso.tagRarity && perso.tagRarity[tagSlug];
@@ -65,7 +69,6 @@ function setTagRarity(perso, tagSlug, value, n) {
   const all = (perso.tagRarity = perso.tagRarity || {});
   const r = (all[tagSlug] = all[tagSlug] || {});
   Object.keys(r).forEach((k) => { if (normalizeSearch(k) === normalizeSearch(value)) delete r[k]; });
-  n = Math.min(n, maxRarity(tagSlug, value));
   if (n === 2 || n === 3) r[value] = n;
   if (!Object.keys(r).length) delete all[tagSlug];
   if (!Object.keys(all).length) delete perso.tagRarity;

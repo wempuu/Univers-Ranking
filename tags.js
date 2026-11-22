@@ -62,7 +62,6 @@ function rarityPicker(c) {
   sel.title = `Rareté de « ${tag} » chez ${c.name}`;
   [[1, "⭐"], [2, "⭐⭐"], [3, "⭐⭐⭐"]].forEach(([n, l]) => {
     const o = new Option(`${l} ${RARITY_LABELS[n]}`, n);
-    if (n > maxRarity(cat, tag)) { o.disabled = true; o.text += " (max ⭐⭐ pour ce tag)"; }
     sel.add(o);
   });
   sel.value = String(tagRarity(c, cat, tag));
@@ -160,6 +159,11 @@ function addTo(c) {
   c.tags = c.tags || {};
   const vals = c.tags[cat] || [];
   if (vals.some((v) => same(v, tag))) return;
+  const clash = conflictingTag(c, cat, tag);
+  if (clash) {
+    panel.setStatus(`${c.name} a déjà « ${clash} » : il ne peut pas avoir aussi « ${tag} ». Retire-lui d'abord « ${clash} ».`, "err");
+    return;
+  }
   if (vals.length >= MAX_TAGS_PER_CATEGORY) {
     panel.setStatus(`${c.name} a déjà ${MAX_TAGS_PER_CATEGORY} tags en « ${data.tags[cat].label} » (maximum). Retire-lui d'abord un tag de cette catégorie.`, "err");
     return;
