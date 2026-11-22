@@ -700,3 +700,9 @@ html.wipe-in.wipe-go::before { animation: wipe-uncover .7s .12s cubic-bezier(.77
 @media (prefers-reduced-motion: reduce) {
   html::before, html::after { display: none; }
 }
+
+/* Les pages plein écran tiennent dans l'écran : pas de barre de défilement visible
+   (si l'écran est trop petit, on peut quand même défiler à l'intérieur). */
+.fp-scroll { scrollbar-width: none; }
+.fp-scroll::-webkit-scrollbar { display: none; }
+.fp-game .fp-inner { padding-bottom: 72px; }
