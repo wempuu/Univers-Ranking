@@ -10,10 +10,11 @@ const SIMILARITY = {
   // Points de correspondance : chaque tag commun aux deux persos rapporte ces points, selon sa catégorie
   matchPoints: { physique: 20, role: 20, "style-de-combat": 20, caractere: 20 },
   defaultMatchPoints: 20, // catégorie ajoutée plus tard sans barème
-  // Un tag commun ne compte que s'il a LA MÊME rareté chez les deux persos
-  // (Feu ⭐⭐⭐ chez A et ⭐⭐⭐ chez B : compté ; Feu ⭐⭐⭐ chez A et ⭐⭐ chez B : ignoré).
-  // Mettre false pour compter aussi les raretés différentes (la plus basse des deux est alors retenue).
-  requireSameRarity: true,
+  // false (règle actuelle) : un tag commun compte même si sa rareté diffère entre les deux persos :
+  // points de correspondance + bonus de la PLUS BASSE des deux raretés
+  // (Feu ⭐⭐⭐ chez A et ⭐⭐ chez B : 20 + 10). La condition ⭐⭐⭐ ci-dessous exige toujours ⭐⭐⭐ chez les deux.
+  // true : un tag commun ne compte que s'il a LA MÊME rareté chez les deux persos.
+  requireSameRarity: false,
   // Bonus de rareté d'un tag commun compté (Feu ⭐⭐⭐ chez les deux = +25)
   rarityBonus: { 1: 0, 2: 10, 3: 25 },
   // Condition obligatoire (toutes difficultés) : nombre minimum de tags communs ⭐⭐⭐ chez LES DEUX persos
