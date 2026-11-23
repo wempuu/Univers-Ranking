@@ -298,7 +298,8 @@
               "Cheveux verts",
               "Cicatrice",
               "Borgne",
-              "Tenue traditionnelle"
+              "Tenue traditionnelle",
+              "Bijoux / Piercings"
             ],
             "role": [
               "Allié",
@@ -1322,7 +1323,8 @@
           "tags": {
             "physique": [
               "Tatoué",
-              "Couvre-chef"
+              "Couvre-chef",
+              "Bijoux / Piercings"
             ],
             "role": [
               "Allié",
@@ -1555,7 +1557,8 @@
               "Barbu",
               "Couvre-chef",
               "Cape",
-              "Grand"
+              "Grand",
+              "Bijoux / Piercings"
             ],
             "role": [
               "Antagoniste",
@@ -1911,7 +1914,8 @@
               "Musclé",
               "Cheveux blonds",
               "Lunettes",
-              "Cape"
+              "Cape",
+              "Bijoux / Piercings"
             ],
             "role": [
               "Antagoniste",
@@ -1998,7 +2002,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Bijoux / Piercings": 2,
               "Tatoué": 2
             },
             "role": {
@@ -2208,7 +2211,8 @@
             "physique": [
               "Musclé",
               "Cicatrice",
-              "Cheveux bicolores"
+              "Cheveux bicolores",
+              "Bijoux / Piercings"
             ],
             "role": [
               "Antagoniste",
@@ -2260,7 +2264,8 @@
               "Femme",
               "Cheveux longs",
               "Cheveux roses",
-              "Couvre-chef"
+              "Couvre-chef",
+              "Bijoux / Piercings"
             ],
             "role": [
               "Allié",
@@ -2606,7 +2611,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Bijoux / Piercings": 2,
               "Cheveux verts": 2
             },
             "role": {
