@@ -147,10 +147,34 @@ function renderTag() {
   const q = normalizeSearch($("add-filter").value);
   const add = $("add-list");
   add.innerHTML = "";
-  const others = allChars().filter(({ c }) => !hasTag(c, cat, tag) && matchesSearch(searchText([c.name]), q));
-  others.slice(0, q ? 50 : 12).forEach((x) => add.appendChild(persoRow(x, () => addTo(x.c), "＋", `Ajouter « ${tag} » à ${x.c.name}`)));
+  // Tous les persos qui n'ont pas le tag (la recherche filtre) ; ceux qu'on ne peut pas ajouter sont
+  // en fin de liste, grisés, avec la raison écrite sur leur ligne.
+  const others = allChars()
+    .filter(({ c }) => !hasTag(c, cat, tag) && matchesSearch(searchText([c.name]), q))
+    .map((x) => ({ ...x, why: blockedReason(x.c) }));
+  others.sort((a, b) => (a.why ? 1 : 0) - (b.why ? 1 : 0));
+  others.forEach((x) => {
+    let note = null;
+    if (x.why) {
+      note = document.createElement("span");
+      note.className = "muted-small tm-note";
+      note.textContent = x.why;
+    }
+    const li = persoRow(x, () => addTo(x.c), "＋", x.why ? `${x.c.name} : ${x.why}` : `Ajouter « ${tag} » à ${x.c.name}`, note);
+    if (x.why) { li.classList.add("is-blocked"); li.querySelector(".icon-btn").disabled = true; }
+    add.appendChild(li);
+  });
   if (!others.length) add.innerHTML = `<li class="muted-small">Aucun personnage à ajouter.</li>`;
-  else if (!q && others.length > 12) add.insertAdjacentHTML("beforeend", `<li class="muted-small">… tape un nom pour trouver les autres (${others.length} au total).</li>`);
+  $("add-count").textContent = others.length ? `${others.length} personnage${others.length > 1 ? "s" : ""}` : "";
+}
+
+// Pourquoi ce perso ne peut pas recevoir le tag affiché (null = il peut)
+function blockedReason(c) {
+  const vals = (c.tags || {})[cat] || [];
+  const clash = conflictingTag(c, cat, tag);
+  if (clash) return `a déjà « ${clash} »`;
+  if (vals.length >= MAX_TAGS_PER_CATEGORY) return `déjà ${MAX_TAGS_PER_CATEGORY} tags en ${data.tags[cat].label}`;
+  return null;
 }
 
 // ---------- Actions sur les personnages ----------
