@@ -751,7 +751,8 @@
               "Grand",
               "Tatoué",
               "Non-humain",
-              "Peau colorée"
+              "Peau colorée",
+              "Corpulent"
             ],
             "role": [
               "Allié",
@@ -1579,9 +1580,9 @@
           },
           "tagRarity": {
             "physique": {
-              "Corpulent": 3,
               "Barbu": 3,
-              "Cape": 2
+              "Cape": 2,
+              "Corpulent": 2
             },
             "role": {
               "Antagoniste": 2,
@@ -1826,9 +1827,9 @@
           },
           "tagRarity": {
             "physique": {
-              "Corpulent": 2,
               "Lunettes": 2,
-              "Cyborg": 3
+              "Cyborg": 3,
+              "Corpulent": 3
             },
             "role": {
               "Pirate": 2,
@@ -2798,7 +2799,8 @@
               "Grand",
               "Cheveux roses",
               "Couvre-chef",
-              "Cape"
+              "Cape",
+              "Corpulent"
             ],
             "role": [
               "Antagoniste",
@@ -2825,7 +2827,8 @@
               "Couvre-chef": 2,
               "Cape": 2,
               "Cheveux roses": 2,
-              "Grand": 2
+              "Grand": 2,
+              "Corpulent": 3
             },
             "role": {
               "Roi / Reine": 3,
@@ -3305,7 +3308,8 @@
               "Âgé",
               "Cheveux gris / blancs",
               "Barbu",
-              "Couvre-chef"
+              "Couvre-chef",
+              "Corpulent"
             ],
             "role": [
               "Antagoniste",
@@ -3401,7 +3405,8 @@
               "Âgé",
               "Chauve",
               "Cheveux gris / blancs",
-              "Moustachu"
+              "Moustachu",
+              "Corpulent"
             ],
             "role": [
               "Antagoniste",
