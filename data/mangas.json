@@ -260,8 +260,8 @@
               "Leader": 2,
               "Empereur": 2,
               "Pirate": 2,
-              "Dieu / Divinité": 3,
-              "Orphelin": 2
+              "Orphelin": 2,
+              "Dieu / Divinité": 2
             },
             "style-de-combat": {
               "Force brute": 2,
@@ -3290,7 +3290,7 @@
               "Roi / Reine": 3,
               "Antagoniste": 2,
               "Leader": 3,
-              "Dieu / Divinité": 3
+              "Dieu / Divinité": 2
             },
             "style-de-combat": {
               "Pouvoir psychique": 3
