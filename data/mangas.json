@@ -598,7 +598,8 @@
             "style-de-combat": [
               "Combat à mains nues",
               "Clones",
-              "Vol"
+              "Vol",
+              "Pouvoir démoniaque"
             ],
             "caractere": [
               "Intelligent",
@@ -620,7 +621,8 @@
               "Pessimiste": 2
             },
             "style-de-combat": {
-              "Clones": 2
+              "Clones": 2,
+              "Pouvoir démoniaque": 2
             }
           }
         },
