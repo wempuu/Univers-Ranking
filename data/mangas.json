@@ -3588,7 +3588,8 @@
           "tags": {
             "physique": [
               "Cheveux longs",
-              "Cheveux rouges"
+              "Cheveux rouges",
+              "Uniforme militaire"
             ],
             "role": [
               "Antagoniste",
@@ -3636,7 +3637,8 @@
             "physique": [
               "Cheveux longs",
               "Barbu",
-              "Cheveux roux"
+              "Cheveux roux",
+              "Uniforme militaire"
             ],
             "role": [
               "Antagoniste",
@@ -3688,6 +3690,9 @@
             ],
             "caractere": [
               "Arrogant"
+            ],
+            "physique": [
+              "Uniforme militaire"
             ]
           },
           "tagRarity": {
@@ -3718,7 +3723,8 @@
               "Femme",
               "Couvre-chef",
               "Masque",
-              "Cheveux bleus"
+              "Cheveux bleus",
+              "Uniforme militaire"
             ],
             "role": [
               "Antagoniste",
@@ -3840,7 +3846,8 @@
           "tagRarity": {
             "physique": {
               "Grand": 2,
-              "Cape": 2
+              "Cape": 2,
+              "Uniforme militaire": 2
             },
             "role": {
               "Soldat": 2,
@@ -3944,7 +3951,8 @@
             "physique": {
               "Lunettes": 2,
               "Cape": 2,
-              "Cheveux verts": 2
+              "Cheveux verts": 2,
+              "Uniforme militaire": 2
             },
             "role": {
               "Soldat": 2,
@@ -3998,7 +4006,8 @@
             "physique": {
               "Cicatrice": 3,
               "Cape": 2,
-              "Tenue traditionnelle": 2
+              "Tenue traditionnelle": 2,
+              "Uniforme militaire": 2
             },
             "role": {
               "Soldat": 2,
@@ -4181,8 +4190,8 @@
               "Déterminé": 2
             },
             "physique": {
-              "Uniforme militaire": 3,
-              "Cheveux roses": 2
+              "Cheveux roses": 2,
+              "Uniforme militaire": 2
             }
           }
         },
