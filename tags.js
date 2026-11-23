@@ -273,7 +273,7 @@ $("btn-move-tag").addEventListener("click", async () => {
   const existing = knownTagValues(data, dest).find((x) => same(x, tag));
   const target = existing || tag;
 
-  // Persos qui dépasseraient 7 tags dans la catégorie d'arrivée : on refuse, rien n'est modifié
+  // Persos qui dépasseraient la limite de tags dans la catégorie d'arrivée : on refuse, rien n'est modifié
   const holders = allChars().filter(({ c }) => hasTag(c, cat, tag));
   const full = holders.filter(({ c }) => {
     const vals = (c.tags || {})[dest] || [];

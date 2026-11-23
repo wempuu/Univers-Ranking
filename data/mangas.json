@@ -229,6 +229,7 @@
               "Élève",
               "Empereur",
               "Pirate",
+              "Criminel",
               "Orphelin",
               "Dieu / Divinité"
             ],
@@ -245,6 +246,7 @@
               "Naïf",
               "Déterminé",
               "Gourmand",
+              "Curieux",
               "Impulsif",
               "Optimiste"
             ]
@@ -580,6 +582,7 @@
               "Pirate",
               "Criminel",
               "Scientifique",
+              "Orphelin",
               "Fugitif",
               "Ennemi devenu allié"
             ],
@@ -1617,6 +1620,7 @@
               "Grand",
               "Musclé",
               "Cicatrice",
+              "Tatoué",
               "Cornes",
               "Non-humain",
               "Démon",

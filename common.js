@@ -42,7 +42,7 @@ function knownTagValues(data, tagSlug) {
 // Rareté d'un tag CHEZ UN PERSONNAGE (pas globale) : perso.tagRarity = { <cat>: { <tag>: 2 | 3 } }.
 // Un tag absent de tagRarity vaut 1 (⭐ Commun). Le même tag peut avoir une rareté différente selon le perso.
 const RARITY_LABELS = { 1: "Commun", 2: "Rare", 3: "Très rare" };
-const MAX_TAGS_PER_CATEGORY = 7;
+const MAX_TAGS_PER_CATEGORY = 10;
 // Tags qui s'excluent : un perso ne peut pas avoir les deux (même catégorie)
 const EXCLUSIVE_TAGS = [
   ["style-de-combat", "Armes à distance", "Armes à feu"],
