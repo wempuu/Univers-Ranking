@@ -604,9 +604,6 @@
             ]
           },
           "tagRarity": {
-            "physique": {
-              "Cheveux longs": 2
-            },
             "role": {
               "Pirate": 2,
               "Scientifique": 2,
@@ -1012,9 +1009,6 @@
               "Calme": 3,
               "Intelligent": 2,
               "Loyal": 2
-            },
-            "physique": {
-              "Cheveux gris / blancs": 2
             }
           }
         },
@@ -1533,7 +1527,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Cheveux longs": 2,
               "Masque": 3,
               "Cheveux blonds": 2
             },
@@ -2005,7 +1998,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Cheveux longs": 2,
               "Bijoux / Piercings": 2
             },
             "role": {
@@ -2699,7 +2691,8 @@
             "physique": [
               "Musclé",
               "Non-humain",
-              "Peau colorée"
+              "Peau colorée",
+              "Cheveux gris / blancs"
             ],
             "role": [
               "Antagoniste",
@@ -3250,7 +3243,8 @@
               "Cheveux longs",
               "Cornes",
               "Non-humain",
-              "Yeux spéciaux"
+              "Yeux spéciaux",
+              "Cheveux gris / blancs"
             ],
             "role": [
               "Antagoniste",
@@ -3270,7 +3264,8 @@
             "physique": {
               "Cornes": 3,
               "Non-humain": 2,
-              "Yeux spéciaux": 3
+              "Yeux spéciaux": 3,
+              "Cheveux gris / blancs": 2
             },
             "role": {
               "Leader": 2,
@@ -4288,7 +4283,8 @@
           "tags": {
             "physique": [
               "Âgé",
-              "Barbu"
+              "Barbu",
+              "Cheveux gris / blancs"
             ],
             "role": [
               "Allié",
