@@ -84,7 +84,8 @@
         "Révolutionnaire",
         "Fugitif",
         "Ennemi devenu allié",
-        "Dieu / Divinité"
+        "Dieu / Divinité",
+        "Mascotte"
       ]
     },
     "style-de-combat": {
@@ -531,7 +532,8 @@
               "Médecin",
               "Pirate",
               "Criminel",
-              "Orphelin"
+              "Orphelin",
+              "Mascotte"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -556,7 +558,8 @@
             "role": {
               "Médecin": 3,
               "Pirate": 2,
-              "Allié": 2
+              "Allié": 2,
+              "Mascotte": 3
             },
             "style-de-combat": {
               "Transformation": 3
