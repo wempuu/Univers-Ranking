@@ -655,7 +655,8 @@
             "style-de-combat": [
               "Combat à mains nues",
               "Armes à feu",
-              "Transformation"
+              "Transformation",
+              "Laser"
             ],
             "caractere": [
               "Joyeux",
@@ -677,7 +678,8 @@
               "Allié": 2
             },
             "style-de-combat": {
-              "Armes à feu": 2
+              "Armes à feu": 2,
+              "Laser": 2
             },
             "caractere": {
               "Joyeux": 2,
@@ -1836,7 +1838,8 @@
               "Scientifique"
             ],
             "style-de-combat": [
-              "Transformation"
+              "Transformation",
+              "Laser"
             ],
             "caractere": [
               "Joyeux",
@@ -1859,6 +1862,9 @@
               "Joyeux": 2,
               "Sadique": 2,
               "Excentrique": 3
+            },
+            "style-de-combat": {
+              "Laser": 2
             }
           }
         },
@@ -3922,7 +3928,8 @@
             "style-de-combat": [
               "Contrôle de la lumière",
               "Vol",
-              "Combat aux jambes"
+              "Combat aux jambes",
+              "Laser"
             ],
             "caractere": [
               "Calme",
@@ -3941,7 +3948,8 @@
             },
             "style-de-combat": {
               "Contrôle de la lumière": 3,
-              "Combat aux jambes": 2
+              "Combat aux jambes": 2,
+              "Laser": 3
             },
             "caractere": {
               "Calme": 2,
