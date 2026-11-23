@@ -3914,7 +3914,8 @@
               "Cheveux longs",
               "Lunettes",
               "Cape",
-              "Uniforme militaire"
+              "Uniforme militaire",
+              "Cheveux verts"
             ],
             "role": [
               "Antagoniste",
@@ -3933,7 +3934,8 @@
           "tagRarity": {
             "physique": {
               "Lunettes": 2,
-              "Cape": 2
+              "Cape": 2,
+              "Cheveux verts": 2
             },
             "role": {
               "Soldat": 2,
@@ -4787,7 +4789,6 @@
             "physique": [
               "Enfant",
               "Cheveux longs",
-              "Cheveux verts",
               "Tenue traditionnelle"
             ],
             "role": [
@@ -4807,8 +4808,7 @@
           "tagRarity": {
             "physique": {
               "Enfant": 3,
-              "Tenue traditionnelle": 2,
-              "Cheveux verts": 2
+              "Tenue traditionnelle": 2
             },
             "role": {
               "Leader": 2,
