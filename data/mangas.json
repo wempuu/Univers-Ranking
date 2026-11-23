@@ -2211,8 +2211,7 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Force brute",
-              "Combat à mains nues"
+              "Force brute"
             ],
             "caractere": [
               "Sadique",
@@ -2230,8 +2229,7 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Force brute": 3,
-              "Combat à mains nues": 2
+              "Force brute": 3
             },
             "caractere": {
               "Sadique": 3,
@@ -4588,7 +4586,6 @@
               "Bras droit": 3
             },
             "style-de-combat": {
-              "Combat à mains nues": 2,
               "Contrôle du feu": 3
             },
             "caractere": {
