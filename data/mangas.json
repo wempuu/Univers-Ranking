@@ -35,7 +35,6 @@
         "Non-humain",
         "Animal anthropomorphe",
         "Démon",
-        "Dieu / Divinité",
         "Vampire",
         "Cyborg",
         "Robot",
@@ -92,7 +91,8 @@
         "Esclave / Opprimé",
         "Révolutionnaire",
         "Fugitif",
-        "Ennemi devenu allié"
+        "Ennemi devenu allié",
+        "Dieu / Divinité"
       ]
     },
     "style-de-combat": {
@@ -224,7 +224,6 @@
           "tags": {
             "physique": [
               "Cicatrice",
-              "Dieu / Divinité",
               "Couvre-chef"
             ],
             "role": [
@@ -233,8 +232,8 @@
               "Élève",
               "Empereur",
               "Pirate",
-              "Criminel",
-              "Orphelin"
+              "Orphelin",
+              "Dieu / Divinité"
             ],
             "style-de-combat": [
               "Force brute",
@@ -255,7 +254,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Dieu / Divinité": 3,
               "Couvre-chef": 3,
               "Cicatrice": 3
             },
@@ -263,7 +261,8 @@
               "Protagoniste": 3,
               "Leader": 2,
               "Empereur": 2,
-              "Pirate": 2
+              "Pirate": 2,
+              "Dieu / Divinité": 3
             },
             "style-de-combat": {
               "Force brute": 2,
@@ -4891,13 +4890,13 @@
           "tags": {
             "physique": [
               "Cheveux blonds",
-              "Dieu / Divinité",
               "Couvre-chef"
             ],
             "role": [
               "Antagoniste",
               "Leader",
-              "Roi / Reine"
+              "Roi / Reine",
+              "Dieu / Divinité"
             ],
             "style-de-combat": [
               "Contrôle de la foudre",
@@ -4911,12 +4910,10 @@
             ]
           },
           "tagRarity": {
-            "physique": {
-              "Dieu / Divinité": 3
-            },
             "role": {
               "Antagoniste": 2,
-              "Roi / Reine": 2
+              "Roi / Reine": 2,
+              "Dieu / Divinité": 3
             },
             "style-de-combat": {
               "Contrôle de la foudre": 3,

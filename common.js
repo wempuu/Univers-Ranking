@@ -126,14 +126,15 @@ function persoAvatar(perso, className = "avatar") {
 // Remplacent confirm() et prompt() du navigateur, que certains navigateurs (ex. le navigateur
 // intégré de l'app Claude) bloquent en répondant « non » sans rien afficher.
 
-function openDialog({ message, input, defaultValue = "", okLabel = "OK", danger = false }) {
+function openDialog({ message, input, choices, defaultValue = "", okLabel = "OK", danger = false }) {
   return new Promise((resolve) => {
     const overlay = document.createElement("div");
     overlay.className = "modal-overlay";
+    if (choices) input = true; // une liste déroulante se comporte comme un champ : valeur ou null
     overlay.innerHTML = `
       <form class="modal" role="dialog" aria-modal="true">
         <p class="dialog-message"></p>
-        ${input ? '<input class="tool-input dialog-input" autocomplete="off">' : ""}
+        ${choices ? '<select class="tool-input dialog-input"></select>' : input ? '<input class="tool-input dialog-input" autocomplete="off">' : ""}
         <div class="tool-bar modal-actions">
           <button type="submit" class="btn"></button>
           <button type="button" class="btn ghost" data-r="cancel">Annuler</button>
@@ -145,7 +146,8 @@ function openDialog({ message, input, defaultValue = "", okLabel = "OK", danger 
     ok.textContent = okLabel;
     if (danger) ok.classList.add("danger");
     const field = overlay.querySelector(".dialog-input");
-    if (field) field.value = defaultValue;
+    if (choices) choices.forEach(([value, label]) => field.add(new Option(label, value)));
+    if (field) field.value = defaultValue || (choices && choices[0] ? choices[0][0] : "");
 
     const done = (value) => {
       overlay.remove();
@@ -161,7 +163,7 @@ function openDialog({ message, input, defaultValue = "", okLabel = "OK", danger 
 
     document.body.appendChild(overlay);
     (field || ok).focus();
-    if (field) field.select();
+    if (field && field.select) field.select();
   });
 }
 
@@ -173,6 +175,11 @@ function askConfirm(message, { okLabel = "Confirmer", danger = false } = {}) {
 // Texte : résout la saisie, ou null si annulé
 function askText(message, defaultValue = "", okLabel = "Valider") {
   return openDialog({ message, input: true, defaultValue, okLabel });
+}
+
+// Choix dans une liste : choices = [[valeur, libellé], …] ; résout la valeur choisie, ou null si annulé
+function askChoice(message, choices, defaultValue = "", okLabel = "Valider") {
+  return openDialog({ message, choices, defaultValue, okLabel });
 }
 
 // ---------- Recherche ----------

@@ -261,6 +261,59 @@ $("btn-rename-tag").addEventListener("click", async () => {
   changed();
 });
 
+// Déplace le tag affiché dans une autre catégorie : chaque perso le garde (avec sa rareté),
+// il passe juste dans l'autre catégorie. Si le tag existe déjà là-bas, les deux sont fusionnés.
+$("btn-move-tag").addEventListener("click", async () => {
+  if (!tag) return;
+  const targets = Object.entries(data.tags).filter(([slug]) => slug !== cat).map(([slug, t]) => [slug, t.label]);
+  if (!targets.length) { panel.setStatus("Il n'y a pas d'autre catégorie.", "err"); return; }
+  const dest = await askChoice(`Déplacer « ${tag} » de « ${data.tags[cat].label} » vers :`, targets, "", "Déplacer");
+  if (!dest || !data.tags[dest]) return;
+  const destLabel = data.tags[dest].label;
+  const existing = knownTagValues(data, dest).find((x) => same(x, tag));
+  const target = existing || tag;
+
+  // Persos qui dépasseraient 7 tags dans la catégorie d'arrivée : on refuse, rien n'est modifié
+  const holders = allChars().filter(({ c }) => hasTag(c, cat, tag));
+  const full = holders.filter(({ c }) => {
+    const vals = (c.tags || {})[dest] || [];
+    return !vals.some((v) => same(v, target)) && vals.length >= MAX_TAGS_PER_CATEGORY;
+  });
+  if (full.length) {
+    await askConfirm(`Impossible : ${full.map((x) => x.c.name).join(", ")} ${full.length > 1 ? "ont" : "a"} déjà ${MAX_TAGS_PER_CATEGORY} tags en « ${destLabel} ». ` +
+      `Retire-${full.length > 1 ? "leur" : "lui"} d'abord un tag de cette catégorie, puis recommence.`, { okLabel: "Compris" });
+    return;
+  }
+  if (!(await askConfirm(`Déplacer « ${tag} » vers « ${destLabel} » ?${existing ? ` Il sera fusionné avec le tag « ${existing} » qui y existe déjà.` : ""} ` +
+    `${holders.length} personnage(s) le garde(nt), avec leur rareté.`, { okLabel: "Déplacer" }))) return;
+
+  const destOrder = () => data.tags[dest].values || [];
+  holders.forEach(({ c }) => {
+    const r = tagRarity(c, cat, tag);
+    c.tags[cat] = c.tags[cat].filter((v) => !same(v, tag));
+    if (!c.tags[cat].length) delete c.tags[cat];
+    setTagRarity(c, cat, tag, 1);
+    const vals = c.tags[dest] || [];
+    const had = vals.some((v) => same(v, target));
+    if (!had) c.tags[dest] = vals.concat(target);
+    setTagRarity(c, dest, target, had ? Math.max(r, tagRarity(c, dest, target)) : r);
+    const order = destOrder();
+    c.tags[dest].sort((a, b) => order.indexOf(a) - order.indexOf(b));
+  });
+  // Liste des tags : retiré de l'ancienne catégorie, ajouté en fin de la nouvelle
+  const from = data.tags[cat];
+  if (from.values) from.values = from.values.filter((x) => !same(x, tag));
+  const to = data.tags[dest];
+  if (!(to.values || []).some((x) => same(x, target))) to.values = (to.values || []).concat(target);
+  criteria = criteria
+    .map((x) => (x.cat === cat && same(x.value, tag) ? { cat: dest, value: target } : x))
+    .filter((x, i, all) => all.findIndex((y) => y.cat === x.cat && same(y.value, x.value)) === i);
+  cat = dest;
+  tag = target;
+  $("tag-filter").value = "";
+  changed();
+});
+
 $("btn-delete-tag").addEventListener("click", async () => {
   if (!tag) return;
   const n = countFor(cat, tag);
