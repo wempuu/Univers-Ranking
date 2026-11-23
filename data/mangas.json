@@ -545,9 +545,9 @@
             "physique": {
               "Enfant": 2,
               "Petit": 3,
-              "Non-humain": 2,
               "Animal anthropomorphe": 3,
-              "Couvre-chef": 2
+              "Couvre-chef": 2,
+              "Non-humain": 3
             },
             "role": {
               "Médecin": 3,
@@ -1405,8 +1405,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Non-humain": 2,
-              "Animal anthropomorphe": 3
+              "Animal anthropomorphe": 3,
+              "Non-humain": 3
             },
             "role": {
               "Pirate": 2,
@@ -1763,7 +1763,6 @@
             "physique": {
               "Grand": 2,
               "Ailes": 3,
-              "Non-humain": 2,
               "Masque": 3,
               "Cheveux gris / blancs": 2
             },
@@ -2330,7 +2329,6 @@
           "tagRarity": {
             "physique": {
               "Grand": 2,
-              "Non-humain": 2,
               "Cyborg": 3
             },
             "role": {
@@ -2928,7 +2926,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Non-humain": 2,
               "Yeux spéciaux": 3
             },
             "role": {
