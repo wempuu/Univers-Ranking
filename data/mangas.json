@@ -1590,9 +1590,9 @@
             "role": {
               "Leader": 2,
               "Empereur": 3,
-              "Pirate": 2,
               "Traître": 3,
-              "Antagoniste": 2
+              "Antagoniste": 2,
+              "Pirate": 3
             },
             "style-de-combat": {
               "Force brute": 2,
