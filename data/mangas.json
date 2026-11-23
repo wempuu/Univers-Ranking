@@ -329,8 +329,8 @@
               "Allié": 2
             },
             "style-de-combat": {
-              "Épée": 2,
-              "Katana": 3
+              "Katana": 3,
+              "Épée": 3
             },
             "caractere": {
               "Sérieux": 2,
@@ -1532,8 +1532,7 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Agilité": 2,
-              "Épée": 2
+              "Agilité": 2
             },
             "caractere": {
               "Loyal": 3,
@@ -2061,7 +2060,7 @@
               "Maître / Mentor": 2
             },
             "style-de-combat": {
-              "Épée": 2
+              "Épée": 3
             },
             "caractere": {
               "Calme": 3,
@@ -2556,7 +2555,6 @@
               "Prisonnier": 2
             },
             "style-de-combat": {
-              "Épée": 2,
               "Vol": 3
             },
             "caractere": {
@@ -3027,7 +3025,6 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Épée": 2,
               "Absorption d'énergie": 3
             },
             "caractere": {
@@ -3163,8 +3160,8 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Épée": 2,
-              "Invisibilité": 3
+              "Invisibilité": 3,
+              "Épée": 3
             },
             "caractere": {
               "Sérieux": 2,
@@ -4290,8 +4287,8 @@
               "Soldat": 2
             },
             "style-de-combat": {
-              "Épée": 2,
-              "Katana": 3
+              "Katana": 3,
+              "Épée": 3
             },
             "caractere": {
               "Sérieux": 2
@@ -4777,8 +4774,8 @@
             },
             "style-de-combat": {
               "Force brute": 2,
-              "Épée": 2,
-              "Katana": 3
+              "Katana": 3,
+              "Épée": 3
             },
             "caractere": {
               "Courageux": 2,
