@@ -1271,7 +1271,8 @@
             "physique": [
               "Grand",
               "Musclé",
-              "Chauve"
+              "Chauve",
+              "Barbu"
             ],
             "role": [
               "Personnage secondaire",
@@ -3357,7 +3358,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Âgé": 3
+              "Âgé": 3,
+              "Barbu": 2
             },
             "role": {
               "Conseiller": 3
@@ -3660,7 +3662,8 @@
               "Sadique": 2
             },
             "physique": {
-              "Cheveux roux": 2
+              "Cheveux roux": 2,
+              "Barbu": 2
             }
           }
         },
@@ -3973,7 +3976,8 @@
               "Uniforme militaire",
               "Tenue traditionnelle",
               "Grand",
-              "Âgé"
+              "Âgé",
+              "Barbu"
             ],
             "role": [
               "Soldat",
@@ -4050,11 +4054,11 @@
           },
           "tagRarity": {
             "physique": {
-              "Barbu": 3,
               "Lunettes": 2,
               "Cape": 2,
               "Uniforme militaire": 2,
-              "Âgé": 3
+              "Âgé": 3,
+              "Barbu": 2
             },
             "role": {
               "Leader": 2,
@@ -4089,7 +4093,8 @@
               "Cheveux gris / blancs",
               "Cicatrice",
               "Cape",
-              "Uniforme militaire"
+              "Uniforme militaire",
+              "Barbu"
             ],
             "role": [
               "Mentor",
@@ -4296,7 +4301,6 @@
           "tags": {
             "physique": [
               "Âgé",
-              "Barbu",
               "Cheveux gris / blancs"
             ],
             "role": [
@@ -4316,7 +4320,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Barbu": 2,
               "Âgé": 3
             },
             "role": {
@@ -4367,7 +4370,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Barbu": 2,
               "Couvre-chef": 2
             },
             "role": {
@@ -4450,7 +4452,8 @@
               "Grand",
               "Couvre-chef",
               "Musclé",
-              "Âgé"
+              "Âgé",
+              "Barbu"
             ],
             "role": [
               "Antagoniste",
@@ -4468,7 +4471,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Grand": 2
+              "Grand": 2,
+              "Barbu": 2
             },
             "role": {
               "Chef militaire": 2,
@@ -4766,7 +4770,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Barbu": 2,
               "Tenue traditionnelle": 3
             },
             "role": {
@@ -4997,7 +5000,8 @@
           },
           "tags": {
             "physique": [
-              "Tenue traditionnelle"
+              "Tenue traditionnelle",
+              "Barbu"
             ],
             "role": [
               "Personnage secondaire",
@@ -5279,7 +5283,8 @@
             "physique": [
               "Corpulent",
               "Couvre-chef",
-              "Cheveux violets"
+              "Cheveux violets",
+              "Barbu"
             ],
             "role": [
               "Antagoniste",
