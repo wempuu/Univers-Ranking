@@ -92,7 +92,7 @@
       "values": [
         "Vitesse",
         "Agilité",
-        "Intelligence tactique",
+        "Battle IQ",
         "Combat à mains nues",
         "Arts martiaux",
         "Épée",
@@ -363,7 +363,7 @@
               "Orphelin"
             ],
             "style-de-combat": [
-              "Intelligence tactique",
+              "Battle IQ",
               "Contrôle de la foudre",
               "Contrôle du vent"
             ],
@@ -385,9 +385,9 @@
               "Allié": 2
             },
             "style-de-combat": {
-              "Intelligence tactique": 2,
               "Contrôle de la foudre": 3,
-              "Contrôle du vent": 2
+              "Contrôle du vent": 2,
+              "Battle IQ": 2
             },
             "caractere": {
               "Peureux": 2,
@@ -417,7 +417,8 @@
               "Scientifique"
             ],
             "style-de-combat": [
-              "Armes à distance"
+              "Armes à distance",
+              "Battle IQ"
             ],
             "caractere": [
               "Joyeux",
@@ -433,7 +434,8 @@
               "Allié": 2
             },
             "style-de-combat": {
-              "Armes à distance": 3
+              "Armes à distance": 3,
+              "Battle IQ": 2
             },
             "caractere": {
               "Joyeux": 2,
@@ -484,8 +486,7 @@
             },
             "style-de-combat": {
               "Vitesse": 2,
-              "Arts martiaux": 3,
-              "Contrôle du feu": 2
+              "Arts martiaux": 3
             },
             "caractere": {
               "Sérieux": 2,
@@ -1325,7 +1326,7 @@
               "Rival"
             ],
             "style-de-combat": [
-              "Intelligence tactique",
+              "Battle IQ",
               "Épée",
               "Katana",
               "Téléportation",
@@ -1353,11 +1354,11 @@
               "Rival": 3
             },
             "style-de-combat": {
-              "Intelligence tactique": 2,
               "Épée": 2,
               "Katana": 3,
               "Téléportation": 2,
-              "Contrôle de l'espace": 3
+              "Contrôle de l'espace": 3,
+              "Battle IQ": 2
             },
             "caractere": {
               "Calme": 2,
@@ -1561,7 +1562,8 @@
               "Traître"
             ],
             "style-de-combat": [
-              "Contrôle des ténèbres"
+              "Contrôle des ténèbres",
+              "Battle IQ"
             ],
             "caractere": [
               "Manipulateur",
@@ -1585,7 +1587,8 @@
               "Pirate": 3
             },
             "style-de-combat": {
-              "Contrôle des ténèbres": 3
+              "Contrôle des ténèbres": 3,
+              "Battle IQ": 2
             },
             "caractere": {
               "Manipulateur": 2,
@@ -1908,7 +1911,7 @@
               "Marchand"
             ],
             "style-de-combat": [
-              "Intelligence tactique",
+              "Battle IQ",
               "Manipulation",
               "Fils / Chaînes"
             ],
@@ -1933,9 +1936,9 @@
               "Roi / Reine": 2
             },
             "style-de-combat": {
-              "Intelligence tactique": 2,
               "Fils / Chaînes": 3,
-              "Manipulation": 3
+              "Manipulation": 3,
+              "Battle IQ": 2
             },
             "caractere": {
               "Arrogant": 3,
@@ -2079,7 +2082,7 @@
               "Ennemi devenu allié"
             ],
             "style-de-combat": [
-              "Intelligence tactique",
+              "Battle IQ",
               "Contrôle de la terre"
             ],
             "caractere": [
@@ -2103,8 +2106,8 @@
               "Antagoniste": 2
             },
             "style-de-combat": {
-              "Intelligence tactique": 2,
-              "Contrôle de la terre": 3
+              "Contrôle de la terre": 3,
+              "Battle IQ": 2
             },
             "caractere": {
               "Sérieux": 2,
@@ -2835,7 +2838,8 @@
             ],
             "style-de-combat": [
               "Arme blanche",
-              "Prémonition"
+              "Prémonition",
+              "Battle IQ"
             ],
             "caractere": [
               "Calme",
@@ -2855,7 +2859,8 @@
             },
             "style-de-combat": {
               "Arme blanche": 3,
-              "Prémonition": 3
+              "Prémonition": 3,
+              "Battle IQ": 2
             },
             "caractere": {
               "Calme": 2,
@@ -4025,7 +4030,6 @@
               "Chef militaire"
             ],
             "style-de-combat": [
-              "Intelligence tactique",
               "Transformation"
             ],
             "caractere": [
@@ -4045,9 +4049,6 @@
             "role": {
               "Chef militaire": 3,
               "Leader": 3
-            },
-            "style-de-combat": {
-              "Intelligence tactique": 2
             },
             "caractere": {
               "Sérieux": 2,
@@ -4285,9 +4286,6 @@
               "Scientifique",
               "Fugitif"
             ],
-            "style-de-combat": [
-              "Intelligence tactique"
-            ],
             "caractere": [
               "Intelligent",
               "Généreux",
@@ -4301,9 +4299,6 @@
             },
             "role": {
               "Scientifique": 3
-            },
-            "style-de-combat": {
-              "Intelligence tactique": 3
             },
             "caractere": {
               "Intelligent": 3,
@@ -4538,7 +4533,8 @@
             ],
             "style-de-combat": [
               "Combat à mains nues",
-              "Contrôle du feu"
+              "Contrôle du feu",
+              "Battle IQ"
             ],
             "caractere": [
               "Calme",
@@ -4557,7 +4553,8 @@
               "Bras droit": 3
             },
             "style-de-combat": {
-              "Contrôle du feu": 3
+              "Contrôle du feu": 3,
+              "Battle IQ": 2
             },
             "caractere": {
               "Loyal": 2
@@ -4963,8 +4960,7 @@
             ],
             "style-de-combat": [
               "Épée",
-              "Katana",
-              "Contrôle du feu"
+              "Katana"
             ],
             "caractere": [
               "Loyal"
@@ -4973,8 +4969,7 @@
           "tagRarity": {
             "style-de-combat": {
               "Épée": 2,
-              "Katana": 3,
-              "Contrôle du feu": 2
+              "Katana": 3
             },
             "caractere": {
               "Loyal": 3
@@ -5523,7 +5518,7 @@
               "Soldat"
             ],
             "style-de-combat": [
-              "Intelligence tactique",
+              "Battle IQ",
               "Téléportation",
               "Invocation",
               "Contrôle de la foudre",
@@ -5558,7 +5553,7 @@
               "Invocation": 2,
               "Téléportation": 2,
               "Contrôle de l'espace": 2,
-              "Intelligence tactique": 2
+              "Battle IQ": 2
             },
             "caractere": {
               "Calme": 3,
