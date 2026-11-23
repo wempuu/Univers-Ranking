@@ -1005,7 +1005,7 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Armes à feu": 3
+              "Armes à feu": 2
             },
             "caractere": {
               "Calme": 3,
@@ -3749,7 +3749,6 @@
               "Soldat"
             ],
             "style-de-combat": [
-              "Armes à feu",
               "Régénération"
             ],
             "caractere": [
@@ -3762,7 +3761,6 @@
               "Soldat": 2
             },
             "style-de-combat": {
-              "Armes à feu": 3,
               "Régénération": 2
             },
             "caractere": {
