@@ -135,14 +135,26 @@ function renderTag() {
   $("tag-card").hidden = !tag;
   if (!tag) return;
   $("tag-title").textContent = `${tag}`;
-  const holders = allChars().filter(({ c }) => hasTag(c, cat, tag));
-  $("tag-count").textContent = `${data.tags[cat].label} · ${holders.length} personnage${holders.length > 1 ? "s" : ""}`;
+  // Filtre par manga (« Tous » = tous les mangas), commun à la liste du tag et à « Ajouter des personnages »
+  const mSel = $("manga-filter");
+  const keep = mSel.value || "tous";
+  mSel.innerHTML = "";
+  mSel.add(new Option("Tous", "tous"));
+  Object.entries(data.mangas).forEach(([slug, m]) => mSel.add(new Option(m.title, slug)));
+  mSel.value = data.mangas[keep] ? keep : "tous";
+  const inManga = ({ manga }) => mSel.value === "tous" || manga === mSel.value;
+
+  const allHolders = allChars().filter(({ c }) => hasTag(c, cat, tag));
+  const holders = allHolders.filter(inManga);
+  const n = holders.length, total = allHolders.length;
+  $("tag-count").textContent = `${data.tags[cat].label} · ${n} personnage${n > 1 ? "s" : ""}` +
+    (mSel.value !== "tous" ? ` dans ${data.mangas[mSel.value].title} (${total} en tout)` : "");
   const ul = $("tag-persos");
   ul.innerHTML = "";
   holders
     .sort((x, y) => tagRarity(y.c, cat, tag) - tagRarity(x.c, cat, tag))
     .forEach((x) => ul.appendChild(persoRow(x, () => removeFrom(x.c), "✕", `Retirer « ${tag} » de ${x.c.name}`, rarityPicker(x.c))));
-  if (!holders.length) ul.innerHTML = `<li class="muted-small">Aucun personnage n'a ce tag.</li>`;
+  if (!holders.length) ul.innerHTML = `<li class="muted-small">Aucun personnage n'a ce tag${mSel.value !== "tous" ? " dans ce manga" : ""}.</li>`;
 
   const q = normalizeSearch($("add-filter").value);
   const add = $("add-list");
@@ -150,7 +162,7 @@ function renderTag() {
   // Tous les persos qui n'ont pas le tag (la recherche filtre) ; ceux qu'on ne peut pas ajouter sont
   // en fin de liste, grisés, avec la raison écrite sur leur ligne.
   const others = allChars()
-    .filter(({ c }) => !hasTag(c, cat, tag) && matchesSearch(searchText([c.name]), q))
+    .filter((x) => inManga(x) && !hasTag(x.c, cat, tag) && matchesSearch(searchText([x.c.name]), q))
     .map((x) => ({ ...x, why: blockedReason(x.c) }));
   others.sort((a, b) => (a.why ? 1 : 0) - (b.why ? 1 : 0));
   others.forEach((x) => {
@@ -368,6 +380,7 @@ $("crit-form").addEventListener("submit", (e) => {
 
 $("tag-filter").addEventListener("input", renderTags);
 $("add-filter").addEventListener("input", renderTag);
+$("manga-filter").addEventListener("change", renderTag);
 
 $("btn-close").addEventListener("click", async (e) => {
   if (!panel.isDirty()) return;
