@@ -1018,7 +1018,8 @@
           },
           "tags": {
             "physique": [
-              "Corpulent"
+              "Corpulent",
+              "Lunettes"
             ],
             "role": [
               "Personnage secondaire",
@@ -1036,7 +1037,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Corpulent": 3
+              "Corpulent": 3,
+              "Lunettes": 2
             },
             "role": {
               "Pirate": 2
@@ -1164,7 +1166,8 @@
           "tags": {
             "physique": [
               "Cheveux blonds",
-              "Tatoué"
+              "Tatoué",
+              "Lunettes"
             ],
             "role": [
               "Allié",
@@ -1933,8 +1936,8 @@
           "tagRarity": {
             "physique": {
               "Grand": 2,
-              "Lunettes": 3,
-              "Cape": 3
+              "Cape": 3,
+              "Lunettes": 2
             },
             "role": {
               "Roi / Reine": 3,
@@ -3446,7 +3449,8 @@
               "Âgé",
               "Chauve",
               "Cicatrice",
-              "Tenue traditionnelle"
+              "Tenue traditionnelle",
+              "Lunettes"
             ],
             "role": [
               "Antagoniste",
@@ -3468,7 +3472,8 @@
             "physique": {
               "Chauve": 2,
               "Tenue traditionnelle": 2,
-              "Âgé": 3
+              "Âgé": 3,
+              "Lunettes": 2
             },
             "role": {
               "Conseiller": 3
@@ -3907,9 +3912,9 @@
           },
           "tagRarity": {
             "physique": {
-              "Lunettes": 3,
               "Cape": 2,
-              "Uniforme militaire": 2
+              "Uniforme militaire": 2,
+              "Lunettes": 2
             },
             "role": {
               "Soldat": 2,
@@ -3961,7 +3966,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Lunettes": 2,
               "Cape": 2,
               "Cheveux verts": 2,
               "Uniforme militaire": 2,
@@ -4170,7 +4174,8 @@
               "Musclé",
               "Cheveux roses",
               "Cape",
-              "Uniforme militaire"
+              "Uniforme militaire",
+              "Lunettes"
             ],
             "role": [
               "Allié",
@@ -4294,8 +4299,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Lunettes": 3,
-              "Uniforme militaire": 2
+              "Uniforme militaire": 2,
+              "Lunettes": 2
             },
             "role": {
               "Rival": 2,
