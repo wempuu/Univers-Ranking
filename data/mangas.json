@@ -135,7 +135,8 @@
         "Arme perçante",
         "Pouvoir démoniaque",
         "Contrôle de la météo",
-        "Contrôle des plantes"
+        "Contrôle des plantes",
+        "Contrôle du sable"
       ]
     },
     "caractere": {
@@ -2098,7 +2099,8 @@
               "Ennemi devenu allié"
             ],
             "style-de-combat": [
-              "Arme perçante"
+              "Arme perçante",
+              "Contrôle du sable"
             ],
             "caractere": [
               "Sérieux",
@@ -2125,6 +2127,9 @@
               "Manipulateur": 2,
               "Stratège": 3,
               "Froid": 2
+            },
+            "style-de-combat": {
+              "Contrôle du sable": 3
             }
           }
         },
