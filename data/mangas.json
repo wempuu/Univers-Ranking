@@ -102,7 +102,7 @@
         "Armes à distance",
         "Arme contondante",
         "Magie",
-        "Pouvoir psychique",
+        "Manipulation mentale",
         "Manipulation",
         "Télékinésie",
         "Téléportation",
@@ -134,7 +134,8 @@
         "Fils / Chaînes",
         "Pouvoir élastique",
         "Scellement",
-        "Pouvoir draconique"
+        "Pouvoir draconique",
+        "Manipulation corporelle"
       ]
     },
     "caractere": {
@@ -701,7 +702,6 @@
             ],
             "style-de-combat": [
               "Épée",
-              "Pouvoir psychique",
               "Contrôle de la glace",
               "Arme Tranchante"
             ],
@@ -727,7 +727,6 @@
             },
             "style-de-combat": {
               "Épée": 2,
-              "Pouvoir psychique": 2,
               "Contrôle de la glace": 2,
               "Arme Tranchante": 2
             },
@@ -1941,7 +1940,8 @@
             "style-de-combat": [
               "Battle IQ",
               "Manipulation",
-              "Fils / Chaînes"
+              "Fils / Chaînes",
+              "Manipulation corporelle"
             ],
             "caractere": [
               "Arrogant",
@@ -1966,7 +1966,8 @@
             "style-de-combat": {
               "Fils / Chaînes": 3,
               "Manipulation": 3,
-              "Battle IQ": 2
+              "Battle IQ": 2,
+              "Manipulation corporelle": 2
             },
             "caractere": {
               "Arrogant": 3,
@@ -2440,7 +2441,8 @@
               "Ennemi devenu allié"
             ],
             "style-de-combat": [
-              "Invocation"
+              "Invocation",
+              "Manipulation mentale"
             ],
             "caractere": [
               "Peureux",
@@ -2457,7 +2459,8 @@
               "Ennemi devenu allié": 2
             },
             "style-de-combat": {
-              "Invocation": 3
+              "Invocation": 3,
+              "Manipulation mentale": 2
             },
             "caractere": {
               "Peureux": 2,
@@ -2924,7 +2927,7 @@
               "Ennemi devenu allié"
             ],
             "style-de-combat": [
-              "Pouvoir psychique"
+              "Manipulation mentale"
             ],
             "caractere": [
               "Manipulateur",
@@ -2940,12 +2943,12 @@
               "Traître": 2,
               "Ennemi devenu allié": 2
             },
-            "style-de-combat": {
-              "Pouvoir psychique": 3
-            },
             "caractere": {
               "Manipulateur": 3,
               "Romantique": 2
+            },
+            "style-de-combat": {
+              "Manipulation mentale": 2
             }
           }
         },
@@ -3256,9 +3259,10 @@
               "Dieu / Divinité"
             ],
             "style-de-combat": [
-              "Pouvoir psychique",
+              "Manipulation mentale",
               "Arme Tranchante",
-              "Vol"
+              "Vol",
+              "Manipulation corporelle"
             ],
             "caractere": [
               "Sadique",
@@ -3281,9 +3285,10 @@
               "Dieu / Divinité": 2
             },
             "style-de-combat": {
-              "Pouvoir psychique": 3,
               "Arme Tranchante": 2,
-              "Vol": 2
+              "Vol": 2,
+              "Manipulation mentale": 3,
+              "Manipulation corporelle": 2
             },
             "caractere": {
               "Sadique": 3,
@@ -4233,8 +4238,7 @@
               "Soldat"
             ],
             "style-de-combat": [
-              "Arme contondante",
-              "Scellement"
+              "Arme contondante"
             ],
             "caractere": [
               "Sérieux",
@@ -4252,7 +4256,6 @@
               "Soldat": 2
             },
             "style-de-combat": {
-              "Scellement": 2,
               "Arme contondante": 2
             },
             "caractere": {
@@ -4813,7 +4816,6 @@
             "style-de-combat": [
               "Transformation",
               "Vol",
-              "Scellement",
               "Pouvoir draconique"
             ],
             "caractere": [
@@ -4831,7 +4833,6 @@
             },
             "style-de-combat": {
               "Vol": 2,
-              "Scellement": 2,
               "Transformation": 2,
               "Pouvoir draconique": 3
             },
