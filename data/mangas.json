@@ -5264,7 +5264,8 @@
           "tags": {
             "physique": [
               "Corpulent",
-              "Couvre-chef"
+              "Couvre-chef",
+              "Cheveux violets"
             ],
             "role": [
               "Antagoniste",
@@ -5284,7 +5285,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Corpulent": 2
+              "Corpulent": 2,
+              "Cheveux violets": 2
             },
             "role": {
               "Antagoniste": 2,
