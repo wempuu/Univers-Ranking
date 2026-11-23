@@ -91,7 +91,6 @@
       "label": "Combat",
       "values": [
         "Agilité",
-        "Battle IQ",
         "Combat à mains nues",
         "Arts martiaux",
         "Épée",
@@ -369,7 +368,6 @@
               "Orphelin"
             ],
             "style-de-combat": [
-              "Battle IQ",
               "Contrôle de la foudre",
               "Contrôle du vent",
               "Contrôle de la météo"
@@ -393,7 +391,6 @@
             },
             "style-de-combat": {
               "Contrôle du vent": 2,
-              "Battle IQ": 2,
               "Contrôle de la foudre": 2,
               "Contrôle de la météo": 3
             },
@@ -426,7 +423,6 @@
             ],
             "style-de-combat": [
               "Armes à distance",
-              "Battle IQ",
               "Invocation"
             ],
             "caractere": [
@@ -444,7 +440,6 @@
             },
             "style-de-combat": {
               "Armes à distance": 3,
-              "Battle IQ": 2,
               "Invocation": 2
             },
             "caractere": {
@@ -1343,7 +1338,6 @@
               "Rival"
             ],
             "style-de-combat": [
-              "Battle IQ",
               "Katana",
               "Téléportation",
               "Contrôle de l'espace",
@@ -1373,7 +1367,6 @@
             "style-de-combat": {
               "Téléportation": 2,
               "Contrôle de l'espace": 3,
-              "Battle IQ": 2,
               "Katana": 2,
               "Arme Tranchante": 2
             },
@@ -1578,8 +1571,7 @@
               "Traître"
             ],
             "style-de-combat": [
-              "Contrôle des ténèbres",
-              "Battle IQ"
+              "Contrôle des ténèbres"
             ],
             "caractere": [
               "Manipulateur",
@@ -1603,8 +1595,7 @@
               "Pirate": 3
             },
             "style-de-combat": {
-              "Contrôle des ténèbres": 3,
-              "Battle IQ": 2
+              "Contrôle des ténèbres": 3
             },
             "caractere": {
               "Manipulateur": 2,
@@ -1935,7 +1926,6 @@
               "Marchand"
             ],
             "style-de-combat": [
-              "Battle IQ",
               "Fils / Chaînes",
               "Manipulation corporelle"
             ],
@@ -1961,7 +1951,6 @@
             },
             "style-de-combat": {
               "Fils / Chaînes": 3,
-              "Battle IQ": 2,
               "Manipulation corporelle": 2
             },
             "caractere": {
@@ -2105,7 +2094,6 @@
               "Ennemi devenu allié"
             ],
             "style-de-combat": [
-              "Battle IQ",
               "Contrôle de la terre",
               "Arme perçante"
             ],
@@ -2130,8 +2118,7 @@
               "Antagoniste": 2
             },
             "style-de-combat": {
-              "Contrôle de la terre": 3,
-              "Battle IQ": 2
+              "Contrôle de la terre": 3
             },
             "caractere": {
               "Sérieux": 2,
@@ -2870,8 +2857,7 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Prémonition",
-              "Battle IQ"
+              "Prémonition"
             ],
             "caractere": [
               "Calme",
@@ -2890,8 +2876,7 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Prémonition": 3,
-              "Battle IQ": 2
+              "Prémonition": 3
             },
             "caractere": {
               "Calme": 2,
@@ -4582,8 +4567,7 @@
             ],
             "style-de-combat": [
               "Combat à mains nues",
-              "Contrôle du feu",
-              "Battle IQ"
+              "Contrôle du feu"
             ],
             "caractere": [
               "Calme",
@@ -4602,8 +4586,7 @@
               "Bras droit": 3
             },
             "style-de-combat": {
-              "Contrôle du feu": 3,
-              "Battle IQ": 2
+              "Contrôle du feu": 3
             },
             "caractere": {
               "Loyal": 2
@@ -5574,7 +5557,6 @@
               "Soldat"
             ],
             "style-de-combat": [
-              "Battle IQ",
               "Téléportation",
               "Invocation",
               "Contrôle de la foudre",
@@ -5608,8 +5590,7 @@
               "Prémonition": 2,
               "Invocation": 2,
               "Téléportation": 2,
-              "Contrôle de l'espace": 2,
-              "Battle IQ": 2
+              "Contrôle de l'espace": 2
             },
             "caractere": {
               "Calme": 3,
