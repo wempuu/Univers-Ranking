@@ -35,10 +35,7 @@
         "Non-humain",
         "Animal anthropomorphe",
         "Démon",
-        "Vampire",
-        "Cyborg",
-        "Robot",
-        "Monstre",
+        "Cyborg / Robot",
         "Squelette",
         "Couvre-chef",
         "Masque",
@@ -628,7 +625,7 @@
               "Grand",
               "Musclé",
               "Cheveux bleus",
-              "Cyborg"
+              "Cyborg / Robot"
             ],
             "role": [
               "Allié",
@@ -654,8 +651,8 @@
             "physique": {
               "Grand": 2,
               "Musclé": 2,
-              "Cyborg": 3,
-              "Cheveux bleus": 2
+              "Cheveux bleus": 2,
+              "Cyborg / Robot": 3
             },
             "role": {
               "Pirate": 2,
@@ -1806,7 +1803,7 @@
             "physique": [
               "Corpulent",
               "Lunettes",
-              "Cyborg",
+              "Cyborg / Robot",
               "Cheveux blonds",
               "Grand",
               "Tatoué"
@@ -1830,8 +1827,8 @@
           "tagRarity": {
             "physique": {
               "Lunettes": 2,
-              "Cyborg": 3,
-              "Corpulent": 3
+              "Corpulent": 3,
+              "Cyborg / Robot": 3
             },
             "role": {
               "Pirate": 2,
@@ -2319,7 +2316,7 @@
               "Grand",
               "Musclé",
               "Non-humain",
-              "Cyborg",
+              "Cyborg / Robot",
               "Couvre-chef"
             ],
             "role": [
@@ -2345,7 +2342,7 @@
           "tagRarity": {
             "physique": {
               "Grand": 2,
-              "Cyborg": 3
+              "Cyborg / Robot": 3
             },
             "role": {
               "Combattant": 2,
