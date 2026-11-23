@@ -769,3 +769,14 @@ html.wipe-in.wipe-go::before { animation: wipe-uncover .7s .12s cubic-bezier(.77
 .to-top:hover { background: var(--accent); color: var(--on-accent); }
 .to-top { cursor: pointer; padding: 0; opacity: 0; transform: translateY(12px); pointer-events: none; }
 body.fp-on-undercover .to-top { opacity: 1; transform: none; pointer-events: auto; } /* page Undercover et pied de page */
+
+/* Fiche perso : édition des tags (rareté, renommer, retirer, ajouter) */
+.chip.chip-edit { display: inline-flex; align-items: center; gap: 4px; padding: 3px 4px 3px 12px; }
+.chip-rarity {
+  font: inherit; font-size: .7rem; letter-spacing: -1px; padding: 2px 2px; cursor: pointer;
+  background: var(--bg); color: var(--text); border: 1px solid rgba(255,255,255,.12); border-radius: var(--radius);
+}
+.chip-edit .chip-x[data-act="rename-tag"]:hover { background: var(--accent); color: var(--on-accent); }
+.tag-notice { margin: 8px 0 0; font-size: .85rem; color: #ff8a8a; }
+.chip-edit .chip-x { margin: 0; padding: 0 5px; }
+.tag-notice.ok { color: var(--accent); }

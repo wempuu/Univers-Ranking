@@ -234,26 +234,7 @@ $("btn-rename-tag").addEventListener("click", async () => {
   if (!tag) return;
   const v = ((await askText(`Nouveau nom pour « ${tag} » (un nom déjà existant fusionne les deux tags) :`, tag, "Renommer")) || "").trim();
   if (!v || v === tag) return;
-  const existingTarget = tagValues(cat).find((x) => same(x, v) && !same(x, tag));
-  const target = existingTarget || v;
-  allChars().forEach(({ c }) => {
-    const vals = (c.tags || {})[cat];
-    if (!vals || !vals.some((x) => same(x, tag))) return;
-    // rareté du perso : un renommage la garde ; une fusion garde la plus haute des deux
-    const had = vals.some((x) => same(x, target));
-    const r = had ? Math.max(tagRarity(c, cat, tag), tagRarity(c, cat, target)) : tagRarity(c, cat, tag);
-    const out = [];
-    vals.forEach((x) => { const y = same(x, tag) ? target : x; if (!out.some((z) => same(z, y))) out.push(y); });
-    c.tags[cat] = out;
-    setTagRarity(c, cat, tag, 1);
-    setTagRarity(c, cat, target, r);
-  });
-  const t = data.tags[cat];
-  if (t.values) {
-    const out = [];
-    t.values.forEach((x) => { const y = same(x, tag) ? target : x; if (!out.some((z) => same(z, y))) out.push(y); });
-    t.values = out;
-  }
+  const target = renameTagValue(data, cat, tag, v); // tous les persos + liste de la catégorie (common.js)
   criteria = criteria
     .map((x) => (x.cat === cat && same(x.value, tag) ? { cat, value: target } : x))
     .filter((x, i, all) => all.findIndex((y) => y.cat === x.cat && same(y.value, x.value)) === i);

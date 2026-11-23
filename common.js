@@ -77,6 +77,38 @@ function rarityStars(n) {
   return "⭐".repeat(n);
 }
 
+// Renomme un tag d'une catégorie chez TOUS les persos (tous mangas) et dans la liste de la catégorie.
+// Si `to` existe déjà dans la catégorie, les deux tags sont fusionnés (le perso garde la plus haute rareté).
+// Renvoie le nom final du tag.
+function renameTagValue(data, cat, from, to) {
+  const same = (a, b) => normalizeSearch(a) === normalizeSearch(b);
+  const target = knownTagValues(data, cat).find((x) => same(x, to) && !same(x, from)) || to;
+  const rename = (vals) => {
+    const out = [];
+    vals.forEach((x) => { const y = same(x, from) ? target : x; if (!out.some((z) => same(z, y))) out.push(y); });
+    return out;
+  };
+  Object.values(data.mangas).forEach((m) => m.characters.forEach((c) => {
+    const vals = (c.tags || {})[cat];
+    if (!vals || !vals.some((x) => same(x, from))) return;
+    // un renommage garde la rareté du perso ; une fusion garde la plus haute des deux
+    const had = vals.some((x) => same(x, target) && !same(x, from));
+    const r = had ? Math.max(tagRarity(c, cat, from), tagRarity(c, cat, target)) : tagRarity(c, cat, from);
+    c.tags[cat] = rename(vals);
+    setTagRarity(c, cat, from, 1);
+    setTagRarity(c, cat, target, r);
+  }));
+  const t = data.tags[cat];
+  if (t.values) t.values = rename(t.values);
+  return target;
+}
+
+// Catégorie (autre que `exceptCat`) qui contient déjà ce tag, ou null : un tag n'appartient qu'à une catégorie
+function tagCategoryOf(data, value, exceptCat) {
+  return Object.keys(data.tags).find((slug) => slug !== exceptCat &&
+    knownTagValues(data, slug).some((x) => normalizeSearch(x) === normalizeSearch(value))) || null;
+}
+
 // Persos qui ont TOUS les critères [{ cat, value }] (catégories mélangées possibles)
 function charactersWithTags(data, criteria) {
   const norm = (s) => normalizeSearch(s);
