@@ -260,7 +260,8 @@
               "Leader": 2,
               "Empereur": 2,
               "Pirate": 2,
-              "Dieu / Divinité": 3
+              "Dieu / Divinité": 3,
+              "Orphelin": 2
             },
             "style-de-combat": {
               "Force brute": 2,
@@ -390,7 +391,6 @@
             "role": {
               "Pirate": 2,
               "Navigateur": 3,
-              "Orphelin": 2,
               "Allié": 2
             },
             "style-de-combat": {
@@ -606,7 +606,8 @@
               "Scientifique": 2,
               "Fugitif": 3,
               "Ennemi devenu allié": 3,
-              "Allié": 2
+              "Allié": 2,
+              "Orphelin": 2
             },
             "caractere": {
               "Intelligent": 3,
@@ -665,7 +666,6 @@
             "role": {
               "Pirate": 2,
               "Scientifique": 2,
-              "Orphelin": 2,
               "Ennemi devenu allié": 2,
               "Allié": 2
             },
