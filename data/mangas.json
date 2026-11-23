@@ -487,8 +487,7 @@
               "Allié": 2
             },
             "style-de-combat": {
-              "Vitesse": 2,
-              "Arts martiaux": 3
+              "Vitesse": 2
             },
             "caractere": {
               "Sérieux": 2,
@@ -527,7 +526,8 @@
             ],
             "style-de-combat": [
               "Combat à mains nues",
-              "Transformation"
+              "Transformation",
+              "Arts martiaux"
             ],
             "caractere": [
               "Timide",
@@ -781,8 +781,8 @@
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
-              "Arts martiaux": 2,
-              "Contrôle de l'eau": 3
+              "Contrôle de l'eau": 3,
+              "Arts martiaux": 2
             },
             "caractere": {
               "Calme": 3,
@@ -1419,7 +1419,7 @@
               "Bras droit": 3
             },
             "style-de-combat": {
-              "Arts martiaux": 3
+              "Arts martiaux": 2
             },
             "caractere": {
               "Peureux": 3,
@@ -2001,7 +2001,6 @@
               "Esclave / Opprimé": 3
             },
             "style-de-combat": {
-              "Arts martiaux": 2,
               "Magie": 3
             },
             "caractere": {
@@ -2641,9 +2640,6 @@
             "role": {
               "Cuisinier": 3,
               "Maître / Mentor": 2
-            },
-            "style-de-combat": {
-              "Arts martiaux": 3
             },
             "caractere": {
               "Protecteur": 2
@@ -5311,9 +5307,6 @@
               "Allié": 2,
               "Prisonnier": 2,
               "Ennemi devenu allié": 3
-            },
-            "style-de-combat": {
-              "Arts martiaux": 3
             },
             "caractere": {
               "Joyeux": 2,
