@@ -44,7 +44,8 @@
         "Yeux spéciaux",
         "Prothèse / Membre manquant",
         "Tenue traditionnelle",
-        "Peau colorée"
+        "Peau colorée",
+        "Fumeur"
       ]
     },
     "role": {
@@ -489,7 +490,8 @@
               "Pervers"
             ],
             "physique": [
-              "Cheveux blonds"
+              "Cheveux blonds",
+              "Fumeur"
             ]
           },
           "tagRarity": {
@@ -507,6 +509,9 @@
             },
             "style-de-combat": {
               "Combat aux jambes": 3
+            },
+            "physique": {
+              "Fumeur": 2
             }
           }
         },
@@ -1000,7 +1005,8 @@
             "physique": [
               "Cheveux longs",
               "Cheveux gris / blancs",
-              "Cicatrice"
+              "Cicatrice",
+              "Fumeur"
             ],
             "role": [
               "Bras droit",
@@ -1029,6 +1035,9 @@
               "Calme": 3,
               "Intelligent": 2,
               "Loyal": 2
+            },
+            "physique": {
+              "Fumeur": 2
             }
           }
         },
@@ -1832,7 +1841,8 @@
               "Cyborg / Robot",
               "Cheveux blonds",
               "Grand",
-              "Tatoué"
+              "Tatoué",
+              "Fumeur"
             ],
             "role": [
               "Antagoniste",
@@ -1855,7 +1865,8 @@
             "physique": {
               "Lunettes": 2,
               "Corpulent": 3,
-              "Cyborg / Robot": 3
+              "Cyborg / Robot": 3,
+              "Fumeur": 2
             },
             "role": {
               "Pirate": 2,
@@ -2108,7 +2119,8 @@
             "physique": [
               "Cicatrice",
               "Cape",
-              "Prothèse / Membre manquant"
+              "Prothèse / Membre manquant",
+              "Fumeur"
             ],
             "role": [
               "Antagoniste",
@@ -2134,7 +2146,8 @@
             "physique": {
               "Cicatrice": 3,
               "Cape": 2,
-              "Prothèse / Membre manquant": 2
+              "Prothèse / Membre manquant": 2,
+              "Fumeur": 2
             },
             "role": {
               "Leader": 2,
@@ -2550,7 +2563,8 @@
               "Âgé",
               "Cheveux longs",
               "Cheveux blonds",
-              "Prothèse / Membre manquant"
+              "Prothèse / Membre manquant",
+              "Fumeur"
             ],
             "role": [
               "Antagoniste",
@@ -2572,7 +2586,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Prothèse / Membre manquant": 2
+              "Prothèse / Membre manquant": 2,
+              "Fumeur": 2
             },
             "role": {
               "Leader": 2,
@@ -3177,7 +3192,8 @@
               "Froid"
             ],
             "physique": [
-              "Couvre-chef"
+              "Couvre-chef",
+              "Fumeur"
             ]
           },
           "tagRarity": {
@@ -3194,6 +3210,9 @@
               "Sérieux": 2,
               "Sadique": 2,
               "Froid": 2
+            },
+            "physique": {
+              "Fumeur": 2
             }
           }
         },
@@ -3816,7 +3835,8 @@
               "Cape",
               "Uniforme militaire",
               "Grand",
-              "Tatoué"
+              "Tatoué",
+              "Fumeur"
             ],
             "role": [
               "Antagoniste",
@@ -3837,7 +3857,8 @@
             "physique": {
               "Cicatrice": 2,
               "Cape": 2,
-              "Uniforme militaire": 2
+              "Uniforme militaire": 2,
+              "Fumeur": 2
             },
             "role": {
               "Antagoniste": 2,
@@ -3978,7 +3999,8 @@
               "Uniforme militaire",
               "Cheveux verts",
               "Grand",
-              "Tatoué"
+              "Tatoué",
+              "Fumeur"
             ],
             "role": [
               "Antagoniste",
@@ -3999,7 +4021,8 @@
               "Cape": 2,
               "Cheveux verts": 2,
               "Uniforme militaire": 2,
-              "Tatoué": 2
+              "Tatoué": 2,
+              "Fumeur": 2
             },
             "role": {
               "Soldat": 2,
@@ -4248,7 +4271,8 @@
               "Cheveux gris / blancs",
               "Cicatrice",
               "Cape",
-              "Uniforme militaire"
+              "Uniforme militaire",
+              "Fumeur"
             ],
             "role": [
               "Soldat"
@@ -4266,7 +4290,8 @@
               "Cicatrice": 2,
               "Cape": 2,
               "Uniforme militaire": 2,
-              "Cheveux gris / blancs": 2
+              "Cheveux gris / blancs": 2,
+              "Fumeur": 3
             },
             "role": {
               "Soldat": 2
@@ -4436,7 +4461,8 @@
               "Grand",
               "Cheveux blonds",
               "Couvre-chef",
-              "Tatoué"
+              "Tatoué",
+              "Fumeur"
             ],
             "role": [
               "Maître / Mentor",
@@ -4465,6 +4491,9 @@
             },
             "style-de-combat": {
               "Contrôle du son": 3
+            },
+            "physique": {
+              "Fumeur": 2
             }
           }
         },
