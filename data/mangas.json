@@ -370,7 +370,8 @@
             "style-de-combat": [
               "Contrôle de la foudre",
               "Contrôle du vent",
-              "Contrôle de la météo"
+              "Contrôle de la météo",
+              "Arme contondante"
             ],
             "caractere": [
               "Sérieux",
@@ -392,7 +393,8 @@
             "style-de-combat": {
               "Contrôle du vent": 2,
               "Contrôle de la foudre": 2,
-              "Contrôle de la météo": 3
+              "Contrôle de la météo": 3,
+              "Arme contondante": 2
             },
             "caractere": {
               "Peureux": 2,
