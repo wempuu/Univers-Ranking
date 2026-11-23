@@ -543,10 +543,10 @@
           "tagRarity": {
             "physique": {
               "Enfant": 2,
-              "Petit": 3,
               "Animal anthropomorphe": 3,
               "Couvre-chef": 2,
-              "Non-humain": 3
+              "Non-humain": 3,
+              "Petit": 2
             },
             "role": {
               "Médecin": 3,
@@ -4335,7 +4335,8 @@
           "tags": {
             "physique": [
               "Âgé",
-              "Cheveux gris / blancs"
+              "Cheveux gris / blancs",
+              "Petit"
             ],
             "role": [
               "Allié",
@@ -4985,7 +4986,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Petit",
               "Queue",
               "Non-humain",
               "Animal anthropomorphe",
@@ -5009,7 +5009,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Petit": 2,
               "Animal anthropomorphe": 3
             },
             "role": {
@@ -5326,7 +5325,8 @@
               "Corpulent",
               "Couvre-chef",
               "Cheveux violets",
-              "Barbu"
+              "Barbu",
+              "Petit"
             ],
             "role": [
               "Antagoniste",
