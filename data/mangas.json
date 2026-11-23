@@ -4082,7 +4082,6 @@
             ],
             "role": [
               "Leader",
-              "Soldat",
               "Chef militaire"
             ],
             "style-de-combat": [
@@ -4105,7 +4104,6 @@
               "Âgé": 2
             },
             "role": {
-              "Soldat": 2,
               "Chef militaire": 3,
               "Leader": 3
             },
@@ -4216,7 +4214,7 @@
             "role": {
               "Rival": 2,
               "Élève": 3,
-              "Soldat": 3
+              "Soldat": 2
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
@@ -4273,7 +4271,7 @@
             },
             "role": {
               "Rival": 3,
-              "Soldat": 3
+              "Soldat": 2
             },
             "style-de-combat": {
               "Arme lourde": 2,
@@ -4322,7 +4320,7 @@
             },
             "role": {
               "Rival": 2,
-              "Soldat": 3
+              "Soldat": 2
             },
             "style-de-combat": {
               "Épée": 2,
@@ -4454,7 +4452,6 @@
             ],
             "role": [
               "Mentor",
-              "Soldat",
               "Espion",
               "Traître"
             ],
@@ -4470,7 +4467,6 @@
           "tagRarity": {
             "role": {
               "Mentor": 3,
-              "Soldat": 2,
               "Espion": 3,
               "Traître": 2
             },
