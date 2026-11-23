@@ -100,7 +100,7 @@
         "Arme Tranchante",
         "Armes à feu",
         "Armes à distance",
-        "Arme lourde",
+        "Arme contondante",
         "Magie",
         "Pouvoir psychique",
         "Manipulation",
@@ -133,7 +133,8 @@
         "Contrôle du son",
         "Fils / Chaînes",
         "Pouvoir élastique",
-        "Scellement"
+        "Scellement",
+        "Pouvoir draconique"
       ]
     },
     "caractere": {
@@ -1643,10 +1644,11 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Arme lourde",
+              "Arme contondante",
               "Transformation",
               "Vol",
-              "Contrôle du feu"
+              "Contrôle du feu",
+              "Pouvoir draconique"
             ],
             "caractere": [
               "Colérique",
@@ -1670,9 +1672,10 @@
               "Antagoniste": 2
             },
             "style-de-combat": {
-              "Arme lourde": 3,
               "Vol": 2,
-              "Transformation": 2
+              "Transformation": 2,
+              "Arme contondante": 3,
+              "Pouvoir draconique": 3
             },
             "caractere": {
               "Colérique": 2,
@@ -1707,7 +1710,7 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Arme lourde",
+              "Arme contondante",
               "Transformation",
               "Contrôle de la glace"
             ],
@@ -1728,8 +1731,8 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Arme lourde": 3,
-              "Contrôle de la glace": 2
+              "Contrôle de la glace": 2,
+              "Arme contondante": 3
             },
             "caractere": {
               "Joyeux": 2,
@@ -4223,7 +4226,7 @@
               "Soldat"
             ],
             "style-de-combat": [
-              "Arme lourde",
+              "Arme contondante",
               "Contrôle du vent",
               "Scellement"
             ],
@@ -4243,9 +4246,9 @@
               "Soldat": 2
             },
             "style-de-combat": {
-              "Arme lourde": 2,
               "Contrôle du vent": 2,
-              "Scellement": 2
+              "Scellement": 2,
+              "Arme contondante": 2
             },
             "caractere": {
               "Sérieux": 3
@@ -4800,7 +4803,8 @@
             "style-de-combat": [
               "Transformation",
               "Vol",
-              "Scellement"
+              "Scellement",
+              "Pouvoir draconique"
             ],
             "caractere": [
               "Naïf"
@@ -4818,7 +4822,8 @@
             "style-de-combat": {
               "Vol": 2,
               "Scellement": 2,
-              "Transformation": 2
+              "Transformation": 2,
+              "Pouvoir draconique": 3
             },
             "caractere": {
               "Naïf": 3
@@ -5086,8 +5091,9 @@
               "Prince / Princesse"
             ],
             "style-de-combat": [
-              "Arme lourde",
-              "Transformation"
+              "Arme contondante",
+              "Transformation",
+              "Pouvoir draconique"
             ],
             "caractere": [
               "Arrogant",
@@ -5105,8 +5111,9 @@
               "Prince / Princesse": 3
             },
             "style-de-combat": {
-              "Arme lourde": 3,
-              "Transformation": 2
+              "Transformation": 2,
+              "Arme contondante": 3,
+              "Pouvoir draconique": 3
             },
             "caractere": {
               "Arrogant": 3
