@@ -136,7 +136,8 @@
         "Pouvoir démoniaque",
         "Contrôle de la météo",
         "Contrôle des plantes",
-        "Contrôle du sable"
+        "Contrôle du sable",
+        "Combat aux jambes"
       ]
     },
     "caractere": {
@@ -474,7 +475,8 @@
             ],
             "style-de-combat": [
               "Contrôle du feu",
-              "Vol"
+              "Vol",
+              "Combat aux jambes"
             ],
             "caractere": [
               "Sérieux",
@@ -499,6 +501,9 @@
               "Vengeur": 2,
               "Romantique": 3,
               "Pervers": 3
+            },
+            "style-de-combat": {
+              "Combat aux jambes": 3
             }
           }
         },
@@ -1993,7 +1998,8 @@
               "Esclave / Opprimé"
             ],
             "style-de-combat": [
-              "Magie"
+              "Magie",
+              "Combat aux jambes"
             ],
             "caractere": [
               "Arrogant",
@@ -2012,7 +2018,8 @@
               "Esclave / Opprimé": 3
             },
             "style-de-combat": {
-              "Magie": 3
+              "Magie": 3,
+              "Combat aux jambes": 2
             },
             "caractere": {
               "Arrogant": 3,
@@ -3908,7 +3915,8 @@
             ],
             "style-de-combat": [
               "Contrôle de la lumière",
-              "Vol"
+              "Vol",
+              "Combat aux jambes"
             ],
             "caractere": [
               "Calme",
@@ -3926,7 +3934,8 @@
               "Chef militaire": 2
             },
             "style-de-combat": {
-              "Contrôle de la lumière": 3
+              "Contrôle de la lumière": 3,
+              "Combat aux jambes": 2
             },
             "caractere": {
               "Calme": 2,
