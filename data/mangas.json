@@ -97,7 +97,7 @@
         "Arts martiaux",
         "Épée",
         "Katana",
-        "Arme blanche",
+        "Arme Tranchante",
         "Armes à feu",
         "Armes à distance",
         "Arme lourde",
@@ -300,9 +300,9 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Épée",
               "Katana",
-              "Illusion"
+              "Illusion",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Sérieux",
@@ -327,7 +327,7 @@
             },
             "style-de-combat": {
               "Katana": 3,
-              "Épée": 3
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Sérieux": 2,
@@ -697,7 +697,8 @@
             "style-de-combat": [
               "Épée",
               "Pouvoir psychique",
-              "Contrôle de la glace"
+              "Contrôle de la glace",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Joyeux",
@@ -722,7 +723,8 @@
             "style-de-combat": {
               "Épée": 2,
               "Pouvoir psychique": 2,
-              "Contrôle de la glace": 2
+              "Contrôle de la glace": 2,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Joyeux": 3,
@@ -813,7 +815,8 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Épée"
+              "Épée",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Joyeux",
@@ -833,7 +836,8 @@
               "Pirate": 3
             },
             "style-de-combat": {
-              "Épée": 2
+              "Épée": 2,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Joyeux": 3,
@@ -871,7 +875,8 @@
             ],
             "style-de-combat": [
               "Épée",
-              "Prémonition"
+              "Prémonition",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Calme",
@@ -892,7 +897,8 @@
             },
             "style-de-combat": {
               "Épée": 2,
-              "Prémonition": 2
+              "Prémonition": 2,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Calme": 2,
@@ -926,7 +932,8 @@
             ],
             "style-de-combat": [
               "Épée",
-              "Prémonition"
+              "Prémonition",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Calme",
@@ -950,7 +957,8 @@
             },
             "style-de-combat": {
               "Épée": 2,
-              "Prémonition": 2
+              "Prémonition": 2,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Calme": 2,
@@ -1119,7 +1127,7 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Arme blanche"
+              "Arme Tranchante"
             ],
             "caractere": [
               "Charismatique",
@@ -1140,13 +1148,13 @@
               "Empereur": 3,
               "Pirate": 2
             },
-            "style-de-combat": {
-              "Arme blanche": 3
-            },
             "caractere": {
               "Charismatique": 2,
               "Protecteur": 3,
               "Fêtard": 2
+            },
+            "style-de-combat": {
+              "Arme Tranchante": 2
             }
           }
         },
@@ -1332,10 +1340,10 @@
             ],
             "style-de-combat": [
               "Battle IQ",
-              "Épée",
               "Katana",
               "Téléportation",
-              "Contrôle de l'espace"
+              "Contrôle de l'espace",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Calme",
@@ -1359,11 +1367,11 @@
               "Rival": 3
             },
             "style-de-combat": {
-              "Épée": 2,
               "Téléportation": 2,
               "Contrôle de l'espace": 3,
               "Battle IQ": 2,
-              "Katana": 2
+              "Katana": 2,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Calme": 2,
@@ -1514,7 +1522,8 @@
             ],
             "style-de-combat": [
               "Agilité",
-              "Épée"
+              "Épée",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Calme",
@@ -1531,7 +1540,8 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Agilité": 2
+              "Agilité": 2,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Loyal": 3,
@@ -1757,7 +1767,8 @@
               "Épée",
               "Transformation",
               "Vol",
-              "Contrôle du feu"
+              "Contrôle du feu",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Sérieux",
@@ -1780,7 +1791,8 @@
             "style-de-combat": {
               "Épée": 2,
               "Vol": 3,
-              "Contrôle du feu": 2
+              "Contrôle du feu": 2,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Sérieux": 2,
@@ -1865,7 +1877,8 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Transformation"
+              "Transformation",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Sadique",
@@ -1885,6 +1898,9 @@
             "caractere": {
               "Sadique": 2,
               "Loyal": 3
+            },
+            "style-de-combat": {
+              "Arme Tranchante": 2
             }
           }
         },
@@ -2205,6 +2221,9 @@
             "caractere": [
               "Sadique",
               "Déterminé"
+            ],
+            "style-de-combat": [
+              "Arme Tranchante"
             ]
           },
           "tagRarity": {
@@ -2220,6 +2239,9 @@
             "caractere": {
               "Sadique": 3,
               "Déterminé": 2
+            },
+            "style-de-combat": {
+              "Arme Tranchante": 2
             }
           }
         },
@@ -2463,7 +2485,8 @@
               "Esclave / Opprimé"
             ],
             "style-de-combat": [
-              "Combat à mains nues"
+              "Combat à mains nues",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Colérique",
@@ -2485,7 +2508,8 @@
               "Antagoniste": 2
             },
             "style-de-combat": {
-              "Combat à mains nues": 2
+              "Combat à mains nues": 2,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Colérique": 2,
@@ -2521,7 +2545,8 @@
             ],
             "style-de-combat": [
               "Épée",
-              "Vol"
+              "Vol",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Arrogant",
@@ -2539,7 +2564,8 @@
               "Prisonnier": 2
             },
             "style-de-combat": {
-              "Vol": 3
+              "Vol": 3,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Manipulateur": 2,
@@ -2671,8 +2697,7 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Combat à mains nues",
-              "Arme blanche"
+              "Combat à mains nues"
             ],
             "caractere": [
               "Colérique",
@@ -2691,8 +2716,7 @@
               "Antagoniste": 2
             },
             "style-de-combat": {
-              "Combat à mains nues": 2,
-              "Arme blanche": 2
+              "Combat à mains nues": 2
             },
             "caractere": {
               "Colérique": 2,
@@ -2725,7 +2749,7 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Arme blanche"
+              "Arme Tranchante"
             ],
             "caractere": [
               "Colérique",
@@ -2741,12 +2765,12 @@
             "role": {
               "Pirate": 2
             },
-            "style-de-combat": {
-              "Arme blanche": 3
-            },
             "caractere": {
               "Colérique": 2,
               "Naïf": 3
+            },
+            "style-de-combat": {
+              "Arme Tranchante": 2
             }
           }
         },
@@ -2838,7 +2862,6 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Arme blanche",
               "Prémonition",
               "Battle IQ"
             ],
@@ -2859,7 +2882,6 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Arme blanche": 3,
               "Prémonition": 3,
               "Battle IQ": 2
             },
@@ -3038,7 +3060,8 @@
             ],
             "style-de-combat": [
               "Épée",
-              "Invocation"
+              "Invocation",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Arrogant"
@@ -3050,7 +3073,8 @@
             },
             "style-de-combat": {
               "Épée": 2,
-              "Invocation": 2
+              "Invocation": 2,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Arrogant": 2
@@ -3125,7 +3149,9 @@
             ],
             "style-de-combat": [
               "Épée",
-              "Invisibilité"
+              "Invisibilité",
+              "Arme Tranchante",
+              "Katana"
             ],
             "caractere": [
               "Sérieux",
@@ -3142,7 +3168,9 @@
             },
             "style-de-combat": {
               "Invisibilité": 3,
-              "Épée": 3
+              "Épée": 2,
+              "Arme Tranchante": 2,
+              "Katana": 2
             },
             "caractere": {
               "Sérieux": 2,
@@ -3221,7 +3249,8 @@
               "Dieu / Divinité"
             ],
             "style-de-combat": [
-              "Pouvoir psychique"
+              "Pouvoir psychique",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Sadique",
@@ -3244,7 +3273,8 @@
               "Dieu / Divinité": 2
             },
             "style-de-combat": {
-              "Pouvoir psychique": 3
+              "Pouvoir psychique": 3,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Sadique": 3,
@@ -3422,10 +3452,10 @@
               "Conseiller"
             ],
             "style-de-combat": [
-              "Épée",
               "Katana",
               "Transformation",
-              "Régénération"
+              "Régénération",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Sérieux",
@@ -3444,10 +3474,10 @@
               "Conseiller": 3
             },
             "style-de-combat": {
-              "Épée": 2,
               "Katana": 2,
               "Transformation": 2,
-              "Régénération": 2
+              "Régénération": 2,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Calme": 2
@@ -3525,7 +3555,8 @@
             ],
             "style-de-combat": [
               "Épée",
-              "Régénération"
+              "Régénération",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Arrogant",
@@ -3546,7 +3577,8 @@
             },
             "style-de-combat": {
               "Épée": 2,
-              "Régénération": 2
+              "Régénération": 2,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Arrogant": 2,
@@ -3577,7 +3609,8 @@
             ],
             "style-de-combat": [
               "Épée",
-              "Régénération"
+              "Régénération",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Sérieux",
@@ -3592,7 +3625,8 @@
             },
             "style-de-combat": {
               "Épée": 2,
-              "Régénération": 2
+              "Régénération": 2,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Arrogant": 2,
@@ -3975,10 +4009,10 @@
               "Chef militaire"
             ],
             "style-de-combat": [
-              "Épée",
               "Katana",
               "Prémonition",
-              "Contrôle de la gravité"
+              "Contrôle de la gravité",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Calme",
@@ -3996,10 +4030,10 @@
               "Chef militaire": 2
             },
             "style-de-combat": {
-              "Épée": 2,
               "Katana": 2,
               "Contrôle de la gravité": 3,
-              "Prémonition": 2
+              "Prémonition": 2,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Calme": 3
@@ -4240,8 +4274,8 @@
               "Soldat"
             ],
             "style-de-combat": [
-              "Épée",
-              "Katana"
+              "Katana",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Sérieux",
@@ -4259,7 +4293,7 @@
             },
             "style-de-combat": {
               "Katana": 3,
-              "Épée": 3
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Sérieux": 2
@@ -4671,9 +4705,6 @@
               "Prince / Princesse",
               "Ennemi devenu allié"
             ],
-            "style-de-combat": [
-              "Arme blanche"
-            ],
             "caractere": [
               "Courageux",
               "Généreux",
@@ -4684,9 +4715,6 @@
             "role": {
               "Prince / Princesse": 3,
               "Ennemi devenu allié": 2
-            },
-            "style-de-combat": {
-              "Arme blanche": 2
             },
             "caractere": {
               "Courageux": 3,
@@ -4719,8 +4747,8 @@
               "Roi / Reine"
             ],
             "style-de-combat": [
-              "Épée",
-              "Katana"
+              "Katana",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Courageux",
@@ -4739,7 +4767,7 @@
             },
             "style-de-combat": {
               "Katana": 3,
-              "Épée": 3
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Courageux": 2,
@@ -4960,8 +4988,8 @@
               "Allié"
             ],
             "style-de-combat": [
-              "Épée",
-              "Katana"
+              "Katana",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Loyal"
@@ -4969,8 +4997,8 @@
           },
           "tagRarity": {
             "style-de-combat": {
-              "Épée": 2,
-              "Katana": 3
+              "Katana": 3,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Loyal": 3
