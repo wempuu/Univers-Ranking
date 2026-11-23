@@ -1167,7 +1167,8 @@
             "physique": [
               "Cheveux blonds",
               "Tatoué",
-              "Lunettes"
+              "Lunettes",
+              "Ailes"
             ],
             "role": [
               "Allié",
@@ -1188,7 +1189,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Tatoué": 2
+              "Tatoué": 2,
+              "Ailes": 2
             },
             "role": {
               "Bras droit": 3,
