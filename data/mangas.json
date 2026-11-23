@@ -2282,7 +2282,6 @@
               "Leader",
               "Pirate",
               "Criminel",
-              "Prisonnier",
               "Fugitif"
             ],
             "style-de-combat": [
@@ -2300,7 +2299,6 @@
             },
             "role": {
               "Pirate": 2,
-              "Prisonnier": 2,
               "Fugitif": 2
             },
             "style-de-combat": {
