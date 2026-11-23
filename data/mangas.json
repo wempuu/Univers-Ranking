@@ -57,19 +57,16 @@
         "Rival",
         "Leader",
         "Bras droit",
-        "Mentor",
+        "Maître / Mentor",
         "Élève",
-        "Maître",
         "Médecin",
         "Assassin",
-        "Mercenaire",
         "Soldat",
         "Chef militaire",
         "Roi / Reine",
         "Prince / Princesse",
         "Empereur",
         "Pirate",
-        "Chasseur",
         "Espion",
         "Criminel",
         "Prisonnier",
@@ -303,7 +300,6 @@
               "Bras droit",
               "Élève",
               "Pirate",
-              "Chasseur",
               "Criminel"
             ],
             "style-de-combat": [
@@ -330,7 +326,6 @@
               "Bras droit": 3,
               "Élève": 2,
               "Pirate": 2,
-              "Chasseur": 2,
               "Allié": 2
             },
             "style-de-combat": {
@@ -872,8 +867,7 @@
             ],
             "role": [
               "Bras droit",
-              "Mentor",
-              "Maître",
+              "Maître / Mentor",
               "Pirate",
               "Criminel"
             ],
@@ -895,9 +889,8 @@
             },
             "role": {
               "Bras droit": 3,
-              "Mentor": 3,
               "Pirate": 2,
-              "Maître": 3
+              "Maître / Mentor": 3
             },
             "style-de-combat": {
               "Épée": 2
@@ -927,7 +920,7 @@
             ],
             "role": [
               "Leader",
-              "Mentor",
+              "Maître / Mentor",
               "Empereur",
               "Pirate",
               "Criminel"
@@ -951,9 +944,9 @@
             },
             "role": {
               "Leader": 2,
-              "Mentor": 2,
               "Empereur": 3,
-              "Pirate": 2
+              "Pirate": 2,
+              "Maître / Mentor": 2
             },
             "style-de-combat": {
               "Épée": 2
@@ -2051,8 +2044,7 @@
               "Yeux spéciaux"
             ],
             "role": [
-              "Mentor",
-              "Maître",
+              "Maître / Mentor",
               "Pirate",
               "Criminel"
             ],
@@ -2072,9 +2064,8 @@
               "Cape": 2
             },
             "role": {
-              "Mentor": 2,
               "Pirate": 2,
-              "Maître": 2
+              "Maître / Mentor": 2
             },
             "style-de-combat": {
               "Épée": 2
@@ -2332,7 +2323,8 @@
               "Criminel",
               "Prisonnier",
               "Esclave / Opprimé",
-              "Révolutionnaire"
+              "Révolutionnaire",
+              "Religieux"
             ],
             "style-de-combat": [
               "Télékinésie",
@@ -2353,7 +2345,8 @@
             "role": {
               "Prisonnier": 2,
               "Esclave / Opprimé": 3,
-              "Révolutionnaire": 2
+              "Révolutionnaire": 2,
+              "Religieux": 2
             },
             "style-de-combat": {
               "Télékinésie": 2,
@@ -2648,8 +2641,7 @@
               "Prothèse / Membre manquant"
             ],
             "role": [
-              "Mentor",
-              "Maître",
+              "Maître / Mentor",
               "Pirate",
               "Criminel",
               "Cuisinier",
@@ -2671,9 +2663,8 @@
               "Couvre-chef": 2
             },
             "role": {
-              "Maître": 2,
               "Cuisinier": 3,
-              "Mentor": 2
+              "Maître / Mentor": 2
             },
             "style-de-combat": {
               "Arts martiaux": 3
@@ -4131,7 +4122,7 @@
               "Barbu"
             ],
             "role": [
-              "Mentor",
+              "Maître / Mentor",
               "Soldat",
               "Chef militaire",
               "Leader"
@@ -4156,7 +4147,7 @@
             "role": {
               "Soldat": 2,
               "Chef militaire": 2,
-              "Mentor": 2
+              "Maître / Mentor": 2
             },
             "style-de-combat": {
               "Force brute": 3,
@@ -4441,7 +4432,7 @@
               "Tatoué"
             ],
             "role": [
-              "Mentor",
+              "Maître / Mentor",
               "Espion",
               "Traître"
             ],
@@ -4458,7 +4449,7 @@
             "role": {
               "Espion": 3,
               "Traître": 2,
-              "Mentor": 2
+              "Maître / Mentor": 2
             },
             "caractere": {
               "Naïf": 2,
@@ -5221,7 +5212,7 @@
             ],
             "role": [
               "Personnage secondaire",
-              "Mentor",
+              "Maître / Mentor",
               "Médecin"
             ],
             "caractere": [
@@ -5235,8 +5226,8 @@
               "Âgé": 2
             },
             "role": {
-              "Mentor": 3,
-              "Médecin": 3
+              "Médecin": 3,
+              "Maître / Mentor": 3
             },
             "caractere": {
               "Généreux": 3,
@@ -5592,8 +5583,7 @@
             "role": [
               "Allié",
               "Leader",
-              "Mentor",
-              "Maître",
+              "Maître / Mentor",
               "Soldat"
             ],
             "style-de-combat": [
@@ -5622,10 +5612,9 @@
               "Uniforme militaire": 2
             },
             "role": {
-              "Mentor": 3,
-              "Maître": 2,
               "Leader": 2,
-              "Soldat": 2
+              "Soldat": 2,
+              "Maître / Mentor": 3
             },
             "style-de-combat": {
               "Contrôle de la foudre": 3,
