@@ -61,7 +61,6 @@
         "Élève",
         "Maître",
         "Médecin",
-        "Combattant",
         "Assassin",
         "Mercenaire",
         "Soldat",
@@ -2334,7 +2333,6 @@
             ],
             "role": [
               "Allié",
-              "Combattant",
               "Pirate",
               "Criminel",
               "Prisonnier",
@@ -2358,7 +2356,6 @@
               "Cyborg / Robot": 3
             },
             "role": {
-              "Combattant": 2,
               "Prisonnier": 2,
               "Esclave / Opprimé": 3,
               "Révolutionnaire": 2
@@ -4549,7 +4546,6 @@
             ],
             "role": [
               "Leader",
-              "Combattant",
               "Criminel",
               "Révolutionnaire"
             ],
@@ -4569,7 +4565,6 @@
             },
             "role": {
               "Leader": 3,
-              "Combattant": 3,
               "Révolutionnaire": 3
             },
             "style-de-combat": {
@@ -4602,7 +4597,6 @@
             "role": [
               "Allié",
               "Bras droit",
-              "Combattant",
               "Criminel",
               "Orphelin",
               "Révolutionnaire"
@@ -4624,7 +4618,6 @@
             },
             "role": {
               "Bras droit": 2,
-              "Combattant": 3,
               "Orphelin": 2,
               "Révolutionnaire": 3
             },
@@ -4656,7 +4649,6 @@
             "role": [
               "Allié",
               "Leader",
-              "Combattant",
               "Criminel",
               "Révolutionnaire"
             ],
@@ -4676,7 +4668,6 @@
             },
             "role": {
               "Leader": 2,
-              "Combattant": 2,
               "Révolutionnaire": 3
             },
             "style-de-combat": {
@@ -4702,7 +4693,6 @@
           "tags": {
             "role": [
               "Personnage secondaire",
-              "Combattant",
               "Criminel",
               "Révolutionnaire"
             ],
@@ -4720,7 +4710,6 @@
           },
           "tagRarity": {
             "role": {
-              "Combattant": 2,
               "Révolutionnaire": 3
             },
             "style-de-combat": {
@@ -4999,8 +4988,7 @@
             ],
             "role": [
               "Personnage secondaire",
-              "Allié",
-              "Combattant"
+              "Allié"
             ],
             "style-de-combat": [
               "Agilité",
@@ -5016,9 +5004,6 @@
           "tagRarity": {
             "physique": {
               "Animal anthropomorphe": 3
-            },
-            "role": {
-              "Combattant": 2
             },
             "style-de-combat": {
               "Agilité": 3,
@@ -5048,8 +5033,7 @@
             ],
             "role": [
               "Personnage secondaire",
-              "Allié",
-              "Combattant"
+              "Allié"
             ],
             "style-de-combat": [
               "Épée",
@@ -5061,9 +5045,6 @@
             ]
           },
           "tagRarity": {
-            "role": {
-              "Combattant": 3
-            },
             "style-de-combat": {
               "Épée": 2,
               "Katana": 3,
