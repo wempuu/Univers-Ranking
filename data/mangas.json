@@ -884,9 +884,9 @@
           },
           "tagRarity": {
             "physique": {
-              "Âgé": 2,
               "Barbu": 2,
-              "Lunettes": 2
+              "Lunettes": 2,
+              "Âgé": 3
             },
             "role": {
               "Bras droit": 3,
@@ -1129,11 +1129,11 @@
           },
           "tagRarity": {
             "physique": {
-              "Âgé": 2,
               "Musclé": 2,
               "Moustachu": 3,
               "Cape": 3,
-              "Grand": 2
+              "Grand": 2,
+              "Âgé": 3
             },
             "role": {
               "Leader": 2,
@@ -2546,7 +2546,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Âgé": 2,
               "Prothèse / Membre manquant": 2
             },
             "role": {
@@ -3312,8 +3311,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Âgé": 2,
-              "Barbu": 2
+              "Barbu": 2,
+              "Âgé": 3
             },
             "role": {
               "Antagoniste": 2,
@@ -3361,7 +3360,7 @@
           },
           "tagRarity": {
             "physique": {
-              "Âgé": 2
+              "Âgé": 3
             },
             "role": {
               "Conseiller": 3
@@ -3407,9 +3406,9 @@
           },
           "tagRarity": {
             "physique": {
-              "Âgé": 2,
               "Chauve": 2,
-              "Moustachu": 2
+              "Moustachu": 2,
+              "Âgé": 3
             },
             "role": {
               "Conseiller": 3
@@ -3458,9 +3457,9 @@
           },
           "tagRarity": {
             "physique": {
-              "Âgé": 2,
               "Chauve": 2,
-              "Tenue traditionnelle": 2
+              "Tenue traditionnelle": 2,
+              "Âgé": 3
             },
             "role": {
               "Conseiller": 3
@@ -3976,7 +3975,8 @@
               "Cape",
               "Uniforme militaire",
               "Tenue traditionnelle",
-              "Grand"
+              "Grand",
+              "Âgé"
             ],
             "role": [
               "Soldat",
@@ -4053,11 +4053,11 @@
           },
           "tagRarity": {
             "physique": {
-              "Âgé": 2,
               "Barbu": 3,
               "Lunettes": 2,
               "Cape": 2,
-              "Uniforme militaire": 2
+              "Uniforme militaire": 2,
+              "Âgé": 3
             },
             "role": {
               "Leader": 2,
@@ -4111,10 +4111,10 @@
           },
           "tagRarity": {
             "physique": {
-              "Âgé": 2,
               "Musclé": 2,
               "Cape": 2,
-              "Uniforme militaire": 2
+              "Uniforme militaire": 2,
+              "Âgé": 3
             },
             "role": {
               "Mentor": 3,
@@ -4319,8 +4319,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Âgé": 2,
-              "Barbu": 2
+              "Barbu": 2,
+              "Âgé": 3
             },
             "role": {
               "Scientifique": 3
@@ -4452,7 +4452,8 @@
             "physique": [
               "Grand",
               "Couvre-chef",
-              "Musclé"
+              "Musclé",
+              "Âgé"
             ],
             "role": [
               "Antagoniste",
@@ -4497,7 +4498,8 @@
           "tags": {
             "physique": [
               "Tatoué",
-              "Cape"
+              "Cape",
+              "Âgé"
             ],
             "role": [
               "Leader",
@@ -5102,7 +5104,8 @@
               "Cheveux longs",
               "Non-humain",
               "Cheveux roses",
-              "Couvre-chef"
+              "Couvre-chef",
+              "Âgé"
             ],
             "role": [
               "Prince / Princesse"
@@ -5209,8 +5212,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Âgé": 2,
-              "Moustachu": 2
+              "Moustachu": 2,
+              "Âgé": 3
             },
             "role": {
               "Mentor": 3,
