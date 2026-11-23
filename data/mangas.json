@@ -585,7 +585,6 @@
               "Allié",
               "Pirate",
               "Criminel",
-              "Scientifique",
               "Orphelin",
               "Fugitif",
               "Ennemi devenu allié"
@@ -603,7 +602,6 @@
           "tagRarity": {
             "role": {
               "Pirate": 2,
-              "Scientifique": 2,
               "Fugitif": 3,
               "Allié": 2,
               "Orphelin": 2,
