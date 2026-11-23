@@ -1275,7 +1275,6 @@
             "physique": [
               "Grand",
               "Musclé",
-              "Chauve",
               "Barbu",
               "Tatoué"
             ],
@@ -1295,8 +1294,7 @@
           },
           "tagRarity": {
             "physique": {
-              "Musclé": 2,
-              "Chauve": 2
+              "Musclé": 2
             },
             "role": {
               "Pirate": 2
@@ -4705,7 +4703,8 @@
               "Mystérieux"
             ],
             "physique": [
-              "Masque"
+              "Masque",
+              "Chauve"
             ]
           },
           "tagRarity": {
@@ -4720,7 +4719,8 @@
               "Mystérieux": 2
             },
             "physique": {
-              "Masque": 2
+              "Masque": 2,
+              "Chauve": 2
             }
           }
         },
