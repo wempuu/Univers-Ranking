@@ -776,7 +776,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Grand": 2,
               "Tatoué": 2,
               "Non-humain": 3,
               "Peau colorée": 3
@@ -1133,10 +1132,10 @@
           "tagRarity": {
             "physique": {
               "Âgé": 2,
-              "Grand": 3,
               "Musclé": 2,
               "Moustachu": 3,
-              "Cape": 3
+              "Cape": 3,
+              "Grand": 2
             },
             "role": {
               "Leader": 2,
@@ -1292,7 +1291,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Grand": 2,
               "Musclé": 2,
               "Chauve": 2
             },
@@ -1553,7 +1551,8 @@
               "Corpulent",
               "Barbu",
               "Couvre-chef",
-              "Cape"
+              "Cape",
+              "Grand"
             ],
             "role": [
               "Antagoniste",
@@ -1645,11 +1644,11 @@
           },
           "tagRarity": {
             "physique": {
-              "Grand": 3,
               "Musclé": 2,
               "Cornes": 3,
               "Non-humain": 2,
-              "Démon": 3
+              "Démon": 3,
+              "Grand": 2
             },
             "role": {
               "Empereur": 3,
@@ -1802,7 +1801,8 @@
               "Corpulent",
               "Lunettes",
               "Cyborg",
-              "Cheveux blonds"
+              "Cheveux blonds",
+              "Grand"
             ],
             "role": [
               "Antagoniste",
@@ -2388,9 +2388,9 @@
           },
           "tagRarity": {
             "physique": {
-              "Grand": 3,
               "Corpulent": 2,
-              "Cape": 2
+              "Cape": 2,
+              "Grand": 2
             },
             "role": {
               "Antagoniste": 2,
@@ -2817,10 +2817,10 @@
           "tagRarity": {
             "physique": {
               "Âgé": 2,
-              "Grand": 3,
               "Couvre-chef": 2,
               "Cape": 2,
-              "Cheveux roses": 2
+              "Cheveux roses": 2,
+              "Grand": 2
             },
             "role": {
               "Roi / Reine": 3,
@@ -3058,7 +3058,8 @@
           "tags": {
             "physique": [
               "Musclé",
-              "Cheveux violets"
+              "Cheveux violets",
+              "Grand"
             ],
             "role": [
               "Antagoniste",
@@ -3239,7 +3240,8 @@
               "Cornes",
               "Non-humain",
               "Yeux spéciaux",
-              "Cheveux gris / blancs"
+              "Cheveux gris / blancs",
+              "Grand"
             ],
             "role": [
               "Antagoniste",
@@ -3260,7 +3262,8 @@
               "Cornes": 3,
               "Non-humain": 2,
               "Yeux spéciaux": 3,
-              "Cheveux gris / blancs": 2
+              "Cheveux gris / blancs": 2,
+              "Grand": 3
             },
             "role": {
               "Leader": 2,
@@ -3763,7 +3766,8 @@
               "Cicatrice",
               "Couvre-chef",
               "Cape",
-              "Uniforme militaire"
+              "Uniforme militaire",
+              "Grand"
             ],
             "role": [
               "Antagoniste",
@@ -3867,7 +3871,8 @@
               "Âgé",
               "Lunettes",
               "Cape",
-              "Uniforme militaire"
+              "Uniforme militaire",
+              "Grand"
             ],
             "role": [
               "Antagoniste",
@@ -3919,7 +3924,8 @@
               "Lunettes",
               "Cape",
               "Uniforme militaire",
-              "Cheveux verts"
+              "Cheveux verts",
+              "Grand"
             ],
             "role": [
               "Antagoniste",
@@ -3969,7 +3975,8 @@
               "Cicatrice",
               "Cape",
               "Uniforme militaire",
-              "Tenue traditionnelle"
+              "Tenue traditionnelle",
+              "Grand"
             ],
             "role": [
               "Soldat",
@@ -4024,7 +4031,8 @@
               "Barbu",
               "Lunettes",
               "Cape",
-              "Uniforme militaire"
+              "Uniforme militaire",
+              "Grand"
             ],
             "role": [
               "Antagoniste",
@@ -5058,10 +5066,10 @@
           },
           "tagRarity": {
             "physique": {
-              "Grand": 2,
               "Queue": 3,
               "Non-humain": 3,
-              "Cheveux roses": 2
+              "Cheveux roses": 2,
+              "Grand": 3
             },
             "role": {
               "Prince / Princesse": 3
@@ -5338,7 +5346,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Grand": 2,
               "Cape": 2
             },
             "role": {
