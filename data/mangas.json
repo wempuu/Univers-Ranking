@@ -425,7 +425,8 @@
             ],
             "style-de-combat": [
               "Armes à distance",
-              "Invocation"
+              "Invocation",
+              "Contrôle des plantes"
             ],
             "caractere": [
               "Joyeux",
@@ -442,7 +443,8 @@
             },
             "style-de-combat": {
               "Armes à distance": 3,
-              "Invocation": 2
+              "Invocation": 2,
+              "Contrôle des plantes": 2
             },
             "caractere": {
               "Joyeux": 2,
@@ -3658,7 +3660,8 @@
               "Soldat"
             ],
             "style-de-combat": [
-              "Régénération"
+              "Régénération",
+              "Contrôle des plantes"
             ],
             "caractere": [
               "Sadique"
@@ -3669,7 +3672,8 @@
               "Soldat": 2
             },
             "style-de-combat": {
-              "Régénération": 2
+              "Régénération": 2,
+              "Contrôle des plantes": 2
             },
             "caractere": {
               "Sadique": 2
@@ -3953,7 +3957,8 @@
               "Chef militaire"
             ],
             "style-de-combat": [
-              "Absorption d'énergie"
+              "Absorption d'énergie",
+              "Contrôle des plantes"
             ],
             "caractere": [
               "Arrogant",
@@ -3972,7 +3977,8 @@
               "Chef militaire": 2
             },
             "style-de-combat": {
-              "Absorption d'énergie": 2
+              "Absorption d'énergie": 2,
+              "Contrôle des plantes": 3
             },
             "caractere": {
               "Arrogant": 2
