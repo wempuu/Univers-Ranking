@@ -74,7 +74,6 @@
         "Criminel",
         "Prisonnier",
         "Gardien / Protecteur",
-        "Professeur",
         "Scientifique",
         "Marchand",
         "Religieux",
@@ -2674,9 +2673,9 @@
               "Couvre-chef": 2
             },
             "role": {
-              "Mentor": 3,
               "Maître": 2,
-              "Cuisinier": 3
+              "Cuisinier": 3,
+              "Mentor": 2
             },
             "style-de-combat": {
               "Arts martiaux": 3
@@ -4157,9 +4156,9 @@
               "Âgé": 2
             },
             "role": {
-              "Mentor": 3,
               "Soldat": 2,
-              "Chef militaire": 2
+              "Chef militaire": 2,
+              "Mentor": 2
             },
             "style-de-combat": {
               "Force brute": 3,
@@ -4461,9 +4460,9 @@
           },
           "tagRarity": {
             "role": {
-              "Mentor": 3,
               "Espion": 3,
-              "Traître": 2
+              "Traître": 2,
+              "Mentor": 2
             },
             "caractere": {
               "Naïf": 2,
