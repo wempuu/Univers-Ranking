@@ -1336,7 +1336,8 @@
               "Médecin",
               "Pirate",
               "Criminel",
-              "Orphelin"
+              "Orphelin",
+              "Rival"
             ],
             "style-de-combat": [
               "Intelligence tactique",
@@ -1363,7 +1364,8 @@
               "Médecin": 3,
               "Pirate": 2,
               "Orphelin": 2,
-              "Leader": 2
+              "Leader": 2,
+              "Rival": 3
             },
             "style-de-combat": {
               "Intelligence tactique": 2,
@@ -2049,7 +2051,6 @@
               "Yeux spéciaux"
             ],
             "role": [
-              "Rival",
               "Mentor",
               "Maître",
               "Pirate",
@@ -2071,7 +2072,6 @@
               "Cape": 2
             },
             "role": {
-              "Rival": 2,
               "Mentor": 2,
               "Pirate": 2,
               "Maître": 2
@@ -4243,7 +4243,6 @@
               "Uniforme militaire"
             ],
             "role": [
-              "Rival",
               "Soldat"
             ],
             "style-de-combat": [
@@ -4264,7 +4263,6 @@
               "Cheveux gris / blancs": 2
             },
             "role": {
-              "Rival": 3,
               "Soldat": 2
             },
             "style-de-combat": {
