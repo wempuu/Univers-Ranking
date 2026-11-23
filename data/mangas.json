@@ -504,9 +504,6 @@
               "Vengeur": 2,
               "Romantique": 3,
               "Pervers": 3
-            },
-            "physique": {
-              "Cheveux blonds": 2
             }
           }
         },
@@ -1069,8 +1066,7 @@
           },
           "tags": {
             "physique": [
-              "Cheveux longs",
-              "Cheveux blonds"
+              "Cheveux longs"
             ],
             "role": [
               "Personnage secondaire",
@@ -1192,8 +1188,7 @@
           },
           "tagRarity": {
             "physique": {
-              "Tatoué": 2,
-              "Cheveux blonds": 2
+              "Tatoué": 2
             },
             "role": {
               "Bras droit": 3,
@@ -1527,8 +1522,7 @@
           },
           "tagRarity": {
             "physique": {
-              "Masque": 3,
-              "Cheveux blonds": 2
+              "Masque": 3
             },
             "role": {
               "Bras droit": 3,
@@ -1808,7 +1802,8 @@
             "physique": [
               "Corpulent",
               "Lunettes",
-              "Cyborg"
+              "Cyborg",
+              "Cheveux blonds"
             ],
             "role": [
               "Antagoniste",
@@ -1860,7 +1855,8 @@
             "physique": [
               "Grand",
               "Musclé",
-              "Masque"
+              "Masque",
+              "Cheveux blonds"
             ],
             "role": [
               "Antagoniste",
@@ -1938,8 +1934,7 @@
             "physique": {
               "Grand": 2,
               "Lunettes": 3,
-              "Cape": 3,
-              "Cheveux blonds": 2
+              "Cape": 3
             },
             "role": {
               "Roi / Reine": 3,
@@ -2746,7 +2741,8 @@
             "physique": [
               "Grand",
               "Corpulent",
-              "Moustachu"
+              "Moustachu",
+              "Cheveux blonds"
             ],
             "role": [
               "Antagoniste",
@@ -3489,7 +3485,8 @@
           },
           "tags": {
             "physique": [
-              "Barbu"
+              "Barbu",
+              "Cheveux blonds"
             ],
             "role": [
               "Antagoniste",
@@ -4557,8 +4554,7 @@
             "physique": {
               "Cicatrice": 2,
               "Couvre-chef": 3,
-              "Cape": 2,
-              "Cheveux blonds": 2
+              "Cape": 2
             },
             "role": {
               "Bras droit": 2,
@@ -4935,7 +4931,8 @@
               "Petit",
               "Queue",
               "Non-humain",
-              "Animal anthropomorphe"
+              "Animal anthropomorphe",
+              "Cheveux blonds"
             ],
             "role": [
               "Personnage secondaire",
