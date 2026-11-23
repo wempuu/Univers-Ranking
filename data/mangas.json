@@ -133,7 +133,8 @@
         "Pouvoir élastique",
         "Scellement",
         "Pouvoir draconique",
-        "Manipulation corporelle"
+        "Manipulation corporelle",
+        "Arme perçante"
       ]
     },
     "caractere": {
@@ -2099,7 +2100,8 @@
             ],
             "style-de-combat": [
               "Battle IQ",
-              "Contrôle de la terre"
+              "Contrôle de la terre",
+              "Arme perçante"
             ],
             "caractere": [
               "Sérieux",
@@ -2694,7 +2696,8 @@
             ],
             "style-de-combat": [
               "Combat à mains nues",
-              "Contrôle de l'eau"
+              "Contrôle de l'eau",
+              "Arme perçante"
             ],
             "caractere": [
               "Colérique",
@@ -2714,7 +2717,8 @@
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
-              "Contrôle de l'eau": 2
+              "Contrôle de l'eau": 2,
+              "Arme perçante": 2
             },
             "caractere": {
               "Colérique": 2,
@@ -3704,7 +3708,8 @@
             ],
             "style-de-combat": [
               "Invocation",
-              "Régénération"
+              "Régénération",
+              "Arme perçante"
             ],
             "caractere": [
               "Arrogant"
@@ -3720,7 +3725,8 @@
             },
             "style-de-combat": {
               "Invocation": 3,
-              "Régénération": 2
+              "Régénération": 2,
+              "Arme perçante": 2
             },
             "caractere": {
               "Arrogant": 2
@@ -3750,7 +3756,8 @@
               "Soldat"
             ],
             "style-de-combat": [
-              "Régénération"
+              "Régénération",
+              "Arme perçante"
             ],
             "caractere": [
               "Sérieux",
