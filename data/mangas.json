@@ -3266,7 +3266,8 @@
             "role": [
               "Antagoniste",
               "Leader",
-              "Roi / Reine"
+              "Roi / Reine",
+              "Dieu / Divinité"
             ],
             "style-de-combat": [
               "Pouvoir psychique"
@@ -3288,7 +3289,8 @@
             "role": {
               "Roi / Reine": 3,
               "Antagoniste": 2,
-              "Leader": 3
+              "Leader": 3,
+              "Dieu / Divinité": 3
             },
             "style-de-combat": {
               "Pouvoir psychique": 3
@@ -5423,7 +5425,6 @@
               "Rival",
               "Leader",
               "Élève",
-              "Combattant",
               "Gardien / Protecteur",
               "Orphelin"
             ],
@@ -5451,8 +5452,7 @@
               "Protagoniste": 3,
               "Orphelin": 3,
               "Rival": 2,
-              "Élève": 2,
-              "Combattant": 2
+              "Élève": 2
             },
             "style-de-combat": {
               "Clones": 3,
@@ -5546,8 +5546,7 @@
             "role": [
               "Allié",
               "Élève",
-              "Médecin",
-              "Combattant"
+              "Médecin"
             ],
             "style-de-combat": [
               "Force brute",
@@ -5601,7 +5600,6 @@
               "Leader",
               "Mentor",
               "Maître",
-              "Combattant",
               "Soldat"
             ],
             "style-de-combat": [
