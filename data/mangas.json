@@ -897,8 +897,8 @@
             "role": {
               "Bras droit": 3,
               "Mentor": 3,
-              "Maître": 2,
-              "Pirate": 2
+              "Pirate": 2,
+              "Maître": 3
             },
             "style-de-combat": {
               "Épée": 2
@@ -2074,8 +2074,8 @@
             "role": {
               "Rival": 2,
               "Mentor": 2,
-              "Maître": 3,
-              "Pirate": 2
+              "Pirate": 2,
+              "Maître": 2
             },
             "style-de-combat": {
               "Épée": 2
