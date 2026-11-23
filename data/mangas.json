@@ -449,9 +449,6 @@
               "Courageux": 3,
               "Peureux": 3,
               "Menteur": 3
-            },
-            "physique": {
-              "Couvre-chef": 2
             }
           }
         },
@@ -550,7 +547,7 @@
               "Petit": 3,
               "Non-humain": 2,
               "Animal anthropomorphe": 3,
-              "Couvre-chef": 3
+              "Couvre-chef": 2
             },
             "role": {
               "Médecin": 3,
@@ -1348,7 +1345,7 @@
           "tagRarity": {
             "physique": {
               "Tatoué": 3,
-              "Couvre-chef": 3
+              "Couvre-chef": 2
             },
             "role": {
               "Médecin": 3,
@@ -2274,7 +2271,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Couvre-chef": 2,
               "Cheveux roses": 2
             },
             "role": {
@@ -2334,8 +2330,7 @@
             "physique": {
               "Grand": 2,
               "Non-humain": 2,
-              "Cyborg": 3,
-              "Couvre-chef": 2
+              "Cyborg": 3
             },
             "role": {
               "Combattant": 2,
@@ -2656,8 +2651,8 @@
             "physique": {
               "Âgé": 2,
               "Moustachu": 3,
-              "Couvre-chef": 3,
-              "Prothèse / Membre manquant": 3
+              "Prothèse / Membre manquant": 3,
+              "Couvre-chef": 2
             },
             "role": {
               "Mentor": 3,
@@ -3162,6 +3157,9 @@
               "Sérieux",
               "Sadique",
               "Froid"
+            ],
+            "physique": [
+              "Couvre-chef"
             ]
           },
           "tagRarity": {
@@ -3294,7 +3292,8 @@
             "physique": [
               "Âgé",
               "Cheveux gris / blancs",
-              "Barbu"
+              "Barbu",
+              "Couvre-chef"
             ],
             "role": [
               "Antagoniste",
@@ -3787,7 +3786,6 @@
           "tagRarity": {
             "physique": {
               "Cicatrice": 2,
-              "Couvre-chef": 2,
               "Cape": 2,
               "Uniforme militaire": 2
             },
@@ -4433,9 +4431,6 @@
               "Généreux": 2,
               "Protecteur": 2
             },
-            "physique": {
-              "Couvre-chef": 2
-            },
             "style-de-combat": {
               "Contrôle du son": 3
             }
@@ -4453,7 +4448,8 @@
           },
           "tags": {
             "physique": [
-              "Grand"
+              "Grand",
+              "Couvre-chef"
             ],
             "role": [
               "Antagoniste",
@@ -4572,8 +4568,8 @@
           "tagRarity": {
             "physique": {
               "Cicatrice": 2,
-              "Couvre-chef": 3,
-              "Cape": 2
+              "Cape": 2,
+              "Couvre-chef": 2
             },
             "role": {
               "Bras droit": 2,
@@ -4849,7 +4845,8 @@
           "tags": {
             "physique": [
               "Cheveux blonds",
-              "Dieu / Divinité"
+              "Dieu / Divinité",
+              "Couvre-chef"
             ],
             "role": [
               "Antagoniste",
@@ -5101,7 +5098,8 @@
               "Musclé",
               "Cheveux longs",
               "Non-humain",
-              "Cheveux roses"
+              "Cheveux roses",
+              "Couvre-chef"
             ],
             "role": [
               "Prince / Princesse"
@@ -5119,7 +5117,8 @@
           "tagRarity": {
             "physique": {
               "Grand": 3,
-              "Non-humain": 2
+              "Non-humain": 2,
+              "Couvre-chef": 2
             },
             "role": {
               "Prince / Princesse": 3
@@ -5383,7 +5382,6 @@
           "name": "Naruto Uzumaki",
           "tags": {
             "physique": [
-              "Couvre-chef",
               "Cape",
               "Yeux spéciaux"
             ],
@@ -5416,9 +5414,6 @@
             ]
           },
           "tagRarity": {
-            "physique": {
-              "Couvre-chef": 2
-            },
             "role": {
               "Protagoniste": 3,
               "Orphelin": 3,
@@ -5447,7 +5442,6 @@
           "name": "Sasuke Uchiha",
           "tags": {
             "physique": [
-              "Couvre-chef",
               "Cape",
               "Yeux spéciaux",
               "Prothèse / Membre manquant"
@@ -5516,8 +5510,7 @@
           "tags": {
             "physique": [
               "Femme",
-              "Cheveux colorés",
-              "Couvre-chef"
+              "Cheveux colorés"
             ],
             "role": [
               "Allié",
@@ -5542,8 +5535,7 @@
           },
           "tagRarity": {
             "physique": {
-              "Cheveux colorés": 3,
-              "Couvre-chef": 2
+              "Cheveux colorés": 3
             },
             "role": {
               "Médecin": 3,
@@ -5569,7 +5561,6 @@
           "tags": {
             "physique": [
               "Cicatrice",
-              "Couvre-chef",
               "Masque",
               "Uniforme militaire",
               "Yeux spéciaux"
@@ -5605,7 +5596,6 @@
               "Masque": 3,
               "Yeux spéciaux": 2,
               "Cicatrice": 2,
-              "Couvre-chef": 2,
               "Uniforme militaire": 2
             },
             "role": {
