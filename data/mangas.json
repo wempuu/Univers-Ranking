@@ -1272,7 +1272,8 @@
               "Grand",
               "Musclé",
               "Chauve",
-              "Barbu"
+              "Barbu",
+              "Tatoué"
             ],
             "role": [
               "Personnage secondaire",
@@ -1346,8 +1347,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Tatoué": 3,
-              "Couvre-chef": 2
+              "Couvre-chef": 2,
+              "Tatoué": 2
             },
             "role": {
               "Médecin": 3,
@@ -1739,7 +1740,8 @@
               "Cheveux gris / blancs",
               "Ailes",
               "Non-humain",
-              "Masque"
+              "Masque",
+              "Tatoué"
             ],
             "role": [
               "Antagoniste",
@@ -1800,7 +1802,8 @@
               "Lunettes",
               "Cyborg",
               "Cheveux blonds",
-              "Grand"
+              "Grand",
+              "Tatoué"
             ],
             "role": [
               "Antagoniste",
@@ -1968,7 +1971,8 @@
               "Femme",
               "Cheveux longs",
               "Cicatrice",
-              "Bijoux / Piercings"
+              "Bijoux / Piercings",
+              "Tatoué"
             ],
             "role": [
               "Allié",
@@ -1990,7 +1994,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Bijoux / Piercings": 2
+              "Bijoux / Piercings": 2,
+              "Tatoué": 2
             },
             "role": {
               "Leader": 2,
@@ -2157,7 +2162,8 @@
             "physique": [
               "Cheveux bleus",
               "Couvre-chef",
-              "Cape"
+              "Cape",
+              "Tatoué"
             ]
           },
           "tagRarity": {
@@ -2576,7 +2582,8 @@
           "tags": {
             "physique": [
               "Cheveux verts",
-              "Bijoux / Piercings"
+              "Bijoux / Piercings",
+              "Tatoué"
             ],
             "role": [
               "Allié",
@@ -2681,7 +2688,8 @@
               "Musclé",
               "Non-humain",
               "Peau colorée",
-              "Cheveux gris / blancs"
+              "Cheveux gris / blancs",
+              "Tatoué"
             ],
             "role": [
               "Antagoniste",
@@ -2873,7 +2881,8 @@
           "tagRarity": {
             "physique": {
               "Grand": 2,
-              "Musclé": 2
+              "Musclé": 2,
+              "Tatoué": 2
             },
             "role": {
               "Bras droit": 3,
@@ -3002,7 +3011,8 @@
               "Femme",
               "Grand",
               "Cheveux longs",
-              "Cheveux gris / blancs"
+              "Cheveux gris / blancs",
+              "Tatoué"
             ],
             "role": [
               "Antagoniste",
@@ -3773,7 +3783,8 @@
               "Couvre-chef",
               "Cape",
               "Uniforme militaire",
-              "Grand"
+              "Grand",
+              "Tatoué"
             ],
             "role": [
               "Antagoniste",
@@ -3931,7 +3942,8 @@
               "Cape",
               "Uniforme militaire",
               "Cheveux verts",
-              "Grand"
+              "Grand",
+              "Tatoué"
             ],
             "role": [
               "Antagoniste",
@@ -3952,7 +3964,8 @@
               "Lunettes": 2,
               "Cape": 2,
               "Cheveux verts": 2,
-              "Uniforme militaire": 2
+              "Uniforme militaire": 2,
+              "Tatoué": 2
             },
             "role": {
               "Soldat": 2,
@@ -4412,7 +4425,8 @@
             "physique": [
               "Grand",
               "Cheveux blonds",
-              "Couvre-chef"
+              "Couvre-chef",
+              "Tatoué"
             ],
             "role": [
               "Mentor",
@@ -4528,8 +4542,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Tatoué": 3,
-              "Cape": 3
+              "Cape": 3,
+              "Tatoué": 2
             },
             "role": {
               "Leader": 3,
@@ -4614,7 +4628,8 @@
           "tags": {
             "physique": [
               "Grand",
-              "Cheveux violets"
+              "Cheveux violets",
+              "Tatoué"
             ],
             "role": [
               "Allié",
