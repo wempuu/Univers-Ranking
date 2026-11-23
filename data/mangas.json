@@ -90,7 +90,6 @@
     "style-de-combat": {
       "label": "Combat",
       "values": [
-        "Vitesse",
         "Agilité",
         "Battle IQ",
         "Combat à mains nues",
@@ -103,7 +102,6 @@
         "Arme contondante",
         "Magie",
         "Manipulation mentale",
-        "Manipulation",
         "Télékinésie",
         "Téléportation",
         "Illusion",
@@ -469,7 +467,6 @@
               "Cuisinier"
             ],
             "style-de-combat": [
-              "Vitesse",
               "Arts martiaux",
               "Contrôle du feu",
               "Vol"
@@ -490,9 +487,6 @@
               "Pirate": 2,
               "Cuisinier": 3,
               "Allié": 2
-            },
-            "style-de-combat": {
-              "Vitesse": 2
             },
             "caractere": {
               "Sérieux": 2,
@@ -613,7 +607,7 @@
               "Pessimiste": 2
             },
             "style-de-combat": {
-              "Clones": 3
+              "Clones": 2
             }
           }
         },
@@ -787,8 +781,8 @@
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
-              "Contrôle de l'eau": 3,
-              "Arts martiaux": 2
+              "Arts martiaux": 2,
+              "Contrôle de l'eau": 2
             },
             "caractere": {
               "Calme": 3,
@@ -1310,7 +1304,7 @@
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
-              "Barrière / Bouclier": 3
+              "Barrière / Bouclier": 2
             },
             "caractere": {
               "Loyal": 2
@@ -1488,9 +1482,6 @@
               "Rival": 3,
               "Leader": 2,
               "Pirate": 2
-            },
-            "style-de-combat": {
-              "Télékinésie": 3
             },
             "caractere": {
               "Colérique": 3,
@@ -1939,7 +1930,6 @@
             ],
             "style-de-combat": [
               "Battle IQ",
-              "Manipulation",
               "Fils / Chaînes",
               "Manipulation corporelle"
             ],
@@ -1965,7 +1955,6 @@
             },
             "style-de-combat": {
               "Fils / Chaînes": 3,
-              "Manipulation": 3,
               "Battle IQ": 2,
               "Manipulation corporelle": 2
             },
@@ -2188,7 +2177,7 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Explosions": 3
+              "Explosions": 2
             },
             "caractere": {
               "Joyeux": 2,
@@ -2333,7 +2322,6 @@
               "Religieux"
             ],
             "style-de-combat": [
-              "Télékinésie",
               "Téléportation"
             ],
             "caractere": [
@@ -2355,7 +2343,6 @@
               "Religieux": 2
             },
             "style-de-combat": {
-              "Télékinésie": 2,
               "Téléportation": 3
             },
             "caractere": {
@@ -2707,7 +2694,8 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Combat à mains nues"
+              "Combat à mains nues",
+              "Contrôle de l'eau"
             ],
             "caractere": [
               "Colérique",
@@ -2726,7 +2714,8 @@
               "Antagoniste": 2
             },
             "style-de-combat": {
-              "Combat à mains nues": 2
+              "Combat à mains nues": 2,
+              "Contrôle de l'eau": 2
             },
             "caractere": {
               "Colérique": 2,
@@ -3916,7 +3905,6 @@
               "Chef militaire"
             ],
             "style-de-combat": [
-              "Vitesse",
               "Contrôle de la lumière",
               "Vol"
             ],
@@ -3936,7 +3924,6 @@
               "Chef militaire": 2
             },
             "style-de-combat": {
-              "Vitesse": 3,
               "Contrôle de la lumière": 3
             },
             "caractere": {
@@ -4027,7 +4014,8 @@
               "Katana",
               "Prémonition",
               "Contrôle de la gravité",
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Télékinésie"
             ],
             "caractere": [
               "Calme",
@@ -4376,7 +4364,6 @@
               "Espion"
             ],
             "style-de-combat": [
-              "Vitesse",
               "Combat à mains nues",
               "Transformation",
               "Vol"
@@ -4397,7 +4384,6 @@
               "Espion": 2
             },
             "style-de-combat": {
-              "Vitesse": 2,
               "Combat à mains nues": 2
             },
             "caractere": {
@@ -4725,6 +4711,9 @@
               "Courageux",
               "Généreux",
               "Protecteur"
+            ],
+            "style-de-combat": [
+              "Fils / Chaînes"
             ]
           },
           "tagRarity": {
@@ -4739,6 +4728,9 @@
             },
             "physique": {
               "Cheveux bleus": 2
+            },
+            "style-de-combat": {
+              "Fils / Chaînes": 2
             }
           }
         },
@@ -5068,7 +5060,7 @@
               "Prince / Princesse": 3
             },
             "style-de-combat": {
-              "Contrôle des animaux": 3
+              "Contrôle des animaux": 2
             },
             "caractere": {
               "Timide": 3,
