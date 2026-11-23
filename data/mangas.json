@@ -891,7 +891,8 @@
               "Maître / Mentor": 3
             },
             "style-de-combat": {
-              "Épée": 2
+              "Épée": 2,
+              "Prémonition": 2
             },
             "caractere": {
               "Calme": 2,
@@ -924,7 +925,8 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Épée"
+              "Épée",
+              "Prémonition"
             ],
             "caractere": [
               "Calme",
@@ -947,7 +949,8 @@
               "Maître / Mentor": 2
             },
             "style-de-combat": {
-              "Épée": 2
+              "Épée": 2,
+              "Prémonition": 2
             },
             "caractere": {
               "Calme": 2,
