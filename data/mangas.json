@@ -1710,7 +1710,8 @@
             "physique": {
               "Cornes": 3,
               "Démon": 2,
-              "Tenue traditionnelle": 2
+              "Tenue traditionnelle": 2,
+              "Cheveux bicolores": 2
             },
             "role": {
               "Pirate": 2
@@ -2230,7 +2231,8 @@
           "tagRarity": {
             "physique": {
               "Musclé": 2,
-              "Cicatrice": 2
+              "Cicatrice": 2,
+              "Cheveux bicolores": 2
             },
             "role": {
               "Antagoniste": 2,
@@ -5163,7 +5165,8 @@
             "physique": {
               "Grand": 3,
               "Non-humain": 2,
-              "Couvre-chef": 2
+              "Couvre-chef": 2,
+              "Cheveux roses": 2
             },
             "role": {
               "Prince / Princesse": 3
