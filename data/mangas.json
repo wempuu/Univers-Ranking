@@ -3595,8 +3595,8 @@
             "role": {
               "Antagoniste": 2,
               "Leader": 2,
-              "Chef militaire": 2,
-              "Conseiller": 3
+              "Conseiller": 3,
+              "Chef militaire": 3
             },
             "style-de-combat": {
               "Épée": 2,
@@ -3642,7 +3642,7 @@
           "tagRarity": {
             "role": {
               "Antagoniste": 2,
-              "Chef militaire": 3
+              "Chef militaire": 2
             },
             "style-de-combat": {
               "Épée": 2,
@@ -3887,7 +3887,7 @@
             },
             "role": {
               "Soldat": 2,
-              "Chef militaire": 3
+              "Chef militaire": 2
             },
             "style-de-combat": {
               "Contrôle de la glace": 3
@@ -3938,7 +3938,7 @@
             },
             "role": {
               "Soldat": 2,
-              "Chef militaire": 3
+              "Chef militaire": 2
             },
             "style-de-combat": {
               "Vitesse": 3,
@@ -3993,7 +3993,7 @@
             },
             "role": {
               "Soldat": 2,
-              "Chef militaire": 3
+              "Chef militaire": 2
             },
             "style-de-combat": {
               "Contrôle de la terre": 3,
@@ -4047,7 +4047,7 @@
             },
             "role": {
               "Soldat": 2,
-              "Chef militaire": 3
+              "Chef militaire": 2
             },
             "style-de-combat": {
               "Épée": 2,
