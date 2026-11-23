@@ -776,7 +776,7 @@
             "physique": {
               "Tatoué": 2,
               "Non-humain": 3,
-              "Peau colorée": 3
+              "Peau colorée": 2
             },
             "role": {
               "Pirate": 2,
@@ -2503,7 +2503,7 @@
             "physique": {
               "Tatoué": 2,
               "Non-humain": 3,
-              "Peau colorée": 3
+              "Peau colorée": 2
             },
             "role": {
               "Leader": 2,
@@ -2718,7 +2718,7 @@
           "tagRarity": {
             "physique": {
               "Non-humain": 3,
-              "Peau colorée": 3
+              "Peau colorée": 2
             },
             "role": {
               "Pirate": 2,
