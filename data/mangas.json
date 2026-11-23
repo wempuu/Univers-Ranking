@@ -4862,7 +4862,8 @@
             ],
             "style-de-combat": [
               "Contrôle de la foudre",
-              "Prémonition"
+              "Prémonition",
+              "Arme contondante"
             ],
             "caractere": [
               "Arrogant",
@@ -4879,7 +4880,8 @@
             },
             "style-de-combat": {
               "Contrôle de la foudre": 3,
-              "Prémonition": 3
+              "Prémonition": 3,
+              "Arme contondante": 2
             },
             "caractere": {
               "Arrogant": 3,
