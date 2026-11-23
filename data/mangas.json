@@ -262,9 +262,9 @@
             "style-de-combat": {
               "Force brute": 2,
               "Combat à mains nues": 2,
-              "Transformation": 3,
               "Prémonition": 2,
-              "Pouvoir élastique": 3
+              "Pouvoir élastique": 3,
+              "Transformation": 2
             },
             "caractere": {
               "Joyeux": 3,
@@ -1196,7 +1196,6 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Transformation": 3,
               "Régénération": 3,
               "Vol": 3
             },
@@ -1666,8 +1665,8 @@
             "style-de-combat": {
               "Force brute": 2,
               "Arme lourde": 3,
-              "Transformation": 3,
-              "Vol": 2
+              "Vol": 2,
+              "Transformation": 2
             },
             "caractere": {
               "Colérique": 2,
@@ -1724,7 +1723,6 @@
             },
             "style-de-combat": {
               "Arme lourde": 3,
-              "Transformation": 3,
               "Contrôle de la glace": 2
             },
             "caractere": {
@@ -1785,7 +1783,6 @@
             },
             "style-de-combat": {
               "Épée": 2,
-              "Transformation": 2,
               "Vol": 3,
               "Contrôle du feu": 2
             },
@@ -1841,9 +1838,6 @@
               "Pirate": 2,
               "Scientifique": 3
             },
-            "style-de-combat": {
-              "Transformation": 2
-            },
             "caractere": {
               "Joyeux": 2,
               "Sadique": 2,
@@ -1894,8 +1888,7 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Force brute": 2,
-              "Transformation": 3
+              "Force brute": 2
             },
             "caractere": {
               "Sadique": 2,
@@ -2869,7 +2862,6 @@
             ],
             "style-de-combat": [
               "Arme blanche",
-              "Transformation",
               "Prémonition"
             ],
             "caractere": [
@@ -2890,7 +2882,6 @@
             },
             "style-de-combat": {
               "Arme blanche": 3,
-              "Transformation": 2,
               "Prémonition": 3
             },
             "caractere": {
@@ -3327,8 +3318,8 @@
               "Conseiller": 3
             },
             "style-de-combat": {
-              "Transformation": 3,
-              "Régénération": 3
+              "Régénération": 3,
+              "Transformation": 2
             },
             "caractere": {
               "Arrogant": 2,
@@ -3375,8 +3366,8 @@
               "Conseiller": 3
             },
             "style-de-combat": {
-              "Transformation": 3,
-              "Régénération": 3
+              "Régénération": 3,
+              "Transformation": 2
             },
             "caractere": {
               "Arrogant": 2
@@ -3424,8 +3415,8 @@
               "Conseiller": 3
             },
             "style-de-combat": {
-              "Transformation": 3,
-              "Régénération": 3
+              "Régénération": 3,
+              "Transformation": 2
             },
             "caractere": {
               "Colérique": 2
@@ -3479,8 +3470,8 @@
             "style-de-combat": {
               "Épée": 2,
               "Katana": 2,
-              "Transformation": 3,
-              "Régénération": 3
+              "Régénération": 3,
+              "Transformation": 2
             },
             "caractere": {
               "Calme": 2
@@ -3523,8 +3514,8 @@
               "Conseiller": 3
             },
             "style-de-combat": {
-              "Transformation": 3,
-              "Régénération": 3
+              "Régénération": 3,
+              "Transformation": 2
             },
             "caractere": {
               "Arrogant": 2
@@ -4088,8 +4079,7 @@
             },
             "style-de-combat": {
               "Force brute": 2,
-              "Intelligence tactique": 2,
-              "Transformation": 3
+              "Intelligence tactique": 2
             },
             "caractere": {
               "Sérieux": 2,
@@ -4400,8 +4390,7 @@
             },
             "style-de-combat": {
               "Vitesse": 2,
-              "Combat à mains nues": 2,
-              "Transformation": 3
+              "Combat à mains nues": 2
             },
             "caractere": {
               "Sérieux": 3,
@@ -4650,9 +4639,6 @@
               "Leader": 2,
               "Révolutionnaire": 3
             },
-            "style-de-combat": {
-              "Transformation": 3
-            },
             "caractere": {
               "Joyeux": 2,
               "Loyal": 2,
@@ -4691,9 +4677,6 @@
           "tagRarity": {
             "role": {
               "Révolutionnaire": 3
-            },
-            "style-de-combat": {
-              "Transformation": 3
             },
             "caractere": {
               "Mystérieux": 2
@@ -4844,9 +4827,9 @@
               "Prince / Princesse": 3
             },
             "style-de-combat": {
-              "Transformation": 3,
               "Vol": 2,
-              "Scellement": 2
+              "Scellement": 2,
+              "Transformation": 2
             },
             "caractere": {
               "Naïf": 3
@@ -5369,8 +5352,7 @@
               "Ennemi devenu allié": 3
             },
             "style-de-combat": {
-              "Arts martiaux": 3,
-              "Transformation": 3
+              "Arts martiaux": 3
             },
             "caractere": {
               "Joyeux": 2,
