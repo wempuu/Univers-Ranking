@@ -1770,8 +1770,8 @@
             "physique": {
               "Grand": 2,
               "Ailes": 3,
-              "Masque": 3,
-              "Cheveux gris / blancs": 2
+              "Cheveux gris / blancs": 2,
+              "Masque": 2
             },
             "role": {
               "Bras droit": 3,
