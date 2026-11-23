@@ -840,8 +840,8 @@
               "Cape": 3
             },
             "role": {
-              "Leader": 3,
-              "Pirate": 2
+              "Pirate": 2,
+              "Leader": 2
             },
             "style-de-combat": {
               "Épée": 2
@@ -2662,7 +2662,8 @@
               "Maître",
               "Pirate",
               "Criminel",
-              "Cuisinier"
+              "Cuisinier",
+              "Leader"
             ],
             "style-de-combat": [
               "Arts martiaux"
@@ -2767,7 +2768,6 @@
             ],
             "role": [
               "Antagoniste",
-              "Leader",
               "Pirate",
               "Criminel"
             ],
@@ -3293,9 +3293,9 @@
               "Yeux spéciaux": 2
             },
             "role": {
-              "Leader": 2,
               "Roi / Reine": 3,
-              "Antagoniste": 2
+              "Antagoniste": 2,
+              "Leader": 3
             },
             "style-de-combat": {
               "Pouvoir psychique": 3
@@ -3834,9 +3834,9 @@
             },
             "role": {
               "Antagoniste": 2,
-              "Leader": 2,
               "Soldat": 2,
-              "Chef militaire": 3
+              "Chef militaire": 3,
+              "Leader": 3
             },
             "style-de-combat": {
               "Contrôle du feu": 3
@@ -4105,9 +4105,9 @@
               "Âgé": 2
             },
             "role": {
-              "Leader": 2,
               "Soldat": 2,
-              "Chef militaire": 3
+              "Chef militaire": 3,
+              "Leader": 3
             },
             "style-de-combat": {
               "Force brute": 2,
@@ -4143,7 +4143,8 @@
             "role": [
               "Mentor",
               "Soldat",
-              "Chef militaire"
+              "Chef militaire",
+              "Leader"
             ],
             "style-de-combat": [
               "Force brute",
@@ -5385,7 +5386,6 @@
             ],
             "role": [
               "Allié",
-              "Leader",
               "Criminel",
               "Prisonnier",
               "Ennemi devenu allié"
