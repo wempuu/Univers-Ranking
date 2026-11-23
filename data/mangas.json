@@ -255,9 +255,9 @@
           },
           "tagRarity": {
             "physique": {
-              "Cicatrice": 2,
               "Dieu / Divinité": 3,
-              "Couvre-chef": 3
+              "Couvre-chef": 3,
+              "Cicatrice": 3
             },
             "role": {
               "Protagoniste": 3,
