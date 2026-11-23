@@ -3633,7 +3633,8 @@
           "tags": {
             "physique": [
               "Cheveux longs",
-              "Barbu"
+              "Barbu",
+              "Cheveux roux"
             ],
             "role": [
               "Antagoniste",
@@ -3657,6 +3658,9 @@
             },
             "caractere": {
               "Sadique": 2
+            },
+            "physique": {
+              "Cheveux roux": 2
             }
           }
         },
@@ -5557,7 +5561,6 @@
           "name": "Kakashi Hatake",
           "tags": {
             "physique": [
-              "Cheveux blancs",
               "Cicatrice",
               "Couvre-chef",
               "Masque",
@@ -5593,7 +5596,6 @@
           "tagRarity": {
             "physique": {
               "Masque": 3,
-              "Cheveux blancs": 3,
               "Yeux spéciaux": 2,
               "Cicatrice": 2,
               "Couvre-chef": 2,
