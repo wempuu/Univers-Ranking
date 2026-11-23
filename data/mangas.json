@@ -605,9 +605,9 @@
               "Pirate": 2,
               "Scientifique": 2,
               "Fugitif": 3,
-              "Ennemi devenu allié": 3,
               "Allié": 2,
-              "Orphelin": 2
+              "Orphelin": 2,
+              "Ennemi devenu allié": 2
             },
             "caractere": {
               "Intelligent": 3,
@@ -2165,8 +2165,7 @@
               "Leader",
               "Empereur",
               "Pirate",
-              "Criminel",
-              "Ennemi devenu allié"
+              "Criminel"
             ],
             "style-de-combat": [
               "Explosions"
@@ -2190,8 +2189,7 @@
               "Antagoniste": 2,
               "Leader": 2,
               "Empereur": 2,
-              "Pirate": 2,
-              "Ennemi devenu allié": 2
+              "Pirate": 2
             },
             "style-de-combat": {
               "Explosions": 3
