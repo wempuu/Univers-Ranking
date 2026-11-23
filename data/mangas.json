@@ -331,7 +331,8 @@
               "Bras droit": 3,
               "Élève": 2,
               "Pirate": 2,
-              "Chasseur": 2
+              "Chasseur": 2,
+              "Allié": 2
             },
             "style-de-combat": {
               "Épée": 2,
@@ -390,7 +391,8 @@
             "role": {
               "Pirate": 2,
               "Navigateur": 3,
-              "Orphelin": 2
+              "Orphelin": 2,
+              "Allié": 2
             },
             "style-de-combat": {
               "Intelligence tactique": 2,
@@ -437,7 +439,8 @@
           "tagRarity": {
             "role": {
               "Pirate": 2,
-              "Scientifique": 2
+              "Scientifique": 2,
+              "Allié": 2
             },
             "style-de-combat": {
               "Armes à distance": 3
@@ -486,7 +489,8 @@
           "tagRarity": {
             "role": {
               "Pirate": 2,
-              "Cuisinier": 3
+              "Cuisinier": 3,
+              "Allié": 2
             },
             "style-de-combat": {
               "Vitesse": 2,
@@ -549,7 +553,8 @@
             },
             "role": {
               "Médecin": 3,
-              "Pirate": 2
+              "Pirate": 2,
+              "Allié": 2
             },
             "style-de-combat": {
               "Transformation": 3
@@ -601,7 +606,8 @@
               "Pirate": 2,
               "Scientifique": 2,
               "Fugitif": 3,
-              "Ennemi devenu allié": 3
+              "Ennemi devenu allié": 3,
+              "Allié": 2
             },
             "caractere": {
               "Intelligent": 3,
@@ -661,7 +667,8 @@
               "Pirate": 2,
               "Scientifique": 2,
               "Orphelin": 2,
-              "Ennemi devenu allié": 2
+              "Ennemi devenu allié": 2,
+              "Allié": 2
             },
             "style-de-combat": {
               "Force brute": 2,
@@ -720,7 +727,8 @@
             },
             "role": {
               "Pirate": 2,
-              "Musicien / Artiste": 3
+              "Musicien / Artiste": 3,
+              "Allié": 2
             },
             "style-de-combat": {
               "Épée": 2,
@@ -779,7 +787,8 @@
             },
             "role": {
               "Pirate": 2,
-              "Esclave / Opprimé": 2
+              "Esclave / Opprimé": 2,
+              "Allié": 2
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
@@ -1586,11 +1595,11 @@
               "Corpulent": 2
             },
             "role": {
-              "Antagoniste": 2,
               "Leader": 2,
               "Empereur": 3,
               "Pirate": 2,
-              "Traître": 3
+              "Traître": 3,
+              "Antagoniste": 2
             },
             "style-de-combat": {
               "Force brute": 2,
@@ -2218,7 +2227,6 @@
               "Bijoux / Piercings"
             ],
             "role": [
-              "Antagoniste",
               "Leader",
               "Pirate",
               "Criminel"
@@ -2239,7 +2247,6 @@
               "Cheveux bicolores": 2
             },
             "role": {
-              "Antagoniste": 2,
               "Leader": 2,
               "Pirate": 2
             },
@@ -2438,7 +2445,6 @@
               "Couvre-chef"
             ],
             "role": [
-              "Antagoniste",
               "Pirate",
               "Criminel",
               "Ennemi devenu allié"
@@ -2933,7 +2939,6 @@
               "Yeux spéciaux"
             ],
             "role": [
-              "Antagoniste",
               "Allié",
               "Prince / Princesse",
               "Pirate",
@@ -4076,7 +4081,6 @@
               "Grand"
             ],
             "role": [
-              "Antagoniste",
               "Leader",
               "Soldat",
               "Chef militaire"
@@ -4298,7 +4302,6 @@
             ],
             "role": [
               "Personnage secondaire",
-              "Allié",
               "Rival",
               "Soldat"
             ],
@@ -4702,7 +4705,6 @@
           "tags": {
             "role": [
               "Personnage secondaire",
-              "Allié",
               "Combattant",
               "Criminel",
               "Révolutionnaire"
@@ -5382,7 +5384,6 @@
               "Cape"
             ],
             "role": [
-              "Antagoniste",
               "Allié",
               "Leader",
               "Criminel",
@@ -5506,7 +5507,6 @@
               "Prothèse / Membre manquant"
             ],
             "role": [
-              "Antagoniste",
               "Allié",
               "Rival",
               "Élève",
@@ -5544,8 +5544,7 @@
               "Fugitif": 3,
               "Traître": 2,
               "Orphelin": 2,
-              "Élève": 2,
-              "Antagoniste": 2
+              "Élève": 2
             },
             "style-de-combat": {
               "Contrôle de la foudre": 3,
