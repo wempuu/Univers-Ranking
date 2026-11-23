@@ -115,7 +115,6 @@
         "Contrôle de la glace",
         "Contrôle de la foudre",
         "Contrôle du vent",
-        "Contrôle de la terre",
         "Contrôle des ténèbres",
         "Contrôle de la lumière",
         "Contrôle du temps",
@@ -135,7 +134,8 @@
         "Manipulation corporelle",
         "Arme perçante",
         "Pouvoir démoniaque",
-        "Contrôle de la météo"
+        "Contrôle de la météo",
+        "Contrôle des plantes"
       ]
     },
     "caractere": {
@@ -2096,7 +2096,6 @@
               "Ennemi devenu allié"
             ],
             "style-de-combat": [
-              "Contrôle de la terre",
               "Arme perçante"
             ],
             "caractere": [
@@ -2118,9 +2117,6 @@
               "Pirate": 2,
               "Ennemi devenu allié": 2,
               "Antagoniste": 2
-            },
-            "style-de-combat": {
-              "Contrôle de la terre": 3
             },
             "caractere": {
               "Sérieux": 2,
@@ -3662,8 +3658,7 @@
               "Soldat"
             ],
             "style-de-combat": [
-              "Régénération",
-              "Contrôle de la terre"
+              "Régénération"
             ],
             "caractere": [
               "Sadique"
@@ -3674,7 +3669,6 @@
               "Soldat": 2
             },
             "style-de-combat": {
-              "Contrôle de la terre": 3,
               "Régénération": 2
             },
             "caractere": {
@@ -3959,7 +3953,6 @@
               "Chef militaire"
             ],
             "style-de-combat": [
-              "Contrôle de la terre",
               "Absorption d'énergie"
             ],
             "caractere": [
@@ -3979,7 +3972,6 @@
               "Chef militaire": 2
             },
             "style-de-combat": {
-              "Contrôle de la terre": 3,
               "Absorption d'énergie": 2
             },
             "caractere": {
