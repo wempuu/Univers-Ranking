@@ -1861,7 +1861,8 @@
               "Grand",
               "Musclé",
               "Masque",
-              "Cheveux blonds"
+              "Cheveux blonds",
+              "Cornes"
             ],
             "role": [
               "Antagoniste",
@@ -1881,7 +1882,8 @@
             "physique": {
               "Grand": 2,
               "Musclé": 2,
-              "Masque": 2
+              "Masque": 2,
+              "Cornes": 2
             },
             "role": {
               "Pirate": 2
@@ -3713,7 +3715,8 @@
               "Arrogant"
             ],
             "physique": [
-              "Uniforme militaire"
+              "Uniforme militaire",
+              "Cornes"
             ]
           },
           "tagRarity": {
@@ -4486,7 +4489,8 @@
               "Couvre-chef",
               "Musclé",
               "Âgé",
-              "Barbu"
+              "Barbu",
+              "Cornes"
             ],
             "role": [
               "Antagoniste",
@@ -4505,7 +4509,8 @@
           "tagRarity": {
             "physique": {
               "Grand": 2,
-              "Barbu": 2
+              "Barbu": 2,
+              "Cornes": 3
             },
             "role": {
               "Chef militaire": 2,
@@ -5274,7 +5279,8 @@
           },
           "tags": {
             "physique": [
-              "Cheveux longs"
+              "Cheveux longs",
+              "Cornes"
             ],
             "role": [
               "Antagoniste",
@@ -5302,6 +5308,9 @@
               "Arrogant": 2,
               "Sadique": 3,
               "Excentrique": 3
+            },
+            "physique": {
+              "Cornes": 2
             }
           }
         },
