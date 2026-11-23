@@ -77,7 +77,7 @@
         "Traître",
         "Conseiller",
         "Cuisinier",
-        "Musicien / Artiste",
+        "Musicien",
         "Navigateur",
         "Orphelin",
         "Esclave / Opprimé",
@@ -255,9 +255,9 @@
               "Protagoniste": 3,
               "Leader": 2,
               "Empereur": 2,
-              "Pirate": 2,
               "Orphelin": 2,
-              "Dieu / Divinité": 2
+              "Dieu / Divinité": 2,
+              "Pirate": 3
             },
             "style-de-combat": {
               "Force brute": 2,
@@ -694,7 +694,7 @@
               "Allié",
               "Pirate",
               "Criminel",
-              "Musicien / Artiste"
+              "Musicien"
             ],
             "style-de-combat": [
               "Épée",
@@ -718,8 +718,8 @@
             },
             "role": {
               "Pirate": 2,
-              "Musicien / Artiste": 3,
-              "Allié": 2
+              "Allié": 2,
+              "Musicien": 3
             },
             "style-de-combat": {
               "Épée": 2,
@@ -831,8 +831,8 @@
               "Cape": 3
             },
             "role": {
-              "Pirate": 2,
-              "Leader": 2
+              "Leader": 2,
+              "Pirate": 3
             },
             "style-de-combat": {
               "Épée": 2
@@ -1950,10 +1950,10 @@
               "Lunettes": 2
             },
             "role": {
-              "Roi / Reine": 3,
               "Pirate": 2,
               "Marchand": 2,
-              "Antagoniste": 2
+              "Antagoniste": 2,
+              "Roi / Reine": 2
             },
             "style-de-combat": {
               "Intelligence tactique": 2,
@@ -2801,7 +2801,6 @@
             "role": [
               "Antagoniste",
               "Leader",
-              "Roi / Reine",
               "Empereur",
               "Pirate",
               "Criminel"
@@ -2827,7 +2826,6 @@
               "Corpulent": 3
             },
             "role": {
-              "Roi / Reine": 3,
               "Empereur": 3,
               "Pirate": 2,
               "Antagoniste": 2
@@ -2921,7 +2919,6 @@
             ],
             "role": [
               "Allié",
-              "Prince / Princesse",
               "Pirate",
               "Criminel",
               "Traître",
@@ -2940,7 +2937,6 @@
               "Yeux spéciaux": 2
             },
             "role": {
-              "Prince / Princesse": 2,
               "Pirate": 2,
               "Traître": 2,
               "Ennemi devenu allié": 2
@@ -4925,7 +4921,7 @@
             ],
             "role": [
               "Antagoniste",
-              "Musicien / Artiste"
+              "Musicien"
             ],
             "style-de-combat": [
               "Illusion"
@@ -4941,7 +4937,7 @@
             },
             "role": {
               "Antagoniste": 2,
-              "Musicien / Artiste": 3
+              "Musicien": 3
             },
             "style-de-combat": {
               "Illusion": 3
