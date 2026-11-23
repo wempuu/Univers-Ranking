@@ -2055,8 +2055,7 @@
             "physique": {
               "Moustachu": 2,
               "Couvre-chef": 2,
-              "Cape": 2,
-              "Yeux spéciaux": 3
+              "Cape": 2
             },
             "role": {
               "Rival": 2,
@@ -2942,7 +2941,7 @@
           },
           "tagRarity": {
             "physique": {
-              "Yeux spéciaux": 3
+              "Yeux spéciaux": 2
             },
             "role": {
               "Prince / Princesse": 2,
@@ -3274,9 +3273,9 @@
             "physique": {
               "Cornes": 3,
               "Non-humain": 2,
-              "Yeux spéciaux": 3,
               "Cheveux gris / blancs": 2,
-              "Grand": 3
+              "Grand": 3,
+              "Yeux spéciaux": 2
             },
             "role": {
               "Leader": 2,
