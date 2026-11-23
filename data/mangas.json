@@ -2879,8 +2879,7 @@
           "tagRarity": {
             "physique": {
               "Grand": 2,
-              "Musclé": 2,
-              "Cheveux rouges": 2
+              "Musclé": 2
             },
             "role": {
               "Bras droit": 3,
@@ -3586,7 +3585,8 @@
           },
           "tags": {
             "physique": [
-              "Cheveux longs"
+              "Cheveux longs",
+              "Cheveux rouges"
             ],
             "role": [
               "Antagoniste",
@@ -3614,6 +3614,9 @@
             "caractere": {
               "Arrogant": 2,
               "Froid": 2
+            },
+            "physique": {
+              "Cheveux rouges": 2
             }
           }
         },
