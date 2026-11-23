@@ -134,7 +134,8 @@
         "Scellement",
         "Pouvoir draconique",
         "Manipulation corporelle",
-        "Arme perçante"
+        "Arme perçante",
+        "Pouvoir démoniaque"
       ]
     },
     "caractere": {
@@ -304,7 +305,8 @@
             ],
             "style-de-combat": [
               "Katana",
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Pouvoir démoniaque"
             ],
             "caractere": [
               "Sérieux",
@@ -329,7 +331,8 @@
             },
             "style-de-combat": {
               "Katana": 3,
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Pouvoir démoniaque": 2
             },
             "caractere": {
               "Sérieux": 2,
@@ -3254,7 +3257,8 @@
               "Manipulation mentale",
               "Arme Tranchante",
               "Vol",
-              "Manipulation corporelle"
+              "Manipulation corporelle",
+              "Pouvoir démoniaque"
             ],
             "caractere": [
               "Sadique",
@@ -3280,7 +3284,8 @@
               "Arme Tranchante": 2,
               "Vol": 2,
               "Manipulation mentale": 3,
-              "Manipulation corporelle": 2
+              "Manipulation corporelle": 2,
+              "Pouvoir démoniaque": 3
             },
             "caractere": {
               "Sadique": 3,
