@@ -90,7 +90,6 @@
     "style-de-combat": {
       "label": "Combat",
       "values": [
-        "Force brute",
         "Vitesse",
         "Agilité",
         "Intelligence tactique",
@@ -229,7 +228,6 @@
               "Dieu / Divinité"
             ],
             "style-de-combat": [
-              "Force brute",
               "Combat à mains nues",
               "Transformation",
               "Prémonition",
@@ -260,7 +258,6 @@
               "Pirate": 3
             },
             "style-de-combat": {
-              "Force brute": 2,
               "Combat à mains nues": 2,
               "Prémonition": 2,
               "Pouvoir élastique": 3,
@@ -637,7 +634,6 @@
               "Ennemi devenu allié"
             ],
             "style-de-combat": [
-              "Force brute",
               "Combat à mains nues",
               "Armes à feu",
               "Transformation"
@@ -662,7 +658,6 @@
               "Allié": 2
             },
             "style-de-combat": {
-              "Force brute": 2,
               "Armes à feu": 2
             },
             "caractere": {
@@ -1118,7 +1113,6 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Force brute",
               "Arme blanche"
             ],
             "caractere": [
@@ -1141,7 +1135,6 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Force brute": 3,
               "Arme blanche": 3
             },
             "caractere": {
@@ -1196,8 +1189,8 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Régénération": 3,
-              "Vol": 3
+              "Vol": 3,
+              "Régénération": 2
             },
             "caractere": {
               "Calme": 2,
@@ -1568,7 +1561,6 @@
               "Traître"
             ],
             "style-de-combat": [
-              "Force brute",
               "Contrôle des ténèbres"
             ],
             "caractere": [
@@ -1593,7 +1585,6 @@
               "Pirate": 3
             },
             "style-de-combat": {
-              "Force brute": 2,
               "Contrôle des ténèbres": 3
             },
             "caractere": {
@@ -1634,7 +1625,6 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Force brute",
               "Arme lourde",
               "Transformation",
               "Vol",
@@ -1662,7 +1652,6 @@
               "Antagoniste": 2
             },
             "style-de-combat": {
-              "Force brute": 2,
               "Arme lourde": 3,
               "Vol": 2,
               "Transformation": 2
@@ -1868,7 +1857,6 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Force brute",
               "Transformation"
             ],
             "caractere": [
@@ -1885,9 +1873,6 @@
             },
             "role": {
               "Pirate": 2
-            },
-            "style-de-combat": {
-              "Force brute": 2
             },
             "caractere": {
               "Sadique": 2,
@@ -2210,9 +2195,6 @@
               "Pirate",
               "Criminel"
             ],
-            "style-de-combat": [
-              "Force brute"
-            ],
             "caractere": [
               "Sadique",
               "Déterminé"
@@ -2227,9 +2209,6 @@
             "role": {
               "Leader": 2,
               "Pirate": 2
-            },
-            "style-de-combat": {
-              "Force brute": 3
             },
             "caractere": {
               "Sadique": 3,
@@ -2795,7 +2774,6 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Force brute",
               "Invocation"
             ],
             "caractere": [
@@ -2820,7 +2798,6 @@
               "Antagoniste": 2
             },
             "style-de-combat": {
-              "Force brute": 3,
               "Invocation": 3
             },
             "caractere": {
@@ -3189,7 +3166,6 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Force brute",
               "Combat à mains nues"
             ],
             "caractere": [
@@ -3205,7 +3181,6 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Force brute": 3,
               "Combat à mains nues": 2
             },
             "caractere": {
@@ -3313,8 +3288,8 @@
               "Conseiller": 3
             },
             "style-de-combat": {
-              "Régénération": 3,
-              "Transformation": 2
+              "Transformation": 2,
+              "Régénération": 2
             },
             "caractere": {
               "Arrogant": 2,
@@ -3361,8 +3336,8 @@
               "Conseiller": 3
             },
             "style-de-combat": {
-              "Régénération": 3,
-              "Transformation": 2
+              "Transformation": 2,
+              "Régénération": 2
             },
             "caractere": {
               "Arrogant": 2
@@ -3410,8 +3385,8 @@
               "Conseiller": 3
             },
             "style-de-combat": {
-              "Régénération": 3,
-              "Transformation": 2
+              "Transformation": 2,
+              "Régénération": 2
             },
             "caractere": {
               "Colérique": 2
@@ -3465,8 +3440,8 @@
             "style-de-combat": {
               "Épée": 2,
               "Katana": 2,
-              "Régénération": 3,
-              "Transformation": 2
+              "Transformation": 2,
+              "Régénération": 2
             },
             "caractere": {
               "Calme": 2
@@ -3509,8 +3484,8 @@
               "Conseiller": 3
             },
             "style-de-combat": {
-              "Régénération": 3,
-              "Transformation": 2
+              "Transformation": 2,
+              "Régénération": 2
             },
             "caractere": {
               "Arrogant": 2
@@ -3565,7 +3540,7 @@
             },
             "style-de-combat": {
               "Épée": 2,
-              "Régénération": 3
+              "Régénération": 2
             },
             "caractere": {
               "Arrogant": 2,
@@ -3611,7 +3586,7 @@
             },
             "style-de-combat": {
               "Épée": 2,
-              "Régénération": 3
+              "Régénération": 2
             },
             "caractere": {
               "Arrogant": 2,
@@ -3657,7 +3632,7 @@
             },
             "style-de-combat": {
               "Contrôle de la terre": 3,
-              "Régénération": 3
+              "Régénération": 2
             },
             "caractere": {
               "Sadique": 2
@@ -3701,7 +3676,7 @@
             },
             "style-de-combat": {
               "Invocation": 3,
-              "Régénération": 3
+              "Régénération": 2
             },
             "caractere": {
               "Arrogant": 2
@@ -3745,7 +3720,7 @@
             },
             "style-de-combat": {
               "Armes à feu": 3,
-              "Régénération": 3
+              "Régénération": 2
             },
             "caractere": {
               "Loyal": 2
@@ -4050,7 +4025,6 @@
               "Chef militaire"
             ],
             "style-de-combat": [
-              "Force brute",
               "Intelligence tactique",
               "Transformation"
             ],
@@ -4073,7 +4047,6 @@
               "Leader": 3
             },
             "style-de-combat": {
-              "Force brute": 2,
               "Intelligence tactique": 2
             },
             "caractere": {
@@ -4109,7 +4082,6 @@
               "Leader"
             ],
             "style-de-combat": [
-              "Force brute",
               "Combat à mains nues"
             ],
             "caractere": [
@@ -4131,7 +4103,6 @@
               "Maître / Mentor": 2
             },
             "style-de-combat": {
-              "Force brute": 3,
               "Combat à mains nues": 2
             },
             "caractere": {
@@ -4750,7 +4721,6 @@
               "Roi / Reine"
             ],
             "style-de-combat": [
-              "Force brute",
               "Épée",
               "Katana"
             ],
@@ -4770,7 +4740,6 @@
               "Roi / Reine": 3
             },
             "style-de-combat": {
-              "Force brute": 2,
               "Katana": 3,
               "Épée": 3
             },
@@ -5093,7 +5062,6 @@
               "Prince / Princesse"
             ],
             "style-de-combat": [
-              "Force brute",
               "Arme lourde",
               "Transformation"
             ],
@@ -5113,7 +5081,6 @@
               "Prince / Princesse": 3
             },
             "style-de-combat": {
-              "Force brute": 2,
               "Arme lourde": 3,
               "Transformation": 2
             },
@@ -5386,7 +5353,6 @@
               "Orphelin"
             ],
             "style-de-combat": [
-              "Force brute",
               "Combat à mains nues",
               "Invocation",
               "Transformation",
@@ -5506,7 +5472,6 @@
               "Médecin"
             ],
             "style-de-combat": [
-              "Force brute",
               "Combat à mains nues",
               "Invocation",
               "Régénération"
@@ -5530,7 +5495,6 @@
               "Élève": 2
             },
             "style-de-combat": {
-              "Force brute": 3,
               "Combat à mains nues": 3,
               "Régénération": 2
             },
