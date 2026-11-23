@@ -1360,10 +1360,10 @@
             },
             "style-de-combat": {
               "Épée": 2,
-              "Katana": 3,
               "Téléportation": 2,
               "Contrôle de l'espace": 3,
-              "Battle IQ": 2
+              "Battle IQ": 2,
+              "Katana": 2
             },
             "caractere": {
               "Calme": 2,
