@@ -862,7 +862,8 @@
               "Barbu",
               "Lunettes",
               "Cicatrice",
-              "Cape"
+              "Cape",
+              "Musclé"
             ],
             "role": [
               "Bras droit",
@@ -3208,7 +3209,7 @@
           },
           "tagRarity": {
             "physique": {
-              "Musclé": 2
+              "Musclé": 3
             },
             "role": {
               "Pirate": 2
@@ -3239,7 +3240,8 @@
               "Non-humain",
               "Yeux spéciaux",
               "Cheveux gris / blancs",
-              "Grand"
+              "Grand",
+              "Musclé"
             ],
             "role": [
               "Antagoniste",
@@ -4449,7 +4451,8 @@
           "tags": {
             "physique": [
               "Grand",
-              "Couvre-chef"
+              "Couvre-chef",
+              "Musclé"
             ],
             "role": [
               "Antagoniste",
