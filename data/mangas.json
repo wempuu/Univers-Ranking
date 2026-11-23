@@ -139,7 +139,8 @@
         "Contrôle des plantes",
         "Contrôle du sable",
         "Combat aux jambes",
-        "Laser"
+        "Laser",
+        "Pouvoir musical"
       ]
     },
     "caractere": {
@@ -715,7 +716,8 @@
             "style-de-combat": [
               "Épée",
               "Contrôle de la glace",
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Pouvoir musical"
             ],
             "caractere": [
               "Joyeux",
@@ -740,7 +742,8 @@
             "style-de-combat": {
               "Épée": 2,
               "Contrôle de la glace": 2,
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Pouvoir musical": 3
             },
             "caractere": {
               "Joyeux": 3,
@@ -4931,7 +4934,8 @@
               "Musicien"
             ],
             "style-de-combat": [
-              "Illusion"
+              "Illusion",
+              "Pouvoir musical"
             ],
             "caractere": [
               "Naïf",
@@ -4947,7 +4951,8 @@
               "Musicien": 3
             },
             "style-de-combat": {
-              "Illusion": 3
+              "Illusion": 3,
+              "Pouvoir musical": 3
             },
             "caractere": {
               "Naïf": 2,
