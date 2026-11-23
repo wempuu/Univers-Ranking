@@ -883,7 +883,7 @@
             "physique": {
               "Barbu": 2,
               "Lunettes": 2,
-              "Âgé": 3
+              "Âgé": 2
             },
             "role": {
               "Bras droit": 3,
@@ -1132,7 +1132,7 @@
               "Moustachu": 3,
               "Cape": 3,
               "Grand": 2,
-              "Âgé": 3
+              "Âgé": 2
             },
             "role": {
               "Leader": 2,
@@ -2376,7 +2376,8 @@
             "physique": [
               "Grand",
               "Corpulent",
-              "Cape"
+              "Cape",
+              "Cheveux violets"
             ],
             "role": [
               "Antagoniste",
@@ -2397,7 +2398,8 @@
             "physique": {
               "Corpulent": 2,
               "Cape": 2,
-              "Grand": 2
+              "Grand": 2,
+              "Cheveux violets": 2
             },
             "role": {
               "Antagoniste": 2,
@@ -3328,7 +3330,7 @@
           "tagRarity": {
             "physique": {
               "Barbu": 2,
-              "Âgé": 3
+              "Âgé": 2
             },
             "role": {
               "Antagoniste": 2,
@@ -3376,8 +3378,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Âgé": 3,
-              "Barbu": 2
+              "Barbu": 2,
+              "Âgé": 2
             },
             "role": {
               "Conseiller": 3
@@ -3426,7 +3428,7 @@
             "physique": {
               "Chauve": 2,
               "Moustachu": 2,
-              "Âgé": 3
+              "Âgé": 2
             },
             "role": {
               "Conseiller": 3
@@ -3478,8 +3480,8 @@
             "physique": {
               "Chauve": 2,
               "Tenue traditionnelle": 2,
-              "Âgé": 3,
-              "Lunettes": 2
+              "Lunettes": 2,
+              "Âgé": 2
             },
             "role": {
               "Conseiller": 3
@@ -4089,8 +4091,8 @@
               "Lunettes": 2,
               "Cape": 2,
               "Uniforme militaire": 2,
-              "Âgé": 3,
-              "Barbu": 2
+              "Barbu": 2,
+              "Âgé": 2
             },
             "role": {
               "Leader": 2,
@@ -4148,7 +4150,7 @@
               "Musclé": 2,
               "Cape": 2,
               "Uniforme militaire": 2,
-              "Âgé": 3
+              "Âgé": 2
             },
             "role": {
               "Mentor": 3,
@@ -4354,7 +4356,7 @@
           },
           "tagRarity": {
             "physique": {
-              "Âgé": 3
+              "Âgé": 2
             },
             "role": {
               "Scientifique": 3
@@ -5250,7 +5252,7 @@
           "tagRarity": {
             "physique": {
               "Moustachu": 2,
-              "Âgé": 3
+              "Âgé": 2
             },
             "role": {
               "Mentor": 3,
@@ -5275,7 +5277,8 @@
           "tags": {
             "physique": [
               "Cheveux longs",
-              "Cornes"
+              "Cornes",
+              "Cheveux violets"
             ],
             "role": [
               "Antagoniste",
@@ -5305,7 +5308,8 @@
               "Excentrique": 3
             },
             "physique": {
-              "Cornes": 2
+              "Cornes": 2,
+              "Cheveux violets": 2
             }
           }
         },
@@ -5324,8 +5328,7 @@
               "Corpulent",
               "Couvre-chef",
               "Cheveux violets",
-              "Barbu",
-              "Petit"
+              "Barbu"
             ],
             "role": [
               "Antagoniste",
