@@ -232,7 +232,8 @@
               "Combat à mains nues",
               "Transformation",
               "Prémonition",
-              "Pouvoir élastique"
+              "Pouvoir élastique",
+              "Vol"
             ],
             "caractere": [
               "Joyeux",
@@ -262,7 +263,8 @@
               "Combat à mains nues": 2,
               "Prémonition": 2,
               "Pouvoir élastique": 3,
-              "Transformation": 2
+              "Transformation": 2,
+              "Vol": 2
             },
             "caractere": {
               "Joyeux": 3,
@@ -386,9 +388,9 @@
               "Allié": 2
             },
             "style-de-combat": {
-              "Contrôle de la foudre": 3,
               "Contrôle du vent": 2,
-              "Battle IQ": 2
+              "Battle IQ": 2,
+              "Contrôle de la foudre": 2
             },
             "caractere": {
               "Peureux": 2,
@@ -468,7 +470,8 @@
             "style-de-combat": [
               "Vitesse",
               "Arts martiaux",
-              "Contrôle du feu"
+              "Contrôle du feu",
+              "Vol"
             ],
             "caractere": [
               "Sérieux",
@@ -586,7 +589,8 @@
             ],
             "style-de-combat": [
               "Combat à mains nues",
-              "Clones"
+              "Clones",
+              "Vol"
             ],
             "caractere": [
               "Intelligent",
@@ -2567,8 +2571,8 @@
               "Prisonnier": 2
             },
             "style-de-combat": {
-              "Vol": 3,
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Vol": 2
             },
             "caractere": {
               "Manipulateur": 2,
@@ -3031,7 +3035,7 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Absorption d'énergie": 3
+              "Absorption d'énergie": 2
             },
             "caractere": {
               "Calme": 2,
@@ -3253,7 +3257,8 @@
             ],
             "style-de-combat": [
               "Pouvoir psychique",
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Vol"
             ],
             "caractere": [
               "Sadique",
@@ -3277,7 +3282,8 @@
             },
             "style-de-combat": {
               "Pouvoir psychique": 3,
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Vol": 2
             },
             "caractere": {
               "Sadique": 3,
@@ -3359,7 +3365,8 @@
             ],
             "style-de-combat": [
               "Transformation",
-              "Régénération"
+              "Régénération",
+              "Vol"
             ],
             "caractere": [
               "Sérieux",
@@ -3376,7 +3383,8 @@
             },
             "style-de-combat": {
               "Transformation": 2,
-              "Régénération": 2
+              "Régénération": 2,
+              "Vol": 2
             },
             "caractere": {
               "Arrogant": 2
@@ -3904,7 +3912,8 @@
             ],
             "style-de-combat": [
               "Vitesse",
-              "Contrôle de la lumière"
+              "Contrôle de la lumière",
+              "Vol"
             ],
             "caractere": [
               "Calme",
@@ -4225,7 +4234,6 @@
             ],
             "style-de-combat": [
               "Arme contondante",
-              "Contrôle du vent",
               "Scellement"
             ],
             "caractere": [
@@ -4244,7 +4252,6 @@
               "Soldat": 2
             },
             "style-de-combat": {
-              "Contrôle du vent": 2,
               "Scellement": 2,
               "Arme contondante": 2
             },
@@ -4368,7 +4375,8 @@
             "style-de-combat": [
               "Vitesse",
               "Combat à mains nues",
-              "Transformation"
+              "Transformation",
+              "Vol"
             ],
             "caractere": [
               "Sérieux",
@@ -4661,7 +4669,8 @@
               "Révolutionnaire"
             ],
             "style-de-combat": [
-              "Transformation"
+              "Transformation",
+              "Vol"
             ],
             "caractere": [
               "Calme",
@@ -4682,6 +4691,9 @@
             "physique": {
               "Masque": 2,
               "Chauve": 2
+            },
+            "style-de-combat": {
+              "Vol": 2
             }
           }
         },
@@ -5091,7 +5103,8 @@
             "style-de-combat": [
               "Arme contondante",
               "Transformation",
-              "Pouvoir draconique"
+              "Pouvoir draconique",
+              "Vol"
             ],
             "caractere": [
               "Arrogant",
@@ -5111,7 +5124,8 @@
             "style-de-combat": {
               "Transformation": 2,
               "Arme contondante": 3,
-              "Pouvoir draconique": 3
+              "Pouvoir draconique": 3,
+              "Vol": 2
             },
             "caractere": {
               "Arrogant": 3
@@ -5295,7 +5309,7 @@
               "Roi / Reine": 3
             },
             "style-de-combat": {
-              "Absorption d'énergie": 3
+              "Absorption d'énergie": 2
             },
             "caractere": {
               "Arrogant": 2,
