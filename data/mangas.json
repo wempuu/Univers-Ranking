@@ -1708,8 +1708,7 @@
           "tagRarity": {
             "physique": {
               "Cornes": 3,
-              "Démon": 2,
-              "Cheveux bicolores": 2
+              "Démon": 2
             },
             "role": {
               "Pirate": 2
@@ -2201,7 +2200,8 @@
           "tags": {
             "physique": [
               "Musclé",
-              "Cicatrice"
+              "Cicatrice",
+              "Cheveux bicolores"
             ],
             "role": [
               "Antagoniste",
