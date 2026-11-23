@@ -326,7 +326,6 @@
               "Musclé": 2,
               "Cicatrice": 2,
               "Borgne": 2,
-              "Tenue traditionnelle": 2,
               "Cheveux verts": 2
             },
             "role": {
@@ -1689,7 +1688,8 @@
               "Cheveux bicolores",
               "Cornes",
               "Non-humain",
-              "Démon"
+              "Démon",
+              "Tenue traditionnelle"
             ],
             "role": [
               "Allié",
@@ -1710,7 +1710,8 @@
           "tagRarity": {
             "physique": {
               "Cornes": 3,
-              "Démon": 2
+              "Démon": 2,
+              "Tenue traditionnelle": 2
             },
             "role": {
               "Pirate": 2
@@ -4027,7 +4028,6 @@
             "physique": {
               "Cicatrice": 3,
               "Cape": 2,
-              "Tenue traditionnelle": 2,
               "Uniforme militaire": 2
             },
             "role": {
@@ -4803,7 +4803,7 @@
           },
           "tagRarity": {
             "physique": {
-              "Tenue traditionnelle": 3
+              "Tenue traditionnelle": 2
             },
             "role": {
               "Leader": 2,
