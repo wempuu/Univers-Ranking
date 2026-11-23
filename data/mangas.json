@@ -418,7 +418,8 @@
             ],
             "style-de-combat": [
               "Armes à distance",
-              "Battle IQ"
+              "Battle IQ",
+              "Invocation"
             ],
             "caractere": [
               "Joyeux",
@@ -435,7 +436,8 @@
             },
             "style-de-combat": {
               "Armes à distance": 3,
-              "Battle IQ": 2
+              "Battle IQ": 2,
+              "Invocation": 2
             },
             "caractere": {
               "Joyeux": 2,
@@ -3049,7 +3051,7 @@
             },
             "style-de-combat": {
               "Épée": 2,
-              "Invocation": 3
+              "Invocation": 2
             },
             "caractere": {
               "Arrogant": 2
