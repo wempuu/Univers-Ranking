@@ -601,10 +601,10 @@
           "tagRarity": {
             "role": {
               "Pirate": 2,
-              "Fugitif": 3,
               "Allié": 2,
               "Orphelin": 2,
-              "Ennemi devenu allié": 2
+              "Ennemi devenu allié": 2,
+              "Fugitif": 2
             },
             "caractere": {
               "Intelligent": 3,
@@ -2548,8 +2548,7 @@
               "Leader",
               "Pirate",
               "Criminel",
-              "Prisonnier",
-              "Fugitif"
+              "Prisonnier"
             ],
             "style-de-combat": [
               "Épée",
@@ -2568,8 +2567,7 @@
             "role": {
               "Leader": 2,
               "Pirate": 2,
-              "Prisonnier": 2,
-              "Fugitif": 2
+              "Prisonnier": 2
             },
             "style-de-combat": {
               "Épée": 2,
