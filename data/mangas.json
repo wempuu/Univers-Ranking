@@ -148,7 +148,8 @@
         "Marteau",
         "Pétrification",
         "Pouvoir Romantique",
-        "Frappe à distance"
+        "Frappe à distance",
+        "Chronomorphose"
       ]
     },
     "caractere": {
@@ -2338,6 +2339,9 @@
               "Colérique",
               "Gourmand",
               "Impulsif"
+            ],
+            "style-de-combat": [
+              "Chronomorphose"
             ]
           },
           "tagRarity": {
@@ -2352,6 +2356,9 @@
               "Colérique": 2,
               "Gourmand": 3,
               "Impulsif": 2
+            },
+            "style-de-combat": {
+              "Chronomorphose": 3
             }
           }
         },
