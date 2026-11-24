@@ -152,7 +152,8 @@
         "Chronomorphose",
         "Métamorphose",
         "Super-force",
-        "Séisme"
+        "Séisme",
+        "Super-vitesse"
       ]
     },
     "caractere": {
@@ -253,7 +254,8 @@
               "Pouvoir élastique",
               "Vol",
               "Pouvoir divin",
-              "Frappe à distance"
+              "Frappe à distance",
+              "Super-vitesse"
             ],
             "caractere": [
               "Joyeux",
@@ -286,7 +288,8 @@
               "Transformation": 2,
               "Vol": 2,
               "Pouvoir divin": 2,
-              "Frappe à distance": 2
+              "Frappe à distance": 2,
+              "Super-vitesse": 2
             },
             "caractere": {
               "Joyeux": 3,
@@ -327,7 +330,8 @@
             "style-de-combat": [
               "Katana",
               "Arme Tranchante",
-              "Pouvoir démoniaque"
+              "Pouvoir démoniaque",
+              "Super-force"
             ],
             "caractere": [
               "Sérieux",
@@ -499,7 +503,8 @@
             "style-de-combat": [
               "Contrôle du feu",
               "Vol",
-              "Combat aux jambes"
+              "Combat aux jambes",
+              "Super-vitesse"
             ],
             "caractere": [
               "Sérieux",
@@ -527,7 +532,8 @@
               "Pervers": 3
             },
             "style-de-combat": {
-              "Combat aux jambes": 3
+              "Combat aux jambes": 3,
+              "Super-vitesse": 2
             },
             "physique": {
               "Fumeur": 2
@@ -741,7 +747,8 @@
               "Épée",
               "Contrôle de la glace",
               "Arme Tranchante",
-              "Pouvoir musical"
+              "Pouvoir musical",
+              "Super-vitesse"
             ],
             "caractere": [
               "Joyeux",
@@ -1343,7 +1350,8 @@
             ],
             "style-de-combat": [
               "Combat à mains nues",
-              "Barrière / Bouclier"
+              "Barrière / Bouclier",
+              "Super-force"
             ],
             "caractere": [
               "Calme",
@@ -1577,7 +1585,8 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Super-vitesse"
             ],
             "caractere": [
               "Calme",
@@ -1701,7 +1710,8 @@
               "Vol",
               "Contrôle du feu",
               "Pouvoir draconique",
-              "Bâton"
+              "Bâton",
+              "Super-force"
             ],
             "caractere": [
               "Colérique",
@@ -1946,7 +1956,8 @@
             ],
             "style-de-combat": [
               "Transformation",
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Super-force"
             ],
             "caractere": [
               "Sadique",
@@ -2403,7 +2414,8 @@
             ],
             "style-de-combat": [
               "Téléportation",
-              "Combat à mains nues"
+              "Combat à mains nues",
+              "Super-force"
             ],
             "caractere": [
               "Calme",
@@ -2893,7 +2905,8 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Invocation"
+              "Invocation",
+              "Super-force"
             ],
             "caractere": [
               "Colérique",
@@ -4007,7 +4020,8 @@
               "Contrôle de la lumière",
               "Vol",
               "Combat aux jambes",
-              "Laser"
+              "Laser",
+              "Super-vitesse"
             ],
             "caractere": [
               "Calme",
@@ -4027,7 +4041,8 @@
             "style-de-combat": {
               "Contrôle de la lumière": 3,
               "Combat aux jambes": 2,
-              "Laser": 3
+              "Laser": 3,
+              "Super-vitesse": 3
             },
             "caractere": {
               "Calme": 2,
@@ -4231,7 +4246,8 @@
               "Leader"
             ],
             "style-de-combat": [
-              "Combat à mains nues"
+              "Combat à mains nues",
+              "Super-force"
             ],
             "caractere": [
               "Joyeux",
@@ -4252,7 +4268,8 @@
               "Maître / Mentor": 2
             },
             "style-de-combat": {
-              "Combat à mains nues": 2
+              "Combat à mains nues": 2,
+              "Super-force": 2
             },
             "caractere": {
               "Joyeux": 3,
@@ -4478,7 +4495,8 @@
             "style-de-combat": [
               "Combat à mains nues",
               "Transformation",
-              "Vol"
+              "Vol",
+              "Super-vitesse"
             ],
             "caractere": [
               "Sérieux",
@@ -4973,7 +4991,8 @@
               "Contrôle de la foudre",
               "Prémonition",
               "Arme contondante",
-              "Bâton"
+              "Bâton",
+              "Super-vitesse"
             ],
             "caractere": [
               "Arrogant",
@@ -4991,7 +5010,8 @@
             "style-de-combat": {
               "Contrôle de la foudre": 3,
               "Prémonition": 3,
-              "Arme contondante": 2
+              "Arme contondante": 2,
+              "Super-vitesse": 2
             },
             "caractere": {
               "Arrogant": 3,
