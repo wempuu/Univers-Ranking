@@ -4554,8 +4554,8 @@
           "tagRarity": {
             "role": {
               "Élève": 3,
-              "Soldat": 2,
-              "Rival": 3
+              "Rival": 3,
+              "Soldat": 3
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
@@ -4611,7 +4611,7 @@
               "Fumeur": 3
             },
             "role": {
-              "Soldat": 2
+              "Soldat": 3
             },
             "style-de-combat": {
               "Arme contondante": 2,
@@ -4661,7 +4661,7 @@
             },
             "role": {
               "Rival": 2,
-              "Soldat": 2
+              "Soldat": 3
             },
             "style-de-combat": {
               "Katana": 3,
