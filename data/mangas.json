@@ -1242,11 +1242,11 @@
           },
           "tagRarity": {
             "physique": {
-              "Musclé": 2,
               "Moustachu": 3,
               "Cape": 3,
               "Grand": 2,
-              "Âgé": 2
+              "Âgé": 2,
+              "Musclé": 3
             },
             "role": {
               "Leader": 2,
@@ -1414,7 +1414,7 @@
           },
           "tagRarity": {
             "physique": {
-              "Musclé": 2
+              "Musclé": 3
             },
             "role": {
               "Pirate": 2
@@ -1785,11 +1785,11 @@
           },
           "tagRarity": {
             "physique": {
-              "Musclé": 2,
               "Cornes": 3,
               "Non-humain": 2,
               "Démon": 3,
-              "Grand": 2
+              "Grand": 2,
+              "Musclé": 3
             },
             "role": {
               "Empereur": 3,
@@ -2038,9 +2038,9 @@
           "tagRarity": {
             "physique": {
               "Grand": 2,
-              "Musclé": 2,
               "Masque": 2,
-              "Cornes": 2
+              "Cornes": 2,
+              "Musclé": 3
             },
             "role": {
               "Pirate": 2
@@ -2935,7 +2935,8 @@
               "Grand",
               "Corpulent",
               "Moustachu",
-              "Cheveux blonds"
+              "Cheveux blonds",
+              "Musclé"
             ],
             "role": [
               "Antagoniste",
@@ -2955,7 +2956,8 @@
             "physique": {
               "Grand": 2,
               "Corpulent": 2,
-              "Moustachu": 3
+              "Moustachu": 3,
+              "Musclé": 3
             },
             "role": {
               "Pirate": 2
@@ -4435,10 +4437,10 @@
           },
           "tagRarity": {
             "physique": {
-              "Musclé": 2,
               "Cape": 2,
               "Uniforme militaire": 2,
-              "Âgé": 2
+              "Âgé": 2,
+              "Musclé": 3
             },
             "role": {
               "Soldat": 2,
