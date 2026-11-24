@@ -4133,7 +4133,7 @@
             },
             "role": {
               "Soldat": 2,
-              "Chef militaire": 2
+              "Chef militaire": 3
             },
             "style-de-combat": {
               "Contrôle de la glace": 3
@@ -4187,7 +4187,7 @@
             },
             "role": {
               "Soldat": 2,
-              "Chef militaire": 2
+              "Chef militaire": 3
             },
             "style-de-combat": {
               "Contrôle de la lumière": 3,
@@ -4246,7 +4246,7 @@
             },
             "role": {
               "Soldat": 2,
-              "Chef militaire": 2
+              "Chef militaire": 3
             },
             "style-de-combat": {
               "Absorption d'énergie": 2,
@@ -4302,7 +4302,7 @@
             },
             "role": {
               "Soldat": 2,
-              "Chef militaire": 2
+              "Chef militaire": 3
             },
             "style-de-combat": {
               "Katana": 2,
