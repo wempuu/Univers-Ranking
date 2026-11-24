@@ -3245,7 +3245,8 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Combat à mains nues"
+              "Combat à mains nues",
+              "Super-vitesse"
             ],
             "caractere": [
               "Arrogant",
@@ -3260,7 +3261,8 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Combat à mains nues": 2
+              "Combat à mains nues": 2,
+              "Super-vitesse": 2
             },
             "caractere": {
               "Arrogant": 2,
