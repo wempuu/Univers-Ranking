@@ -376,7 +376,7 @@
               "Katana": 3,
               "Arme Tranchante": 2,
               "Pouvoir démoniaque": 2,
-              "Épée": 2
+              "Épée": 3
             },
             "caractere": {
               "Sérieux": 2,
@@ -3394,9 +3394,9 @@
             },
             "style-de-combat": {
               "Invisibilité": 3,
-              "Épée": 2,
               "Arme Tranchante": 2,
-              "Katana": 2
+              "Katana": 2,
+              "Épée": 3
             },
             "caractere": {
               "Sérieux": 2,
@@ -4587,7 +4587,7 @@
             "style-de-combat": {
               "Katana": 3,
               "Arme Tranchante": 2,
-              "Épée": 2
+              "Épée": 3
             },
             "caractere": {
               "Sérieux": 2
@@ -5104,7 +5104,7 @@
             "style-de-combat": {
               "Katana": 3,
               "Arme Tranchante": 2,
-              "Épée": 2
+              "Épée": 3
             },
             "caractere": {
               "Courageux": 2,
