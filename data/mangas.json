@@ -2488,7 +2488,8 @@
               "Impulsif"
             ],
             "style-de-combat": [
-              "Chronomorphose"
+              "Chronomorphose",
+              "Combat à mains nues"
             ]
           },
           "tagRarity": {
@@ -3054,7 +3055,8 @@
               "Manipulation des âmes",
               "Arme Tranchante",
               "Épée",
-              "Peur"
+              "Peur",
+              "Combat à mains nues"
             ],
             "caractere": [
               "Colérique",
@@ -4430,7 +4432,8 @@
             "style-de-combat": [
               "Transformation",
               "Pouvoir divin",
-              "Onde de choc"
+              "Onde de choc",
+              "Combat à mains nues"
             ],
             "caractere": [
               "Sérieux",
