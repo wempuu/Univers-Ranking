@@ -90,7 +90,8 @@
         "Deutéragoniste",
         "Samouraï",
         "Chevalier",
-        "Parent"
+        "Parent",
+        "Frère / Soeur"
       ]
     },
     "style-de-combat": {
@@ -1012,7 +1013,8 @@
               "Maître / Mentor",
               "Empereur",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Frère / Soeur"
             ],
             "style-de-combat": [
               "Épée",
@@ -1334,7 +1336,8 @@
               "Pirate",
               "Criminel",
               "Prisonnier",
-              "Orphelin"
+              "Orphelin",
+              "Frère / Soeur"
             ],
             "style-de-combat": [
               "Contrôle du feu"
@@ -1354,7 +1357,8 @@
             "role": {
               "Pirate": 2,
               "Prisonnier": 2,
-              "Orphelin": 2
+              "Orphelin": 2,
+              "Frère / Soeur": 3
             },
             "style-de-combat": {
               "Contrôle du feu": 3
@@ -2068,7 +2072,8 @@
               "Roi / Reine",
               "Pirate",
               "Criminel",
-              "Marchand"
+              "Marchand",
+              "Frère / Soeur"
             ],
             "style-de-combat": [
               "Fils / Chaînes",
@@ -2092,7 +2097,8 @@
               "Pirate": 2,
               "Marchand": 2,
               "Antagoniste": 2,
-              "Roi / Reine": 2
+              "Roi / Reine": 2,
+              "Frère / Soeur": 2
             },
             "style-de-combat": {
               "Fils / Chaînes": 3,
@@ -3046,7 +3052,8 @@
               "Antagoniste",
               "Bras droit",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Frère / Soeur"
             ],
             "style-de-combat": [
               "Prémonition",
@@ -3069,7 +3076,8 @@
             },
             "role": {
               "Bras droit": 3,
-              "Pirate": 2
+              "Pirate": 2,
+              "Frère / Soeur": 2
             },
             "style-de-combat": {
               "Prémonition": 3,
@@ -3107,7 +3115,8 @@
               "Pirate",
               "Criminel",
               "Traître",
-              "Ennemi devenu allié"
+              "Ennemi devenu allié",
+              "Frère / Soeur"
             ],
             "style-de-combat": [
               "Manipulation mentale"
@@ -3124,7 +3133,8 @@
             "role": {
               "Pirate": 2,
               "Traître": 2,
-              "Ennemi devenu allié": 2
+              "Ennemi devenu allié": 2,
+              "Frère / Soeur": 2
             },
             "caractere": {
               "Manipulateur": 3,
@@ -3153,7 +3163,8 @@
             "role": [
               "Antagoniste",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Frère / Soeur"
             ],
             "caractere": [
               "Manipulateur"
@@ -3166,7 +3177,8 @@
           },
           "tagRarity": {
             "role": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Frère / Soeur": 2
             },
             "caractere": {
               "Manipulateur": 2
@@ -3201,7 +3213,8 @@
             "role": [
               "Antagoniste",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Frère / Soeur"
             ],
             "style-de-combat": [
               "Épée",
@@ -3221,7 +3234,8 @@
               "Cheveux gris / blancs": 2
             },
             "role": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Frère / Soeur": 2
             },
             "style-de-combat": {
               "Absorption d'énergie": 2,
@@ -3254,7 +3268,8 @@
             "role": [
               "Antagoniste",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Frère / Soeur"
             ],
             "style-de-combat": [
               "Épée",
@@ -3268,7 +3283,8 @@
           },
           "tagRarity": {
             "role": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Frère / Soeur": 2
             },
             "style-de-combat": {
               "Épée": 2,
@@ -3827,7 +3843,8 @@
             "role": [
               "Antagoniste",
               "Chef militaire",
-              "Chevalier"
+              "Chevalier",
+              "Frère / Soeur"
             ],
             "style-de-combat": [
               "Épée",
@@ -3846,7 +3863,8 @@
             "role": {
               "Antagoniste": 2,
               "Chef militaire": 2,
-              "Chevalier": 2
+              "Chevalier": 2,
+              "Frère / Soeur": 2
             },
             "style-de-combat": {
               "Épée": 2,
@@ -4686,7 +4704,8 @@
             "role": [
               "Maître / Mentor",
               "Espion",
-              "Traître"
+              "Traître",
+              "Frère / Soeur"
             ],
             "style-de-combat": [
               "Contrôle du son"
@@ -4701,7 +4720,8 @@
             "role": {
               "Espion": 3,
               "Traître": 2,
-              "Maître / Mentor": 2
+              "Maître / Mentor": 2,
+              "Frère / Soeur": 2
             },
             "caractere": {
               "Naïf": 2,
@@ -4841,7 +4861,8 @@
               "Bras droit",
               "Criminel",
               "Orphelin",
-              "Révolutionnaire"
+              "Révolutionnaire",
+              "Frère / Soeur"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -4863,7 +4884,8 @@
             "role": {
               "Orphelin": 2,
               "Révolutionnaire": 3,
-              "Bras droit": 3
+              "Bras droit": 3,
+              "Frère / Soeur": 3
             },
             "style-de-combat": {
               "Contrôle du feu": 3,
