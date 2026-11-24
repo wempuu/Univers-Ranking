@@ -88,7 +88,8 @@
         "Mascotte",
         "Clown",
         "Deutéragoniste",
-        "Samouraï"
+        "Samouraï",
+        "Chevalier"
       ]
     },
     "style-de-combat": {
@@ -3730,7 +3731,8 @@
               "Antagoniste",
               "Leader",
               "Chef militaire",
-              "Conseiller"
+              "Conseiller",
+              "Chevalier"
             ],
             "style-de-combat": [
               "Épée",
@@ -3752,7 +3754,8 @@
               "Antagoniste": 2,
               "Leader": 2,
               "Conseiller": 3,
-              "Chef militaire": 3
+              "Chef militaire": 3,
+              "Chevalier": 2
             },
             "style-de-combat": {
               "Épée": 2,
@@ -3784,7 +3787,8 @@
             ],
             "role": [
               "Antagoniste",
-              "Chef militaire"
+              "Chef militaire",
+              "Chevalier"
             ],
             "style-de-combat": [
               "Épée",
@@ -3802,7 +3806,8 @@
           "tagRarity": {
             "role": {
               "Antagoniste": 2,
-              "Chef militaire": 2
+              "Chef militaire": 2,
+              "Chevalier": 2
             },
             "style-de-combat": {
               "Épée": 2,
@@ -3839,7 +3844,8 @@
             ],
             "role": [
               "Antagoniste",
-              "Soldat"
+              "Soldat",
+              "Chevalier"
             ],
             "style-de-combat": [
               "Régénération",
@@ -3851,7 +3857,8 @@
           },
           "tagRarity": {
             "role": {
-              "Soldat": 2
+              "Soldat": 2,
+              "Chevalier": 2
             },
             "style-de-combat": {
               "Régénération": 2,
@@ -3879,7 +3886,8 @@
           "tags": {
             "role": [
               "Antagoniste",
-              "Soldat"
+              "Soldat",
+              "Chevalier"
             ],
             "style-de-combat": [
               "Invocation",
@@ -3897,7 +3905,8 @@
           },
           "tagRarity": {
             "role": {
-              "Soldat": 2
+              "Soldat": 2,
+              "Chevalier": 2
             },
             "style-de-combat": {
               "Invocation": 3,
@@ -3930,7 +3939,8 @@
             ],
             "role": [
               "Antagoniste",
-              "Soldat"
+              "Soldat",
+              "Chevalier"
             ],
             "style-de-combat": [
               "Régénération",
@@ -3944,7 +3954,8 @@
           },
           "tagRarity": {
             "role": {
-              "Soldat": 2
+              "Soldat": 2,
+              "Chevalier": 2
             },
             "style-de-combat": {
               "Régénération": 2,
