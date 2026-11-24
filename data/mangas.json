@@ -1914,7 +1914,8 @@
               "Joyeux",
               "Optimiste",
               "Déterminé",
-              "Courageux"
+              "Courageux",
+              "Naïf"
             ]
           },
           "tagRarity": {
@@ -2530,7 +2531,8 @@
             "caractere": [
               "Colérique",
               "Gourmand",
-              "Impulsif"
+              "Impulsif",
+              "Naïf"
             ],
             "style-de-combat": [
               "Chronomorphose",
@@ -2709,7 +2711,8 @@
             "caractere": [
               "Peureux",
               "Égoïste",
-              "Excentrique"
+              "Excentrique",
+              "Naïf"
             ]
           },
           "tagRarity": {
@@ -3058,7 +3061,7 @@
             },
             "caractere": {
               "Colérique": 2,
-              "Naïf": 3
+              "Naïf": 2
             },
             "style-de-combat": {
               "Arme Tranchante": 2,
@@ -3450,7 +3453,8 @@
               "Arrogant",
               "Loyal",
               "Sadique",
-              "Fêtard"
+              "Fêtard",
+              "Naïf"
             ]
           },
           "tagRarity": {
@@ -5473,7 +5477,8 @@
             ],
             "caractere": [
               "Joyeux",
-              "Gourmand"
+              "Gourmand",
+              "Naïf"
             ]
           },
           "tagRarity": {
@@ -5675,7 +5680,8 @@
               "Arme Tranchante"
             ],
             "caractere": [
-              "Généreux"
+              "Généreux",
+              "Naïf"
             ]
           },
           "tagRarity": {
