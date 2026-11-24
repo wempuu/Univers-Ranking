@@ -5195,9 +5195,9 @@
             },
             "role": {
               "Leader": 2,
-              "Samouraï": 2,
               "Parent": 2,
-              "Roi / Reine": 2
+              "Roi / Reine": 2,
+              "Samouraï": 3
             },
             "style-de-combat": {
               "Katana": 3,
