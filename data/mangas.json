@@ -147,7 +147,8 @@
         "Bâton",
         "Marteau",
         "Pétrification",
-        "Pouvoir Romantique"
+        "Pouvoir Romantique",
+        "Frappe à distance"
       ]
     },
     "caractere": {
@@ -247,7 +248,8 @@
               "Prémonition",
               "Pouvoir élastique",
               "Vol",
-              "Pouvoir divin"
+              "Pouvoir divin",
+              "Frappe à distance"
             ],
             "caractere": [
               "Joyeux",
@@ -279,7 +281,8 @@
               "Pouvoir élastique": 3,
               "Transformation": 2,
               "Vol": 2,
-              "Pouvoir divin": 2
+              "Pouvoir divin": 2,
+              "Frappe à distance": 2
             },
             "caractere": {
               "Joyeux": 3,
@@ -2214,7 +2217,8 @@
               "Clown"
             ],
             "style-de-combat": [
-              "Explosions"
+              "Explosions",
+              "Frappe à distance"
             ],
             "caractere": [
               "Joyeux",
@@ -2239,7 +2243,8 @@
               "Clown": 3
             },
             "style-de-combat": {
-              "Explosions": 2
+              "Explosions": 2,
+              "Frappe à distance": 2
             },
             "caractere": {
               "Joyeux": 2,
