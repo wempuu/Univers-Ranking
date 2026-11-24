@@ -549,7 +549,6 @@
               "Durabilité"
             ],
             "caractere": [
-              "Sérieux",
               "Courageux",
               "Vengeur",
               "Romantique",
@@ -568,7 +567,6 @@
               "Allié": 2
             },
             "caractere": {
-              "Sérieux": 2,
               "Courageux": 2,
               "Vengeur": 2,
               "Romantique": 3,
@@ -687,7 +685,8 @@
               "Curieux",
               "Pessimiste",
               "Loyal",
-              "Calme"
+              "Calme",
+              "Sérieux"
             ]
           },
           "tagRarity": {
@@ -702,7 +701,8 @@
               "Intelligent": 3,
               "Curieux": 2,
               "Pessimiste": 2,
-              "Calme": 2
+              "Calme": 3,
+              "Sérieux": 2
             },
             "style-de-combat": {
               "Clones": 2,
@@ -1119,7 +1119,8 @@
               "Calme",
               "Intelligent",
               "Loyal",
-              "Fêtard"
+              "Fêtard",
+              "Sérieux"
             ]
           },
           "tagRarity": {
@@ -1510,7 +1511,8 @@
               "Déterminé",
               "Stratège",
               "Vengeur",
-              "Froid"
+              "Froid",
+              "Sérieux"
             ]
           },
           "tagRarity": {
@@ -1540,7 +1542,8 @@
               "Déterminé": 2,
               "Stratège": 3,
               "Vengeur": 3,
-              "Froid": 2
+              "Froid": 2,
+              "Sérieux": 2
             }
           }
         },
@@ -4495,7 +4498,6 @@
               "Leader": 3
             },
             "caractere": {
-              "Sérieux": 2,
               "Stratège": 3
             },
             "style-de-combat": {
@@ -5112,7 +5114,8 @@
             "caractere": [
               "Calme",
               "Mystérieux",
-              "Loyal"
+              "Loyal",
+              "Sérieux"
             ],
             "physique": [
               "Masque",
