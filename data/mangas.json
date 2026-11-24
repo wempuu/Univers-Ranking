@@ -367,7 +367,8 @@
               "Arrogant",
               "Optimiste",
               "Charismatique",
-              "Égoïste"
+              "Égoïste",
+              "Paresseux"
             ]
           },
           "tagRarity": {
@@ -397,7 +398,8 @@
               "Loyal": 3,
               "Déterminé": 2,
               "Fêtard": 3,
-              "Charismatique": 2
+              "Charismatique": 2,
+              "Paresseux": 3
             }
           }
         },
@@ -1437,7 +1439,8 @@
               "Vengeur",
               "Déterminé",
               "Fêtard",
-              "Gourmand"
+              "Gourmand",
+              "Paresseux"
             ]
           },
           "tagRarity": {
@@ -2714,7 +2717,6 @@
             "caractere": [
               "Arrogant",
               "Manipulateur",
-              "Paresseux",
               "Sadique",
               "Égoïste"
             ]
@@ -2732,9 +2734,6 @@
             "style-de-combat": {
               "Contrôle des ténèbres": 3,
               "Peur": 2
-            },
-            "caractere": {
-              "Paresseux": 2
             }
           }
         },
