@@ -155,7 +155,8 @@
         "Séisme",
         "Super-vitesse",
         "Durabilité",
-        "Battle IQ"
+        "Battle IQ",
+        "Manipulation des âmes"
       ]
     },
     "caractere": {
@@ -758,7 +759,8 @@
               "Contrôle de la glace",
               "Arme Tranchante",
               "Pouvoir musical",
-              "Super-vitesse"
+              "Super-vitesse",
+              "Manipulation des âmes"
             ],
             "caractere": [
               "Joyeux",
@@ -784,7 +786,8 @@
               "Épée": 2,
               "Contrôle de la glace": 2,
               "Arme Tranchante": 2,
-              "Pouvoir musical": 3
+              "Pouvoir musical": 3,
+              "Manipulation des âmes": 2
             },
             "caractere": {
               "Joyeux": 3,
@@ -2925,7 +2928,8 @@
             ],
             "style-de-combat": [
               "Invocation",
-              "Super-force"
+              "Super-force",
+              "Manipulation des âmes"
             ],
             "caractere": [
               "Colérique",
@@ -2949,7 +2953,8 @@
               "Antagoniste": 2
             },
             "style-de-combat": {
-              "Invocation": 3
+              "Invocation": 3,
+              "Manipulation des âmes": 3
             },
             "caractere": {
               "Colérique": 3,
