@@ -3888,9 +3888,9 @@
           "tagRarity": {
             "role": {
               "Antagoniste": 2,
-              "Chef militaire": 2,
               "Chevalier": 2,
-              "Frère / Soeur": 2
+              "Frère / Soeur": 2,
+              "Chef militaire": 3
             },
             "style-de-combat": {
               "Épée": 2,
