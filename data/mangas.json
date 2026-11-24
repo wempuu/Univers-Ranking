@@ -144,7 +144,8 @@
         "Magnétisme",
         "Pouvoir divin",
         "Bâton",
-        "Marteau"
+        "Marteau",
+        "Pétrification"
       ]
     },
     "caractere": {
@@ -2047,7 +2048,8 @@
               "Esclave / Opprimé"
             ],
             "style-de-combat": [
-              "Combat aux jambes"
+              "Combat aux jambes",
+              "Pétrification"
             ],
             "caractere": [
               "Arrogant",
@@ -2066,7 +2068,8 @@
               "Esclave / Opprimé": 3
             },
             "style-de-combat": {
-              "Combat aux jambes": 2
+              "Combat aux jambes": 2,
+              "Pétrification": 2
             },
             "caractere": {
               "Arrogant": 3,
