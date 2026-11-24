@@ -2047,7 +2047,6 @@
               "Esclave / Opprimé"
             ],
             "style-de-combat": [
-              "Magie",
               "Combat aux jambes"
             ],
             "caractere": [
@@ -2067,7 +2066,6 @@
               "Esclave / Opprimé": 3
             },
             "style-de-combat": {
-              "Magie": 3,
               "Combat aux jambes": 2
             },
             "caractere": {
@@ -2322,9 +2320,6 @@
               "Criminel",
               "Fugitif"
             ],
-            "style-de-combat": [
-              "Magie"
-            ],
             "caractere": [
               "Colérique",
               "Gourmand",
@@ -2338,9 +2333,6 @@
             "role": {
               "Pirate": 2,
               "Fugitif": 2
-            },
-            "style-de-combat": {
-              "Magie": 3
             },
             "caractere": {
               "Colérique": 2,
@@ -3020,9 +3012,6 @@
               "Pirate",
               "Criminel"
             ],
-            "style-de-combat": [
-              "Magie"
-            ],
             "caractere": [
               "Manipulateur"
             ]
@@ -3030,9 +3019,6 @@
           "tagRarity": {
             "role": {
               "Pirate": 2
-            },
-            "style-de-combat": {
-              "Magie": 3
             },
             "caractere": {
               "Manipulateur": 2
@@ -3314,7 +3300,8 @@
               "Arme Tranchante",
               "Vol",
               "Manipulation corporelle",
-              "Pouvoir démoniaque"
+              "Pouvoir démoniaque",
+              "Magie"
             ],
             "caractere": [
               "Sadique",
@@ -3341,7 +3328,8 @@
               "Vol": 2,
               "Manipulation mentale": 3,
               "Manipulation corporelle": 2,
-              "Pouvoir démoniaque": 3
+              "Pouvoir démoniaque": 3,
+              "Magie": 2
             },
             "caractere": {
               "Sadique": 3,
