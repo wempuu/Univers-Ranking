@@ -160,7 +160,8 @@
         "Pouvoir culinaire",
         "Peur",
         "Onde de choc",
-        "Contrôle de la fumée"
+        "Contrôle de la fumée",
+        "Pouvoir animal"
       ]
     },
     "caractere": {
@@ -591,7 +592,8 @@
             "style-de-combat": [
               "Combat à mains nues",
               "Transformation",
-              "Arts martiaux"
+              "Arts martiaux",
+              "Pouvoir animal"
             ],
             "caractere": [
               "Timide",
@@ -615,7 +617,8 @@
               "Mascotte": 3
             },
             "style-de-combat": {
-              "Transformation": 3
+              "Transformation": 3,
+              "Pouvoir animal": 2
             },
             "caractere": {
               "Timide": 2,
@@ -1868,7 +1871,8 @@
               "Transformation",
               "Vol",
               "Contrôle du feu",
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Pouvoir animal"
             ],
             "caractere": [
               "Sérieux",
@@ -1893,7 +1897,8 @@
               "Vol": 3,
               "Contrôle du feu": 2,
               "Arme Tranchante": 2,
-              "Transformation": 2
+              "Transformation": 2,
+              "Pouvoir animal": 2
             },
             "caractere": {
               "Sérieux": 2,
@@ -1930,7 +1935,8 @@
             ],
             "style-de-combat": [
               "Transformation",
-              "Laser"
+              "Laser",
+              "Pouvoir animal"
             ],
             "caractere": [
               "Joyeux",
@@ -1957,7 +1963,8 @@
             },
             "style-de-combat": {
               "Laser": 2,
-              "Transformation": 2
+              "Transformation": 2,
+              "Pouvoir animal": 2
             }
           }
         },
@@ -1987,7 +1994,8 @@
             "style-de-combat": [
               "Transformation",
               "Arme Tranchante",
-              "Super-force"
+              "Super-force",
+              "Pouvoir animal"
             ],
             "caractere": [
               "Sadique",
@@ -2010,7 +2018,8 @@
             },
             "style-de-combat": {
               "Arme Tranchante": 2,
-              "Transformation": 2
+              "Transformation": 2,
+              "Pouvoir animal": 2
             }
           }
         },
@@ -2447,7 +2456,8 @@
               "Téléportation",
               "Combat à mains nues",
               "Super-force",
-              "Durabilité"
+              "Durabilité",
+              "Pouvoir animal"
             ],
             "caractere": [
               "Calme",
@@ -2468,7 +2478,8 @@
               "Religieux": 2
             },
             "style-de-combat": {
-              "Téléportation": 3
+              "Téléportation": 3,
+              "Pouvoir animal": 2
             },
             "caractere": {
               "Calme": 2,
@@ -3774,7 +3785,8 @@
               "Épée",
               "Régénération",
               "Arme Tranchante",
-              "Invocation"
+              "Invocation",
+              "Pouvoir animal"
             ],
             "caractere": [
               "Sérieux",
@@ -3791,7 +3803,8 @@
               "Épée": 2,
               "Régénération": 2,
               "Arme Tranchante": 2,
-              "Invocation": 2
+              "Invocation": 2,
+              "Pouvoir animal": 2
             },
             "caractere": {
               "Arrogant": 2,
@@ -4557,7 +4570,8 @@
               "Combat à mains nues",
               "Transformation",
               "Vol",
-              "Super-vitesse"
+              "Super-vitesse",
+              "Pouvoir animal"
             ],
             "caractere": [
               "Sérieux",
@@ -4576,7 +4590,8 @@
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
-              "Transformation": 2
+              "Transformation": 2,
+              "Pouvoir animal": 2
             },
             "caractere": {
               "Sérieux": 3,
@@ -4852,7 +4867,8 @@
             ],
             "style-de-combat": [
               "Transformation",
-              "Vol"
+              "Vol",
+              "Pouvoir animal"
             ],
             "caractere": [
               "Calme",
@@ -4876,7 +4892,8 @@
             },
             "style-de-combat": {
               "Vol": 2,
-              "Transformation": 2
+              "Transformation": 2,
+              "Pouvoir animal": 2
             }
           }
         },
