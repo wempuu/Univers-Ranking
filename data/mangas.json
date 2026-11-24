@@ -2984,7 +2984,8 @@
               "Empereur",
               "Pirate",
               "Criminel",
-              "Parent"
+              "Parent",
+              "Roi / Reine"
             ],
             "style-de-combat": [
               "Invocation",
@@ -3013,7 +3014,8 @@
               "Empereur": 3,
               "Pirate": 2,
               "Antagoniste": 2,
-              "Parent": 2
+              "Parent": 2,
+              "Roi / Reine": 2
             },
             "style-de-combat": {
               "Invocation": 3,
@@ -5090,9 +5092,9 @@
             },
             "role": {
               "Leader": 2,
-              "Roi / Reine": 3,
               "Samouraï": 2,
-              "Parent": 2
+              "Parent": 2,
+              "Roi / Reine": 2
             },
             "style-de-combat": {
               "Katana": 3,
@@ -5632,7 +5634,7 @@
             },
             "role": {
               "Antagoniste": 2,
-              "Roi / Reine": 3
+              "Roi / Reine": 2
             },
             "style-de-combat": {
               "Absorption d'énergie": 2
