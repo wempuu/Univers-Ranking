@@ -2559,7 +2559,8 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Contrôle des ténèbres"
+              "Contrôle des ténèbres",
+              "Peur"
             ],
             "caractere": [
               "Arrogant",
@@ -2579,7 +2580,8 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Contrôle des ténèbres": 3
+              "Contrôle des ténèbres": 3,
+              "Peur": 2
             },
             "caractere": {
               "Arrogant": 2,
@@ -3006,7 +3008,8 @@
               "Super-force",
               "Manipulation des âmes",
               "Arme Tranchante",
-              "Épée"
+              "Épée",
+              "Peur"
             ],
             "caractere": [
               "Colérique",
@@ -3036,7 +3039,8 @@
               "Invocation": 3,
               "Manipulation des âmes": 3,
               "Arme Tranchante": 2,
-              "Épée": 2
+              "Épée": 2,
+              "Peur": 2
             },
             "caractere": {
               "Colérique": 3,
@@ -3502,7 +3506,8 @@
               "Manipulation corporelle",
               "Pouvoir démoniaque",
               "Magie",
-              "Épée"
+              "Épée",
+              "Peur"
             ],
             "caractere": [
               "Sadique",
@@ -3531,7 +3536,8 @@
               "Manipulation corporelle": 2,
               "Pouvoir démoniaque": 3,
               "Magie": 2,
-              "Épée": 2
+              "Épée": 2,
+              "Peur": 3
             },
             "caractere": {
               "Sadique": 3,
