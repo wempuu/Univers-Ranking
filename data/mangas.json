@@ -143,7 +143,8 @@
         "Pouvoir musical",
         "Magnétisme",
         "Pouvoir divin",
-        "Bâton"
+        "Bâton",
+        "Marteau"
       ]
     },
     "caractere": {
@@ -438,7 +439,8 @@
             "style-de-combat": [
               "Armes à distance",
               "Invocation",
-              "Contrôle des plantes"
+              "Contrôle des plantes",
+              "Marteau"
             ],
             "caractere": [
               "Joyeux",
@@ -456,7 +458,8 @@
             "style-de-combat": {
               "Armes à distance": 3,
               "Invocation": 2,
-              "Contrôle des plantes": 2
+              "Contrôle des plantes": 2,
+              "Marteau": 2
             },
             "caractere": {
               "Joyeux": 2,
@@ -5182,7 +5185,8 @@
               "Arme contondante",
               "Transformation",
               "Pouvoir draconique",
-              "Vol"
+              "Vol",
+              "Marteau"
             ],
             "caractere": [
               "Arrogant",
@@ -5203,7 +5207,8 @@
               "Transformation": 2,
               "Pouvoir draconique": 3,
               "Vol": 2,
-              "Arme contondante": 2
+              "Arme contondante": 2,
+              "Marteau": 3
             },
             "caractere": {
               "Arrogant": 3
