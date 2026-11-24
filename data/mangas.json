@@ -159,7 +159,8 @@
         "Manipulation des âmes",
         "Pouvoir culinaire",
         "Peur",
-        "Onde de choc"
+        "Onde de choc",
+        "Contrôle de la fumée"
       ]
     },
     "caractere": {
@@ -409,7 +410,8 @@
               "Contrôle de la météo",
               "Arme contondante",
               "Bâton",
-              "Battle IQ"
+              "Battle IQ",
+              "Contrôle de la fumée"
             ],
             "caractere": [
               "Sérieux",
@@ -434,7 +436,8 @@
               "Contrôle de la météo": 3,
               "Arme contondante": 2,
               "Bâton": 2,
-              "Battle IQ": 2
+              "Battle IQ": 2,
+              "Contrôle de la fumée": 2
             },
             "caractere": {
               "Peureux": 2,
@@ -4411,7 +4414,8 @@
               "Soldat"
             ],
             "style-de-combat": [
-              "Arme contondante"
+              "Arme contondante",
+              "Contrôle de la fumée"
             ],
             "caractere": [
               "Sérieux",
@@ -4430,7 +4434,8 @@
               "Soldat": 2
             },
             "style-de-combat": {
-              "Arme contondante": 2
+              "Arme contondante": 2,
+              "Contrôle de la fumée": 3
             },
             "caractere": {
               "Sérieux": 3
