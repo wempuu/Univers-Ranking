@@ -342,7 +342,8 @@
               "Élève",
               "Pirate",
               "Criminel",
-              "Deutéragoniste"
+              "Deutéragoniste",
+              "Orphelin"
             ],
             "style-de-combat": [
               "Katana",
@@ -439,7 +440,8 @@
             "role": {
               "Pirate": 2,
               "Navigateur": 3,
-              "Allié": 2
+              "Allié": 2,
+              "Orphelin": 2
             },
             "style-de-combat": {
               "Contrôle du vent": 2,
@@ -477,7 +479,8 @@
               "Pirate",
               "Criminel",
               "Scientifique",
-              "Sniper"
+              "Sniper",
+              "Orphelin"
             ],
             "style-de-combat": [
               "Armes à distance",
@@ -498,7 +501,8 @@
               "Pirate": 2,
               "Scientifique": 2,
               "Allié": 2,
-              "Sniper": 3
+              "Sniper": 3,
+              "Orphelin": 2
             },
             "style-de-combat": {
               "Armes à distance": 3,
@@ -627,7 +631,8 @@
               "Médecin": 3,
               "Pirate": 2,
               "Allié": 2,
-              "Mascotte": 3
+              "Mascotte": 3,
+              "Orphelin": 2
             },
             "style-de-combat": {
               "Transformation": 3,
@@ -681,9 +686,9 @@
             "role": {
               "Pirate": 2,
               "Allié": 2,
-              "Orphelin": 2,
               "Ennemi devenu allié": 2,
-              "Fugitif": 3
+              "Fugitif": 3,
+              "Orphelin": 3
             },
             "caractere": {
               "Intelligent": 3,
@@ -2177,7 +2182,8 @@
               "Roi / Reine",
               "Pirate",
               "Criminel",
-              "Esclave / Opprimé"
+              "Esclave / Opprimé",
+              "Orphelin"
             ],
             "style-de-combat": [
               "Combat aux jambes",
@@ -2200,7 +2206,8 @@
               "Leader": 2,
               "Roi / Reine": 3,
               "Pirate": 2,
-              "Esclave / Opprimé": 3
+              "Esclave / Opprimé": 3,
+              "Orphelin": 2
             },
             "style-de-combat": {
               "Combat aux jambes": 2,
@@ -2472,7 +2479,8 @@
               "Leader",
               "Pirate",
               "Criminel",
-              "Fugitif"
+              "Fugitif",
+              "Orphelin"
             ],
             "caractere": [
               "Colérique",
@@ -4083,7 +4091,8 @@
             "role": [
               "Antagoniste",
               "Soldat",
-              "Chevalier divin"
+              "Chevalier divin",
+              "Orphelin"
             ],
             "style-de-combat": [
               "Régénération",
@@ -4539,7 +4548,8 @@
               "Allié",
               "Rival",
               "Élève",
-              "Soldat"
+              "Soldat",
+              "Orphelin"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -5323,7 +5333,8 @@
             ],
             "role": [
               "Antagoniste",
-              "Musicien"
+              "Musicien",
+              "Orphelin"
             ],
             "style-de-combat": [
               "Illusion",
