@@ -89,7 +89,8 @@
         "Clown",
         "Deutéragoniste",
         "Samouraï",
-        "Chevalier"
+        "Chevalier",
+        "Parent"
       ]
     },
     "style-de-combat": {
@@ -893,7 +894,8 @@
             "role": [
               "Leader",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Parent"
             ],
             "style-de-combat": [
               "Épée",
@@ -914,7 +916,8 @@
             },
             "role": {
               "Leader": 2,
-              "Pirate": 3
+              "Pirate": 3,
+              "Parent": 2
             },
             "style-de-combat": {
               "Épée": 2,
@@ -1160,7 +1163,8 @@
             ],
             "role": [
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Parent"
             ],
             "style-de-combat": [
               "Armes à feu"
@@ -1172,7 +1176,8 @@
           },
           "tagRarity": {
             "role": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Parent": 2
             },
             "style-de-combat": {
               "Armes à feu": 3
@@ -1207,7 +1212,8 @@
               "Leader",
               "Empereur",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Parent"
             ],
             "style-de-combat": [
               "Arme Tranchante",
@@ -1234,7 +1240,8 @@
             "role": {
               "Leader": 2,
               "Empereur": 3,
-              "Pirate": 2
+              "Pirate": 2,
+              "Parent": 2
             },
             "caractere": {
               "Charismatique": 2,
@@ -1742,7 +1749,8 @@
               "Leader",
               "Empereur",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Parent"
             ],
             "style-de-combat": [
               "Arme contondante",
@@ -1773,7 +1781,8 @@
             "role": {
               "Empereur": 3,
               "Pirate": 2,
-              "Antagoniste": 2
+              "Antagoniste": 2,
+              "Parent": 2
             },
             "style-de-combat": {
               "Vol": 2,
@@ -1940,7 +1949,8 @@
               "Antagoniste",
               "Pirate",
               "Criminel",
-              "Scientifique"
+              "Scientifique",
+              "Parent"
             ],
             "style-de-combat": [
               "Transformation",
@@ -1963,7 +1973,8 @@
             },
             "role": {
               "Pirate": 2,
-              "Scientifique": 3
+              "Scientifique": 3,
+              "Parent": 2
             },
             "caractere": {
               "Joyeux": 2,
@@ -2355,7 +2366,8 @@
             "role": [
               "Leader",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Parent"
             ],
             "caractere": [
               "Sadique",
@@ -2374,7 +2386,8 @@
             },
             "role": {
               "Leader": 2,
-              "Pirate": 2
+              "Pirate": 2,
+              "Parent": 2
             },
             "caractere": {
               "Sadique": 3,
@@ -2463,7 +2476,8 @@
               "Prisonnier",
               "Esclave / Opprimé",
               "Révolutionnaire",
-              "Religieux"
+              "Religieux",
+              "Parent"
             ],
             "style-de-combat": [
               "Téléportation",
@@ -2488,7 +2502,8 @@
               "Prisonnier": 2,
               "Esclave / Opprimé": 3,
               "Révolutionnaire": 2,
-              "Religieux": 2
+              "Religieux": 2,
+              "Parent": 2
             },
             "style-de-combat": {
               "Téléportation": 3,
@@ -2798,7 +2813,8 @@
               "Pirate",
               "Criminel",
               "Cuisinier",
-              "Leader"
+              "Leader",
+              "Parent"
             ],
             "caractere": [
               "Calme",
@@ -2817,7 +2833,8 @@
             },
             "role": {
               "Cuisinier": 3,
-              "Maître / Mentor": 2
+              "Maître / Mentor": 2,
+              "Parent": 2
             },
             "caractere": {
               "Protecteur": 2
@@ -2960,7 +2977,8 @@
               "Leader",
               "Empereur",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Parent"
             ],
             "style-de-combat": [
               "Invocation",
@@ -2988,7 +3006,8 @@
             "role": {
               "Empereur": 3,
               "Pirate": 2,
-              "Antagoniste": 2
+              "Antagoniste": 2,
+              "Parent": 2
             },
             "style-de-combat": {
               "Invocation": 3,
@@ -4357,7 +4376,8 @@
               "Maître / Mentor",
               "Soldat",
               "Chef militaire",
-              "Leader"
+              "Leader",
+              "Parent"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -4380,7 +4400,8 @@
             "role": {
               "Soldat": 2,
               "Chef militaire": 2,
-              "Maître / Mentor": 2
+              "Maître / Mentor": 2,
+              "Parent": 2
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
@@ -4764,7 +4785,8 @@
             "role": [
               "Leader",
               "Criminel",
-              "Révolutionnaire"
+              "Révolutionnaire",
+              "Parent"
             ],
             "style-de-combat": [
               "Contrôle du vent",
@@ -4783,7 +4805,8 @@
             },
             "role": {
               "Leader": 3,
-              "Révolutionnaire": 3
+              "Révolutionnaire": 3,
+              "Parent": 3
             },
             "style-de-combat": {
               "Contrôle du vent": 3,
@@ -5022,7 +5045,8 @@
             "role": [
               "Leader",
               "Roi / Reine",
-              "Samouraï"
+              "Samouraï",
+              "Parent"
             ],
             "style-de-combat": [
               "Katana",
@@ -5043,7 +5067,8 @@
             "role": {
               "Leader": 2,
               "Roi / Reine": 3,
-              "Samouraï": 2
+              "Samouraï": 2,
+              "Parent": 2
             },
             "style-de-combat": {
               "Katana": 3,
