@@ -617,11 +617,11 @@
           },
           "tagRarity": {
             "physique": {
-              "Enfant": 2,
               "Animal anthropomorphe": 3,
               "Couvre-chef": 2,
               "Non-humain": 3,
-              "Petit": 2
+              "Petit": 2,
+              "Enfant": 3
             },
             "role": {
               "Médecin": 3,
@@ -5211,8 +5211,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Enfant": 3,
-              "Tenue traditionnelle": 2
+              "Tenue traditionnelle": 2,
+              "Enfant": 2
             },
             "role": {
               "Leader": 2,
