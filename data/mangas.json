@@ -5526,11 +5526,13 @@
             ],
             "style-de-combat": [
               "Illusion",
-              "Pouvoir musical"
+              "Pouvoir musical",
+              "Pouvoir démoniaque"
             ],
             "caractere": [
               "Naïf",
-              "Déterminé"
+              "Déterminé",
+              "Fêtard"
             ]
           },
           "tagRarity": {
@@ -5544,7 +5546,8 @@
             },
             "style-de-combat": {
               "Illusion": 3,
-              "Pouvoir musical": 3
+              "Pouvoir musical": 3,
+              "Pouvoir démoniaque": 2
             },
             "caractere": {
               "Naïf": 2
