@@ -2725,6 +2725,9 @@
             "caractere": [
               "Calme",
               "Protecteur"
+            ],
+            "style-de-combat": [
+              "Combat aux jambes"
             ]
           },
           "tagRarity": {
@@ -2740,6 +2743,9 @@
             },
             "caractere": {
               "Protecteur": 2
+            },
+            "style-de-combat": {
+              "Combat aux jambes": 3
             }
           }
         },
