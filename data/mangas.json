@@ -2936,7 +2936,8 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Barrière / Bouclier"
+              "Barrière / Bouclier",
+              "Combat à mains nues"
             ],
             "caractere": [
               "Joyeux",
@@ -2955,7 +2956,8 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Barrière / Bouclier": 3
+              "Barrière / Bouclier": 3,
+              "Combat à mains nues": 2
             },
             "caractere": {
               "Impulsif": 2,
