@@ -86,7 +86,8 @@
         "Fugitif",
         "Ennemi devenu allié",
         "Dieu / Divinité",
-        "Mascotte"
+        "Mascotte",
+        "Clown"
       ]
     },
     "style-de-combat": {
@@ -2209,7 +2210,8 @@
               "Leader",
               "Empereur",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Clown"
             ],
             "style-de-combat": [
               "Explosions"
@@ -2233,7 +2235,8 @@
               "Antagoniste": 2,
               "Leader": 2,
               "Empereur": 2,
-              "Pirate": 2
+              "Pirate": 2,
+              "Clown": 3
             },
             "style-de-combat": {
               "Explosions": 2
