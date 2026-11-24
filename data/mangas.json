@@ -87,7 +87,8 @@
         "Dieu / Divinité",
         "Mascotte",
         "Clown",
-        "Deutéragoniste"
+        "Deutéragoniste",
+        "Samouraï"
       ]
     },
     "style-de-combat": {
@@ -4981,7 +4982,8 @@
             ],
             "role": [
               "Leader",
-              "Roi / Reine"
+              "Roi / Reine",
+              "Samouraï"
             ],
             "style-de-combat": [
               "Katana",
@@ -5000,7 +5002,8 @@
             },
             "role": {
               "Leader": 2,
-              "Roi / Reine": 3
+              "Roi / Reine": 3,
+              "Samouraï": 2
             },
             "style-de-combat": {
               "Katana": 3,
@@ -5032,7 +5035,8 @@
             "role": [
               "Allié",
               "Leader",
-              "Prince / Princesse"
+              "Prince / Princesse",
+              "Samouraï"
             ],
             "style-de-combat": [
               "Transformation",
@@ -5225,7 +5229,8 @@
               "Barbu"
             ],
             "role": [
-              "Allié"
+              "Allié",
+              "Samouraï"
             ],
             "style-de-combat": [
               "Katana",
@@ -5245,6 +5250,9 @@
             },
             "physique": {
               "Tenue traditionnelle": 2
+            },
+            "role": {
+              "Samouraï": 2
             }
           }
         },
