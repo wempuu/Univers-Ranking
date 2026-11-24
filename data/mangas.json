@@ -575,7 +575,6 @@
             },
             "caractere": {
               "Courageux": 2,
-              "Vengeur": 2,
               "Romantique": 3,
               "Pervers": 3
             },
@@ -1725,7 +1724,8 @@
             ],
             "caractere": [
               "Loyal",
-              "Mystérieux"
+              "Mystérieux",
+              "Vengeur"
             ]
           },
           "tagRarity": {
@@ -1933,7 +1933,8 @@
               "Déterminé",
               "Courageux",
               "Naïf",
-              "Gourmand"
+              "Gourmand",
+              "Vengeur"
             ]
           },
           "tagRarity": {
@@ -2623,7 +2624,8 @@
               "Calme",
               "Généreux",
               "Mystérieux",
-              "Protecteur"
+              "Protecteur",
+              "Vengeur"
             ]
           },
           "tagRarity": {
@@ -5368,7 +5370,8 @@
               "Pouvoir draconique"
             ],
             "caractere": [
-              "Naïf"
+              "Naïf",
+              "Vengeur"
             ]
           },
           "tagRarity": {
@@ -5566,7 +5569,8 @@
               "Épée"
             ],
             "caractere": [
-              "Loyal"
+              "Loyal",
+              "Vengeur"
             ]
           },
           "tagRarity": {
