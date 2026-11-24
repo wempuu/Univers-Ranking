@@ -248,7 +248,8 @@
           "tags": {
             "physique": [
               "Cicatrice",
-              "Couvre-chef"
+              "Couvre-chef",
+              "Musclé"
             ],
             "role": [
               "Protagoniste",
@@ -899,7 +900,8 @@
             "physique": [
               "Moustachu",
               "Couvre-chef",
-              "Cape"
+              "Cape",
+              "Musclé"
             ],
             "role": [
               "Leader",
@@ -1016,7 +1018,8 @@
               "Cheveux rouges",
               "Cicatrice",
               "Cape",
-              "Prothèse / Membre manquant"
+              "Prothèse / Membre manquant",
+              "Musclé"
             ],
             "role": [
               "Leader",
@@ -1078,7 +1081,8 @@
               "Cheveux longs",
               "Cheveux gris / blancs",
               "Cicatrice",
-              "Fumeur"
+              "Fumeur",
+              "Musclé"
             ],
             "role": [
               "Bras droit",
@@ -1171,7 +1175,8 @@
           },
           "tags": {
             "physique": [
-              "Cheveux longs"
+              "Cheveux longs",
+              "Musclé"
             ],
             "role": [
               "Pirate",
@@ -1287,7 +1292,8 @@
               "Cheveux blonds",
               "Tatoué",
               "Lunettes",
-              "Ailes"
+              "Ailes",
+              "Musclé"
             ],
             "role": [
               "Allié",
@@ -1341,7 +1347,8 @@
             "physique": [
               "Tatoué",
               "Bijoux / Piercings",
-              "Couvre-chef"
+              "Couvre-chef",
+              "Musclé"
             ],
             "role": [
               "Allié",
@@ -1446,7 +1453,8 @@
             "physique": [
               "Tatoué",
               "Couvre-chef",
-              "Bijoux / Piercings"
+              "Bijoux / Piercings",
+              "Musclé"
             ],
             "role": [
               "Allié",
@@ -2203,7 +2211,8 @@
               "Moustachu",
               "Couvre-chef",
               "Cape",
-              "Yeux spéciaux"
+              "Yeux spéciaux",
+              "Musclé"
             ],
             "role": [
               "Maître / Mentor",
@@ -2255,7 +2264,8 @@
               "Cicatrice",
               "Cape",
               "Prothèse / Membre manquant",
-              "Fumeur"
+              "Fumeur",
+              "Musclé"
             ],
             "role": [
               "Antagoniste",
@@ -2778,7 +2788,8 @@
             "physique": [
               "Cheveux verts",
               "Bijoux / Piercings",
-              "Tatoué"
+              "Tatoué",
+              "Musclé"
             ],
             "role": [
               "Allié",
@@ -3819,7 +3830,8 @@
               "Cheveux gris / blancs",
               "Barbu",
               "Lunettes",
-              "Cape"
+              "Cape",
+              "Musclé"
             ],
             "role": [
               "Antagoniste",
@@ -3877,7 +3889,8 @@
             "physique": [
               "Cheveux longs",
               "Cheveux rouges",
-              "Uniforme militaire"
+              "Uniforme militaire",
+              "Musclé"
             ],
             "role": [
               "Antagoniste",
@@ -4373,7 +4386,8 @@
               "Lunettes",
               "Cape",
               "Uniforme militaire",
-              "Grand"
+              "Grand",
+              "Musclé"
             ],
             "role": [
               "Leader",
@@ -5019,7 +5033,8 @@
             "physique": [
               "Masque",
               "Chauve",
-              "Ailes"
+              "Ailes",
+              "Musclé"
             ]
           },
           "tagRarity": {
@@ -5161,7 +5176,8 @@
             "physique": [
               "Enfant",
               "Cheveux longs",
-              "Tenue traditionnelle"
+              "Tenue traditionnelle",
+              "Musclé"
             ],
             "role": [
               "Allié",
@@ -5210,7 +5226,8 @@
           "tags": {
             "physique": [
               "Cheveux blonds",
-              "Couvre-chef"
+              "Couvre-chef",
+              "Musclé"
             ],
             "role": [
               "Antagoniste",
