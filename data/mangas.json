@@ -935,7 +935,8 @@
               "Joyeux",
               "Charismatique",
               "Optimiste",
-              "Fêtard"
+              "Fêtard",
+              "Déterminé"
             ]
           },
           "tagRarity": {
@@ -957,7 +958,8 @@
               "Joyeux": 3,
               "Charismatique": 3,
               "Optimiste": 2,
-              "Fêtard": 2
+              "Fêtard": 2,
+              "Déterminé": 3
             }
           }
         },
@@ -1393,7 +1395,8 @@
               "Courageux",
               "Loyal",
               "Impulsif",
-              "Vengeur"
+              "Vengeur",
+              "Déterminé"
             ]
           },
           "tagRarity": {
@@ -1414,7 +1417,8 @@
               "Courageux": 2,
               "Loyal": 2,
               "Impulsif": 2,
-              "Vengeur": 2
+              "Vengeur": 2,
+              "Déterminé": 2
             }
           }
         },
@@ -1899,7 +1903,8 @@
             ],
             "caractere": [
               "Joyeux",
-              "Optimiste"
+              "Optimiste",
+              "Déterminé"
             ]
           },
           "tagRarity": {
@@ -2472,8 +2477,8 @@
               "Parent": 2
             },
             "caractere": {
-              "Déterminé": 2,
-              "Sadique": 2
+              "Sadique": 2,
+              "Déterminé": 3
             },
             "style-de-combat": {
               "Arme Tranchante": 2,
@@ -2824,8 +2829,7 @@
               "Épée": 2
             },
             "caractere": {
-              "Manipulateur": 2,
-              "Déterminé": 2
+              "Manipulateur": 2
             }
           }
         },
@@ -5400,8 +5404,7 @@
               "Pouvoir musical": 3
             },
             "caractere": {
-              "Naïf": 2,
-              "Déterminé": 2
+              "Naïf": 2
             }
           }
         },
@@ -5584,7 +5587,8 @@
             ],
             "caractere": [
               "Arrogant",
-              "Optimiste"
+              "Optimiste",
+              "Déterminé"
             ]
           },
           "tagRarity": {
