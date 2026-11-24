@@ -695,7 +695,8 @@
               "Loyal",
               "Calme",
               "Sérieux",
-              "Froid"
+              "Froid",
+              "Mystérieux"
             ]
           },
           "tagRarity": {
@@ -711,7 +712,8 @@
               "Curieux": 2,
               "Pessimiste": 2,
               "Calme": 3,
-              "Sérieux": 2
+              "Sérieux": 2,
+              "Mystérieux": 2
             },
             "style-de-combat": {
               "Clones": 2,
@@ -1017,7 +1019,8 @@
               "Optimiste",
               "Fêtard",
               "Loyal",
-              "Intelligent"
+              "Intelligent",
+              "Mystérieux"
             ]
           },
           "tagRarity": {
@@ -1138,7 +1141,8 @@
               "Loyal",
               "Fêtard",
               "Sérieux",
-              "Froid"
+              "Froid",
+              "Mystérieux"
             ]
           },
           "tagRarity": {
@@ -1536,7 +1540,8 @@
               "Stratège",
               "Vengeur",
               "Froid",
-              "Sérieux"
+              "Sérieux",
+              "Mystérieux"
             ]
           },
           "tagRarity": {
@@ -1735,7 +1740,6 @@
               "Arme Tranchante": 2
             },
             "caractere": {
-              "Mystérieux": 2,
               "Loyal": 2
             }
           }
@@ -2308,7 +2312,8 @@
             "caractere": [
               "Calme",
               "Solitaire",
-              "Froid"
+              "Froid",
+              "Mystérieux"
             ]
           },
           "tagRarity": {
@@ -2327,7 +2332,8 @@
             "caractere": {
               "Calme": 3,
               "Solitaire": 3,
-              "Froid": 2
+              "Froid": 2,
+              "Mystérieux": 2
             }
           }
         },
@@ -2641,7 +2647,6 @@
             "caractere": {
               "Calme": 2,
               "Généreux": 3,
-              "Mystérieux": 2,
               "Protecteur": 2
             }
           }
@@ -3206,7 +3211,8 @@
               "Loyal",
               "Perfectionniste",
               "Froid",
-              "Intelligent"
+              "Intelligent",
+              "Mystérieux"
             ]
           },
           "tagRarity": {
@@ -3524,7 +3530,8 @@
               "Sérieux",
               "Sadique",
               "Froid",
-              "Calme"
+              "Calme",
+              "Mystérieux"
             ],
             "physique": [
               "Couvre-chef",
@@ -4044,7 +4051,8 @@
               "Arrogant",
               "Froid",
               "Loyal",
-              "Calme"
+              "Calme",
+              "Mystérieux"
             ]
           },
           "tagRarity": {
@@ -4212,7 +4220,8 @@
             ],
             "caractere": [
               "Sérieux",
-              "Loyal"
+              "Loyal",
+              "Mystérieux"
             ]
           },
           "tagRarity": {
@@ -4228,6 +4237,9 @@
               "Masque": 2,
               "Cheveux bleus": 2,
               "Femme": 2
+            },
+            "caractere": {
+              "Mystérieux": 2
             }
           }
         },
@@ -4375,8 +4387,7 @@
               "Super-vitesse"
             ],
             "caractere": [
-              "Calme",
-              "Mystérieux"
+              "Calme"
             ]
           },
           "tagRarity": {
@@ -4397,8 +4408,7 @@
               "Super-vitesse": 3
             },
             "caractere": {
-              "Calme": 2,
-              "Mystérieux": 2
+              "Calme": 2
             }
           }
         },
