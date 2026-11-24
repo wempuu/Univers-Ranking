@@ -158,7 +158,8 @@
         "Battle IQ",
         "Manipulation des âmes",
         "Pouvoir culinaire",
-        "Peur"
+        "Peur",
+        "Onde de choc"
       ]
     },
     "caractere": {
@@ -1202,7 +1203,8 @@
               "Combat à mains nues",
               "Super-force",
               "Séisme",
-              "Durabilité"
+              "Durabilité",
+              "Onde de choc"
             ],
             "caractere": [
               "Charismatique",
@@ -1232,7 +1234,8 @@
               "Arme Tranchante": 2,
               "Super-force": 2,
               "Séisme": 3,
-              "Durabilité": 2
+              "Durabilité": 2,
+              "Onde de choc": 2
             }
           }
         },
@@ -1660,7 +1663,8 @@
             ],
             "style-de-combat": [
               "Contrôle des ténèbres",
-              "Séisme"
+              "Séisme",
+              "Onde de choc"
             ],
             "caractere": [
               "Manipulateur",
@@ -1685,7 +1689,8 @@
             },
             "style-de-combat": {
               "Contrôle des ténèbres": 3,
-              "Séisme": 3
+              "Séisme": 3,
+              "Onde de choc": 2
             },
             "caractere": {
               "Manipulateur": 2,
@@ -4238,7 +4243,8 @@
             ],
             "style-de-combat": [
               "Transformation",
-              "Pouvoir divin"
+              "Pouvoir divin",
+              "Onde de choc"
             ],
             "caractere": [
               "Sérieux",
@@ -4264,7 +4270,8 @@
             },
             "style-de-combat": {
               "Transformation": 2,
-              "Pouvoir divin": 2
+              "Pouvoir divin": 2,
+              "Onde de choc": 3
             }
           }
         },
