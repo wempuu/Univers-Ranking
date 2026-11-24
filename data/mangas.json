@@ -365,7 +365,8 @@
               "Déterminé",
               "Fêtard",
               "Arrogant",
-              "Optimiste"
+              "Optimiste",
+              "Charismatique"
             ]
           },
           "tagRarity": {
@@ -394,7 +395,8 @@
               "Courageux": 2,
               "Loyal": 3,
               "Déterminé": 2,
-              "Fêtard": 3
+              "Fêtard": 3,
+              "Charismatique": 2
             }
           }
         },
@@ -1019,7 +1021,8 @@
               "Fêtard",
               "Loyal",
               "Intelligent",
-              "Mystérieux"
+              "Mystérieux",
+              "Charismatique"
             ]
           },
           "tagRarity": {
@@ -1141,7 +1144,8 @@
               "Fêtard",
               "Sérieux",
               "Froid",
-              "Mystérieux"
+              "Mystérieux",
+              "Charismatique"
             ]
           },
           "tagRarity": {
@@ -1312,9 +1316,9 @@
               "Parent": 2
             },
             "caractere": {
-              "Charismatique": 2,
               "Protecteur": 3,
-              "Fêtard": 2
+              "Fêtard": 2,
+              "Charismatique": 3
             },
             "style-de-combat": {
               "Arme Tranchante": 2,
@@ -1861,7 +1865,8 @@
               "Déterminé",
               "Impulsif",
               "Fêtard",
-              "Gourmand"
+              "Gourmand",
+              "Charismatique"
             ]
           },
           "tagRarity": {
@@ -1891,7 +1896,8 @@
             "caractere": {
               "Colérique": 2,
               "Sadique": 2,
-              "Fêtard": 3
+              "Fêtard": 3,
+              "Charismatique": 2
             }
           }
         },
@@ -1998,7 +2004,8 @@
               "Sérieux",
               "Sadique",
               "Loyal",
-              "Froid"
+              "Froid",
+              "Charismatique"
             ]
           },
           "tagRarity": {
@@ -2314,7 +2321,8 @@
               "Calme",
               "Solitaire",
               "Froid",
-              "Mystérieux"
+              "Mystérieux",
+              "Charismatique"
             ]
           },
           "tagRarity": {
@@ -2334,7 +2342,8 @@
               "Calme": 3,
               "Solitaire": 3,
               "Froid": 2,
-              "Mystérieux": 2
+              "Mystérieux": 2,
+              "Charismatique": 2
             }
           }
         },
@@ -2498,7 +2507,8 @@
               "Sadique",
               "Déterminé",
               "Arrogant",
-              "Impulsif"
+              "Impulsif",
+              "Charismatique"
             ],
             "style-de-combat": [
               "Arme Tranchante",
@@ -2520,7 +2530,8 @@
             "caractere": {
               "Sadique": 2,
               "Déterminé": 3,
-              "Impulsif": 2
+              "Impulsif": 2,
+              "Charismatique": 3
             },
             "style-de-combat": {
               "Arme Tranchante": 2,
@@ -3214,7 +3225,8 @@
               "Perfectionniste",
               "Froid",
               "Intelligent",
-              "Mystérieux"
+              "Mystérieux",
+              "Charismatique"
             ]
           },
           "tagRarity": {
@@ -3651,7 +3663,8 @@
               "Mystérieux",
               "Froid",
               "Impulsif",
-              "Manipulateur"
+              "Manipulateur",
+              "Charismatique"
             ]
           },
           "tagRarity": {
@@ -4054,7 +4067,8 @@
               "Froid",
               "Loyal",
               "Calme",
-              "Mystérieux"
+              "Mystérieux",
+              "Charismatique"
             ]
           },
           "tagRarity": {
@@ -4280,7 +4294,8 @@
               "Sérieux",
               "Sadique",
               "Froid",
-              "Intelligent"
+              "Intelligent",
+              "Charismatique"
             ]
           },
           "tagRarity": {
@@ -4565,7 +4580,8 @@
               "Sérieux",
               "Calme",
               "Stratège",
-              "Intelligent"
+              "Intelligent",
+              "Charismatique"
             ]
           },
           "tagRarity": {
@@ -4627,7 +4643,8 @@
               "Optimiste",
               "Fêtard",
               "Impulsif",
-              "Gourmand"
+              "Gourmand",
+              "Charismatique"
             ]
           },
           "tagRarity": {
@@ -4649,7 +4666,8 @@
             "caractere": {
               "Fêtard": 2,
               "Joyeux": 2,
-              "Impulsif": 2
+              "Impulsif": 2,
+              "Charismatique": 2
             }
           }
         },
@@ -4993,7 +5011,8 @@
             "caractere": [
               "Sérieux",
               "Sadique",
-              "Froid"
+              "Froid",
+              "Charismatique"
             ]
           },
           "tagRarity": {
@@ -5426,7 +5445,8 @@
               "Arrogant",
               "Sadique",
               "Égoïste",
-              "Excentrique"
+              "Excentrique",
+              "Charismatique"
             ]
           },
           "tagRarity": {
@@ -5680,7 +5700,8 @@
               "Optimiste",
               "Déterminé",
               "Colérique",
-              "Impulsif"
+              "Impulsif",
+              "Charismatique"
             ]
           },
           "tagRarity": {
