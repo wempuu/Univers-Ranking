@@ -564,7 +564,8 @@
               "Pervers",
               "Loyal",
               "Impulsif",
-              "Optimiste"
+              "Optimiste",
+              "Protecteur"
             ],
             "physique": [
               "Cheveux blonds",
@@ -4363,7 +4364,8 @@
             "caractere": [
               "Calme",
               "Paresseux",
-              "Optimiste"
+              "Optimiste",
+              "Protecteur"
             ]
           },
           "tagRarity": {
