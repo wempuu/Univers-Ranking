@@ -1713,7 +1713,8 @@
             "physique": {
               "Barbu": 3,
               "Cape": 2,
-              "Corpulent": 2
+              "Corpulent": 2,
+              "Grand": 2
             },
             "role": {
               "Leader": 2,
@@ -3208,7 +3209,8 @@
               "Manipulateur": 2
             },
             "physique": {
-              "Couvre-chef": 2
+              "Couvre-chef": 2,
+              "Grand": 2
             },
             "style-de-combat": {
               "Battle IQ": 2,
@@ -4105,7 +4107,8 @@
               "Cicatrice": 2,
               "Cape": 2,
               "Uniforme militaire": 2,
-              "Fumeur": 2
+              "Fumeur": 2,
+              "Grand": 2
             },
             "role": {
               "Antagoniste": 2,
@@ -4212,7 +4215,8 @@
             "physique": {
               "Cape": 2,
               "Uniforme militaire": 2,
-              "Lunettes": 2
+              "Lunettes": 2,
+              "Grand": 2
             },
             "role": {
               "Soldat": 2,
@@ -4271,7 +4275,8 @@
               "Cheveux verts": 2,
               "Uniforme militaire": 2,
               "Tatoué": 2,
-              "Fumeur": 2
+              "Fumeur": 2,
+              "Grand": 2
             },
             "role": {
               "Soldat": 2,
@@ -4966,7 +4971,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Cheveux violets": 2
+              "Cheveux violets": 2,
+              "Grand": 2
             },
             "role": {
               "Leader": 2,
