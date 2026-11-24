@@ -3338,7 +3338,8 @@
             "role": [
               "Antagoniste",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Ennemi devenu allié"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -3354,7 +3355,8 @@
               "Tatoué": 2
             },
             "role": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Ennemi devenu allié": 2
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
