@@ -2788,8 +2788,8 @@
             },
             "role": {
               "Leader": 2,
-              "Prisonnier": 2,
-              "Pirate": 3
+              "Pirate": 3,
+              "Prisonnier": 2
             },
             "style-de-combat": {
               "Arme Tranchante": 2,
