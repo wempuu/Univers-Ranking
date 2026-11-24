@@ -145,7 +145,8 @@
         "Pouvoir divin",
         "Bâton",
         "Marteau",
-        "Pétrification"
+        "Pétrification",
+        "Pouvoir Romantique"
       ]
     },
     "caractere": {
@@ -2049,7 +2050,8 @@
             ],
             "style-de-combat": [
               "Combat aux jambes",
-              "Pétrification"
+              "Pétrification",
+              "Pouvoir Romantique"
             ],
             "caractere": [
               "Arrogant",
@@ -2069,7 +2071,8 @@
             },
             "style-de-combat": {
               "Combat aux jambes": 2,
-              "Pétrification": 2
+              "Pétrification": 2,
+              "Pouvoir Romantique": 3
             },
             "caractere": {
               "Arrogant": 3,
