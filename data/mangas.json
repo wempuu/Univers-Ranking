@@ -280,7 +280,8 @@
               "Gourmand",
               "Curieux",
               "Impulsif",
-              "Optimiste"
+              "Optimiste",
+              "Fêtard"
             ]
           },
           "tagRarity": {
@@ -314,7 +315,8 @@
               "Déterminé": 3,
               "Gourmand": 3,
               "Impulsif": 2,
-              "Courageux": 3
+              "Courageux": 3,
+              "Fêtard": 2
             }
           }
         },
@@ -389,7 +391,7 @@
               "Courageux": 2,
               "Loyal": 3,
               "Déterminé": 2,
-              "Fêtard": 2
+              "Fêtard": 3
             }
           }
         },
@@ -748,7 +750,8 @@
               "Joyeux",
               "Intelligent",
               "Excentrique",
-              "Loyal"
+              "Loyal",
+              "Fêtard"
             ]
           },
           "tagRarity": {
@@ -876,7 +879,8 @@
             "caractere": [
               "Calme",
               "Courageux",
-              "Loyal"
+              "Loyal",
+              "Fêtard"
             ]
           },
           "tagRarity": {
@@ -1186,7 +1190,7 @@
             "caractere": {
               "Joyeux": 2,
               "Gourmand": 3,
-              "Fêtard": 3
+              "Fêtard": 2
             }
           }
         },
@@ -1396,7 +1400,8 @@
               "Loyal",
               "Impulsif",
               "Vengeur",
-              "Déterminé"
+              "Déterminé",
+              "Fêtard"
             ]
           },
           "tagRarity": {
@@ -2035,7 +2040,8 @@
               "Joyeux",
               "Arrogant",
               "Sadique",
-              "Excentrique"
+              "Excentrique",
+              "Fêtard"
             ]
           },
           "tagRarity": {
@@ -2396,7 +2402,8 @@
               "Peureux",
               "Vaniteux",
               "Excentrique",
-              "Sadique"
+              "Sadique",
+              "Fêtard"
             ],
             "physique": [
               "Cheveux bleus",
@@ -2751,7 +2758,8 @@
               "Colérique",
               "Arrogant",
               "Sadique",
-              "Vengeur"
+              "Vengeur",
+              "Fêtard"
             ]
           },
           "tagRarity": {
@@ -2811,7 +2819,8 @@
               "Arrogant",
               "Manipulateur",
               "Déterminé",
-              "Sadique"
+              "Sadique",
+              "Fêtard"
             ]
           },
           "tagRarity": {
@@ -3432,7 +3441,8 @@
             "caractere": [
               "Arrogant",
               "Loyal",
-              "Sadique"
+              "Sadique",
+              "Fêtard"
             ]
           },
           "tagRarity": {
@@ -5235,7 +5245,8 @@
               "Courageux",
               "Impulsif",
               "Charismatique",
-              "Optimiste"
+              "Optimiste",
+              "Fêtard"
             ]
           },
           "tagRarity": {
