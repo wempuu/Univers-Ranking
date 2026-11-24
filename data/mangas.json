@@ -774,7 +774,7 @@
             "caractere": {
               "Joyeux": 2,
               "Intelligent": 2,
-              "Excentrique": 3
+              "Excentrique": 2
             }
           }
         },
@@ -2720,8 +2720,7 @@
             },
             "caractere": {
               "Peureux": 2,
-              "Égoïste": 2,
-              "Excentrique": 2
+              "Égoïste": 2
             }
           }
         },
