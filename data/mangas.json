@@ -2943,7 +2943,8 @@
               "Loyal",
               "Impulsif",
               "Excentrique",
-              "Arrogant"
+              "Arrogant",
+              "Sadique"
             ]
           },
           "tagRarity": {
@@ -2958,7 +2959,8 @@
             },
             "caractere": {
               "Impulsif": 2,
-              "Excentrique": 2
+              "Excentrique": 2,
+              "Sadique": 2
             }
           }
         },
