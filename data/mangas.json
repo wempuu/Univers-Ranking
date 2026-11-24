@@ -440,7 +440,8 @@
               "Intelligent",
               "Égoïste",
               "Loyal",
-              "Colérique"
+              "Colérique",
+              "Curieux"
             ]
           },
           "tagRarity": {
@@ -629,7 +630,8 @@
               "Intelligent",
               "Naïf",
               "Loyal",
-              "Généreux"
+              "Généreux",
+              "Curieux"
             ]
           },
           "tagRarity": {
@@ -763,7 +765,8 @@
               "Excentrique",
               "Loyal",
               "Fêtard",
-              "Optimiste"
+              "Optimiste",
+              "Curieux"
             ]
           },
           "tagRarity": {
@@ -953,7 +956,8 @@
               "Optimiste",
               "Fêtard",
               "Déterminé",
-              "Impulsif"
+              "Impulsif",
+              "Curieux"
             ]
           },
           "tagRarity": {
@@ -977,7 +981,8 @@
               "Optimiste": 2,
               "Fêtard": 2,
               "Déterminé": 3,
-              "Impulsif": 2
+              "Impulsif": 2,
+              "Curieux": 2
             }
           }
         },
@@ -4520,7 +4525,8 @@
             ],
             "caractere": [
               "Calme",
-              "Intelligent"
+              "Intelligent",
+              "Curieux"
             ]
           },
           "tagRarity": {
@@ -4804,7 +4810,8 @@
             ],
             "caractere": [
               "Sérieux",
-              "Naïf"
+              "Naïf",
+              "Curieux"
             ]
           },
           "tagRarity": {
