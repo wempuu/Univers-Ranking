@@ -142,7 +142,8 @@
         "Laser",
         "Pouvoir musical",
         "Magnétisme",
-        "Pouvoir divin"
+        "Pouvoir divin",
+        "Bâton"
       ]
     },
     "caractere": {
@@ -380,7 +381,8 @@
               "Contrôle de la foudre",
               "Contrôle du vent",
               "Contrôle de la météo",
-              "Arme contondante"
+              "Arme contondante",
+              "Bâton"
             ],
             "caractere": [
               "Sérieux",
@@ -403,7 +405,8 @@
               "Contrôle du vent": 2,
               "Contrôle de la foudre": 2,
               "Contrôle de la météo": 3,
-              "Arme contondante": 2
+              "Arme contondante": 2,
+              "Bâton": 2
             },
             "caractere": {
               "Peureux": 2,
@@ -1677,7 +1680,8 @@
               "Transformation",
               "Vol",
               "Contrôle du feu",
-              "Pouvoir draconique"
+              "Pouvoir draconique",
+              "Bâton"
             ],
             "caractere": [
               "Colérique",
@@ -1704,7 +1708,8 @@
               "Vol": 2,
               "Transformation": 2,
               "Pouvoir draconique": 3,
-              "Arme contondante": 2
+              "Arme contondante": 2,
+              "Bâton": 2
             },
             "caractere": {
               "Colérique": 2,
@@ -1741,7 +1746,8 @@
             "style-de-combat": [
               "Arme contondante",
               "Transformation",
-              "Contrôle de la glace"
+              "Contrôle de la glace",
+              "Bâton"
             ],
             "caractere": [
               "Joyeux",
@@ -1762,7 +1768,8 @@
             "style-de-combat": {
               "Contrôle de la glace": 2,
               "Arme contondante": 2,
-              "Transformation": 2
+              "Transformation": 2,
+              "Bâton": 2
             },
             "caractere": {
               "Joyeux": 2,
@@ -4932,7 +4939,8 @@
             "style-de-combat": [
               "Contrôle de la foudre",
               "Prémonition",
-              "Arme contondante"
+              "Arme contondante",
+              "Bâton"
             ],
             "caractere": [
               "Arrogant",
