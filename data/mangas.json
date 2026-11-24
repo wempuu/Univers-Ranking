@@ -344,7 +344,8 @@
               "Katana",
               "Arme Tranchante",
               "Pouvoir démoniaque",
-              "Super-force"
+              "Super-force",
+              "Épée"
             ],
             "caractere": [
               "Sérieux",
@@ -371,7 +372,8 @@
             "style-de-combat": {
               "Katana": 3,
               "Arme Tranchante": 2,
-              "Pouvoir démoniaque": 2
+              "Pouvoir démoniaque": 2,
+              "Épée": 2
             },
             "caractere": {
               "Sérieux": 2,
@@ -1437,7 +1439,8 @@
               "Téléportation",
               "Contrôle de l'espace",
               "Arme Tranchante",
-              "Battle IQ"
+              "Battle IQ",
+              "Épée"
             ],
             "caractere": [
               "Calme",
@@ -1465,7 +1468,8 @@
               "Contrôle de l'espace": 3,
               "Katana": 2,
               "Arme Tranchante": 2,
-              "Battle IQ": 2
+              "Battle IQ": 2,
+              "Épée": 2
             },
             "caractere": {
               "Calme": 2,
@@ -2356,7 +2360,8 @@
               "Déterminé"
             ],
             "style-de-combat": [
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Épée"
             ]
           },
           "tagRarity": {
@@ -2374,7 +2379,8 @@
               "Déterminé": 2
             },
             "style-de-combat": {
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Épée": 2
             }
           }
         },
@@ -2708,7 +2714,8 @@
             "style-de-combat": {
               "Arme Tranchante": 2,
               "Vol": 2,
-              "Télékinésie": 3
+              "Télékinésie": 3,
+              "Épée": 2
             },
             "caractere": {
               "Manipulateur": 2,
@@ -3192,7 +3199,8 @@
             },
             "style-de-combat": {
               "Absorption d'énergie": 2,
-              "Pouvoir culinaire": 2
+              "Pouvoir culinaire": 2,
+              "Épée": 2
             },
             "caractere": {
               "Calme": 2,
@@ -3424,7 +3432,8 @@
               "Vol",
               "Manipulation corporelle",
               "Pouvoir démoniaque",
-              "Magie"
+              "Magie",
+              "Épée"
             ],
             "caractere": [
               "Sadique",
@@ -3452,7 +3461,8 @@
               "Manipulation mentale": 3,
               "Manipulation corporelle": 2,
               "Pouvoir démoniaque": 3,
-              "Magie": 2
+              "Magie": 2,
+              "Épée": 2
             },
             "caractere": {
               "Sadique": 3,
@@ -3635,7 +3645,8 @@
               "Katana",
               "Transformation",
               "Régénération",
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Épée"
             ],
             "caractere": [
               "Sérieux",
@@ -3657,7 +3668,8 @@
               "Katana": 2,
               "Transformation": 2,
               "Régénération": 2,
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Épée": 2
             },
             "caractere": {
               "Calme": 2
@@ -3849,7 +3861,8 @@
             ],
             "style-de-combat": [
               "Régénération",
-              "Contrôle des plantes"
+              "Contrôle des plantes",
+              "Épée"
             ],
             "caractere": [
               "Sadique"
@@ -3862,7 +3875,8 @@
             },
             "style-de-combat": {
               "Régénération": 2,
-              "Contrôle des plantes": 2
+              "Contrôle des plantes": 2,
+              "Épée": 2
             },
             "caractere": {
               "Sadique": 2
@@ -4221,7 +4235,8 @@
               "Prémonition",
               "Contrôle de la gravité",
               "Arme Tranchante",
-              "Télékinésie"
+              "Télékinésie",
+              "Épée"
             ],
             "caractere": [
               "Calme",
@@ -4242,7 +4257,8 @@
               "Katana": 2,
               "Contrôle de la gravité": 3,
               "Prémonition": 2,
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Épée": 2
             },
             "caractere": {
               "Calme": 3
@@ -4493,7 +4509,8 @@
             ],
             "style-de-combat": [
               "Katana",
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Épée"
             ],
             "caractere": [
               "Sérieux",
@@ -4511,7 +4528,8 @@
             },
             "style-de-combat": {
               "Katana": 3,
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Épée": 2
             },
             "caractere": {
               "Sérieux": 2
@@ -4998,7 +5016,8 @@
             ],
             "style-de-combat": [
               "Katana",
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Épée"
             ],
             "caractere": [
               "Courageux",
@@ -5018,7 +5037,8 @@
             },
             "style-de-combat": {
               "Katana": 3,
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Épée": 2
             },
             "caractere": {
               "Courageux": 2,
@@ -5245,7 +5265,8 @@
             ],
             "style-de-combat": [
               "Katana",
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Épée"
             ],
             "caractere": [
               "Loyal"
@@ -5254,7 +5275,8 @@
           "tagRarity": {
             "style-de-combat": {
               "Katana": 3,
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Épée": 2
             },
             "caractere": {
               "Loyal": 3
