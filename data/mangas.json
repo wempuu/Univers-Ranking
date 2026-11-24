@@ -1082,7 +1082,8 @@
               "Cheveux gris / blancs",
               "Cicatrice",
               "Fumeur",
-              "Musclé"
+              "Musclé",
+              "Âgé"
             ],
             "role": [
               "Bras droit",
@@ -1113,7 +1114,8 @@
               "Loyal": 2
             },
             "physique": {
-              "Fumeur": 2
+              "Fumeur": 2,
+              "Âgé": 2
             }
           }
         },
@@ -1697,7 +1699,8 @@
               "Cape",
               "Grand",
               "Bijoux / Piercings",
-              "Cheveux longs"
+              "Cheveux longs",
+              "Âgé"
             ],
             "role": [
               "Antagoniste",
@@ -1767,7 +1770,8 @@
               "Non-humain",
               "Démon",
               "Cape",
-              "Cheveux longs"
+              "Cheveux longs",
+              "Âgé"
             ],
             "role": [
               "Antagoniste",
@@ -1801,7 +1805,8 @@
               "Non-humain": 2,
               "Démon": 3,
               "Grand": 2,
-              "Musclé": 3
+              "Musclé": 3,
+              "Âgé": 2
             },
             "role": {
               "Empereur": 3,
@@ -1902,7 +1907,8 @@
               "Non-humain",
               "Masque",
               "Tatoué",
-              "Cheveux longs"
+              "Cheveux longs",
+              "Âgé"
             ],
             "role": [
               "Antagoniste",
@@ -1969,7 +1975,8 @@
               "Cheveux blonds",
               "Grand",
               "Tatoué",
-              "Fumeur"
+              "Fumeur",
+              "Âgé"
             ],
             "role": [
               "Antagoniste",
@@ -2031,7 +2038,8 @@
               "Masque",
               "Cheveux blonds",
               "Cornes",
-              "Cheveux longs"
+              "Cheveux longs",
+              "Âgé"
             ],
             "role": [
               "Antagoniste",
@@ -2212,7 +2220,8 @@
               "Couvre-chef",
               "Cape",
               "Yeux spéciaux",
-              "Musclé"
+              "Musclé",
+              "Âgé"
             ],
             "role": [
               "Maître / Mentor",
@@ -2391,7 +2400,8 @@
               "Musclé",
               "Cicatrice",
               "Cheveux bicolores",
-              "Bijoux / Piercings"
+              "Bijoux / Piercings",
+              "Âgé"
             ],
             "role": [
               "Leader",
@@ -3510,7 +3520,8 @@
               "Cheveux gris / blancs",
               "Grand",
               "Musclé",
-              "Tatoué"
+              "Tatoué",
+              "Âgé"
             ],
             "role": [
               "Antagoniste",
@@ -3783,7 +3794,8 @@
           "tags": {
             "physique": [
               "Barbu",
-              "Cheveux blonds"
+              "Cheveux blonds",
+              "Âgé"
             ],
             "role": [
               "Antagoniste",
@@ -4104,7 +4116,8 @@
               "Uniforme militaire",
               "Grand",
               "Tatoué",
-              "Fumeur"
+              "Fumeur",
+              "Âgé"
             ],
             "role": [
               "Antagoniste",
