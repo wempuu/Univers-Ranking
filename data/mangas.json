@@ -2242,7 +2242,8 @@
               "Roi / Reine": 2,
               "Frère / Soeur": 2,
               "Antagoniste": 3,
-              "Leader": 2
+              "Leader": 2,
+              "Noble": 2
             },
             "style-de-combat": {
               "Fils / Chaînes": 3,
@@ -5044,7 +5045,8 @@
               "Espion": 3,
               "Traître": 2,
               "Maître / Mentor": 2,
-              "Frère / Soeur": 2
+              "Frère / Soeur": 2,
+              "Noble": 2
             },
             "caractere": {
               "Naïf": 2,
