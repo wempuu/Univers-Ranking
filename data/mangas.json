@@ -92,7 +92,8 @@
         "Chevalier divin",
         "Parent",
         "Frère / Soeur",
-        "Sniper"
+        "Sniper",
+        "Noble"
       ]
     },
     "style-de-combat": {
@@ -555,7 +556,8 @@
               "Pirate",
               "Criminel",
               "Cuisinier",
-              "Deutéragoniste"
+              "Deutéragoniste",
+              "Noble"
             ],
             "style-de-combat": [
               "Contrôle du feu",
@@ -2212,7 +2214,8 @@
               "Pirate",
               "Criminel",
               "Marchand",
-              "Frère / Soeur"
+              "Frère / Soeur",
+              "Noble"
             ],
             "style-de-combat": [
               "Fils / Chaînes",
@@ -3692,7 +3695,8 @@
               "Antagoniste",
               "Leader",
               "Roi / Reine",
-              "Dieu / Divinité"
+              "Dieu / Divinité",
+              "Noble"
             ],
             "style-de-combat": [
               "Manipulation mentale",
@@ -3726,7 +3730,8 @@
               "Roi / Reine": 3,
               "Leader": 3,
               "Dieu / Divinité": 2,
-              "Antagoniste": 3
+              "Antagoniste": 3,
+              "Noble": 3
             },
             "style-de-combat": {
               "Arme Tranchante": 2,
@@ -3768,7 +3773,8 @@
             "role": [
               "Antagoniste",
               "Conseiller",
-              "Leader"
+              "Leader",
+              "Noble"
             ],
             "style-de-combat": [
               "Transformation",
@@ -3791,7 +3797,8 @@
             },
             "role": {
               "Antagoniste": 2,
-              "Conseiller": 3
+              "Conseiller": 3,
+              "Noble": 2
             },
             "style-de-combat": {
               "Transformation": 2,
@@ -3819,7 +3826,8 @@
             "role": [
               "Antagoniste",
               "Conseiller",
-              "Leader"
+              "Leader",
+              "Noble"
             ],
             "style-de-combat": [
               "Transformation",
@@ -3842,7 +3850,8 @@
               "Âgé": 3
             },
             "role": {
-              "Conseiller": 3
+              "Conseiller": 3,
+              "Noble": 2
             },
             "style-de-combat": {
               "Transformation": 2,
@@ -3872,7 +3881,8 @@
             "role": [
               "Antagoniste",
               "Conseiller",
-              "Leader"
+              "Leader",
+              "Noble"
             ],
             "style-de-combat": [
               "Transformation",
@@ -3894,7 +3904,8 @@
               "Âgé": 3
             },
             "role": {
-              "Conseiller": 3
+              "Conseiller": 3,
+              "Noble": 2
             },
             "style-de-combat": {
               "Transformation": 2,
@@ -3923,7 +3934,8 @@
             "role": [
               "Antagoniste",
               "Conseiller",
-              "Leader"
+              "Leader",
+              "Noble"
             ],
             "style-de-combat": [
               "Katana",
@@ -3950,7 +3962,8 @@
               "Âgé": 3
             },
             "role": {
-              "Conseiller": 3
+              "Conseiller": 3,
+              "Noble": 2
             },
             "style-de-combat": {
               "Katana": 2,
@@ -3983,7 +3996,8 @@
             "role": [
               "Antagoniste",
               "Conseiller",
-              "Leader"
+              "Leader",
+              "Noble"
             ],
             "style-de-combat": [
               "Transformation",
@@ -4004,7 +4018,8 @@
               "Barbu": 2
             },
             "role": {
-              "Conseiller": 3
+              "Conseiller": 3,
+              "Noble": 2
             },
             "style-de-combat": {
               "Transformation": 2,
@@ -4037,7 +4052,8 @@
               "Leader",
               "Chef militaire",
               "Conseiller",
-              "Chevalier divin"
+              "Chevalier divin",
+              "Noble"
             ],
             "style-de-combat": [
               "Épée",
@@ -4063,7 +4079,8 @@
               "Leader": 2,
               "Conseiller": 3,
               "Chef militaire": 3,
-              "Chevalier divin": 3
+              "Chevalier divin": 3,
+              "Noble": 2
             },
             "style-de-combat": {
               "Épée": 2,
@@ -4099,7 +4116,8 @@
               "Chef militaire",
               "Chevalier divin",
               "Frère / Soeur",
-              "Leader"
+              "Leader",
+              "Noble"
             ],
             "style-de-combat": [
               "Épée",
@@ -4124,7 +4142,8 @@
               "Frère / Soeur": 2,
               "Chef militaire": 3,
               "Chevalier divin": 3,
-              "Leader": 2
+              "Leader": 2,
+              "Noble": 2
             },
             "style-de-combat": {
               "Régénération": 2,
@@ -4162,7 +4181,8 @@
             "role": [
               "Antagoniste",
               "Soldat",
-              "Chevalier divin"
+              "Chevalier divin",
+              "Noble"
             ],
             "style-de-combat": [
               "Régénération",
@@ -4183,7 +4203,8 @@
           "tagRarity": {
             "role": {
               "Soldat": 2,
-              "Chevalier divin": 3
+              "Chevalier divin": 3,
+              "Noble": 2
             },
             "style-de-combat": {
               "Régénération": 2,
@@ -4214,7 +4235,8 @@
             "role": [
               "Antagoniste",
               "Soldat",
-              "Chevalier divin"
+              "Chevalier divin",
+              "Noble"
             ],
             "style-de-combat": [
               "Invocation",
@@ -4239,7 +4261,8 @@
           "tagRarity": {
             "role": {
               "Soldat": 2,
-              "Chevalier divin": 3
+              "Chevalier divin": 3,
+              "Noble": 2
             },
             "style-de-combat": {
               "Invocation": 3,
@@ -4276,7 +4299,8 @@
               "Antagoniste",
               "Soldat",
               "Chevalier divin",
-              "Orphelin"
+              "Orphelin",
+              "Noble"
             ],
             "style-de-combat": [
               "Régénération",
@@ -5001,7 +5025,8 @@
               "Maître / Mentor",
               "Espion",
               "Traître",
-              "Frère / Soeur"
+              "Frère / Soeur",
+              "Noble"
             ],
             "style-de-combat": [
               "Contrôle du son"
@@ -5168,7 +5193,8 @@
               "Orphelin",
               "Révolutionnaire",
               "Frère / Soeur",
-              "Élève"
+              "Élève",
+              "Noble"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -5328,7 +5354,8 @@
               "Allié",
               "Prince / Princesse",
               "Ennemi devenu allié",
-              "Leader"
+              "Leader",
+              "Noble"
             ],
             "caractere": [
               "Courageux",
@@ -5867,7 +5894,7 @@
             },
             "role": {
               "Médecin": 3,
-              "Maître / Mentor": 3
+              "Maître / Mentor": 2
             },
             "caractere": {
               "Généreux": 3,
