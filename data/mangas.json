@@ -1699,8 +1699,8 @@
             "style-de-combat": {
               "Vol": 2,
               "Transformation": 2,
-              "Arme contondante": 3,
-              "Pouvoir draconique": 3
+              "Pouvoir draconique": 3,
+              "Arme contondante": 2
             },
             "caractere": {
               "Colérique": 2,
@@ -1757,7 +1757,7 @@
             },
             "style-de-combat": {
               "Contrôle de la glace": 2,
-              "Arme contondante": 3
+              "Arme contondante": 2
             },
             "caractere": {
               "Joyeux": 2,
@@ -5181,9 +5181,9 @@
             },
             "style-de-combat": {
               "Transformation": 2,
-              "Arme contondante": 3,
               "Pouvoir draconique": 3,
-              "Vol": 2
+              "Vol": 2,
+              "Arme contondante": 2
             },
             "caractere": {
               "Arrogant": 3
