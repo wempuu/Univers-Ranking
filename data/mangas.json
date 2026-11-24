@@ -91,7 +91,8 @@
         "Samouraï",
         "Chevalier",
         "Parent",
-        "Frère / Soeur"
+        "Frère / Soeur",
+        "Sniper"
       ]
     },
     "style-de-combat": {
@@ -471,7 +472,8 @@
               "Allié",
               "Pirate",
               "Criminel",
-              "Scientifique"
+              "Scientifique",
+              "Sniper"
             ],
             "style-de-combat": [
               "Armes à distance",
@@ -491,7 +493,8 @@
             "role": {
               "Pirate": 2,
               "Scientifique": 2,
-              "Allié": 2
+              "Allié": 2,
+              "Sniper": 3
             },
             "style-de-combat": {
               "Armes à distance": 3,
@@ -1166,7 +1169,8 @@
             "role": [
               "Pirate",
               "Criminel",
-              "Parent"
+              "Parent",
+              "Sniper"
             ],
             "style-de-combat": [
               "Armes à feu"
@@ -1179,7 +1183,8 @@
           "tagRarity": {
             "role": {
               "Pirate": 2,
-              "Parent": 2
+              "Parent": 2,
+              "Sniper": 3
             },
             "style-de-combat": {
               "Armes à feu": 3
