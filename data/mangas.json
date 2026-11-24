@@ -969,7 +969,8 @@
               "Bras droit",
               "Maître / Mentor",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Allié"
             ],
             "style-de-combat": [
               "Épée",
@@ -1235,7 +1236,8 @@
               "Empereur",
               "Pirate",
               "Criminel",
-              "Parent"
+              "Parent",
+              "Allié"
             ],
             "style-de-combat": [
               "Arme Tranchante",
@@ -1412,7 +1414,8 @@
             ],
             "role": [
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Allié"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -1495,7 +1498,8 @@
               "Pirate": 2,
               "Orphelin": 2,
               "Leader": 2,
-              "Rival": 3
+              "Rival": 3,
+              "Allié": 2
             },
             "style-de-combat": {
               "Téléportation": 2,
@@ -1593,7 +1597,8 @@
               "Rival",
               "Leader",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Allié"
             ],
             "style-de-combat": [
               "Télékinésie",
@@ -1653,7 +1658,8 @@
             "role": [
               "Bras droit",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Allié"
             ],
             "style-de-combat": [
               "Arme Tranchante",
@@ -5107,7 +5113,8 @@
           "tagRarity": {
             "role": {
               "Prince / Princesse": 3,
-              "Ennemi devenu allié": 2
+              "Ennemi devenu allié": 2,
+              "Allié": 2
             },
             "caractere": {
               "Courageux": 3,
