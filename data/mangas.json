@@ -4891,7 +4891,8 @@
             ],
             "physique": [
               "Masque",
-              "Chauve"
+              "Chauve",
+              "Ailes"
             ]
           },
           "tagRarity": {
@@ -4903,7 +4904,8 @@
             },
             "physique": {
               "Masque": 2,
-              "Chauve": 2
+              "Chauve": 2,
+              "Ailes": 2
             },
             "style-de-combat": {
               "Vol": 2,
