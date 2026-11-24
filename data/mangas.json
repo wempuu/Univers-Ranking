@@ -315,9 +315,9 @@
               "Naïf": 2,
               "Déterminé": 3,
               "Gourmand": 3,
-              "Impulsif": 2,
               "Courageux": 3,
-              "Fêtard": 2
+              "Fêtard": 2,
+              "Impulsif": 3
             }
           }
         },
@@ -556,7 +556,8 @@
               "Vengeur",
               "Romantique",
               "Pervers",
-              "Loyal"
+              "Loyal",
+              "Impulsif"
             ],
             "physique": [
               "Cheveux blonds",
@@ -944,7 +945,8 @@
               "Charismatique",
               "Optimiste",
               "Fêtard",
-              "Déterminé"
+              "Déterminé",
+              "Impulsif"
             ]
           },
           "tagRarity": {
@@ -967,7 +969,8 @@
               "Charismatique": 3,
               "Optimiste": 2,
               "Fêtard": 2,
-              "Déterminé": 3
+              "Déterminé": 3,
+              "Impulsif": 2
             }
           }
         },
@@ -2478,7 +2481,8 @@
             "caractere": [
               "Sadique",
               "Déterminé",
-              "Arrogant"
+              "Arrogant",
+              "Impulsif"
             ],
             "style-de-combat": [
               "Arme Tranchante",
@@ -2499,7 +2503,8 @@
             },
             "caractere": {
               "Sadique": 2,
-              "Déterminé": 3
+              "Déterminé": 3,
+              "Impulsif": 2
             },
             "style-de-combat": {
               "Arme Tranchante": 2,
@@ -3049,7 +3054,8 @@
             ],
             "caractere": [
               "Colérique",
-              "Naïf"
+              "Naïf",
+              "Impulsif"
             ]
           },
           "tagRarity": {
@@ -3115,7 +3121,8 @@
               "Colérique",
               "Sadique",
               "Égoïste",
-              "Gourmand"
+              "Gourmand",
+              "Impulsif"
             ]
           },
           "tagRarity": {
@@ -3145,7 +3152,8 @@
               "Colérique": 3,
               "Sadique": 2,
               "Égoïste": 2,
-              "Gourmand": 3
+              "Gourmand": 3,
+              "Impulsif": 2
             }
           }
         },
@@ -3560,7 +3568,8 @@
             ],
             "caractere": [
               "Arrogant",
-              "Provocateur"
+              "Provocateur",
+              "Impulsif"
             ]
           },
           "tagRarity": {
@@ -3621,7 +3630,8 @@
             "caractere": [
               "Sadique",
               "Mystérieux",
-              "Froid"
+              "Froid",
+              "Impulsif"
             ]
           },
           "tagRarity": {
@@ -4583,7 +4593,8 @@
             "caractere": [
               "Joyeux",
               "Optimiste",
-              "Fêtard"
+              "Fêtard",
+              "Impulsif"
             ]
           },
           "tagRarity": {
@@ -4604,7 +4615,8 @@
             },
             "caractere": {
               "Fêtard": 2,
-              "Joyeux": 2
+              "Joyeux": 2,
+              "Impulsif": 2
             }
           }
         },
@@ -5632,7 +5644,8 @@
               "Arrogant",
               "Optimiste",
               "Déterminé",
-              "Colérique"
+              "Colérique",
+              "Impulsif"
             ]
           },
           "tagRarity": {
@@ -5653,7 +5666,8 @@
               "Marteau": 3
             },
             "caractere": {
-              "Arrogant": 2
+              "Arrogant": 2,
+              "Impulsif": 2
             }
           }
         },
