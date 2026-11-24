@@ -459,8 +459,8 @@
             },
             "caractere": {
               "Peureux": 2,
-              "Intelligent": 3,
-              "Égoïste": 2
+              "Égoïste": 2,
+              "Intelligent": 2
             }
           }
         },
@@ -881,7 +881,8 @@
               "Calme",
               "Courageux",
               "Loyal",
-              "Fêtard"
+              "Fêtard",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -1005,7 +1006,8 @@
               "Calme",
               "Optimiste",
               "Fêtard",
-              "Loyal"
+              "Loyal",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -1343,7 +1345,8 @@
             ],
             "caractere": [
               "Calme",
-              "Loyal"
+              "Loyal",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -2042,7 +2045,8 @@
               "Arrogant",
               "Sadique",
               "Excentrique",
-              "Fêtard"
+              "Fêtard",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -2161,7 +2165,8 @@
               "Manipulateur",
               "Sadique",
               "Stratège",
-              "Charismatique"
+              "Charismatique",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -2347,7 +2352,8 @@
               "Stratège",
               "Froid",
               "Arrogant",
-              "Sadique"
+              "Sadique",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -3175,7 +3181,8 @@
               "Calme",
               "Loyal",
               "Perfectionniste",
-              "Froid"
+              "Froid",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -3281,7 +3288,8 @@
             ],
             "caractere": [
               "Manipulateur",
-              "Loyal"
+              "Loyal",
+              "Intelligent"
             ],
             "style-de-combat": [
               "Pouvoir culinaire",
@@ -3673,7 +3681,8 @@
               "Sadique",
               "Loyal",
               "Calme",
-              "Froid"
+              "Froid",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -3723,7 +3732,8 @@
               "Arrogant",
               "Loyal",
               "Calme",
-              "Froid"
+              "Froid",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -3773,7 +3783,8 @@
               "Arrogant",
               "Loyal",
               "Calme",
-              "Froid"
+              "Froid",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -3830,7 +3841,8 @@
               "Calme",
               "Froid",
               "Arrogant",
-              "Loyal"
+              "Loyal",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -3884,7 +3896,8 @@
               "Arrogant",
               "Loyal",
               "Calme",
-              "Froid"
+              "Froid",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -3936,7 +3949,8 @@
               "Arrogant",
               "Sadique",
               "Froid",
-              "Loyal"
+              "Loyal",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -4216,7 +4230,8 @@
             "caractere": [
               "Sérieux",
               "Sadique",
-              "Froid"
+              "Froid",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -4442,7 +4457,8 @@
               "Épée"
             ],
             "caractere": [
-              "Calme"
+              "Calme",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -4501,7 +4517,8 @@
             "caractere": [
               "Sérieux",
               "Calme",
-              "Stratège"
+              "Stratège",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -4871,7 +4888,8 @@
             "caractere": [
               "Naïf",
               "Généreux",
-              "Protecteur"
+              "Protecteur",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -4976,7 +4994,8 @@
             "caractere": [
               "Calme",
               "Charismatique",
-              "Mystérieux"
+              "Mystérieux",
+              "Intelligent"
             ]
           },
           "tagRarity": {
@@ -5699,7 +5718,8 @@
             "caractere": [
               "Généreux",
               "Curieux",
-              "Joyeux"
+              "Joyeux",
+              "Intelligent"
             ]
           },
           "tagRarity": {
