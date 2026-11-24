@@ -1003,8 +1003,7 @@
             },
             "style-de-combat": {
               "Épée": 2,
-              "Prémonition": 2,
-              "Arme Tranchante": 2
+              "Prémonition": 2
             },
             "caractere": {
               "Calme": 2,
@@ -2088,7 +2087,6 @@
               "Loyal": 3
             },
             "style-de-combat": {
-              "Arme Tranchante": 2,
               "Transformation": 2,
               "Pouvoir animal": 2
             }
@@ -2388,8 +2386,7 @@
             },
             "style-de-combat": {
               "Explosions": 2,
-              "Frappe à distance": 2,
-              "Arme Tranchante": 2
+              "Frappe à distance": 2
             },
             "caractere": {
               "Joyeux": 2,
@@ -2736,8 +2733,7 @@
               "Antagoniste": 2
             },
             "style-de-combat": {
-              "Combat à mains nues": 2,
-              "Arme Tranchante": 2
+              "Combat à mains nues": 2
             },
             "caractere": {
               "Colérique": 2,
@@ -2795,7 +2791,6 @@
               "Prisonnier": 2
             },
             "style-de-combat": {
-              "Arme Tranchante": 2,
               "Vol": 2,
               "Télékinésie": 3,
               "Épée": 2
@@ -3312,7 +3307,6 @@
             },
             "style-de-combat": {
               "Épée": 2,
-              "Arme Tranchante": 2,
               "Pouvoir culinaire": 3,
               "Absorption d'énergie": 3
             },
@@ -3362,7 +3356,6 @@
             "style-de-combat": {
               "Épée": 2,
               "Invocation": 2,
-              "Arme Tranchante": 2,
               "Pouvoir culinaire": 3
             },
             "caractere": {
@@ -4014,7 +4007,6 @@
             "style-de-combat": {
               "Régénération": 2,
               "Épée": 2,
-              "Arme Tranchante": 2,
               "Contrôle des plantes": 3
             },
             "caractere": {
