@@ -3764,7 +3764,8 @@
             "style-de-combat": [
               "Épée",
               "Régénération",
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Invocation"
             ],
             "caractere": [
               "Sérieux",
@@ -3780,7 +3781,8 @@
             "style-de-combat": {
               "Épée": 2,
               "Régénération": 2,
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Invocation": 2
             },
             "caractere": {
               "Arrogant": 2,
