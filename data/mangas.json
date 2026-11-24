@@ -401,7 +401,8 @@
               "Contrôle du vent",
               "Contrôle de la météo",
               "Arme contondante",
-              "Bâton"
+              "Bâton",
+              "Battle IQ"
             ],
             "caractere": [
               "Sérieux",
@@ -425,7 +426,8 @@
               "Contrôle de la foudre": 2,
               "Contrôle de la météo": 3,
               "Arme contondante": 2,
-              "Bâton": 2
+              "Bâton": 2,
+              "Battle IQ": 2
             },
             "caractere": {
               "Peureux": 2,
@@ -458,7 +460,8 @@
               "Armes à distance",
               "Invocation",
               "Contrôle des plantes",
-              "Marteau"
+              "Marteau",
+              "Battle IQ"
             ],
             "caractere": [
               "Joyeux",
@@ -477,7 +480,8 @@
               "Armes à distance": 3,
               "Invocation": 2,
               "Contrôle des plantes": 2,
-              "Marteau": 2
+              "Marteau": 2,
+              "Battle IQ": 2
             },
             "caractere": {
               "Joyeux": 2,
@@ -1413,7 +1417,8 @@
               "Katana",
               "Téléportation",
               "Contrôle de l'espace",
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Battle IQ"
             ],
             "caractere": [
               "Calme",
@@ -1440,7 +1445,8 @@
               "Téléportation": 2,
               "Contrôle de l'espace": 3,
               "Katana": 2,
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Battle IQ": 2
             },
             "caractere": {
               "Calme": 2,
@@ -2979,7 +2985,8 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Prémonition"
+              "Prémonition",
+              "Battle IQ"
             ],
             "caractere": [
               "Calme",
@@ -2998,7 +3005,8 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Prémonition": 3
+              "Prémonition": 3,
+              "Battle IQ": 2
             },
             "caractere": {
               "Calme": 2,
@@ -4717,7 +4725,8 @@
             ],
             "style-de-combat": [
               "Combat à mains nues",
-              "Contrôle du feu"
+              "Contrôle du feu",
+              "Battle IQ"
             ],
             "caractere": [
               "Calme",
@@ -4736,7 +4745,8 @@
               "Bras droit": 3
             },
             "style-de-combat": {
-              "Contrôle du feu": 3
+              "Contrôle du feu": 3,
+              "Battle IQ": 2
             },
             "caractere": {
               "Loyal": 2
