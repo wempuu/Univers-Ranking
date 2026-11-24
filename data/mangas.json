@@ -141,7 +141,8 @@
         "Contrôle du sable",
         "Combat aux jambes",
         "Laser",
-        "Pouvoir musical"
+        "Pouvoir musical",
+        "Magnétisme"
       ]
     },
     "caractere": {
@@ -1491,7 +1492,8 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Télékinésie"
+              "Télékinésie",
+              "Magnétisme"
             ],
             "caractere": [
               "Colérique",
@@ -1522,6 +1524,9 @@
               "Impulsif": 2,
               "Provocateur": 2,
               "Vengeur": 2
+            },
+            "style-de-combat": {
+              "Magnétisme": 3
             }
           }
         },
