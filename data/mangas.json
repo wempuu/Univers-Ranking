@@ -985,7 +985,7 @@
             "physique": {
               "Barbu": 2,
               "Lunettes": 2,
-              "Âgé": 2
+              "Âgé": 3
             },
             "role": {
               "Bras droit": 3,
@@ -1252,9 +1252,9 @@
             "physique": {
               "Moustachu": 3,
               "Grand": 2,
-              "Âgé": 2,
               "Musclé": 3,
-              "Cape": 2
+              "Cape": 2,
+              "Âgé": 3
             },
             "role": {
               "Leader": 2,
@@ -3599,7 +3599,7 @@
           "tagRarity": {
             "physique": {
               "Barbu": 2,
-              "Âgé": 2
+              "Âgé": 3
             },
             "role": {
               "Antagoniste": 2,
@@ -3649,7 +3649,7 @@
           "tagRarity": {
             "physique": {
               "Barbu": 2,
-              "Âgé": 2
+              "Âgé": 3
             },
             "role": {
               "Conseiller": 3
@@ -3699,7 +3699,7 @@
             "physique": {
               "Chauve": 2,
               "Moustachu": 2,
-              "Âgé": 2
+              "Âgé": 3
             },
             "role": {
               "Conseiller": 3
@@ -3753,7 +3753,7 @@
               "Chauve": 2,
               "Tenue traditionnelle": 2,
               "Lunettes": 2,
-              "Âgé": 2
+              "Âgé": 3
             },
             "role": {
               "Conseiller": 3
@@ -4410,7 +4410,7 @@
               "Lunettes": 2,
               "Uniforme militaire": 2,
               "Barbu": 2,
-              "Âgé": 2
+              "Âgé": 3
             },
             "role": {
               "Chef militaire": 3,
@@ -4468,8 +4468,8 @@
           "tagRarity": {
             "physique": {
               "Uniforme militaire": 2,
-              "Âgé": 2,
-              "Musclé": 3
+              "Musclé": 3,
+              "Âgé": 3
             },
             "role": {
               "Soldat": 2,
