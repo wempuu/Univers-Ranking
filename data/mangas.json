@@ -3925,9 +3925,9 @@
             },
             "style-de-combat": {
               "Régénération": 2,
-              "Contrôle des plantes": 2,
               "Épée": 2,
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Contrôle des plantes": 3
             },
             "caractere": {
               "Sadique": 2
