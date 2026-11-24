@@ -920,7 +920,7 @@
             "physique": {
               "Moustachu": 3,
               "Couvre-chef": 2,
-              "Cape": 3
+              "Cape": 2
             },
             "role": {
               "Leader": 2,
@@ -1038,9 +1038,9 @@
           "tagRarity": {
             "physique": {
               "Cicatrice": 3,
-              "Cape": 3,
               "Prothèse / Membre manquant": 3,
-              "Cheveux rouges": 2
+              "Cheveux rouges": 2,
+              "Cape": 2
             },
             "role": {
               "Leader": 2,
@@ -1243,10 +1243,10 @@
           "tagRarity": {
             "physique": {
               "Moustachu": 3,
-              "Cape": 3,
               "Grand": 2,
               "Âgé": 2,
-              "Musclé": 3
+              "Musclé": 3,
+              "Cape": 2
             },
             "role": {
               "Leader": 2,
@@ -1598,7 +1598,6 @@
             "physique": {
               "Musclé": 2,
               "Cicatrice": 2,
-              "Cape": 3,
               "Prothèse / Membre manquant": 3,
               "Cheveux rouges": 2
             },
@@ -1712,7 +1711,6 @@
           "tagRarity": {
             "physique": {
               "Barbu": 3,
-              "Cape": 2,
               "Corpulent": 2,
               "Grand": 2
             },
@@ -2100,8 +2098,8 @@
           "tagRarity": {
             "physique": {
               "Grand": 2,
-              "Cape": 3,
-              "Lunettes": 2
+              "Lunettes": 2,
+              "Cape": 2
             },
             "role": {
               "Pirate": 2,
@@ -2218,8 +2216,7 @@
           "tagRarity": {
             "physique": {
               "Moustachu": 2,
-              "Couvre-chef": 2,
-              "Cape": 2
+              "Couvre-chef": 2
             },
             "role": {
               "Pirate": 2,
@@ -2277,7 +2274,6 @@
           "tagRarity": {
             "physique": {
               "Cicatrice": 3,
-              "Cape": 2,
               "Prothèse / Membre manquant": 2,
               "Fumeur": 2
             },
@@ -2572,7 +2568,6 @@
           "tagRarity": {
             "physique": {
               "Corpulent": 2,
-              "Cape": 2,
               "Grand": 2,
               "Cheveux violets": 2
             },
@@ -3023,7 +3018,6 @@
             "physique": {
               "Âgé": 2,
               "Couvre-chef": 2,
-              "Cape": 2,
               "Cheveux roses": 2,
               "Grand": 2,
               "Corpulent": 3,
@@ -3067,8 +3061,7 @@
               "Musclé",
               "Cheveux rouges",
               "Cicatrice",
-              "Tatoué",
-              "Cape"
+              "Tatoué"
             ],
             "role": [
               "Antagoniste",
@@ -4388,7 +4381,6 @@
           "tagRarity": {
             "physique": {
               "Lunettes": 2,
-              "Cape": 2,
               "Uniforme militaire": 2,
               "Barbu": 2,
               "Âgé": 2
@@ -4448,7 +4440,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Cape": 2,
               "Uniforme militaire": 2,
               "Âgé": 2,
               "Musclé": 3
@@ -4557,7 +4548,6 @@
           "tagRarity": {
             "physique": {
               "Cicatrice": 2,
-              "Cape": 2,
               "Uniforme militaire": 2,
               "Cheveux gris / blancs": 2,
               "Fumeur": 3
@@ -4859,8 +4849,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Cape": 3,
-              "Tatoué": 2
+              "Tatoué": 2,
+              "Cape": 2
             },
             "role": {
               "Leader": 3,
@@ -4917,7 +4907,6 @@
           "tagRarity": {
             "physique": {
               "Cicatrice": 2,
-              "Cape": 2,
               "Couvre-chef": 2
             },
             "role": {
