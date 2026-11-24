@@ -206,7 +206,8 @@
         "Froid",
         "Romantique",
         "Pervers",
-        "Fêtard"
+        "Fêtard",
+        "Provocateur"
       ]
     }
   },
@@ -2962,7 +2963,8 @@
             "caractere": {
               "Impulsif": 2,
               "Excentrique": 2,
-              "Sadique": 2
+              "Sadique": 2,
+              "Arrogant": 2
             }
           }
         },
