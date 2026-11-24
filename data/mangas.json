@@ -3908,7 +3908,8 @@
             ],
             "style-de-combat": [
               "Régénération",
-              "Arme perçante"
+              "Arme perçante",
+              "Fils / Chaînes"
             ],
             "caractere": [
               "Sérieux",
@@ -3920,7 +3921,8 @@
               "Soldat": 2
             },
             "style-de-combat": {
-              "Régénération": 2
+              "Régénération": 2,
+              "Fils / Chaînes": 2
             },
             "caractere": {
               "Loyal": 2
