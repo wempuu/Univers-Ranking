@@ -570,7 +570,7 @@
               "Durabilité": 2
             },
             "physique": {
-              "Fumeur": 2
+              "Fumeur": 3
             }
           }
         },
@@ -5458,10 +5458,10 @@
           "tagRarity": {
             "physique": {
               "Queue": 3,
-              "Non-humain": 3,
               "Cheveux roses": 2,
               "Grand": 3,
-              "Femme": 2
+              "Femme": 2,
+              "Non-humain": 2
             },
             "role": {
               "Prince / Princesse": 3
