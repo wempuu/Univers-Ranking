@@ -4882,7 +4882,8 @@
             "style-de-combat": [
               "Transformation",
               "Vol",
-              "Pouvoir animal"
+              "Pouvoir animal",
+              "Contrôle des ténèbres"
             ],
             "caractere": [
               "Calme",
@@ -4907,7 +4908,8 @@
             "style-de-combat": {
               "Vol": 2,
               "Transformation": 2,
-              "Pouvoir animal": 2
+              "Pouvoir animal": 2,
+              "Contrôle des ténèbres": 2
             }
           }
         },
