@@ -431,9 +431,9 @@
           },
           "tagRarity": {
             "physique": {
-              "Tatoué": 2,
               "Cheveux roux": 2,
-              "Femme": 2
+              "Femme": 2,
+              "Tatoué": 3
             },
             "role": {
               "Pirate": 2,
@@ -1370,8 +1370,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Tatoué": 2,
-              "Couvre-chef": 2
+              "Couvre-chef": 2,
+              "Tatoué": 3
             },
             "role": {
               "Pirate": 2,
@@ -3509,7 +3509,8 @@
               "Yeux spéciaux",
               "Cheveux gris / blancs",
               "Grand",
-              "Musclé"
+              "Musclé",
+              "Tatoué"
             ],
             "role": [
               "Antagoniste",
