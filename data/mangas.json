@@ -150,7 +150,9 @@
         "Pouvoir Romantique",
         "Frappe à distance",
         "Chronomorphose",
-        "Métamorphose"
+        "Métamorphose",
+        "Super-force",
+        "Séisme"
       ]
     },
     "caractere": {
@@ -1173,7 +1175,9 @@
             ],
             "style-de-combat": [
               "Arme Tranchante",
-              "Combat à mains nues"
+              "Combat à mains nues",
+              "Super-force",
+              "Séisme"
             ],
             "caractere": [
               "Charismatique",
@@ -1200,7 +1204,9 @@
               "Fêtard": 2
             },
             "style-de-combat": {
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Super-force": 2,
+              "Séisme": 3
             }
           }
         },
@@ -1624,7 +1630,8 @@
               "Traître"
             ],
             "style-de-combat": [
-              "Contrôle des ténèbres"
+              "Contrôle des ténèbres",
+              "Séisme"
             ],
             "caractere": [
               "Manipulateur",
@@ -1648,7 +1655,8 @@
               "Pirate": 3
             },
             "style-de-combat": {
-              "Contrôle des ténèbres": 3
+              "Contrôle des ténèbres": 3,
+              "Séisme": 3
             },
             "caractere": {
               "Manipulateur": 2,
@@ -2830,7 +2838,8 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Super-force"
             ],
             "caractere": [
               "Colérique",
@@ -2851,7 +2860,8 @@
               "Naïf": 3
             },
             "style-de-combat": {
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Super-force": 2
             }
           }
         },
@@ -3277,7 +3287,8 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Combat à mains nues"
+              "Combat à mains nues",
+              "Super-force"
             ],
             "caractere": [
               "Arrogant",
@@ -3292,7 +3303,8 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Combat à mains nues": 2
+              "Combat à mains nues": 2,
+              "Super-force": 3
             },
             "caractere": {
               "Provocateur": 2
