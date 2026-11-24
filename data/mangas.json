@@ -3382,7 +3382,9 @@
             "role": [
               "Antagoniste",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Prisonnier",
+              "Gardien / Protecteur"
             ],
             "style-de-combat": [
               "Épée",
@@ -3402,7 +3404,8 @@
           },
           "tagRarity": {
             "role": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Gardien / Protecteur": 2
             },
             "style-de-combat": {
               "Invisibilité": 3,
