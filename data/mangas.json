@@ -201,7 +201,6 @@
         "Pessimiste",
         "Optimiste",
         "Perfectionniste",
-        "Vaniteux",
         "Vengeur",
         "Excentrique",
         "Froid",
@@ -2280,7 +2279,6 @@
             ],
             "caractere": [
               "Arrogant",
-              "Vaniteux",
               "Romantique",
               "Colérique"
             ]
@@ -2304,7 +2302,6 @@
               "Pouvoir Romantique": 3
             },
             "caractere": {
-              "Vaniteux": 3,
               "Romantique": 3,
               "Arrogant": 3
             }
@@ -2464,11 +2461,11 @@
               "Joyeux",
               "Arrogant",
               "Peureux",
-              "Vaniteux",
               "Excentrique",
               "Sadique",
               "Fêtard",
-              "Colérique"
+              "Colérique",
+              "Menteur"
             ],
             "physique": [
               "Cheveux bleus",
@@ -2493,8 +2490,8 @@
               "Joyeux": 2,
               "Arrogant": 2,
               "Peureux": 3,
-              "Vaniteux": 2,
-              "Excentrique": 2
+              "Excentrique": 2,
+              "Menteur": 2
             },
             "physique": {
               "Couvre-chef": 2,
