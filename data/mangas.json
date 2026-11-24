@@ -3085,8 +3085,8 @@
               "Prémonition": 3,
               "Battle IQ": 2,
               "Arme perçante": 2,
-              "Pouvoir culinaire": 2,
-              "Pouvoir élastique": 2
+              "Pouvoir élastique": 2,
+              "Pouvoir culinaire": 3
             },
             "caractere": {
               "Calme": 2,
@@ -3191,8 +3191,8 @@
               "Couvre-chef": 2
             },
             "style-de-combat": {
-              "Pouvoir culinaire": 2,
-              "Battle IQ": 2
+              "Battle IQ": 2,
+              "Pouvoir culinaire": 3
             }
           }
         },
@@ -3243,9 +3243,9 @@
             },
             "style-de-combat": {
               "Absorption d'énergie": 2,
-              "Pouvoir culinaire": 2,
               "Épée": 2,
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Pouvoir culinaire": 3
             },
             "caractere": {
               "Calme": 2,
@@ -3294,7 +3294,7 @@
               "Épée": 2,
               "Invocation": 2,
               "Arme Tranchante": 2,
-              "Pouvoir culinaire": 2
+              "Pouvoir culinaire": 3
             },
             "caractere": {
               "Arrogant": 2
