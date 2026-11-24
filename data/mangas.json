@@ -2875,8 +2875,8 @@
             "physique": {
               "Âgé": 2,
               "Moustachu": 3,
-              "Prothèse / Membre manquant": 3,
-              "Couvre-chef": 2
+              "Couvre-chef": 2,
+              "Prothèse / Membre manquant": 2
             },
             "role": {
               "Cuisinier": 3,
