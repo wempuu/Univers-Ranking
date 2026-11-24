@@ -2088,7 +2088,7 @@
             },
             "style-de-combat": {
               "Transformation": 2,
-              "Pouvoir animal": 2
+              "Pouvoir animal": 3
             }
           }
         },
@@ -4769,7 +4769,7 @@
             "style-de-combat": {
               "Combat à mains nues": 2,
               "Transformation": 2,
-              "Pouvoir animal": 2
+              "Pouvoir animal": 3
             },
             "caractere": {
               "Sérieux": 3,
@@ -5093,8 +5093,8 @@
             },
             "style-de-combat": {
               "Vol": 2,
-              "Pouvoir animal": 2,
-              "Contrôle des ténèbres": 2
+              "Contrôle des ténèbres": 2,
+              "Pouvoir animal": 3
             }
           }
         },
