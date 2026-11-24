@@ -3116,7 +3116,8 @@
               "Criminel",
               "Traître",
               "Ennemi devenu allié",
-              "Frère / Soeur"
+              "Frère / Soeur",
+              "Prince / Princesse"
             ],
             "style-de-combat": [
               "Manipulation mentale"
@@ -3134,7 +3135,8 @@
               "Pirate": 2,
               "Traître": 2,
               "Ennemi devenu allié": 2,
-              "Frère / Soeur": 2
+              "Frère / Soeur": 2,
+              "Prince / Princesse": 3
             },
             "caractere": {
               "Manipulateur": 3,
@@ -5142,7 +5144,7 @@
             },
             "role": {
               "Leader": 2,
-              "Prince / Princesse": 3
+              "Prince / Princesse": 2
             },
             "style-de-combat": {
               "Vol": 2,
@@ -5444,7 +5446,7 @@
               "Cheveux roses": 2
             },
             "role": {
-              "Prince / Princesse": 3
+              "Prince / Princesse": 2
             },
             "style-de-combat": {
               "Transformation": 2,
