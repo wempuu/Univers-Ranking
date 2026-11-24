@@ -1155,7 +1155,8 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Combat à mains nues"
             ],
             "caractere": [
               "Charismatique",
@@ -1434,7 +1435,9 @@
               "Bras droit"
             ],
             "style-de-combat": [
-              "Arts martiaux"
+              "Arts martiaux",
+              "Combat à mains nues",
+              "Transformation"
             ],
             "caractere": [
               "Peureux",
@@ -1453,7 +1456,8 @@
               "Bras droit": 3
             },
             "style-de-combat": {
-              "Arts martiaux": 2
+              "Arts martiaux": 2,
+              "Transformation": 2
             },
             "caractere": {
               "Peureux": 3,
@@ -2354,7 +2358,8 @@
               "Religieux"
             ],
             "style-de-combat": [
-              "Téléportation"
+              "Téléportation",
+              "Combat à mains nues"
             ],
             "caractere": [
               "Calme",
