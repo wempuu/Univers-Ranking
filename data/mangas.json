@@ -3131,7 +3131,8 @@
               "Sadique",
               "Égoïste",
               "Gourmand",
-              "Impulsif"
+              "Impulsif",
+              "Manipulateur"
             ]
           },
           "tagRarity": {
@@ -3640,7 +3641,8 @@
               "Sadique",
               "Mystérieux",
               "Froid",
-              "Impulsif"
+              "Impulsif",
+              "Manipulateur"
             ]
           },
           "tagRarity": {
@@ -3671,7 +3673,8 @@
             "caractere": {
               "Sadique": 3,
               "Mystérieux": 3,
-              "Froid": 2
+              "Froid": 2,
+              "Manipulateur": 2
             }
           }
         },
@@ -3708,7 +3711,8 @@
               "Loyal",
               "Calme",
               "Froid",
-              "Intelligent"
+              "Intelligent",
+              "Manipulateur"
             ]
           },
           "tagRarity": {
@@ -3759,7 +3763,8 @@
               "Loyal",
               "Calme",
               "Froid",
-              "Intelligent"
+              "Intelligent",
+              "Manipulateur"
             ]
           },
           "tagRarity": {
@@ -3809,7 +3814,8 @@
               "Loyal",
               "Calme",
               "Froid",
-              "Intelligent"
+              "Intelligent",
+              "Manipulateur"
             ]
           },
           "tagRarity": {
@@ -3864,7 +3870,8 @@
               "Froid",
               "Arrogant",
               "Loyal",
-              "Intelligent"
+              "Intelligent",
+              "Manipulateur"
             ]
           },
           "tagRarity": {
@@ -3919,7 +3926,8 @@
               "Loyal",
               "Calme",
               "Froid",
-              "Intelligent"
+              "Intelligent",
+              "Manipulateur"
             ]
           },
           "tagRarity": {
@@ -3972,7 +3980,8 @@
               "Sadique",
               "Froid",
               "Loyal",
-              "Intelligent"
+              "Intelligent",
+              "Manipulateur"
             ]
           },
           "tagRarity": {
@@ -4094,7 +4103,8 @@
               "Sadique",
               "Arrogant",
               "Loyal",
-              "Colérique"
+              "Colérique",
+              "Manipulateur"
             ]
           },
           "tagRarity": {
@@ -4144,7 +4154,8 @@
               "Arrogant",
               "Loyal",
               "Sadique",
-              "Colérique"
+              "Colérique",
+              "Manipulateur"
             ],
             "physique": [
               "Uniforme militaire",
@@ -5797,7 +5808,8 @@
               "Sadique",
               "Curieux",
               "Excentrique",
-              "Colérique"
+              "Colérique",
+              "Manipulateur"
             ]
           },
           "tagRarity": {
