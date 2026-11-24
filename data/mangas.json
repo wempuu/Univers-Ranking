@@ -2221,7 +2221,8 @@
             ],
             "style-de-combat": [
               "Explosions",
-              "Frappe à distance"
+              "Frappe à distance",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Joyeux",
@@ -2247,7 +2248,8 @@
             },
             "style-de-combat": {
               "Explosions": 2,
-              "Frappe à distance": 2
+              "Frappe à distance": 2,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Joyeux": 2,
