@@ -310,11 +310,11 @@
             },
             "caractere": {
               "Joyeux": 3,
-              "Courageux": 2,
               "Naïf": 2,
               "Déterminé": 3,
               "Gourmand": 3,
-              "Impulsif": 2
+              "Impulsif": 2,
+              "Courageux": 3
             }
           }
         },
@@ -494,7 +494,6 @@
             ],
             "caractere": [
               "Joyeux",
-              "Courageux",
               "Peureux",
               "Menteur",
               "Loyal"
@@ -517,7 +516,6 @@
             },
             "caractere": {
               "Joyeux": 2,
-              "Courageux": 3,
               "Peureux": 3,
               "Menteur": 3
             }
@@ -1906,7 +1904,8 @@
             "caractere": [
               "Joyeux",
               "Optimiste",
-              "Déterminé"
+              "Déterminé",
+              "Courageux"
             ]
           },
           "tagRarity": {
