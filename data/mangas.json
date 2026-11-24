@@ -2995,7 +2995,8 @@
               "Prémonition",
               "Battle IQ",
               "Arme perçante",
-              "Pouvoir culinaire"
+              "Pouvoir culinaire",
+              "Pouvoir élastique"
             ],
             "caractere": [
               "Calme",
@@ -3017,7 +3018,8 @@
               "Prémonition": 3,
               "Battle IQ": 2,
               "Arme perçante": 2,
-              "Pouvoir culinaire": 2
+              "Pouvoir culinaire": 2,
+              "Pouvoir élastique": 2
             },
             "caractere": {
               "Calme": 2,
