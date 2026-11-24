@@ -3247,10 +3247,10 @@
               "Frère / Soeur": 2
             },
             "style-de-combat": {
-              "Absorption d'énergie": 2,
               "Épée": 2,
               "Arme Tranchante": 2,
-              "Pouvoir culinaire": 3
+              "Pouvoir culinaire": 3,
+              "Absorption d'énergie": 3
             },
             "caractere": {
               "Calme": 2,
@@ -4254,8 +4254,8 @@
               "Chef militaire": 3
             },
             "style-de-combat": {
-              "Absorption d'énergie": 2,
-              "Contrôle des plantes": 3
+              "Contrôle des plantes": 3,
+              "Absorption d'énergie": 2
             },
             "caractere": {
               "Arrogant": 2
@@ -5642,7 +5642,7 @@
               "Roi / Reine": 3
             },
             "style-de-combat": {
-              "Absorption d'énergie": 2
+              "Absorption d'énergie": 3
             },
             "caractere": {
               "Arrogant": 2,
