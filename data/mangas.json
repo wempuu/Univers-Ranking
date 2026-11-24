@@ -364,7 +364,8 @@
               "Musclé": 2,
               "Cicatrice": 2,
               "Cheveux verts": 2,
-              "Borgne": 3
+              "Borgne": 3,
+              "Bijoux / Piercings": 2
             },
             "role": {
               "Bras droit": 3,
@@ -2184,7 +2185,8 @@
           "tagRarity": {
             "physique": {
               "Tatoué": 2,
-              "Femme": 2
+              "Femme": 2,
+              "Bijoux / Piercings": 2
             },
             "role": {
               "Leader": 2,
