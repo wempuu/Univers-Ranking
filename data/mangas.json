@@ -3139,7 +3139,8 @@
               "Arme perçante",
               "Pouvoir culinaire",
               "Pouvoir élastique",
-              "Super-vitesse"
+              "Super-vitesse",
+              "Frappe à distance"
             ],
             "caractere": [
               "Calme",
@@ -3163,7 +3164,8 @@
               "Battle IQ": 2,
               "Arme perçante": 2,
               "Pouvoir élastique": 2,
-              "Pouvoir culinaire": 3
+              "Pouvoir culinaire": 3,
+              "Frappe à distance": 2
             },
             "caractere": {
               "Calme": 2,
@@ -4056,7 +4058,8 @@
               "Invocation",
               "Régénération",
               "Arme perçante",
-              "Peur"
+              "Peur",
+              "Illusion"
             ],
             "caractere": [
               "Arrogant"
@@ -4075,7 +4078,8 @@
               "Invocation": 3,
               "Régénération": 2,
               "Arme perçante": 2,
-              "Peur": 3
+              "Peur": 3,
+              "Illusion": 2
             },
             "caractere": {
               "Arrogant": 2
