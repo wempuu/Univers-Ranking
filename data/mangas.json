@@ -351,7 +351,8 @@
               "Arme Tranchante",
               "Pouvoir démoniaque",
               "Super-force",
-              "Épée"
+              "Épée",
+              "Super-vitesse"
             ],
             "caractere": [
               "Sérieux",
@@ -919,7 +920,8 @@
             ],
             "style-de-combat": [
               "Épée",
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Super-vitesse"
             ],
             "caractere": [
               "Joyeux",
@@ -982,7 +984,8 @@
             "style-de-combat": [
               "Épée",
               "Prémonition",
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Super-vitesse"
             ],
             "caractere": [
               "Calme",
@@ -1040,7 +1043,8 @@
             "style-de-combat": [
               "Épée",
               "Prémonition",
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Super-vitesse"
             ],
             "caractere": [
               "Calme",
@@ -1065,7 +1069,8 @@
             "style-de-combat": {
               "Épée": 2,
               "Prémonition": 2,
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Super-vitesse": 2
             },
             "caractere": {
               "Calme": 2,
@@ -1370,7 +1375,8 @@
               "Frère / Soeur"
             ],
             "style-de-combat": [
-              "Contrôle du feu"
+              "Contrôle du feu",
+              "Super-vitesse"
             ],
             "caractere": [
               "Courageux",
@@ -1484,7 +1490,8 @@
               "Contrôle de l'espace",
               "Arme Tranchante",
               "Battle IQ",
-              "Épée"
+              "Épée",
+              "Super-vitesse"
             ],
             "caractere": [
               "Calme",
@@ -1803,7 +1810,8 @@
               "Pouvoir draconique",
               "Bâton",
               "Super-force",
-              "Durabilité"
+              "Durabilité",
+              "Super-vitesse"
             ],
             "caractere": [
               "Colérique",
@@ -1873,7 +1881,8 @@
               "Arme contondante",
               "Transformation",
               "Contrôle de la glace",
-              "Bâton"
+              "Bâton",
+              "Super-vitesse"
             ],
             "caractere": [
               "Joyeux",
@@ -2248,7 +2257,8 @@
             ],
             "style-de-combat": [
               "Épée",
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Super-vitesse"
             ],
             "caractere": [
               "Calme",
@@ -2432,7 +2442,8 @@
             ],
             "style-de-combat": [
               "Arme Tranchante",
-              "Épée"
+              "Épée",
+              "Super-vitesse"
             ]
           },
           "tagRarity": {
@@ -2546,7 +2557,8 @@
               "Combat à mains nues",
               "Super-force",
               "Durabilité",
-              "Pouvoir animal"
+              "Pouvoir animal",
+              "Super-vitesse"
             ],
             "caractere": [
               "Calme",
@@ -2570,7 +2582,8 @@
             "style-de-combat": {
               "Téléportation": 3,
               "Pouvoir animal": 2,
-              "Combat à mains nues": 2
+              "Combat à mains nues": 2,
+              "Super-vitesse": 2
             },
             "caractere": {
               "Calme": 2,
@@ -3126,7 +3139,8 @@
               "Battle IQ",
               "Arme perçante",
               "Pouvoir culinaire",
-              "Pouvoir élastique"
+              "Pouvoir élastique",
+              "Super-vitesse"
             ],
             "caractere": [
               "Calme",
@@ -3553,7 +3567,8 @@
               "Pouvoir démoniaque",
               "Magie",
               "Épée",
-              "Peur"
+              "Peur",
+              "Super-vitesse"
             ],
             "caractere": [
               "Sadique",
@@ -3583,7 +3598,8 @@
               "Pouvoir démoniaque": 3,
               "Magie": 2,
               "Épée": 2,
-              "Peur": 3
+              "Peur": 3,
+              "Super-vitesse": 2
             },
             "caractere": {
               "Sadique": 3,
@@ -3771,7 +3787,8 @@
               "Transformation",
               "Régénération",
               "Arme Tranchante",
-              "Épée"
+              "Épée",
+              "Super-vitesse"
             ],
             "caractere": [
               "Sérieux",
@@ -4093,7 +4110,8 @@
             "style-de-combat": [
               "Régénération",
               "Arme perçante",
-              "Fils / Chaînes"
+              "Fils / Chaînes",
+              "Super-vitesse"
             ],
             "caractere": [
               "Sérieux",
@@ -4203,7 +4221,8 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Contrôle de la glace"
+              "Contrôle de la glace",
+              "Super-vitesse"
             ],
             "caractere": [
               "Calme",
@@ -4493,7 +4512,8 @@
             "style-de-combat": [
               "Combat à mains nues",
               "Super-force",
-              "Durabilité"
+              "Durabilité",
+              "Super-vitesse"
             ],
             "caractere": [
               "Joyeux",
