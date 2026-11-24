@@ -449,7 +449,6 @@
               "Contrôle du vent": 2,
               "Contrôle de la foudre": 2,
               "Contrôle de la météo": 3,
-              "Arme contondante": 2,
               "Bâton": 2,
               "Battle IQ": 2,
               "Contrôle de la fumée": 2
@@ -1841,9 +1840,9 @@
               "Vol": 2,
               "Transformation": 2,
               "Pouvoir draconique": 3,
-              "Arme contondante": 2,
               "Bâton": 2,
-              "Durabilité": 2
+              "Durabilité": 2,
+              "Arme contondante": 3
             },
             "caractere": {
               "Colérique": 2,
@@ -1902,9 +1901,9 @@
             },
             "style-de-combat": {
               "Contrôle de la glace": 2,
-              "Arme contondante": 2,
               "Transformation": 2,
-              "Bâton": 2
+              "Bâton": 2,
+              "Arme contondante": 3
             },
             "caractere": {
               "Joyeux": 2,
@@ -4641,7 +4640,6 @@
               "Soldat": 3
             },
             "style-de-combat": {
-              "Arme contondante": 2,
               "Contrôle de la fumée": 3
             },
             "caractere": {
@@ -5321,7 +5319,6 @@
             "style-de-combat": {
               "Contrôle de la foudre": 3,
               "Prémonition": 3,
-              "Arme contondante": 2,
               "Super-vitesse": 3
             },
             "caractere": {
