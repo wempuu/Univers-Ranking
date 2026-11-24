@@ -928,9 +928,9 @@
               "Cape": 2
             },
             "role": {
-              "Leader": 2,
               "Pirate": 3,
-              "Parent": 2
+              "Parent": 2,
+              "Leader": 3
             },
             "style-de-combat": {
               "Épée": 2,
@@ -1819,7 +1819,8 @@
               "Empereur": 3,
               "Pirate": 2,
               "Antagoniste": 2,
-              "Parent": 2
+              "Parent": 2,
+              "Leader": 2
             },
             "style-de-combat": {
               "Vol": 2,
@@ -2136,7 +2137,8 @@
               "Marchand": 2,
               "Roi / Reine": 2,
               "Frère / Soeur": 2,
-              "Antagoniste": 3
+              "Antagoniste": 3,
+              "Leader": 2
             },
             "style-de-combat": {
               "Fils / Chaînes": 3,
@@ -3605,7 +3607,8 @@
             ],
             "role": [
               "Antagoniste",
-              "Conseiller"
+              "Conseiller",
+              "Leader"
             ],
             "style-de-combat": [
               "Transformation",
@@ -3654,7 +3657,8 @@
             ],
             "role": [
               "Antagoniste",
-              "Conseiller"
+              "Conseiller",
+              "Leader"
             ],
             "style-de-combat": [
               "Transformation",
@@ -3704,7 +3708,8 @@
             ],
             "role": [
               "Antagoniste",
-              "Conseiller"
+              "Conseiller",
+              "Leader"
             ],
             "style-de-combat": [
               "Transformation",
@@ -3753,7 +3758,8 @@
             ],
             "role": [
               "Antagoniste",
-              "Conseiller"
+              "Conseiller",
+              "Leader"
             ],
             "style-de-combat": [
               "Katana",
@@ -3807,7 +3813,8 @@
             ],
             "role": [
               "Antagoniste",
-              "Conseiller"
+              "Conseiller",
+              "Leader"
             ],
             "style-de-combat": [
               "Transformation",
@@ -3917,7 +3924,8 @@
               "Antagoniste",
               "Chef militaire",
               "Chevalier divin",
-              "Frère / Soeur"
+              "Frère / Soeur",
+              "Leader"
             ],
             "style-de-combat": [
               "Épée",
@@ -3937,7 +3945,8 @@
               "Antagoniste": 2,
               "Frère / Soeur": 2,
               "Chef militaire": 3,
-              "Chevalier divin": 3
+              "Chevalier divin": 3,
+              "Leader": 2
             },
             "style-de-combat": {
               "Régénération": 2,
@@ -4837,7 +4846,8 @@
             "role": [
               "Antagoniste",
               "Chef militaire",
-              "Gardien / Protecteur"
+              "Gardien / Protecteur",
+              "Leader"
             ],
             "style-de-combat": [
               "Poison"
@@ -4855,7 +4865,8 @@
             },
             "role": {
               "Chef militaire": 2,
-              "Gardien / Protecteur": 3
+              "Gardien / Protecteur": 3,
+              "Leader": 2
             },
             "style-de-combat": {
               "Poison": 3
@@ -5099,7 +5110,8 @@
             "role": [
               "Allié",
               "Prince / Princesse",
-              "Ennemi devenu allié"
+              "Ennemi devenu allié",
+              "Leader"
             ],
             "caractere": [
               "Courageux",
