@@ -1719,8 +1719,8 @@
               "Leader": 2,
               "Empereur": 3,
               "Traître": 3,
-              "Antagoniste": 2,
-              "Pirate": 3
+              "Pirate": 3,
+              "Antagoniste": 3
             },
             "style-de-combat": {
               "Contrôle des ténèbres": 3,
@@ -2105,9 +2105,9 @@
             "role": {
               "Pirate": 2,
               "Marchand": 2,
-              "Antagoniste": 2,
               "Roi / Reine": 2,
-              "Frère / Soeur": 2
+              "Frère / Soeur": 2,
+              "Antagoniste": 3
             },
             "style-de-combat": {
               "Fils / Chaînes": 3,
@@ -3525,9 +3525,9 @@
             },
             "role": {
               "Roi / Reine": 3,
-              "Antagoniste": 2,
               "Leader": 3,
-              "Dieu / Divinité": 2
+              "Dieu / Divinité": 2,
+              "Antagoniste": 3
             },
             "style-de-combat": {
               "Arme Tranchante": 2,
