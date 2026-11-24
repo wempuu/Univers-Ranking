@@ -317,7 +317,8 @@
               "Gourmand": 3,
               "Courageux": 3,
               "Fêtard": 2,
-              "Impulsif": 3
+              "Impulsif": 3,
+              "Optimiste": 2
             }
           }
         },
@@ -363,7 +364,8 @@
               "Loyal",
               "Déterminé",
               "Fêtard",
-              "Arrogant"
+              "Arrogant",
+              "Optimiste"
             ]
           },
           "tagRarity": {
@@ -557,7 +559,8 @@
               "Romantique",
               "Pervers",
               "Loyal",
-              "Impulsif"
+              "Impulsif",
+              "Optimiste"
             ],
             "physique": [
               "Cheveux blonds",
@@ -756,7 +759,8 @@
               "Intelligent",
               "Excentrique",
               "Loyal",
-              "Fêtard"
+              "Fêtard",
+              "Optimiste"
             ]
           },
           "tagRarity": {
@@ -1411,7 +1415,8 @@
               "Impulsif",
               "Vengeur",
               "Déterminé",
-              "Fêtard"
+              "Fêtard",
+              "Gourmand"
             ]
           },
           "tagRarity": {
@@ -1433,7 +1438,8 @@
               "Loyal": 2,
               "Impulsif": 2,
               "Vengeur": 2,
-              "Déterminé": 2
+              "Déterminé": 2,
+              "Gourmand": 2
             }
           }
         },
@@ -1850,7 +1856,8 @@
               "Sadique",
               "Déterminé",
               "Impulsif",
-              "Fêtard"
+              "Fêtard",
+              "Gourmand"
             ]
           },
           "tagRarity": {
@@ -1921,7 +1928,8 @@
               "Optimiste",
               "Déterminé",
               "Courageux",
-              "Naïf"
+              "Naïf",
+              "Gourmand"
             ]
           },
           "tagRarity": {
@@ -2053,7 +2061,8 @@
               "Sadique",
               "Excentrique",
               "Fêtard",
-              "Intelligent"
+              "Intelligent",
+              "Gourmand"
             ]
           },
           "tagRarity": {
@@ -4594,7 +4603,8 @@
               "Joyeux",
               "Optimiste",
               "Fêtard",
-              "Impulsif"
+              "Impulsif",
+              "Gourmand"
             ]
           },
           "tagRarity": {
@@ -5303,7 +5313,8 @@
             "caractere": {
               "Courageux": 2,
               "Impulsif": 2,
-              "Charismatique": 2
+              "Charismatique": 2,
+              "Optimiste": 2
             }
           }
         },
@@ -5858,7 +5869,7 @@
               "Arrogant": 2,
               "Peureux": 2,
               "Égoïste": 3,
-              "Gourmand": 2
+              "Gourmand": 3
             }
           }
         },
