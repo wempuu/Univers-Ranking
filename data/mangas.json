@@ -686,7 +686,8 @@
               "Pessimiste",
               "Loyal",
               "Calme",
-              "Sérieux"
+              "Sérieux",
+              "Froid"
             ]
           },
           "tagRarity": {
@@ -1121,7 +1122,8 @@
               "Intelligent",
               "Loyal",
               "Fêtard",
-              "Sérieux"
+              "Sérieux",
+              "Froid"
             ]
           },
           "tagRarity": {
@@ -3164,7 +3166,8 @@
             "caractere": [
               "Calme",
               "Loyal",
-              "Perfectionniste"
+              "Perfectionniste",
+              "Froid"
             ]
           },
           "tagRarity": {
@@ -3349,8 +3352,7 @@
               "Absorption d'énergie": 3
             },
             "caractere": {
-              "Calme": 2,
-              "Froid": 2
+              "Calme": 2
             }
           }
         },
@@ -3661,7 +3663,8 @@
               "Arrogant",
               "Sadique",
               "Loyal",
-              "Calme"
+              "Calme",
+              "Froid"
             ]
           },
           "tagRarity": {
@@ -3710,7 +3713,8 @@
               "Sérieux",
               "Arrogant",
               "Loyal",
-              "Calme"
+              "Calme",
+              "Froid"
             ]
           },
           "tagRarity": {
@@ -3759,7 +3763,8 @@
               "Colérique",
               "Arrogant",
               "Loyal",
-              "Calme"
+              "Calme",
+              "Froid"
             ]
           },
           "tagRarity": {
@@ -3869,7 +3874,8 @@
               "Sérieux",
               "Arrogant",
               "Loyal",
-              "Calme"
+              "Calme",
+              "Froid"
             ]
           },
           "tagRarity": {
@@ -4654,7 +4660,8 @@
               "Contrôle de la fumée"
             ],
             "caractere": [
-              "Sérieux"
+              "Sérieux",
+              "Froid"
             ]
           },
           "tagRarity": {
@@ -4820,8 +4827,8 @@
             },
             "caractere": {
               "Sérieux": 3,
-              "Froid": 3,
-              "Sadique": 2
+              "Sadique": 2,
+              "Froid": 2
             }
           }
         },
@@ -4908,7 +4915,8 @@
             ],
             "caractere": [
               "Sérieux",
-              "Sadique"
+              "Sadique",
+              "Froid"
             ]
           },
           "tagRarity": {
