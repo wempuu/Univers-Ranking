@@ -2178,7 +2178,8 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Épée"
+              "Épée",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Calme",
@@ -2197,7 +2198,8 @@
               "Maître / Mentor": 2
             },
             "style-de-combat": {
-              "Épée": 3
+              "Épée": 3,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Calme": 3,
@@ -2963,7 +2965,8 @@
             "style-de-combat": [
               "Invocation",
               "Super-force",
-              "Manipulation des âmes"
+              "Manipulation des âmes",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Colérique",
@@ -2988,7 +2991,8 @@
             },
             "style-de-combat": {
               "Invocation": 3,
-              "Manipulation des âmes": 3
+              "Manipulation des âmes": 3,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Colérique": 3,
@@ -3181,7 +3185,8 @@
             "style-de-combat": [
               "Épée",
               "Absorption d'énergie",
-              "Pouvoir culinaire"
+              "Pouvoir culinaire",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Sérieux",
@@ -3200,7 +3205,8 @@
             "style-de-combat": {
               "Absorption d'énergie": 2,
               "Pouvoir culinaire": 2,
-              "Épée": 2
+              "Épée": 2,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Calme": 2,
@@ -3862,7 +3868,8 @@
             "style-de-combat": [
               "Régénération",
               "Contrôle des plantes",
-              "Épée"
+              "Épée",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Sadique"
@@ -3876,7 +3883,8 @@
             "style-de-combat": {
               "Régénération": 2,
               "Contrôle des plantes": 2,
-              "Épée": 2
+              "Épée": 2,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Sadique": 2
@@ -5422,7 +5430,8 @@
               "Prince / Princesse"
             ],
             "style-de-combat": [
-              "Épée"
+              "Épée",
+              "Arme Tranchante"
             ],
             "caractere": [
               "Généreux"
@@ -5433,7 +5442,8 @@
               "Prince / Princesse": 3
             },
             "style-de-combat": {
-              "Épée": 2
+              "Épée": 2,
+              "Arme Tranchante": 2
             },
             "caractere": {
               "Généreux": 2
