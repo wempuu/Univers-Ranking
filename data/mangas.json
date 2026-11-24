@@ -5057,7 +5057,8 @@
               "Contrôle du son": 3
             },
             "physique": {
-              "Fumeur": 2
+              "Fumeur": 2,
+              "Grand": 2
             }
           }
         },
