@@ -1696,7 +1696,8 @@
               "Impulsif",
               "Vengeur",
               "Sadique",
-              "Égoïste"
+              "Égoïste",
+              "Provocateur"
             ]
           },
           "tagRarity": {
@@ -1716,7 +1717,8 @@
               "Déterminé": 2,
               "Impulsif": 2,
               "Vengeur": 2,
-              "Colérique": 2
+              "Colérique": 2,
+              "Provocateur": 2
             },
             "style-de-combat": {
               "Magnétisme": 3,
@@ -1813,7 +1815,8 @@
               "Gourmand",
               "Fêtard",
               "Égoïste",
-              "Stratège"
+              "Stratège",
+              "Provocateur"
             ]
           },
           "tagRarity": {
@@ -2472,7 +2475,8 @@
               "Fêtard",
               "Colérique",
               "Menteur",
-              "Pessimiste"
+              "Pessimiste",
+              "Provocateur"
             ],
             "physique": [
               "Cheveux bleus",
@@ -2829,7 +2833,8 @@
               "Arrogant",
               "Sadique",
               "Vengeur",
-              "Fêtard"
+              "Fêtard",
+              "Provocateur"
             ]
           },
           "tagRarity": {
@@ -2946,7 +2951,8 @@
               "Impulsif",
               "Excentrique",
               "Arrogant",
-              "Sadique"
+              "Sadique",
+              "Provocateur"
             ]
           },
           "tagRarity": {
@@ -2964,7 +2970,8 @@
               "Impulsif": 2,
               "Excentrique": 2,
               "Sadique": 2,
-              "Arrogant": 2
+              "Arrogant": 2,
+              "Provocateur": 3
             }
           }
         },
@@ -3057,7 +3064,8 @@
               "Colérique",
               "Arrogant",
               "Sadique",
-              "Vengeur"
+              "Vengeur",
+              "Provocateur"
             ]
           },
           "tagRarity": {
@@ -3366,7 +3374,8 @@
               "Manipulateur",
               "Loyal",
               "Intelligent",
-              "Stratège"
+              "Stratège",
+              "Provocateur"
             ],
             "style-de-combat": [
               "Pouvoir culinaire",
@@ -3530,7 +3539,8 @@
               "Loyal",
               "Sadique",
               "Fêtard",
-              "Naïf"
+              "Naïf",
+              "Provocateur"
             ]
           },
           "tagRarity": {
@@ -3548,7 +3558,8 @@
             },
             "caractere": {
               "Arrogant": 2,
-              "Loyal": 2
+              "Loyal": 2,
+              "Provocateur": 3
             }
           }
         },
@@ -3635,7 +3646,8 @@
             ],
             "caractere": [
               "Arrogant",
-              "Impulsif"
+              "Impulsif",
+              "Provocateur"
             ]
           },
           "tagRarity": {
@@ -3648,6 +3660,9 @@
             "style-de-combat": {
               "Combat à mains nues": 2,
               "Super-force": 3
+            },
+            "caractere": {
+              "Provocateur": 2
             }
           }
         },
@@ -4161,7 +4176,8 @@
               "Loyal",
               "Colérique",
               "Manipulateur",
-              "Stratège"
+              "Stratège",
+              "Provocateur"
             ]
           },
           "tagRarity": {
@@ -4212,7 +4228,8 @@
               "Loyal",
               "Sadique",
               "Colérique",
-              "Manipulateur"
+              "Manipulateur",
+              "Provocateur"
             ],
             "physique": [
               "Uniforme militaire",
