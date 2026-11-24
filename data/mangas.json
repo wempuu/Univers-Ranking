@@ -92,7 +92,6 @@
     "style-de-combat": {
       "label": "Combat",
       "values": [
-        "Agilité",
         "Combat à mains nues",
         "Arts martiaux",
         "Épée",
@@ -1553,7 +1552,6 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Agilité",
               "Arme Tranchante"
             ],
             "caractere": [
@@ -1571,7 +1569,6 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Agilité": 2,
               "Arme Tranchante": 2
             },
             "caractere": {
@@ -5021,7 +5018,6 @@
               "Allié"
             ],
             "style-de-combat": [
-              "Agilité",
               "Combat à mains nues",
               "Transformation",
               "Contrôle de la foudre"
@@ -5036,7 +5032,6 @@
               "Animal anthropomorphe": 3
             },
             "style-de-combat": {
-              "Agilité": 3,
               "Transformation": 2,
               "Contrôle de la foudre": 2
             },
@@ -5217,7 +5212,6 @@
               "Prince / Princesse"
             ],
             "style-de-combat": [
-              "Agilité",
               "Épée"
             ],
             "caractere": [
@@ -5229,7 +5223,6 @@
               "Prince / Princesse": 3
             },
             "style-de-combat": {
-              "Agilité": 2,
               "Épée": 2
             },
             "caractere": {
