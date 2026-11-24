@@ -467,7 +467,8 @@
           },
           "tags": {
             "physique": [
-              "Couvre-chef"
+              "Couvre-chef",
+              "Cheveux longs"
             ],
             "role": [
               "Allié",
@@ -840,7 +841,8 @@
               "Tatoué",
               "Non-humain",
               "Peau colorée",
-              "Corpulent"
+              "Corpulent",
+              "Cheveux longs"
             ],
             "role": [
               "Allié",
@@ -957,7 +959,8 @@
               "Lunettes",
               "Cicatrice",
               "Cape",
-              "Musclé"
+              "Musclé",
+              "Cheveux longs"
             ],
             "role": [
               "Bras droit",
@@ -1685,7 +1688,8 @@
               "Couvre-chef",
               "Cape",
               "Grand",
-              "Bijoux / Piercings"
+              "Bijoux / Piercings",
+              "Cheveux longs"
             ],
             "role": [
               "Antagoniste",
@@ -1754,7 +1758,8 @@
               "Cornes",
               "Non-humain",
               "Démon",
-              "Cape"
+              "Cape",
+              "Cheveux longs"
             ],
             "role": [
               "Antagoniste",
@@ -1888,7 +1893,8 @@
               "Ailes",
               "Non-humain",
               "Masque",
-              "Tatoué"
+              "Tatoué",
+              "Cheveux longs"
             ],
             "role": [
               "Antagoniste",
@@ -2016,7 +2022,8 @@
               "Musclé",
               "Masque",
               "Cheveux blonds",
-              "Cornes"
+              "Cornes",
+              "Cheveux longs"
             ],
             "role": [
               "Antagoniste",
@@ -2481,7 +2488,8 @@
               "Musclé",
               "Non-humain",
               "Cyborg / Robot",
-              "Couvre-chef"
+              "Couvre-chef",
+              "Cheveux longs"
             ],
             "role": [
               "Allié",
@@ -2876,7 +2884,8 @@
               "Non-humain",
               "Peau colorée",
               "Cheveux gris / blancs",
-              "Tatoué"
+              "Tatoué",
+              "Cheveux longs"
             ],
             "role": [
               "Antagoniste",
@@ -2934,7 +2943,8 @@
               "Corpulent",
               "Moustachu",
               "Cheveux blonds",
-              "Musclé"
+              "Musclé",
+              "Cheveux longs"
             ],
             "role": [
               "Antagoniste",
@@ -2988,7 +2998,8 @@
               "Cheveux roses",
               "Couvre-chef",
               "Cape",
-              "Corpulent"
+              "Corpulent",
+              "Cheveux longs"
             ],
             "role": [
               "Antagoniste",
@@ -3436,7 +3447,8 @@
           },
           "tags": {
             "physique": [
-              "Musclé"
+              "Musclé",
+              "Cheveux longs"
             ],
             "role": [
               "Antagoniste",
@@ -4578,7 +4590,8 @@
             "physique": [
               "Femme",
               "Lunettes",
-              "Uniforme militaire"
+              "Uniforme militaire",
+              "Cheveux longs"
             ],
             "role": [
               "Rival",
