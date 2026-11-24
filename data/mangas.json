@@ -53,7 +53,6 @@
       "values": [
         "Protagoniste",
         "Antagoniste",
-        "Personnage secondaire",
         "Allié",
         "Rival",
         "Leader",
@@ -87,7 +86,8 @@
         "Ennemi devenu allié",
         "Dieu / Divinité",
         "Mascotte",
-        "Clown"
+        "Clown",
+        "Deutéragoniste"
       ]
     },
     "style-de-combat": {
@@ -332,7 +332,8 @@
               "Bras droit",
               "Élève",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Deutéragoniste"
             ],
             "style-de-combat": [
               "Katana",
@@ -359,7 +360,8 @@
               "Bras droit": 3,
               "Élève": 2,
               "Pirate": 2,
-              "Allié": 2
+              "Allié": 2,
+              "Deutéragoniste": 3
             },
             "style-de-combat": {
               "Katana": 3,
@@ -397,7 +399,8 @@
               "Pirate",
               "Criminel",
               "Navigateur",
-              "Orphelin"
+              "Orphelin",
+              "Deutéragoniste"
             ],
             "style-de-combat": [
               "Contrôle de la foudre",
@@ -509,7 +512,8 @@
               "Allié",
               "Pirate",
               "Criminel",
-              "Cuisinier"
+              "Cuisinier",
+              "Deutéragoniste"
             ],
             "style-de-combat": [
               "Contrôle du feu",
@@ -1098,7 +1102,6 @@
               "Lunettes"
             ],
             "role": [
-              "Personnage secondaire",
               "Pirate",
               "Criminel"
             ],
@@ -1144,7 +1147,6 @@
               "Cheveux longs"
             ],
             "role": [
-              "Personnage secondaire",
               "Pirate",
               "Criminel"
             ],
@@ -1361,7 +1363,6 @@
               "Tatoué"
             ],
             "role": [
-              "Personnage secondaire",
               "Pirate",
               "Criminel"
             ],
@@ -1480,7 +1481,6 @@
               "Animal anthropomorphe"
             ],
             "role": [
-              "Personnage secondaire",
               "Allié",
               "Pirate",
               "Criminel",
@@ -1600,7 +1600,6 @@
               "Masque"
             ],
             "role": [
-              "Personnage secondaire",
               "Bras droit",
               "Pirate",
               "Criminel"
@@ -3095,7 +3094,6 @@
             ],
             "role": [
               "Antagoniste",
-              "Personnage secondaire",
               "Pirate",
               "Criminel"
             ],
@@ -3144,7 +3142,6 @@
             ],
             "role": [
               "Antagoniste",
-              "Personnage secondaire",
               "Pirate",
               "Criminel"
             ],
@@ -3195,7 +3192,6 @@
             ],
             "role": [
               "Antagoniste",
-              "Personnage secondaire",
               "Pirate",
               "Criminel"
             ],
@@ -3245,7 +3241,6 @@
             ],
             "role": [
               "Antagoniste",
-              "Personnage secondaire",
               "Pirate",
               "Criminel"
             ],
@@ -3286,7 +3281,6 @@
           "tags": {
             "role": [
               "Antagoniste",
-              "Personnage secondaire",
               "Pirate",
               "Criminel"
             ],
@@ -3342,7 +3336,6 @@
             ],
             "role": [
               "Antagoniste",
-              "Personnage secondaire",
               "Pirate",
               "Criminel"
             ],
@@ -4445,7 +4438,6 @@
               "Uniforme militaire"
             ],
             "role": [
-              "Personnage secondaire",
               "Rival",
               "Soldat"
             ],
@@ -4644,7 +4636,6 @@
             ],
             "role": [
               "Antagoniste",
-              "Personnage secondaire",
               "Chef militaire",
               "Gardien / Protecteur"
             ],
@@ -4835,7 +4826,6 @@
           },
           "tags": {
             "role": [
-              "Personnage secondaire",
               "Criminel",
               "Révolutionnaire"
             ],
@@ -5137,7 +5127,6 @@
               "Cheveux blonds"
             ],
             "role": [
-              "Personnage secondaire",
               "Allié"
             ],
             "style-de-combat": [
@@ -5180,7 +5169,6 @@
               "Barbu"
             ],
             "role": [
-              "Personnage secondaire",
               "Allié"
             ],
             "style-de-combat": [
@@ -5333,7 +5321,6 @@
               "Cheveux roses"
             ],
             "role": [
-              "Personnage secondaire",
               "Allié",
               "Prince / Princesse"
             ],
@@ -5376,7 +5363,6 @@
               "Couvre-chef"
             ],
             "role": [
-              "Personnage secondaire",
               "Maître / Mentor",
               "Médecin"
             ],
