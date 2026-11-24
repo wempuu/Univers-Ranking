@@ -281,7 +281,8 @@
               "Curieux",
               "Impulsif",
               "Optimiste",
-              "Fêtard"
+              "Fêtard",
+              "Colérique"
             ]
           },
           "tagRarity": {
@@ -434,7 +435,8 @@
               "Peureux",
               "Intelligent",
               "Égoïste",
-              "Loyal"
+              "Loyal",
+              "Colérique"
             ]
           },
           "tagRarity": {
@@ -460,7 +462,8 @@
             "caractere": {
               "Peureux": 2,
               "Égoïste": 2,
-              "Intelligent": 2
+              "Intelligent": 2,
+              "Colérique": 2
             }
           }
         },
@@ -1667,12 +1670,12 @@
               "Pirate": 2
             },
             "caractere": {
-              "Colérique": 3,
               "Arrogant": 2,
               "Déterminé": 2,
               "Impulsif": 2,
               "Provocateur": 2,
-              "Vengeur": 2
+              "Vengeur": 2,
+              "Colérique": 2
             },
             "style-de-combat": {
               "Magnétisme": 3,
@@ -2232,7 +2235,8 @@
             "caractere": [
               "Arrogant",
               "Vaniteux",
-              "Romantique"
+              "Romantique",
+              "Colérique"
             ]
           },
           "tagRarity": {
@@ -2411,7 +2415,8 @@
               "Vaniteux",
               "Excentrique",
               "Sadique",
-              "Fêtard"
+              "Fêtard",
+              "Colérique"
             ],
             "physique": [
               "Cheveux bleus",
@@ -2529,7 +2534,6 @@
               "Orphelin"
             ],
             "caractere": [
-              "Colérique",
               "Gourmand",
               "Impulsif",
               "Naïf"
@@ -2549,7 +2553,6 @@
               "Fugitif": 2
             },
             "caractere": {
-              "Colérique": 2,
               "Gourmand": 3,
               "Impulsif": 2
             },
@@ -3783,7 +3786,6 @@
               "Régénération"
             ],
             "caractere": [
-              "Colérique",
               "Arrogant",
               "Loyal",
               "Calme",
@@ -3803,9 +3805,6 @@
             "style-de-combat": {
               "Transformation": 2,
               "Régénération": 2
-            },
-            "caractere": {
-              "Colérique": 2
             }
           }
         },
@@ -4075,7 +4074,8 @@
             "caractere": [
               "Sadique",
               "Arrogant",
-              "Loyal"
+              "Loyal",
+              "Colérique"
             ]
           },
           "tagRarity": {
@@ -4124,7 +4124,8 @@
             "caractere": [
               "Arrogant",
               "Loyal",
-              "Sadique"
+              "Sadique",
+              "Colérique"
             ],
             "physique": [
               "Uniforme militaire",
@@ -5630,7 +5631,8 @@
             "caractere": [
               "Arrogant",
               "Optimiste",
-              "Déterminé"
+              "Déterminé",
+              "Colérique"
             ]
           },
           "tagRarity": {
@@ -5770,7 +5772,8 @@
               "Arrogant",
               "Sadique",
               "Curieux",
-              "Excentrique"
+              "Excentrique",
+              "Colérique"
             ]
           },
           "tagRarity": {
@@ -5821,7 +5824,8 @@
               "Peureux",
               "Sadique",
               "Égoïste",
-              "Gourmand"
+              "Gourmand",
+              "Colérique"
             ]
           },
           "tagRarity": {
