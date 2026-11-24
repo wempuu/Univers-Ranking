@@ -1743,10 +1743,10 @@
             },
             "role": {
               "Leader": 2,
-              "Empereur": 3,
               "Traître": 3,
               "Pirate": 3,
-              "Antagoniste": 3
+              "Antagoniste": 3,
+              "Empereur": 2
             },
             "style-de-combat": {
               "Contrôle des ténèbres": 3,
