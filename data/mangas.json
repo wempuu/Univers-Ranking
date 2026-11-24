@@ -507,7 +507,8 @@
               "Joyeux",
               "Peureux",
               "Menteur",
-              "Loyal"
+              "Loyal",
+              "Stratège"
             ]
           },
           "tagRarity": {
@@ -565,7 +566,8 @@
               "Loyal",
               "Impulsif",
               "Optimiste",
-              "Protecteur"
+              "Protecteur",
+              "Stratège"
             ],
             "physique": [
               "Cheveux blonds",
@@ -581,7 +583,8 @@
             "caractere": {
               "Courageux": 2,
               "Romantique": 3,
-              "Pervers": 3
+              "Pervers": 3,
+              "Stratège": 2
             },
             "style-de-combat": {
               "Combat aux jambes": 3,
@@ -1089,7 +1092,8 @@
             "caractere": [
               "Charismatique",
               "Optimiste",
-              "Fêtard"
+              "Fêtard",
+              "Stratège"
             ]
           },
           "tagRarity": {
@@ -1152,7 +1156,8 @@
               "Sérieux",
               "Froid",
               "Mystérieux",
-              "Charismatique"
+              "Charismatique",
+              "Stratège"
             ]
           },
           "tagRarity": {
@@ -1796,7 +1801,8 @@
               "Déterminé",
               "Gourmand",
               "Fêtard",
-              "Égoïste"
+              "Égoïste",
+              "Stratège"
             ]
           },
           "tagRarity": {
@@ -2416,8 +2422,8 @@
             "caractere": {
               "Sérieux": 2,
               "Manipulateur": 2,
-              "Stratège": 3,
-              "Froid": 2
+              "Froid": 2,
+              "Stratège": 2
             },
             "style-de-combat": {
               "Contrôle du sable": 3
@@ -3239,7 +3245,8 @@
               "Froid",
               "Intelligent",
               "Mystérieux",
-              "Charismatique"
+              "Charismatique",
+              "Stratège"
             ]
           },
           "tagRarity": {
@@ -3346,7 +3353,8 @@
             "caractere": [
               "Manipulateur",
               "Loyal",
-              "Intelligent"
+              "Intelligent",
+              "Stratège"
             ],
             "style-de-combat": [
               "Pouvoir culinaire",
@@ -3360,7 +3368,8 @@
               "Frère / Soeur": 2
             },
             "caractere": {
-              "Manipulateur": 2
+              "Manipulateur": 2,
+              "Stratège": 2
             },
             "physique": {
               "Couvre-chef": 2,
@@ -4141,7 +4150,8 @@
               "Arrogant",
               "Loyal",
               "Colérique",
-              "Manipulateur"
+              "Manipulateur",
+              "Stratège"
             ]
           },
           "tagRarity": {
@@ -4611,7 +4621,7 @@
               "Leader": 3
             },
             "caractere": {
-              "Stratège": 3
+              "Stratège": 2
             },
             "style-de-combat": {
               "Transformation": 2,
@@ -4973,7 +4983,8 @@
               "Naïf",
               "Généreux",
               "Protecteur",
-              "Intelligent"
+              "Intelligent",
+              "Stratège"
             ]
           },
           "tagRarity": {
@@ -5080,7 +5091,8 @@
               "Calme",
               "Charismatique",
               "Mystérieux",
-              "Intelligent"
+              "Intelligent",
+              "Stratège"
             ]
           },
           "tagRarity": {
@@ -5100,7 +5112,8 @@
             "caractere": {
               "Calme": 2,
               "Charismatique": 2,
-              "Mystérieux": 3
+              "Mystérieux": 3,
+              "Stratège": 2
             }
           }
         },
