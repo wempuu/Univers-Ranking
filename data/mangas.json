@@ -157,7 +157,8 @@
         "Durabilité",
         "Battle IQ",
         "Manipulation des âmes",
-        "Pouvoir culinaire"
+        "Pouvoir culinaire",
+        "Peur"
       ]
     },
     "caractere": {
@@ -3857,7 +3858,8 @@
             "style-de-combat": [
               "Invocation",
               "Régénération",
-              "Arme perçante"
+              "Arme perçante",
+              "Peur"
             ],
             "caractere": [
               "Arrogant"
@@ -3874,7 +3876,8 @@
             "style-de-combat": {
               "Invocation": 3,
               "Régénération": 2,
-              "Arme perçante": 2
+              "Arme perçante": 2,
+              "Peur": 2
             },
             "caractere": {
               "Arrogant": 2
