@@ -366,7 +366,8 @@
               "Arrogant",
               "Charismatique",
               "Égoïste",
-              "Paresseux"
+              "Paresseux",
+              "Solitaire"
             ]
           },
           "tagRarity": {
@@ -397,7 +398,8 @@
               "Déterminé": 2,
               "Fêtard": 3,
               "Charismatique": 2,
-              "Paresseux": 3
+              "Paresseux": 3,
+              "Solitaire": 2
             }
           }
         },
@@ -1034,7 +1036,8 @@
               "Loyal",
               "Intelligent",
               "Mystérieux",
-              "Charismatique"
+              "Charismatique",
+              "Solitaire"
             ]
           },
           "tagRarity": {
@@ -1559,7 +1562,8 @@
               "Vengeur",
               "Froid",
               "Sérieux",
-              "Mystérieux"
+              "Mystérieux",
+              "Solitaire"
             ]
           },
           "tagRarity": {
