@@ -4500,9 +4500,9 @@
           },
           "tagRarity": {
             "role": {
-              "Rival": 2,
               "Élève": 3,
-              "Soldat": 2
+              "Soldat": 2,
+              "Rival": 3
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
