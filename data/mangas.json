@@ -3893,11 +3893,11 @@
               "Chef militaire": 3
             },
             "style-de-combat": {
-              "Épée": 2,
               "Régénération": 2,
               "Arme Tranchante": 2,
               "Invocation": 2,
-              "Pouvoir animal": 2
+              "Pouvoir animal": 2,
+              "Épée": 3
             },
             "caractere": {
               "Arrogant": 2,
