@@ -1621,9 +1621,9 @@
               "Combat à mains nues": 2
             },
             "caractere": {
-              "Peureux": 3,
               "Naïf": 2,
-              "Généreux": 2
+              "Généreux": 2,
+              "Peureux": 2
             }
           }
         },
@@ -5614,7 +5614,6 @@
             },
             "caractere": {
               "Timide": 3,
-              "Peureux": 2,
               "Naïf": 2,
               "Généreux": 2
             }
