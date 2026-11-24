@@ -156,7 +156,9 @@
         "Super-vitesse",
         "Durabilité",
         "Battle IQ",
-        "Manipulation des âmes"
+        "Manipulation des âmes",
+        "Pouvoir culinaire",
+        "Absorption"
       ]
     },
     "caractere": {
@@ -2992,7 +2994,8 @@
             "style-de-combat": [
               "Prémonition",
               "Battle IQ",
-              "Arme perçante"
+              "Arme perçante",
+              "Pouvoir culinaire"
             ],
             "caractere": [
               "Calme",
@@ -3013,7 +3016,8 @@
             "style-de-combat": {
               "Prémonition": 3,
               "Battle IQ": 2,
-              "Arme perçante": 2
+              "Arme perçante": 2,
+              "Pouvoir culinaire": 2
             },
             "caractere": {
               "Calme": 2,
@@ -3135,7 +3139,8 @@
             ],
             "style-de-combat": [
               "Épée",
-              "Absorption d'énergie"
+              "Absorption d'énergie",
+              "Pouvoir culinaire"
             ],
             "caractere": [
               "Sérieux",
@@ -3152,7 +3157,8 @@
               "Pirate": 2
             },
             "style-de-combat": {
-              "Absorption d'énergie": 2
+              "Absorption d'énergie": 2,
+              "Pouvoir culinaire": 2
             },
             "caractere": {
               "Calme": 2,
@@ -3185,7 +3191,8 @@
             "style-de-combat": [
               "Épée",
               "Invocation",
-              "Arme Tranchante"
+              "Arme Tranchante",
+              "Pouvoir culinaire"
             ],
             "caractere": [
               "Arrogant"
@@ -3198,7 +3205,8 @@
             "style-de-combat": {
               "Épée": 2,
               "Invocation": 2,
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Pouvoir culinaire": 2
             },
             "caractere": {
               "Arrogant": 2
@@ -5452,7 +5460,8 @@
               "Roi / Reine"
             ],
             "style-de-combat": [
-              "Absorption d'énergie"
+              "Absorption d'énergie",
+              "Absorption"
             ],
             "caractere": [
               "Arrogant",
@@ -5472,7 +5481,8 @@
               "Roi / Reine": 3
             },
             "style-de-combat": {
-              "Absorption d'énergie": 2
+              "Absorption d'énergie": 2,
+              "Absorption": 3
             },
             "caractere": {
               "Arrogant": 2,
