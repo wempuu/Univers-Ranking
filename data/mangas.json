@@ -2521,7 +2521,8 @@
               "Esclave / Opprimé",
               "Révolutionnaire",
               "Religieux",
-              "Parent"
+              "Parent",
+              "Antagoniste"
             ],
             "style-de-combat": [
               "Téléportation",
@@ -4575,7 +4576,8 @@
               "Fumeur"
             ],
             "role": [
-              "Soldat"
+              "Soldat",
+              "Antagoniste"
             ],
             "style-de-combat": [
               "Arme contondante",
