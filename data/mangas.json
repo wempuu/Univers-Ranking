@@ -2991,7 +2991,8 @@
             ],
             "style-de-combat": [
               "Prémonition",
-              "Battle IQ"
+              "Battle IQ",
+              "Arme perçante"
             ],
             "caractere": [
               "Calme",
@@ -3011,7 +3012,8 @@
             },
             "style-de-combat": {
               "Prémonition": 3,
-              "Battle IQ": 2
+              "Battle IQ": 2,
+              "Arme perçante": 2
             },
             "caractere": {
               "Calme": 2,
