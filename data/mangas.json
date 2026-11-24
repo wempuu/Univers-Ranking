@@ -837,7 +837,6 @@
               "Manipulation des âmes": 2
             },
             "caractere": {
-              "Joyeux": 3,
               "Excentrique": 2,
               "Pervers": 3,
               "Fêtard": 2
@@ -4563,8 +4562,8 @@
               "Super-force": 2
             },
             "caractere": {
-              "Joyeux": 3,
-              "Fêtard": 2
+              "Fêtard": 2,
+              "Joyeux": 2
             }
           }
         },
@@ -5677,7 +5676,8 @@
             ],
             "caractere": [
               "Généreux",
-              "Curieux"
+              "Curieux",
+              "Joyeux"
             ]
           },
           "tagRarity": {
