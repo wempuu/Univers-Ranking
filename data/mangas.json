@@ -157,8 +157,7 @@
         "Durabilité",
         "Battle IQ",
         "Manipulation des âmes",
-        "Pouvoir culinaire",
-        "Absorption"
+        "Pouvoir culinaire"
       ]
     },
     "caractere": {
@@ -2207,7 +2206,8 @@
             ],
             "style-de-combat": [
               "Arme perçante",
-              "Contrôle du sable"
+              "Contrôle du sable",
+              "Absorption d'énergie"
             ],
             "caractere": [
               "Sérieux",
@@ -5457,8 +5457,7 @@
               "Roi / Reine"
             ],
             "style-de-combat": [
-              "Absorption d'énergie",
-              "Absorption"
+              "Absorption d'énergie"
             ],
             "caractere": [
               "Arrogant",
@@ -5478,8 +5477,7 @@
               "Roi / Reine": 3
             },
             "style-de-combat": {
-              "Absorption d'énergie": 2,
-              "Absorption": 3
+              "Absorption d'énergie": 2
             },
             "caractere": {
               "Arrogant": 2,
