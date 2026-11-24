@@ -771,7 +771,8 @@
               "Loyal",
               "Fêtard",
               "Optimiste",
-              "Curieux"
+              "Curieux",
+              "Romantique"
             ]
           },
           "tagRarity": {
@@ -835,7 +836,8 @@
               "Excentrique",
               "Pervers",
               "Fêtard",
-              "Loyal"
+              "Loyal",
+              "Romantique"
             ]
           },
           "tagRarity": {
@@ -5201,7 +5203,8 @@
               "Joyeux",
               "Loyal",
               "Curieux",
-              "Excentrique"
+              "Excentrique",
+              "Romantique"
             ],
             "style-de-combat": [
               "Manipulation corporelle",
