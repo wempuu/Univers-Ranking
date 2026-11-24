@@ -141,7 +141,8 @@
         "Combat aux jambes",
         "Laser",
         "Pouvoir musical",
-        "Magnétisme"
+        "Magnétisme",
+        "Pouvoir divin"
       ]
     },
     "caractere": {
@@ -240,7 +241,8 @@
               "Transformation",
               "Prémonition",
               "Pouvoir élastique",
-              "Vol"
+              "Vol",
+              "Pouvoir divin"
             ],
             "caractere": [
               "Joyeux",
@@ -271,7 +273,8 @@
               "Prémonition": 2,
               "Pouvoir élastique": 3,
               "Transformation": 2,
-              "Vol": 2
+              "Vol": 2,
+              "Pouvoir divin": 2
             },
             "caractere": {
               "Joyeux": 3,
@@ -1233,7 +1236,8 @@
             },
             "style-de-combat": {
               "Vol": 3,
-              "Régénération": 2
+              "Régénération": 2,
+              "Transformation": 2
             },
             "caractere": {
               "Calme": 2,
@@ -1757,7 +1761,8 @@
             },
             "style-de-combat": {
               "Contrôle de la glace": 2,
-              "Arme contondante": 2
+              "Arme contondante": 2,
+              "Transformation": 2
             },
             "caractere": {
               "Joyeux": 2,
@@ -1820,7 +1825,8 @@
               "Épée": 2,
               "Vol": 3,
               "Contrôle du feu": 2,
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Transformation": 2
             },
             "caractere": {
               "Sérieux": 2,
@@ -1883,7 +1889,8 @@
               "Excentrique": 3
             },
             "style-de-combat": {
-              "Laser": 2
+              "Laser": 2,
+              "Transformation": 2
             }
           }
         },
@@ -1934,7 +1941,8 @@
               "Loyal": 3
             },
             "style-de-combat": {
-              "Arme Tranchante": 2
+              "Arme Tranchante": 2,
+              "Transformation": 2
             }
           }
         },
@@ -4125,7 +4133,8 @@
               "Chef militaire"
             ],
             "style-de-combat": [
-              "Transformation"
+              "Transformation",
+              "Pouvoir divin"
             ],
             "caractere": [
               "Sérieux",
@@ -4148,6 +4157,10 @@
             "caractere": {
               "Sérieux": 2,
               "Stratège": 3
+            },
+            "style-de-combat": {
+              "Transformation": 2,
+              "Pouvoir divin": 2
             }
           }
         },
@@ -4443,7 +4456,8 @@
               "Espion": 2
             },
             "style-de-combat": {
-              "Combat à mains nues": 2
+              "Combat à mains nues": 2,
+              "Transformation": 2
             },
             "caractere": {
               "Sérieux": 3,
@@ -4679,9 +4693,6 @@
               "Criminel",
               "Révolutionnaire"
             ],
-            "style-de-combat": [
-              "Transformation"
-            ],
             "caractere": [
               "Joyeux",
               "Loyal",
@@ -4745,7 +4756,8 @@
               "Chauve": 2
             },
             "style-de-combat": {
-              "Vol": 2
+              "Vol": 2,
+              "Transformation": 2
             }
           }
         },
@@ -5416,6 +5428,9 @@
               "Généreux": 2,
               "Loyal": 3,
               "Excentrique": 3
+            },
+            "style-de-combat": {
+              "Transformation": 2
             }
           }
         }
