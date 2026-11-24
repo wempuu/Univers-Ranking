@@ -686,7 +686,8 @@
               "Intelligent",
               "Curieux",
               "Pessimiste",
-              "Loyal"
+              "Loyal",
+              "Calme"
             ]
           },
           "tagRarity": {
@@ -700,7 +701,8 @@
             "caractere": {
               "Intelligent": 3,
               "Curieux": 2,
-              "Pessimiste": 2
+              "Pessimiste": 2,
+              "Calme": 2
             },
             "style-de-combat": {
               "Clones": 2,
@@ -896,9 +898,9 @@
               "Contrôle de l'eau": 2
             },
             "caractere": {
-              "Calme": 3,
               "Courageux": 2,
-              "Loyal": 2
+              "Loyal": 2,
+              "Calme": 2
             }
           }
         },
@@ -1056,7 +1058,6 @@
               "Super-vitesse"
             ],
             "caractere": [
-              "Calme",
               "Charismatique",
               "Optimiste",
               "Fêtard"
@@ -1082,7 +1083,6 @@
               "Super-vitesse": 2
             },
             "caractere": {
-              "Calme": 2,
               "Charismatique": 3,
               "Fêtard": 3
             }
@@ -1131,9 +1131,9 @@
               "Armes à feu": 2
             },
             "caractere": {
-              "Calme": 3,
               "Intelligent": 2,
-              "Loyal": 2
+              "Loyal": 2,
+              "Calme": 2
             },
             "physique": {
               "Fumeur": 2,
@@ -1691,7 +1691,6 @@
               "Super-vitesse"
             ],
             "caractere": [
-              "Calme",
               "Loyal",
               "Mystérieux"
             ]
@@ -3468,7 +3467,8 @@
             "caractere": [
               "Sérieux",
               "Sadique",
-              "Froid"
+              "Froid",
+              "Calme"
             ],
             "physique": [
               "Couvre-chef",
@@ -3648,7 +3648,8 @@
             "caractere": [
               "Arrogant",
               "Sadique",
-              "Loyal"
+              "Loyal",
+              "Calme"
             ]
           },
           "tagRarity": {
@@ -3699,7 +3700,8 @@
             "caractere": [
               "Sérieux",
               "Arrogant",
-              "Loyal"
+              "Loyal",
+              "Calme"
             ]
           },
           "tagRarity": {
@@ -3747,7 +3749,8 @@
             "caractere": [
               "Colérique",
               "Arrogant",
-              "Loyal"
+              "Loyal",
+              "Calme"
             ]
           },
           "tagRarity": {
@@ -3856,7 +3859,8 @@
             "caractere": [
               "Sérieux",
               "Arrogant",
-              "Loyal"
+              "Loyal",
+              "Calme"
             ]
           },
           "tagRarity": {
@@ -3970,7 +3974,8 @@
               "Sérieux",
               "Arrogant",
               "Froid",
-              "Loyal"
+              "Loyal",
+              "Calme"
             ]
           },
           "tagRarity": {
@@ -4432,7 +4437,7 @@
               "Épée": 2
             },
             "caractere": {
-              "Calme": 3
+              "Calme": 2
             }
           }
         },
