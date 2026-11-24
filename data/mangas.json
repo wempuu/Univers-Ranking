@@ -294,7 +294,8 @@
               "Empereur": 2,
               "Orphelin": 2,
               "Dieu / Divinité": 2,
-              "Pirate": 3
+              "Pirate": 3,
+              "Élève": 2
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
@@ -727,7 +728,8 @@
               "Criminel",
               "Scientifique",
               "Orphelin",
-              "Ennemi devenu allié"
+              "Ennemi devenu allié",
+              "Élève"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -1474,7 +1476,8 @@
               "Pirate",
               "Criminel",
               "Orphelin",
-              "Rival"
+              "Rival",
+              "Élève"
             ],
             "style-de-combat": [
               "Katana",
@@ -4962,7 +4965,8 @@
               "Criminel",
               "Orphelin",
               "Révolutionnaire",
-              "Frère / Soeur"
+              "Frère / Soeur",
+              "Élève"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -5334,7 +5338,8 @@
             "role": [
               "Antagoniste",
               "Musicien",
-              "Orphelin"
+              "Orphelin",
+              "Élève"
             ],
             "style-de-combat": [
               "Illusion",
