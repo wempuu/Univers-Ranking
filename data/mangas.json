@@ -3515,7 +3515,8 @@
             ],
             "style-de-combat": [
               "Combat à mains nues",
-              "Super-vitesse"
+              "Super-vitesse",
+              "Frappe à distance"
             ],
             "caractere": [
               "Arrogant",
@@ -3535,7 +3536,8 @@
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
-              "Super-vitesse": 2
+              "Super-vitesse": 2,
+              "Frappe à distance": 2
             },
             "caractere": {
               "Arrogant": 2,
