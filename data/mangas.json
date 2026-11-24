@@ -618,7 +618,8 @@
             },
             "style-de-combat": {
               "Transformation": 3,
-              "Pouvoir animal": 2
+              "Pouvoir animal": 2,
+              "Combat à mains nues": 2
             },
             "caractere": {
               "Timide": 2,
@@ -1241,7 +1242,8 @@
               "Super-force": 2,
               "Séisme": 3,
               "Durabilité": 2,
-              "Onde de choc": 2
+              "Onde de choc": 2,
+              "Combat à mains nues": 2
             }
           }
         },
@@ -1519,7 +1521,8 @@
             },
             "style-de-combat": {
               "Arts martiaux": 2,
-              "Transformation": 2
+              "Transformation": 2,
+              "Combat à mains nues": 2
             },
             "caractere": {
               "Peureux": 3,
@@ -2479,7 +2482,8 @@
             },
             "style-de-combat": {
               "Téléportation": 3,
-              "Pouvoir animal": 2
+              "Pouvoir animal": 2,
+              "Combat à mains nues": 2
             },
             "caractere": {
               "Calme": 2,
@@ -4800,7 +4804,8 @@
             },
             "style-de-combat": {
               "Contrôle du feu": 3,
-              "Battle IQ": 2
+              "Battle IQ": 2,
+              "Combat à mains nues": 2
             },
             "caractere": {
               "Loyal": 2
@@ -4834,6 +4839,10 @@
               "Loyal",
               "Curieux",
               "Excentrique"
+            ],
+            "style-de-combat": [
+              "Manipulation corporelle",
+              "Combat à mains nues"
             ]
           },
           "tagRarity": {
@@ -4848,6 +4857,10 @@
               "Joyeux": 2,
               "Loyal": 2,
               "Excentrique": 3
+            },
+            "style-de-combat": {
+              "Manipulation corporelle": 2,
+              "Combat à mains nues": 2
             }
           }
         },
