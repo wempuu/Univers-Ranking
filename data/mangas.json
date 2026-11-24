@@ -153,7 +153,8 @@
         "Métamorphose",
         "Super-force",
         "Séisme",
-        "Super-vitesse"
+        "Super-vitesse",
+        "Durabilité"
       ]
     },
     "caractere": {
@@ -255,7 +256,8 @@
               "Vol",
               "Pouvoir divin",
               "Frappe à distance",
-              "Super-vitesse"
+              "Super-vitesse",
+              "Durabilité"
             ],
             "caractere": [
               "Joyeux",
@@ -289,7 +291,8 @@
               "Vol": 2,
               "Pouvoir divin": 2,
               "Frappe à distance": 2,
-              "Super-vitesse": 2
+              "Super-vitesse": 2,
+              "Durabilité": 2
             },
             "caractere": {
               "Joyeux": 3,
@@ -504,7 +507,8 @@
               "Contrôle du feu",
               "Vol",
               "Combat aux jambes",
-              "Super-vitesse"
+              "Super-vitesse",
+              "Durabilité"
             ],
             "caractere": [
               "Sérieux",
@@ -533,7 +537,8 @@
             },
             "style-de-combat": {
               "Combat aux jambes": 3,
-              "Super-vitesse": 2
+              "Super-vitesse": 2,
+              "Durabilité": 2
             },
             "physique": {
               "Fumeur": 2
@@ -1184,7 +1189,8 @@
               "Arme Tranchante",
               "Combat à mains nues",
               "Super-force",
-              "Séisme"
+              "Séisme",
+              "Durabilité"
             ],
             "caractere": [
               "Charismatique",
@@ -1213,7 +1219,8 @@
             "style-de-combat": {
               "Arme Tranchante": 2,
               "Super-force": 2,
-              "Séisme": 3
+              "Séisme": 3,
+              "Durabilité": 2
             }
           }
         },
@@ -1351,7 +1358,8 @@
             "style-de-combat": [
               "Combat à mains nues",
               "Barrière / Bouclier",
-              "Super-force"
+              "Super-force",
+              "Durabilité"
             ],
             "caractere": [
               "Calme",
@@ -1367,7 +1375,8 @@
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
-              "Barrière / Bouclier": 2
+              "Barrière / Bouclier": 2,
+              "Durabilité": 3
             },
             "caractere": {
               "Loyal": 2
@@ -1711,7 +1720,8 @@
               "Contrôle du feu",
               "Pouvoir draconique",
               "Bâton",
-              "Super-force"
+              "Super-force",
+              "Durabilité"
             ],
             "caractere": [
               "Colérique",
@@ -1739,7 +1749,8 @@
               "Transformation": 2,
               "Pouvoir draconique": 3,
               "Arme contondante": 2,
-              "Bâton": 2
+              "Bâton": 2,
+              "Durabilité": 2
             },
             "caractere": {
               "Colérique": 2,
@@ -2415,7 +2426,8 @@
             "style-de-combat": [
               "Téléportation",
               "Combat à mains nues",
-              "Super-force"
+              "Super-force",
+              "Durabilité"
             ],
             "caractere": [
               "Calme",
@@ -4247,7 +4259,8 @@
             ],
             "style-de-combat": [
               "Combat à mains nues",
-              "Super-force"
+              "Super-force",
+              "Durabilité"
             ],
             "caractere": [
               "Joyeux",
@@ -5236,7 +5249,8 @@
               "Transformation",
               "Pouvoir draconique",
               "Vol",
-              "Marteau"
+              "Marteau",
+              "Durabilité"
             ],
             "caractere": [
               "Arrogant",
