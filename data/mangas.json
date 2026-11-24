@@ -359,7 +359,8 @@
               "Courageux",
               "Loyal",
               "Déterminé",
-              "Fêtard"
+              "Fêtard",
+              "Arrogant"
             ]
           },
           "tagRarity": {
@@ -2159,11 +2160,11 @@
               "Manipulation corporelle": 2
             },
             "caractere": {
-              "Arrogant": 3,
               "Manipulateur": 3,
               "Sadique": 2,
               "Stratège": 2,
-              "Charismatique": 2
+              "Charismatique": 2,
+              "Arrogant": 2
             }
           }
         },
@@ -2224,9 +2225,9 @@
               "Pouvoir Romantique": 3
             },
             "caractere": {
-              "Arrogant": 3,
               "Vaniteux": 3,
-              "Romantique": 3
+              "Romantique": 3,
+              "Arrogant": 3
             }
           }
         },
@@ -2321,7 +2322,8 @@
               "Manipulateur",
               "Déterminé",
               "Stratège",
-              "Froid"
+              "Froid",
+              "Arrogant"
             ]
           },
           "tagRarity": {
@@ -2437,7 +2439,8 @@
             ],
             "caractere": [
               "Sadique",
-              "Déterminé"
+              "Déterminé",
+              "Arrogant"
             ],
             "style-de-combat": [
               "Arme Tranchante",
@@ -2640,7 +2643,6 @@
               "Peur": 2
             },
             "caractere": {
-              "Arrogant": 2,
               "Paresseux": 2
             }
           }
@@ -2750,7 +2752,6 @@
             },
             "caractere": {
               "Colérique": 2,
-              "Arrogant": 3,
               "Sadique": 2,
               "Vengeur": 2
             }
@@ -2844,7 +2845,8 @@
               "Joyeux",
               "Loyal",
               "Impulsif",
-              "Excentrique"
+              "Excentrique",
+              "Arrogant"
             ]
           },
           "tagRarity": {
@@ -3375,9 +3377,6 @@
               "Invocation": 2,
               "Pouvoir culinaire": 3
             },
-            "caractere": {
-              "Arrogant": 2
-            },
             "physique": {
               "Cheveux violets": 2
             }
@@ -3655,7 +3654,6 @@
               "Régénération": 2
             },
             "caractere": {
-              "Arrogant": 2,
               "Sadique": 2
             }
           }
@@ -3704,9 +3702,6 @@
               "Transformation": 2,
               "Régénération": 2,
               "Vol": 2
-            },
-            "caractere": {
-              "Arrogant": 2
             }
           }
         },
@@ -3794,7 +3789,8 @@
             "caractere": [
               "Sérieux",
               "Calme",
-              "Froid"
+              "Froid",
+              "Arrogant"
             ]
           },
           "tagRarity": {
@@ -3858,9 +3854,6 @@
             "style-de-combat": {
               "Transformation": 2,
               "Régénération": 2
-            },
-            "caractere": {
-              "Arrogant": 2
             }
           }
         },
@@ -4016,7 +4009,8 @@
               "Arme Tranchante"
             ],
             "caractere": [
-              "Sadique"
+              "Sadique",
+              "Arrogant"
             ]
           },
           "tagRarity": {
@@ -4030,7 +4024,8 @@
               "Contrôle des plantes": 3
             },
             "caractere": {
-              "Sadique": 2
+              "Sadique": 2,
+              "Arrogant": 2
             },
             "physique": {
               "Cheveux roux": 2,
@@ -4776,7 +4771,8 @@
             "caractere": [
               "Sérieux",
               "Sadique",
-              "Froid"
+              "Froid",
+              "Arrogant"
             ]
           },
           "tagRarity": {
@@ -5583,7 +5579,7 @@
               "Marteau": 3
             },
             "caractere": {
-              "Arrogant": 3
+              "Arrogant": 2
             }
           }
         },
