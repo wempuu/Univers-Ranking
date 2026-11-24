@@ -187,7 +187,7 @@
         "Manipulateur",
         "Sadique",
         "Égoïste",
-        "Généreux",
+        "Altruiste",
         "Loyal",
         "Déterminé",
         "Paresseux",
@@ -643,7 +643,7 @@
               "Intelligent",
               "Naïf",
               "Loyal",
-              "Généreux",
+              "Altruiste",
               "Curieux"
             ]
           },
@@ -1637,7 +1637,7 @@
             "caractere": [
               "Peureux",
               "Naïf",
-              "Généreux"
+              "Altruiste"
             ]
           },
           "tagRarity": {
@@ -1657,8 +1657,8 @@
             },
             "caractere": {
               "Naïf": 2,
-              "Généreux": 2,
-              "Peureux": 2
+              "Peureux": 2,
+              "Altruiste": 2
             }
           }
         },
@@ -2669,7 +2669,7 @@
             ],
             "caractere": [
               "Calme",
-              "Généreux",
+              "Altruiste",
               "Mystérieux",
               "Protecteur",
               "Vengeur"
@@ -2695,8 +2695,8 @@
             },
             "caractere": {
               "Calme": 2,
-              "Généreux": 3,
-              "Protecteur": 2
+              "Protecteur": 2,
+              "Altruiste": 3
             }
           }
         },
@@ -4779,7 +4779,7 @@
             ],
             "caractere": [
               "Courageux",
-              "Généreux",
+              "Altruiste",
               "Déterminé"
             ]
           },
@@ -4928,7 +4928,7 @@
             ],
             "caractere": [
               "Intelligent",
-              "Généreux",
+              "Altruiste",
               "Curieux",
               "Excentrique"
             ]
@@ -4942,9 +4942,9 @@
             },
             "caractere": {
               "Intelligent": 3,
-              "Généreux": 2,
               "Curieux": 3,
-              "Excentrique": 3
+              "Excentrique": 3,
+              "Altruiste": 2
             }
           }
         },
@@ -5034,7 +5034,7 @@
             ],
             "caractere": [
               "Naïf",
-              "Généreux",
+              "Altruiste",
               "Protecteur",
               "Intelligent",
               "Stratège"
@@ -5050,8 +5050,8 @@
             },
             "caractere": {
               "Naïf": 2,
-              "Généreux": 2,
-              "Protecteur": 2
+              "Protecteur": 2,
+              "Altruiste": 2
             },
             "style-de-combat": {
               "Contrôle du son": 3
@@ -5362,7 +5362,7 @@
             ],
             "caractere": [
               "Courageux",
-              "Généreux",
+              "Altruiste",
               "Protecteur"
             ],
             "style-de-combat": [
@@ -5377,8 +5377,8 @@
             },
             "caractere": {
               "Courageux": 3,
-              "Généreux": 2,
-              "Protecteur": 2
+              "Protecteur": 2,
+              "Altruiste": 2
             },
             "physique": {
               "Cheveux bleus": 2,
@@ -5730,7 +5730,7 @@
               "Timide",
               "Peureux",
               "Naïf",
-              "Généreux"
+              "Altruiste"
             ]
           },
           "tagRarity": {
@@ -5750,7 +5750,7 @@
             "caractere": {
               "Timide": 3,
               "Naïf": 2,
-              "Généreux": 2
+              "Altruiste": 2
             }
           }
         },
@@ -5842,7 +5842,7 @@
               "Arme Tranchante"
             ],
             "caractere": [
-              "Généreux",
+              "Altruiste",
               "Naïf"
             ]
           },
@@ -5854,12 +5854,12 @@
               "Épée": 2,
               "Arme Tranchante": 2
             },
-            "caractere": {
-              "Généreux": 2
-            },
             "physique": {
               "Cheveux roses": 2,
               "Femme": 2
+            },
+            "caractere": {
+              "Altruiste": 2
             }
           }
         },
@@ -5884,7 +5884,7 @@
               "Médecin"
             ],
             "caractere": [
-              "Généreux",
+              "Altruiste",
               "Curieux",
               "Joyeux",
               "Intelligent"
@@ -5900,8 +5900,8 @@
               "Maître / Mentor": 2
             },
             "caractere": {
-              "Généreux": 3,
-              "Curieux": 2
+              "Curieux": 2,
+              "Altruiste": 3
             }
           }
         },
@@ -6030,7 +6030,7 @@
             "caractere": [
               "Joyeux",
               "Courageux",
-              "Généreux",
+              "Altruiste",
               "Loyal",
               "Impulsif",
               "Excentrique"
@@ -6048,9 +6048,9 @@
             "caractere": {
               "Joyeux": 2,
               "Courageux": 2,
-              "Généreux": 2,
               "Excentrique": 3,
-              "Loyal": 2
+              "Loyal": 2,
+              "Altruiste": 2
             },
             "style-de-combat": {
               "Transformation": 2,
