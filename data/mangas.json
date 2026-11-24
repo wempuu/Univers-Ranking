@@ -1635,7 +1635,8 @@
               "Déterminé",
               "Impulsif",
               "Provocateur",
-              "Vengeur"
+              "Vengeur",
+              "Sadique"
             ]
           },
           "tagRarity": {
@@ -1774,10 +1775,10 @@
             },
             "caractere": {
               "Manipulateur": 2,
-              "Sadique": 2,
               "Déterminé": 3,
               "Gourmand": 2,
-              "Fêtard": 2
+              "Fêtard": 2,
+              "Sadique": 3
             }
           }
         },
@@ -2330,7 +2331,8 @@
               "Déterminé",
               "Stratège",
               "Froid",
-              "Arrogant"
+              "Arrogant",
+              "Sadique"
             ]
           },
           "tagRarity": {
@@ -2385,7 +2387,8 @@
               "Arrogant",
               "Peureux",
               "Vaniteux",
-              "Excentrique"
+              "Excentrique",
+              "Sadique"
             ],
             "physique": [
               "Cheveux bleus",
@@ -2467,8 +2470,8 @@
               "Parent": 2
             },
             "caractere": {
-              "Sadique": 3,
-              "Déterminé": 2
+              "Déterminé": 2,
+              "Sadique": 2
             },
             "style-de-combat": {
               "Arme Tranchante": 2,
@@ -2632,7 +2635,8 @@
             "caractere": [
               "Arrogant",
               "Manipulateur",
-              "Paresseux"
+              "Paresseux",
+              "Sadique"
             ]
           },
           "tagRarity": {
@@ -2798,7 +2802,8 @@
             "caractere": [
               "Arrogant",
               "Manipulateur",
-              "Déterminé"
+              "Déterminé",
+              "Sadique"
             ]
           },
           "tagRarity": {
@@ -2981,8 +2986,8 @@
             "caractere": {
               "Colérique": 2,
               "Arrogant": 2,
-              "Sadique": 3,
-              "Vengeur": 3
+              "Vengeur": 3,
+              "Sadique": 2
             }
           }
         },
@@ -3419,7 +3424,8 @@
             ],
             "caractere": [
               "Arrogant",
-              "Loyal"
+              "Loyal",
+              "Sadique"
             ]
           },
           "tagRarity": {
@@ -3664,9 +3670,6 @@
             "style-de-combat": {
               "Transformation": 2,
               "Régénération": 2
-            },
-            "caractere": {
-              "Sadique": 2
             }
           }
         },
@@ -4081,7 +4084,8 @@
             ],
             "caractere": [
               "Arrogant",
-              "Loyal"
+              "Loyal",
+              "Sadique"
             ],
             "physique": [
               "Uniforme militaire",
@@ -4101,7 +4105,8 @@
               "Illusion": 2
             },
             "caractere": {
-              "Arrogant": 2
+              "Arrogant": 2,
+              "Sadique": 2
             }
           }
         },
@@ -4810,8 +4815,8 @@
             },
             "caractere": {
               "Sérieux": 3,
-              "Sadique": 3,
-              "Froid": 3
+              "Froid": 3,
+              "Sadique": 2
             }
           }
         },
@@ -5727,8 +5732,8 @@
             },
             "caractere": {
               "Arrogant": 2,
-              "Sadique": 3,
-              "Excentrique": 3
+              "Excentrique": 3,
+              "Sadique": 2
             },
             "physique": {
               "Cornes": 2,
