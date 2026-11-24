@@ -200,7 +200,6 @@
         "Protecteur",
         "Pessimiste",
         "Optimiste",
-        "Provocateur",
         "Perfectionniste",
         "Vaniteux",
         "Vengeur",
@@ -365,7 +364,6 @@
               "Déterminé",
               "Fêtard",
               "Arrogant",
-              "Optimiste",
               "Charismatique",
               "Égoïste",
               "Paresseux"
@@ -1686,7 +1684,6 @@
               "Arrogant",
               "Déterminé",
               "Impulsif",
-              "Provocateur",
               "Vengeur",
               "Sadique",
               "Égoïste"
@@ -1708,7 +1705,6 @@
               "Arrogant": 2,
               "Déterminé": 2,
               "Impulsif": 2,
-              "Provocateur": 2,
               "Vengeur": 2,
               "Colérique": 2
             },
@@ -3622,7 +3618,6 @@
             ],
             "caractere": [
               "Arrogant",
-              "Provocateur",
               "Impulsif"
             ]
           },
@@ -3636,9 +3631,6 @@
             "style-de-combat": {
               "Combat à mains nues": 2,
               "Super-force": 3
-            },
-            "caractere": {
-              "Provocateur": 2
             }
           }
         },
