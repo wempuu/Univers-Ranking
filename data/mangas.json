@@ -2330,8 +2330,8 @@
               "Antagoniste": 2,
               "Leader": 2,
               "Empereur": 2,
-              "Pirate": 2,
-              "Clown": 3
+              "Clown": 3,
+              "Pirate": 3
             },
             "style-de-combat": {
               "Explosions": 2,
@@ -2731,8 +2731,8 @@
             },
             "role": {
               "Leader": 2,
-              "Pirate": 2,
-              "Prisonnier": 2
+              "Prisonnier": 2,
+              "Pirate": 3
             },
             "style-de-combat": {
               "Arme Tranchante": 2,
