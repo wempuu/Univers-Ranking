@@ -724,7 +724,6 @@
             "role": {
               "Pirate": 2,
               "Allié": 2,
-              "Ennemi devenu allié": 2,
               "Fugitif": 3,
               "Orphelin": 3
             },
@@ -798,7 +797,6 @@
             "role": {
               "Pirate": 2,
               "Scientifique": 2,
-              "Ennemi devenu allié": 2,
               "Allié": 2
             },
             "style-de-combat": {
