@@ -5094,9 +5094,9 @@
               "Cornes": 2
             },
             "role": {
-              "Chef militaire": 2,
               "Gardien / Protecteur": 3,
-              "Leader": 2
+              "Leader": 2,
+              "Chef militaire": 3
             },
             "style-de-combat": {
               "Poison": 3
