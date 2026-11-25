@@ -4620,7 +4620,8 @@
             },
             "role": {
               "Soldat": 2,
-              "Chef militaire": 2
+              "Chef militaire": 2,
+              "Amiral": 3
             },
             "style-de-combat": {
               "Katana": 2,
