@@ -4717,8 +4717,8 @@
           "tagRarity": {
             "physique": {
               "Uniforme militaire": 2,
-              "Musclé": 3,
-              "Âgé": 3
+              "Âgé": 3,
+              "Musclé": 2
             },
             "role": {
               "Soldat": 2,
