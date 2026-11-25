@@ -97,7 +97,8 @@
         "Noble",
         "Tritagoniste",
         "Amiral",
-        "Noble déchu"
+        "Noble déchu",
+        "Corsaire"
       ]
     },
     "style-de-combat": {
@@ -903,7 +904,8 @@
               "Pirate",
               "Criminel",
               "Prisonnier",
-              "Esclave / Opprimé"
+              "Esclave / Opprimé",
+              "Corsaire"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -928,7 +930,8 @@
             "role": {
               "Pirate": 2,
               "Esclave / Opprimé": 2,
-              "Allié": 2
+              "Allié": 2,
+              "Corsaire": 2
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
@@ -1550,7 +1553,8 @@
               "Criminel",
               "Orphelin",
               "Rival",
-              "Élève"
+              "Élève",
+              "Corsaire"
             ],
             "style-de-combat": [
               "Katana",
@@ -1805,7 +1809,8 @@
               "Empereur",
               "Pirate",
               "Criminel",
-              "Traître"
+              "Traître",
+              "Corsaire"
             ],
             "style-de-combat": [
               "Contrôle des ténèbres",
@@ -2217,7 +2222,8 @@
               "Marchand",
               "Frère / Soeur",
               "Noble",
-              "Noble déchu"
+              "Noble déchu",
+              "Corsaire"
             ],
             "style-de-combat": [
               "Fils / Chaînes",
@@ -2247,7 +2253,8 @@
               "Leader": 2,
               "Noble": 2,
               "Criminel": 2,
-              "Noble déchu": 3
+              "Noble déchu": 3,
+              "Corsaire": 3
             },
             "style-de-combat": {
               "Fils / Chaînes": 3,
@@ -2287,7 +2294,8 @@
               "Pirate",
               "Criminel",
               "Esclave / Opprimé",
-              "Orphelin"
+              "Orphelin",
+              "Corsaire"
             ],
             "style-de-combat": [
               "Combat aux jambes",
@@ -2312,7 +2320,8 @@
               "Roi / Reine": 3,
               "Pirate": 2,
               "Esclave / Opprimé": 3,
-              "Orphelin": 2
+              "Orphelin": 2,
+              "Corsaire": 3
             },
             "style-de-combat": {
               "Combat aux jambes": 2,
@@ -2346,7 +2355,8 @@
             "role": [
               "Maître / Mentor",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Corsaire"
             ],
             "style-de-combat": [
               "Épée",
@@ -2369,7 +2379,8 @@
             },
             "role": {
               "Pirate": 2,
-              "Maître / Mentor": 2
+              "Maître / Mentor": 2,
+              "Corsaire": 3
             },
             "style-de-combat": {
               "Épée": 3,
@@ -2407,7 +2418,8 @@
               "Pirate",
               "Criminel",
               "Prisonnier",
-              "Ennemi devenu allié"
+              "Ennemi devenu allié",
+              "Corsaire"
             ],
             "style-de-combat": [
               "Arme perçante",
@@ -2437,7 +2449,8 @@
               "Pirate": 2,
               "Ennemi devenu allié": 2,
               "Antagoniste": 2,
-              "Criminel": 2
+              "Criminel": 2,
+              "Corsaire": 3
             },
             "caractere": {
               "Sérieux": 2,
@@ -2467,7 +2480,8 @@
               "Empereur",
               "Pirate",
               "Criminel",
-              "Clown"
+              "Clown",
+              "Corsaire"
             ],
             "style-de-combat": [
               "Explosions",
@@ -2659,7 +2673,8 @@
               "Esclave / Opprimé",
               "Révolutionnaire",
               "Religieux",
-              "Parent"
+              "Parent",
+              "Corsaire"
             ],
             "style-de-combat": [
               "Téléportation",
@@ -2687,7 +2702,8 @@
               "Esclave / Opprimé": 3,
               "Révolutionnaire": 2,
               "Religieux": 2,
-              "Parent": 2
+              "Parent": 2,
+              "Corsaire": 2
             },
             "style-de-combat": {
               "Téléportation": 3,
@@ -2722,7 +2738,8 @@
               "Antagoniste",
               "Leader",
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Corsaire"
             ],
             "style-de-combat": [
               "Contrôle des ténèbres",
@@ -2743,7 +2760,8 @@
             },
             "role": {
               "Antagoniste": 2,
-              "Pirate": 2
+              "Pirate": 2,
+              "Corsaire": 3
             },
             "style-de-combat": {
               "Contrôle des ténèbres": 3,
@@ -3122,7 +3140,8 @@
             ],
             "role": [
               "Pirate",
-              "Criminel"
+              "Criminel",
+              "Corsaire"
             ],
             "style-de-combat": [
               "Arme Tranchante",
@@ -3142,7 +3161,8 @@
               "Moustachu": 2
             },
             "role": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Corsaire": 2
             },
             "caractere": {
               "Colérique": 2,
