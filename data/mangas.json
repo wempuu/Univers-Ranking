@@ -1712,7 +1712,8 @@
             "role": {
               "Rival": 3,
               "Leader": 2,
-              "Pirate": 2
+              "Pirate": 2,
+              "Criminel": 2
             },
             "caractere": {
               "Arrogant": 2,
@@ -1832,7 +1833,8 @@
               "Traître": 3,
               "Pirate": 3,
               "Antagoniste": 3,
-              "Empereur": 2
+              "Empereur": 2,
+              "Criminel": 3
             },
             "style-de-combat": {
               "Contrôle des ténèbres": 3,
@@ -1913,7 +1915,8 @@
               "Pirate": 2,
               "Antagoniste": 2,
               "Parent": 2,
-              "Leader": 2
+              "Leader": 2,
+              "Criminel": 2
             },
             "style-de-combat": {
               "Vol": 2,
@@ -2241,7 +2244,8 @@
               "Frère / Soeur": 2,
               "Antagoniste": 3,
               "Leader": 2,
-              "Noble": 2
+              "Noble": 2,
+              "Criminel": 2
             },
             "style-de-combat": {
               "Fils / Chaînes": 3,
@@ -2428,7 +2432,8 @@
               "Leader": 2,
               "Pirate": 2,
               "Ennemi devenu allié": 2,
-              "Antagoniste": 2
+              "Antagoniste": 2,
+              "Criminel": 2
             },
             "caractere": {
               "Sérieux": 2,
@@ -2489,7 +2494,8 @@
               "Leader": 2,
               "Empereur": 2,
               "Clown": 3,
-              "Pirate": 3
+              "Pirate": 3,
+              "Criminel": 2
             },
             "style-de-combat": {
               "Explosions": 2,
@@ -2555,7 +2561,8 @@
             "role": {
               "Leader": 2,
               "Pirate": 2,
-              "Parent": 2
+              "Parent": 2,
+              "Criminel": 3
             },
             "caractere": {
               "Sadique": 2,
@@ -5132,7 +5139,8 @@
             "role": {
               "Leader": 3,
               "Révolutionnaire": 3,
-              "Parent": 3
+              "Parent": 3,
+              "Criminel": 2
             },
             "style-de-combat": {
               "Contrôle du vent": 3,
