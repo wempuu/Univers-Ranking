@@ -21,8 +21,8 @@ const SIMILARITY = {
   minSharedVeryRare: 1,
   // Fourchettes de score par difficulté : min inclus, max exclu (null = pas de maximum)
   difficulties: {
-    facile: { label: "Facile", min: 200, max: null },
-    difficile: { label: "Difficile", min: 100, max: 200 },
+    facile: { label: "Facile", min: 230, max: null },
+    difficile: { label: "Difficile", min: 120, max: 230 },
   },
   defaultDifficulty: "facile",
 };
