@@ -958,7 +958,6 @@
             "physique": [
               "Moustachu",
               "Couvre-chef",
-              "Cape",
               "Musclé"
             ],
             "role": [
@@ -985,8 +984,7 @@
           "tagRarity": {
             "physique": {
               "Moustachu": 3,
-              "Couvre-chef": 2,
-              "Cape": 2
+              "Couvre-chef": 2
             },
             "role": {
               "Pirate": 3,
@@ -1025,7 +1023,6 @@
               "Barbu",
               "Lunettes",
               "Cicatrice",
-              "Cape",
               "Musclé",
               "Cheveux longs"
             ],
@@ -1089,7 +1086,6 @@
             "physique": [
               "Cheveux rouges",
               "Cicatrice",
-              "Cape",
               "Prothèse / Membre manquant",
               "Musclé"
             ],
@@ -1118,8 +1114,7 @@
             "physique": {
               "Cicatrice": 3,
               "Prothèse / Membre manquant": 3,
-              "Cheveux rouges": 2,
-              "Cape": 2
+              "Cheveux rouges": 2
             },
             "role": {
               "Leader": 2,
@@ -1306,8 +1301,7 @@
               "Musclé",
               "Cheveux gris / blancs",
               "Moustachu",
-              "Cicatrice",
-              "Cape"
+              "Cicatrice"
             ],
             "role": [
               "Leader",
@@ -1336,7 +1330,6 @@
               "Moustachu": 3,
               "Grand": 2,
               "Musclé": 3,
-              "Cape": 2,
               "Âgé": 3
             },
             "role": {
@@ -1683,7 +1676,6 @@
               "Musclé",
               "Cheveux rouges",
               "Cicatrice",
-              "Cape",
               "Prothèse / Membre manquant"
             ],
             "role": [
@@ -1797,7 +1789,6 @@
               "Corpulent",
               "Barbu",
               "Couvre-chef",
-              "Cape",
               "Grand",
               "Bijoux / Piercings",
               "Cheveux longs",
@@ -1873,7 +1864,6 @@
               "Cornes",
               "Non-humain",
               "Démon",
-              "Cape",
               "Cheveux longs",
               "Âgé"
             ],
@@ -2210,7 +2200,6 @@
               "Musclé",
               "Cheveux blonds",
               "Lunettes",
-              "Cape",
               "Bijoux / Piercings"
             ],
             "role": [
@@ -2239,8 +2228,7 @@
           "tagRarity": {
             "physique": {
               "Grand": 2,
-              "Lunettes": 2,
-              "Cape": 2
+              "Lunettes": 2
             },
             "role": {
               "Pirate": 2,
@@ -2340,7 +2328,6 @@
             "physique": [
               "Moustachu",
               "Couvre-chef",
-              "Cape",
               "Yeux spéciaux",
               "Musclé",
               "Âgé"
@@ -2399,7 +2386,6 @@
           "tags": {
             "physique": [
               "Cicatrice",
-              "Cape",
               "Prothèse / Membre manquant",
               "Fumeur",
               "Musclé"
@@ -2491,7 +2477,6 @@
             "physique": [
               "Cheveux bleus",
               "Couvre-chef",
-              "Cape",
               "Tatoué"
             ]
           },
@@ -2516,7 +2501,6 @@
             },
             "physique": {
               "Couvre-chef": 2,
-              "Cape": 2,
               "Cheveux bleus": 2
             }
           }
@@ -2720,7 +2704,6 @@
             "physique": [
               "Grand",
               "Corpulent",
-              "Cape",
               "Cheveux violets"
             ],
             "role": [
@@ -3171,7 +3154,6 @@
               "Grand",
               "Cheveux roses",
               "Couvre-chef",
-              "Cape",
               "Corpulent",
               "Cheveux longs"
             ],
@@ -4051,7 +4033,6 @@
               "Cheveux gris / blancs",
               "Barbu",
               "Lunettes",
-              "Cape",
               "Musclé"
             ],
             "role": [
@@ -4078,8 +4059,7 @@
           },
           "tagRarity": {
             "physique": {
-              "Âgé": 2,
-              "Cape": 2
+              "Âgé": 2
             },
             "role": {
               "Antagoniste": 2,
@@ -4355,7 +4335,6 @@
               "Musclé",
               "Cicatrice",
               "Couvre-chef",
-              "Cape",
               "Uniforme militaire",
               "Grand",
               "Tatoué",
@@ -4382,7 +4361,6 @@
           "tagRarity": {
             "physique": {
               "Cicatrice": 2,
-              "Cape": 2,
               "Uniforme militaire": 2,
               "Fumeur": 2,
               "Grand": 2
@@ -4416,7 +4394,6 @@
           "tags": {
             "physique": [
               "Grand",
-              "Cape",
               "Uniforme militaire"
             ],
             "role": [
@@ -4439,7 +4416,6 @@
           "tagRarity": {
             "physique": {
               "Grand": 2,
-              "Cape": 2,
               "Uniforme militaire": 2
             },
             "role": {
@@ -4469,7 +4445,6 @@
             "physique": [
               "Âgé",
               "Lunettes",
-              "Cape",
               "Uniforme militaire",
               "Grand"
             ],
@@ -4491,7 +4466,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Cape": 2,
               "Uniforme militaire": 2,
               "Lunettes": 2,
               "Grand": 2
@@ -4525,7 +4499,6 @@
             "physique": [
               "Cheveux longs",
               "Lunettes",
-              "Cape",
               "Uniforme militaire",
               "Cheveux verts",
               "Grand",
@@ -4548,7 +4521,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Cape": 2,
               "Cheveux verts": 2,
               "Uniforme militaire": 2,
               "Tatoué": 2,
@@ -4581,7 +4553,6 @@
           "tags": {
             "physique": [
               "Cicatrice",
-              "Cape",
               "Uniforme militaire",
               "Tenue traditionnelle",
               "Grand",
@@ -4609,7 +4580,6 @@
           "tagRarity": {
             "physique": {
               "Cicatrice": 3,
-              "Cape": 2,
               "Uniforme militaire": 2
             },
             "role": {
@@ -4644,7 +4614,6 @@
               "Cheveux gris / blancs",
               "Barbu",
               "Lunettes",
-              "Cape",
               "Uniforme militaire",
               "Grand",
               "Musclé"
@@ -4704,7 +4673,6 @@
               "Musclé",
               "Cheveux gris / blancs",
               "Cicatrice",
-              "Cape",
               "Uniforme militaire",
               "Barbu"
             ],
@@ -4768,7 +4736,6 @@
             "physique": [
               "Musclé",
               "Cheveux roses",
-              "Cape",
               "Uniforme militaire",
               "Lunettes"
             ],
@@ -4824,7 +4791,6 @@
               "Musclé",
               "Cheveux gris / blancs",
               "Cicatrice",
-              "Cape",
               "Uniforme militaire",
               "Fumeur"
             ],
@@ -5135,7 +5101,6 @@
           "tags": {
             "physique": [
               "Tatoué",
-              "Cape",
               "Âgé"
             ],
             "role": [
@@ -5158,8 +5123,7 @@
           },
           "tagRarity": {
             "physique": {
-              "Tatoué": 2,
-              "Cape": 2
+              "Tatoué": 2
             },
             "role": {
               "Leader": 3,
@@ -5192,8 +5156,7 @@
             "physique": [
               "Cheveux blonds",
               "Cicatrice",
-              "Couvre-chef",
-              "Cape"
+              "Couvre-chef"
             ],
             "role": [
               "Allié",
@@ -6020,8 +5983,7 @@
           "group": "autres",
           "tags": {
             "physique": [
-              "Grand",
-              "Cape"
+              "Grand"
             ],
             "role": [
               "Allié",
@@ -6043,9 +6005,6 @@
             ]
           },
           "tagRarity": {
-            "physique": {
-              "Cape": 2
-            },
             "role": {
               "Allié": 2,
               "Prisonnier": 2,
