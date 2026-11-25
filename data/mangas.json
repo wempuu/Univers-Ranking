@@ -295,7 +295,6 @@
               "Protagoniste": 3,
               "Leader": 2,
               "Empereur": 2,
-              "Orphelin": 2,
               "Dieu / Divinité": 2,
               "Pirate": 3,
               "Élève": 2
@@ -528,8 +527,7 @@
               "Pirate": 2,
               "Scientifique": 2,
               "Allié": 2,
-              "Sniper": 3,
-              "Orphelin": 2
+              "Sniper": 3
             },
             "style-de-combat": {
               "Armes à distance": 3,
@@ -4424,7 +4422,7 @@
             },
             "role": {
               "Soldat": 2,
-              "Chef militaire": 3
+              "Chef militaire": 2
             },
             "style-de-combat": {
               "Contrôle de la glace": 3
@@ -4476,7 +4474,7 @@
             },
             "role": {
               "Soldat": 2,
-              "Chef militaire": 3
+              "Chef militaire": 2
             },
             "style-de-combat": {
               "Contrôle de la lumière": 3,
@@ -4533,7 +4531,7 @@
             },
             "role": {
               "Soldat": 2,
-              "Chef militaire": 3
+              "Chef militaire": 2
             },
             "style-de-combat": {
               "Contrôle des plantes": 3,
@@ -4588,7 +4586,7 @@
             },
             "role": {
               "Soldat": 2,
-              "Chef militaire": 3
+              "Chef militaire": 2
             },
             "style-de-combat": {
               "Katana": 2,
@@ -4747,8 +4745,7 @@
               "Allié",
               "Rival",
               "Élève",
-              "Soldat",
-              "Orphelin"
+              "Soldat"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -5168,7 +5165,6 @@
               "Allié",
               "Bras droit",
               "Criminel",
-              "Orphelin",
               "Révolutionnaire",
               "Frère / Soeur",
               "Élève",
@@ -5192,7 +5188,6 @@
               "Cheveux blonds": 2
             },
             "role": {
-              "Orphelin": 2,
               "Révolutionnaire": 3,
               "Bras droit": 3,
               "Frère / Soeur": 3
