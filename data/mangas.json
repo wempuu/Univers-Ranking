@@ -2156,7 +2156,6 @@
               "Âgé"
             ],
             "role": [
-              "Antagoniste",
               "Pirate",
               "Criminel"
             ],
@@ -2657,8 +2656,7 @@
               "Esclave / Opprimé",
               "Révolutionnaire",
               "Religieux",
-              "Parent",
-              "Antagoniste"
+              "Parent"
             ],
             "style-de-combat": [
               "Téléportation",
@@ -3116,7 +3114,6 @@
               "Cheveux longs"
             ],
             "role": [
-              "Antagoniste",
               "Pirate",
               "Criminel"
             ],
@@ -3426,7 +3423,6 @@
               "Tatoué"
             ],
             "role": [
-              "Antagoniste",
               "Pirate",
               "Criminel",
               "Frère / Soeur"
@@ -3797,7 +3793,6 @@
               "Âgé": 3
             },
             "role": {
-              "Antagoniste": 2,
               "Conseiller": 3,
               "Noble": 2
             },
@@ -4075,7 +4070,6 @@
               "Barbu": 2
             },
             "role": {
-              "Antagoniste": 2,
               "Leader": 2,
               "Conseiller": 3,
               "Chef militaire": 3,
@@ -4138,7 +4132,6 @@
           },
           "tagRarity": {
             "role": {
-              "Antagoniste": 2,
               "Frère / Soeur": 2,
               "Chef militaire": 3,
               "Chevalier divin": 3,
@@ -4826,7 +4819,8 @@
               "Fumeur": 3
             },
             "role": {
-              "Soldat": 3
+              "Soldat": 3,
+              "Antagoniste": 2
             },
             "style-de-combat": {
               "Contrôle de la fumée": 3
@@ -5578,7 +5572,6 @@
               "Cheveux colorés": 3
             },
             "role": {
-              "Antagoniste": 2,
               "Musicien": 3
             },
             "style-de-combat": {
