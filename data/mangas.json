@@ -1619,7 +1619,8 @@
               "Pirate",
               "Criminel",
               "Navigateur",
-              "Bras droit"
+              "Bras droit",
+              "Mascotte"
             ],
             "style-de-combat": [
               "Arts martiaux",
@@ -1640,7 +1641,8 @@
             "role": {
               "Pirate": 2,
               "Navigateur": 2,
-              "Bras droit": 2
+              "Bras droit": 2,
+              "Mascotte": 2
             },
             "style-de-combat": {
               "Arts martiaux": 2,
