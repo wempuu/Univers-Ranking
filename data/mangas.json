@@ -95,7 +95,9 @@
         "Frère / Soeur",
         "Sniper",
         "Noble",
-        "Tritagoniste"
+        "Tritagoniste",
+        "Amiral",
+        "Noble déchu"
       ]
     },
     "style-de-combat": {
@@ -557,7 +559,8 @@
               "Pirate",
               "Criminel",
               "Cuisinier",
-              "Noble"
+              "Noble",
+              "Noble déchu"
             ],
             "style-de-combat": [
               "Contrôle du feu",
@@ -1090,7 +1093,8 @@
               "Empereur",
               "Pirate",
               "Criminel",
-              "Frère / Soeur"
+              "Frère / Soeur",
+              "Noble déchu"
             ],
             "style-de-combat": [
               "Épée",
@@ -1115,7 +1119,8 @@
               "Leader": 2,
               "Empereur": 3,
               "Pirate": 2,
-              "Maître / Mentor": 2
+              "Maître / Mentor": 2,
+              "Noble déchu": 2
             },
             "style-de-combat": {
               "Épée": 2,
@@ -2211,7 +2216,8 @@
               "Criminel",
               "Marchand",
               "Frère / Soeur",
-              "Noble"
+              "Noble",
+              "Noble déchu"
             ],
             "style-de-combat": [
               "Fils / Chaînes",
@@ -2240,7 +2246,8 @@
               "Antagoniste": 3,
               "Leader": 2,
               "Noble": 2,
-              "Criminel": 2
+              "Criminel": 2,
+              "Noble déchu": 3
             },
             "style-de-combat": {
               "Fils / Chaînes": 3,
@@ -4345,7 +4352,8 @@
               "Antagoniste",
               "Leader",
               "Soldat",
-              "Chef militaire"
+              "Chef militaire",
+              "Amiral"
             ],
             "style-de-combat": [
               "Contrôle du feu"
@@ -4369,7 +4377,8 @@
               "Antagoniste": 2,
               "Soldat": 2,
               "Chef militaire": 3,
-              "Leader": 3
+              "Leader": 3,
+              "Amiral": 3
             },
             "style-de-combat": {
               "Contrôle du feu": 3
@@ -4400,7 +4409,8 @@
               "Antagoniste",
               "Soldat",
               "Chef militaire",
-              "Criminel"
+              "Criminel",
+              "Amiral"
             ],
             "style-de-combat": [
               "Contrôle de la glace",
@@ -4420,7 +4430,8 @@
             },
             "role": {
               "Soldat": 2,
-              "Chef militaire": 2
+              "Chef militaire": 2,
+              "Amiral": 3
             },
             "style-de-combat": {
               "Contrôle de la glace": 3
@@ -4451,7 +4462,8 @@
             "role": [
               "Antagoniste",
               "Soldat",
-              "Chef militaire"
+              "Chef militaire",
+              "Amiral"
             ],
             "style-de-combat": [
               "Contrôle de la lumière",
@@ -4472,7 +4484,8 @@
             },
             "role": {
               "Soldat": 2,
-              "Chef militaire": 2
+              "Chef militaire": 2,
+              "Amiral": 3
             },
             "style-de-combat": {
               "Contrôle de la lumière": 3,
@@ -4508,7 +4521,8 @@
             "role": [
               "Antagoniste",
               "Soldat",
-              "Chef militaire"
+              "Chef militaire",
+              "Amiral"
             ],
             "style-de-combat": [
               "Absorption d'énergie",
@@ -4529,7 +4543,8 @@
             },
             "role": {
               "Soldat": 2,
-              "Chef militaire": 2
+              "Chef militaire": 2,
+              "Amiral": 3
             },
             "style-de-combat": {
               "Contrôle des plantes": 3,
@@ -4561,7 +4576,8 @@
             ],
             "role": [
               "Soldat",
-              "Chef militaire"
+              "Chef militaire",
+              "Amiral"
             ],
             "style-de-combat": [
               "Katana",
@@ -4999,7 +5015,8 @@
               "Espion",
               "Traître",
               "Frère / Soeur",
-              "Noble"
+              "Noble",
+              "Noble déchu"
             ],
             "style-de-combat": [
               "Contrôle du son"
@@ -5018,7 +5035,8 @@
               "Traître": 2,
               "Maître / Mentor": 2,
               "Frère / Soeur": 2,
-              "Noble": 2
+              "Noble": 2,
+              "Noble déchu": 3
             },
             "caractere": {
               "Naïf": 2,
@@ -5166,7 +5184,8 @@
               "Révolutionnaire",
               "Frère / Soeur",
               "Élève",
-              "Noble"
+              "Noble",
+              "Noble déchu"
             ],
             "style-de-combat": [
               "Combat à mains nues",
