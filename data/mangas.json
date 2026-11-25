@@ -1949,7 +1949,8 @@
               "Cornes",
               "Non-humain",
               "Démon",
-              "Tenue traditionnelle"
+              "Tenue traditionnelle",
+              "Cheveux colorés"
             ],
             "role": [
               "Allié",
@@ -2523,7 +2524,8 @@
               "Cicatrice",
               "Cheveux bicolores",
               "Bijoux / Piercings",
-              "Âgé"
+              "Âgé",
+              "Cheveux colorés"
             ],
             "role": [
               "Leader",
@@ -5541,7 +5543,8 @@
             "physique": [
               "Femme",
               "Cheveux longs",
-              "Cheveux bicolores"
+              "Cheveux bicolores",
+              "Cheveux colorés"
             ],
             "role": [
               "Antagoniste",
@@ -6166,8 +6169,7 @@
           "name": "Sakura Haruno",
           "tags": {
             "physique": [
-              "Femme",
-              "Cheveux colorés"
+              "Femme"
             ],
             "role": [
               "Allié",
@@ -6190,7 +6192,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Cheveux colorés": 3,
               "Femme": 2
             },
             "role": {
