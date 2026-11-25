@@ -3295,7 +3295,8 @@
               "Intelligent",
               "Mystérieux",
               "Charismatique",
-              "Stratège"
+              "Stratège",
+              "Nonchalant"
             ]
           },
           "tagRarity": {
@@ -4441,7 +4442,8 @@
               "Calme",
               "Paresseux",
               "Optimiste",
-              "Protecteur"
+              "Protecteur",
+              "Nonchalant"
             ]
           },
           "tagRarity": {
@@ -4459,7 +4461,8 @@
             },
             "caractere": {
               "Calme": 3,
-              "Paresseux": 3
+              "Paresseux": 3,
+              "Nonchalant": 2
             }
           }
         },
@@ -4494,7 +4497,8 @@
               "Super-vitesse"
             ],
             "caractere": [
-              "Calme"
+              "Calme",
+              "Nonchalant"
             ]
           },
           "tagRarity": {
@@ -4515,7 +4519,8 @@
               "Super-vitesse": 3
             },
             "caractere": {
-              "Calme": 2
+              "Calme": 2,
+              "Nonchalant": 3
             }
           }
         },
@@ -5543,7 +5548,8 @@
               "Sadique",
               "Égoïste",
               "Excentrique",
-              "Charismatique"
+              "Charismatique",
+              "Nonchalant"
             ]
           },
           "tagRarity": {
@@ -5561,7 +5567,8 @@
               "Arrogant": 3,
               "Sadique": 2,
               "Égoïste": 2,
-              "Excentrique": 2
+              "Excentrique": 2,
+              "Nonchalant": 2
             }
           }
         },
