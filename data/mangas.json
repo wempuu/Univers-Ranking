@@ -447,7 +447,9 @@
               "Loyal",
               "Colérique",
               "Curieux",
-              "Pessimiste"
+              "Pessimiste",
+              "Protecteur",
+              "Courageux"
             ]
           },
           "tagRarity": {
@@ -476,7 +478,8 @@
               "Intelligent": 2,
               "Colérique": 2,
               "Égoïste": 3,
-              "Pessimiste": 2
+              "Pessimiste": 2,
+              "Courageux": 2
             }
           }
         },
@@ -516,7 +519,8 @@
               "Menteur",
               "Loyal",
               "Stratège",
-              "Pessimiste"
+              "Pessimiste",
+              "Courageux"
             ]
           },
           "tagRarity": {
@@ -538,7 +542,8 @@
               "Joyeux": 2,
               "Peureux": 3,
               "Menteur": 3,
-              "Pessimiste": 2
+              "Pessimiste": 2,
+              "Courageux": 2
             }
           }
         },
