@@ -5541,7 +5541,8 @@
               "Prémonition",
               "Arme contondante",
               "Bâton",
-              "Super-vitesse"
+              "Super-vitesse",
+              "Laser"
             ],
             "caractere": [
               "Arrogant",
@@ -5561,7 +5562,8 @@
             "style-de-combat": {
               "Contrôle de la foudre": 3,
               "Prémonition": 3,
-              "Super-vitesse": 3
+              "Super-vitesse": 3,
+              "Laser": 2
             },
             "caractere": {
               "Arrogant": 3,
