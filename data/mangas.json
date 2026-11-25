@@ -93,7 +93,8 @@
         "Parent",
         "Frère / Soeur",
         "Sniper",
-        "Noble"
+        "Noble",
+        "Tritagoniste"
       ]
     },
     "style-de-combat": {
@@ -427,7 +428,8 @@
               "Criminel",
               "Navigateur",
               "Orphelin",
-              "Deutéragoniste"
+              "Deutéragoniste",
+              "Tritagoniste"
             ],
             "style-de-combat": [
               "Contrôle de la foudre",
@@ -459,7 +461,8 @@
               "Pirate": 2,
               "Navigateur": 3,
               "Allié": 2,
-              "Orphelin": 2
+              "Orphelin": 2,
+              "Tritagoniste": 3
             },
             "style-de-combat": {
               "Contrôle du vent": 2,
