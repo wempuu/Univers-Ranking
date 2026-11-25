@@ -6105,7 +6105,6 @@
           "name": "Sasuke Uchiha",
           "tags": {
             "physique": [
-              "Cape",
               "Yeux spéciaux",
               "Prothèse / Membre manquant"
             ],
@@ -6139,8 +6138,7 @@
           "tagRarity": {
             "physique": {
               "Yeux spéciaux": 3,
-              "Prothèse / Membre manquant": 3,
-              "Cape": 2
+              "Prothèse / Membre manquant": 3
             },
             "role": {
               "Rival": 3,
