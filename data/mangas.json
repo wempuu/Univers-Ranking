@@ -289,7 +289,7 @@
           "tagRarity": {
             "physique": {
               "Couvre-chef": 3,
-              "Cicatrice": 3
+              "Cicatrice": 2
             },
             "role": {
               "Protagoniste": 3,
@@ -455,8 +455,8 @@
           "tagRarity": {
             "physique": {
               "Cheveux roux": 2,
-              "Femme": 2,
-              "Tatoué": 3
+              "Tatoué": 3,
+              "Femme": 3
             },
             "role": {
               "Pirate": 2,
@@ -606,7 +606,8 @@
               "Durabilité": 2
             },
             "physique": {
-              "Fumeur": 3
+              "Fumeur": 3,
+              "Cheveux blonds": 2
             }
           }
         },
@@ -742,7 +743,7 @@
               "Pouvoir démoniaque": 2
             },
             "physique": {
-              "Femme": 2
+              "Femme": 3
             }
           }
         },
@@ -924,8 +925,8 @@
           "tagRarity": {
             "physique": {
               "Tatoué": 2,
-              "Non-humain": 3,
-              "Peau colorée": 2
+              "Peau colorée": 2,
+              "Non-humain": 2
             },
             "role": {
               "Pirate": 2,
@@ -1392,7 +1393,8 @@
           "tagRarity": {
             "physique": {
               "Tatoué": 2,
-              "Ailes": 2
+              "Ailes": 2,
+              "Cheveux blonds": 2
             },
             "role": {
               "Bras droit": 3,
@@ -1576,7 +1578,7 @@
           "tagRarity": {
             "physique": {
               "Couvre-chef": 2,
-              "Tatoué": 2
+              "Tatoué": 3
             },
             "role": {
               "Médecin": 3,
@@ -1760,7 +1762,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Masque": 3
+              "Masque": 3,
+              "Cheveux blonds": 2
             },
             "role": {
               "Bras droit": 3,
@@ -1900,7 +1903,6 @@
           "tagRarity": {
             "physique": {
               "Cornes": 3,
-              "Non-humain": 2,
               "Démon": 3,
               "Grand": 2,
               "Musclé": 3,
@@ -2228,7 +2230,8 @@
           "tagRarity": {
             "physique": {
               "Grand": 2,
-              "Lunettes": 2
+              "Lunettes": 2,
+              "Cheveux blonds": 2
             },
             "role": {
               "Pirate": 2,
@@ -2293,8 +2296,8 @@
           "tagRarity": {
             "physique": {
               "Tatoué": 2,
-              "Femme": 2,
-              "Bijoux / Piercings": 2
+              "Bijoux / Piercings": 2,
+              "Femme": 3
             },
             "role": {
               "Leader": 2,
@@ -2328,7 +2331,6 @@
             "physique": [
               "Moustachu",
               "Couvre-chef",
-              "Yeux spéciaux",
               "Musclé",
               "Âgé"
             ],
@@ -2833,8 +2835,8 @@
           "tagRarity": {
             "physique": {
               "Tatoué": 2,
-              "Non-humain": 3,
-              "Peau colorée": 2
+              "Peau colorée": 2,
+              "Non-humain": 2
             },
             "role": {
               "Leader": 2,
@@ -2894,7 +2896,8 @@
           "tagRarity": {
             "physique": {
               "Prothèse / Membre manquant": 2,
-              "Fumeur": 2
+              "Fumeur": 2,
+              "Cheveux blonds": 2
             },
             "role": {
               "Leader": 2,
@@ -3063,8 +3066,9 @@
           },
           "tagRarity": {
             "physique": {
-              "Non-humain": 3,
-              "Peau colorée": 2
+              "Peau colorée": 2,
+              "Cheveux gris / blancs": 2,
+              "Non-humain": 2
             },
             "role": {
               "Pirate": 2,
@@ -3121,8 +3125,8 @@
             "physique": {
               "Grand": 2,
               "Corpulent": 2,
-              "Moustachu": 3,
-              "Musclé": 3
+              "Musclé": 3,
+              "Moustachu": 2
             },
             "role": {
               "Pirate": 2
@@ -3537,7 +3541,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Tatoué": 2
+              "Tatoué": 2,
+              "Cheveux blonds": 2
             },
             "role": {
               "Pirate": 2,
@@ -3673,7 +3678,6 @@
               "Cheveux longs",
               "Cornes",
               "Non-humain",
-              "Yeux spéciaux",
               "Cheveux gris / blancs",
               "Grand",
               "Musclé",
@@ -3712,8 +3716,7 @@
               "Cornes": 3,
               "Non-humain": 2,
               "Cheveux gris / blancs": 2,
-              "Grand": 3,
-              "Yeux spéciaux": 2
+              "Grand": 3
             },
             "role": {
               "Roi / Reine": 3,
@@ -3835,8 +3838,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Barbu": 2,
-              "Âgé": 3
+              "Âgé": 3,
+              "Barbu": 2
             },
             "role": {
               "Conseiller": 3,
@@ -4059,7 +4062,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Âgé": 2
+              "Âgé": 2,
+              "Barbu": 2
             },
             "role": {
               "Antagoniste": 2,
@@ -4144,7 +4148,8 @@
               "Froid": 2
             },
             "physique": {
-              "Cheveux rouges": 2
+              "Cheveux rouges": 2,
+              "Uniforme militaire": 2
             }
           }
         },
@@ -4162,8 +4167,7 @@
             "physique": [
               "Cheveux longs",
               "Barbu",
-              "Cheveux roux",
-              "Uniforme militaire"
+              "Cheveux roux"
             ],
             "role": [
               "Antagoniste",
@@ -4241,7 +4245,6 @@
               "Provocateur"
             ],
             "physique": [
-              "Uniforme militaire",
               "Cornes"
             ]
           },
@@ -4279,8 +4282,7 @@
               "Femme",
               "Couvre-chef",
               "Masque",
-              "Cheveux bleus",
-              "Uniforme militaire"
+              "Cheveux bleus"
             ],
             "role": [
               "Antagoniste",
@@ -5123,7 +5125,7 @@
           },
           "tagRarity": {
             "physique": {
-              "Tatoué": 2
+              "Tatoué": 3
             },
             "role": {
               "Leader": 3,
@@ -5182,7 +5184,8 @@
           "tagRarity": {
             "physique": {
               "Cicatrice": 2,
-              "Couvre-chef": 2
+              "Couvre-chef": 2,
+              "Cheveux blonds": 2
             },
             "role": {
               "Orphelin": 2,
@@ -5611,7 +5614,8 @@
           "tagRarity": {
             "physique": {
               "Animal anthropomorphe": 3,
-              "Femme": 2
+              "Femme": 2,
+              "Non-humain": 2
             },
             "style-de-combat": {
               "Transformation": 2,
