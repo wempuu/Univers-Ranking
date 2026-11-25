@@ -45,7 +45,8 @@
         "Prothèse / Membre manquant",
         "Tenue traditionnelle",
         "Peau colorée",
-        "Fumeur"
+        "Fumeur",
+        "Homme-poisson"
       ]
     },
     "role": {
@@ -891,7 +892,8 @@
               "Non-humain",
               "Peau colorée",
               "Corpulent",
-              "Cheveux longs"
+              "Cheveux longs",
+              "Homme-poisson"
             ],
             "role": [
               "Allié",
@@ -917,7 +919,8 @@
             "physique": {
               "Tatoué": 2,
               "Peau colorée": 2,
-              "Non-humain": 2
+              "Non-humain": 2,
+              "Homme-poisson": 3
             },
             "role": {
               "Pirate": 2,
@@ -2810,7 +2813,8 @@
               "Musclé",
               "Tatoué",
               "Non-humain",
-              "Peau colorée"
+              "Peau colorée",
+              "Homme-poisson"
             ],
             "role": [
               "Antagoniste",
@@ -2836,7 +2840,8 @@
             "physique": {
               "Tatoué": 2,
               "Peau colorée": 2,
-              "Non-humain": 2
+              "Non-humain": 2,
+              "Homme-poisson": 3
             },
             "role": {
               "Leader": 2,
@@ -3043,7 +3048,8 @@
               "Peau colorée",
               "Cheveux gris / blancs",
               "Tatoué",
-              "Cheveux longs"
+              "Cheveux longs",
+              "Homme-poisson"
             ],
             "role": [
               "Antagoniste",
@@ -3068,7 +3074,8 @@
             "physique": {
               "Peau colorée": 2,
               "Cheveux gris / blancs": 2,
-              "Non-humain": 2
+              "Non-humain": 2,
+              "Homme-poisson": 3
             },
             "role": {
               "Pirate": 2,
