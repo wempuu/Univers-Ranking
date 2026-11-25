@@ -155,7 +155,6 @@
         "Marteau",
         "Pétrification",
         "Pouvoir Romantique",
-        "Frappe à distance",
         "Chronomorphose",
         "Métamorphose",
         "Super-force",
@@ -269,7 +268,6 @@
               "Pouvoir élastique",
               "Vol",
               "Pouvoir divin",
-              "Frappe à distance",
               "Super-vitesse",
               "Durabilité"
             ],
@@ -306,7 +304,6 @@
               "Transformation": 2,
               "Vol": 2,
               "Pouvoir divin": 2,
-              "Frappe à distance": 2,
               "Super-vitesse": 2,
               "Durabilité": 2
             },
@@ -435,8 +432,7 @@
               "Contrôle de la météo",
               "Arme contondante",
               "Bâton",
-              "Battle IQ",
-              "Contrôle de la fumée"
+              "Battle IQ"
             ],
             "caractere": [
               "Sérieux",
@@ -469,8 +465,7 @@
               "Contrôle de la foudre": 2,
               "Contrôle de la météo": 3,
               "Bâton": 2,
-              "Battle IQ": 2,
-              "Contrôle de la fumée": 2
+              "Battle IQ": 2
             },
             "caractere": {
               "Peureux": 2,
@@ -2285,7 +2280,8 @@
             "style-de-combat": [
               "Combat aux jambes",
               "Pétrification",
-              "Pouvoir Romantique"
+              "Pouvoir Romantique",
+              "Manipulation mentale"
             ],
             "caractere": [
               "Arrogant",
@@ -2309,7 +2305,8 @@
             "style-de-combat": {
               "Combat aux jambes": 2,
               "Pétrification": 2,
-              "Pouvoir Romantique": 3
+              "Pouvoir Romantique": 3,
+              "Manipulation mentale": 2
             },
             "caractere": {
               "Romantique": 3,
@@ -2462,7 +2459,6 @@
             ],
             "style-de-combat": [
               "Explosions",
-              "Frappe à distance",
               "Arme Tranchante"
             ],
             "caractere": [
@@ -2493,8 +2489,7 @@
               "Criminel": 2
             },
             "style-de-combat": {
-              "Explosions": 2,
-              "Frappe à distance": 2
+              "Explosions": 2
             },
             "caractere": {
               "Joyeux": 2,
@@ -3253,8 +3248,7 @@
               "Arme perçante",
               "Pouvoir culinaire",
               "Pouvoir élastique",
-              "Super-vitesse",
-              "Frappe à distance"
+              "Super-vitesse"
             ],
             "caractere": [
               "Calme",
@@ -3283,8 +3277,7 @@
               "Battle IQ": 2,
               "Arme perçante": 2,
               "Pouvoir élastique": 2,
-              "Pouvoir culinaire": 3,
-              "Frappe à distance": 2
+              "Pouvoir culinaire": 3
             },
             "caractere": {
               "Calme": 2,
@@ -3528,8 +3521,7 @@
             ],
             "style-de-combat": [
               "Combat à mains nues",
-              "Super-vitesse",
-              "Frappe à distance"
+              "Super-vitesse"
             ],
             "caractere": [
               "Arrogant",
@@ -3551,8 +3543,7 @@
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
-              "Super-vitesse": 2,
-              "Frappe à distance": 2
+              "Super-vitesse": 2
             },
             "caractere": {
               "Arrogant": 2,
