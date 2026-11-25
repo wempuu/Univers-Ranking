@@ -4510,7 +4510,8 @@
             "role": {
               "Soldat": 2,
               "Chef militaire": 2,
-              "Amiral": 3
+              "Amiral": 3,
+              "Antagoniste": 2
             },
             "style-de-combat": {
               "Contrôle de la lumière": 3,
@@ -5123,7 +5124,8 @@
             "role": {
               "Gardien / Protecteur": 3,
               "Leader": 2,
-              "Chef militaire": 3
+              "Chef militaire": 3,
+              "Antagoniste": 2
             },
             "style-de-combat": {
               "Poison": 3
