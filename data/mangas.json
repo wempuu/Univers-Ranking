@@ -294,11 +294,11 @@
             },
             "role": {
               "Protagoniste": 3,
-              "Leader": 2,
               "Empereur": 2,
               "Dieu / Divinité": 2,
               "Pirate": 3,
-              "Élève": 2
+              "Élève": 2,
+              "Leader": 3
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
