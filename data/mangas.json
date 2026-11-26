@@ -20,7 +20,6 @@
         "Cheveux bleus",
         "Cheveux roses",
         "Cheveux violets",
-        "Cheveux bicolores",
         "Cheveux colorés",
         "Barbu",
         "Moustachu",
@@ -2194,10 +2193,10 @@
               "Musclé": 2
             },
             "role": {
-              "Antagoniste": 2,
               "Parent": 2,
               "Leader": 2,
-              "Criminel": 2
+              "Criminel": 2,
+              "Antagoniste": 3
             },
             "style-de-combat": {
               "Vol": 2,
@@ -2236,7 +2235,6 @@
           "tags": {
             "physique": [
               "Grand",
-              "Cheveux bicolores",
               "Cornes",
               "Non-humain",
               "Démon",
@@ -2275,8 +2273,7 @@
             "physique": {
               "Cornes": 3,
               "Démon": 2,
-              "Tenue traditionnelle": 2,
-              "Cheveux bicolores": 2
+              "Tenue traditionnelle": 2
             },
             "style-de-combat": {
               "Contrôle de la glace": 2,
@@ -2785,8 +2782,8 @@
             "role": {
               "Leader": 2,
               "Ennemi devenu allié": 2,
-              "Antagoniste": 2,
-              "Criminel": 2
+              "Criminel": 2,
+              "Antagoniste": 3
             },
             "caractere": {
               "Sérieux": 2,
@@ -2893,7 +2890,6 @@
             "physique": [
               "Musclé",
               "Cicatrice",
-              "Cheveux bicolores",
               "Bijoux / Piercings",
               "Âgé",
               "Cheveux colorés"
@@ -2925,8 +2921,7 @@
           "tagRarity": {
             "physique": {
               "Musclé": 2,
-              "Cicatrice": 2,
-              "Cheveux bicolores": 2
+              "Cicatrice": 2
             },
             "role": {
               "Leader": 2,
@@ -3781,8 +3776,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Yeux spéciaux": 2,
-              "Femme": 2
+              "Femme": 2,
+              "Yeux spéciaux": 3
             },
             "role": {
               "Ennemi devenu allié": 2,
@@ -4172,7 +4167,8 @@
               "Grand",
               "Musclé",
               "Tatoué",
-              "Âgé"
+              "Âgé",
+              "Démon"
             ],
             "role": [
               "Antagoniste",
@@ -4209,7 +4205,8 @@
               "Non-humain": 2,
               "Cheveux gris / blancs": 2,
               "Cornes": 2,
-              "Grand": 2
+              "Grand": 2,
+              "Démon": 2
             },
             "role": {
               "Roi / Reine": 3,
@@ -6266,7 +6263,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Cheveux bicolores",
               "Cheveux colorés"
             ],
             "role": [
@@ -6292,7 +6288,6 @@
           "tagRarity": {
             "physique": {
               "Femme": 2,
-              "Cheveux bicolores": 3,
               "Cheveux colorés": 3
             },
             "role": {
@@ -7043,7 +7038,6 @@
               "Peau colorée"
             ],
             "role": [
-              "Antagoniste",
               "Allié",
               "Maître / Mentor",
               "Ennemi devenu allié"
@@ -7337,7 +7331,7 @@
           },
           "tagRarity": {
             "physique": {
-              "Cicatrice": 3
+              "Cicatrice": 2
             },
             "role": {
               "Ennemi devenu allié": 2
@@ -7404,7 +7398,6 @@
               "Cyborg / Robot"
             ],
             "role": [
-              "Antagoniste",
               "Allié",
               "Ennemi devenu allié",
               "Parent",
@@ -7460,7 +7453,6 @@
               "Cyborg / Robot"
             ],
             "role": [
-              "Antagoniste",
               "Gardien / Protecteur",
               "Ennemi devenu allié",
               "Frère / Soeur"
@@ -7796,9 +7788,9 @@
               "Non-humain": 3
             },
             "role": {
-              "Antagoniste": 2,
               "Leader": 3,
-              "Criminel": 2
+              "Criminel": 2,
+              "Antagoniste": 3
             },
             "style-de-combat": {
               "Transformation": 3,
@@ -7864,7 +7856,7 @@
               "Peau colorée": 2
             },
             "role": {
-              "Antagoniste": 2
+              "Antagoniste": 3
             },
             "style-de-combat": {
               "Absorption d'énergie": 3,
@@ -7929,8 +7921,8 @@
               "Non-humain": 2
             },
             "role": {
-              "Antagoniste": 2,
-              "Ennemi devenu allié": 2
+              "Ennemi devenu allié": 2,
+              "Antagoniste": 3
             },
             "style-de-combat": {
               "Régénération": 3,
@@ -8088,9 +8080,9 @@
           "tagRarity": {
             "physique": {
               "Chauve": 3,
-              "Moustachu": 3,
               "Grand": 2,
-              "Musclé": 3
+              "Musclé": 3,
+              "Moustachu": 2
             },
             "role": {
               "Antagoniste": 2,
@@ -8271,7 +8263,6 @@
               "Cyborg / Robot"
             ],
             "role": [
-              "Antagoniste",
               "Ennemi devenu allié"
             ],
             "style-de-combat": [
@@ -8291,8 +8282,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Grand": 3,
-              "Cyborg / Robot": 3
+              "Cyborg / Robot": 3,
+              "Grand": 2
             },
             "role": {
               "Ennemi devenu allié": 2
@@ -8403,9 +8394,9 @@
           },
           "tagRarity": {
             "physique": {
-              "Grand": 3,
               "Musclé": 3,
-              "Bijoux / Piercings": 2
+              "Bijoux / Piercings": 2,
+              "Grand": 2
             },
             "role": {
               "Antagoniste": 2
@@ -8606,7 +8597,8 @@
               "Non-humain": 2
             },
             "role": {
-              "Dieu / Divinité": 3
+              "Dieu / Divinité": 3,
+              "Antagoniste": 2
             },
             "style-de-combat": {
               "Pouvoir divin": 3,
@@ -9834,7 +9826,6 @@
               "Yeux spéciaux"
             ],
             "role": [
-              "Antagoniste",
               "Allié",
               "Rival",
               "Soldat",
@@ -10874,11 +10865,11 @@
               "Cape": 2
             },
             "role": {
-              "Antagoniste": 2,
               "Leader": 3,
               "Criminel": 2,
               "Orphelin": 2,
-              "Dieu / Divinité": 2
+              "Dieu / Divinité": 2,
+              "Antagoniste": 3
             },
             "style-de-combat": {
               "Invocation": 2,
@@ -11291,9 +11282,9 @@
               "Yeux spéciaux": 3
             },
             "role": {
-              "Antagoniste": 2,
               "Leader": 2,
-              "Traître": 2
+              "Traître": 2,
+              "Antagoniste": 3
             },
             "style-de-combat": {
               "Illusion": 2,
@@ -11380,7 +11371,6 @@
               "Tatoué"
             ],
             "role": [
-              "Antagoniste",
               "Allié",
               "Leader",
               "Soldat",
@@ -11741,12 +11731,12 @@
               "Cheveux longs": 2
             },
             "role": {
-              "Antagoniste": 2,
               "Maître / Mentor": 2,
               "Criminel": 2,
               "Scientifique": 3,
               "Traître": 2,
-              "Fugitif": 2
+              "Fugitif": 2,
+              "Antagoniste": 3
             },
             "style-de-combat": {
               "Invocation": 2,
@@ -11858,9 +11848,9 @@
               "Yeux spéciaux": 3
             },
             "role": {
-              "Antagoniste": 2,
               "Rival": 2,
-              "Leader": 2
+              "Leader": 2,
+              "Antagoniste": 3
             },
             "style-de-combat": {
               "Illusion": 2,
@@ -12338,8 +12328,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Grand": 3,
-              "Musclé": 2
+              "Musclé": 2,
+              "Grand": 2
             },
             "role": {
               "Allié": 2
@@ -13155,10 +13145,10 @@
           },
           "tagRarity": {
             "physique": {
-              "Grand": 3,
               "Non-humain": 2,
               "Animal anthropomorphe": 3,
-              "Tenue traditionnelle": 2
+              "Tenue traditionnelle": 2,
+              "Grand": 2
             },
             "style-de-combat": {
               "Invocation": 2,
@@ -13387,9 +13377,9 @@
               "Tenue traditionnelle": 2
             },
             "role": {
-              "Antagoniste": 2,
               "Leader": 2,
-              "Traître": 3
+              "Traître": 3,
+              "Antagoniste": 3
             },
             "style-de-combat": {
               "Katana": 2,
@@ -13975,9 +13965,9 @@
           },
           "tagRarity": {
             "physique": {
-              "Grand": 3,
               "Borgne": 3,
-              "Non-humain": 2
+              "Non-humain": 2,
+              "Grand": 2
             },
             "role": {
               "Antagoniste": 2,
@@ -14091,9 +14081,9 @@
             "physique": {
               "Âgé": 3,
               "Barbu": 2,
-              "Squelette": 2,
               "Couvre-chef": 2,
-              "Non-humain": 2
+              "Non-humain": 2,
+              "Squelette": 3
             },
             "role": {
               "Antagoniste": 2,
@@ -14676,7 +14666,7 @@
           "tagRarity": {
             "physique": {
               "Femme": 2,
-              "Prothèse / Membre manquant": 3
+              "Prothèse / Membre manquant": 2
             },
             "role": {
               "Noble": 2,
@@ -15819,7 +15809,7 @@
           },
           "tagRarity": {
             "physique": {
-              "Tenue traditionnelle": 3
+              "Tenue traditionnelle": 2
             },
             "role": {
               "Assassin": 3,
@@ -17053,7 +17043,7 @@
           },
           "tagRarity": {
             "physique": {
-              "Moustachu": 3
+              "Moustachu": 2
             },
             "caractere": {
               "Calme": 2
