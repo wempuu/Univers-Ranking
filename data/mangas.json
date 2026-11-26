@@ -9495,6 +9495,62 @@
               "Solitaire": 2
             }
           }
+        },
+        {
+          "name": "Gogeta",
+          "group": "autres",
+          "tags": {
+            "physique": [
+              "Musclé",
+              "Non-humain"
+            ],
+            "role": [
+              "Allié",
+              "Fusion"
+            ],
+            "style-de-combat": [
+              "Arts martiaux",
+              "Transformation",
+              "Laser",
+              "Super-force",
+              "Super-vitesse",
+              "Battle IQ"
+            ],
+            "caractere": [
+              "Calme",
+              "Arrogant",
+              "Provocateur"
+            ],
+            "univers": [
+              "Saiyan",
+              "Super Saiyan"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Musclé": 2
+            },
+            "role": {
+              "Fusion": 3
+            },
+            "style-de-combat": {
+              "Arts martiaux": 2,
+              "Transformation": 2,
+              "Laser": 2,
+              "Super-force": 2,
+              "Super-vitesse": 2,
+              "Battle IQ": 2
+            },
+            "caractere": {
+              "Calme": 2,
+              "Arrogant": 2,
+              "Provocateur": 2
+            },
+            "univers": {
+              "Saiyan": 2,
+              "Super Saiyan": 2
+            }
+          }
         }
       ]
     },
