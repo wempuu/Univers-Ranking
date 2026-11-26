@@ -7826,6 +7826,96 @@
           }
         },
         {
+          "name": "Pan",
+          "group": "guerriers",
+          "tags": {
+            "physique": [
+              "Femme",
+              "Enfant",
+              "Couvre-chef"
+            ],
+            "role": [
+              "Allié"
+            ],
+            "style-de-combat": [
+              "Arts martiaux",
+              "Vol",
+              "Super-force"
+            ],
+            "caractere": [
+              "Joyeux",
+              "Courageux",
+              "Déterminé",
+              "Impulsif"
+            ],
+            "univers": [
+              "Saiyan"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Femme": 2,
+              "Enfant": 3,
+              "Couvre-chef": 2
+            },
+            "role": {
+              "Allié": 2
+            },
+            "style-de-combat": {
+              "Arts martiaux": 2,
+              "Vol": 2
+            },
+            "caractere": {
+              "Courageux": 2,
+              "Impulsif": 2
+            }
+          }
+        },
+        {
+          "name": "Uub",
+          "group": "guerriers",
+          "tags": {
+            "physique": [
+              "Enfant"
+            ],
+            "role": [
+              "Allié",
+              "Élève"
+            ],
+            "style-de-combat": [
+              "Arts martiaux",
+              "Super-force",
+              "Super-vitesse"
+            ],
+            "caractere": [
+              "Timide",
+              "Courageux",
+              "Altruiste"
+            ],
+            "univers": [
+              "Majin"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Enfant": 2
+            },
+            "role": {
+              "Élève": 3
+            },
+            "style-de-combat": {
+              "Arts martiaux": 3
+            },
+            "caractere": {
+              "Timide": 2,
+              "Altruiste": 2
+            },
+            "univers": {
+              "Majin": 2
+            }
+          }
+        },
+        {
           "name": "Freezer",
           "group": "mechants",
           "tags": {
@@ -8666,6 +8756,176 @@
           }
         },
         {
+          "name": "Black Goku",
+          "group": "mechants",
+          "tags": {
+            "physique": [
+              "Musclé",
+              "Bijoux / Piercings",
+              "Non-humain"
+            ],
+            "role": [
+              "Antagoniste",
+              "Dieu / Divinité",
+              "Fusion"
+            ],
+            "style-de-combat": [
+              "Arts martiaux",
+              "Arme Tranchante",
+              "Transformation",
+              "Contrôle du temps",
+              "Laser"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Sadique",
+              "Perfectionniste",
+              "Froid",
+              "Fanatique"
+            ],
+            "univers": [
+              "Saiyan",
+              "Super Saiyan",
+              "Kaioshin"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Bijoux / Piercings": 2
+            },
+            "role": {
+              "Antagoniste": 2,
+              "Dieu / Divinité": 2,
+              "Fusion": 2
+            },
+            "style-de-combat": {
+              "Arts martiaux": 2,
+              "Arme Tranchante": 2,
+              "Transformation": 2,
+              "Laser": 2
+            },
+            "caractere": {
+              "Arrogant": 3,
+              "Sadique": 2,
+              "Froid": 2,
+              "Fanatique": 2
+            },
+            "univers": {
+              "Kaioshin": 3,
+              "Saiyan": 2,
+              "Super Saiyan": 2
+            }
+          }
+        },
+        {
+          "name": "Moro",
+          "group": "mechants",
+          "tags": {
+            "physique": [
+              "Âgé",
+              "Barbu",
+              "Cornes",
+              "Animal anthropomorphe"
+            ],
+            "role": [
+              "Antagoniste",
+              "Criminel",
+              "Prisonnier",
+              "Fugitif",
+              "Extraterrestre"
+            ],
+            "style-de-combat": [
+              "Magie",
+              "Télékinésie",
+              "Absorption d'énergie",
+              "Copie"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Manipulateur",
+              "Sadique",
+              "Égoïste"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Âgé": 2,
+              "Barbu": 2,
+              "Cornes": 2,
+              "Animal anthropomorphe": 2
+            },
+            "role": {
+              "Antagoniste": 2,
+              "Criminel": 3,
+              "Prisonnier": 2,
+              "Fugitif": 2,
+              "Extraterrestre": 2
+            },
+            "style-de-combat": {
+              "Magie": 2,
+              "Absorption d'énergie": 3,
+              "Copie": 2
+            },
+            "caractere": {
+              "Arrogant": 2,
+              "Manipulateur": 2,
+              "Sadique": 2,
+              "Égoïste": 2
+            }
+          }
+        },
+        {
+          "name": "Gas",
+          "group": "mechants",
+          "tags": {
+            "physique": [
+              "Musclé",
+              "Non-humain",
+              "Peau colorée"
+            ],
+            "role": [
+              "Antagoniste",
+              "Frère / Soeur",
+              "Organisation",
+              "Mafia / Pègre",
+              "Extraterrestre"
+            ],
+            "style-de-combat": [
+              "Super-force",
+              "Super-vitesse",
+              "Durabilité"
+            ],
+            "caractere": [
+              "Colérique",
+              "Arrogant",
+              "Loyal"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Musclé": 2,
+              "Non-humain": 2,
+              "Peau colorée": 2
+            },
+            "role": {
+              "Antagoniste": 2,
+              "Frère / Soeur": 2,
+              "Organisation": 2,
+              "Mafia / Pègre": 2,
+              "Extraterrestre": 2
+            },
+            "style-de-combat": {
+              "Super-force": 3,
+              "Super-vitesse": 2,
+              "Durabilité": 2
+            },
+            "caractere": {
+              "Colérique": 2,
+              "Arrogant": 2
+            }
+          }
+        },
+        {
           "name": "Beerus",
           "group": "dieux",
           "tags": {
@@ -9064,6 +9324,129 @@
               "Naïf": 3,
               "Joyeux": 2,
               "Curieux": 2
+            }
+          }
+        },
+        {
+          "name": "Champa",
+          "group": "dieux",
+          "tags": {
+            "physique": [
+              "Corpulent",
+              "Bijoux / Piercings",
+              "Queue",
+              "Animal anthropomorphe",
+              "Tenue traditionnelle"
+            ],
+            "role": [
+              "Antagoniste",
+              "Rival",
+              "Dieu / Divinité",
+              "Frère / Soeur"
+            ],
+            "style-de-combat": [
+              "Explosions",
+              "Pouvoir divin"
+            ],
+            "caractere": [
+              "Colérique",
+              "Arrogant",
+              "Paresseux",
+              "Gourmand",
+              "Impulsif"
+            ],
+            "univers": [
+              "Dieu de la destruction"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Corpulent": 3,
+              "Bijoux / Piercings": 2,
+              "Animal anthropomorphe": 3,
+              "Tenue traditionnelle": 2
+            },
+            "role": {
+              "Rival": 2,
+              "Dieu / Divinité": 3,
+              "Frère / Soeur": 3
+            },
+            "style-de-combat": {
+              "Pouvoir divin": 3
+            },
+            "caractere": {
+              "Colérique": 2,
+              "Arrogant": 2,
+              "Paresseux": 2,
+              "Gourmand": 3,
+              "Impulsif": 2
+            },
+            "univers": {
+              "Dieu de la destruction": 3
+            }
+          }
+        },
+        {
+          "name": "Vados",
+          "group": "dieux",
+          "tags": {
+            "physique": [
+              "Femme",
+              "Cheveux gris / blancs",
+              "Bijoux / Piercings",
+              "Non-humain",
+              "Peau colorée"
+            ],
+            "role": [
+              "Maître / Mentor",
+              "Conseiller",
+              "Dieu / Divinité",
+              "Frère / Soeur",
+              "Garde du corps"
+            ],
+            "style-de-combat": [
+              "Contrôle du temps",
+              "Pouvoir divin",
+              "Bâton",
+              "Super-vitesse",
+              "Battle IQ"
+            ],
+            "caractere": [
+              "Calme",
+              "Provocateur",
+              "Nonchalant"
+            ],
+            "univers": [
+              "Ange"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Femme": 2,
+              "Cheveux gris / blancs": 2,
+              "Non-humain": 2,
+              "Peau colorée": 3
+            },
+            "role": {
+              "Maître / Mentor": 3,
+              "Conseiller": 2,
+              "Dieu / Divinité": 2,
+              "Frère / Soeur": 2,
+              "Garde du corps": 2
+            },
+            "style-de-combat": {
+              "Contrôle du temps": 3,
+              "Pouvoir divin": 2,
+              "Bâton": 2,
+              "Super-vitesse": 2,
+              "Battle IQ": 2
+            },
+            "caractere": {
+              "Calme": 3,
+              "Nonchalant": 2
+            },
+            "univers": {
+              "Ange": 3
             }
           }
         },
@@ -9549,6 +9932,366 @@
             "univers": {
               "Saiyan": 3,
               "Super Saiyan": 3
+            }
+          }
+        },
+        {
+          "name": "Cabba",
+          "group": "autres",
+          "tags": {
+            "physique": [
+              "Uniforme militaire"
+            ],
+            "role": [
+              "Allié",
+              "Élève",
+              "Soldat",
+              "Extraterrestre"
+            ],
+            "style-de-combat": [
+              "Arts martiaux",
+              "Transformation",
+              "Laser"
+            ],
+            "caractere": [
+              "Timide",
+              "Courageux",
+              "Loyal"
+            ],
+            "univers": [
+              "Saiyan",
+              "Super Saiyan"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Uniforme militaire": 2
+            },
+            "role": {
+              "Élève": 2,
+              "Soldat": 3,
+              "Extraterrestre": 2
+            },
+            "style-de-combat": {
+              "Transformation": 2
+            },
+            "caractere": {
+              "Timide": 2,
+              "Loyal": 2
+            },
+            "univers": {
+              "Saiyan": 3,
+              "Super Saiyan": 2
+            }
+          }
+        },
+        {
+          "name": "Caulifla",
+          "group": "autres",
+          "tags": {
+            "physique": [
+              "Femme"
+            ],
+            "role": [
+              "Leader",
+              "Maître / Mentor",
+              "Criminel",
+              "Extraterrestre"
+            ],
+            "style-de-combat": [
+              "Arts martiaux",
+              "Transformation",
+              "Laser",
+              "Battle IQ"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Impulsif",
+              "Protecteur",
+              "Provocateur"
+            ],
+            "univers": [
+              "Saiyan",
+              "Super Saiyan"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Femme": 2
+            },
+            "role": {
+              "Leader": 2,
+              "Criminel": 2,
+              "Extraterrestre": 2
+            },
+            "style-de-combat": {
+              "Transformation": 2,
+              "Laser": 2,
+              "Battle IQ": 2
+            },
+            "caractere": {
+              "Arrogant": 3,
+              "Impulsif": 2,
+              "Protecteur": 2,
+              "Provocateur": 2
+            },
+            "univers": {
+              "Saiyan": 3,
+              "Super Saiyan": 2
+            }
+          }
+        },
+        {
+          "name": "Kale",
+          "group": "autres",
+          "tags": {
+            "physique": [
+              "Femme",
+              "Musclé"
+            ],
+            "role": [
+              "Allié",
+              "Élève",
+              "Extraterrestre"
+            ],
+            "style-de-combat": [
+              "Transformation",
+              "Laser",
+              "Super-force"
+            ],
+            "caractere": [
+              "Colérique",
+              "Timide",
+              "Loyal"
+            ],
+            "univers": [
+              "Saiyan",
+              "Super Saiyan"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Femme": 2,
+              "Musclé": 2
+            },
+            "role": {
+              "Élève": 2,
+              "Extraterrestre": 2
+            },
+            "style-de-combat": {
+              "Transformation": 3,
+              "Laser": 2,
+              "Super-force": 3
+            },
+            "caractere": {
+              "Colérique": 2,
+              "Timide": 3,
+              "Loyal": 2
+            },
+            "univers": {
+              "Saiyan": 3,
+              "Super Saiyan": 3
+            }
+          }
+        },
+        {
+          "name": "Kefla",
+          "group": "autres",
+          "tags": {
+            "physique": [
+              "Femme",
+              "Bijoux / Piercings"
+            ],
+            "role": [
+              "Rival",
+              "Extraterrestre",
+              "Fusion"
+            ],
+            "style-de-combat": [
+              "Transformation",
+              "Laser",
+              "Super-force",
+              "Super-vitesse"
+            ],
+            "caractere": [
+              "Arrogant",
+              "Impulsif",
+              "Provocateur"
+            ],
+            "univers": [
+              "Saiyan",
+              "Super Saiyan"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Femme": 2,
+              "Bijoux / Piercings": 2
+            },
+            "role": {
+              "Extraterrestre": 2,
+              "Fusion": 3
+            },
+            "style-de-combat": {
+              "Transformation": 2,
+              "Laser": 3,
+              "Super-force": 2,
+              "Super-vitesse": 2
+            },
+            "caractere": {
+              "Arrogant": 3,
+              "Impulsif": 2,
+              "Provocateur": 2
+            },
+            "univers": {
+              "Saiyan": 3,
+              "Super Saiyan": 3
+            }
+          }
+        },
+        {
+          "name": "Toppo",
+          "group": "autres",
+          "tags": {
+            "physique": [
+              "Grand",
+              "Corpulent",
+              "Moustachu",
+              "Non-humain"
+            ],
+            "role": [
+              "Leader",
+              "Soldat",
+              "Gardien",
+              "Organisation",
+              "Extraterrestre"
+            ],
+            "style-de-combat": [
+              "Pouvoir divin",
+              "Super-force",
+              "Durabilité"
+            ],
+            "caractere": [
+              "Sérieux",
+              "Courageux",
+              "Loyal"
+            ],
+            "univers": [
+              "Dieu de la destruction"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Grand": 2,
+              "Corpulent": 3,
+              "Moustachu": 3
+            },
+            "role": {
+              "Leader": 2,
+              "Soldat": 2,
+              "Gardien": 2,
+              "Organisation": 2,
+              "Extraterrestre": 2
+            },
+            "style-de-combat": {
+              "Pouvoir divin": 2,
+              "Super-force": 2,
+              "Durabilité": 2
+            },
+            "caractere": {
+              "Sérieux": 2,
+              "Loyal": 2
+            }
+          }
+        },
+        {
+          "name": "Granolah",
+          "group": "autres",
+          "tags": {
+            "physique": [
+              "Non-humain",
+              "Yeux spéciaux"
+            ],
+            "role": [
+              "Rival",
+              "Orphelin",
+              "Sniper",
+              "Extraterrestre"
+            ],
+            "style-de-combat": [
+              "Laser",
+              "Super-force"
+            ],
+            "caractere": [
+              "Sérieux",
+              "Solitaire",
+              "Vengeur"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Non-humain": 2,
+              "Yeux spéciaux": 2
+            },
+            "role": {
+              "Orphelin": 2,
+              "Sniper": 3,
+              "Extraterrestre": 2
+            },
+            "style-de-combat": {
+              "Laser": 2
+            },
+            "caractere": {
+              "Solitaire": 2,
+              "Vengeur": 3
+            }
+          }
+        },
+        {
+          "name": "Shenron",
+          "group": "autres",
+          "tags": {
+            "physique": [
+              "Grand",
+              "Cornes",
+              "Queue",
+              "Non-humain",
+              "Peau colorée"
+            ],
+            "role": [
+              "Dieu / Divinité"
+            ],
+            "style-de-combat": [
+              "Magie",
+              "Pouvoir draconique",
+              "Pouvoir divin"
+            ],
+            "caractere": [
+              "Sérieux",
+              "Calme",
+              "Mystérieux"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Grand": 3,
+              "Cornes": 2,
+              "Queue": 2,
+              "Non-humain": 3,
+              "Peau colorée": 2
+            },
+            "role": {
+              "Dieu / Divinité": 2
+            },
+            "style-de-combat": {
+              "Magie": 3,
+              "Pouvoir draconique": 3,
+              "Pouvoir divin": 2
+            },
+            "caractere": {
+              "Sérieux": 2,
+              "Calme": 2,
+              "Mystérieux": 2
             }
           }
         }
