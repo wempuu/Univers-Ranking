@@ -7072,7 +7072,7 @@
               "Peau colorée": 3,
               "Couvre-chef": 2,
               "Non-humain": 2,
-              "Cape": 2
+              "Cape": 3
             },
             "role": {
               "Allié": 2,
@@ -7717,7 +7717,8 @@
             "physique": [
               "Grand",
               "Musclé",
-              "Moustachu"
+              "Moustachu",
+              "Cape"
             ],
             "role": [
               "Allié",
@@ -8032,8 +8033,7 @@
           "tagRarity": {
             "physique": {
               "Démon": 3,
-              "Peau colorée": 2,
-              "Cape": 2
+              "Peau colorée": 2
             },
             "role": {
               "Roi / Reine": 3,
@@ -8808,8 +8808,7 @@
             "physique": {
               "Âgé": 2,
               "Peau colorée": 2,
-              "Non-humain": 2,
-              "Cape": 2
+              "Non-humain": 2
             },
             "role": {
               "Dieu / Divinité": 3,
@@ -10311,7 +10310,7 @@
           "tagRarity": {
             "physique": {
               "Cheveux blonds": 2,
-              "Cape": 2
+              "Cape": 3
             },
             "role": {
               "Maître / Mentor": 2,
