@@ -101,7 +101,8 @@
         "Organisation",
         "Ninja",
         "Ermite / Sage",
-        "Mafia / Pègre"
+        "Mafia / Pègre",
+        "Extraterrestre"
       ]
     },
     "style-de-combat": {
@@ -6894,7 +6895,8 @@
               "Élève",
               "Gardien",
               "Orphelin",
-              "Parent"
+              "Parent",
+              "Extraterrestre"
             ],
             "style-de-combat": [
               "Arts martiaux",
@@ -6970,7 +6972,8 @@
               "Ennemi devenu allié",
               "Deutéragoniste",
               "Parent",
-              "Noble"
+              "Noble",
+              "Extraterrestre"
             ],
             "style-de-combat": [
               "Arts martiaux",
@@ -7009,7 +7012,8 @@
               "Parent": 2,
               "Noble": 2,
               "Deutéragoniste": 3,
-              "Héritier / Héritière": 3
+              "Héritier / Héritière": 3,
+              "Extraterrestre": 2
             },
             "style-de-combat": {
               "Arts martiaux": 2,
@@ -7834,7 +7838,8 @@
               "Leader",
               "Héritier / Héritière",
               "Criminel",
-              "Organisation"
+              "Organisation",
+              "Extraterrestre"
             ],
             "style-de-combat": [
               "Télékinésie",
@@ -7869,7 +7874,8 @@
               "Leader": 3,
               "Criminel": 2,
               "Antagoniste": 3,
-              "Organisation": 2
+              "Organisation": 2,
+              "Extraterrestre": 3
             },
             "style-de-combat": {
               "Transformation": 3,
@@ -8135,7 +8141,8 @@
               "Antagoniste",
               "Bras droit",
               "Soldat",
-              "Organisation"
+              "Organisation",
+              "Extraterrestre"
             ],
             "style-de-combat": [
               "Vol",
@@ -8165,7 +8172,8 @@
             "role": {
               "Antagoniste": 2,
               "Bras droit": 2,
-              "Soldat": 3
+              "Soldat": 3,
+              "Extraterrestre": 3
             },
             "style-de-combat": {
               "Super-force": 2,
@@ -8196,7 +8204,8 @@
               "Antagoniste",
               "Soldat",
               "Frère / Soeur",
-              "Organisation"
+              "Organisation",
+              "Extraterrestre"
             ],
             "style-de-combat": [
               "Vol",
@@ -8221,7 +8230,8 @@
             "role": {
               "Antagoniste": 2,
               "Frère / Soeur": 3,
-              "Soldat": 3
+              "Soldat": 3,
+              "Extraterrestre": 3
             },
             "caractere": {
               "Arrogant": 2,
@@ -8246,7 +8256,8 @@
               "Antagoniste",
               "Leader",
               "Soldat",
-              "Organisation"
+              "Organisation",
+              "Extraterrestre"
             ],
             "style-de-combat": [
               "Super-force",
@@ -8272,7 +8283,8 @@
               "Antagoniste": 2,
               "Leader": 2,
               "Soldat": 2,
-              "Organisation": 2
+              "Organisation": 2,
+              "Extraterrestre": 3
             },
             "style-de-combat": {
               "Manipulation des âmes": 3
@@ -8300,7 +8312,8 @@
               "Antagoniste",
               "Bras droit",
               "Soldat",
-              "Organisation"
+              "Organisation",
+              "Extraterrestre"
             ],
             "style-de-combat": [
               "Transformation",
@@ -8323,7 +8336,8 @@
             },
             "role": {
               "Bras droit": 3,
-              "Organisation": 2
+              "Organisation": 2,
+              "Extraterrestre": 3
             },
             "style-de-combat": {
               "Transformation": 3
@@ -8456,7 +8470,8 @@
               "Non-humain"
             ],
             "role": [
-              "Ennemi devenu allié"
+              "Ennemi devenu allié",
+              "Extraterrestre"
             ],
             "style-de-combat": [
               "Transformation",
@@ -8496,6 +8511,9 @@
             "univers": {
               "Saiyan": 3,
               "Super Saiyan": 3
+            },
+            "role": {
+              "Extraterrestre": 3
             }
           }
         },
@@ -8817,7 +8835,8 @@
             "role": [
               "Allié",
               "Médecin",
-              "Dieu / Divinité"
+              "Dieu / Divinité",
+              "Extraterrestre"
             ],
             "caractere": [
               "Timide",
@@ -8838,7 +8857,8 @@
             },
             "role": {
               "Dieu / Divinité": 3,
-              "Médecin": 2
+              "Médecin": 2,
+              "Extraterrestre": 2
             },
             "caractere": {
               "Timide": 2,
@@ -8865,7 +8885,8 @@
             "role": [
               "Gardien",
               "Religieux",
-              "Dieu / Divinité"
+              "Dieu / Divinité",
+              "Extraterrestre"
             ],
             "style-de-combat": [
               "Scellement"
@@ -9048,7 +9069,8 @@
             ],
             "role": [
               "Soldat",
-              "Parent"
+              "Parent",
+              "Extraterrestre"
             ],
             "style-de-combat": [
               "Vol",
@@ -9073,7 +9095,8 @@
             },
             "role": {
               "Parent": 3,
-              "Soldat": 3
+              "Soldat": 3,
+              "Extraterrestre": 3
             },
             "style-de-combat": {
               "Prémonition": 3
@@ -9362,7 +9385,8 @@
             ],
             "role": [
               "Rival",
-              "Soldat"
+              "Soldat",
+              "Extraterrestre"
             ],
             "style-de-combat": [
               "Super-force",
@@ -9388,7 +9412,8 @@
             },
             "role": {
               "Rival": 2,
-              "Soldat": 2
+              "Soldat": 2,
+              "Extraterrestre": 2
             },
             "style-de-combat": {
               "Super-force": 3,
@@ -9415,7 +9440,8 @@
             ],
             "role": [
               "Rival",
-              "Assassin"
+              "Assassin",
+              "Extraterrestre"
             ],
             "style-de-combat": [
               "Arts martiaux",
@@ -9437,7 +9463,8 @@
               "Non-humain": 2
             },
             "role": {
-              "Assassin": 3
+              "Assassin": 3,
+              "Extraterrestre": 2
             },
             "style-de-combat": {
               "Contrôle du temps": 3,
@@ -12115,7 +12142,8 @@
             "role": [
               "Antagoniste",
               "Dieu / Divinité",
-              "Parent"
+              "Parent",
+              "Extraterrestre"
             ],
             "style-de-combat": [
               "Téléportation",
@@ -12142,7 +12170,8 @@
             "role": {
               "Antagoniste": 2,
               "Parent": 2,
-              "Dieu / Divinité": 3
+              "Dieu / Divinité": 3,
+              "Extraterrestre": 3
             },
             "style-de-combat": {
               "Téléportation": 2,
