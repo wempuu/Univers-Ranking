@@ -131,30 +131,47 @@ function persoRow({ c, mangaTitle }, action, label, title, extra) {
   return li;
 }
 
+// Mangas cochés dans le filtre (vide = « Tous ») ; gardé quand on change de tag
+const mangaFilter = new Set();
+function renderMangaFilter() {
+  const box = $("manga-filter");
+  box.innerHTML = "";
+  const choice = (value, label, checked) => {
+    const l = document.createElement("label");
+    l.className = "rule-choice";
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.value = value;
+    cb.checked = checked;
+    l.append(cb, document.createTextNode(" " + label));
+    box.appendChild(l);
+  };
+  choice("tous", "Tous", !mangaFilter.size);
+  Object.entries(data.mangas).forEach(([slug, m]) => choice(slug, m.title, mangaFilter.has(slug)));
+}
+
 function renderTag() {
   $("tag-card").hidden = !tag;
   if (!tag) return;
   $("tag-title").textContent = `${tag}`;
-  // Filtre par manga (« Tous » = tous les mangas), commun à la liste du tag et à « Ajouter des personnages »
-  const mSel = $("manga-filter");
-  const keep = mSel.value || "tous";
-  mSel.innerHTML = "";
-  mSel.add(new Option("Tous", "tous"));
-  Object.entries(data.mangas).forEach(([slug, m]) => mSel.add(new Option(m.title, slug)));
-  mSel.value = data.mangas[keep] ? keep : "tous";
-  const inManga = ({ manga }) => mSel.value === "tous" || manga === mSel.value;
+  // Filtre par mangas (cases à cocher, « Tous » = tous), commun à la liste du tag et à « Ajouter des personnages »
+  [...mangaFilter].forEach((s) => { if (!data.mangas[s]) mangaFilter.delete(s); });
+  renderMangaFilter();
+  const all = !mangaFilter.size;
+  const inManga = ({ manga }) => all || mangaFilter.has(manga);
+  const chosen = [...mangaFilter].map((s) => data.mangas[s].title).join(", ");
 
   const allHolders = allChars().filter(({ c }) => hasTag(c, cat, tag));
   const holders = allHolders.filter(inManga);
   const n = holders.length, total = allHolders.length;
   $("tag-count").textContent = `${data.tags[cat].label} · ${n} personnage${n > 1 ? "s" : ""}` +
-    (mSel.value !== "tous" ? ` dans ${data.mangas[mSel.value].title} (${total} en tout)` : "");
+    (!all ? ` dans ${chosen} (${total} en tout)` : "");
   const ul = $("tag-persos");
   ul.innerHTML = "";
   holders
     .sort((x, y) => tagRarity(y.c, cat, tag) - tagRarity(x.c, cat, tag))
     .forEach((x) => ul.appendChild(persoRow(x, () => removeFrom(x.c), "✕", `Retirer « ${tag} » de ${x.c.name}`, rarityPicker(x.c))));
-  if (!holders.length) ul.innerHTML = `<li class="muted-small">Aucun personnage n'a ce tag${mSel.value !== "tous" ? " dans ce manga" : ""}.</li>`;
+  if (!holders.length) ul.innerHTML = `<li class="muted-small">Aucun personnage n'a ce tag${!all ? (mangaFilter.size > 1 ? " dans ces mangas" : " dans ce manga") : ""}.</li>`;
 
   const q = normalizeSearch($("add-filter").value);
   const add = $("add-list");
@@ -414,7 +431,13 @@ $("crit-form").addEventListener("submit", (e) => {
 
 $("tag-filter").addEventListener("input", renderTags);
 $("add-filter").addEventListener("input", renderTag);
-$("manga-filter").addEventListener("change", renderTag);
+$("manga-filter").addEventListener("change", (e) => {
+  const v = e.target.value;
+  if (v === "tous") mangaFilter.clear();
+  else if (e.target.checked) mangaFilter.add(v);
+  else mangaFilter.delete(v);
+  renderTag();
+});
 
 $("btn-close").addEventListener("click", async (e) => {
   if (!panel.isDirty()) return;
