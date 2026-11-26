@@ -45,7 +45,11 @@
         "Tenue traditionnelle",
         "Peau colorée",
         "Fumeur",
-        "Homme-poisson"
+        "Homme-poisson",
+        "Aveugle",
+        "Maquillage",
+        "Costume",
+        "Nez remarquable"
       ]
     },
     "role": {
@@ -64,7 +68,7 @@
         "Soldat",
         "Chef militaire",
         "Roi / Reine",
-        "Prince / Princesse",
+        "Héritier / Héritière",
         "Espion",
         "Criminel",
         "Prisonnier",
@@ -94,7 +98,10 @@
         "Tritagoniste",
         "Noble déchu",
         "Garde du corps",
-        "Organisation"
+        "Organisation",
+        "Ninja",
+        "Ermite / Sage",
+        "Mafia / Pègre"
       ]
     },
     "style-de-combat": {
@@ -169,7 +176,11 @@
         "Contrôle de la fumée",
         "Pouvoir animal",
         "Copie",
-        "Pouvoir oculaire"
+        "Pouvoir oculaire",
+        "Soin",
+        "Pièges / Ruses",
+        "Fantômes / Esprits",
+        "Contrôle de la terre"
       ]
     },
     "caractere": {
@@ -211,7 +222,11 @@
         "Pervers",
         "Fêtard",
         "Provocateur",
-        "Nonchalant"
+        "Nonchalant",
+        "Cupide",
+        "Travailleur",
+        "Blagueur",
+        "Fanatique"
       ]
     },
     "univers": {
@@ -527,24 +542,25 @@
               "Tritagoniste"
             ],
             "style-de-combat": [
+              "Arme contondante",
               "Contrôle de la foudre",
               "Contrôle du vent",
               "Contrôle de la météo",
-              "Arme contondante",
               "Bâton",
-              "Battle IQ"
+              "Battle IQ",
+              "Pièges / Ruses"
             ],
             "caractere": [
               "Sérieux",
+              "Colérique",
+              "Courageux",
               "Peureux",
               "Intelligent",
               "Égoïste",
               "Loyal",
-              "Colérique",
-              "Curieux",
-              "Pessimiste",
               "Protecteur",
-              "Courageux"
+              "Pessimiste",
+              "Cupide"
             ],
             "univers": [
               "Pirate",
@@ -576,7 +592,8 @@
               "Colérique": 2,
               "Égoïste": 3,
               "Pessimiste": 2,
-              "Courageux": 2
+              "Courageux": 2,
+              "Cupide": 3
             },
             "univers": {
               "Pirate": 2,
@@ -596,8 +613,9 @@
           },
           "tags": {
             "physique": [
+              "Cheveux longs",
               "Couvre-chef",
-              "Cheveux longs"
+              "Nez remarquable"
             ],
             "role": [
               "Allié",
@@ -611,16 +629,18 @@
               "Invocation",
               "Contrôle des plantes",
               "Marteau",
-              "Battle IQ"
+              "Battle IQ",
+              "Pièges / Ruses"
             ],
             "caractere": [
               "Joyeux",
+              "Courageux",
               "Peureux",
               "Menteur",
               "Loyal",
               "Stratège",
               "Pessimiste",
-              "Courageux"
+              "Blagueur"
             ],
             "univers": [
               "Pirate",
@@ -638,18 +658,23 @@
               "Invocation": 2,
               "Contrôle des plantes": 2,
               "Marteau": 2,
-              "Battle IQ": 2
+              "Battle IQ": 2,
+              "Pièges / Ruses": 3
             },
             "caractere": {
               "Joyeux": 2,
               "Peureux": 3,
               "Menteur": 3,
               "Pessimiste": 2,
-              "Courageux": 2
+              "Courageux": 2,
+              "Blagueur": 2
             },
             "univers": {
               "Pirate": 2,
               "Équipage du Chapeau de paille": 3
+            },
+            "physique": {
+              "Nez remarquable": 3
             }
           }
         },
@@ -692,7 +717,8 @@
             ],
             "physique": [
               "Cheveux blonds",
-              "Fumeur"
+              "Fumeur",
+              "Costume"
             ],
             "univers": [
               "Pirate",
@@ -718,7 +744,8 @@
             },
             "physique": {
               "Fumeur": 3,
-              "Cheveux blonds": 2
+              "Cheveux blonds": 2,
+              "Costume": 2
             },
             "univers": {
               "Pirate": 2,
@@ -753,9 +780,10 @@
             ],
             "style-de-combat": [
               "Combat à mains nues",
-              "Transformation",
               "Arts martiaux",
-              "Pouvoir animal"
+              "Transformation",
+              "Pouvoir animal",
+              "Soin"
             ],
             "caractere": [
               "Timide",
@@ -788,7 +816,8 @@
             "style-de-combat": {
               "Transformation": 3,
               "Pouvoir animal": 2,
-              "Combat à mains nues": 2
+              "Combat à mains nues": 2,
+              "Soin": 2
             },
             "caractere": {
               "Timide": 2,
@@ -963,10 +992,11 @@
             "physique": [
               "Âgé",
               "Grand",
+              "Cheveux longs",
               "Non-humain",
               "Squelette",
               "Couvre-chef",
-              "Cheveux longs"
+              "Costume"
             ],
             "role": [
               "Allié",
@@ -975,19 +1005,21 @@
             ],
             "style-de-combat": [
               "Épée",
-              "Contrôle de la glace",
               "Arme Tranchante",
+              "Contrôle de la glace",
               "Pouvoir musical",
               "Super-vitesse",
-              "Manipulation des âmes"
+              "Manipulation des âmes",
+              "Fantômes / Esprits"
             ],
             "caractere": [
               "Joyeux",
+              "Loyal",
               "Excentrique",
+              "Romantique",
               "Pervers",
               "Fêtard",
-              "Loyal",
-              "Romantique"
+              "Blagueur"
             ],
             "univers": [
               "Pirate",
@@ -1001,7 +1033,8 @@
               "Grand": 2,
               "Non-humain": 2,
               "Squelette": 3,
-              "Couvre-chef": 2
+              "Couvre-chef": 2,
+              "Costume": 2
             },
             "role": {
               "Allié": 2,
@@ -1012,12 +1045,14 @@
               "Contrôle de la glace": 2,
               "Arme Tranchante": 2,
               "Pouvoir musical": 3,
-              "Manipulation des âmes": 2
+              "Manipulation des âmes": 2,
+              "Fantômes / Esprits": 2
             },
             "caractere": {
               "Excentrique": 2,
               "Pervers": 3,
-              "Fêtard": 2
+              "Fêtard": 2,
+              "Blagueur": 3
             },
             "univers": {
               "Pirate": 2,
@@ -1785,13 +1820,14 @@
               "Élève"
             ],
             "style-de-combat": [
+              "Épée",
               "Katana",
+              "Arme Tranchante",
               "Téléportation",
               "Contrôle de l'espace",
-              "Arme Tranchante",
+              "Super-vitesse",
               "Battle IQ",
-              "Épée",
-              "Super-vitesse"
+              "Soin"
             ],
             "caractere": [
               "Calme",
@@ -2537,7 +2573,8 @@
               "Marchand",
               "Frère / Soeur",
               "Noble",
-              "Noble déchu"
+              "Noble déchu",
+              "Mafia / Pègre"
             ],
             "style-de-combat": [
               "Fils / Chaînes",
@@ -2573,7 +2610,8 @@
               "Leader": 2,
               "Noble": 2,
               "Criminel": 2,
-              "Noble déchu": 3
+              "Noble déchu": 3,
+              "Mafia / Pègre": 3
             },
             "style-de-combat": {
               "Fils / Chaînes": 3,
@@ -2742,10 +2780,11 @@
           },
           "tags": {
             "physique": [
+              "Musclé",
               "Cicatrice",
               "Prothèse / Membre manquant",
               "Fumeur",
-              "Musclé"
+              "Costume"
             ],
             "role": [
               "Leader",
@@ -2843,8 +2882,10 @@
             ],
             "physique": [
               "Cheveux bleus",
+              "Tatoué",
               "Couvre-chef",
-              "Tatoué"
+              "Maquillage",
+              "Nez remarquable"
             ],
             "univers": [
               "Pirate",
@@ -2873,7 +2914,9 @@
             },
             "physique": {
               "Couvre-chef": 2,
-              "Cheveux bleus": 2
+              "Cheveux bleus": 2,
+              "Maquillage": 2,
+              "Nez remarquable": 3
             },
             "univers": {
               "Pirate": 3,
@@ -3112,7 +3155,8 @@
             ],
             "style-de-combat": [
               "Contrôle des ténèbres",
-              "Peur"
+              "Peur",
+              "Fantômes / Esprits"
             ],
             "caractere": [
               "Arrogant",
@@ -3166,8 +3210,9 @@
               "Ennemi devenu allié"
             ],
             "style-de-combat": [
+              "Manipulation mentale",
               "Invocation",
-              "Manipulation mentale"
+              "Fantômes / Esprits"
             ],
             "caractere": [
               "Peureux",
@@ -3191,7 +3236,8 @@
             },
             "style-de-combat": {
               "Invocation": 3,
-              "Manipulation mentale": 2
+              "Manipulation mentale": 2,
+              "Fantômes / Esprits": 3
             },
             "caractere": {
               "Peureux": 2,
@@ -3765,7 +3811,7 @@
               "Traître",
               "Ennemi devenu allié",
               "Frère / Soeur",
-              "Prince / Princesse"
+              "Héritier / Héritière"
             ],
             "style-de-combat": [
               "Manipulation mentale",
@@ -3789,7 +3835,7 @@
             "role": {
               "Ennemi devenu allié": 2,
               "Frère / Soeur": 2,
-              "Prince / Princesse": 3
+              "Héritier / Héritière": 3
             },
             "caractere": {
               "Manipulateur": 3,
@@ -3999,7 +4045,8 @@
             ],
             "role": [
               "Criminel",
-              "Ennemi devenu allié"
+              "Ennemi devenu allié",
+              "Mafia / Pègre"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -5044,9 +5091,10 @@
           "tags": {
             "physique": [
               "Âgé",
+              "Grand",
               "Lunettes",
               "Uniforme militaire",
-              "Grand"
+              "Costume"
             ],
             "role": [
               "Antagoniste",
@@ -5074,7 +5122,8 @@
             "physique": {
               "Uniforme militaire": 2,
               "Lunettes": 2,
-              "Grand": 2
+              "Grand": 2,
+              "Costume": 2
             },
             "role": {
               "Soldat": 2,
@@ -5174,12 +5223,13 @@
           },
           "tags": {
             "physique": [
+              "Âgé",
+              "Grand",
+              "Barbu",
               "Cicatrice",
               "Uniforme militaire",
               "Tenue traditionnelle",
-              "Grand",
-              "Âgé",
-              "Barbu"
+              "Aveugle"
             ],
             "role": [
               "Soldat",
@@ -5207,7 +5257,8 @@
           "tagRarity": {
             "physique": {
               "Cicatrice": 3,
-              "Uniforme militaire": 2
+              "Uniforme militaire": 2,
+              "Aveugle": 3
             },
             "role": {
               "Soldat": 2,
@@ -5399,7 +5450,8 @@
             "caractere": [
               "Courageux",
               "Altruiste",
-              "Déterminé"
+              "Déterminé",
+              "Travailleur"
             ],
             "univers": [
               "Marine"
@@ -5417,7 +5469,8 @@
             },
             "caractere": {
               "Courageux": 3,
-              "Déterminé": 2
+              "Déterminé": 2,
+              "Travailleur": 2
             },
             "physique": {
               "Cheveux roses": 2,
@@ -5603,7 +5656,8 @@
             "physique": [
               "Musclé",
               "Barbu",
-              "Couvre-chef"
+              "Couvre-chef",
+              "Costume"
             ],
             "role": [
               "Antagoniste",
@@ -5629,7 +5683,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Couvre-chef": 2
+              "Couvre-chef": 2,
+              "Costume": 2
             },
             "role": {
               "Antagoniste": 2,
@@ -5916,7 +5971,8 @@
             "physique": [
               "Grand",
               "Cheveux violets",
-              "Tatoué"
+              "Tatoué",
+              "Maquillage"
             ],
             "role": [
               "Allié",
@@ -5942,7 +5998,8 @@
           "tagRarity": {
             "physique": {
               "Cheveux violets": 2,
-              "Grand": 2
+              "Grand": 2,
+              "Maquillage": 2
             },
             "role": {
               "Leader": 2,
@@ -6028,7 +6085,7 @@
             ],
             "role": [
               "Allié",
-              "Prince / Princesse",
+              "Héritier / Héritière",
               "Ennemi devenu allié",
               "Leader",
               "Noble"
@@ -6044,9 +6101,9 @@
           },
           "tagRarity": {
             "role": {
-              "Prince / Princesse": 3,
               "Ennemi devenu allié": 2,
-              "Allié": 2
+              "Allié": 2,
+              "Héritier / Héritière": 3
             },
             "caractere": {
               "Courageux": 3,
@@ -6150,7 +6207,7 @@
             "role": [
               "Allié",
               "Leader",
-              "Prince / Princesse",
+              "Héritier / Héritière",
               "Samouraï"
             ],
             "style-de-combat": [
@@ -6174,7 +6231,7 @@
             },
             "role": {
               "Leader": 2,
-              "Prince / Princesse": 2
+              "Héritier / Héritière": 2
             },
             "style-de-combat": {
               "Vol": 2,
@@ -6436,7 +6493,7 @@
             ],
             "role": [
               "Allié",
-              "Prince / Princesse"
+              "Héritier / Héritière"
             ],
             "style-de-combat": [
               "Contrôle des animaux"
@@ -6457,7 +6514,7 @@
               "Non-humain": 2
             },
             "role": {
-              "Prince / Princesse": 3
+              "Héritier / Héritière": 3
             },
             "style-de-combat": {
               "Contrôle des animaux": 2
@@ -6490,7 +6547,7 @@
               "Âgé"
             ],
             "role": [
-              "Prince / Princesse"
+              "Héritier / Héritière"
             ],
             "style-de-combat": [
               "Arme contondante",
@@ -6521,7 +6578,7 @@
               "Cheveux roses": 2
             },
             "role": {
-              "Prince / Princesse": 2
+              "Héritier / Héritière": 2
             },
             "style-de-combat": {
               "Transformation": 2,
@@ -6557,7 +6614,7 @@
             ],
             "role": [
               "Allié",
-              "Prince / Princesse"
+              "Héritier / Héritière"
             ],
             "style-de-combat": [
               "Épée",
@@ -6570,7 +6627,7 @@
           },
           "tagRarity": {
             "role": {
-              "Prince / Princesse": 3
+              "Héritier / Héritière": 3
             },
             "style-de-combat": {
               "Épée": 2,
@@ -6906,7 +6963,7 @@
             ],
             "role": [
               "Rival",
-              "Prince / Princesse",
+              "Héritier / Héritière",
               "Ennemi devenu allié",
               "Deutéragoniste",
               "Parent",
@@ -6929,7 +6986,8 @@
               "Déterminé",
               "Perfectionniste",
               "Froid",
-              "Provocateur"
+              "Provocateur",
+              "Travailleur"
             ],
             "univers": [
               "Saiyan",
@@ -6944,11 +7002,11 @@
             },
             "role": {
               "Rival": 3,
-              "Prince / Princesse": 3,
               "Ennemi devenu allié": 3,
               "Parent": 2,
               "Noble": 2,
-              "Deutéragoniste": 3
+              "Deutéragoniste": 3,
+              "Héritier / Héritière": 3
             },
             "style-de-combat": {
               "Arts martiaux": 2,
@@ -6964,7 +7022,8 @@
               "Déterminé": 3,
               "Froid": 2,
               "Provocateur": 2,
-              "Perfectionniste": 2
+              "Perfectionniste": 2,
+              "Travailleur": 2
             },
             "univers": {
               "Saiyan": 3,
@@ -7556,6 +7615,7 @@
             ],
             "role": [
               "Allié",
+              "Héritier / Héritière",
               "Scientifique",
               "Parent",
               "Tritagoniste"
@@ -7603,7 +7663,8 @@
             ],
             "role": [
               "Allié",
-              "Maître / Mentor"
+              "Maître / Mentor",
+              "Ermite / Sage"
             ],
             "style-de-combat": [
               "Arts martiaux",
@@ -7627,7 +7688,8 @@
               "Lunettes": 2
             },
             "role": {
-              "Maître / Mentor": 3
+              "Maître / Mentor": 3,
+              "Ermite / Sage": 3
             },
             "style-de-combat": {
               "Arts martiaux": 3,
@@ -7649,7 +7711,7 @@
             ],
             "role": [
               "Allié",
-              "Prince / Princesse",
+              "Héritier / Héritière",
               "Parent"
             ],
             "style-de-combat": [
@@ -7767,7 +7829,7 @@
             "role": [
               "Antagoniste",
               "Leader",
-              "Prince / Princesse",
+              "Héritier / Héritière",
               "Criminel",
               "Organisation"
             ],
@@ -8460,7 +8522,8 @@
               "Sadique",
               "Perfectionniste",
               "Vengeur",
-              "Froid"
+              "Froid",
+              "Fanatique"
             ],
             "univers": [
               "Kaioshin"
@@ -8486,7 +8549,8 @@
               "Arrogant": 3,
               "Froid": 2,
               "Vengeur": 2,
-              "Perfectionniste": 2
+              "Perfectionniste": 2,
+              "Fanatique": 2
             },
             "univers": {
               "Kaioshin": 3
@@ -8711,11 +8775,13 @@
             ],
             "role": [
               "Maître / Mentor",
-              "Dieu / Divinité"
+              "Dieu / Divinité",
+              "Ermite / Sage"
             ],
             "caractere": [
               "Joyeux",
-              "Excentrique"
+              "Excentrique",
+              "Blagueur"
             ]
           },
           "tagRarity": {
@@ -8726,11 +8792,13 @@
             },
             "role": {
               "Dieu / Divinité": 2,
-              "Maître / Mentor": 3
+              "Maître / Mentor": 3,
+              "Ermite / Sage": 2
             },
             "caractere": {
               "Joyeux": 2,
-              "Excentrique": 3
+              "Excentrique": 3,
+              "Blagueur": 3
             }
           }
         },
@@ -8748,9 +8816,6 @@
               "Médecin",
               "Dieu / Divinité"
             ],
-            "style-de-combat": [
-              "Régénération"
-            ],
             "caractere": [
               "Timide",
               "Naïf",
@@ -8758,6 +8823,9 @@
             ],
             "univers": [
               "Namek"
+            ],
+            "style-de-combat": [
+              "Soin"
             ]
           },
           "tagRarity": {
@@ -8769,15 +8837,15 @@
               "Dieu / Divinité": 3,
               "Médecin": 2
             },
-            "style-de-combat": {
-              "Régénération": 2
-            },
             "caractere": {
               "Timide": 2,
               "Altruiste": 3
             },
             "univers": {
               "Namek": 3
+            },
+            "style-de-combat": {
+              "Soin": 3
             }
           }
         },
@@ -9024,7 +9092,8 @@
           "tags": {
             "physique": [
               "Petit",
-              "Animal anthropomorphe"
+              "Animal anthropomorphe",
+              "Nez remarquable"
             ],
             "role": [
               "Allié",
@@ -9042,7 +9111,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Animal anthropomorphe": 3
+              "Animal anthropomorphe": 3,
+              "Nez remarquable": 2
             },
             "style-de-combat": {
               "Métamorphose": 3
@@ -9102,7 +9172,8 @@
             ],
             "role": [
               "Maître / Mentor",
-              "Gardien"
+              "Gardien",
+              "Ermite / Sage"
             ],
             "style-de-combat": [
               "Arts martiaux",
@@ -9122,7 +9193,8 @@
               "Âgé": 2
             },
             "role": {
-              "Maître / Mentor": 3
+              "Maître / Mentor": 3,
+              "Ermite / Sage": 3
             },
             "style-de-combat": {
               "Bâton": 2
@@ -9187,7 +9259,8 @@
               "Invocation",
               "Transformation",
               "Explosions",
-              "Laser"
+              "Laser",
+              "Fantômes / Esprits"
             ],
             "caractere": [
               "Joyeux",
@@ -9206,7 +9279,8 @@
             },
             "style-de-combat": {
               "Transformation": 2,
-              "Invocation": 2
+              "Invocation": 2,
+              "Fantômes / Esprits": 2
             },
             "caractere": {
               "Arrogant": 2,
@@ -9413,7 +9487,9 @@
               "Leader",
               "Élève",
               "Gardien",
-              "Orphelin"
+              "Orphelin",
+              "Ninja",
+              "Ermite / Sage"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -9443,7 +9519,8 @@
               "Protagoniste": 3,
               "Orphelin": 3,
               "Rival": 2,
-              "Élève": 2
+              "Élève": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Clones": 3,
@@ -9484,7 +9561,8 @@
               "Traître",
               "Orphelin",
               "Fugitif",
-              "Deutéragoniste"
+              "Deutéragoniste",
+              "Ninja"
             ],
             "style-de-combat": [
               "Épée",
@@ -9521,7 +9599,8 @@
               "Traître": 2,
               "Orphelin": 2,
               "Élève": 2,
-              "Deutéragoniste": 3
+              "Deutéragoniste": 3,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Contrôle de la foudre": 3,
@@ -9556,12 +9635,13 @@
               "Allié",
               "Élève",
               "Médecin",
-              "Tritagoniste"
+              "Tritagoniste",
+              "Ninja"
             ],
             "style-de-combat": [
               "Combat à mains nues",
               "Invocation",
-              "Régénération"
+              "Soin"
             ],
             "caractere": [
               "Colérique",
@@ -9581,11 +9661,12 @@
               "Médecin": 3,
               "Allié": 2,
               "Élève": 2,
-              "Tritagoniste": 3
+              "Tritagoniste": 3,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Combat à mains nues": 3,
-              "Régénération": 2
+              "Soin": 3
             },
             "caractere": {
               "Colérique": 3,
@@ -9611,7 +9692,8 @@
               "Allié",
               "Leader",
               "Maître / Mentor",
-              "Soldat"
+              "Soldat",
+              "Ninja"
             ],
             "style-de-combat": [
               "Téléportation",
@@ -9620,7 +9702,8 @@
               "Contrôle de l'espace",
               "Prémonition",
               "Copie",
-              "Pouvoir oculaire"
+              "Pouvoir oculaire",
+              "Contrôle de la terre"
             ],
             "caractere": [
               "Calme",
@@ -9647,7 +9730,8 @@
             "role": {
               "Leader": 2,
               "Soldat": 2,
-              "Maître / Mentor": 3
+              "Maître / Mentor": 3,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Contrôle de la foudre": 3,
@@ -9683,8 +9767,10 @@
             "role": [
               "Allié",
               "Soldat",
+              "Héritier / Héritière",
               "Parent",
-              "Noble"
+              "Noble",
+              "Ninja"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -9710,7 +9796,9 @@
             },
             "role": {
               "Allié": 2,
-              "Noble": 2
+              "Noble": 2,
+              "Héritier / Héritière": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Arts martiaux": 3,
@@ -9740,7 +9828,8 @@
               "Allié",
               "Rival",
               "Élève",
-              "Soldat"
+              "Soldat",
+              "Ninja"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -9756,7 +9845,8 @@
               "Loyal",
               "Déterminé",
               "Impulsif",
-              "Excentrique"
+              "Excentrique",
+              "Travailleur"
             ]
           },
           "tagRarity": {
@@ -9765,7 +9855,8 @@
             },
             "role": {
               "Élève": 3,
-              "Rival": 2
+              "Rival": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Arts martiaux": 3,
@@ -9778,7 +9869,8 @@
               "Courageux": 2,
               "Joyeux": 2,
               "Loyal": 2,
-              "Excentrique": 2
+              "Excentrique": 2,
+              "Travailleur": 3
             }
           }
         },
@@ -9793,7 +9885,8 @@
             "role": [
               "Rival",
               "Maître / Mentor",
-              "Soldat"
+              "Soldat",
+              "Ninja"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -9808,7 +9901,8 @@
               "Courageux",
               "Loyal",
               "Déterminé",
-              "Excentrique"
+              "Excentrique",
+              "Travailleur"
             ]
           },
           "tagRarity": {
@@ -9819,7 +9913,8 @@
             "role": {
               "Maître / Mentor": 3,
               "Rival": 2,
-              "Soldat": 2
+              "Soldat": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Arts martiaux": 3,
@@ -9833,7 +9928,8 @@
               "Joyeux": 2,
               "Déterminé": 3,
               "Courageux": 2,
-              "Loyal": 2
+              "Loyal": 2,
+              "Travailleur": 3
             }
           }
         },
@@ -9850,7 +9946,8 @@
               "Rival",
               "Soldat",
               "Orphelin",
-              "Noble"
+              "Noble",
+              "Ninja"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -9877,7 +9974,8 @@
             },
             "role": {
               "Rival": 2,
-              "Orphelin": 2
+              "Orphelin": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Arts martiaux": 3,
@@ -9908,12 +10006,14 @@
             "role": [
               "Allié",
               "Soldat",
-              "Conseiller"
+              "Conseiller",
+              "Ninja"
             ],
             "style-de-combat": [
               "Armes à distance",
               "Contrôle des ténèbres",
-              "Battle IQ"
+              "Battle IQ",
+              "Pièges / Ruses"
             ],
             "caractere": [
               "Calme",
@@ -9928,11 +10028,13 @@
             "role": {
               "Allié": 2,
               "Soldat": 2,
-              "Conseiller": 2
+              "Conseiller": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Contrôle des ténèbres": 3,
-              "Battle IQ": 3
+              "Battle IQ": 3,
+              "Pièges / Ruses": 2
             },
             "caractere": {
               "Paresseux": 3,
@@ -9952,7 +10054,8 @@
             ],
             "role": [
               "Allié",
-              "Soldat"
+              "Soldat",
+              "Ninja"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -9972,7 +10075,8 @@
               "Corpulent": 3
             },
             "role": {
-              "Allié": 2
+              "Allié": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Manipulation corporelle": 3,
@@ -9995,7 +10099,8 @@
             "role": [
               "Allié",
               "Soldat",
-              "Marchand"
+              "Marchand",
+              "Ninja"
             ],
             "style-de-combat": [
               "Armes à distance",
@@ -10018,6 +10123,9 @@
             },
             "caractere": {
               "Romantique": 2
+            },
+            "role": {
+              "Ninja": 2
             }
           }
         },
@@ -10030,7 +10138,8 @@
             ],
             "role": [
               "Allié",
-              "Soldat"
+              "Soldat",
+              "Ninja"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -10057,6 +10166,9 @@
             "caractere": {
               "Impulsif": 2,
               "Loyal": 2
+            },
+            "role": {
+              "Ninja": 2
             }
           }
         },
@@ -10069,7 +10181,8 @@
             ],
             "role": [
               "Allié",
-              "Soldat"
+              "Soldat",
+              "Ninja"
             ],
             "style-de-combat": [
               "Armes à distance",
@@ -10095,6 +10208,9 @@
               "Calme": 2,
               "Mystérieux": 3,
               "Solitaire": 2
+            },
+            "role": {
+              "Ninja": 2
             }
           }
         },
@@ -10107,7 +10223,8 @@
             ],
             "role": [
               "Allié",
-              "Soldat"
+              "Soldat",
+              "Ninja"
             ],
             "style-de-combat": [
               "Arme Tranchante",
@@ -10127,6 +10244,9 @@
               "Arme Tranchante": 2,
               "Armes à distance": 3,
               "Invocation": 2
+            },
+            "role": {
+              "Ninja": 2
             }
           }
         },
@@ -10143,14 +10263,15 @@
               "Leader",
               "Maître / Mentor",
               "Médecin",
-              "Gardien"
+              "Gardien",
+              "Ninja"
             ],
             "style-de-combat": [
               "Combat à mains nues",
               "Invocation",
-              "Régénération",
               "Super-force",
-              "Séisme"
+              "Séisme",
+              "Soin"
             ],
             "caractere": [
               "Colérique",
@@ -10173,13 +10294,14 @@
             "role": {
               "Leader": 3,
               "Maître / Mentor": 2,
-              "Médecin": 3
+              "Médecin": 3,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
-              "Régénération": 3,
               "Super-force": 3,
-              "Séisme": 2
+              "Séisme": 2,
+              "Soin": 3
             },
             "caractere": {
               "Colérique": 2,
@@ -10206,12 +10328,15 @@
             "role": [
               "Allié",
               "Maître / Mentor",
-              "Espion"
+              "Espion",
+              "Ninja",
+              "Ermite / Sage"
             ],
             "style-de-combat": [
               "Invocation",
               "Transformation",
-              "Contrôle du feu"
+              "Contrôle du feu",
+              "Contrôle de la terre"
             ],
             "caractere": [
               "Joyeux",
@@ -10230,7 +10355,9 @@
             },
             "role": {
               "Maître / Mentor": 3,
-              "Espion": 3
+              "Espion": 3,
+              "Ninja": 2,
+              "Ermite / Sage": 2
             },
             "style-de-combat": {
               "Invocation": 3
@@ -10256,7 +10383,8 @@
             "role": [
               "Maître / Mentor",
               "Soldat",
-              "Orphelin"
+              "Orphelin",
+              "Ninja"
             ],
             "style-de-combat": [
               "Armes à distance"
@@ -10274,7 +10402,8 @@
               "Uniforme militaire": 2
             },
             "role": {
-              "Maître / Mentor": 3
+              "Maître / Mentor": 3,
+              "Ninja": 2
             },
             "caractere": {
               "Altruiste": 2,
@@ -10294,7 +10423,8 @@
             "role": [
               "Leader",
               "Maître / Mentor",
-              "Parent"
+              "Parent",
+              "Ninja"
             ],
             "style-de-combat": [
               "Armes à distance",
@@ -10321,7 +10451,8 @@
             "role": {
               "Maître / Mentor": 2,
               "Parent": 3,
-              "Leader": 3
+              "Leader": 3,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Téléportation": 3,
@@ -10348,7 +10479,8 @@
               "Cheveux rouges"
             ],
             "role": [
-              "Parent"
+              "Parent",
+              "Ninja"
             ],
             "style-de-combat": [
               "Fils / Chaînes",
@@ -10371,7 +10503,8 @@
               "Cheveux rouges": 2
             },
             "role": {
-              "Parent": 3
+              "Parent": 3,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Fils / Chaînes": 3,
@@ -10398,13 +10531,15 @@
             ],
             "role": [
               "Leader",
-              "Maître / Mentor"
+              "Maître / Mentor",
+              "Ninja"
             ],
             "style-de-combat": [
               "Invocation",
               "Contrôle du feu",
               "Scellement",
-              "Bâton"
+              "Bâton",
+              "Contrôle de la terre"
             ],
             "caractere": [
               "Calme",
@@ -10423,7 +10558,8 @@
             },
             "role": {
               "Maître / Mentor": 2,
-              "Leader": 3
+              "Leader": 3,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Invocation": 2,
@@ -10453,7 +10589,8 @@
               "Antagoniste",
               "Chef militaire",
               "Traître",
-              "Conseiller"
+              "Conseiller",
+              "Ninja"
             ],
             "style-de-combat": [
               "Manipulation mentale",
@@ -10480,7 +10617,8 @@
             "role": {
               "Antagoniste": 2,
               "Chef militaire": 3,
-              "Conseiller": 2
+              "Conseiller": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Manipulation mentale": 2,
@@ -10509,11 +10647,13 @@
             "role": [
               "Maître / Mentor",
               "Soldat",
-              "Gardien"
+              "Gardien",
+              "Ninja"
             ],
             "style-de-combat": [
               "Scellement",
-              "Contrôle des plantes"
+              "Contrôle des plantes",
+              "Contrôle de la terre"
             ],
             "caractere": [
               "Sérieux",
@@ -10530,10 +10670,12 @@
             },
             "role": {
               "Soldat": 2,
-              "Gardien": 2
+              "Gardien": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
-              "Contrôle des plantes": 3
+              "Contrôle des plantes": 3,
+              "Contrôle de la terre": 2
             },
             "caractere": {
               "Calme": 2,
@@ -10554,7 +10696,8 @@
             "role": [
               "Allié",
               "Soldat",
-              "Espion"
+              "Espion",
+              "Ninja"
             ],
             "style-de-combat": [
               "Arme Tranchante",
@@ -10572,7 +10715,8 @@
           },
           "tagRarity": {
             "role": {
-              "Espion": 2
+              "Espion": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Invocation": 2
@@ -10595,7 +10739,8 @@
             ],
             "role": [
               "Allié",
-              "Élève"
+              "Élève",
+              "Ninja"
             ],
             "style-de-combat": [
               "Transformation",
@@ -10614,7 +10759,8 @@
               "Enfant": 2
             },
             "role": {
-              "Élève": 3
+              "Élève": 3,
+              "Ninja": 2
             },
             "caractere": {
               "Joyeux": 2,
@@ -10634,7 +10780,8 @@
             "role": [
               "Maître / Mentor",
               "Soldat",
-              "Gardien"
+              "Gardien",
+              "Ninja"
             ],
             "style-de-combat": [
               "Arme Tranchante",
@@ -10654,7 +10801,8 @@
             },
             "role": {
               "Maître / Mentor": 2,
-              "Soldat": 2
+              "Soldat": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Arme Tranchante": 2,
@@ -10675,7 +10823,8 @@
             "role": [
               "Rival",
               "Leader",
-              "Frère / Soeur"
+              "Frère / Soeur",
+              "Ninja"
             ],
             "style-de-combat": [
               "Invocation",
@@ -10702,7 +10851,8 @@
             "role": {
               "Leader": 3,
               "Rival": 2,
-              "Frère / Soeur": 2
+              "Frère / Soeur": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Régénération": 2,
@@ -10731,7 +10881,8 @@
               "Leader",
               "Maître / Mentor",
               "Scientifique",
-              "Frère / Soeur"
+              "Frère / Soeur",
+              "Ninja"
             ],
             "style-de-combat": [
               "Téléportation",
@@ -10757,7 +10908,8 @@
               "Scientifique": 2,
               "Frère / Soeur": 2,
               "Leader": 3,
-              "Maître / Mentor": 2
+              "Maître / Mentor": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Téléportation": 2,
@@ -10791,7 +10943,8 @@
               "Traître",
               "Fugitif",
               "Frère / Soeur",
-              "Organisation"
+              "Organisation",
+              "Ninja"
             ],
             "style-de-combat": [
               "Illusion",
@@ -10825,7 +10978,8 @@
               "Fugitif": 2,
               "Espion": 2,
               "Organisation": 3,
-              "Criminel": 2
+              "Criminel": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Illusion": 3,
@@ -10861,7 +11015,8 @@
               "Orphelin",
               "Ennemi devenu allié",
               "Dieu / Divinité",
-              "Organisation"
+              "Organisation",
+              "Ninja"
             ],
             "style-de-combat": [
               "Télékinésie",
@@ -10894,7 +11049,8 @@
               "Criminel": 2,
               "Orphelin": 2,
               "Dieu / Divinité": 2,
-              "Organisation": 3
+              "Organisation": 3,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Invocation": 2,
@@ -10929,7 +11085,8 @@
               "Bras droit",
               "Criminel",
               "Orphelin",
-              "Organisation"
+              "Organisation",
+              "Ninja"
             ],
             "style-de-combat": [
               "Vol",
@@ -10956,7 +11113,8 @@
               "Bras droit": 2,
               "Orphelin": 2,
               "Organisation": 3,
-              "Criminel": 2
+              "Criminel": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Vol": 2,
@@ -10988,7 +11146,8 @@
               "Bras droit",
               "Criminel",
               "Fugitif",
-              "Organisation"
+              "Organisation",
+              "Ninja"
             ],
             "style-de-combat": [
               "Épée",
@@ -11018,7 +11177,8 @@
               "Antagoniste": 2,
               "Fugitif": 2,
               "Organisation": 3,
-              "Criminel": 2
+              "Criminel": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Épée": 2,
@@ -11048,11 +11208,13 @@
               "Antagoniste",
               "Criminel",
               "Fugitif",
-              "Organisation"
+              "Organisation",
+              "Ninja"
             ],
             "style-de-combat": [
               "Vol",
-              "Explosions"
+              "Explosions",
+              "Contrôle de la terre"
             ],
             "caractere": [
               "Arrogant",
@@ -11074,7 +11236,8 @@
               "Antagoniste": 2,
               "Fugitif": 2,
               "Organisation": 3,
-              "Criminel": 2
+              "Criminel": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Vol": 2,
@@ -11104,7 +11267,8 @@
               "Antagoniste",
               "Criminel",
               "Fugitif",
-              "Organisation"
+              "Organisation",
+              "Ninja"
             ],
             "style-de-combat": [
               "Poison",
@@ -11129,7 +11293,8 @@
               "Antagoniste": 2,
               "Fugitif": 2,
               "Organisation": 3,
-              "Criminel": 2
+              "Criminel": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Poison": 3,
@@ -11158,7 +11323,8 @@
               "Criminel",
               "Religieux",
               "Fugitif",
-              "Organisation"
+              "Organisation",
+              "Ninja"
             ],
             "style-de-combat": [
               "Arme Tranchante",
@@ -11169,7 +11335,8 @@
               "Colérique",
               "Sadique",
               "Excentrique",
-              "Provocateur"
+              "Provocateur",
+              "Fanatique"
             ],
             "univers": [
               "Akatsuki"
@@ -11185,7 +11352,8 @@
               "Religieux": 3,
               "Fugitif": 2,
               "Organisation": 3,
-              "Criminel": 2
+              "Criminel": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Arme Tranchante": 2,
@@ -11195,7 +11363,8 @@
             "caractere": {
               "Colérique": 2,
               "Sadique": 3,
-              "Provocateur": 2
+              "Provocateur": 2,
+              "Fanatique": 3
             },
             "univers": {
               "Akatsuki": 3
@@ -11217,19 +11386,22 @@
               "Assassin",
               "Criminel",
               "Fugitif",
-              "Organisation"
+              "Organisation",
+              "Ninja"
             ],
             "style-de-combat": [
               "Régénération",
               "Contrôle du feu",
               "Contrôle de la foudre",
               "Contrôle du vent",
-              "Fils / Chaînes"
+              "Fils / Chaînes",
+              "Contrôle de la terre"
             ],
             "caractere": [
               "Colérique",
               "Égoïste",
-              "Froid"
+              "Froid",
+              "Cupide"
             ],
             "univers": [
               "Akatsuki"
@@ -11246,15 +11418,18 @@
               "Assassin": 2,
               "Fugitif": 2,
               "Organisation": 3,
-              "Criminel": 2
+              "Criminel": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Régénération": 2,
-              "Fils / Chaînes": 3
+              "Fils / Chaînes": 3,
+              "Contrôle de la terre": 2
             },
             "caractere": {
               "Égoïste": 3,
-              "Froid": 2
+              "Froid": 2,
+              "Cupide": 3
             },
             "univers": {
               "Akatsuki": 3
@@ -11277,7 +11452,8 @@
               "Criminel",
               "Traître",
               "Ennemi devenu allié",
-              "Organisation"
+              "Organisation",
+              "Ninja"
             ],
             "style-de-combat": [
               "Téléportation",
@@ -11310,7 +11486,8 @@
             "role": {
               "Leader": 2,
               "Traître": 2,
-              "Organisation": 3
+              "Organisation": 3,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Illusion": 2,
@@ -11403,7 +11580,8 @@
               "Leader",
               "Soldat",
               "Ennemi devenu allié",
-              "Frère / Soeur"
+              "Frère / Soeur",
+              "Ninja"
             ],
             "style-de-combat": [
               "Barrière / Bouclier",
@@ -11429,7 +11607,8 @@
             "role": {
               "Ennemi devenu allié": 3,
               "Leader": 3,
-              "Frère / Soeur": 2
+              "Frère / Soeur": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Barrière / Bouclier": 3,
@@ -11458,7 +11637,8 @@
               "Allié",
               "Soldat",
               "Ennemi devenu allié",
-              "Frère / Soeur"
+              "Frère / Soeur",
+              "Ninja"
             ],
             "style-de-combat": [
               "Contrôle du vent"
@@ -11476,7 +11656,8 @@
               "Cheveux blonds": 2
             },
             "role": {
-              "Frère / Soeur": 3
+              "Frère / Soeur": 3,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Contrôle du vent": 3
@@ -11489,13 +11670,15 @@
           "tags": {
             "physique": [
               "Tatoué",
-              "Couvre-chef"
+              "Couvre-chef",
+              "Maquillage"
             ],
             "role": [
               "Allié",
               "Soldat",
               "Ennemi devenu allié",
-              "Frère / Soeur"
+              "Frère / Soeur",
+              "Ninja"
             ],
             "style-de-combat": [
               "Poison",
@@ -11510,10 +11693,12 @@
           },
           "tagRarity": {
             "physique": {
-              "Couvre-chef": 2
+              "Couvre-chef": 2,
+              "Maquillage": 2
             },
             "role": {
-              "Frère / Soeur": 3
+              "Frère / Soeur": 3,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Poison": 2,
@@ -11534,7 +11719,8 @@
               "Allié",
               "Maître / Mentor",
               "Musicien",
-              "Frère / Soeur"
+              "Frère / Soeur",
+              "Ninja"
             ],
             "style-de-combat": [
               "Épée",
@@ -11545,7 +11731,8 @@
               "Joyeux",
               "Courageux",
               "Excentrique",
-              "Fêtard"
+              "Fêtard",
+              "Blagueur"
             ],
             "univers": [
               "Jinchuriki"
@@ -11561,7 +11748,8 @@
               "Allié": 2,
               "Maître / Mentor": 2,
               "Musicien": 3,
-              "Frère / Soeur": 2
+              "Frère / Soeur": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Épée": 2,
@@ -11589,7 +11777,8 @@
               "Bras droit",
               "Orphelin",
               "Fugitif",
-              "Garde du corps"
+              "Garde du corps",
+              "Ninja"
             ],
             "style-de-combat": [
               "Armes à distance",
@@ -11608,7 +11797,8 @@
             "role": {
               "Bras droit": 2,
               "Orphelin": 2,
-              "Garde du corps": 2
+              "Garde du corps": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Armes à distance": 2,
@@ -11632,7 +11822,8 @@
               "Antagoniste",
               "Assassin",
               "Criminel",
-              "Fugitif"
+              "Fugitif",
+              "Ninja"
             ],
             "style-de-combat": [
               "Épée",
@@ -11652,7 +11843,8 @@
             "role": {
               "Assassin": 2,
               "Criminel": 2,
-              "Fugitif": 2
+              "Fugitif": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Épée": 2,
@@ -11676,7 +11868,8 @@
             ],
             "role": [
               "Leader",
-              "Frère / Soeur"
+              "Frère / Soeur",
+              "Ninja"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -11700,7 +11893,8 @@
               "Musclé": 2
             },
             "role": {
-              "Leader": 3
+              "Leader": 3,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
@@ -11732,7 +11926,8 @@
               "Traître",
               "Fugitif",
               "Ennemi devenu allié",
-              "Organisation"
+              "Organisation",
+              "Ninja"
             ],
             "style-de-combat": [
               "Invocation",
@@ -11763,7 +11958,8 @@
               "Criminel": 2,
               "Scientifique": 3,
               "Traître": 2,
-              "Fugitif": 2
+              "Fugitif": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Invocation": 2,
@@ -11797,14 +11993,15 @@
               "Espion",
               "Traître",
               "Orphelin",
-              "Garde du corps"
+              "Garde du corps",
+              "Ninja"
             ],
             "style-de-combat": [
               "Arme Tranchante",
               "Invocation",
-              "Régénération",
               "Contrôle des animaux",
-              "Manipulation des âmes"
+              "Manipulation des âmes",
+              "Soin"
             ],
             "caractere": [
               "Calme",
@@ -11823,11 +12020,12 @@
               "Médecin": 2,
               "Espion": 3,
               "Traître": 2,
-              "Orphelin": 2
+              "Orphelin": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Invocation": 2,
-              "Régénération": 2
+              "Soin": 2
             },
             "caractere": {
               "Intelligent": 2,
@@ -11848,7 +12046,8 @@
               "Antagoniste",
               "Rival",
               "Leader",
-              "Traître"
+              "Traître",
+              "Ninja"
             ],
             "style-de-combat": [
               "Illusion",
@@ -11878,7 +12077,8 @@
             "role": {
               "Rival": 2,
               "Leader": 2,
-              "Antagoniste": 3
+              "Antagoniste": 3,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Illusion": 2,
@@ -12015,7 +12215,8 @@
             "role": [
               "Religieux",
               "Dieu / Divinité",
-              "Parent"
+              "Parent",
+              "Ermite / Sage"
             ],
             "style-de-combat": [
               "Scellement",
@@ -12041,7 +12242,8 @@
             "role": {
               "Religieux": 3,
               "Parent": 2,
-              "Dieu / Divinité": 2
+              "Dieu / Divinité": 2,
+              "Ermite / Sage": 3
             },
             "style-de-combat": {
               "Scellement": 2,
@@ -12240,8 +12442,8 @@
               "Tritagoniste"
             ],
             "style-de-combat": [
-              "Régénération",
-              "Barrière / Bouclier"
+              "Barrière / Bouclier",
+              "Soin"
             ],
             "caractere": [
               "Joyeux",
@@ -12265,8 +12467,8 @@
               "Tritagoniste": 3
             },
             "style-de-combat": {
-              "Régénération": 2,
-              "Barrière / Bouclier": 3
+              "Barrière / Bouclier": 3,
+              "Soin": 3
             },
             "caractere": {
               "Joyeux": 2,
@@ -12461,7 +12663,8 @@
               "Maître / Mentor",
               "Assassin",
               "Fugitif",
-              "Noble"
+              "Noble",
+              "Ninja"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -12490,7 +12693,8 @@
               "Maître / Mentor": 2,
               "Fugitif": 2,
               "Noble": 2,
-              "Assassin": 2
+              "Assassin": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Arts martiaux": 3,
@@ -12613,13 +12817,15 @@
             ],
             "style-de-combat": [
               "Combat aux jambes",
-              "Super-vitesse"
+              "Super-vitesse",
+              "Fantômes / Esprits"
             ],
             "caractere": [
               "Impulsif",
               "Excentrique",
               "Romantique",
-              "Pervers"
+              "Pervers",
+              "Blagueur"
             ]
           },
           "tagRarity": {
@@ -12630,7 +12836,8 @@
               "Mascotte": 3
             },
             "style-de-combat": {
-              "Combat aux jambes": 2
+              "Combat aux jambes": 2,
+              "Fantômes / Esprits": 2
             },
             "caractere": {
               "Excentrique": 2,
@@ -13001,7 +13208,8 @@
               "Couvre-chef",
               "Masque",
               "Tenue traditionnelle",
-              "Peau colorée"
+              "Peau colorée",
+              "Maquillage"
             ],
             "role": [
               "Scientifique",
@@ -13029,7 +13237,8 @@
             "physique": {
               "Cyborg / Robot": 2,
               "Masque": 2,
-              "Peau colorée": 3
+              "Peau colorée": 3,
+              "Maquillage": 2
             },
             "role": {
               "Scientifique": 3
@@ -13063,7 +13272,8 @@
             "role": [
               "Élève",
               "Assassin",
-              "Garde du corps"
+              "Garde du corps",
+              "Ninja"
             ],
             "style-de-combat": [
               "Arts martiaux",
@@ -13090,7 +13300,8 @@
             },
             "role": {
               "Assassin": 3,
-              "Garde du corps": 2
+              "Garde du corps": 2,
+              "Ninja": 2
             },
             "style-de-combat": {
               "Poison": 2,
@@ -13123,9 +13334,9 @@
             "style-de-combat": [
               "Katana",
               "Arme Tranchante",
-              "Régénération",
               "Super-vitesse",
-              "Battle IQ"
+              "Battle IQ",
+              "Soin"
             ],
             "caractere": [
               "Calme",
@@ -13148,7 +13359,7 @@
             "style-de-combat": {
               "Katana": 3,
               "Arme Tranchante": 2,
-              "Régénération": 2
+              "Soin": 3
             },
             "caractere": {
               "Calme": 3,
@@ -13451,7 +13662,8 @@
           "tags": {
             "physique": [
               "Lunettes",
-              "Tenue traditionnelle"
+              "Tenue traditionnelle",
+              "Aveugle"
             ],
             "role": [
               "Antagoniste",
@@ -13478,7 +13690,8 @@
           "tagRarity": {
             "physique": {
               "Lunettes": 2,
-              "Tenue traditionnelle": 2
+              "Tenue traditionnelle": 2,
+              "Aveugle": 3
             },
             "role": {
               "Antagoniste": 2,
@@ -14912,15 +15125,16 @@
               "Élève",
               "Gardien",
               "Orphelin",
+              "Deutéragoniste",
               "Garde du corps",
-              "Deutéragoniste"
+              "Mafia / Pègre"
             ],
             "style-de-combat": [
-              "Régénération",
               "Fils / Chaînes",
               "Scellement",
               "Battle IQ",
-              "Pouvoir oculaire"
+              "Pouvoir oculaire",
+              "Soin"
             ],
             "caractere": [
               "Sérieux",
@@ -14949,7 +15163,8 @@
               "Allié": 2,
               "Orphelin": 2,
               "Garde du corps": 2,
-              "Deutéragoniste": 3
+              "Deutéragoniste": 3,
+              "Mafia / Pègre": 2
             },
             "style-de-combat": {
               "Scellement": 2,
@@ -14977,7 +15192,8 @@
           "tags": {
             "physique": [
               "Grand",
-              "Lunettes"
+              "Lunettes",
+              "Costume"
             ],
             "role": [
               "Allié",
@@ -14995,7 +15211,8 @@
               "Intelligent",
               "Altruiste",
               "Loyal",
-              "Impulsif"
+              "Impulsif",
+              "Travailleur"
             ],
             "univers": [
               "Hunter",
@@ -15005,7 +15222,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Lunettes": 2
+              "Lunettes": 2,
+              "Costume": 2
             },
             "role": {
               "Allié": 2,
@@ -15014,7 +15232,8 @@
             "caractere": {
               "Altruiste": 2,
               "Loyal": 2,
-              "Impulsif": 2
+              "Impulsif": 2,
+              "Travailleur": 2
             },
             "univers": {
               "Hunter": 2,
@@ -15088,7 +15307,8 @@
             "role": [
               "Leader",
               "Maître / Mentor",
-              "Religieux"
+              "Religieux",
+              "Ermite / Sage"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -15119,7 +15339,8 @@
             },
             "role": {
               "Leader": 3,
-              "Maître / Mentor": 3
+              "Maître / Mentor": 3,
+              "Ermite / Sage": 2
             },
             "style-de-combat": {
               "Arts martiaux": 3,
@@ -15163,7 +15384,8 @@
               "Colérique",
               "Menteur",
               "Excentrique",
-              "Romantique"
+              "Romantique",
+              "Cupide"
             ],
             "univers": [
               "Hunter",
@@ -15185,7 +15407,8 @@
               "Super-force": 2
             },
             "caractere": {
-              "Excentrique": 2
+              "Excentrique": 2,
+              "Cupide": 2
             },
             "univers": {
               "Hunter": 2,
@@ -15249,7 +15472,8 @@
             "caractere": [
               "Sérieux",
               "Loyal",
-              "Déterminé"
+              "Déterminé",
+              "Travailleur"
             ]
           },
           "tagRarity": {
@@ -15260,7 +15484,8 @@
               "Élève": 3
             },
             "caractere": {
-              "Déterminé": 2
+              "Déterminé": 2,
+              "Travailleur": 2
             },
             "style-de-combat": {
               "Arts martiaux": 2
@@ -15481,7 +15706,8 @@
           "group": "hunters",
           "tags": {
             "physique": [
-              "Cheveux blonds"
+              "Cheveux blonds",
+              "Costume"
             ],
             "role": [
               "Antagoniste",
@@ -15501,7 +15727,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Cheveux blonds": 2
+              "Cheveux blonds": 2,
+              "Costume": 2
             },
             "role": {
               "Conseiller": 2
@@ -15529,6 +15756,7 @@
             "role": [
               "Allié",
               "Assassin",
+              "Héritier / Héritière",
               "Fugitif",
               "Deutéragoniste",
               "Frère / Soeur"
@@ -15565,7 +15793,8 @@
               "Assassin": 3,
               "Fugitif": 2,
               "Frère / Soeur": 2,
-              "Deutéragoniste": 3
+              "Deutéragoniste": 3,
+              "Héritier / Héritière": 2
             },
             "style-de-combat": {
               "Combat à mains nues": 2,
@@ -15808,7 +16037,8 @@
             "caractere": [
               "Sadique",
               "Paresseux",
-              "Gourmand"
+              "Gourmand",
+              "Cupide"
             ],
             "univers": [
               "Zoldyck"
@@ -15825,7 +16055,8 @@
             "caractere": {
               "Sadique": 2,
               "Paresseux": 2,
-              "Gourmand": 2
+              "Gourmand": 2,
+              "Cupide": 2
             },
             "univers": {
               "Zoldyck": 3
@@ -15879,7 +16110,8 @@
           "group": "zoldyck",
           "tags": {
             "physique": [
-              "Lunettes"
+              "Lunettes",
+              "Costume"
             ],
             "role": [
               "Bras droit",
@@ -15900,7 +16132,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Lunettes": 2
+              "Lunettes": 2,
+              "Costume": 2
             },
             "role": {
               "Bras droit": 2,
@@ -15989,7 +16222,8 @@
           "tags": {
             "physique": [
               "Cheveux rouges",
-              "Tatoué"
+              "Tatoué",
+              "Maquillage"
             ],
             "role": [
               "Antagoniste",
@@ -16022,7 +16256,8 @@
           "tagRarity": {
             "physique": {
               "Cheveux rouges": 2,
-              "Tatoué": 2
+              "Tatoué": 2,
+              "Maquillage": 3
             },
             "role": {
               "Antagoniste": 2,
@@ -16292,7 +16527,8 @@
               "Organisation"
             ],
             "style-de-combat": [
-              "Fils / Chaînes"
+              "Fils / Chaînes",
+              "Soin"
             ],
             "caractere": [
               "Calme",
@@ -16621,15 +16857,16 @@
             ],
             "style-de-combat": [
               "Manipulation mentale",
-              "Régénération",
               "Super-force",
-              "Super-vitesse"
+              "Super-vitesse",
+              "Soin"
             ],
             "caractere": [
               "Joyeux",
               "Sadique",
               "Loyal",
-              "Curieux"
+              "Curieux",
+              "Fanatique"
             ],
             "univers": [
               "Fourmi-chimère",
@@ -16650,8 +16887,8 @@
             },
             "style-de-combat": {
               "Manipulation mentale": 2,
-              "Régénération": 2,
-              "Super-vitesse": 2
+              "Super-vitesse": 2,
+              "Soin": 2
             },
             "caractere": {
               "Sadique": 2,
@@ -16688,7 +16925,8 @@
             "caractere": [
               "Manipulateur",
               "Loyal",
-              "Excentrique"
+              "Excentrique",
+              "Fanatique"
             ],
             "univers": [
               "Fourmi-chimère",
@@ -16715,7 +16953,8 @@
             "caractere": {
               "Manipulateur": 2,
               "Loyal": 3,
-              "Excentrique": 2
+              "Excentrique": 2,
+              "Fanatique": 3
             },
             "univers": {
               "Fourmi-chimère": 3,
@@ -16788,7 +17027,8 @@
           "tags": {
             "physique": [
               "Femme",
-              "Petit"
+              "Petit",
+              "Aveugle"
             ],
             "role": [
               "Allié"
@@ -16802,7 +17042,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Femme": 2
+              "Femme": 2,
+              "Aveugle": 3
             },
             "caractere": {
               "Timide": 2,
@@ -16953,7 +17194,8 @@
               "Antagoniste"
             ],
             "style-de-combat": [
-              "Poison"
+              "Poison",
+              "Pièges / Ruses"
             ],
             "caractere": [
               "Menteur",
@@ -16966,6 +17208,9 @@
               "Menteur": 3,
               "Manipulateur": 2,
               "Égoïste": 2
+            },
+            "style-de-combat": {
+              "Pièges / Ruses": 2
             }
           }
         },
@@ -16982,7 +17227,8 @@
               "Criminel"
             ],
             "style-de-combat": [
-              "Explosions"
+              "Explosions",
+              "Pièges / Ruses"
             ],
             "caractere": [
               "Manipulateur",
@@ -16999,7 +17245,8 @@
               "Criminel": 2
             },
             "style-de-combat": {
-              "Explosions": 3
+              "Explosions": 3,
+              "Pièges / Ruses": 2
             },
             "caractere": {
               "Sadique": 2,
@@ -17084,7 +17331,8 @@
           "group": "autres",
           "tags": {
             "physique": [
-              "Moustachu"
+              "Moustachu",
+              "Costume"
             ],
             "role": [
               "Allié"
@@ -17102,7 +17350,8 @@
           },
           "tagRarity": {
             "physique": {
-              "Moustachu": 2
+              "Moustachu": 2,
+              "Costume": 2
             },
             "caractere": {
               "Calme": 2
@@ -17121,7 +17370,9 @@
               "Cheveux bleus"
             ],
             "role": [
-              "Noble"
+              "Héritier / Héritière",
+              "Noble",
+              "Mafia / Pègre"
             ],
             "style-de-combat": [
               "Prémonition"
@@ -17149,6 +17400,9 @@
             },
             "univers": {
               "Nen : Spécialisation": 2
+            },
+            "role": {
+              "Mafia / Pègre": 2
             }
           }
         },
@@ -17196,7 +17450,8 @@
             ],
             "role": [
               "Assassin",
-              "Espion"
+              "Espion",
+              "Ninja"
             ],
             "style-de-combat": [
               "Arts martiaux",
@@ -17217,7 +17472,8 @@
               "Chauve": 3
             },
             "role": {
-              "Espion": 2
+              "Espion": 2,
+              "Ninja": 3
             },
             "style-de-combat": {
               "Arts martiaux": 2
