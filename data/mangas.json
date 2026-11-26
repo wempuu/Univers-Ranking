@@ -2871,15 +2871,15 @@
             ],
             "caractere": [
               "Joyeux",
+              "Colérique",
               "Arrogant",
               "Peureux",
-              "Excentrique",
-              "Sadique",
-              "Fêtard",
-              "Colérique",
               "Menteur",
-              "Pessimiste",
-              "Provocateur"
+              "Sadique",
+              "Excentrique",
+              "Fêtard",
+              "Provocateur",
+              "Cupide"
             ],
             "physique": [
               "Cheveux bleus",
@@ -2911,7 +2911,8 @@
               "Arrogant": 2,
               "Peureux": 3,
               "Excentrique": 2,
-              "Menteur": 2
+              "Menteur": 2,
+              "Cupide": 2
             },
             "physique": {
               "Couvre-chef": 2,
