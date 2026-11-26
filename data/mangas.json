@@ -669,7 +669,8 @@
               "Criminel",
               "Cuisinier",
               "Noble",
-              "Noble déchu"
+              "Noble déchu",
+              "Deutéragoniste"
             ],
             "style-de-combat": [
               "Contrôle du feu",
@@ -701,7 +702,8 @@
           "tagRarity": {
             "role": {
               "Cuisinier": 3,
-              "Allié": 2
+              "Allié": 2,
+              "Deutéragoniste": 3
             },
             "caractere": {
               "Courageux": 2,
@@ -821,7 +823,8 @@
               "Orphelin",
               "Fugitif",
               "Ennemi devenu allié",
-              "Organisation"
+              "Organisation",
+              "Tritagoniste"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -850,7 +853,8 @@
             "role": {
               "Allié": 2,
               "Fugitif": 3,
-              "Orphelin": 3
+              "Orphelin": 3,
+              "Tritagoniste": 3
             },
             "caractere": {
               "Intelligent": 3,
@@ -6940,11 +6944,11 @@
             },
             "role": {
               "Rival": 3,
-              "Deutéragoniste": 2,
               "Prince / Princesse": 3,
               "Ennemi devenu allié": 3,
               "Parent": 2,
-              "Noble": 2
+              "Noble": 2,
+              "Deutéragoniste": 3
             },
             "style-de-combat": {
               "Arts martiaux": 2,
@@ -6982,7 +6986,6 @@
               "Allié",
               "Élève",
               "Scientifique",
-              "Deutéragoniste",
               "Parent"
             ],
             "style-de-combat": [
@@ -7009,7 +7012,6 @@
             "role": {
               "Allié": 2,
               "Élève": 3,
-              "Deutéragoniste": 2,
               "Scientifique": 2
             },
             "style-de-combat": {
@@ -7555,7 +7557,8 @@
             "role": [
               "Allié",
               "Scientifique",
-              "Parent"
+              "Parent",
+              "Tritagoniste"
             ],
             "style-de-combat": [
               "Armes à feu"
@@ -7577,7 +7580,8 @@
             "role": {
               "Allié": 2,
               "Scientifique": 3,
-              "Parent": 2
+              "Parent": 2,
+              "Tritagoniste": 3
             },
             "caractere": {
               "Intelligent": 3,
@@ -9551,7 +9555,8 @@
             "role": [
               "Allié",
               "Élève",
-              "Médecin"
+              "Médecin",
+              "Tritagoniste"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -9575,7 +9580,8 @@
             "role": {
               "Médecin": 3,
               "Allié": 2,
-              "Élève": 2
+              "Élève": 2,
+              "Tritagoniste": 3
             },
             "style-de-combat": {
               "Combat à mains nues": 3,
@@ -12163,9 +12169,9 @@
               "Allié",
               "Bras droit",
               "Soldat",
-              "Deutéragoniste",
               "Frère / Soeur",
-              "Noble"
+              "Noble",
+              "Tritagoniste"
             ],
             "style-de-combat": [
               "Katana",
@@ -12198,7 +12204,7 @@
               "Soldat": 2,
               "Noble": 2,
               "Frère / Soeur": 2,
-              "Deutéragoniste": 3
+              "Tritagoniste": 3
             },
             "style-de-combat": {
               "Katana": 2,
@@ -12230,7 +12236,8 @@
               "Allié",
               "Élève",
               "Prisonnier",
-              "Orphelin"
+              "Orphelin",
+              "Tritagoniste"
             ],
             "style-de-combat": [
               "Régénération",
@@ -12254,7 +12261,8 @@
             },
             "role": {
               "Allié": 2,
-              "Prisonnier": 2
+              "Prisonnier": 2,
+              "Tritagoniste": 3
             },
             "style-de-combat": {
               "Régénération": 2,
@@ -12280,7 +12288,8 @@
               "Allié",
               "Rival",
               "Élève",
-              "Traître"
+              "Traître",
+              "Deutéragoniste"
             ],
             "style-de-combat": [
               "Arme Tranchante",
@@ -12306,7 +12315,8 @@
             },
             "role": {
               "Allié": 2,
-              "Rival": 3
+              "Rival": 3,
+              "Deutéragoniste": 3
             },
             "style-de-combat": {
               "Armes à distance": 3,
@@ -13211,7 +13221,8 @@
               "Allié",
               "Rival",
               "Bras droit",
-              "Soldat"
+              "Soldat",
+              "Deutéragoniste"
             ],
             "style-de-combat": [
               "Katana",
@@ -13241,7 +13252,8 @@
             "role": {
               "Allié": 2,
               "Bras droit": 2,
-              "Soldat": 2
+              "Soldat": 2,
+              "Deutéragoniste": 3
             },
             "style-de-combat": {
               "Katana": 2,
@@ -14900,7 +14912,8 @@
               "Élève",
               "Gardien",
               "Orphelin",
-              "Garde du corps"
+              "Garde du corps",
+              "Deutéragoniste"
             ],
             "style-de-combat": [
               "Régénération",
@@ -14935,7 +14948,8 @@
             "role": {
               "Allié": 2,
               "Orphelin": 2,
-              "Garde du corps": 2
+              "Garde du corps": 2,
+              "Deutéragoniste": 3
             },
             "style-de-combat": {
               "Scellement": 2,
