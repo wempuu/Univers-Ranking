@@ -224,6 +224,26 @@
         "Paramecia",
         "Zoan",
         "Zoan mythique",
+        "Volonté du D.",
+        "Haki des rois",
+        "Supernova",
+        "Marine",
+        "Dragon céleste",
+        "Gorosei",
+        "Wano",
+        "Mink",
+        "Géant",
+        "Lunarien",
+        "Équipage du Chapeau de paille",
+        "Équipage de Barbe Blanche",
+        "Équipage aux Cent Bêtes",
+        "Équipage de Big Mom",
+        "Équipage de Barbe Noire",
+        "Baroque Works",
+        "Équipage du Heart",
+        "Équipage de Roger",
+        "Équipage du Roux",
+        "Équipage de Rocks",
         "Saiyan",
         "Super Saiyan",
         "Namek",
@@ -340,7 +360,11 @@
             "univers": [
               "Pirate",
               "Empereur",
-              "Zoan mythique"
+              "Zoan mythique",
+              "Volonté du D.",
+              "Haki des rois",
+              "Supernova",
+              "Équipage du Chapeau de paille"
             ]
           },
           "tagRarity": {
@@ -377,7 +401,11 @@
             "univers": {
               "Pirate": 3,
               "Empereur": 2,
-              "Zoan mythique": 3
+              "Zoan mythique": 3,
+              "Volonté du D.": 3,
+              "Haki des rois": 3,
+              "Supernova": 2,
+              "Équipage du Chapeau de paille": 3
             }
           }
         },
@@ -429,7 +457,10 @@
               "Solitaire"
             ],
             "univers": [
-              "Pirate"
+              "Pirate",
+              "Haki des rois",
+              "Supernova",
+              "Équipage du Chapeau de paille"
             ]
           },
           "tagRarity": {
@@ -463,7 +494,10 @@
               "Solitaire": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Haki des rois": 2,
+              "Supernova": 2,
+              "Équipage du Chapeau de paille": 3
             }
           }
         },
@@ -512,7 +546,8 @@
               "Courageux"
             ],
             "univers": [
-              "Pirate"
+              "Pirate",
+              "Équipage du Chapeau de paille"
             ]
           },
           "tagRarity": {
@@ -543,7 +578,8 @@
               "Courageux": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Équipage du Chapeau de paille": 3
             }
           }
         },
@@ -586,7 +622,8 @@
               "Courageux"
             ],
             "univers": [
-              "Pirate"
+              "Pirate",
+              "Équipage du Chapeau de paille"
             ]
           },
           "tagRarity": {
@@ -610,7 +647,8 @@
               "Courageux": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Équipage du Chapeau de paille": 3
             }
           }
         },
@@ -655,7 +693,8 @@
               "Fumeur"
             ],
             "univers": [
-              "Pirate"
+              "Pirate",
+              "Équipage du Chapeau de paille"
             ]
           },
           "tagRarity": {
@@ -679,7 +718,8 @@
               "Cheveux blonds": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Équipage du Chapeau de paille": 3
             }
           }
         },
@@ -726,7 +766,8 @@
             ],
             "univers": [
               "Pirate",
-              "Zoan"
+              "Zoan",
+              "Équipage du Chapeau de paille"
             ]
           },
           "tagRarity": {
@@ -756,7 +797,8 @@
             },
             "univers": {
               "Pirate": 2,
-              "Zoan": 2
+              "Zoan": 2,
+              "Équipage du Chapeau de paille": 3
             }
           }
         },
@@ -800,7 +842,9 @@
             ],
             "univers": [
               "Pirate",
-              "Paramecia"
+              "Paramecia",
+              "Équipage du Chapeau de paille",
+              "Baroque Works"
             ]
           },
           "tagRarity": {
@@ -825,7 +869,8 @@
               "Femme": 3
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Équipage du Chapeau de paille": 3
             }
           }
         },
@@ -871,7 +916,8 @@
               "Romantique"
             ],
             "univers": [
-              "Pirate"
+              "Pirate",
+              "Équipage du Chapeau de paille"
             ]
           },
           "tagRarity": {
@@ -895,7 +941,8 @@
               "Excentrique": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Équipage du Chapeau de paille": 3
             }
           }
         },
@@ -941,7 +988,8 @@
             ],
             "univers": [
               "Pirate",
-              "Paramecia"
+              "Paramecia",
+              "Équipage du Chapeau de paille"
             ]
           },
           "tagRarity": {
@@ -969,7 +1017,8 @@
               "Fêtard": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Équipage du Chapeau de paille": 3
             }
           }
         },
@@ -1013,7 +1062,8 @@
             ],
             "univers": [
               "Pirate",
-              "Corsaire"
+              "Corsaire",
+              "Équipage du Chapeau de paille"
             ]
           },
           "tagRarity": {
@@ -1039,7 +1089,8 @@
             },
             "univers": {
               "Pirate": 2,
-              "Corsaire": 2
+              "Corsaire": 2,
+              "Équipage du Chapeau de paille": 3
             }
           }
         },
@@ -1079,7 +1130,10 @@
               "Curieux"
             ],
             "univers": [
-              "Pirate"
+              "Pirate",
+              "Volonté du D.",
+              "Haki des rois",
+              "Équipage de Roger"
             ]
           },
           "tagRarity": {
@@ -1105,7 +1159,10 @@
               "Curieux": 2
             },
             "univers": {
-              "Pirate": 3
+              "Pirate": 3,
+              "Volonté du D.": 3,
+              "Haki des rois": 3,
+              "Équipage de Roger": 3
             }
           }
         },
@@ -1152,7 +1209,9 @@
               "Solitaire"
             ],
             "univers": [
-              "Pirate"
+              "Pirate",
+              "Haki des rois",
+              "Équipage de Roger"
             ]
           },
           "tagRarity": {
@@ -1175,7 +1234,9 @@
               "Loyal": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Haki des rois": 2,
+              "Équipage de Roger": 3
             }
           }
         },
@@ -1217,7 +1278,10 @@
             ],
             "univers": [
               "Pirate",
-              "Empereur"
+              "Empereur",
+              "Haki des rois",
+              "Équipage de Roger",
+              "Équipage du Roux"
             ]
           },
           "tagRarity": {
@@ -1243,7 +1307,10 @@
             },
             "univers": {
               "Pirate": 2,
-              "Empereur": 3
+              "Empereur": 3,
+              "Haki des rois": 3,
+              "Équipage de Roger": 2,
+              "Équipage du Roux": 3
             }
           }
         },
@@ -1285,7 +1352,8 @@
               "Stratège"
             ],
             "univers": [
-              "Pirate"
+              "Pirate",
+              "Équipage du Roux"
             ]
           },
           "tagRarity": {
@@ -1305,7 +1373,8 @@
               "Âgé": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Équipage du Roux": 3
             }
           }
         },
@@ -1337,7 +1406,8 @@
               "Loyal"
             ],
             "univers": [
-              "Pirate"
+              "Pirate",
+              "Équipage du Roux"
             ]
           },
           "tagRarity": {
@@ -1354,7 +1424,8 @@
               "Fêtard": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Équipage du Roux": 3
             }
           }
         },
@@ -1387,7 +1458,8 @@
               "Loyal"
             ],
             "univers": [
-              "Pirate"
+              "Pirate",
+              "Équipage du Roux"
             ]
           },
           "tagRarity": {
@@ -1403,7 +1475,8 @@
               "Fêtard": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Équipage du Roux": 3
             }
           }
         },
@@ -1448,7 +1521,10 @@
             "univers": [
               "Pirate",
               "Empereur",
-              "Paramecia"
+              "Paramecia",
+              "Haki des rois",
+              "Équipage de Barbe Blanche",
+              "Équipage de Rocks"
             ]
           },
           "tagRarity": {
@@ -1477,7 +1553,10 @@
             },
             "univers": {
               "Pirate": 2,
-              "Empereur": 3
+              "Empereur": 3,
+              "Haki des rois": 2,
+              "Équipage de Barbe Blanche": 3,
+              "Équipage de Rocks": 2
             }
           }
         },
@@ -1517,7 +1596,8 @@
             ],
             "univers": [
               "Pirate",
-              "Zoan mythique"
+              "Zoan mythique",
+              "Équipage de Barbe Blanche"
             ]
           },
           "tagRarity": {
@@ -1541,7 +1621,8 @@
             },
             "univers": {
               "Pirate": 2,
-              "Zoan mythique": 3
+              "Zoan mythique": 3,
+              "Équipage de Barbe Blanche": 3
             }
           }
         },
@@ -1585,7 +1666,9 @@
             ],
             "univers": [
               "Pirate",
-              "Logia"
+              "Logia",
+              "Volonté du D.",
+              "Équipage de Barbe Blanche"
             ]
           },
           "tagRarity": {
@@ -1611,7 +1694,9 @@
             },
             "univers": {
               "Pirate": 2,
-              "Logia": 3
+              "Logia": 3,
+              "Volonté du D.": 2,
+              "Équipage de Barbe Blanche": 3
             }
           }
         },
@@ -1648,7 +1733,8 @@
             ],
             "univers": [
               "Pirate",
-              "Paramecia"
+              "Paramecia",
+              "Équipage de Barbe Blanche"
             ]
           },
           "tagRarity": {
@@ -1664,7 +1750,8 @@
               "Loyal": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Équipage de Barbe Blanche": 3
             }
           }
         },
@@ -1718,7 +1805,10 @@
             "univers": [
               "Pirate",
               "Corsaire",
-              "Paramecia"
+              "Paramecia",
+              "Volonté du D.",
+              "Supernova",
+              "Équipage du Heart"
             ]
           },
           "tagRarity": {
@@ -1751,7 +1841,10 @@
               "Sérieux": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Volonté du D.": 2,
+              "Supernova": 2,
+              "Équipage du Heart": 3
             }
           }
         },
@@ -1789,7 +1882,9 @@
               "Altruiste"
             ],
             "univers": [
-              "Pirate"
+              "Pirate",
+              "Mink",
+              "Équipage du Heart"
             ]
           },
           "tagRarity": {
@@ -1813,7 +1908,9 @@
               "Altruiste": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Mink": 3,
+              "Équipage du Heart": 3
             }
           }
         },
@@ -1856,7 +1953,9 @@
             ],
             "univers": [
               "Pirate",
-              "Paramecia"
+              "Paramecia",
+              "Haki des rois",
+              "Supernova"
             ]
           },
           "tagRarity": {
@@ -1884,7 +1983,9 @@
               "Télékinésie": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Haki des rois": 2,
+              "Supernova": 2
             }
           }
         },
@@ -1919,7 +2020,8 @@
               "Vengeur"
             ],
             "univers": [
-              "Pirate"
+              "Pirate",
+              "Supernova"
             ]
           },
           "tagRarity": {
@@ -1937,7 +2039,8 @@
               "Loyal": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Supernova": 2
             }
           }
         },
@@ -1987,7 +2090,10 @@
               "Empereur",
               "Corsaire",
               "Logia",
-              "Paramecia"
+              "Paramecia",
+              "Volonté du D.",
+              "Équipage de Barbe Blanche",
+              "Équipage de Barbe Noire"
             ]
           },
           "tagRarity": {
@@ -2017,7 +2123,9 @@
             "univers": {
               "Pirate": 3,
               "Empereur": 2,
-              "Logia": 3
+              "Logia": 3,
+              "Volonté du D.": 2,
+              "Équipage de Barbe Noire": 3
             }
           }
         },
@@ -2073,7 +2181,10 @@
             "univers": [
               "Pirate",
               "Empereur",
-              "Zoan mythique"
+              "Zoan mythique",
+              "Haki des rois",
+              "Équipage aux Cent Bêtes",
+              "Équipage de Rocks"
             ]
           },
           "tagRarity": {
@@ -2107,7 +2218,10 @@
             "univers": {
               "Pirate": 2,
               "Empereur": 3,
-              "Zoan mythique": 3
+              "Zoan mythique": 3,
+              "Haki des rois": 2,
+              "Équipage aux Cent Bêtes": 3,
+              "Équipage de Rocks": 2
             }
           }
         },
@@ -2154,7 +2268,10 @@
             ],
             "univers": [
               "Pirate",
-              "Zoan mythique"
+              "Zoan mythique",
+              "Haki des rois",
+              "Wano",
+              "Équipage aux Cent Bêtes"
             ]
           },
           "tagRarity": {
@@ -2175,7 +2292,9 @@
             },
             "univers": {
               "Pirate": 2,
-              "Zoan mythique": 3
+              "Zoan mythique": 3,
+              "Haki des rois": 2,
+              "Wano": 2
             }
           }
         },
@@ -2223,7 +2342,9 @@
             ],
             "univers": [
               "Pirate",
-              "Zoan"
+              "Zoan",
+              "Lunarien",
+              "Équipage aux Cent Bêtes"
             ]
           },
           "tagRarity": {
@@ -2251,7 +2372,9 @@
             },
             "univers": {
               "Pirate": 2,
-              "Zoan": 2
+              "Zoan": 2,
+              "Lunarien": 3,
+              "Équipage aux Cent Bêtes": 3
             }
           }
         },
@@ -2298,7 +2421,8 @@
             ],
             "univers": [
               "Pirate",
-              "Zoan"
+              "Zoan",
+              "Équipage aux Cent Bêtes"
             ]
           },
           "tagRarity": {
@@ -2324,7 +2448,8 @@
             },
             "univers": {
               "Pirate": 2,
-              "Zoan": 2
+              "Zoan": 2,
+              "Équipage aux Cent Bêtes": 3
             }
           }
         },
@@ -2363,7 +2488,8 @@
             ],
             "univers": [
               "Pirate",
-              "Zoan"
+              "Zoan",
+              "Équipage aux Cent Bêtes"
             ]
           },
           "tagRarity": {
@@ -2382,7 +2508,8 @@
             },
             "univers": {
               "Pirate": 2,
-              "Zoan": 2
+              "Zoan": 2,
+              "Équipage aux Cent Bêtes": 3
             }
           }
         },
@@ -2429,7 +2556,9 @@
             "univers": [
               "Pirate",
               "Corsaire",
-              "Paramecia"
+              "Paramecia",
+              "Haki des rois",
+              "Dragon céleste"
             ]
           },
           "tagRarity": {
@@ -2461,7 +2590,9 @@
             },
             "univers": {
               "Pirate": 2,
-              "Corsaire": 3
+              "Corsaire": 3,
+              "Haki des rois": 2,
+              "Dragon céleste": 2
             }
           }
         },
@@ -2505,7 +2636,8 @@
             "univers": [
               "Pirate",
               "Corsaire",
-              "Paramecia"
+              "Paramecia",
+              "Haki des rois"
             ]
           },
           "tagRarity": {
@@ -2532,7 +2664,8 @@
             },
             "univers": {
               "Pirate": 2,
-              "Corsaire": 3
+              "Corsaire": 3,
+              "Haki des rois": 2
             }
           }
         },
@@ -2643,7 +2776,8 @@
             "univers": [
               "Pirate",
               "Corsaire",
-              "Logia"
+              "Logia",
+              "Baroque Works"
             ]
           },
           "tagRarity": {
@@ -2670,7 +2804,8 @@
             "univers": {
               "Pirate": 2,
               "Corsaire": 3,
-              "Logia": 3
+              "Logia": 3,
+              "Baroque Works": 3
             }
           }
         },
@@ -2716,7 +2851,8 @@
               "Pirate",
               "Empereur",
               "Corsaire",
-              "Paramecia"
+              "Paramecia",
+              "Équipage de Roger"
             ]
           },
           "tagRarity": {
@@ -2742,7 +2878,8 @@
             },
             "univers": {
               "Pirate": 3,
-              "Empereur": 2
+              "Empereur": 2,
+              "Équipage de Roger": 2
             }
           }
         },
@@ -2783,7 +2920,10 @@
               "Super-vitesse"
             ],
             "univers": [
-              "Pirate"
+              "Pirate",
+              "Volonté du D.",
+              "Haki des rois",
+              "Équipage de Rocks"
             ]
           },
           "tagRarity": {
@@ -2808,7 +2948,10 @@
               "Épée": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Volonté du D.": 2,
+              "Haki des rois": 2,
+              "Équipage de Rocks": 3
             }
           }
         },
@@ -2848,7 +2991,8 @@
             ],
             "univers": [
               "Pirate",
-              "Paramecia"
+              "Paramecia",
+              "Supernova"
             ]
           },
           "tagRarity": {
@@ -2867,7 +3011,8 @@
               "Chronomorphose": 3
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Supernova": 2
             }
           }
         },
@@ -3167,7 +3312,8 @@
             ],
             "univers": [
               "Pirate",
-              "Paramecia"
+              "Paramecia",
+              "Équipage de Rocks"
             ]
           },
           "tagRarity": {
@@ -3189,7 +3335,8 @@
               "Manipulateur": 2
             },
             "univers": {
-              "Pirate": 3
+              "Pirate": 3,
+              "Équipage de Rocks": 2
             }
           }
         },
@@ -3481,7 +3628,10 @@
             "univers": [
               "Pirate",
               "Empereur",
-              "Paramecia"
+              "Paramecia",
+              "Haki des rois",
+              "Équipage de Big Mom",
+              "Équipage de Rocks"
             ]
           },
           "tagRarity": {
@@ -3514,7 +3664,10 @@
             },
             "univers": {
               "Pirate": 2,
-              "Empereur": 3
+              "Empereur": 3,
+              "Haki des rois": 2,
+              "Équipage de Big Mom": 3,
+              "Équipage de Rocks": 2
             }
           }
         },
@@ -3562,7 +3715,9 @@
             ],
             "univers": [
               "Pirate",
-              "Paramecia"
+              "Paramecia",
+              "Haki des rois",
+              "Équipage de Big Mom"
             ]
           },
           "tagRarity": {
@@ -3588,7 +3743,9 @@
               "Perfectionniste": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Haki des rois": 2,
+              "Équipage de Big Mom": 3
             }
           }
         },
@@ -3626,7 +3783,8 @@
             ],
             "univers": [
               "Pirate",
-              "Paramecia"
+              "Paramecia",
+              "Équipage de Big Mom"
             ]
           },
           "tagRarity": {
@@ -3647,7 +3805,8 @@
               "Manipulation mentale": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Équipage de Big Mom": 2
             }
           }
         },
@@ -3685,7 +3844,8 @@
             ],
             "univers": [
               "Pirate",
-              "Paramecia"
+              "Paramecia",
+              "Équipage de Big Mom"
             ]
           },
           "tagRarity": {
@@ -3705,7 +3865,8 @@
               "Pouvoir culinaire": 3
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Équipage de Big Mom": 3
             }
           }
         },
@@ -3745,7 +3906,8 @@
             ],
             "univers": [
               "Pirate",
-              "Paramecia"
+              "Paramecia",
+              "Équipage de Big Mom"
             ]
           },
           "tagRarity": {
@@ -3766,7 +3928,8 @@
               "Calme": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Équipage de Big Mom": 3
             }
           }
         },
@@ -3803,7 +3966,8 @@
             ],
             "univers": [
               "Pirate",
-              "Paramecia"
+              "Paramecia",
+              "Équipage de Big Mom"
             ]
           },
           "tagRarity": {
@@ -3819,7 +3983,8 @@
               "Cheveux violets": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Équipage de Big Mom": 3
             }
           }
         },
@@ -3919,7 +4084,8 @@
             ],
             "univers": [
               "Pirate",
-              "Paramecia"
+              "Paramecia",
+              "Équipage de Barbe Noire"
             ]
           },
           "tagRarity": {
@@ -3941,7 +4107,8 @@
               "Fumeur": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Équipage de Barbe Noire": 3
             }
           }
         },
@@ -3974,7 +4141,8 @@
               "Provocateur"
             ],
             "univers": [
-              "Pirate"
+              "Pirate",
+              "Équipage de Barbe Noire"
             ]
           },
           "tagRarity": {
@@ -3989,7 +4157,8 @@
               "Provocateur": 2
             },
             "univers": {
-              "Pirate": 2
+              "Pirate": 2,
+              "Équipage de Barbe Noire": 3
             }
           }
         },
@@ -4039,6 +4208,9 @@
               "Impulsif",
               "Manipulateur",
               "Charismatique"
+            ],
+            "univers": [
+              "Dragon céleste"
             ]
           },
           "tagRarity": {
@@ -4071,6 +4243,9 @@
               "Froid": 2,
               "Manipulateur": 2,
               "Sadique": 2
+            },
+            "univers": {
+              "Dragon céleste": 2
             }
           }
         },
@@ -4094,9 +4269,10 @@
             ],
             "role": [
               "Antagoniste",
-              "Conseiller",
               "Leader",
-              "Noble"
+              "Conseiller",
+              "Noble",
+              "Garde du corps"
             ],
             "style-de-combat": [
               "Transformation",
@@ -4110,6 +4286,10 @@
               "Froid",
               "Intelligent",
               "Manipulateur"
+            ],
+            "univers": [
+              "Dragon céleste",
+              "Gorosei"
             ]
           },
           "tagRarity": {
@@ -4118,12 +4298,16 @@
               "Âgé": 3
             },
             "role": {
-              "Conseiller": 3,
-              "Noble": 2
+              "Noble": 2,
+              "Conseiller": 2
             },
             "style-de-combat": {
               "Transformation": 2,
               "Régénération": 2
+            },
+            "univers": {
+              "Dragon céleste": 2,
+              "Gorosei": 3
             }
           }
         },
@@ -4146,9 +4330,10 @@
             ],
             "role": [
               "Antagoniste",
-              "Conseiller",
               "Leader",
-              "Noble"
+              "Conseiller",
+              "Noble",
+              "Garde du corps"
             ],
             "style-de-combat": [
               "Transformation",
@@ -4163,6 +4348,10 @@
               "Froid",
               "Intelligent",
               "Manipulateur"
+            ],
+            "univers": [
+              "Dragon céleste",
+              "Gorosei"
             ]
           },
           "tagRarity": {
@@ -4171,13 +4360,17 @@
               "Barbu": 2
             },
             "role": {
-              "Conseiller": 3,
-              "Noble": 2
+              "Noble": 2,
+              "Conseiller": 2
             },
             "style-de-combat": {
               "Transformation": 2,
               "Régénération": 2,
               "Vol": 2
+            },
+            "univers": {
+              "Dragon céleste": 2,
+              "Gorosei": 3
             }
           }
         },
@@ -4201,9 +4394,10 @@
             ],
             "role": [
               "Antagoniste",
-              "Conseiller",
               "Leader",
-              "Noble"
+              "Conseiller",
+              "Noble",
+              "Garde du corps"
             ],
             "style-de-combat": [
               "Transformation",
@@ -4216,6 +4410,10 @@
               "Froid",
               "Intelligent",
               "Manipulateur"
+            ],
+            "univers": [
+              "Dragon céleste",
+              "Gorosei"
             ]
           },
           "tagRarity": {
@@ -4225,12 +4423,16 @@
               "Âgé": 3
             },
             "role": {
-              "Conseiller": 3,
-              "Noble": 2
+              "Noble": 2,
+              "Conseiller": 2
             },
             "style-de-combat": {
               "Transformation": 2,
               "Régénération": 2
+            },
+            "univers": {
+              "Dragon céleste": 2,
+              "Gorosei": 3
             }
           }
         },
@@ -4254,9 +4456,10 @@
             ],
             "role": [
               "Antagoniste",
-              "Conseiller",
               "Leader",
-              "Noble"
+              "Conseiller",
+              "Noble",
+              "Garde du corps"
             ],
             "style-de-combat": [
               "Katana",
@@ -4274,6 +4477,10 @@
               "Loyal",
               "Intelligent",
               "Manipulateur"
+            ],
+            "univers": [
+              "Dragon céleste",
+              "Gorosei"
             ]
           },
           "tagRarity": {
@@ -4283,8 +4490,8 @@
               "Âgé": 3
             },
             "role": {
-              "Conseiller": 3,
-              "Noble": 2
+              "Noble": 2,
+              "Conseiller": 2
             },
             "style-de-combat": {
               "Katana": 2,
@@ -4295,6 +4502,10 @@
             },
             "caractere": {
               "Calme": 2
+            },
+            "univers": {
+              "Dragon céleste": 2,
+              "Gorosei": 3
             }
           }
         },
@@ -4316,9 +4527,10 @@
             ],
             "role": [
               "Antagoniste",
-              "Conseiller",
               "Leader",
-              "Noble"
+              "Conseiller",
+              "Noble",
+              "Garde du corps"
             ],
             "style-de-combat": [
               "Transformation",
@@ -4332,6 +4544,10 @@
               "Froid",
               "Intelligent",
               "Manipulateur"
+            ],
+            "univers": [
+              "Dragon céleste",
+              "Gorosei"
             ]
           },
           "tagRarity": {
@@ -4339,12 +4555,16 @@
               "Barbu": 2
             },
             "role": {
-              "Conseiller": 3,
-              "Noble": 2
+              "Noble": 2,
+              "Conseiller": 2
             },
             "style-de-combat": {
               "Transformation": 2,
               "Régénération": 2
+            },
+            "univers": {
+              "Dragon céleste": 2,
+              "Gorosei": 3
             }
           }
         },
@@ -4372,7 +4592,8 @@
               "Leader",
               "Chef militaire",
               "Conseiller",
-              "Noble"
+              "Noble",
+              "Garde du corps"
             ],
             "style-de-combat": [
               "Épée",
@@ -4388,7 +4609,9 @@
               "Manipulateur"
             ],
             "univers": [
-              "Chevalier divin"
+              "Chevalier divin",
+              "Dragon céleste",
+              "Gorosei"
             ]
           },
           "tagRarity": {
@@ -4398,9 +4621,9 @@
             },
             "role": {
               "Leader": 2,
-              "Conseiller": 3,
               "Chef militaire": 3,
-              "Noble": 2
+              "Noble": 2,
+              "Conseiller": 2
             },
             "style-de-combat": {
               "Épée": 2,
@@ -4413,7 +4636,9 @@
               "Froid": 2
             },
             "univers": {
-              "Chevalier divin": 3
+              "Chevalier divin": 3,
+              "Dragon céleste": 2,
+              "Gorosei": 2
             }
           }
         },
@@ -4458,7 +4683,8 @@
               "Charismatique"
             ],
             "univers": [
-              "Chevalier divin"
+              "Chevalier divin",
+              "Dragon céleste"
             ]
           },
           "tagRarity": {
@@ -4484,7 +4710,8 @@
               "Uniforme militaire": 2
             },
             "univers": {
-              "Chevalier divin": 3
+              "Chevalier divin": 3,
+              "Dragon céleste": 2
             }
           }
         },
@@ -4525,7 +4752,8 @@
               "Provocateur"
             ],
             "univers": [
-              "Chevalier divin"
+              "Chevalier divin",
+              "Dragon céleste"
             ]
           },
           "tagRarity": {
@@ -4547,7 +4775,8 @@
               "Barbu": 2
             },
             "univers": {
-              "Chevalier divin": 3
+              "Chevalier divin": 3,
+              "Dragon céleste": 2
             }
           }
         },
@@ -4586,7 +4815,8 @@
               "Cornes"
             ],
             "univers": [
-              "Chevalier divin"
+              "Chevalier divin",
+              "Dragon céleste"
             ]
           },
           "tagRarity": {
@@ -4606,7 +4836,8 @@
               "Sadique": 2
             },
             "univers": {
-              "Chevalier divin": 3
+              "Chevalier divin": 3,
+              "Dragon céleste": 2
             }
           }
         },
@@ -4645,7 +4876,8 @@
               "Mystérieux"
             ],
             "univers": [
-              "Chevalier divin"
+              "Chevalier divin",
+              "Dragon céleste"
             ]
           },
           "tagRarity": {
@@ -4665,7 +4897,8 @@
               "Mystérieux": 2
             },
             "univers": {
-              "Chevalier divin": 3
+              "Chevalier divin": 3,
+              "Dragon céleste": 2
             }
           }
         },
@@ -4708,7 +4941,8 @@
             ],
             "univers": [
               "Amiral",
-              "Logia"
+              "Logia",
+              "Marine"
             ]
           },
           "tagRarity": {
@@ -4734,7 +4968,8 @@
             },
             "univers": {
               "Amiral": 3,
-              "Logia": 3
+              "Logia": 3,
+              "Marine": 3
             }
           }
         },
@@ -4772,7 +5007,9 @@
             ],
             "univers": [
               "Amiral",
-              "Logia"
+              "Logia",
+              "Marine",
+              "Équipage de Barbe Noire"
             ]
           },
           "tagRarity": {
@@ -4794,7 +5031,9 @@
             },
             "univers": {
               "Amiral": 3,
-              "Logia": 3
+              "Logia": 3,
+              "Marine": 2,
+              "Équipage de Barbe Noire": 2
             }
           }
         },
@@ -4833,7 +5072,8 @@
             ],
             "univers": [
               "Amiral",
-              "Logia"
+              "Logia",
+              "Marine"
             ]
           },
           "tagRarity": {
@@ -4859,7 +5099,8 @@
             },
             "univers": {
               "Amiral": 3,
-              "Logia": 3
+              "Logia": 3,
+              "Marine": 3
             }
           }
         },
@@ -4898,7 +5139,8 @@
             ],
             "univers": [
               "Amiral",
-              "Logia"
+              "Logia",
+              "Marine"
             ]
           },
           "tagRarity": {
@@ -4922,7 +5164,8 @@
             },
             "univers": {
               "Amiral": 3,
-              "Logia": 3
+              "Logia": 3,
+              "Marine": 3
             }
           }
         },
@@ -4964,7 +5207,8 @@
             ],
             "univers": [
               "Amiral",
-              "Paramecia"
+              "Paramecia",
+              "Marine"
             ]
           },
           "tagRarity": {
@@ -4987,7 +5231,8 @@
               "Calme": 2
             },
             "univers": {
-              "Amiral": 3
+              "Amiral": 3,
+              "Marine": 3
             }
           }
         },
@@ -5029,7 +5274,8 @@
               "Charismatique"
             ],
             "univers": [
-              "Zoan mythique"
+              "Zoan mythique",
+              "Marine"
             ]
           },
           "tagRarity": {
@@ -5052,7 +5298,8 @@
               "Onde de choc": 3
             },
             "univers": {
-              "Zoan mythique": 2
+              "Zoan mythique": 2,
+              "Marine": 3
             }
           }
         },
@@ -5095,6 +5342,10 @@
               "Impulsif",
               "Gourmand",
               "Charismatique"
+            ],
+            "univers": [
+              "Volonté du D.",
+              "Marine"
             ]
           },
           "tagRarity": {
@@ -5118,6 +5369,10 @@
               "Joyeux": 2,
               "Impulsif": 2,
               "Charismatique": 2
+            },
+            "univers": {
+              "Volonté du D.": 2,
+              "Marine": 3
             }
           }
         },
@@ -5152,6 +5407,9 @@
               "Courageux",
               "Altruiste",
               "Déterminé"
+            ],
+            "univers": [
+              "Marine"
             ]
           },
           "tagRarity": {
@@ -5171,6 +5429,9 @@
             "physique": {
               "Cheveux roses": 2,
               "Uniforme militaire": 2
+            },
+            "univers": {
+              "Marine": 3
             }
           }
         },
@@ -5205,7 +5466,8 @@
               "Froid"
             ],
             "univers": [
-              "Logia"
+              "Logia",
+              "Marine"
             ]
           },
           "tagRarity": {
@@ -5226,7 +5488,8 @@
               "Sérieux": 3
             },
             "univers": {
-              "Logia": 3
+              "Logia": 3,
+              "Marine": 3
             }
           }
         },
@@ -5260,6 +5523,9 @@
               "Sérieux",
               "Naïf",
               "Curieux"
+            ],
+            "univers": [
+              "Marine"
             ]
           },
           "tagRarity": {
@@ -5279,6 +5545,9 @@
             },
             "caractere": {
               "Sérieux": 2
+            },
+            "univers": {
+              "Marine": 3
             }
           }
         },
@@ -5427,7 +5696,9 @@
               "Stratège"
             ],
             "univers": [
-              "Paramecia"
+              "Paramecia",
+              "Marine",
+              "Dragon céleste"
             ]
           },
           "tagRarity": {
@@ -5450,6 +5721,9 @@
             "physique": {
               "Fumeur": 2,
               "Grand": 2
+            },
+            "univers": {
+              "Marine": 2
             }
           }
         },
@@ -5542,6 +5816,9 @@
               "Mystérieux",
               "Intelligent",
               "Stratège"
+            ],
+            "univers": [
+              "Volonté du D."
             ]
           },
           "tagRarity": {
@@ -5563,6 +5840,9 @@
               "Charismatique": 2,
               "Mystérieux": 3,
               "Stratège": 2
+            },
+            "univers": {
+              "Volonté du D.": 2
             }
           }
         },
@@ -5824,6 +6104,11 @@
               "Charismatique",
               "Optimiste",
               "Fêtard"
+            ],
+            "univers": [
+              "Haki des rois",
+              "Wano",
+              "Équipage de Roger"
             ]
           },
           "tagRarity": {
@@ -5846,6 +6131,11 @@
               "Impulsif": 2,
               "Charismatique": 2,
               "Optimiste": 2
+            },
+            "univers": {
+              "Haki des rois": 2,
+              "Wano": 3,
+              "Équipage de Roger": 2
             }
           }
         },
@@ -5882,7 +6172,8 @@
               "Vengeur"
             ],
             "univers": [
-              "Zoan mythique"
+              "Zoan mythique",
+              "Wano"
             ]
           },
           "tagRarity": {
@@ -5903,7 +6194,8 @@
               "Naïf": 3
             },
             "univers": {
-              "Zoan mythique": 2
+              "Zoan mythique": 2,
+              "Wano": 3
             }
           }
         },
@@ -6059,6 +6351,9 @@
               "Joyeux",
               "Gourmand",
               "Naïf"
+            ],
+            "univers": [
+              "Mink"
             ]
           },
           "tagRarity": {
@@ -6074,6 +6369,9 @@
             "caractere": {
               "Joyeux": 2,
               "Gourmand": 2
+            },
+            "univers": {
+              "Mink": 3
             }
           }
         },
@@ -6094,7 +6392,8 @@
             ],
             "role": [
               "Allié",
-              "Samouraï"
+              "Samouraï",
+              "Garde du corps"
             ],
             "style-de-combat": [
               "Katana",
@@ -6106,7 +6405,8 @@
               "Vengeur"
             ],
             "univers": [
-              "Paramecia"
+              "Paramecia",
+              "Wano"
             ]
           },
           "tagRarity": {
@@ -6122,7 +6422,11 @@
               "Tenue traditionnelle": 2
             },
             "role": {
-              "Samouraï": 2
+              "Samouraï": 2,
+              "Garde du corps": 2
+            },
+            "univers": {
+              "Wano": 3
             }
           }
         },
@@ -6220,7 +6524,8 @@
               "Charismatique"
             ],
             "univers": [
-              "Zoan mythique"
+              "Zoan mythique",
+              "Géant"
             ]
           },
           "tagRarity": {
@@ -6245,7 +6550,8 @@
               "Impulsif": 2
             },
             "univers": {
-              "Zoan mythique": 3
+              "Zoan mythique": 3,
+              "Géant": 3
             }
           }
         },
@@ -6476,7 +6782,8 @@
               "Excentrique"
             ],
             "univers": [
-              "Paramecia"
+              "Paramecia",
+              "Baroque Works"
             ]
           },
           "tagRarity": {
@@ -6495,6 +6802,9 @@
             "style-de-combat": {
               "Transformation": 2,
               "Métamorphose": 3
+            },
+            "univers": {
+              "Baroque Works": 3
             }
           }
         }
@@ -7719,7 +8029,8 @@
             ],
             "role": [
               "Antagoniste",
-              "Roi / Reine"
+              "Roi / Reine",
+              "Garde du corps"
             ],
             "style-de-combat": [
               "Épée",
@@ -7741,7 +8052,8 @@
               "Cape": 2
             },
             "role": {
-              "Roi / Reine": 3
+              "Roi / Reine": 3,
+              "Garde du corps": 2
             },
             "style-de-combat": {
               "Pétrification": 3
@@ -8343,7 +8655,8 @@
             "role": [
               "Maître / Mentor",
               "Conseiller",
-              "Dieu / Divinité"
+              "Dieu / Divinité",
+              "Garde du corps"
             ],
             "style-de-combat": [
               "Contrôle du temps",
@@ -8372,7 +8685,8 @@
             "role": {
               "Maître / Mentor": 3,
               "Dieu / Divinité": 2,
-              "Conseiller": 2
+              "Conseiller": 2,
+              "Garde du corps": 2
             },
             "style-de-combat": {
               "Contrôle du temps": 3,
@@ -8537,7 +8851,8 @@
             "role": [
               "Bras droit",
               "Maître / Mentor",
-              "Gardien / Protecteur"
+              "Gardien / Protecteur",
+              "Garde du corps"
             ],
             "caractere": [
               "Calme",
@@ -8553,7 +8868,8 @@
             "role": {
               "Gardien / Protecteur": 2,
               "Maître / Mentor": 2,
-              "Bras droit": 2
+              "Bras droit": 2,
+              "Garde du corps": 2
             },
             "caractere": {
               "Calme": 2,
@@ -11034,7 +11350,8 @@
               "Antagoniste",
               "Espion",
               "Criminel",
-              "Traître"
+              "Traître",
+              "Garde du corps"
             ],
             "style-de-combat": [
               "Clones",
@@ -11276,7 +11593,8 @@
               "Antagoniste",
               "Bras droit",
               "Orphelin",
-              "Fugitif"
+              "Fugitif",
+              "Garde du corps"
             ],
             "style-de-combat": [
               "Armes à distance",
@@ -11295,7 +11613,8 @@
             },
             "role": {
               "Bras droit": 2,
-              "Orphelin": 2
+              "Orphelin": 2,
+              "Garde du corps": 2
             },
             "style-de-combat": {
               "Armes à distance": 2,
@@ -11484,7 +11803,8 @@
               "Médecin",
               "Espion",
               "Traître",
-              "Orphelin"
+              "Orphelin",
+              "Garde du corps"
             ],
             "style-de-combat": [
               "Arme Tranchante",
@@ -13377,7 +13697,8 @@
             ],
             "role": [
               "Bras droit",
-              "Soldat"
+              "Soldat",
+              "Garde du corps"
             ],
             "style-de-combat": [
               "Régénération",
@@ -13402,7 +13723,8 @@
             },
             "role": {
               "Bras droit": 3,
-              "Soldat": 2
+              "Soldat": 2,
+              "Garde du corps": 2
             },
             "style-de-combat": {
               "Régénération": 2

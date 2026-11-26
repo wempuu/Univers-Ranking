@@ -62,10 +62,6 @@ function rarityPicker(c) {
   sel.title = `Rareté de « ${tag} » chez ${c.name}`;
   [[1, "⭐"], [2, "⭐⭐"], [3, "⭐⭐⭐"]].forEach(([n, l]) => {
     const o = new Option(`${l} ${RARITY_LABELS[n]}`, n);
-    if (n === 3 && !canMakeVeryRare(c, cat, tag)) {
-      o.disabled = true;
-      o.textContent += ` (déjà ${MAX_VERY_RARE} ⭐⭐⭐)`;
-    }
     sel.add(o);
   });
   sel.value = String(tagRarity(c, cat, tag));
