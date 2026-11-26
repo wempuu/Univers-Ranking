@@ -68,7 +68,7 @@
         "Espion",
         "Criminel",
         "Prisonnier",
-        "Gardien / Protecteur",
+        "Gardien",
         "Scientifique",
         "Marchand",
         "Religieux",
@@ -4049,7 +4049,7 @@
               "Antagoniste",
               "Criminel",
               "Prisonnier",
-              "Gardien / Protecteur"
+              "Gardien"
             ],
             "style-de-combat": [
               "Épée",
@@ -4075,9 +4075,6 @@
             ]
           },
           "tagRarity": {
-            "role": {
-              "Gardien / Protecteur": 2
-            },
             "style-de-combat": {
               "Invisibilité": 3,
               "Arme Tranchante": 2,
@@ -4095,6 +4092,9 @@
             "univers": {
               "Pirate": 2,
               "Équipage de Barbe Noire": 3
+            },
+            "role": {
+              "Gardien": 2
             }
           }
         },
@@ -5735,7 +5735,7 @@
             "role": [
               "Antagoniste",
               "Chef militaire",
-              "Gardien / Protecteur",
+              "Gardien",
               "Leader"
             ],
             "style-de-combat": [
@@ -5758,10 +5758,10 @@
               "Cornes": 2
             },
             "role": {
-              "Gardien / Protecteur": 3,
               "Leader": 2,
               "Chef militaire": 3,
-              "Antagoniste": 2
+              "Antagoniste": 2,
+              "Gardien": 3
             },
             "style-de-combat": {
               "Poison": 3
@@ -6824,7 +6824,7 @@
             "role": [
               "Protagoniste",
               "Élève",
-              "Gardien / Protecteur",
+              "Gardien",
               "Orphelin",
               "Parent"
             ],
@@ -6861,7 +6861,7 @@
               "Protagoniste": 3,
               "Élève": 2,
               "Parent": 2,
-              "Gardien / Protecteur": 2
+              "Gardien": 2
             },
             "style-de-combat": {
               "Arts martiaux": 3,
@@ -7156,7 +7156,7 @@
             "role": [
               "Allié",
               "Élève",
-              "Gardien / Protecteur"
+              "Gardien"
             ],
             "style-de-combat": [
               "Épée",
@@ -7185,7 +7185,7 @@
             "role": {
               "Allié": 2,
               "Élève": 2,
-              "Gardien / Protecteur": 2
+              "Gardien": 2
             },
             "style-de-combat": {
               "Épée": 2,
@@ -7453,7 +7453,7 @@
               "Cyborg / Robot"
             ],
             "role": [
-              "Gardien / Protecteur",
+              "Gardien",
               "Ennemi devenu allié",
               "Frère / Soeur"
             ],
@@ -7483,7 +7483,7 @@
             "role": {
               "Ennemi devenu allié": 2,
               "Frère / Soeur": 2,
-              "Gardien / Protecteur": 2
+              "Gardien": 2
             },
             "style-de-combat": {
               "Barrière / Bouclier": 3,
@@ -8776,7 +8776,7 @@
               "Peau colorée"
             ],
             "role": [
-              "Gardien / Protecteur",
+              "Gardien",
               "Religieux",
               "Dieu / Divinité"
             ],
@@ -8802,8 +8802,8 @@
             },
             "role": {
               "Dieu / Divinité": 3,
-              "Gardien / Protecteur": 2,
-              "Religieux": 2
+              "Religieux": 2,
+              "Gardien": 2
             },
             "style-de-combat": {
               "Scellement": 2
@@ -8828,7 +8828,7 @@
             "role": [
               "Bras droit",
               "Maître / Mentor",
-              "Gardien / Protecteur",
+              "Gardien",
               "Garde du corps"
             ],
             "caractere": [
@@ -8843,10 +8843,10 @@
               "Couvre-chef": 2
             },
             "role": {
-              "Gardien / Protecteur": 2,
               "Maître / Mentor": 2,
               "Bras droit": 2,
-              "Garde du corps": 2
+              "Garde du corps": 2,
+              "Gardien": 2
             },
             "caractere": {
               "Calme": 2,
@@ -9092,7 +9092,7 @@
             ],
             "role": [
               "Maître / Mentor",
-              "Gardien / Protecteur"
+              "Gardien"
             ],
             "style-de-combat": [
               "Arts martiaux",
@@ -9403,7 +9403,7 @@
               "Rival",
               "Leader",
               "Élève",
-              "Gardien / Protecteur",
+              "Gardien",
               "Orphelin"
             ],
             "style-de-combat": [
@@ -10121,7 +10121,7 @@
               "Leader",
               "Maître / Mentor",
               "Médecin",
-              "Gardien / Protecteur"
+              "Gardien"
             ],
             "style-de-combat": [
               "Combat à mains nues",
@@ -10485,7 +10485,7 @@
             "role": [
               "Maître / Mentor",
               "Soldat",
-              "Gardien / Protecteur"
+              "Gardien"
             ],
             "style-de-combat": [
               "Scellement",
@@ -10506,7 +10506,7 @@
             },
             "role": {
               "Soldat": 2,
-              "Gardien / Protecteur": 2
+              "Gardien": 2
             },
             "style-de-combat": {
               "Contrôle des plantes": 3
@@ -10610,7 +10610,7 @@
             "role": [
               "Maître / Mentor",
               "Soldat",
-              "Gardien / Protecteur"
+              "Gardien"
             ],
             "style-de-combat": [
               "Arme Tranchante",
@@ -12065,7 +12065,7 @@
               "Protagoniste",
               "Allié",
               "Élève",
-              "Gardien / Protecteur",
+              "Gardien",
               "Frère / Soeur"
             ],
             "style-de-combat": [
@@ -12101,7 +12101,7 @@
             },
             "role": {
               "Protagoniste": 3,
-              "Gardien / Protecteur": 3
+              "Gardien": 3
             },
             "style-de-combat": {
               "Katana": 3,
@@ -12480,7 +12480,7 @@
             ],
             "role": [
               "Médecin",
-              "Gardien / Protecteur",
+              "Gardien",
               "Parent"
             ],
             "style-de-combat": [
@@ -14866,7 +14866,7 @@
             "role": [
               "Allié",
               "Élève",
-              "Gardien / Protecteur",
+              "Gardien",
               "Orphelin",
               "Garde du corps"
             ],
@@ -15833,7 +15833,7 @@
             ],
             "role": [
               "Bras droit",
-              "Gardien / Protecteur",
+              "Gardien",
               "Garde du corps"
             ],
             "style-de-combat": [
@@ -15854,8 +15854,8 @@
             },
             "role": {
               "Bras droit": 2,
-              "Gardien / Protecteur": 2,
-              "Garde du corps": 3
+              "Garde du corps": 3,
+              "Gardien": 2
             },
             "style-de-combat": {
               "Armes à distance": 2
@@ -16546,7 +16546,7 @@
               "Antagoniste",
               "Bras droit",
               "Soldat",
-              "Gardien / Protecteur",
+              "Gardien",
               "Garde du corps"
             ],
             "style-de-combat": [
@@ -16576,8 +16576,8 @@
             "role": {
               "Antagoniste": 2,
               "Bras droit": 2,
-              "Gardien / Protecteur": 3,
-              "Garde du corps": 2
+              "Garde du corps": 2,
+              "Gardien": 3
             },
             "style-de-combat": {
               "Manipulation mentale": 2,
@@ -16609,7 +16609,7 @@
             "role": [
               "Antagoniste",
               "Bras droit",
-              "Gardien / Protecteur",
+              "Gardien",
               "Garde du corps"
             ],
             "style-de-combat": [
@@ -16637,8 +16637,8 @@
             "role": {
               "Antagoniste": 2,
               "Bras droit": 2,
-              "Gardien / Protecteur": 3,
-              "Garde du corps": 2
+              "Garde du corps": 2,
+              "Gardien": 3
             },
             "style-de-combat": {
               "Manipulation mentale": 2,
@@ -16670,7 +16670,7 @@
             "role": [
               "Antagoniste",
               "Soldat",
-              "Gardien / Protecteur",
+              "Gardien",
               "Garde du corps"
             ],
             "style-de-combat": [
@@ -16698,8 +16698,8 @@
             },
             "role": {
               "Antagoniste": 2,
-              "Gardien / Protecteur": 3,
-              "Garde du corps": 2
+              "Garde du corps": 2,
+              "Gardien": 3
             },
             "style-de-combat": {
               "Transformation": 2,
@@ -16803,7 +16803,7 @@
             ],
             "role": [
               "Soldat",
-              "Gardien / Protecteur",
+              "Gardien",
               "Ennemi devenu allié"
             ],
             "style-de-combat": [
