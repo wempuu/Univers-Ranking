@@ -514,7 +514,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Cheveux longs",
               "Cheveux roux",
               "Tatoué"
             ],
@@ -814,8 +813,7 @@
           },
           "tags": {
             "physique": [
-              "Femme",
-              "Cheveux longs"
+              "Femme"
             ],
             "role": [
               "Allié",
@@ -2238,7 +2236,6 @@
           "tags": {
             "physique": [
               "Grand",
-              "Cheveux longs",
               "Cheveux bicolores",
               "Cornes",
               "Non-humain",
@@ -2609,7 +2606,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Cheveux longs",
               "Cicatrice",
               "Bijoux / Piercings",
               "Tatoué"
@@ -2968,7 +2964,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Cheveux longs",
               "Cheveux roses",
               "Couvre-chef",
               "Bijoux / Piercings"
@@ -3162,7 +3157,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Cheveux longs",
               "Cheveux roses",
               "Couvre-chef"
             ],
@@ -3598,8 +3592,7 @@
               "Grand",
               "Cheveux roses",
               "Couvre-chef",
-              "Corpulent",
-              "Cheveux longs"
+              "Corpulent"
             ],
             "role": [
               "Antagoniste",
@@ -3762,7 +3755,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Cheveux longs",
               "Non-humain",
               "Yeux spéciaux"
             ],
@@ -3884,7 +3876,6 @@
             "physique": [
               "Femme",
               "Grand",
-              "Cheveux longs",
               "Cheveux gris / blancs",
               "Tatoué"
             ],
@@ -5116,7 +5107,6 @@
           },
           "tags": {
             "physique": [
-              "Cheveux longs",
               "Lunettes",
               "Uniforme militaire",
               "Cheveux verts",
@@ -5507,8 +5497,7 @@
             "physique": [
               "Femme",
               "Lunettes",
-              "Uniforme militaire",
-              "Cheveux longs"
+              "Uniforme militaire"
             ],
             "role": [
               "Rival",
@@ -6032,7 +6021,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Cheveux longs",
               "Cheveux bleus"
             ],
             "role": [
@@ -6278,7 +6266,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Cheveux longs",
               "Cheveux bicolores",
               "Cheveux colorés"
             ],
@@ -6444,7 +6431,6 @@
             "physique": [
               "Femme",
               "Grand",
-              "Cheveux longs",
               "Cheveux roses",
               "Queue",
               "Non-humain"
@@ -6568,7 +6554,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Cheveux longs",
               "Cheveux roses"
             ],
             "role": [
@@ -9683,7 +9668,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Cheveux longs",
               "Yeux spéciaux"
             ],
             "role": [
@@ -9711,7 +9695,6 @@
           "tagRarity": {
             "physique": {
               "Femme": 2,
-              "Cheveux longs": 2,
               "Yeux spéciaux": 3
             },
             "role": {
@@ -9994,7 +9977,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Cheveux longs",
               "Cheveux blonds"
             ],
             "role": [
@@ -10016,7 +9998,6 @@
           "tagRarity": {
             "physique": {
               "Femme": 2,
-              "Cheveux longs": 2,
               "Cheveux blonds": 2
             },
             "style-de-combat": {
@@ -10143,7 +10124,6 @@
             "physique": [
               "Femme",
               "Âgé",
-              "Cheveux longs",
               "Cheveux blonds"
             ],
             "role": [
@@ -10352,7 +10332,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Cheveux longs",
               "Cheveux rouges"
             ],
             "role": [
@@ -10376,7 +10355,6 @@
           "tagRarity": {
             "physique": {
               "Femme": 2,
-              "Cheveux longs": 2,
               "Cheveux rouges": 2
             },
             "role": {
@@ -11586,7 +11564,6 @@
           "group": "villages",
           "tags": {
             "physique": [
-              "Cheveux longs",
               "Masque"
             ],
             "role": [
@@ -11608,7 +11585,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Cheveux longs": 2,
               "Masque": 2
             },
             "role": {
@@ -11909,7 +11885,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Cheveux longs",
               "Cheveux gris / blancs",
               "Cornes",
               "Non-humain",
@@ -11937,7 +11912,6 @@
           "tagRarity": {
             "physique": {
               "Femme": 2,
-              "Cheveux longs": 2,
               "Cheveux gris / blancs": 2,
               "Cornes": 3,
               "Yeux spéciaux": 3
@@ -12233,7 +12207,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Cheveux longs",
               "Cheveux roux",
               "Bijoux / Piercings"
             ],
@@ -12259,7 +12232,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Cheveux longs": 2,
               "Cheveux roux": 2,
               "Bijoux / Piercings": 2,
               "Femme": 3
@@ -12341,8 +12313,7 @@
           "tags": {
             "physique": [
               "Grand",
-              "Musclé",
-              "Cheveux longs"
+              "Musclé"
             ],
             "role": [
               "Allié",
@@ -13111,7 +13082,6 @@
           "tags": {
             "physique": [
               "Femme",
-              "Cheveux longs",
               "Tenue traditionnelle"
             ],
             "role": [
@@ -13137,7 +13107,6 @@
           "tagRarity": {
             "physique": {
               "Femme": 2,
-              "Cheveux longs": 2,
               "Tenue traditionnelle": 2
             },
             "role": {
@@ -17026,8 +16995,7 @@
           "group": "autres",
           "tags": {
             "physique": [
-              "Femme",
-              "Cheveux longs"
+              "Femme"
             ],
             "role": [
               "Allié",
@@ -17048,8 +17016,7 @@
           },
           "tagRarity": {
             "physique": {
-              "Femme": 2,
-              "Cheveux longs": 2
+              "Femme": 2
             },
             "role": {
               "Espion": 2
