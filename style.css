@@ -527,6 +527,8 @@ button.btn:disabled { opacity: .5; cursor: default; transform: none; }
 .tm-rarity { margin: 4px 0 8px; }
 .tm-manga { margin: 4px 0 0; align-items: flex-start; }
 .tm-manga-choices { justify-content: flex-start; max-width: none; }
+#cat-manga { margin: 10px 0 0; }
+.tm-perso-search { margin-top: 10px; }
 .tm-search { margin-top: 16px; }
 .tm-search .tool-bar { margin: 0 0 8px; }
 .tm-criteria { margin-bottom: 8px; }

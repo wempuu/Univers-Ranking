@@ -93,8 +93,16 @@ function renderTags() {
   const q = normalizeSearch($("tag-filter").value);
   const ul = $("tags-list");
   ul.innerHTML = "";
-  const values = tagValues(cat).map((v) => ({ v, n: countFor(cat, v) }))
-    .filter(({ v }) => matchesSearch(searchText([v]), q))
+  // Univers : tags propres à chaque manga, filtrables par mangas (mêmes cases que dans la fiche du tag)
+  const byManga = cat === "univers";
+  $("cat-manga").hidden = !byManga;
+  if (byManga) renderMangaFilter($("cat-manga-filter"));
+  const filtered = byManga && mangaFilter.size > 0;
+  const count = (v) => filtered
+    ? allChars().filter((x) => mangaFilter.has(x.manga) && hasTag(x.c, cat, v)).length
+    : countFor(cat, v);
+  const values = tagValues(cat).map((v) => ({ v, n: count(v) }))
+    .filter(({ v, n }) => (!filtered || n > 0) && matchesSearch(searchText([v]), q))
     .sort((a, b) => b.n - a.n || a.v.localeCompare(b.v, "fr"));
   values.forEach(({ v, n }) => {
     const li = document.createElement("li");
@@ -133,8 +141,7 @@ function persoRow({ c, mangaTitle }, action, label, title, extra) {
 
 // Mangas cochés dans le filtre (vide = « Tous ») ; gardé quand on change de tag
 const mangaFilter = new Set();
-function renderMangaFilter() {
-  const box = $("manga-filter");
+function renderMangaFilter(box) {
   box.innerHTML = "";
   const choice = (value, label, checked) => {
     const l = document.createElement("label");
@@ -156,30 +163,36 @@ function renderTag() {
   $("tag-title").textContent = `${tag}`;
   // Filtre par mangas (cases à cocher, « Tous » = tous), commun à la liste du tag et à « Ajouter des personnages »
   [...mangaFilter].forEach((s) => { if (!data.mangas[s]) mangaFilter.delete(s); });
-  renderMangaFilter();
+  renderMangaFilter($("manga-filter"));
   const all = !mangaFilter.size;
   const inManga = ({ manga }) => all || mangaFilter.has(manga);
   const chosen = [...mangaFilter].map((s) => data.mangas[s].title).join(", ");
 
+  // Une seule barre de recherche : elle filtre les persos qui ont le tag et ceux à ajouter
+  const q = normalizeSearch($("add-filter").value);
+  const found = (x) => matchesSearch(searchText([x.c.name]), q);
   const allHolders = allChars().filter(({ c }) => hasTag(c, cat, tag));
-  const holders = allHolders.filter(inManga);
-  const n = holders.length, total = allHolders.length;
+  const inHolders = allHolders.filter(inManga);
+  const holders = inHolders.filter(found);
+  const n = inHolders.length, total = allHolders.length;
   $("tag-count").textContent = `${data.tags[cat].label} · ${n} personnage${n > 1 ? "s" : ""}` +
-    (!all ? ` dans ${chosen} (${total} en tout)` : "");
+    (!all ? ` dans ${chosen} (${total} en tout)` : "") +
+    (q && holders.length !== n ? ` · ${holders.length} trouvé${holders.length > 1 ? "s" : ""}` : "");
   const ul = $("tag-persos");
   ul.innerHTML = "";
   holders
     .sort((x, y) => tagRarity(y.c, cat, tag) - tagRarity(x.c, cat, tag))
     .forEach((x) => ul.appendChild(persoRow(x, () => removeFrom(x.c), "✕", `Retirer « ${tag} » de ${x.c.name}`, rarityPicker(x.c))));
-  if (!holders.length) ul.innerHTML = `<li class="muted-small">Aucun personnage n'a ce tag${!all ? (mangaFilter.size > 1 ? " dans ces mangas" : " dans ce manga") : ""}.</li>`;
+  if (!holders.length) ul.innerHTML = q && n
+    ? `<li class="muted-small">Aucun personnage trouvé parmi ceux qui ont ce tag.</li>`
+    : `<li class="muted-small">Aucun personnage n'a ce tag${!all ? (mangaFilter.size > 1 ? " dans ces mangas" : " dans ce manga") : ""}.</li>`;
 
-  const q = normalizeSearch($("add-filter").value);
   const add = $("add-list");
   add.innerHTML = "";
   // Tous les persos qui n'ont pas le tag (la recherche filtre) ; ceux qu'on ne peut pas ajouter sont
   // en fin de liste, grisés, avec la raison écrite sur leur ligne.
   const others = allChars()
-    .filter((x) => inManga(x) && !hasTag(x.c, cat, tag) && matchesSearch(searchText([x.c.name]), q))
+    .filter((x) => inManga(x) && !hasTag(x.c, cat, tag) && found(x))
     .map((x) => ({ ...x, why: blockedReason(x.c) }));
   others.sort((a, b) => (a.why ? 1 : 0) - (b.why ? 1 : 0));
   others.forEach((x) => {
@@ -431,13 +444,17 @@ $("crit-form").addEventListener("submit", (e) => {
 
 $("tag-filter").addEventListener("input", renderTags);
 $("add-filter").addEventListener("input", renderTag);
-$("manga-filter").addEventListener("change", (e) => {
+// Les deux zones de cases (liste des tags Univers et fiche du tag) partagent le même filtre
+function onMangaFilter(e) {
   const v = e.target.value;
   if (v === "tous") mangaFilter.clear();
   else if (e.target.checked) mangaFilter.add(v);
   else mangaFilter.delete(v);
+  renderTags();
   renderTag();
-});
+}
+$("manga-filter").addEventListener("change", onMangaFilter);
+$("cat-manga-filter").addEventListener("change", onMangaFilter);
 
 $("btn-close").addEventListener("click", async (e) => {
   if (!panel.isDirty()) return;
