@@ -466,6 +466,9 @@ button.btn:disabled { opacity: .5; cursor: default; transform: none; }
 .rules { display: grid; gap: 10px; }
 .rule-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .rule-input { width: 160px; }
+.rule-multi { align-items: flex-start; flex-wrap: wrap; }
+.rule-choices { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px 14px; max-width: 340px; }
+.rule-choice { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; cursor: pointer; }
 #game { width: 100%; }
 
 /* Partie (Undercover) */

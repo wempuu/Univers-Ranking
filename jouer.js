@@ -24,7 +24,10 @@ document.getElementById("form-create").addEventListener("submit", (e) => {
   const name = document.getElementById("pseudo-create").value.trim();
   if (!name) return;
   savePseudo(name);
-  leavePage(`groupe.html?code=${newCode()}&hote=1`);
+  // ?jeu=undercover (depuis le menu Jeux) : le groupe s'ouvre avec ce jeu déjà choisi
+  const jeu = new URLSearchParams(location.search).get("jeu");
+  const extra = jeu && /^[a-z0-9-]+$/.test(jeu) ? `&jeu=${jeu}` : "";
+  leavePage(`groupe.html?code=${newCode()}&hote=1${extra}`);
 });
 
 const codeInput = document.getElementById("join-code");

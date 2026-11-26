@@ -105,8 +105,41 @@ function renderSetup() {
   $("btn-start").disabled = !game || !enough;
 }
 
+// Règle à choix multiples (cases à cocher) ; l'option r.all (ex. "tous") exclut les autres
+function multiRuleField(r, value) {
+  const row = document.createElement("div");
+  row.className = "rule-row rule-multi";
+  row.innerHTML = `<span class="rule-label"></span><div class="rule-choices"></div>`;
+  row.querySelector(".rule-label").textContent = r.label;
+  const box = row.querySelector(".rule-choices");
+  const chosen = new Set(Array.isArray(value) ? value : [value]);
+  (r.options || []).forEach(([v, label]) => {
+    const l = document.createElement("label");
+    l.className = "rule-choice";
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.value = v;
+    cb.checked = chosen.has(v);
+    cb.disabled = !isHost;
+    cb.addEventListener("change", () => {
+      let next = new Set(Array.isArray(state.rules[r.id]) ? state.rules[r.id] : [].concat(r.default));
+      if (cb.checked) {
+        if (v === r.all) next = new Set([v]);
+        else { next.delete(r.all); next.add(v); }
+      } else next.delete(v);
+      if (!next.size) next = new Set([].concat(r.default));
+      state.rules[r.id] = [...next];
+      broadcast();
+    });
+    l.append(cb, document.createTextNode(" " + label));
+    box.appendChild(l);
+  });
+  return row;
+}
+
 function ruleField(r) {
   const value = state.rules[r.id] !== undefined ? state.rules[r.id] : r.default;
+  if (r.type === "multi") return multiRuleField(r, value);
   const row = document.createElement("label");
   row.className = "rule-row";
   row.innerHTML = `<span class="rule-label"></span>`;
@@ -293,6 +326,9 @@ function startHost(attempt = 0) {
   peer.on("open", (id) => {
     myId = id;
     state.players = [{ id, name: myName, host: true }];
+    // jeu choisi d'avance (lien du menu Jeux)
+    const preset = GAMES.find((g) => g.id === params.get("jeu"));
+    if (preset && !state.game) { state.game = preset.id; state.rules = defaultRules(preset); }
     setStatus("Groupe créé ! Partage le code avec tes amis.", "ok");
     broadcast();
   });
@@ -355,7 +391,7 @@ async function startGame() {
   }
   const rules = { ...defaultRules(game), ...state.rules };
   const pick = Undercover.pickCharacters(dataCache, rules.univers, rules.difficulte);
-  if (!pick) { setStatus("Aucune paire de personnages compatible avec cette difficulté pour cet univers.", "err"); return; }
+  if (!pick) { setStatus("Aucune paire de personnages compatible avec cette difficulté pour ces mangas.", "err"); return; }
 
   const ids = shuffle(state.players.map((p) => p.id));
   const nImp = Undercover.impostorCount(ids.length, rules.imposteurs);

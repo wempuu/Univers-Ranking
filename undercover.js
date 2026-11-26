@@ -43,11 +43,14 @@ const Undercover = {
     return 2 + (impostors - 1);
   },
 
-  // Personnages du ou des univers choisis
+  // Personnages des mangas choisis : un slug, une liste de slugs, ou "tous" (vide = tous).
+  // Les deux persos d'une paire peuvent venir de mangas différents.
   pool(data, univers) {
+    const list = [].concat(univers || []).filter(Boolean);
+    const all = !list.length || list.includes("tous");
     const out = [];
     Object.entries(data.mangas).forEach(([slug, m]) => {
-      if (univers && univers !== "tous" && univers !== slug) return;
+      if (!all && !list.includes(slug)) return;
       m.characters.forEach((c) => out.push({ ...c, manga: slug, mangaTitle: m.title }));
     });
     return out;

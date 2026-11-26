@@ -24,7 +24,8 @@ const GAMES = [
     rules: [
       // valeurs = clés de SIMILARITY.difficulties (undercover.js), où sont réglées les fourchettes de points
       { id: "difficulte", label: "Difficulté", type: "select", options: [["facile", "Facile (persos très proches)"], ["difficile", "Difficile (persos moins proches)"]], default: "facile" },
-      { id: "univers", label: "Personnages", type: "select", options: [["tous", "Tous les univers"], ["one-piece", "One Piece"], ["dragon-ball", "Dragon Ball"], ["naruto", "Naruto"], ["bleach", "Bleach"], ["hunter-x-hunter", "Hunter x Hunter"]], default: "tous" },
+      // plusieurs mangas possibles ; les deux persos d'une paire peuvent venir de mangas différents
+      { id: "univers", label: "Mangas", type: "multi", all: "tous", options: [["tous", "Tous"], ["one-piece", "One Piece"], ["dragon-ball", "Dragon Ball"], ["naruto", "Naruto"], ["bleach", "Bleach"], ["hunter-x-hunter", "Hunter x Hunter"]], default: ["tous"] },
       { id: "imposteurs", label: "Imposteurs", type: "select", options: [["auto", "Automatique"], ["1", "1"], ["2", "2"], ["3", "3"], ["4", "4"]], default: "auto" },
       { id: "temps", label: "Temps pour donner un mot (s)", type: "number", min: 15, max: 180, step: 5, default: 60 },
       { id: "vote", label: "Temps pour voter (s)", type: "number", min: 15, max: 180, step: 5, default: 60 },
