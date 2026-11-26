@@ -102,7 +102,8 @@
         "Ninja",
         "Ermite / Sage",
         "Mafia / Pègre",
-        "Extraterrestre"
+        "Extraterrestre",
+        "Fusion"
       ]
     },
     "style-de-combat": {
@@ -7112,7 +7113,8 @@
             "role": [
               "Allié",
               "Maître / Mentor",
-              "Ennemi devenu allié"
+              "Ennemi devenu allié",
+              "Fusion"
             ],
             "style-de-combat": [
               "Arts martiaux",
@@ -7146,7 +7148,8 @@
             "role": {
               "Allié": 2,
               "Maître / Mentor": 3,
-              "Ennemi devenu allié": 3
+              "Ennemi devenu allié": 3,
+              "Fusion": 2
             },
             "style-de-combat": {
               "Arts martiaux": 2,
@@ -7910,7 +7913,8 @@
             ],
             "role": [
               "Antagoniste",
-              "Organisation"
+              "Organisation",
+              "Fusion"
             ],
             "style-de-combat": [
               "Téléportation",
@@ -7976,7 +7980,8 @@
             ],
             "role": [
               "Allié",
-              "Ennemi devenu allié"
+              "Ennemi devenu allié",
+              "Fusion"
             ],
             "style-de-combat": [
               "Transformation",
@@ -8531,7 +8536,8 @@
               "Antagoniste",
               "Élève",
               "Traître",
-              "Dieu / Divinité"
+              "Dieu / Divinité",
+              "Fusion"
             ],
             "style-de-combat": [
               "Transformation",
@@ -8561,7 +8567,8 @@
               "Antagoniste": 2,
               "Dieu / Divinité": 3,
               "Élève": 2,
-              "Traître": 2
+              "Traître": 2,
+              "Fusion": 2
             },
             "style-de-combat": {
               "Régénération": 3
@@ -8886,7 +8893,8 @@
               "Gardien",
               "Religieux",
               "Dieu / Divinité",
-              "Extraterrestre"
+              "Extraterrestre",
+              "Fusion"
             ],
             "style-de-combat": [
               "Scellement"
@@ -8976,7 +8984,8 @@
             "role": [
               "Allié",
               "Conseiller",
-              "Dieu / Divinité"
+              "Dieu / Divinité",
+              "Fusion"
             ],
             "style-de-combat": [
               "Télékinésie",
@@ -9279,7 +9288,8 @@
               "Non-humain"
             ],
             "role": [
-              "Allié"
+              "Allié",
+              "Fusion"
             ],
             "style-de-combat": [
               "Invocation",
@@ -9316,6 +9326,9 @@
             },
             "univers": {
               "Super Saiyan": 2
+            },
+            "role": {
+              "Fusion": 3
             }
           }
         },
@@ -9329,7 +9342,8 @@
               "Non-humain"
             ],
             "role": [
-              "Allié"
+              "Allié",
+              "Fusion"
             ],
             "style-de-combat": [
               "Arts martiaux",
@@ -9369,6 +9383,9 @@
             "univers": {
               "Saiyan": 2,
               "Super Saiyan": 2
+            },
+            "role": {
+              "Fusion": 3
             }
           }
         },
