@@ -125,7 +125,8 @@ function render() {
   if (canEdit) {
     const help = document.createElement("p");
     help.className = "muted-small";
-    help.textContent = `Rareté propre à ce personnage (⭐ Commun, ⭐⭐ Rare, ⭐⭐⭐ Très rare). ${MAX_TAGS_PER_CATEGORY} tags maximum par catégorie. ` +
+    help.textContent = `Rareté propre à ce personnage (⭐ Commun, ⭐⭐ Rare, ⭐⭐⭐ Très rare). ${MAX_TAGS_PER_CATEGORY} tags maximum par catégorie, ` +
+      `${MAX_VERY_RARE} tags ⭐⭐⭐ maximum hors Univers (sauf protagonistes). ` +
       "✎ renomme le tag pour tous les personnages qui l'ont. Clique sur « Publier sur GitHub » pour enregistrer.";
     box.appendChild(help);
   }
@@ -167,7 +168,15 @@ function tagEditControls(cat, value, r) {
   sel.dataset.cat = cat;
   sel.dataset.value = value;
   sel.title = "Rareté chez ce personnage";
-  [1, 2, 3].forEach((n) => sel.add(new Option(rarityStars(n), n)));
+  const perso = currentPerso();
+  [1, 2, 3].forEach((n) => {
+    const o = new Option(rarityStars(n), n);
+    if (n === 3 && perso && !canMakeVeryRare(perso, cat, value)) {
+      o.disabled = true;
+      o.title = `Déjà ${MAX_VERY_RARE} tags ⭐⭐⭐ (hors Univers)`;
+    }
+    sel.add(o);
+  });
   sel.value = r;
   const btn = (act, text, title) => {
     const b = document.createElement("button");
@@ -252,6 +261,9 @@ function removeTag(cat, value) {
 function setRarity(cat, value, n) {
   const perso = currentPerso();
   if (!perso) return;
+  if (n === 3 && !canMakeVeryRare(perso, cat, value)) {
+    return tagsChanged({ cat, text: `Impossible : ${perso.name} a déjà ${MAX_VERY_RARE} tags ⭐⭐⭐ (hors Univers). Baisse d'abord un autre tag.` });
+  }
   setTagRarity(perso, cat, value, n);
   tagsChanged();
 }

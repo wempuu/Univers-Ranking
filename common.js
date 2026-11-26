@@ -43,6 +43,28 @@ function knownTagValues(data, tagSlug) {
 // Un tag absent de tagRarity vaut 1 (⭐ Commun). Le même tag peut avoir une rareté différente selon le perso.
 const RARITY_LABELS = { 1: "Commun", 2: "Rare", 3: "Très rare" };
 const MAX_TAGS_PER_CATEGORY = 10;
+// ⭐⭐⭐ : 5 maximum par perso, sans compter la catégorie Univers ; pas de limite pour les rôles principaux
+const MAX_VERY_RARE = 5;
+const VERY_RARE_IGNORED_CATEGORIES = ["univers"];
+const VERY_RARE_EXEMPT_ROLES = ["Protagoniste", "Deutéragoniste", "Tritagoniste"];
+function veryRareExempt(perso) {
+  const roles = ((perso && perso.tags) || {}).role || [];
+  return roles.some((v) => VERY_RARE_EXEMPT_ROLES.some((x) => normalizeSearch(x) === normalizeSearch(v)));
+}
+function veryRareCount(perso) {
+  let n = 0;
+  Object.entries((perso && perso.tagRarity) || {}).forEach(([cat, r]) => {
+    if (VERY_RARE_IGNORED_CATEGORIES.includes(cat)) return;
+    Object.values(r).forEach((x) => { if (x === 3) n++; });
+  });
+  return n;
+}
+// Le tag `value` de la catégorie `cat` peut-il passer en ⭐⭐⭐ chez ce perso ?
+function canMakeVeryRare(perso, cat, value) {
+  if (VERY_RARE_IGNORED_CATEGORIES.includes(cat) || veryRareExempt(perso)) return true;
+  if (tagRarity(perso, cat, value) === 3) return true;
+  return veryRareCount(perso) < MAX_VERY_RARE;
+}
 // Tags qui s'excluent : un perso ne peut pas avoir les deux (même catégorie)
 const EXCLUSIVE_TAGS = [
   ["style-de-combat", "Armes à distance", "Armes à feu"],
