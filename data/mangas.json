@@ -463,15 +463,15 @@
             ],
             "caractere": [
               "Sérieux",
+              "Arrogant",
               "Courageux",
               "Loyal",
               "Déterminé",
-              "Fêtard",
-              "Arrogant",
-              "Charismatique",
-              "Égoïste",
               "Paresseux",
-              "Solitaire"
+              "Charismatique",
+              "Solitaire",
+              "Fêtard",
+              "Travailleur"
             ],
             "univers": [
               "Pirate",
@@ -508,7 +508,8 @@
               "Fêtard": 3,
               "Charismatique": 2,
               "Paresseux": 3,
-              "Solitaire": 2
+              "Solitaire": 2,
+              "Travailleur": 2
             },
             "univers": {
               "Pirate": 2,
