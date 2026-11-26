@@ -2102,8 +2102,8 @@
             "role": {
               "Leader": 2,
               "Traître": 3,
-              "Antagoniste": 2,
-              "Criminel": 2
+              "Criminel": 2,
+              "Antagoniste": 3
             },
             "style-de-combat": {
               "Contrôle des ténèbres": 3,
@@ -2196,7 +2196,7 @@
               "Parent": 2,
               "Leader": 2,
               "Criminel": 2,
-              "Antagoniste": 3
+              "Antagoniste": 2
             },
             "style-de-combat": {
               "Vol": 2,
@@ -2748,7 +2748,8 @@
               "Criminel",
               "Prisonnier",
               "Ennemi devenu allié",
-              "Organisation"
+              "Organisation",
+              "Antagoniste"
             ],
             "style-de-combat": [
               "Arme perçante",
@@ -2783,7 +2784,8 @@
               "Leader": 2,
               "Ennemi devenu allié": 2,
               "Criminel": 2,
-              "Organisation": 3
+              "Organisation": 3,
+              "Antagoniste": 2
             },
             "caractere": {
               "Sérieux": 2,
@@ -4212,8 +4214,8 @@
               "Roi / Reine": 3,
               "Leader": 3,
               "Dieu / Divinité": 2,
-              "Antagoniste": 2,
-              "Noble": 2
+              "Noble": 2,
+              "Antagoniste": 3
             },
             "style-de-combat": {
               "Arme Tranchante": 2,
