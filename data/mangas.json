@@ -7062,12 +7062,12 @@
         {
           "name": "Son Gohan",
           "group": "guerriers",
-          "image": "images/personnages/dragon-ball/son-gohan.jpg?v=1795747588000",
+          "image": "images/personnages/dragon-ball/son-gohan.jpg?v=1795747971022",
           "imageSource": "images/personnages/dragon-ball/originaux/son-gohan.jpg",
           "imageCrop": {
-            "x": 0.29531,
+            "x": 0.29229,
             "y": 0,
-            "w": 0.45
+            "w": 0.47771
           },
           "tags": {
             "physique": [
