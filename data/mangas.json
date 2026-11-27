@@ -9961,6 +9961,7 @@
             ],
             "role": [
               "Conseiller",
+              "Dieu / Divinité",
               "Garde du corps"
             ],
             "caractere": [
@@ -9979,7 +9980,8 @@
             },
             "role": {
               "Conseiller": 2,
-              "Garde du corps": 3
+              "Garde du corps": 3,
+              "Dieu / Divinité": 2
             },
             "caractere": {
               "Sérieux": 2,
