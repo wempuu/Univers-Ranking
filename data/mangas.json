@@ -6889,6 +6889,13 @@
         {
           "name": "Son Goku",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/son-goku.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/son-goku.jpg",
+          "imageCrop": {
+            "x": 0.23556,
+            "y": 0,
+            "w": 0.45
+          },
           "tags": {
             "physique": [
               "Musclé",
@@ -6965,6 +6972,13 @@
         {
           "name": "Vegeta",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/vegeta.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/vegeta.jpg",
+          "imageCrop": {
+            "x": 0.27549,
+            "y": 0.04085,
+            "w": 0.45
+          },
           "tags": {
             "physique": [
               "Musclé",
@@ -7048,6 +7062,13 @@
         {
           "name": "Son Gohan",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/son-gohan.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/son-gohan.jpg",
+          "imageCrop": {
+            "x": 0.12014,
+            "y": 0.2,
+            "w": 0.18
+          },
           "tags": {
             "physique": [
               "Musclé",
@@ -7109,6 +7130,13 @@
         {
           "name": "Piccolo",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/piccolo.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/piccolo.jpg",
+          "imageCrop": {
+            "x": 0.30983,
+            "y": 0,
+            "w": 0.32
+          },
           "tags": {
             "physique": [
               "Grand",
@@ -7182,6 +7210,13 @@
         {
           "name": "Krilin",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/krilin.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/krilin.jpg",
+          "imageCrop": {
+            "x": 0.2,
+            "y": 0,
+            "w": 0.6
+          },
           "tags": {
             "physique": [
               "Petit",
@@ -7234,6 +7269,13 @@
         {
           "name": "Trunks",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/trunks.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/trunks.jpg",
+          "imageCrop": {
+            "x": 0.15064,
+            "y": 0,
+            "w": 0.7
+          },
           "tags": {
             "physique": [
               "Musclé",
@@ -7294,6 +7336,13 @@
         {
           "name": "Son Goten",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/son-goten.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/son-goten.jpg",
+          "imageCrop": {
+            "x": 0.12019,
+            "y": 0.01363,
+            "w": 0.7
+          },
           "tags": {
             "physique": [
               "Enfant",
@@ -7343,6 +7392,13 @@
         {
           "name": "Ten Shin Han",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/ten-shin-han.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/ten-shin-han.jpg",
+          "imageCrop": {
+            "x": 0.43008,
+            "y": 0,
+            "w": 0.28
+          },
           "tags": {
             "physique": [
               "Musclé",
@@ -7399,6 +7455,13 @@
         {
           "name": "Yamcha",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/yamcha.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/yamcha.jpg",
+          "imageCrop": {
+            "x": 0.2598,
+            "y": 0,
+            "w": 0.4
+          },
           "tags": {
             "physique": [
               "Cheveux longs",
@@ -7443,6 +7506,13 @@
         {
           "name": "Chaozu",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/chaozu.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/chaozu.jpg",
+          "imageCrop": {
+            "x": 0.09517,
+            "y": 0.00447,
+            "w": 0.75
+          },
           "tags": {
             "physique": [
               "Petit",
@@ -7489,6 +7559,13 @@
         {
           "name": "C-18",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/c-18.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/c-18.jpg",
+          "imageCrop": {
+            "x": 0.2402,
+            "y": 0,
+            "w": 0.42
+          },
           "tags": {
             "physique": [
               "Femme",
@@ -7548,6 +7625,13 @@
         {
           "name": "C-17",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/c-17.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/c-17.jpg",
+          "imageCrop": {
+            "x": 0.25496,
+            "y": 0.06268,
+            "w": 0.45
+          },
           "tags": {
             "physique": [
               "Cyborg / Robot"
@@ -7607,6 +7691,13 @@
         {
           "name": "Videl",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/videl.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/videl.jpg",
+          "imageCrop": {
+            "x": 0.14489,
+            "y": 0.077,
+            "w": 0.55
+          },
           "tags": {
             "physique": [
               "Femme"
@@ -7645,6 +7736,13 @@
         {
           "name": "Bulma",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/bulma.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/bulma.jpg",
+          "imageCrop": {
+            "x": 0.21576,
+            "y": 0,
+            "w": 0.45
+          },
           "tags": {
             "physique": [
               "Femme",
@@ -7693,6 +7791,13 @@
         {
           "name": "Tortue Géniale",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/tortue-geniale.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/tortue-geniale.jpg",
+          "imageCrop": {
+            "x": 0.29986,
+            "y": 0,
+            "w": 0.5
+          },
           "tags": {
             "physique": [
               "Âgé",
@@ -7748,6 +7853,13 @@
         {
           "name": "Chichi",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/chichi.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/chichi.jpg",
+          "imageCrop": {
+            "x": 0.20968,
+            "y": 0,
+            "w": 0.42
+          },
           "tags": {
             "physique": [
               "Femme"
@@ -7786,6 +7898,13 @@
         {
           "name": "Yajirobe",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/yajirobe.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/yajirobe.jpg",
+          "imageCrop": {
+            "x": 0.1847,
+            "y": 0,
+            "w": 0.55
+          },
           "tags": {
             "physique": [
               "Petit",
@@ -7829,6 +7948,13 @@
         {
           "name": "Hercule (Mr. Satan)",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/hercule-mr-satan.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/hercule-mr-satan.jpg",
+          "imageCrop": {
+            "x": 0.23032,
+            "y": 0,
+            "w": 0.38
+          },
           "tags": {
             "physique": [
               "Grand",
@@ -7870,6 +7996,13 @@
         {
           "name": "Pan",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/pan.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/pan.jpg",
+          "imageCrop": {
+            "x": 0.54489,
+            "y": 0.03906,
+            "w": 0.35
+          },
           "tags": {
             "physique": [
               "Femme",
@@ -7917,6 +8050,13 @@
         {
           "name": "Uub",
           "group": "guerriers",
+          "image": "images/personnages/dragon-ball/uub.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/uub.jpg",
+          "imageCrop": {
+            "x": 0.24571,
+            "y": 0.07986,
+            "w": 0.55
+          },
           "tags": {
             "physique": [
               "Enfant"
@@ -7962,6 +8102,13 @@
         {
           "name": "Freezer",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/freezer.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/freezer.jpg",
+          "imageCrop": {
+            "x": 0.29514,
+            "y": 0.02053,
+            "w": 0.55
+          },
           "tags": {
             "physique": [
               "Petit",
@@ -8037,6 +8184,13 @@
         {
           "name": "Cell",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/cell.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/cell.jpg",
+          "imageCrop": {
+            "x": 0.35,
+            "y": 0.00556,
+            "w": 0.5
+          },
           "tags": {
             "physique": [
               "Ailes",
@@ -8106,6 +8260,13 @@
         {
           "name": "Majin Boo",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/majin-boo.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/majin-boo.jpg",
+          "imageCrop": {
+            "x": 0.24977,
+            "y": 0,
+            "w": 0.4
+          },
           "tags": {
             "physique": [
               "Corpulent",
@@ -8171,6 +8332,13 @@
         {
           "name": "Babidi",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/babidi.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/babidi.jpg",
+          "imageCrop": {
+            "x": 0.2,
+            "y": 0,
+            "w": 0.6
+          },
           "tags": {
             "physique": [
               "Petit",
@@ -8224,6 +8392,13 @@
         {
           "name": "Dabra",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/dabra.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/dabra.jpg",
+          "imageCrop": {
+            "x": 0.125,
+            "y": 0,
+            "w": 0.75
+          },
           "tags": {
             "physique": [
               "Cornes",
@@ -8273,6 +8448,13 @@
         {
           "name": "Nappa",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/nappa.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/nappa.jpg",
+          "imageCrop": {
+            "x": 0.12982,
+            "y": 0.01256,
+            "w": 0.7
+          },
           "tags": {
             "physique": [
               "Grand",
@@ -8338,6 +8520,13 @@
         {
           "name": "Raditz",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/raditz.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/raditz.jpg",
+          "imageCrop": {
+            "x": 0.25,
+            "y": 0,
+            "w": 0.6
+          },
           "tags": {
             "physique": [
               "Musclé",
@@ -8392,6 +8581,13 @@
         {
           "name": "Capitaine Ginyu",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/capitaine-ginyu.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/capitaine-ginyu.jpg",
+          "imageCrop": {
+            "x": 0.2498,
+            "y": 0,
+            "w": 0.3
+          },
           "tags": {
             "physique": [
               "Cornes",
@@ -8448,6 +8644,13 @@
         {
           "name": "Zarbon",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/zarbon.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/zarbon.jpg",
+          "imageCrop": {
+            "x": 0.36983,
+            "y": 0.0482,
+            "w": 0.3
+          },
           "tags": {
             "physique": [
               "Cheveux longs",
@@ -8501,6 +8704,13 @@
         {
           "name": "C-16",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/c-16.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/c-16.jpg",
+          "imageCrop": {
+            "x": 0.39986,
+            "y": 0.0755,
+            "w": 0.3
+          },
           "tags": {
             "physique": [
               "Grand",
@@ -8553,6 +8763,13 @@
         {
           "name": "Dr Gero",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/dr-gero.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/dr-gero.jpg",
+          "imageCrop": {
+            "x": 0.34514,
+            "y": 0.0537,
+            "w": 0.55
+          },
           "tags": {
             "physique": [
               "Âgé",
@@ -8611,6 +8828,13 @@
         {
           "name": "Broly",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/broly.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/broly.jpg",
+          "imageCrop": {
+            "x": 0.3495,
+            "y": 0,
+            "w": 0.4
+          },
           "tags": {
             "physique": [
               "Grand",
@@ -8671,6 +8895,13 @@
         {
           "name": "Zamasu",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/zamasu.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/zamasu.jpg",
+          "imageCrop": {
+            "x": 0.35016,
+            "y": 0,
+            "w": 0.2
+          },
           "tags": {
             "physique": [
               "Cheveux gris / blancs",
@@ -8736,6 +8967,13 @@
         {
           "name": "Tao Pai Pai",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/tao-pai-pai.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/tao-pai-pai.jpg",
+          "imageCrop": {
+            "x": 0.27966,
+            "y": 0,
+            "w": 0.32
+          },
           "tags": {
             "physique": [
               "Cyborg / Robot",
@@ -8783,6 +9021,13 @@
         {
           "name": "Pilaf",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/pilaf.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/pilaf.jpg",
+          "imageCrop": {
+            "x": 0.07492,
+            "y": 0,
+            "w": 0.85
+          },
           "tags": {
             "physique": [
               "Petit",
@@ -8820,6 +9065,13 @@
         {
           "name": "Black Goku",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/black-goku.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/black-goku.jpg",
+          "imageCrop": {
+            "x": 0.275,
+            "y": 0.01019,
+            "w": 0.45
+          },
           "tags": {
             "physique": [
               "Musclé",
@@ -8884,6 +9136,13 @@
         {
           "name": "Moro",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/moro.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/moro.jpg",
+          "imageCrop": {
+            "x": 0.32982,
+            "y": 0,
+            "w": 0.5
+          },
           "tags": {
             "physique": [
               "Âgé",
@@ -8944,6 +9203,13 @@
         {
           "name": "Gas",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/gas.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/gas.jpg",
+          "imageCrop": {
+            "x": 0.28062,
+            "y": 0.05479,
+            "w": 0.4
+          },
           "tags": {
             "physique": [
               "Musclé",
@@ -8998,6 +9264,13 @@
         {
           "name": "Gamma 1",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/gamma-1.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/gamma-1.jpg",
+          "imageCrop": {
+            "x": 0.33057,
+            "y": 0.04422,
+            "w": 0.3
+          },
           "tags": {
             "physique": [
               "Cyborg / Robot",
@@ -9056,6 +9329,13 @@
         {
           "name": "Gamma 2",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/gamma-2.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/gamma-2.jpg",
+          "imageCrop": {
+            "x": 0.35,
+            "y": 0.03679,
+            "w": 0.3
+          },
           "tags": {
             "physique": [
               "Cyborg / Robot",
@@ -9113,6 +9393,13 @@
         {
           "name": "Janemba",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/janemba.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/janemba.jpg",
+          "imageCrop": {
+            "x": 0.2,
+            "y": 0,
+            "w": 0.6
+          },
           "tags": {
             "physique": [
               "Grand",
@@ -9167,6 +9454,13 @@
         {
           "name": "Cooler",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/cooler.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/cooler.jpg",
+          "imageCrop": {
+            "x": 0.39482,
+            "y": 0,
+            "w": 0.25
+          },
           "tags": {
             "physique": [
               "Cornes",
@@ -9234,6 +9528,13 @@
         {
           "name": "Frost",
           "group": "mechants",
+          "image": "images/personnages/dragon-ball/frost.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/frost.jpg",
+          "imageCrop": {
+            "x": 0.27511,
+            "y": 0,
+            "w": 0.35
+          },
           "tags": {
             "physique": [
               "Cornes",
@@ -9295,6 +9596,13 @@
         {
           "name": "Beerus",
           "group": "dieux",
+          "image": "images/personnages/dragon-ball/beerus.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/beerus.jpg",
+          "imageCrop": {
+            "x": 0.29487,
+            "y": 0,
+            "w": 0.35
+          },
           "tags": {
             "physique": [
               "Bijoux / Piercings",
@@ -9357,6 +9665,13 @@
         {
           "name": "Whis",
           "group": "dieux",
+          "image": "images/personnages/dragon-ball/whis.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/whis.jpg",
+          "imageCrop": {
+            "x": 0.2259,
+            "y": 0.0375,
+            "w": 0.55
+          },
           "tags": {
             "physique": [
               "Grand",
@@ -9422,6 +9737,13 @@
         {
           "name": "Kaio du Nord",
           "group": "dieux",
+          "image": "images/personnages/dragon-ball/kaio-du-nord.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/kaio-du-nord.jpg",
+          "imageCrop": {
+            "x": 0.25,
+            "y": 0.06667,
+            "w": 0.5
+          },
           "tags": {
             "physique": [
               "Corpulent",
@@ -9465,6 +9787,13 @@
         {
           "name": "Dendé",
           "group": "dieux",
+          "image": "images/personnages/dragon-ball/dende.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/dende.jpg",
+          "imageCrop": {
+            "x": 0.29002,
+            "y": 0,
+            "w": 0.38
+          },
           "tags": {
             "physique": [
               "Enfant",
@@ -9515,6 +9844,13 @@
         {
           "name": "Tout-Puissant",
           "group": "dieux",
+          "image": "images/personnages/dragon-ball/tout-puissant.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/tout-puissant.jpg",
+          "imageCrop": {
+            "x": 0.32505,
+            "y": 0.0207,
+            "w": 0.35
+          },
           "tags": {
             "physique": [
               "Âgé",
@@ -9568,6 +9904,13 @@
         {
           "name": "Mr. Popo",
           "group": "dieux",
+          "image": "images/personnages/dragon-ball/mr-popo.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/mr-popo.jpg",
+          "imageCrop": {
+            "x": 0.20463,
+            "y": 0,
+            "w": 0.45
+          },
           "tags": {
             "physique": [
               "Non-humain",
@@ -9610,6 +9953,13 @@
         {
           "name": "Shin (Kaio Shin)",
           "group": "dieux",
+          "image": "images/personnages/dragon-ball/shin-kaio-shin.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/shin-kaio-shin.jpg",
+          "imageCrop": {
+            "x": 0.23519,
+            "y": 0.12625,
+            "w": 0.45
+          },
           "tags": {
             "physique": [
               "Petit",
@@ -9665,6 +10015,13 @@
         {
           "name": "Zeno",
           "group": "dieux",
+          "image": "images/personnages/dragon-ball/zeno.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/zeno.jpg",
+          "imageCrop": {
+            "x": 0.12473,
+            "y": 0,
+            "w": 0.75
+          },
           "tags": {
             "physique": [
               "Enfant",
@@ -9708,6 +10065,13 @@
         {
           "name": "Champa",
           "group": "dieux",
+          "image": "images/personnages/dragon-ball/champa.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/champa.jpg",
+          "imageCrop": {
+            "x": 0.30016,
+            "y": 0,
+            "w": 0.4
+          },
           "tags": {
             "physique": [
               "Corpulent",
@@ -9769,6 +10133,13 @@
         {
           "name": "Vados",
           "group": "dieux",
+          "image": "images/personnages/dragon-ball/vados.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/vados.jpg",
+          "imageCrop": {
+            "x": 0.25,
+            "y": 0.05939,
+            "w": 0.5
+          },
           "tags": {
             "physique": [
               "Femme",
@@ -9835,6 +10206,13 @@
         {
           "name": "Vermoud",
           "group": "dieux",
+          "image": "images/personnages/dragon-ball/vermoud.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/vermoud.jpg",
+          "imageCrop": {
+            "x": 0.22432,
+            "y": 0,
+            "w": 0.55
+          },
           "tags": {
             "physique": [
               "Grand",
@@ -9890,6 +10268,13 @@
         {
           "name": "Grand Prêtre (Daishinkan)",
           "group": "dieux",
+          "image": "images/personnages/dragon-ball/grand-pretre-daishinkan.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/grand-pretre-daishinkan.jpg",
+          "imageCrop": {
+            "x": 0.22516,
+            "y": 0.05108,
+            "w": 0.55
+          },
           "tags": {
             "physique": [
               "Cheveux gris / blancs",
@@ -9953,6 +10338,13 @@
         {
           "name": "Assistant de Zeno",
           "group": "dieux",
+          "image": "images/personnages/dragon-ball/assistant-de-zeno.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/assistant-de-zeno.jpg",
+          "imageCrop": {
+            "x": 0.15985,
+            "y": 0,
+            "w": 0.1
+          },
           "tags": {
             "physique": [
               "Grand",
@@ -9994,6 +10386,13 @@
         {
           "name": "Baddack",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/baddack.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/baddack.jpg",
+          "imageCrop": {
+            "x": 0.32017,
+            "y": 0.04479,
+            "w": 0.3
+          },
           "tags": {
             "physique": [
               "Musclé",
@@ -10049,6 +10448,13 @@
         {
           "name": "Oolong",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/oolong.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/oolong.jpg",
+          "imageCrop": {
+            "x": 0.18987,
+            "y": 0,
+            "w": 0.62
+          },
           "tags": {
             "physique": [
               "Petit",
@@ -10089,6 +10495,13 @@
         {
           "name": "Plume",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/plume.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/plume.jpg",
+          "imageCrop": {
+            "x": 0.14953,
+            "y": 0,
+            "w": 0.6
+          },
           "tags": {
             "physique": [
               "Petit",
@@ -10131,6 +10544,13 @@
         {
           "name": "Maître Karin",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/maitre-karin.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/maitre-karin.jpg",
+          "imageCrop": {
+            "x": 0.196,
+            "y": 0,
+            "w": 0.65
+          },
           "tags": {
             "physique": [
               "Âgé",
@@ -10176,6 +10596,13 @@
         {
           "name": "Lunch",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/lunch.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/lunch.jpg",
+          "imageCrop": {
+            "x": 0.22025,
+            "y": 0.05139,
+            "w": 0.6
+          },
           "tags": {
             "physique": [
               "Femme",
@@ -10219,6 +10646,13 @@
         {
           "name": "Gotenks",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/gotenks.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/gotenks.jpg",
+          "imageCrop": {
+            "x": 0.33517,
+            "y": 0.0317,
+            "w": 0.33
+          },
           "tags": {
             "physique": [
               "Enfant",
@@ -10273,6 +10707,13 @@
         {
           "name": "Vegeto",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/vegeto.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/vegeto.jpg",
+          "imageCrop": {
+            "x": 0.27437,
+            "y": 0,
+            "w": 0.35
+          },
           "tags": {
             "physique": [
               "Musclé",
@@ -10331,6 +10772,13 @@
         {
           "name": "Jiren",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/jiren.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/jiren.jpg",
+          "imageCrop": {
+            "x": 0.25,
+            "y": 0,
+            "w": 0.4
+          },
           "tags": {
             "physique": [
               "Grand",
@@ -10395,6 +10843,13 @@
         {
           "name": "Hit",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/hit.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/hit.jpg",
+          "imageCrop": {
+            "x": 0.34989,
+            "y": 0.0348,
+            "w": 0.3
+          },
           "tags": {
             "physique": [
               "Non-humain",
@@ -10450,6 +10905,13 @@
         {
           "name": "Gogeta",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/gogeta.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/gogeta.jpg",
+          "imageCrop": {
+            "x": 0.30009,
+            "y": 0.11998,
+            "w": 0.3
+          },
           "tags": {
             "physique": [
               "Musclé",
@@ -10507,6 +10969,13 @@
         {
           "name": "Cabba",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/cabba.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/cabba.jpg",
+          "imageCrop": {
+            "x": 0.35016,
+            "y": 0,
+            "w": 0.3
+          },
           "tags": {
             "physique": [
               "Uniforme militaire"
@@ -10559,6 +11028,13 @@
         {
           "name": "Caulifla",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/caulifla.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/caulifla.jpg",
+          "imageCrop": {
+            "x": 0.22556,
+            "y": 0.16796,
+            "w": 0.55
+          },
           "tags": {
             "physique": [
               "Femme"
@@ -10617,6 +11093,13 @@
         {
           "name": "Kale",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/kale.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/kale.jpg",
+          "imageCrop": {
+            "x": 0.14565,
+            "y": 0.16231,
+            "w": 0.55
+          },
           "tags": {
             "physique": [
               "Femme",
@@ -10672,6 +11155,13 @@
         {
           "name": "Kefla",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/kefla.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/kefla.jpg",
+          "imageCrop": {
+            "x": 0.17391,
+            "y": 0,
+            "w": 0.55
+          },
           "tags": {
             "physique": [
               "Femme",
@@ -10729,6 +11219,13 @@
         {
           "name": "Toppo",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/toppo.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/toppo.jpg",
+          "imageCrop": {
+            "x": 0.5,
+            "y": 0.11674,
+            "w": 0.2
+          },
           "tags": {
             "physique": [
               "Grand",
@@ -10788,6 +11285,13 @@
         {
           "name": "Granolah",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/granolah.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/granolah.jpg",
+          "imageCrop": {
+            "x": 0.24966,
+            "y": 0.07643,
+            "w": 0.3
+          },
           "tags": {
             "physique": [
               "Non-humain",
@@ -10834,6 +11338,13 @@
         {
           "name": "Shenron",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/shenron.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/shenron.jpg",
+          "imageCrop": {
+            "x": 0.39028,
+            "y": 0.13692,
+            "w": 0.24
+          },
           "tags": {
             "physique": [
               "Grand",
@@ -10885,6 +11396,13 @@
         {
           "name": "Dyspo",
           "group": "autres",
+          "image": "images/personnages/dragon-ball/dyspo.jpg?v=1795743600000",
+          "imageSource": "images/personnages/dragon-ball/originaux/dyspo.jpg",
+          "imageCrop": {
+            "x": 0.25,
+            "y": 0.1406,
+            "w": 0.5
+          },
           "tags": {
             "physique": [
               "Petit",
