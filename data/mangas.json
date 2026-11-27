@@ -273,6 +273,10 @@
         "Kaioshin",
         "Dieu de la destruction",
         "Ange",
+        "Univers 6",
+        "Univers 7",
+        "Univers 10",
+        "Univers 11",
         "Kage",
         "Akatsuki",
         "Jinchuriki",
@@ -6921,7 +6925,8 @@
             ],
             "univers": [
               "Saiyan",
-              "Super Saiyan"
+              "Super Saiyan",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7000,7 +7005,8 @@
               "Saiyan",
               "Super Saiyan",
               "Majin",
-              "Armée de Freezer"
+              "Armée de Freezer",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7072,7 +7078,8 @@
             ],
             "univers": [
               "Saiyan",
-              "Super Saiyan"
+              "Super Saiyan",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7134,7 +7141,8 @@
               "Froid"
             ],
             "univers": [
-              "Namek"
+              "Namek",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7197,6 +7205,9 @@
               "Peureux",
               "Altruiste",
               "Loyal"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7250,7 +7261,8 @@
             ],
             "univers": [
               "Saiyan",
-              "Super Saiyan"
+              "Super Saiyan",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7305,7 +7317,8 @@
             ],
             "univers": [
               "Saiyan",
-              "Super Saiyan"
+              "Super Saiyan",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7356,6 +7369,9 @@
               "Loyal",
               "Déterminé",
               "Solitaire"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7403,6 +7419,9 @@
               "Timide",
               "Peureux",
               "Romantique"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7444,6 +7463,9 @@
               "Timide",
               "Naïf",
               "Loyal"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7494,7 +7516,8 @@
             ],
             "univers": [
               "Androïde",
-              "Red Ribbon"
+              "Red Ribbon",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7551,7 +7574,8 @@
             ],
             "univers": [
               "Androïde",
-              "Red Ribbon"
+              "Red Ribbon",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7600,6 +7624,9 @@
               "Courageux",
               "Déterminé",
               "Protecteur"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7640,6 +7667,9 @@
               "Intelligent",
               "Égoïste",
               "Curieux"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7688,6 +7718,9 @@
               "Intelligent",
               "Excentrique",
               "Pervers"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7732,6 +7765,9 @@
               "Colérique",
               "Protecteur",
               "Romantique"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7768,6 +7804,9 @@
               "Égoïste",
               "Paresseux",
               "Gourmand"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7811,6 +7850,9 @@
               "Menteur",
               "Charismatique",
               "Excentrique"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7849,7 +7891,8 @@
               "Impulsif"
             ],
             "univers": [
-              "Saiyan"
+              "Saiyan",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7893,7 +7936,8 @@
               "Altruiste"
             ],
             "univers": [
-              "Majin"
+              "Majin",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -7953,7 +7997,8 @@
               "Froid"
             ],
             "univers": [
-              "Armée de Freezer"
+              "Armée de Freezer",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -8025,7 +8070,8 @@
             ],
             "univers": [
               "Androïde",
-              "Red Ribbon"
+              "Red Ribbon",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -8090,7 +8136,8 @@
               "Impulsif"
             ],
             "univers": [
-              "Majin"
+              "Majin",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -8146,7 +8193,8 @@
               "Sadique"
             ],
             "univers": [
-              "Majin"
+              "Majin",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -8198,7 +8246,8 @@
               "Froid"
             ],
             "univers": [
-              "Majin"
+              "Majin",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -8254,7 +8303,8 @@
             ],
             "univers": [
               "Saiyan",
-              "Armée de Freezer"
+              "Armée de Freezer",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -8314,7 +8364,8 @@
             ],
             "univers": [
               "Saiyan",
-              "Armée de Freezer"
+              "Armée de Freezer",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -8365,7 +8416,8 @@
               "Excentrique"
             ],
             "univers": [
-              "Armée de Freezer"
+              "Armée de Freezer",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -8420,7 +8472,8 @@
               "Sadique"
             ],
             "univers": [
-              "Armée de Freezer"
+              "Armée de Freezer",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -8470,7 +8523,8 @@
             ],
             "univers": [
               "Androïde",
-              "Red Ribbon"
+              "Red Ribbon",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -8525,7 +8579,8 @@
             ],
             "univers": [
               "Androïde",
-              "Red Ribbon"
+              "Red Ribbon",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -8584,7 +8639,8 @@
             ],
             "univers": [
               "Saiyan",
-              "Super Saiyan"
+              "Super Saiyan",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -8643,7 +8699,8 @@
               "Fanatique"
             ],
             "univers": [
-              "Kaioshin"
+              "Kaioshin",
+              "Univers 10"
             ]
           },
           "tagRarity": {
@@ -8671,7 +8728,8 @@
               "Fanatique": 2
             },
             "univers": {
-              "Kaioshin": 3
+              "Kaioshin": 3,
+              "Univers 10": 3
             }
           }
         },
@@ -8699,7 +8757,8 @@
               "Froid"
             ],
             "univers": [
-              "Red Ribbon"
+              "Red Ribbon",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -8741,6 +8800,9 @@
               "Arrogant",
               "Peureux",
               "Excentrique"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -8786,7 +8848,8 @@
             "univers": [
               "Saiyan",
               "Super Saiyan",
-              "Kaioshin"
+              "Kaioshin",
+              "Univers 10"
             ]
           },
           "tagRarity": {
@@ -8813,7 +8876,8 @@
             "univers": {
               "Kaioshin": 3,
               "Saiyan": 2,
-              "Super Saiyan": 2
+              "Super Saiyan": 2,
+              "Univers 10": 2
             }
           }
         },
@@ -8845,6 +8909,9 @@
               "Manipulateur",
               "Sadique",
               "Égoïste"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -8899,6 +8966,9 @@
               "Colérique",
               "Arrogant",
               "Loyal"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -8955,7 +9025,8 @@
               "Impulsif"
             ],
             "univers": [
-              "Dieu de la destruction"
+              "Dieu de la destruction",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -9018,7 +9089,8 @@
               "Nonchalant"
             ],
             "univers": [
-              "Ange"
+              "Ange",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -9070,6 +9142,9 @@
               "Joyeux",
               "Excentrique",
               "Blagueur"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -9111,7 +9186,8 @@
               "Altruiste"
             ],
             "univers": [
-              "Namek"
+              "Namek",
+              "Univers 7"
             ],
             "style-de-combat": [
               "Soin"
@@ -9166,7 +9242,8 @@
               "Altruiste"
             ],
             "univers": [
-              "Namek"
+              "Namek",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -9210,6 +9287,9 @@
               "Calme",
               "Loyal",
               "Mystérieux"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -9259,7 +9339,8 @@
               "Altruiste"
             ],
             "univers": [
-              "Kaioshin"
+              "Kaioshin",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -9356,7 +9437,8 @@
               "Impulsif"
             ],
             "univers": [
-              "Dieu de la destruction"
+              "Dieu de la destruction",
+              "Univers 6"
             ]
           },
           "tagRarity": {
@@ -9382,7 +9464,8 @@
               "Impulsif": 2
             },
             "univers": {
-              "Dieu de la destruction": 3
+              "Dieu de la destruction": 3,
+              "Univers 6": 3
             }
           }
         },
@@ -9417,7 +9500,8 @@
               "Nonchalant"
             ],
             "univers": [
-              "Ange"
+              "Ange",
+              "Univers 6"
             ]
           },
           "tagRarity": {
@@ -9446,7 +9530,8 @@
               "Nonchalant": 2
             },
             "univers": {
-              "Ange": 3
+              "Ange": 3,
+              "Univers 6": 3
             }
           }
         },
@@ -9478,7 +9563,8 @@
             ],
             "univers": [
               "Saiyan",
-              "Armée de Freezer"
+              "Armée de Freezer",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -9525,6 +9611,9 @@
               "Menteur",
               "Égoïste",
               "Pervers"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -9561,6 +9650,9 @@
               "Timide",
               "Peureux",
               "Loyal"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -9603,6 +9695,9 @@
               "Intelligent",
               "Mystérieux",
               "Provocateur"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -9643,6 +9738,9 @@
               "Naïf",
               "Impulsif",
               "Excentrique"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -9689,7 +9787,8 @@
             ],
             "univers": [
               "Saiyan",
-              "Super Saiyan"
+              "Super Saiyan",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -9744,7 +9843,8 @@
             ],
             "univers": [
               "Saiyan",
-              "Super Saiyan"
+              "Super Saiyan",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -9800,6 +9900,9 @@
               "Calme",
               "Solitaire",
               "Froid"
+            ],
+            "univers": [
+              "Univers 11"
             ]
           },
           "tagRarity": {
@@ -9827,6 +9930,9 @@
               "Froid": 2,
               "Solitaire": 3,
               "Sérieux": 2
+            },
+            "univers": {
+              "Univers 11": 3
             }
           }
         },
@@ -9855,6 +9961,9 @@
               "Mystérieux",
               "Solitaire",
               "Froid"
+            ],
+            "univers": [
+              "Univers 6"
             ]
           },
           "tagRarity": {
@@ -9876,6 +9985,9 @@
               "Froid": 2,
               "Mystérieux": 2,
               "Solitaire": 2
+            },
+            "univers": {
+              "Univers 6": 3
             }
           }
         },
@@ -9906,7 +10018,8 @@
             ],
             "univers": [
               "Saiyan",
-              "Super Saiyan"
+              "Super Saiyan",
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -9960,7 +10073,8 @@
             ],
             "univers": [
               "Saiyan",
-              "Super Saiyan"
+              "Super Saiyan",
+              "Univers 6"
             ]
           },
           "tagRarity": {
@@ -9981,7 +10095,8 @@
             },
             "univers": {
               "Saiyan": 3,
-              "Super Saiyan": 2
+              "Super Saiyan": 2,
+              "Univers 6": 3
             }
           }
         },
@@ -10012,7 +10127,8 @@
             ],
             "univers": [
               "Saiyan",
-              "Super Saiyan"
+              "Super Saiyan",
+              "Univers 6"
             ]
           },
           "tagRarity": {
@@ -10037,7 +10153,8 @@
             },
             "univers": {
               "Saiyan": 3,
-              "Super Saiyan": 2
+              "Super Saiyan": 2,
+              "Univers 6": 3
             }
           }
         },
@@ -10066,7 +10183,8 @@
             ],
             "univers": [
               "Saiyan",
-              "Super Saiyan"
+              "Super Saiyan",
+              "Univers 6"
             ]
           },
           "tagRarity": {
@@ -10090,7 +10208,8 @@
             },
             "univers": {
               "Saiyan": 3,
-              "Super Saiyan": 3
+              "Super Saiyan": 3,
+              "Univers 6": 3
             }
           }
         },
@@ -10120,7 +10239,8 @@
             ],
             "univers": [
               "Saiyan",
-              "Super Saiyan"
+              "Super Saiyan",
+              "Univers 6"
             ]
           },
           "tagRarity": {
@@ -10145,7 +10265,8 @@
             },
             "univers": {
               "Saiyan": 3,
-              "Super Saiyan": 3
+              "Super Saiyan": 3,
+              "Univers 6": 3
             }
           }
         },
@@ -10177,7 +10298,8 @@
               "Loyal"
             ],
             "univers": [
-              "Dieu de la destruction"
+              "Dieu de la destruction",
+              "Univers 11"
             ]
           },
           "tagRarity": {
@@ -10201,6 +10323,9 @@
             "caractere": {
               "Sérieux": 2,
               "Loyal": 2
+            },
+            "univers": {
+              "Univers 11": 3
             }
           }
         },
@@ -10226,6 +10351,9 @@
               "Sérieux",
               "Solitaire",
               "Vengeur"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
@@ -10270,6 +10398,9 @@
               "Sérieux",
               "Calme",
               "Mystérieux"
+            ],
+            "univers": [
+              "Univers 7"
             ]
           },
           "tagRarity": {
