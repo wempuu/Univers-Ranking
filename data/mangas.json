@@ -8996,6 +8996,303 @@
           }
         },
         {
+          "name": "Gamma 1",
+          "group": "mechants",
+          "tags": {
+            "physique": [
+              "Cyborg / Robot",
+              "Cape"
+            ],
+            "role": [
+              "Antagoniste",
+              "Soldat",
+              "Ennemi devenu allié",
+              "Frère / Soeur",
+              "Organisation"
+            ],
+            "style-de-combat": [
+              "Armes à feu",
+              "Vol",
+              "Laser",
+              "Super-force"
+            ],
+            "caractere": [
+              "Sérieux",
+              "Calme",
+              "Loyal"
+            ],
+            "univers": [
+              "Androïde",
+              "Red Ribbon",
+              "Univers 7"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Cyborg / Robot": 3,
+              "Cape": 2
+            },
+            "role": {
+              "Soldat": 2,
+              "Ennemi devenu allié": 2,
+              "Frère / Soeur": 2,
+              "Organisation": 2
+            },
+            "style-de-combat": {
+              "Armes à feu": 2,
+              "Laser": 2
+            },
+            "caractere": {
+              "Sérieux": 3,
+              "Calme": 2,
+              "Loyal": 2
+            },
+            "univers": {
+              "Androïde": 3,
+              "Red Ribbon": 3
+            }
+          }
+        },
+        {
+          "name": "Gamma 2",
+          "group": "mechants",
+          "tags": {
+            "physique": [
+              "Cyborg / Robot",
+              "Cape"
+            ],
+            "role": [
+              "Soldat",
+              "Ennemi devenu allié",
+              "Frère / Soeur",
+              "Organisation"
+            ],
+            "style-de-combat": [
+              "Armes à feu",
+              "Vol",
+              "Laser"
+            ],
+            "caractere": [
+              "Joyeux",
+              "Courageux",
+              "Loyal",
+              "Excentrique"
+            ],
+            "univers": [
+              "Androïde",
+              "Red Ribbon",
+              "Univers 7"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Cyborg / Robot": 3,
+              "Cape": 2
+            },
+            "role": {
+              "Soldat": 2,
+              "Ennemi devenu allié": 2,
+              "Frère / Soeur": 2,
+              "Organisation": 2
+            },
+            "style-de-combat": {
+              "Armes à feu": 2,
+              "Laser": 2
+            },
+            "caractere": {
+              "Joyeux": 2,
+              "Courageux": 2,
+              "Excentrique": 2
+            },
+            "univers": {
+              "Androïde": 3,
+              "Red Ribbon": 3
+            }
+          }
+        },
+        {
+          "name": "Janemba",
+          "group": "mechants",
+          "tags": {
+            "physique": [
+              "Grand",
+              "Cornes",
+              "Queue",
+              "Non-humain",
+              "Démon",
+              "Peau colorée"
+            ],
+            "role": [
+              "Antagoniste"
+            ],
+            "style-de-combat": [
+              "Arme Tranchante",
+              "Téléportation",
+              "Illusion",
+              "Contrôle de l'espace",
+              "Pouvoir démoniaque"
+            ],
+            "caractere": [
+              "Sadique",
+              "Impulsif"
+            ],
+            "univers": [
+              "Univers 7"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Grand": 2,
+              "Cornes": 2,
+              "Non-humain": 2,
+              "Démon": 3,
+              "Peau colorée": 2
+            },
+            "role": {
+              "Antagoniste": 3
+            },
+            "style-de-combat": {
+              "Arme Tranchante": 2,
+              "Téléportation": 2,
+              "Illusion": 2,
+              "Contrôle de l'espace": 2,
+              "Pouvoir démoniaque": 3
+            },
+            "caractere": {
+              "Sadique": 2,
+              "Impulsif": 2
+            }
+          }
+        },
+        {
+          "name": "Cooler",
+          "group": "mechants",
+          "tags": {
+            "physique": [
+              "Cornes",
+              "Queue",
+              "Non-humain",
+              "Peau colorée"
+            ],
+            "role": [
+              "Antagoniste",
+              "Leader",
+              "Héritier / Héritière",
+              "Criminel",
+              "Frère / Soeur",
+              "Organisation",
+              "Extraterrestre"
+            ],
+            "style-de-combat": [
+              "Transformation",
+              "Explosions",
+              "Laser",
+              "Super-force",
+              "Durabilité"
+            ],
+            "caractere": [
+              "Calme",
+              "Arrogant",
+              "Sadique",
+              "Vengeur",
+              "Froid"
+            ],
+            "univers": [
+              "Univers 7"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Cornes": 2,
+              "Queue": 2,
+              "Non-humain": 3,
+              "Peau colorée": 2
+            },
+            "role": {
+              "Antagoniste": 3,
+              "Leader": 2,
+              "Criminel": 2,
+              "Frère / Soeur": 3,
+              "Organisation": 2,
+              "Extraterrestre": 3
+            },
+            "style-de-combat": {
+              "Transformation": 3,
+              "Laser": 2,
+              "Super-force": 2,
+              "Durabilité": 2
+            },
+            "caractere": {
+              "Calme": 2,
+              "Arrogant": 3,
+              "Sadique": 2,
+              "Vengeur": 2,
+              "Froid": 3
+            }
+          }
+        },
+        {
+          "name": "Frost",
+          "group": "mechants",
+          "tags": {
+            "physique": [
+              "Cornes",
+              "Queue",
+              "Non-humain",
+              "Peau colorée"
+            ],
+            "role": [
+              "Antagoniste",
+              "Criminel",
+              "Traître",
+              "Extraterrestre"
+            ],
+            "style-de-combat": [
+              "Transformation",
+              "Poison",
+              "Laser",
+              "Super-force"
+            ],
+            "caractere": [
+              "Calme",
+              "Arrogant",
+              "Menteur",
+              "Manipulateur",
+              "Sadique"
+            ],
+            "univers": [
+              "Univers 6"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Cornes": 2,
+              "Queue": 2,
+              "Non-humain": 3,
+              "Peau colorée": 2
+            },
+            "role": {
+              "Antagoniste": 2,
+              "Criminel": 3,
+              "Traître": 2,
+              "Extraterrestre": 2
+            },
+            "style-de-combat": {
+              "Poison": 3,
+              "Transformation": 3
+            },
+            "caractere": {
+              "Calme": 2,
+              "Arrogant": 2,
+              "Menteur": 3,
+              "Manipulateur": 3
+            },
+            "univers": {
+              "Univers 6": 3
+            }
+          }
+        },
+        {
           "name": "Beerus",
           "group": "dieux",
           "tags": {
@@ -9587,6 +9884,103 @@
             "univers": {
               "Dieu de la destruction": 3,
               "Univers 11": 3
+            }
+          }
+        },
+        {
+          "name": "Grand Prêtre (Daishinkan)",
+          "group": "dieux",
+          "tags": {
+            "physique": [
+              "Cheveux gris / blancs",
+              "Bijoux / Piercings",
+              "Non-humain",
+              "Peau colorée"
+            ],
+            "role": [
+              "Maître / Mentor",
+              "Conseiller",
+              "Dieu / Divinité",
+              "Parent",
+              "Garde du corps"
+            ],
+            "style-de-combat": [
+              "Contrôle du temps",
+              "Pouvoir divin",
+              "Bâton",
+              "Super-vitesse",
+              "Battle IQ"
+            ],
+            "caractere": [
+              "Sérieux",
+              "Calme",
+              "Mystérieux"
+            ],
+            "univers": [
+              "Ange"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Cheveux gris / blancs": 2,
+              "Non-humain": 2,
+              "Peau colorée": 3
+            },
+            "role": {
+              "Maître / Mentor": 2,
+              "Conseiller": 3,
+              "Dieu / Divinité": 3,
+              "Parent": 2,
+              "Garde du corps": 2
+            },
+            "style-de-combat": {
+              "Contrôle du temps": 3,
+              "Pouvoir divin": 3,
+              "Bâton": 2,
+              "Super-vitesse": 2,
+              "Battle IQ": 2
+            },
+            "caractere": {
+              "Sérieux": 2,
+              "Calme": 3,
+              "Mystérieux": 2
+            },
+            "univers": {
+              "Ange": 3
+            }
+          }
+        },
+        {
+          "name": "Assistant de Zeno",
+          "group": "dieux",
+          "tags": {
+            "physique": [
+              "Petit",
+              "Non-humain",
+              "Peau colorée"
+            ],
+            "role": [
+              "Conseiller",
+              "Garde du corps"
+            ],
+            "caractere": [
+              "Sérieux",
+              "Loyal"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Petit": 2,
+              "Non-humain": 2,
+              "Peau colorée": 2
+            },
+            "role": {
+              "Conseiller": 2,
+              "Garde du corps": 3
+            },
+            "caractere": {
+              "Sérieux": 2,
+              "Loyal": 3
             }
           }
         },
@@ -10478,6 +10872,57 @@
               "Sérieux": 2,
               "Calme": 2,
               "Mystérieux": 2
+            }
+          }
+        },
+        {
+          "name": "Dyspo",
+          "group": "autres",
+          "tags": {
+            "physique": [
+              "Petit",
+              "Animal anthropomorphe"
+            ],
+            "role": [
+              "Soldat",
+              "Gardien",
+              "Organisation",
+              "Extraterrestre"
+            ],
+            "style-de-combat": [
+              "Arts martiaux",
+              "Super-vitesse",
+              "Battle IQ"
+            ],
+            "caractere": [
+              "Sérieux",
+              "Arrogant",
+              "Loyal",
+              "Provocateur"
+            ],
+            "univers": [
+              "Univers 11"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Petit": 2,
+              "Animal anthropomorphe": 3
+            },
+            "role": {
+              "Soldat": 2,
+              "Organisation": 2,
+              "Extraterrestre": 2
+            },
+            "style-de-combat": {
+              "Super-vitesse": 3
+            },
+            "caractere": {
+              "Arrogant": 2,
+              "Loyal": 2
+            },
+            "univers": {
+              "Univers 11": 3
             }
           }
         }
