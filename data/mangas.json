@@ -9904,12 +9904,12 @@
         {
           "name": "Mr. Popo",
           "group": "dieux",
-          "image": "images/personnages/dragon-ball/mr-popo.jpg?v=1795747588000",
+          "image": "images/personnages/dragon-ball/mr-popo.jpg?v=1795755097237",
           "imageSource": "images/personnages/dragon-ball/originaux/mr-popo.jpg",
           "imageCrop": {
-            "x": 0.25,
-            "y": 0.02037,
-            "w": 0.3
+            "x": 0.37842,
+            "y": 0.02335,
+            "w": 0.27574
           },
           "tags": {
             "physique": [
