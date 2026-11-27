@@ -1,82 +1,83 @@
-Portraits Dragon Ball : recadrés sur la tête (320x320) à partir d'images de l'anime (règles de l'utilisateur, 2026-11-27) :
-la partie la plus récente où le perso apparaît (ex. Goku à la fin de Dragon Ball Z), sans GT ni Daima, en évitant au mieux
-Dragon Ball Super (Super seulement pour les persos propres à Super) ; persos au calme (pas en action), dans leurs vêtements
-les plus emblématiques ; pas d'image sur fond noir. Films Z pour Broly, Cooler, Janemba, Gogeta, téléfilm pour Baddack ;
-Super Hero pour Gamma 1 et 2 ; jaquette Blu-ray de Kai pour Majin Boo. Moro, Gas et Granolah n'ont jamais été animés :
-image couleur du manga de Toyotaro (Gas posé sur fond blanc).
-Source : Dragon Ball Wiki (dragonball.fandom.com). Format : fichier-local <- fichier du wiki.
+Portraits Dragon Ball : recadrés sur la tête (320x320). Règles de l'utilisateur (2026-11-27) : la partie la plus récente
+où le perso apparaît (ex. Goku à la fin de Dragon Ball Z), sans GT ni Daima, en évitant au mieux Dragon Ball Super ;
+persos au calme, dans leurs vêtements les plus emblématiques ; pas de fond noir (fonds transparents posés sur blanc).
+Sources, par ordre de préférence :
+- Toei Animation, site officiel de Dragon Ball Kai (saga Boo = fin de Z), page Personnages (10 persos) ;
+- site officiel Dragon Ball (en.dragon-ball-official.com), illustrations des « Weekly Character Showcase » ;
+- à défaut, Dragon Ball Wiki (dragonball.fandom.com), images de l'anime (File:...).
+Format : fichier-local <- source.
 
 assistant-de-zeno.jpg <- File:ZenosGuards.png
-babidi.jpg <- File:BabidiDBZ.png
+babidi.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/9/imgChara.png
 baddack.jpg <- File:Bardock_-_The_Father_of_Goku_-_Bardock_after_landing_on_Planet_Meat.png
-beerus.jpg <- File:BeerusWikia_(3).jpg
-black-goku.jpg <- File:Screenshot_(2).png
+beerus.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2021/11/chara30_1.jpg
+black-goku.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2023/05/chara105_1.jpg
 broly.jpg <- File:Broly_Infobox_image.png
 bulma.jpg <- File:Bulma&Videl(Ep288).png
-c-16.jpg <- File:Android_16.png
-c-17.jpg <- File:Android17-18-16-Ep150.png
+c-16.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2022/01/chara40_1.jpg
+c-17.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2022/01/chara39_1.jpg
 c-18.jpg <- File:New09.jpg
 cabba.jpg <- File:Cabba_DBS_Ep_36_001.png
-capitaine-ginyu.jpg <- File:GinyuVsGoku.Ep.69.png
-caulifla.jpg <- File:Dragon-Ball-Super-Episode-92-000093-Caulifla-Super-Saiyan.jpg
-cell.jpg <- File:Cell_(DBZ_ep_177).png
+capitaine-ginyu.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2023/08/chara117_1.jpg
+caulifla.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2022/10/chara77_1.jpg
+cell.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2022/07/chara63_1.jpg
 champa.jpg <- File:13001281_1570422286602499_8941391900815166996_n.jpg
 chaozu.jpg <- File:Chiaotzu.Ep.103.DB.png
 chichi.jpg <- File:ChiChi.Ep.199.png
 cooler.jpg <- File:Cooler's_Revenge_-_Cooler_prepares_to_transform.png
-dabra.jpg <- File:Dabura_DBZ_Episode_225.png
+dabra.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2021/12/chara34_1.jpg
 dende.jpg <- File:DendeMeetsGoku.png
 dr-gero.jpg <- File:DrGeroRR01.png
 dyspo.jpg <- File:Dyspoo.png
 freezer.jpg <- File:Frieza.Ep.91.DBZ.png
-frost.jpg <- File:FrostFinalForm.png
+frost.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2023/04/chara102_1.jpg
 gamma-1.jpg <- File:Gamma_1_vs_Ultimate_Gohan.png
 gamma-2.jpg <- File:Super_Hero_-_Gamma_2_arrives_at_Piccolo's_home.png
 gas.jpg <- File:Gas_profile.png
 gogeta.jpg <- File:Fusion_Reborn_-_Super_Gogeta.png
 gotenks.jpg <- File:Gotenks.png
 grand-pretre-daishinkan.jpg <- File:Grand_Minister's_first_appearance.png
-granolah.jpg <- File:Granolah_color.PNG
-hercule-mr-satan.jpg <- File:Mr.SatanPOEU.png
-hit.jpg <- File:Hit_Profile.jpg
+granolah.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2026/07/chara267_1_2.jpg
+hercule-mr-satan.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2022/07/chara64_1.jpg
+hit.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2023/04/chara103_1.jpg
 janemba.jpg <- File:Myth.jpg
 jiren.jpg <- File:Jiren1.png
-kaio-du-nord.jpg <- File:King_Kai_(DBZ_Ep_30).png
-kale.jpg <- File:Kale_2.jpg
+kaio-du-nord.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2021/11/chara29_1.jpg
+kale.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2025/06/chara216_1.jpg
 kefla.jpg <- File:Kefla_01.png
-krilin.jpg <- File:Kuririn.Ep.160.png
+krilin.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/7/imgChara.png
 lunch.jpg <- File:Launch.Ep.104.png
 maitre-karin.jpg <- File:KorinBuuSagaNV.png
-majin-boo.jpg <- File:Dragon_Ball_Kai_Majin_Buu_Saga_Box_2.png
+majin-boo.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/10/imgChara.png
 moro.jpg <- File:Moro_(Digitial_Colored_Manga).jpg
 mr-popo.jpg <- File:Mr.PopoLookOut02.png
 nappa.jpg <- File:Nappa.Ep.11.DBZKai.png
 oolong.jpg <- File:Oolong.Ep.90.png
 pan.jpg <- File:Goten_battling_Pan.jpeg
-piccolo.jpg <- File:Piccolo_EP134.png
+piccolo.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/6/imgChara.png
 pilaf.jpg <- File:Emperor_Pilaf_DB_Ep_32_002.png
 plume.jpg <- File:Puar_Episode_9.png
-raditz.jpg <- File:Raditz_arrives_at_Kame_House.png
+raditz.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2021/09/chara21_1.jpg
 shenron.jpg <- File:Shenron_DBZ_Episode_240.png
-shin-kaio-shin.jpg <- File:KaioshinSurprised.Ep.247.png
-son-gohan.jpg <- File:Gohan.Ep.263.png
-son-goku.jpg <- File:GokuHungryEp192.png
-son-goten.jpg <- File:GotenOnTheLookout.jpg
+shin-kaio-shin.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/8/imgChara.png
+son-gohan.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/2/imgChara.png
+son-goku.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/1/imgChara.png
+son-goten.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/3/imgChara.png
 tao-pai-pai.jpg <- File:Mercenary_Tao_Dragon_Ball_Episode_59.png
-ten-shin-han.jpg <- File:TienShinhan.Ep.85.png
+ten-shin-han.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2026/08/chara270_1.jpg
 toppo.jpg <- File:Top.png
-tortue-geniale.jpg <- File:MutenRoshi.Ep.107.png
+tortue-geniale.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2021/05/chara3_1.jpg
 tout-puissant.jpg <- File:KamiGarlicJuniorSagaNV.png
-trunks.jpg <- File:Trunks_Dragon_Ball_Z_Episode_213.png
+trunks.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/5/imgChara.png
 uub.jpg <- File:Cvanon.jpg
 vados.jpg <- File:VadosWikia_(1).jpg
-vegeta.jpg <- File:Vegeta_ep154.png
+vegeta.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/4/imgChara.png
 vegeto.jpg <- File:Vegito_transforming_into_a_Super_Saiyan.png
-vermoud.jpg <- File:Belmod.png
-videl.jpg <- File:Videl_Episode_207.png
-whis.jpg <- File:Whis_(DBS_ep67).png
+vermoud.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2023/03/chara97_1.jpg
+videl.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2022/07/chara65_1.jpg
+whis.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2023/02/chara91_1.jpg
 yajirobe.jpg <- File:YajirobeEp17.png
-yamcha.jpg <- File:Yamcha.Ep.134.png
-zamasu.jpg <- File:Zamasu_DBS_Ep_53_006.png
+yamcha.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2025/10/chara231_1.jpg
+zamasu.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2023/05/chara106_1.jpg
 zarbon.jpg <- File:Zarbon_DBZ_Ep_56_002.png
-zeno.jpg <- File:Zeno.png
+zeno.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2022/08/chara70_1.jpg
