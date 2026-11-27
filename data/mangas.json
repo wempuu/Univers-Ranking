@@ -6972,12 +6972,12 @@
         {
           "name": "Vegeta",
           "group": "guerriers",
-          "image": "images/personnages/dragon-ball/vegeta.jpg?v=1795747588000",
+          "image": "images/personnages/dragon-ball/vegeta.jpg?v=1795747948935",
           "imageSource": "images/personnages/dragon-ball/originaux/vegeta.jpg",
           "imageCrop": {
-            "x": 0.05109,
-            "y": 0,
-            "w": 0.9
+            "x": 0.20031,
+            "y": 0.03659,
+            "w": 0.77519
           },
           "tags": {
             "physique": [
