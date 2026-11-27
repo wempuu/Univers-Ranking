@@ -6889,12 +6889,12 @@
         {
           "name": "Son Goku",
           "group": "guerriers",
-          "image": "images/personnages/dragon-ball/son-goku.jpg?v=1795747588000",
+          "image": "images/personnages/dragon-ball/son-goku.jpg?v=1795747903431",
           "imageSource": "images/personnages/dragon-ball/originaux/son-goku.jpg",
           "imageCrop": {
-            "x": 0.1,
-            "y": 0,
-            "w": 0.7
+            "x": 0.18887,
+            "y": 0.0317,
+            "w": 0.63694
           },
           "tags": {
             "physique": [
