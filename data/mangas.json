@@ -8704,12 +8704,12 @@
         {
           "name": "C-16",
           "group": "mechants",
-          "image": "images/personnages/dragon-ball/c-16.jpg?v=1795747588000",
+          "image": "images/personnages/dragon-ball/c-16.jpg?v=1795755067270",
           "imageSource": "images/personnages/dragon-ball/originaux/c-16.jpg",
           "imageCrop": {
-            "x": 0.39986,
-            "y": 0.0755,
-            "w": 0.3
+            "x": 0.40988,
+            "y": 0.05348,
+            "w": 0.44643
           },
           "tags": {
             "physique": [
