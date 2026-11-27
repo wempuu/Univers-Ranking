@@ -9536,6 +9536,61 @@
           }
         },
         {
+          "name": "Vermoud",
+          "group": "dieux",
+          "tags": {
+            "physique": [
+              "Grand",
+              "Bijoux / Piercings",
+              "Non-humain",
+              "Nez remarquable"
+            ],
+            "role": [
+              "Maître / Mentor",
+              "Dieu / Divinité",
+              "Clown"
+            ],
+            "style-de-combat": [
+              "Magie",
+              "Illusion",
+              "Pouvoir divin"
+            ],
+            "caractere": [
+              "Joyeux",
+              "Calme",
+              "Excentrique"
+            ],
+            "univers": [
+              "Dieu de la destruction",
+              "Univers 11"
+            ]
+          },
+          "tagRarity": {
+            "physique": {
+              "Non-humain": 2,
+              "Nez remarquable": 2
+            },
+            "role": {
+              "Maître / Mentor": 2,
+              "Dieu / Divinité": 3,
+              "Clown": 2
+            },
+            "style-de-combat": {
+              "Magie": 2,
+              "Illusion": 2,
+              "Pouvoir divin": 3
+            },
+            "caractere": {
+              "Calme": 2,
+              "Excentrique": 3
+            },
+            "univers": {
+              "Dieu de la destruction": 3,
+              "Univers 11": 3
+            }
+          }
+        },
+        {
           "name": "Baddack",
           "group": "autres",
           "tags": {
