@@ -2923,8 +2923,8 @@
             "physique": {
               "Couvre-chef": 2,
               "Cheveux bleus": 2,
-              "Maquillage": 2,
-              "Nez remarquable": 3
+              "Nez remarquable": 3,
+              "Maquillage": 3
             },
             "univers": {
               "Pirate": 3,
