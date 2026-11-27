@@ -9966,6 +9966,9 @@
             "caractere": [
               "Sérieux",
               "Loyal"
+            ],
+            "style-de-combat": [
+              "Téléportation"
             ]
           },
           "tagRarity": {
@@ -9981,6 +9984,9 @@
             "caractere": {
               "Sérieux": 2,
               "Loyal": 3
+            },
+            "style-de-combat": {
+              "Téléportation": 3
             }
           }
         },
