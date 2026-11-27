@@ -9955,7 +9955,7 @@
           "group": "dieux",
           "tags": {
             "physique": [
-              "Petit",
+              "Grand",
               "Non-humain",
               "Peau colorée"
             ],
@@ -9974,7 +9974,6 @@
           },
           "tagRarity": {
             "physique": {
-              "Petit": 2,
               "Non-humain": 2,
               "Peau colorée": 2
             },
