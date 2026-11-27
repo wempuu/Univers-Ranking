@@ -8520,12 +8520,12 @@
         {
           "name": "Raditz",
           "group": "mechants",
-          "image": "images/personnages/dragon-ball/raditz.jpg?v=1795747588000",
+          "image": "images/personnages/dragon-ball/raditz.jpg?v=1795748651085",
           "imageSource": "images/personnages/dragon-ball/originaux/raditz.jpg",
           "imageCrop": {
-            "x": 0.27519,
-            "y": 0.04861,
-            "w": 0.25
+            "x": 0.32958,
+            "y": 0.04214,
+            "w": 0.32895
           },
           "tags": {
             "physique": [
