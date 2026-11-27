@@ -7130,12 +7130,12 @@
         {
           "name": "Piccolo",
           "group": "guerriers",
-          "image": "images/personnages/dragon-ball/piccolo.jpg?v=1795747588000",
+          "image": "images/personnages/dragon-ball/piccolo.jpg?v=1795747996083",
           "imageSource": "images/personnages/dragon-ball/originaux/piccolo.jpg",
           "imageCrop": {
-            "x": 0.05138,
-            "y": 0,
-            "w": 0.8
+            "x": 0.21963,
+            "y": 0.03631,
+            "w": 0.67114
           },
           "tags": {
             "physique": [
