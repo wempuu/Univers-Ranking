@@ -1,83 +1,82 @@
-Portraits Dragon Ball : recadrés sur la tête (320x320). Règles de l'utilisateur (2026-11-27) : la partie la plus récente
-où le perso apparaît (ex. Goku à la fin de Dragon Ball Z), sans GT ni Daima, en évitant au mieux Dragon Ball Super ;
-persos au calme, dans leurs vêtements les plus emblématiques ; pas de fond noir (fonds transparents posés sur blanc).
-Sources, par ordre de préférence :
-- Toei Animation, site officiel de Dragon Ball Kai (saga Boo = fin de Z), page Personnages (10 persos) ;
-- site officiel Dragon Ball (en.dragon-ball-official.com), illustrations des « Weekly Character Showcase » ;
-- à défaut, Dragon Ball Wiki (dragonball.fandom.com), images de l'anime (File:...).
+Portraits Dragon Ball : recadrés sur la tête (320x320). Règles de l'utilisateur (2026-11-27) : images de l'ANIME uniquement,
+tirées de la partie la plus récente où le perso apparaît (ex. Goku à la fin de Dragon Ball Z), sans GT ni Daima,
+en évitant au mieux Dragon Ball Super ; persos au calme, dans leurs vêtements les plus emblématiques ; pas de fond blanc
+ni de fond noir. Exceptions : Moro, Gas et Granolah n'ont jamais été animés (image du manga couleur de Toyotaro).
+Sources : visuels de l'anime hébergés par TVMaze (fiches personnages de Dragon Ball Kai, Z et Super) ; à défaut,
+captures de l'anime du Dragon Ball Wiki (dragonball.fandom.com, File:...).
 Format : fichier-local <- source.
 
 assistant-de-zeno.jpg <- File:ZenosGuards.png
-babidi.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/9/imgChara.png
+babidi.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/597/1492848.jpg
 baddack.jpg <- File:Bardock_-_The_Father_of_Goku_-_Bardock_after_landing_on_Planet_Meat.png
-beerus.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2021/11/chara30_1.jpg
-black-goku.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2023/05/chara105_1.jpg
+beerus.jpg <- File:BeerusWikia_(3).jpg
+black-goku.jpg <- File:Screenshot_(2).png
 broly.jpg <- File:Broly_Infobox_image.png
-bulma.jpg <- File:Bulma&Videl(Ep288).png
-c-16.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2022/01/chara40_1.jpg
-c-17.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2022/01/chara39_1.jpg
-c-18.jpg <- File:New09.jpg
+bulma.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/597/1492724.jpg
+c-16.jpg <- File:Android_16.png
+c-17.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/597/1492794.jpg
+c-18.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/597/1492810.jpg
 cabba.jpg <- File:Cabba_DBS_Ep_36_001.png
-capitaine-ginyu.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2023/08/chara117_1.jpg
-caulifla.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2022/10/chara77_1.jpg
-cell.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2022/07/chara63_1.jpg
+capitaine-ginyu.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/597/1492801.jpg
+caulifla.jpg <- File:Dragon-Ball-Super-Episode-92-000093-Caulifla-Super-Saiyan.jpg
+cell.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/597/1492816.jpg
 champa.jpg <- File:13001281_1570422286602499_8941391900815166996_n.jpg
-chaozu.jpg <- File:Chiaotzu.Ep.103.DB.png
-chichi.jpg <- File:ChiChi.Ep.199.png
+chaozu.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/569/1423161.jpg
+chichi.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/566/1417149.jpg
 cooler.jpg <- File:Cooler's_Revenge_-_Cooler_prepares_to_transform.png
-dabra.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2021/12/chara34_1.jpg
-dende.jpg <- File:DendeMeetsGoku.png
-dr-gero.jpg <- File:DrGeroRR01.png
+dabra.jpg <- File:Dabura_DBZ_Episode_225.png
+dende.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/569/1422514.jpg
+dr-gero.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/597/1492828.jpg
 dyspo.jpg <- File:Dyspoo.png
 freezer.jpg <- File:Frieza.Ep.91.DBZ.png
-frost.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2023/04/chara102_1.jpg
+frost.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/66/166517.jpg
 gamma-1.jpg <- File:Gamma_1_vs_Ultimate_Gohan.png
 gamma-2.jpg <- File:Super_Hero_-_Gamma_2_arrives_at_Piccolo's_home.png
 gas.jpg <- File:Gas_profile.png
 gogeta.jpg <- File:Fusion_Reborn_-_Super_Gogeta.png
 gotenks.jpg <- File:Gotenks.png
 grand-pretre-daishinkan.jpg <- File:Grand_Minister's_first_appearance.png
-granolah.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2026/07/chara267_1_2.jpg
-hercule-mr-satan.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2022/07/chara64_1.jpg
-hit.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2023/04/chara103_1.jpg
+granolah.jpg <- File:Granolah_color.PNG
+hercule-mr-satan.jpg <- File:Mr.SatanPOEU.png
+hit.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/66/166496.jpg
 janemba.jpg <- File:Myth.jpg
 jiren.jpg <- File:Jiren1.png
-kaio-du-nord.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2021/11/chara29_1.jpg
-kale.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2025/06/chara216_1.jpg
+kaio-du-nord.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/228/570408.jpg
+kale.jpg <- File:Kale_2.jpg
 kefla.jpg <- File:Kefla_01.png
-krilin.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/7/imgChara.png
+krilin.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/597/1492774.jpg
 lunch.jpg <- File:Launch.Ep.104.png
 maitre-karin.jpg <- File:KorinBuuSagaNV.png
-majin-boo.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/10/imgChara.png
+majin-boo.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/597/1492820.jpg
 moro.jpg <- File:Moro_(Digitial_Colored_Manga).jpg
-mr-popo.jpg <- File:Mr.PopoLookOut02.png
+mr-popo.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/228/570413.jpg
 nappa.jpg <- File:Nappa.Ep.11.DBZKai.png
-oolong.jpg <- File:Oolong.Ep.90.png
-pan.jpg <- File:Goten_battling_Pan.jpeg
-piccolo.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/6/imgChara.png
+oolong.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/228/570405.jpg
+pan.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/597/1492846.jpg
+piccolo.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/597/1492749.jpg
 pilaf.jpg <- File:Emperor_Pilaf_DB_Ep_32_002.png
 plume.jpg <- File:Puar_Episode_9.png
-raditz.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2021/09/chara21_1.jpg
+raditz.jpg <- File:Raditz_arrives_at_Kame_House.png
 shenron.jpg <- File:Shenron_DBZ_Episode_240.png
-shin-kaio-shin.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/8/imgChara.png
-son-gohan.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/2/imgChara.png
-son-goku.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/1/imgChara.png
-son-goten.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/3/imgChara.png
+shin-kaio-shin.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/228/570429.jpg
+son-gohan.jpg <- File:Gohan.Ep.263.png
+son-goku.jpg <- File:GokuHungryEp192.png
+son-goten.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/597/1492791.jpg
 tao-pai-pai.jpg <- File:Mercenary_Tao_Dragon_Ball_Episode_59.png
-ten-shin-han.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2026/08/chara270_1.jpg
+ten-shin-han.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/568/1422475.jpg
 toppo.jpg <- File:Top.png
-tortue-geniale.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2021/05/chara3_1.jpg
-tout-puissant.jpg <- File:KamiGarlicJuniorSagaNV.png
-trunks.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/5/imgChara.png
+tortue-geniale.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/228/570432.jpg
+tout-puissant.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/228/570411.jpg
+trunks.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/566/1416984.jpg
 uub.jpg <- File:Cvanon.jpg
-vados.jpg <- File:VadosWikia_(1).jpg
-vegeta.jpg <- https://www.toei-anim.co.jp/tv/dragon_kai/character/img/4/imgChara.png
+vados.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/66/165900.jpg
+vegeta.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/597/1492784.jpg
 vegeto.jpg <- File:Vegito_transforming_into_a_Super_Saiyan.png
-vermoud.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2023/03/chara97_1.jpg
-videl.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2022/07/chara65_1.jpg
-whis.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2023/02/chara91_1.jpg
+vermoud.jpg <- File:Belmod.png
+videl.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/597/1492792.jpg
+whis.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/66/166439.jpg
 yajirobe.jpg <- File:YajirobeEp17.png
-yamcha.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2025/10/chara231_1.jpg
-zamasu.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2023/05/chara106_1.jpg
-zarbon.jpg <- File:Zarbon_DBZ_Ep_56_002.png
-zeno.jpg <- https://en.dragon-ball-official.com/dragonball/jp/news/2022/08/chara70_1.jpg
+yamcha.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/597/1492769.jpg
+zamasu.jpg <- File:Zamasu_DBS_Ep_53_006.png
+zarbon.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/597/1492815.jpg
+zeno.jpg <- https://static.tvmaze.com/uploads/images/original_untouched/66/166529.jpg
